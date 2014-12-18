@@ -5,6 +5,7 @@ $LOAD_PATH.unshift(File.dirname(__FILE__))
 
 require 'device_detector/version'
 require 'device_detector/version_extractor'
+require 'device_detector/memory_cache'
 require 'device_detector/parser'
 require 'device_detector/bot'
 require 'device_detector/client'
@@ -44,6 +45,33 @@ class DeviceDetector
 
   def bot_name
     bot.name
+  end
+
+  class << self
+
+    class Configuration
+      attr_accessor :max_cache_keys
+
+      def to_hash
+        {
+          max_cache_keys: max_cache_keys
+        }
+      end
+    end
+
+    def config
+      @config ||= Configuration.new
+    end
+
+    def cache
+      @cache ||= MemoryCache.new(config.to_hash)
+    end
+
+    def configure(&block)
+      @config = Configuration.new
+      yield(config)
+    end
+
   end
 
   private

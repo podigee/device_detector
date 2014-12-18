@@ -1,6 +1,8 @@
 class DeviceDetector
   class Parser < Struct.new(:user_agent)
 
+    ROOT = Pathname.new(File.expand_path('../../..', __FILE__))
+
     def name
       regex_meta['name']
     end
@@ -16,7 +18,9 @@ class DeviceDetector
     end
 
     def matching_regex
-      regexes.find { |r| user_agent =~ Regexp.new(r['regex']) }
+      DeviceDetector.cache.get_or_set([self.class.name, user_agent]) do
+        regexes.find { |r| user_agent =~ Regexp.new(r['regex']) }
+      end
     end
 
     def regexes
@@ -29,12 +33,8 @@ class DeviceDetector
 
     def filepaths
       filenames.map do |filename|
-        File.join(root, 'regexes', filename)
+        File.join(ROOT, 'regexes', filename)
       end
-    end
-
-    def root
-      Pathname.new(File.expand_path('../../..', __FILE__))
     end
 
     # This is a performance optimization.
