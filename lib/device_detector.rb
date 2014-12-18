@@ -4,6 +4,7 @@ $LOAD_PATH.unshift(File.join(File.dirname(__FILE__), '..', 'lib'))
 $LOAD_PATH.unshift(File.dirname(__FILE__))
 
 require 'device_detector/version'
+require 'device_detector/version_extractor'
 require 'device_detector/os'
 require 'device_detector/client'
 require 'device_detector/os_detector'
