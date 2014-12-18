@@ -28,57 +28,6 @@ RSpec.describe DeviceDetector::Client do
       expect(client.full_version).to eq('30.0.1599.69')
     end
 
-    context 'client without version' do
-
-      let(:user_agent) { 'Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; Avant Browser; SLCC2; .NET CLR 2.0.50727; .NET CLR 3.5.30729; .NET CLR 3.0.30729; Media Center PC 6.0)' }
-
-      let(:regex_meta) do
-        {
-          'regex' => 'Avant Browser',
-          'name' => 'Avant Browser',
-          'version' => ''
-        }
-      end
-
-      it 'returns nil' do
-        expect(client.full_version).to eq('')
-      end
-
-    end
-
-    context 'regex with version $1 ($2)' do
-
-      let(:user_agent) { 'Mozilla/5.0 (X11; U; Linux i686; nl; rv:1.8.1b2) Gecko/20060821 BonEcho/2.0b2 (Debian-1.99+2.0b2+dfsg-1)' }
-      let(:regex_meta) do
-        {
-          'regex' => '(BonEcho|GranParadiso|Lorentz|Minefield|Namoroka|Shiretoko)/(\d+[\.\d]+)',
-          'name' => 'Firefox',
-          'version' => '$1 ($2)'
-        }
-      end
-
-      it 'returns the correct version' do
-        expect(client.full_version).to eq('BonEcho (2.0)')
-      end
-
-    end
-
-    context 'client with predefined version' do
-
-      let(:user_agent) { 'Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.0; Trident/4.0)' }
-      let(:regex_meta) do
-        {
-          'regex' => 'MSIE.*Trident/4.0',
-          'version' => '8.0'
-        }
-      end
-
-      it 'returns the correct version' do
-        expect(client.full_version).to eq('8.0')
-      end
-
-    end
-
   end
 end
 
