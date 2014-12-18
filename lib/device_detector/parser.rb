@@ -19,7 +19,7 @@ class DeviceDetector
 
     def matching_regex
       DeviceDetector.cache.get_or_set([self.class.name, user_agent]) do
-        regexes.find { |r| user_agent =~ Regexp.new(r['regex']) }
+        regexes.find { |r| user_agent =~ r['regex'] }
       end
     end
 
@@ -41,7 +41,14 @@ class DeviceDetector
     # We cache the regexes on the class for better performance
     # Thread-safety shouldn't be an issue, as we do only perform reads
     def self.regexes_for(filepaths)
-      @regexes ||= YAML.load(filepaths.map { |filepath| File.read(filepath) }.join)
+      @regexes ||=
+        begin
+          regexes = YAML.load(filepaths.map { |filepath| File.read(filepath) }.join)
+          regexes.map do |meta|
+            meta['regex'] = Regexp.new(meta['regex'])
+            meta
+          end
+        end
     end
 
   end
