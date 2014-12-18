@@ -12,7 +12,7 @@ console, etc.), brand and model.
 This port does not aspire to be a one-to-one copy from the original code, but
 rather an adaptation for the Ruby language.
 
-Still, our goal is to use the original, unchanged yaml files, in order to
+Still, our goal is to use the original, unchanged regex yaml files, in order to
 mutually benefit from updates and pull request to both the original and the
 ported versions.
 
