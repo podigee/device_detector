@@ -22,9 +22,7 @@ class DeviceDetector
 
     def extract_version
       @user_agent.match(regex) do |match_data|
-        if match_data[1] # if there is a match
-          replace_version_string_with(match_data)
-        end
+        replace_version_string_with(match_data)
       end
     end
 

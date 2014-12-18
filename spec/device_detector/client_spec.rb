@@ -10,10 +10,7 @@ RSpec.describe DeviceDetector::Client do
     {
       'regex' => 'Chrome(?:/(\d+[\.\d]+))?',
       'name' => 'Chrome',
-      'version' => '$1',
-      'engine' => {
-        'default' => 'WebKit'
-      }
+      'version' => '$1'
     }
   end
 
@@ -39,15 +36,12 @@ RSpec.describe DeviceDetector::Client do
         {
           'regex' => 'Avant Browser',
           'name' => 'Avant Browser',
-          'version' => '',
-          'engine' => {
-            'default' => '' # multiple
-          }
+          'version' => ''
         }
       end
 
       it 'returns nil' do
-        expect(client.full_version).to be_nil
+        expect(client.full_version).to eq('')
       end
 
     end
@@ -59,15 +53,28 @@ RSpec.describe DeviceDetector::Client do
         {
           'regex' => '(BonEcho|GranParadiso|Lorentz|Minefield|Namoroka|Shiretoko)/(\d+[\.\d]+)',
           'name' => 'Firefox',
-          'version' => '$1 ($2)',
-          'engine' => {
-            'default' => 'Gecko'
-          }
+          'version' => '$1 ($2)'
         }
       end
 
       it 'returns the correct version' do
         expect(client.full_version).to eq('BonEcho (2.0)')
+      end
+
+    end
+
+    context 'client with predefined version' do
+
+      let(:user_agent) { 'Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.0; Trident/4.0)' }
+      let(:regex_meta) do
+        {
+          'regex' => 'MSIE.*Trident/4.0',
+          'version' => '8.0'
+        }
+      end
+
+      it 'returns the correct version' do
+        expect(client.full_version).to eq('8.0')
       end
 
     end
