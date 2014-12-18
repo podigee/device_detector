@@ -11,7 +11,7 @@ Gem::Specification.new do |spec|
   spec.summary       = %q{Universal Device Detection}
   spec.description   = %q{The Universal Device Detection library will parse any User Agent and detect the browser, operating system, device, brand and model.}
   spec.homepage      = 'https://github.com/podigee/device_detector'
-  spec.license       = 'MIT'
+  spec.license       = 'LGPLv3'
 
   spec.files         = `git ls-files -z`.split("\x0")
   spec.executables   = []
