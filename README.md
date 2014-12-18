@@ -48,6 +48,19 @@ client.os_full_version # => '10_8_5'
 
 `DeviceDetector` will return `nil` on all attributes, if the `user_agent` is unknown.
 
+### Memory cache
+
+`DeviceDetector` will cache up 5,000 user agent strings to boost parsing performance.
+You can tune the amount of keys that will get saved in the cache:
+
+```ruby
+
+# You have to call this code **before** you initialize the Detector
+DeviceDetector.configure do |config|
+  config.max_cache_keys = 20_000 # if you have enough RAM, proceed with care
+end
+```
+
 ## Contributing
 
 1. Fork it ( https://github.com/[my-github-username]/device_detector/fork )
