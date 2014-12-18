@@ -57,6 +57,16 @@ RSpec.describe DeviceDetector::VersionExtractor do
 
     end
 
+    context 'unknown user agent' do
+
+      let(:user_agent) { 'garbage' }
+      let(:regex_meta) { {} }
+
+      it 'returns nil' do
+        expect(extractor.call).to be_nil
+      end
+
+    end
   end
 end
 

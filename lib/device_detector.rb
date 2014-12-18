@@ -5,10 +5,9 @@ $LOAD_PATH.unshift(File.dirname(__FILE__))
 
 require 'device_detector/version'
 require 'device_detector/version_extractor'
-require 'device_detector/os'
+require 'device_detector/parser'
 require 'device_detector/client'
-require 'device_detector/os_detector'
-require 'device_detector/client_detector'
+require 'device_detector/os'
 
 class DeviceDetector
 
@@ -20,12 +19,34 @@ class DeviceDetector
     @user_agent = user_agent
   end
 
-  def os
-    @os ||= OSDetector.new(user_agent).call
+  def name
+    client.name
   end
 
+  def full_version
+    client.full_version
+  end
+
+  def os_name
+    os.name
+  end
+
+  def os_full_version
+    os.full_version
+  end
+
+  def known?
+    client.known?
+  end
+
+  private
+
   def client
-    @client ||= ClientDetector.new(user_agent).call
+    @client ||= Client.new(user_agent)
+  end
+
+  def os
+    @os ||= OS.new(user_agent)
   end
 
 end

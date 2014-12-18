@@ -24,16 +24,17 @@ Or install it yourself as:
 
 ```ruby
 user_agent = 'foo'
-detector = DeviceDetector.new(user_agent)
+client = DeviceDetector.new(user_agent)
 
-os = detector.os # extract the operating system details
-os.name # => Mac
-os.full_version # => '10_8_5'
-
-client = detector.client # extract the client (browser, device, feed reader) details
 client.name # => Chrome
 client.full_version # => '30.0.1599.69'
+client.known? # => true, will return false if user_agent is unknown
+
+client.os_name # => Mac
+client.os_full_version # => '10_8_5'
 ```
+
+`DeviceDetector` will return `nil` on all attributes, if the `user_agent` is unknown.
 
 ## Contributing
 

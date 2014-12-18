@@ -1,18 +1,21 @@
 class DeviceDetector
-  class Client
+  class Client < Parser
 
-    def initialize(user_agent, regex_meta)
-      @user_agent = user_agent
-      @regex_meta = regex_meta
+    def known?
+      regex_meta.any?
     end
 
-    def name
-      @regex_meta['name']
-    end
+    private
 
-    def full_version
-      VersionExtractor.new(@user_agent, @regex_meta).call
+    def filenames
+      [
+        'browsers.yml',
+        'feed_readers.yml',
+        'libraries.yml',
+        'mediaplayers.yml',
+        'mobile_apps.yml',
+        'pim.yml'
+      ]
     end
-
   end
 end

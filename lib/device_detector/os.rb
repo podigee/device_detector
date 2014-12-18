@@ -1,17 +1,10 @@
 class DeviceDetector
-  class OS
+  class OS < Parser
 
-    def initialize(user_agent, regex_meta)
-      @user_agent = user_agent
-      @regex_meta = regex_meta
-    end
+    private
 
-    def name
-      @regex_meta['name']
-    end
-
-    def full_version
-      VersionExtractor.new(@user_agent, @regex_meta).call
+    def filenames
+      ['oss.yml']
     end
 
   end

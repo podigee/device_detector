@@ -2,7 +2,7 @@ class DeviceDetector
   class VersionExtractor < Struct.new(:user_agent, :regex_meta)
 
     def call
-      extract_version
+      regex_meta.any? ? extract_version : nil
     end
 
     private
