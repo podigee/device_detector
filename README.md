@@ -1,8 +1,20 @@
 # DeviceDetector
 
-This is a Ruby port of the Universal Device Detection library. You can find the original code here: [https://github.com/piwik/device-detector].
+This is a Ruby port of the Universal Device Detection library.
+You can find the original code here: [https://github.com/piwik/device-detector].
 
-The Universal Device Detection library will parse any User Agent and detect the browser, operating system, device used (desktop, tablet, mobile, tv, cars, console, etc.), brand and model.
+The Universal Device Detection library will parse any User Agent and detect
+the browser, operating system, device used (desktop, tablet, mobile, tv, cars,
+console, etc.), brand and model.
+
+## Disclaimer
+
+This port does not aspire to be a one-to-one copy from the original code, but
+rather an adaptation for the Ruby language.
+
+Still, our goal is to use the original, unchanged yaml files, in order to
+mutually benefit from updates and pull request to both the original and the
+ported versions.
 
 ## Installation
 
