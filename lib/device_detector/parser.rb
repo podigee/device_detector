@@ -20,7 +20,7 @@ class DeviceDetector
     end
 
     def regexes
-      YAML.load(filepaths.map { |filepath| File.read(filepath) }.join)
+      self.class.regexes_for(filepaths)
     end
 
     def filenames
@@ -35,6 +35,13 @@ class DeviceDetector
 
     def root
       Pathname.new(File.expand_path('../../..', __FILE__))
+    end
+
+    # This is a performance optimization.
+    # We cache the regexes on the class for better performance
+    # Thread-safety shouldn't be an issue, as we do only perform reads
+    def self.regexes_for(filepaths)
+      @regexes ||= YAML.load(filepaths.map { |filepath| File.read(filepath) }.join)
     end
 
   end
