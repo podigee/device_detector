@@ -11,8 +11,6 @@ require 'device_detector/os'
 
 class DeviceDetector
 
-  ROOT = Pathname.new(File.expand_path('../..', __FILE__))
-
   attr_reader :user_agent
 
   def initialize(user_agent)

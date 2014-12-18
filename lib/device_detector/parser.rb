@@ -29,10 +29,13 @@ class DeviceDetector
 
     def filepaths
       filenames.map do |filename|
-        File.join(DeviceDetector::ROOT, 'regexes', filename)
+        File.join(root, 'regexes', filename)
       end
     end
 
+    def root
+      Pathname.new(File.expand_path('../../..', __FILE__))
+    end
 
   end
 end
