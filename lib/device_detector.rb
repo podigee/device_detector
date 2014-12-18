@@ -21,11 +21,11 @@ class DeviceDetector
   end
 
   def os
-    OSDetector.new(user_agent).call
+    @os ||= OSDetector.new(user_agent).call
   end
 
   def client
-    ClientDetector.new(user_agent).call
+    @client ||= ClientDetector.new(user_agent).call
   end
 
 end
