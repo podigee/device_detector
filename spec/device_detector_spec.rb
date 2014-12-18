@@ -48,6 +48,22 @@ RSpec.describe DeviceDetector do
 
     end
 
+    describe '#bot?' do
+
+      it 'returns false' do
+        expect(client.bot?).to eq(false)
+      end
+
+    end
+
+    describe '#bot_name' do
+
+      it 'returns nil' do
+        expect(client.bot_name).to be_nil
+      end
+
+    end
+
   end
 
   context 'unknown user agent' do
@@ -90,6 +106,84 @@ RSpec.describe DeviceDetector do
 
       it 'returns false' do
         expect(client.known?).to eq(false)
+      end
+
+    end
+
+    describe '#bot?' do
+
+      it 'returns false' do
+        expect(client.bot?).to eq(false)
+      end
+
+    end
+
+    describe '#bot_name' do
+
+      it 'returns nil' do
+        expect(client.bot_name).to be_nil
+      end
+
+    end
+
+  end
+
+  context 'bot' do
+
+    let(:user_agent) { 'Mozilla/5.0 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)' }
+
+    describe '#name' do
+
+      it 'returns nil' do
+        expect(client.name).to be_nil
+      end
+
+    end
+
+    describe '#full_version' do
+
+      it 'returns nil' do
+        expect(client.full_version).to be_nil
+      end
+
+    end
+
+    describe '#os_name' do
+
+      it 'returns nil' do
+        expect(client.os_name).to be_nil
+      end
+
+    end
+
+    describe '#os_full_version' do
+
+      it 'returns nil' do
+        expect(client.os_full_version).to be_nil
+      end
+
+    end
+
+    describe '#known?' do
+
+      it 'returns false' do
+        expect(client.known?).to eq(false)
+      end
+
+    end
+
+    describe '#bot?' do
+
+      it 'returns true' do
+        expect(client.bot?).to eq(true)
+      end
+
+    end
+
+    describe '#bot_name' do
+
+      it 'returns the name of the bot' do
+        expect(client.bot_name).to eq('Googlebot')
       end
 
     end

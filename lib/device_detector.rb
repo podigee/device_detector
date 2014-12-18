@@ -6,6 +6,7 @@ $LOAD_PATH.unshift(File.dirname(__FILE__))
 require 'device_detector/version'
 require 'device_detector/version_extractor'
 require 'device_detector/parser'
+require 'device_detector/bot'
 require 'device_detector/client'
 require 'device_detector/os'
 
@@ -37,7 +38,19 @@ class DeviceDetector
     client.known?
   end
 
+  def bot?
+    bot.bot?
+  end
+
+  def bot_name
+    bot.name
+  end
+
   private
+
+  def bot
+    @bot ||= Bot.new(user_agent)
+  end
 
   def client
     @client ||= Client.new(user_agent)
