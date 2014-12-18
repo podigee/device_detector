@@ -8,7 +8,7 @@ class DeviceDetector
     end
 
     def call
-      DeviceDetector::Client.new(matching_regex)
+      DeviceDetector::Client.new(user_agent, matching_regex)
     end
 
     private
