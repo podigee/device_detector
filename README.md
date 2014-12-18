@@ -1,6 +1,8 @@
 # DeviceDetector
 
-TODO: Write a gem description
+This is a Ruby port of the Universal Device Detection library. You can find the original code here: [https://github.com/piwik/device-detector].
+
+The Universal Device Detection library will parse any User Agent and detect the browser, operating system, device used (desktop, tablet, mobile, tv, cars, console, etc.), brand and model.
 
 ## Installation
 
@@ -20,7 +22,18 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here
+```ruby
+user_agent = 'foo'
+detector = DeviceDetector.new(user_agent)
+
+os = detector.os # extract the operating system details
+os.name # => Mac
+os.full_version # => '10_8_5'
+
+client = detector.client # extract the client (browser, device, feed reader) details
+client.name # => Chrome
+client.full_version # => '30.0.1599.69'
+```
 
 ## Contributing
 
