@@ -1,7 +1,7 @@
 class DeviceDetector
   class Parser < Struct.new(:user_agent)
 
-    ROOT = Pathname.new(File.expand_path('../../..', __FILE__))
+    ROOT = File.expand_path('../../..', __FILE__)
 
     def name
       regex_meta['name']
