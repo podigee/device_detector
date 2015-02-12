@@ -38,12 +38,17 @@ Or install it yourself as:
 user_agent = 'foo'
 client = DeviceDetector.new(user_agent)
 
-client.name # => Chrome
+client.name # => 'Chrome'
 client.full_version # => '30.0.1599.69'
 client.known? # => true, will return false if user_agent is unknown
 
-client.os_name # => Mac
+client.os_name # => 'Mac'
 client.os_full_version # => '10_8_5'
+
+# For many devices, you can also query the device name (usually the model name)
+# Look into regexes/devices/mobiles.yml to see what devices can be detected
+client.device_name # => 'iPhone 5'
+client.device_type # => 'smartphone'
 ```
 
 `DeviceDetector` will return `nil` on all attributes, if the `user_agent` is unknown.
@@ -54,7 +59,6 @@ client.os_full_version # => '10_8_5'
 You can tune the amount of keys that will get saved in the cache:
 
 ```ruby
-
 # You have to call this code **before** you initialize the Detector
 DeviceDetector.configure do |config|
   config.max_cache_keys = 20_000 # if you have enough RAM, proceed with care

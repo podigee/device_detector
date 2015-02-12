@@ -9,6 +9,7 @@ require 'device_detector/memory_cache'
 require 'device_detector/parser'
 require 'device_detector/bot'
 require 'device_detector/client'
+require 'device_detector/device'
 require 'device_detector/os'
 
 class DeviceDetector
@@ -33,6 +34,14 @@ class DeviceDetector
 
   def os_full_version
     os.full_version
+  end
+
+  def device_name
+    device.name
+  end
+
+  def device_type
+    device.device_type
   end
 
   def known?
@@ -82,6 +91,10 @@ class DeviceDetector
 
   def client
     @client ||= Client.new(user_agent)
+  end
+
+  def device
+    @device ||= Device.new(user_agent)
   end
 
   def os
