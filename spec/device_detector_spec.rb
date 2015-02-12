@@ -6,60 +6,86 @@ RSpec.describe DeviceDetector do
 
   context 'known user agent' do
 
-    let(:user_agent) { 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_8_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/30.0.1599.69' }
+    context 'desktop chrome browser' do
 
-    describe '#name' do
+      let(:user_agent) { 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_8_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/30.0.1599.69' }
 
-      it 'returns the name' do
-        expect(client.name).to eq('Chrome')
+      describe '#name' do
+
+        it 'returns the name' do
+          expect(client.name).to eq('Chrome')
+        end
+
+      end
+
+      describe '#full_version' do
+
+        it 'returns the full version' do
+          expect(client.full_version).to eq('30.0.1599.69')
+        end
+
+      end
+
+      describe '#os_name' do
+
+        it 'returns the operating system name' do
+          expect(client.os_name).to eq('Mac')
+        end
+
+      end
+
+      describe '#os_full_version' do
+
+        it 'returns the operating system full version' do
+          expect(client.os_full_version).to eq('10_8_5')
+        end
+
+      end
+
+      describe '#known?' do
+
+        it 'returns true' do
+          expect(client.known?).to eq(true)
+        end
+
+      end
+
+      describe '#bot?' do
+
+        it 'returns false' do
+          expect(client.bot?).to eq(false)
+        end
+
+      end
+
+      describe '#bot_name' do
+
+        it 'returns nil' do
+          expect(client.bot_name).to be_nil
+        end
+
       end
 
     end
 
-    describe '#full_version' do
+    context 'mobile iPhone 5S' do
 
-      it 'returns the full version' do
-        expect(client.full_version).to eq('30.0.1599.69')
+      let(:user_agent) { 'Mozilla/5.0 (iPhone; CPU iPhone OS 8_1_2 like Mac OS X) AppleWebKit/600.1.4 (KHTML, like Gecko) Mobile/12B440 [FBDV/iPhone6,1]' }
+
+      describe '#device_name' do
+
+        it 'returns device name' do
+          expect(client.device_name).to eq('iPhone 5S')
+        end
+
       end
 
-    end
+      describe '#device_type' do
 
-    describe '#os_name' do
+        it 'returns the device type' do
+          expect(client.device_type).to eq('smartphone')
+        end
 
-      it 'returns the operating system name' do
-        expect(client.os_name).to eq('Mac')
-      end
-
-    end
-
-    describe '#os_full_version' do
-
-      it 'returns the operating system full version' do
-        expect(client.os_full_version).to eq('10_8_5')
-      end
-
-    end
-
-    describe '#known?' do
-
-      it 'returns true' do
-        expect(client.known?).to eq(true)
-      end
-
-    end
-
-    describe '#bot?' do
-
-      it 'returns false' do
-        expect(client.bot?).to eq(false)
-      end
-
-    end
-
-    describe '#bot_name' do
-
-      it 'returns nil' do
-        expect(client.bot_name).to be_nil
       end
 
     end

@@ -21,10 +21,14 @@ class DeviceDetector
       string = version_string
 
       1.upto(9) do |index|
-        string = string.gsub(/\$#{index}/, match_data[index]) if match_data[index]
+        if match_data[index]
+          string = string.gsub(/\$#{index}/, match_data[index])
+        else
+          string = string.gsub(/\$#{index}/, '')
+        end
       end
 
-      string
+      string.strip
     end
 
     def regex

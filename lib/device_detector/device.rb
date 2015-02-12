@@ -6,7 +6,7 @@ class DeviceDetector
     end
 
     def name
-      regex_meta['model']
+      ModelExtractor.new(user_agent, regex_meta).call
     end
 
     def device_type

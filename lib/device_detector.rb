@@ -5,6 +5,7 @@ $LOAD_PATH.unshift(File.dirname(__FILE__))
 
 require 'device_detector/version'
 require 'device_detector/version_extractor'
+require 'device_detector/model_extractor'
 require 'device_detector/memory_cache'
 require 'device_detector/parser'
 require 'device_detector/bot'
