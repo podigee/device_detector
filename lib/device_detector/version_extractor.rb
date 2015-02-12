@@ -18,7 +18,7 @@ class DeviceDetector
     end
 
     def replace_version_string_with(match_data)
-      string = version_string
+      string = version_string.to_s
 
       1.upto(9) do |index|
         if match_data[index]
