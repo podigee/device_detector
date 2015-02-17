@@ -20,7 +20,7 @@ describe DeviceDetector::ModelExtractor do
         let(:user_agent) { 'Mozilla/5.0 (iPhone; CPU iPhone OS 8_1_3 like Mac OS X) AppleWebKit/600.1.4 (KHTML, like Gecko) Version/8.0 Mobile/12B466 Safari/600.1.4' }
         let(:device_name) { 'iPhone' }
 
-        it 'should return the textual portion without trailing whitespace' do
+        it 'returns the textual portion without trailing whitespace' do
           expect(extractor.call).to eq(device_name)
         end
 
@@ -30,7 +30,7 @@ describe DeviceDetector::ModelExtractor do
         let(:user_agent) { 'Mozilla/5.0 (iPhone 5S; CPU iPhone OS 8_1_3 like Mac OS X) AppleWebKit/600.1.4 (KHTML, like Gecko) Version/8.0 Mobile/12B466 Safari/600.1.4' }
         let(:device_name) { 'iPhone 5S' }
 
-        it 'should return the full device name' do
+        it 'returns the full device name' do
           expect(extractor.call).to eq(device_name)
         end
 
@@ -50,7 +50,7 @@ describe DeviceDetector::ModelExtractor do
         }
       end
 
-      it 'should return the model name' do
+      it 'returns the model name' do
         expect(extractor.call).to eq(device_name)
       end
     
