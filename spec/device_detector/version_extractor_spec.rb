@@ -40,8 +40,8 @@ RSpec.describe DeviceDetector::VersionExtractor do
         expect(extractor.call).to eq(version)
       end
 
-      it 'should remove trailing white spaces' do
-        regex_meta['version'] = regex_meta['version'] + '   ' # 3 trailing spaces
+      it 'removes trailing white spaces' do
+        regex_meta['version'] = regex_meta['version'] + '   '
         expect(extractor.call).to eq(version)
       end
 

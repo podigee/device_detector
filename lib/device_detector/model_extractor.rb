@@ -3,7 +3,7 @@ class DeviceDetector
 
     private
 
-    def version_string
+    def metadata_string
       regex_meta['model']
     end
 

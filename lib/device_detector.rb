@@ -4,6 +4,7 @@ $LOAD_PATH.unshift(File.join(File.dirname(__FILE__), '..', 'lib'))
 $LOAD_PATH.unshift(File.dirname(__FILE__))
 
 require 'device_detector/version'
+require 'device_detector/metadata_extractor'
 require 'device_detector/version_extractor'
 require 'device_detector/model_extractor'
 require 'device_detector/memory_cache'
@@ -42,7 +43,7 @@ class DeviceDetector
   end
 
   def device_type
-    device.device_type
+    device.type
   end
 
   def known?
