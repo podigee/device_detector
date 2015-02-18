@@ -4,7 +4,7 @@ class DeviceDetector
     private
 
     def metadata_string
-      regex_meta['model']
+      String(regex_meta['model'])
     end
 
   end

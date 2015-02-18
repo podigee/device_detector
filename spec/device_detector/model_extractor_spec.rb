@@ -53,7 +53,7 @@ describe DeviceDetector::ModelExtractor do
       it 'returns the model name' do
         expect(extractor.call).to eq(device_name)
       end
-    
+
     end
 
   end

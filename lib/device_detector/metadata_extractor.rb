@@ -2,22 +2,23 @@ class DeviceDetector
   class MetadataExtractor < Struct.new(:user_agent, :regex_meta)
 
     def call
-      regex_meta.any? ? extract_version : nil
+      regex_meta.any? ? extract_metadata : nil
     end
 
     private
 
     def metadata_string
-      fail "#{self.name} (a child of MetadataExtractor) must implement the '#{__method__}' method."
+      message = "#{self.name} (a child of MetadataExtractor) must implement the '#{__method__}' method."
+      fail NotImplementedError, message
     end
 
-    def extract_version
+    def extract_metadata
       user_agent.match(regex) do |match_data|
-        replace_version_string_with(match_data)
+        replace_metadata_string_with(match_data)
       end
     end
 
-    def replace_version_string_with(match_data)
+    def replace_metadata_string_with(match_data)
       string = metadata_string
 
       1.upto(9) do |index|
