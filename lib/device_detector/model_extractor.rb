@@ -1,5 +1,5 @@
 class DeviceDetector
-  class ModelExtractor < VersionExtractor
+  class ModelExtractor < MetadataExtractor
 
     private
 
