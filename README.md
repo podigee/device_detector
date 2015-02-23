@@ -40,7 +40,6 @@ client = DeviceDetector.new(user_agent)
 
 client.name # => 'Chrome'
 client.full_version # => '30.0.1599.69'
-client.known? # => true, will return false if user_agent is unknown
 
 client.os_name # => 'Mac'
 client.os_full_version # => '10_8_5'
@@ -52,6 +51,11 @@ client.device_type # => 'smartphone'
 ```
 
 `DeviceDetector` will return `nil` on all attributes, if the `user_agent` is unknown.
+You can make a check to ensure the client has been detected:
+
+```ruby
+client.known? # => will return false if user_agent is unknown
+```
 
 ### Memory cache
 
