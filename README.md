@@ -65,9 +65,20 @@ DeviceDetector.configure do |config|
 end
 ```
 
+## Maintainers
+
+- Mati Sojka: https://github.com/yagooar
+- Ben Zimmer: https://github.com/benzimmer
+
+## Contributors
+
+Thanks a lot to the following contributors:
+
+- Peter Gao: https://github.com/peteygao
+
 ## Contributing
 
-1. Fork it ( https://github.com/[my-github-username]/device_detector/fork )
+1. Fork it ( https://github.com/podigee/device_detector/fork )
 2. Create your feature branch (`git checkout -b my-new-feature`)
 3. Commit your changes (`git commit -am 'Add some feature'`)
 4. Push to the branch (`git push origin my-new-feature`)
