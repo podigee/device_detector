@@ -27,6 +27,7 @@ RSpec.describe DeviceDetector::VersionExtractor do
     context 'regex with dynamic matching' do
 
       let(:user_agent) { 'Mozilla/5.0 (X11; U; Linux i686; nl; rv:1.8.1b2) Gecko/20060821 BonEcho/2.0b2 (Debian-1.99+2.0b2+dfsg-1)' }
+      let(:version) { 'BonEcho (2.0)' }
       let(:regex_meta) do
         {
           'regex' => '(BonEcho|GranParadiso|Lorentz|Minefield|Namoroka|Shiretoko)/(\d+[\.\d]+)',
@@ -36,7 +37,12 @@ RSpec.describe DeviceDetector::VersionExtractor do
       end
 
       it 'returns the correct version' do
-        expect(extractor.call).to eq('BonEcho (2.0)')
+        expect(extractor.call).to eq(version)
+      end
+
+      it 'removes trailing white spaces' do
+        regex_meta['version'] = regex_meta['version'] + '   '
+        expect(extractor.call).to eq(version)
       end
 
     end

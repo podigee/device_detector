@@ -43,12 +43,17 @@ class DeviceDetector
     def self.regexes_for(filepaths)
       @regexes ||=
         begin
-          regexes = YAML.load(filepaths.map { |filepath| File.read(filepath) }.join)
-          regexes.map do |meta|
-            meta['regex'] = Regexp.new(meta['regex'])
-            meta
-          end
+          raw_files = filepaths.map { |filepath| File.read(filepath) }.join
+          regexes = YAML.load(raw_files)
+          parse_regexes(regexes)
         end
+    end
+
+    def self.parse_regexes(regexes)
+      regexes.map do |meta|
+        meta['regex'] = Regexp.new(meta['regex'])
+        meta
+      end
     end
 
   end
