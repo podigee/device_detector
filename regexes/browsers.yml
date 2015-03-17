@@ -55,6 +55,15 @@
   engine:
     default: '' # multiple
 
+#Amigo
+- regex: 'Chrome/(\d+[\.\d]+).*MRCHROME'
+  name: 'Amigo'
+  version: '$1'
+  engine:
+    default: 'WebKit'
+    versions:
+      28: 'Blink'
+
 #Bunjalloo
 - regex: 'Bunjalloo(?:/(\d+[\.\d]+))?'
   name: 'Bunjalloo'
@@ -258,6 +267,13 @@
   engine:
     default: 'Blink'
 
+#Vivaldi
+- regex: 'Vivaldi(?:/(\d+[\.\d]+))?'
+  name: 'Vivaldi'
+  version: '$1'
+  engine:
+    default: 'Blink'
+
 #Midori
 - regex: 'Midori(?:/(\d+[\.\d]+))?'
   name: 'Midori'
@@ -317,6 +333,11 @@
 # Sogou Explorer
 - regex: 'SE (\d+[\.\d]+)'
   name: 'Sogou Explorer'
+  version: '$1'
+
+# QQ Browser
+- regex: 'QQBrowser/([\.\d]+)'
+  name: 'QQ Browser'
   version: '$1'
 
 #Chrome
@@ -685,6 +706,11 @@
   name: 'Obigo'
   version: ''
 
+#Off By One
+- regex: 'OffByOne'
+  name: 'Off By One'
+  version: ''
+
 #Oregano
 - regex: 'Oregano(?:[ /](\d+[\.\d]+))?'
   name: 'Oregano'
@@ -719,6 +745,11 @@
   name: 'Sunrise'
   version: '$1'
 
+# WeTab Browser
+- regex: 'WeTab-Browser'
+  name: 'WeTab Browser'
+  version: ''
+
 #Xiino
 - regex: 'Xiino(?:/(\d+[\.\d]+))?'
   name: 'Xiino'
@@ -752,3 +783,4 @@
   version: '$1'
   engine:
     default: 'WebKit'
+

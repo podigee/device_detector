@@ -40,7 +40,7 @@ client = DeviceDetector.new(user_agent)
 client.name # => 'Chrome'
 client.full_version # => '30.0.1599.69'
 
-client.os_name # => 'Windows 8'
+client.os_name # => 'Windows'
 client.os_full_version # => '8'
 
 # For many devices, you can also query the device name (usually the model name)
