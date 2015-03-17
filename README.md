@@ -65,7 +65,7 @@ You can tune the amount of keys that will get saved in the cache:
 ```ruby
 # You have to call this code **before** you initialize the Detector
 DeviceDetector.configure do |config|
-  config.max_cache_keys = 20_000 # if you have enough RAM, proceed with care
+  config.max_cache_keys = 20_000 # increment this if you have enough RAM, proceed with care
 end
 ```
 
