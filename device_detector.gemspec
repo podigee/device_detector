@@ -8,8 +8,8 @@ Gem::Specification.new do |spec|
   spec.version       = DeviceDetector::VERSION
   spec.authors       = ['Mati Sójka', 'Ben Zimmer']
   spec.email         = ['yagooar@gmail.com']
-  spec.summary       = %q{Universal Device Detection}
-  spec.description   = %q{The Universal Device Detection library will parse any User Agent and detect the browser, operating system, device, brand and model.}
+  spec.summary       = %q{Precise and fast user agent parser and device detector}
+  spec.description   = %q{Pricese and fast user agent parser and device detector, backed by the largest and most up-to-date agent and device database}
   spec.homepage      = 'https://github.com/podigee/device_detector'
   spec.license       = 'LGPLv3'
 
