@@ -19,7 +19,11 @@ task :detectable_names do
   device_regexes = DeviceDetector::Device.load_regexes(device_filepaths)
   device_names = device_regexes.flat_map { |dn| dn.keys }.sort
 
+  today = Date.today.strftime
+
   puts '## Detectable clients, bots and devices'
+  puts
+  puts "Updated on #{today}"
   puts
   puts '### Bots'
   puts
