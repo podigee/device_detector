@@ -9,7 +9,7 @@ DeviceDetector will parse any user agent and detect the browser, operating syste
 The DeviceDetector is optimized for speed of detection, by providing optimized code and in-memory caching.
 
 This project originated as a Ruby port of the Universal Device Detection library.
-You can find the original code here: [https://github.com/piwik/device-detector].
+You can find the original code here: https://github.com/piwik/device-detector.
 
 ## Disclaimer
 
@@ -84,9 +84,9 @@ Thanks a lot to the following contributors:
 ## Contributing
 
 1. Open an issue and explain your feature request or bug before writing any code (this can save a lot of time, both the contributor and the maintainers!)
-2. Fork the project ( https://github.com/podigee/device_detector/fork )
+2. Fork the project (https://github.com/podigee/device_detector/fork)
 3. Create your feature branch (`git checkout -b my-new-feature`)
 4. Commit your changes (`git commit -am 'Add some feature'`)
 5. Push to the branch (`git push origin my-new-feature`)
 6. Create a new Pull Request (compare with develop)
-7. When adding new data to the yaml files, please make sure to open a PR in the original project, as well ([https://github.com/piwik/device-detector])
+7. When adding new data to the yaml files, please make sure to open a PR in the original project, as well (https://github.com/piwik/device-detector)
