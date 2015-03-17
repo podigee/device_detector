@@ -71,4 +71,28 @@ describe DeviceDetector::Device do
 
   end
 
+  context 'concrete device types' do
+
+    describe 'mobiles' do
+
+      let(:user_agent) { 'Mozilla/5.0 (Linux; Android 4.4.2; es-us; SAMSUNG SM-G900F Build/KOT49H) AppleWebKit/537.36 (KHTML, like Gecko)' }
+
+      it 'identifies the device' do
+        expect(device.name).to eq('GALAXY S5')
+      end
+
+    end
+
+    describe 'cameras' do
+
+      let(:user_agent) { 'Mozilla/5.0 (Linux; U; Android 4.0; xx-xx; EK-GC100 Build/IMM76D) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30' }
+
+      it 'identifies the device' do
+        expect(device.name).to eq('GALAXY Camera')
+      end
+
+    end
+
+  end
+
 end

@@ -17,6 +17,7 @@ class DeviceDetector
 
     def filenames
       [
+        'devices/cameras.yml',
         'devices/mobiles.yml'
       ]
     end

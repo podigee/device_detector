@@ -37,23 +37,34 @@ class DeviceDetector
       end
     end
 
-    # This is a performance optimization.
-    # We cache the regexes on the class for better performance
-    # Thread-safety shouldn't be an issue, as we do only perform reads
-    def self.regexes_for(filepaths)
-      @regexes ||=
-        begin
-          raw_files = filepaths.map { |filepath| File.read(filepath) }.join
-          regexes = YAML.load(raw_files)
-          parse_regexes(regexes)
-        end
-    end
+    class << self
 
-    def self.parse_regexes(regexes)
-      regexes.map do |meta|
-        meta['regex'] = Regexp.new(meta['regex'])
-        meta
+      # This is a performance optimization.
+      # We cache the regexes on the class for better performance
+      # Thread-safety shouldn't be an issue, as we do only perform reads
+      def regexes_for(filepaths)
+        @regexes ||=
+          begin
+            regexes = load_regexes(filepaths)
+            parsed_regexes = regexes.map { |r| parse_regexes(r) }
+
+            parsed_regexes.flatten
+          end
       end
+
+      def load_regexes(filepaths)
+        raw_files = filepaths.map { |path| File.read(path) }
+
+        raw_files.map { |f| YAML.load(f) }
+      end
+
+      def parse_regexes(regexes)
+        regexes.map do |meta|
+          meta['regex'] = Regexp.new(meta['regex'])
+          meta
+        end
+      end
+
     end
 
   end
