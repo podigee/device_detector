@@ -1,5 +1,7 @@
 # DeviceDetector
 
+![Podigee DeviceDetector Travisci Badge](https://travis-ci.org/podigee/device_detector.svg)
+
 User agent parser and device detector backed by the largest, most precise and up-to-date agent and device database.
 
 DeviceDetector will parse any user agent and detect the browser, operating system, device used (desktop, tablet, mobile, tv, cars, console, etc.), brand and model.
