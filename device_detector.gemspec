@@ -9,7 +9,7 @@ Gem::Specification.new do |spec|
   spec.authors       = ['Mati Sójka', 'Ben Zimmer']
   spec.email         = ['yagooar@gmail.com']
   spec.summary       = %q{Precise and fast user agent parser and device detector}
-  spec.description   = %q{Pricese and fast user agent parser and device detector, backed by the largest and most up-to-date agent and device database}
+  spec.description   = %q{Precise and fast user agent parser and device detector, backed by the largest and most up-to-date agent and device database}
   spec.homepage      = 'https://github.com/podigee/device_detector'
   spec.license       = 'LGPLv3'
 
