@@ -1,20 +1,19 @@
 # DeviceDetector
 
-This is a Ruby port of the Universal Device Detection library.
-You can find the original code here: [https://github.com/piwik/device-detector].
+User agent parser and device detector backed by the largest, most precise and up-to-date agent and device database.
 
-The Universal Device Detection library will parse any User Agent and detect
-the browser, operating system, device used (desktop, tablet, mobile, tv, cars,
-console, etc.), brand and model.
+DeviceDetector will parse any user agent and detect the browser, operating system, device used (desktop, tablet, mobile, tv, cars, console, etc.), brand and model.
+
+The DeviceDetector is optimized for speed of detection, by providing optimized code and in-memory caching.
+
+This project originated as a Ruby port of the Universal Device Detection library.
+You can find the original code here: [https://github.com/piwik/device-detector].
 
 ## Disclaimer
 
-This port does not aspire to be a one-to-one copy from the original code, but
-rather an adaptation for the Ruby language.
+This port does not aspire to be a one-to-one copy from the original code, but rather an adaptation for the Ruby language.
 
-Still, our goal is to use the original, unchanged regex yaml files, in order to
-mutually benefit from updates and pull request to both the original and the
-ported versions.
+Still, our goal is to use the original, unchanged regex yaml files, in order to mutually benefit from updates and pull request to both the original and the ported versions.
 
 ## Installation
 
@@ -88,3 +87,4 @@ Thanks a lot to the following contributors:
 4. Commit your changes (`git commit -am 'Add some feature'`)
 5. Push to the branch (`git push origin my-new-feature`)
 6. Create a new Pull Request (compare with develop)
+7. When adding new data to the yaml files, please make sure to open a PR in the original project, as well ([https://github.com/piwik/device-detector])
