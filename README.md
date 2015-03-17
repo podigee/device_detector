@@ -82,8 +82,9 @@ Thanks a lot to the following contributors:
 
 ## Contributing
 
-1. Fork it ( https://github.com/podigee/device_detector/fork )
-2. Create your feature branch (`git checkout -b my-new-feature`)
-3. Commit your changes (`git commit -am 'Add some feature'`)
-4. Push to the branch (`git push origin my-new-feature`)
-5. Create a new Pull Request (compare with develop)
+1. Open an issue and explain your feature request or bug before writing any code (this can save a lot of time, both the contributor and the maintainers!)
+2. Fork the project ( https://github.com/podigee/device_detector/fork )
+3. Create your feature branch (`git checkout -b my-new-feature`)
+4. Commit your changes (`git commit -am 'Add some feature'`)
+5. Push to the branch (`git push origin my-new-feature`)
+6. Create a new Pull Request (compare with develop)
