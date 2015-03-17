@@ -79,6 +79,7 @@ describe DeviceDetector::Device do
 
       it 'identifies the device' do
         expect(device.name).to eq('GALAXY S5')
+        expect(device.type).to eq('smartphone')
       end
 
     end
@@ -89,10 +90,54 @@ describe DeviceDetector::Device do
 
       it 'identifies the device' do
         expect(device.name).to eq('GALAXY Camera')
+        expect(device.type).to eq('camera')
       end
 
     end
 
+    describe 'car browsers' do
+
+      let(:user_agent) { 'Mozilla/5.0 (X11; Linux) AppleWebKit/534.34 (KHTML, like Gecko) QtCarBrowser Safari/534.34' }
+
+      it 'identifies the device' do
+        expect(device.name).to eq('Model S')
+        expect(device.type).to eq('car browser')
+      end
+
+    end
+
+    describe '(gaming) consoles' do
+
+      let(:user_agent) { 'Opera/9.30 (Nintendo Wii; U; ; 2047-7;en)' }
+
+      it 'identifies the device' do
+        expect(device.name).to eq('Wii')
+        expect(device.type).to eq('console')
+      end
+
+    end
+
+    describe 'portable media players' do
+
+      let(:user_agent) { 'Mozilla/5.0 (iPod touch; CPU iPhone OS 7_0_6 like Mac OS X) AppleWebKit/537.51.1 (KHTML, like Gecko) Version/7.0 Mobile/11B651 Safari/9537.53' }
+
+      it 'identifies the device' do
+        expect(device.name).to eq('iPod Touch')
+        expect(device.type).to eq('portable media player')
+      end
+
+    end
+
+    describe 'televisions' do
+
+      let(:user_agent) { 'Mozilla/5.0 (Linux; NetCast; U) AppleWebKit/537.31 (KHTML, like Gecko) Chrome/26.0.1410.33 Safari/537.31 SmartTV/5.0' }
+
+      it 'identifies the device' do
+        expect(device.name).to eq('NetCast')
+        expect(device.type).to eq('tv')
+      end
+
+    end
   end
 
 end

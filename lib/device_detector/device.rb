@@ -15,10 +15,18 @@ class DeviceDetector
 
     private
 
+    # The order of files is relevant.
+    # portable_media_players has to come before mobiles because of devices like the iPod
+    # which would otherwise be detected as iPhones
+    # televisions.yml works best at the end
     def filenames
       [
         'devices/cameras.yml',
-        'devices/mobiles.yml'
+        'devices/car_browsers.yml',
+        'devices/consoles.yml',
+        'devices/portable_media_players.yml',
+        'devices/mobiles.yml',
+        'devices/televisions.yml',
       ]
     end
 
