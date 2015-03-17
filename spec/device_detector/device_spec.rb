@@ -59,6 +59,16 @@ describe DeviceDetector::Device do
 
     end
 
+    context 'device not specified in nested block' do
+
+      let(:user_agent) { 'Mozilla/5.0 (Linux; Android 4.4.2; es-us; SAMSUNG SM-G900F Build/KOT49H) AppleWebKit/537.36 (KHTML, like Gecko)' }
+
+      it 'falls back to top-level device' do
+        expect(device.type).to eq('smartphone')
+      end
+
+    end
+
   end
 
 end

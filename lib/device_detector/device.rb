@@ -21,22 +21,27 @@ class DeviceDetector
       ]
     end
 
-    def self.parse_regexes(regexes)
+    def self.parse_regexes(regexes, device = nil)
       regexes.map { |base, nest|
 
         if !nest.nil? && nest.key?('models')
-          parse_regexes nest['models']
+          default_device = nest['device']
+          parse_regexes(nest['models'], default_device)
         else
-          case base
-          when Hash
-            base['regex'] = Regexp.new base['regex']
-            base
-          when String
-            nest['regex'] = Regexp.new nest['regex']
-            nest
-          else
-            fail "#{filenames.join(', ')} regexes are either malformed or format has changes."
-          end
+          regex =
+            case base
+            when Hash
+              base
+            when String
+              nest
+            else
+              fail "#{filenames.join(', ')} regexes are either malformed or format has changes."
+            end
+
+          regex['device'] ||= device
+          regex['regex'] = Regexp.new(regex['regex'])
+
+          regex
         end
 
       }.flatten
