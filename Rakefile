@@ -11,13 +11,13 @@ task default: :spec
 
 task :detectable_names do
   require 'device_detector'
-  bot_names = DeviceDetector::Bot.new.send(:regexes).map { |r| r['name'] }
+  bot_names = DeviceDetector::Bot.new.send(:regexes).map { |r| r['name'] }.uniq
   bot_names.delete('$1')
-  client_names = DeviceDetector::Client.new.send(:regexes).map { |r| r['name'] }
+  client_names = DeviceDetector::Client.new.send(:regexes).map { |r| r['name'] }.uniq
   client_names.delete('$1')
   device_filepaths = DeviceDetector::Device.new.send(:filepaths)
   device_regexes = DeviceDetector::Device.load_regexes(device_filepaths)
-  device_names = device_regexes.flat_map { |dn| dn.keys }.sort
+  device_names = device_regexes.flat_map { |dn| dn.keys }.sort.uniq
 
   today = Date.today.strftime
 
