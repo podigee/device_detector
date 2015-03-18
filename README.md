@@ -46,9 +46,9 @@ client.os_name # => 'Windows'
 client.os_full_version # => '8'
 
 # For many devices, you can also query the device name (usually the model name)
-# Look into regexes/devices/mobiles.yml to see what devices can be detected
 client.device_name # => 'iPhone 5'
-client.device_type # => 'smartphone' # device types can be one of `smartphone`, `tablet`, `console`, `portable media player`, `tv`, `car browser` or `camera`
+# Device types can be one of `smartphone`, `tablet`, `console`, `portable media player`, `tv`, `car browser` or `camera`
+client.device_type # => 'smartphone'
 ```
 
 `DeviceDetector` will return `nil` on all attributes, if the `user_agent` is unknown.
