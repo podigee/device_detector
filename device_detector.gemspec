@@ -18,6 +18,8 @@ Gem::Specification.new do |spec|
   spec.test_files    = spec.files.grep(%r{^(spec)/})
   spec.require_paths = ['lib']
 
+  spec.required_ruby_version = '>= 1.9.3'
+
   spec.add_development_dependency 'rspec' ,'~> 3.1', '>= 3.1.0'
   spec.add_development_dependency 'pry', '~> 0.10'
 end
