@@ -1,0 +1,136 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <title>Device detector by podigee</title>
+
+    <link rel="stylesheet" href="stylesheets/styles.css">
+    <link rel="stylesheet" href="stylesheets/pygment_trac.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <!--[if lt IE 9]>
+    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+    <div class="wrapper">
+      <header>
+        <h1>Device detector</h1>
+        <p>DeviceDetector is a precise and fast user agent parser and device detector, backed by the largest and most up-to-date user agent database</p>
+
+        <p class="view"><a href="https://github.com/podigee/device_detector">View the Project on GitHub <small>podigee/device_detector</small></a></p>
+
+
+        <ul>
+          <li><a href="https://github.com/podigee/device_detector/zipball/master">Download <strong>ZIP File</strong></a></li>
+          <li><a href="https://github.com/podigee/device_detector/tarball/master">Download <strong>TAR Ball</strong></a></li>
+          <li><a href="https://github.com/podigee/device_detector">View On <strong>GitHub</strong></a></li>
+        </ul>
+      </header>
+      <section>
+        <p>DeviceDetector is a precise and fast user agent parser and device detector, backed by the largest and most up-to-date user agent database.</p>
+
+<p>DeviceDetector will parse any user agent and detect the browser, operating system, device used (desktop, tablet, mobile, tv, cars, console, etc.), brand and model.</p>
+
+<p>The DeviceDetector is optimized for speed of detection, by providing optimized code and in-memory caching.</p>
+
+<h2>
+<a id="installation" class="anchor" href="#installation" aria-hidden="true"><span class="octicon octicon-link"></span></a>Installation</h2>
+
+<p>Add this line to your application's Gemfile:</p>
+
+<div class="highlight highlight-ruby"><pre><span class="pl-k">gem</span> <span class="pl-s1"><span class="pl-pds">'</span>device_detector<span class="pl-pds">'</span></span></pre></div>
+
+<p>And then execute:</p>
+
+<pre><code>$ bundle
+</code></pre>
+
+<p>Or install it yourself as:</p>
+
+<pre><code>$ gem install device_detector
+</code></pre>
+
+<h2>
+<a id="usage" class="anchor" href="#usage" aria-hidden="true"><span class="octicon octicon-link"></span></a>Usage</h2>
+
+<div class="highlight highlight-ruby"><pre>user_agent <span class="pl-k">=</span> <span class="pl-s1"><span class="pl-pds">'</span>Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/30.0.1599.17 Safari/537.36<span class="pl-pds">'</span></span>
+client <span class="pl-k">=</span> <span class="pl-s3">DeviceDetector</span>.<span class="pl-k">new</span>(user_agent)
+
+client.name <span class="pl-c"># =&gt; 'Chrome'</span>
+client.full_version <span class="pl-c"># =&gt; '30.0.1599.69'</span>
+
+client.os_name <span class="pl-c"># =&gt; 'Windows'</span>
+client.os_full_version <span class="pl-c"># =&gt; '8'</span>
+
+<span class="pl-c"># For many devices, you can also query the device name (usually the model name)</span>
+client.device_name <span class="pl-c"># =&gt; 'iPhone 5'</span>
+<span class="pl-c"># Device types can be one of the following: smartphone, tablet, console, </span>
+<span class="pl-c"># portable media player, tv, car browser, camera</span>
+client.device_type <span class="pl-c"># =&gt; 'smartphone'</span></pre></div>
+
+<p><code>DeviceDetector</code> will return <code>nil</code> on all attributes, if the <code>user_agent</code> is unknown.
+You can make a check to ensure the client has been detected:</p>
+
+<div class="highlight highlight-ruby"><pre>client.known? <span class="pl-c"># =&gt; will return false if user_agent is unknown</span></pre></div>
+
+<h3>
+<a id="memory-cache" class="anchor" href="#memory-cache" aria-hidden="true"><span class="octicon octicon-link"></span></a>Memory cache</h3>
+
+<p><code>DeviceDetector</code> will cache up 5,000 user agent strings to boost parsing performance.
+You can tune the amount of keys that will get saved in the cache:</p>
+
+<div class="highlight highlight-ruby"><pre><span class="pl-c"># You have to call this code **before** you initialize the Detector</span>
+<span class="pl-s3">DeviceDetector</span>.configure <span class="pl-k">do </span>|<span class="pl-vo">config</span>|
+  config.max_cache_keys <span class="pl-k">=</span> <span class="pl-c1">20_000</span> <span class="pl-c"># increment this if you have enough RAM, proceed with care</span>
+<span class="pl-k">end</span></pre></div>
+
+<h2>
+<a id="detectable-clients-bots-and-devices" class="anchor" href="#detectable-clients-bots-and-devices" aria-hidden="true"><span class="octicon octicon-link"></span></a>Detectable clients, bots and devices</h2>
+
+<p>Updated on 2015-03-17</p>
+
+<h3>
+<a id="bots" class="anchor" href="#bots" aria-hidden="true"><span class="octicon octicon-link"></span></a>Bots</h3>
+
+<p>360Spider, Aboundexbot, Acoon, AddThis.com, aHrefs Bot, Alexa Crawler, Amorank Spider, Analytics SEO Crawler, archive.org bot, Ask Jeeves, Backlink-Ceck.de, BacklinkCrawler, Baidu Spider, BingBot, Blekkobot, BLEXBot Crawler, Bloglovin, Bountii Bot, Browsershots, Butterfly Robot, CareerBot, ccBot crawler, Cliqzbot, CloudFlare Always Online, CommaFeed, Dazoobot, Discobot, DotBot, Easou Spider, EMail Exractor, ExaBot, ExactSeek Crawler, Ezooms, Facebook External Hit, Feedbin, FeedBurner, Feedly, Feedspot, Fever, Genieo Web filter, Goo, Google PageSpeed Insights, Googlebot, Heritrix, HTTPMon, IIS Site Analysis, Kouio, Linkdex Bot, LinkedIn Bot, Mail.Ru Bot, Magpie-Crawler, MagpieRSS, Meanpath Bot, Mixrank Bot, MJ12 Bot, MojeekBot, NalezenCzBot, Netcraft Survey Bot, Netvibes, NewsBlur, NewsGator, NLCrawler, Omgili bot, Openindex Spider, OpenLinkProfiler, OpenWebSpider, PaperLiBot, Picsearch bot, Pingdom Bot, QuerySeekerSpider, Reddit Bot, Rogerbot, Screaming Frog SEO Spider, ScreenerBot, Semrush Bot, Sensika Bot, SEOENGBot, Seznam Bot, ShopWiki, SilverReader, SimplePie, SISTRIX Crawler, Sogou Spider, Soso Spider, Superfeedr Bot, Spinn3r, Sputnik Bot, Survey Bot, TinEye Crawler, Tiny Tiny RSS, TurnitinBot, TweetedTimes Bot, Tweetmeme Bot, Twitterbot, Uptime Robot, URLAppendBot, Visual Site Mapper Crawler, Voila Bot, W3C CSS Validator, W3C I18N Checker, W3C Link Checker, W3C Markup Validation Service, W3C MobileOK Checker, W3C Unified Validator, WeSEE:Search, WebbCrawler, Wotbox, YaCy, Yahoo! Slurp, Yandex Bot, Yeti/Naverbot, Youdao Bot, Yunyun Bot, Zookabot, ZumBot, Yottaa Site Monitor, Lycos, Inktomi Slurp, Speedy, ScoutJet, NetResearchServer, Scooter, Gigabot, Charlotte, Pompos, ichiro, PagePeeker, WebThumbnail, Willow Internet Crawler, EmailWolf, NetLyzer FastProbe, Bot, Nutch-based Bot, Generic Bot</p>
+
+<h3>
+<a id="clients" class="anchor" href="#clients" aria-hidden="true"><span class="octicon octicon-link"></span></a>Clients</h3>
+
+<p>Internet Explorer, Sailfish Browser, Camino, Fennec, MicroB, Avant Browser, Amigo, Bunjalloo, Iceweasel, WebPositive, Pale Moon, CometBird, IceDragon, Flock, Kapiko, Swiftfox, Firefox, ANTGalio, Espial TV Browser, RockMelt, Fireweb Navigator, Netscape, Opera Mobile, Opera Mini, Opera Next, Opera, Rekonq, CoolNovo, Comodo Dragon, ChromePlus, Conkeror, Konqueror, Baidu Browser, Baidu Spark, Yandex Browser, Vivaldi, Midori, Mercury, Maxthon, Puffin, Iron, Epiphany, Liebao, Sogou Explorer, QQ Browser, Chrome Mobile, Chrome Mobile iOS, Chrome Frame, Chromium, Chrome, UC Browser, Tizen Browser, Palm Blazer, Palm Pre, wOSBrowser, Palm WebPro, Jasmine, Lynx, NCSA Mosaic, ABrowse, Amaya, Amiga Voyager, Amiga Aweb, Arora, Beonex, BlackBerry Browser, BrowseX, Charon, Cheshire, Dillo, Dolphin, Elinks, Firebird, Fluid, Galeon, Google Earth, HotJava, IBrowse, iCab, Sleipnir, Lunascape, IE Mobile, Kazehakase, Kindle Browser, K-meleon, Links, Openwave Mobile Browser, OmniWeb, Phoenix, Mobile Silk, MIUI Browser, Nokia Browser, Nokia OSS Browser, Nokia Ovi Browser, NetFront Life, NetFront, NetPositive, Obigo, Off By One, Oregano, Polaris, SEMC-Browser, Shiira, Snowshoe, Sunrise, WeTab Browser, Xiino, Android Browser, Mobile Safari, Safari, Akregator, Apple PubSub, FeedDemon, Feeddler RSS Reader, JetBrains Omea Reader, Liferea, NetNewsWire, NewsBlur Mobile App, NewsBlur, Newsbeuter, Pulp, ReadKit, Reeder, RSS Bandit, RSS Junkie, RSSOwl, Wget, curl, Python Requests, Python urllib, Java, Perl, Banshee, Clementine, iTunes, FlyCast, MediaMonkey, Miro, NexPlayer, Nightingale, QuickTime, Songbird, SubStream, VLC, Winamp, Windows Media Player, XBMC, Stagefright, AndroidDownloadManager, FeedR, WeChat, Sina Weibo, Outlook Express, Microsoft Outlook, Thunderbird, Airmail, Lotus Notes, Barca, Postbox, The Bat!</p>
+
+<h3>
+<a id="devices" class="anchor" href="#devices" aria-hidden="true"><span class="octicon octicon-link"></span></a>Devices</h3>
+
+<p>3Q, Acer, Airness, Alcatel, Amoi, Apple, Archos, Arnova, Asus, Audiovox, Avvio, Axxion, BBK, BangOlufsen, Barnes &amp; Noble, Becker, Beetel, BenQ, BenQ-Siemens, Bird, Blu, Bmobile, Capitel, Cat, Celkon, Cherry Mobile, CnM, Coby Kyros, Compal, ConCorde, Coolpad, Cowon, CreNova, Cricket, Crius Mea, Cube, DMM, Danew, Dbtel, Dell, Denver, Dicam, DoCoMo, Doogee, Dopod, E-Boda, Easypix, Ericsson, Ericy, Evertek, Ezio, Ezze, Fly, Gemini, Gigabyte, Gigaset, Gionee, Google, Gradiente, Grundig, HP, HTC, Haier, Hisense, Huawei, Humax, INQ, Ikea, Infinix, Inkti, Innostream, Intek, Intex, Inverto, Jiayu, Jolla, K-Touch, KDDI, KT-Tech, Karbonn, Kazam, Kindle, Konka, Kyocera, LCT, LG, Lanix, Lava, Lenco, Lenovo, Lexibook, Loewe, Logicom, MEU, Manta Multimedia, MediaTek, Medion, Memup, Metz, MicroMax, Microsoft, Mio, Mitsubishi, Mobistel, Motorola, Mpman, MyPhone, NEC, NGM, Newgen, Nexian, Nikon, Nintendo, Nokia, O2, OPPO, OUYA, Onda, Opsson, Orange, Oysters, PEAQ, Palm, Panasonic, Pantech, Philips, Polaroid, PolyPad, Positivo, Prestigio, Qilive, Qtek, Quechua, RIM, Ramos, Rikomagic, Rover, SFR, Sagem, Samsung, Sanyo, Sega, Selevision, Sendo, Sharp, Siemens, Smart, Smartfren, Softbank, Sony, Spice, Storex, Sumvision, SuperSonic, Symphony, T-Mobile, TCL, TIANYU, TVC, TechniSat, TechnoTrend, Tecno Mobile, Telefunken, Telit, Tesla, Thomson, TiPhone, Tolino, Toplux, Toshiba, Tunisie Telecom, UTStarcom, VK Mobile, Vertu, Vestel, Videocon, Videoweb, ViewSonic, Vitelcom, Voxtel, Web TV, WellcoM, Wiko, Wolder, Wonu, Woxter, Xiaomi, Yuandao, ZTE, Zonda, Zopo, bq, eTouch, i-mate, i-mobile, iBall, iBerry, iKoMo, iTel, phoneOne, teXet</p>
+
+<h2>
+<a id="maintainers" class="anchor" href="#maintainers" aria-hidden="true"><span class="octicon octicon-link"></span></a>Maintainers</h2>
+
+<ul>
+<li>Mati Sojka: <a href="https://github.com/yagooar">https://github.com/yagooar</a>
+</li>
+<li>Ben Zimmer: <a href="https://github.com/benzimmer">https://github.com/benzimmer</a>
+</li>
+</ul>
+
+<h2>
+<a id="contributors" class="anchor" href="#contributors" aria-hidden="true"><span class="octicon octicon-link"></span></a>Contributors</h2>
+
+<p>Thanks a lot to the following contributors:</p>
+
+<ul>
+<li>Peter Gao: <a href="https://github.com/peteygao">https://github.com/peteygao</a>
+</li>
+</ul>
+      </section>
+      <footer>
+        <p>This project is maintained by <a href="https://github.com/podigee">podigee</a></p>
+        <p><small>Hosted on GitHub Pages &mdash; Theme by <a href="https://github.com/orderedlist">orderedlist</a></small></p>
+      </footer>
+    </div>
+    <script src="javascripts/scale.fix.js"></script>
+    
+  </body>
+</html>
