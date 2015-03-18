@@ -2,7 +2,7 @@
 
 ![Podigee DeviceDetector Travisci Badge](https://travis-ci.org/podigee/device_detector.svg)
 
-DeviceDetector is a precise and fast user agent parser and device detector, backed by the largest and most up-to-date user agent database.
+DeviceDetector is a precise and fast user agent parser and device detector written in Ruby, backed by the largest and most up-to-date user agent database.
 
 DeviceDetector will parse any user agent and detect the browser, operating system, device used (desktop, tablet, mobile, tv, cars, console, etc.), brand and model.
 
