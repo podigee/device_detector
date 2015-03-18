@@ -48,7 +48,7 @@ client.os_full_version # => '8'
 # For many devices, you can also query the device name (usually the model name)
 client.device_name # => 'iPhone 5'
 # Device types can be one of the following: smartphone, tablet, console, 
-portable media player, tv, car browser, camera
+# portable media player, tv, car browser, camera
 client.device_type # => 'smartphone'
 ```
 
