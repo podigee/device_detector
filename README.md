@@ -73,7 +73,13 @@ end
 
 ## Benchmarks
 
-We have measured the parsing speed of almost 200,000 non-unique user agent strings.
+We have measured the parsing speed of almost 200,000 non-unique user agent strings and compared the speed of DeviceDetector with the two most popular user agent parsers in the Ruby community, Browser and UserAgent.
+
+### Testing machine specs
+
+MacBook Pro 15", Late 2013
+2.6 GHz Intel Core i7
+16 GB 1600 MHz DDR3
 
 ### Gem versions
 
