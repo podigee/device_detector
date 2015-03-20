@@ -62,14 +62,15 @@ client.known? # => will return false if user_agent is unknown
 ### Memory cache
 
 `DeviceDetector` will cache up 5,000 user agent strings to boost parsing performance.
-You can tune the amount of keys that will get saved in the cache:
+You can tune the amount of keys that will get saved in the cache. You have to call this code **before** you initialize the Detector.
 
 ```ruby
-# You have to call this code **before** you initialize the Detector
 DeviceDetector.configure do |config|
-  config.max_cache_keys = 20_000 # increment this if you have enough RAM, proceed with care
+  config.max_cache_keys = 5_000 # increment this if you have enough RAM, proceed with care
 end
 ```
+
+If you have a Rails application, you can create an initializer, for example `config/initializers/device_detector.rb`.
 
 ## Benchmarks
 
