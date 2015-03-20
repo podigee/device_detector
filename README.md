@@ -71,6 +71,60 @@ DeviceDetector.configure do |config|
 end
 ```
 
+## Benchmarks
+
+We have measured the parsing speed of almost 200,000 non-unique user agent strings.
+
+### Gem versions
+
+- DeviceDetector - 0.5.1
+- Browser - 0.8.0
+- UserAgent - 0.13.1
+
+### Code
+
+```ruby
+require 'device_detector'
+require 'browser'
+require 'user_agent'
+require 'benchmark'
+
+user_agent_strings = File.read('./tmp/user_agent_strings.txt').split("\n")
+
+## Benchmarks
+
+Benchmark.bm(15) do |x|
+  x.report('device_detector') {
+    user_agent_strings.each { |uas| DeviceDetector.new(uas).name }
+  }
+  x.report('browser') {
+    user_agent_strings.each { |uas| Browser.new(ua: uas).name }
+  }
+  x.report('useragent') {
+    user_agent_strings.each { |uas| UserAgent.parse(uas).browser }
+  }
+end
+```
+
+### Results
+
+```
+                      user     system      total        real
+device_detector   1.180000   0.010000   1.190000 (  1.198721)
+browser           2.240000   0.010000   2.250000 (  2.245493)
+useragent         4.490000   0.020000   4.510000 (  4.500673)
+
+                      user     system      total        real
+device_detector   1.190000   0.020000   1.210000 (  1.201447)
+browser           2.250000   0.010000   2.260000 (  2.261001)
+useragent         4.440000   0.010000   4.450000 (  4.451693)
+
+                      user     system      total        real
+device_detector   1.210000   0.020000   1.230000 (  1.228617)
+browser           2.220000   0.010000   2.230000 (  2.222565)
+useragent         4.450000   0.000000   4.450000 (  4.452741)
+```
+
 ## Detectable clients, bots and devices
 
 Updated on 2015-03-17
