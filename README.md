@@ -77,9 +77,9 @@ We have measured the parsing speed of almost 200,000 non-unique user agent strin
 
 ### Testing machine specs
 
-MacBook Pro 15", Late 2013
-2.6 GHz Intel Core i7
-16 GB 1600 MHz DDR3
+- MacBook Pro 15", Late 2013
+- 2.6 GHz Intel Core i7
+- 16 GB 1600 MHz DDR3
 
 ### Gem versions
 
