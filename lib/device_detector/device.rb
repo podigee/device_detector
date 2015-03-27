@@ -30,8 +30,8 @@ class DeviceDetector
       ]
     end
 
-    def self.parse_regexes(regexes, device = nil)
-      regexes.map { |base, nest|
+    def parse_regexes(raw_regexes, device = nil)
+      raw_regexes.map { |base, nest|
 
         if !nest.nil? && nest.key?('models')
           default_device = nest['device']

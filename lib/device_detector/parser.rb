@@ -24,7 +24,7 @@ class DeviceDetector
     end
 
     def regexes
-      self.class.regexes_for(filepaths)
+      @regexes ||= regexes_for(filepaths)
     end
 
     def filenames
@@ -37,34 +37,28 @@ class DeviceDetector
       end
     end
 
-    class << self
+    def regexes_for(filepaths)
+      DeviceDetector.cache.get_or_set(['regexes', self.class]) do
+        begin
+          raw_regexes = load_regexes
+          parsed_regexes = raw_regexes.map { |r| parse_regexes(r) }
 
-      # This is a performance optimization.
-      # We cache the regexes on the class for better performance
-      # Thread-safety shouldn't be an issue, as we do only perform reads
-      def regexes_for(filepaths)
-        @regexes ||=
-          begin
-            regexes = load_regexes(filepaths)
-            parsed_regexes = regexes.map { |r| parse_regexes(r) }
-
-            parsed_regexes.flatten
-          end
-      end
-
-      def load_regexes(filepaths)
-        raw_files = filepaths.map { |path| File.read(path) }
-
-        raw_files.map { |f| YAML.load(f) }
-      end
-
-      def parse_regexes(regexes)
-        regexes.map do |meta|
-          meta['regex'] = Regexp.new(meta['regex'])
-          meta
+          parsed_regexes.flatten
         end
       end
+    end
 
+    def load_regexes
+      raw_files = filepaths.map { |path| File.read(path) }
+
+      raw_files.map { |f| YAML.load(f) }
+    end
+
+    def parse_regexes(raw_regexes)
+      raw_regexes.map do |meta|
+        meta['regex'] = Regexp.new(meta['regex'])
+        meta
+      end
     end
 
   end
