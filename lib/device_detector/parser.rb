@@ -4,7 +4,7 @@ class DeviceDetector
     ROOT = File.expand_path('../../..', __FILE__)
 
     def name
-      regex_meta['name']
+      NameExtractor.new(user_agent, regex_meta).call
     end
 
     def full_version
@@ -56,7 +56,7 @@ class DeviceDetector
 
     def parse_regexes(raw_regexes)
       raw_regexes.map do |meta|
-        meta['regex'] = Regexp.new(meta['regex'])
+        meta['regex'] = Regexp.new(meta['regex']) if meta['regex'].is_a? String
         meta
       end
     end

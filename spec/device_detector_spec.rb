@@ -70,28 +70,6 @@ describe DeviceDetector do
 
     end
 
-    describe 'mobile iPhone 5S' do
-
-      let(:user_agent) { 'Mozilla/5.0 (iPhone; CPU iPhone OS 8_1_2 like Mac OS X) AppleWebKit/600.1.4 (KHTML, like Gecko) Mobile/12B440 [FBDV/iPhone6,1]' }
-
-      describe '#device_name' do
-
-        it 'returns device name' do
-          client.device_name.must_equal 'iPhone 5S'
-        end
-
-      end
-
-      describe '#device_type' do
-
-        it 'returns the device type' do
-          client.device_type.must_equal 'smartphone'
-        end
-
-      end
-
-    end
-
   end
 
   describe 'unknown user agent' do
