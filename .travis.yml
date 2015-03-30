@@ -8,4 +8,4 @@ rvm:
   - jruby-head
   - rbx-2
 script:
-  bundle exec rspec
+  rake test
