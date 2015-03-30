@@ -4,13 +4,13 @@ class DeviceDetector
     ROOT = File.expand_path('../../..', __FILE__)
 
     def name
-      DeviceDetector.cache.get_or_set(['name', self.class.name, user_agent]) do
+      from_cache(['name', self.class.name, user_agent]) do
         NameExtractor.new(user_agent, regex_meta).call
       end
     end
 
     def full_version
-      DeviceDetector.cache.get_or_set(['full_version', self.class.name, user_agent]) do
+      from_cache(['full_version', self.class.name, user_agent]) do
         VersionExtractor.new(user_agent, regex_meta).call
       end
     end
@@ -22,7 +22,7 @@ class DeviceDetector
     end
 
     def matching_regex
-      DeviceDetector.cache.get_or_set([self.class.name, user_agent]) do
+      from_cache([self.class.name, user_agent]) do
         regexes.find { |r| user_agent =~ r['regex'] }
       end
     end
@@ -42,7 +42,7 @@ class DeviceDetector
     end
 
     def regexes_for(filepaths)
-      DeviceDetector.cache.get_or_set(['regexes', self.class]) do
+      from_cache(['regexes', self.class]) do
         raw_regexes = load_regexes
         parsed_regexes = raw_regexes.map { |r| parse_regexes(r) }
 
@@ -61,6 +61,10 @@ class DeviceDetector
         meta['regex'] = Regexp.new(meta['regex']) if meta['regex'].is_a? String
         meta
       end
+    end
+
+    def from_cache(key)
+      DeviceDetector.cache.get_or_set(key) { yield }
     end
 
   end
