@@ -30,7 +30,7 @@ class DeviceDetector
     end
 
     def regex
-      regex_meta['regex']
+      @regex ||= regex_meta['regex']
     end
 
   end

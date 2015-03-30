@@ -2,10 +2,10 @@ class DeviceDetector
   class NameExtractor < MetadataExtractor
 
     def call
-      if regex_meta['name']
+      if /\$[0-9]/ =~ metadata_string
         extract_metadata
       else
-        nil
+        metadata_string
       end
     end
 

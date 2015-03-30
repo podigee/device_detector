@@ -4,11 +4,15 @@ class DeviceDetector
     ROOT = File.expand_path('../../..', __FILE__)
 
     def name
-      NameExtractor.new(user_agent, regex_meta).call
+      DeviceDetector.cache.get_or_set(['name', self.class.name, user_agent]) do
+        NameExtractor.new(user_agent, regex_meta).call
+      end
     end
 
     def full_version
-      VersionExtractor.new(user_agent, regex_meta).call
+      DeviceDetector.cache.get_or_set(['full_version', self.class.name, user_agent]) do
+        VersionExtractor.new(user_agent, regex_meta).call
+      end
     end
 
     private
@@ -39,12 +43,10 @@ class DeviceDetector
 
     def regexes_for(filepaths)
       DeviceDetector.cache.get_or_set(['regexes', self.class]) do
-        begin
-          raw_regexes = load_regexes
-          parsed_regexes = raw_regexes.map { |r| parse_regexes(r) }
+        raw_regexes = load_regexes
+        parsed_regexes = raw_regexes.map { |r| parse_regexes(r) }
 
-          parsed_regexes.flatten
-        end
+        parsed_regexes.flatten
       end
     end
 
