@@ -20,6 +20,5 @@ Gem::Specification.new do |spec|
 
   spec.required_ruby_version = '>= 1.9.3'
 
-  spec.add_development_dependency 'rspec' ,'~> 3.1', '>= 3.1.0'
   spec.add_development_dependency 'pry', '~> 0.10'
 end

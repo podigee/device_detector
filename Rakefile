@@ -1,13 +1,12 @@
-require 'bundler/gem_tasks'
+require 'rake'
+require 'rake/testtask'
 
-require 'rspec/core'
-require 'rspec/core/rake_task'
-
-RSpec::Core::RakeTask.new(:spec) do |spec|
-  spec.pattern = FileList['spec/**/*_spec.rb']
+Rake::TestTask.new do |t|
+  t.pattern = 'spec/**/*_spec.rb'
+  t.libs.push 'spec'
 end
 
-task default: :spec
+task default: :test
 
 task :detectable_names do
   require 'device_detector'

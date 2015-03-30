@@ -1,6 +1,6 @@
 require 'spec_helper'
 
-RSpec.describe DeviceDetector::MemoryCache do
+describe DeviceDetector::MemoryCache do
 
   let(:subject) { DeviceDetector::MemoryCache.new(config) }
 
@@ -8,26 +8,26 @@ RSpec.describe DeviceDetector::MemoryCache do
 
   describe '#set' do
 
-    context 'string key' do
+    describe 'string key' do
 
       let(:key) { 'string' }
 
       it 'sets the value under the key' do
         subject.set(key, 'value')
 
-        expect(subject.data[key]).to eq('value')
+        subject.data[key].must_equal 'value'
       end
 
     end
 
-    context 'array key' do
+    describe 'array key' do
 
       let(:key) { ['string1', 'string2'] }
 
       it 'sets the value under the key' do
         subject.set(key, 'value')
 
-        expect(subject.data[String(key)]).to eq('value')
+        subject.data[String(key)].must_equal 'value'
       end
 
     end
@@ -36,26 +36,26 @@ RSpec.describe DeviceDetector::MemoryCache do
 
   describe '#get' do
 
-    context 'string key' do
+    describe 'string key' do
 
       let(:key) { 'string' }
 
       it 'gets the value for the key' do
         subject.data[key] = 'value'
 
-        expect(subject.get(key)).to eq('value')
+        subject.get(key).must_equal 'value'
       end
 
     end
 
-    context 'array key' do
+    describe 'array key' do
 
       let(:key) { ['string1', 'string2'] }
 
       it 'gets the value for the key' do
         subject.data[String(key)] = 'value'
 
-        expect(subject.get(key)).to eq('value')
+        subject.get(key).must_equal 'value'
       end
 
     end
@@ -66,7 +66,7 @@ RSpec.describe DeviceDetector::MemoryCache do
 
     let(:key) { 'string' }
 
-    context 'value already present' do
+    describe 'value already present' do
 
       it 'gets the value for the key from cache' do
         subject.data[key] = 'value'
@@ -76,13 +76,13 @@ RSpec.describe DeviceDetector::MemoryCache do
           block_called = true
         end
 
-        expect(value).to eq('value')
-        expect(block_called).to eq(false)
+        value.must_equal 'value'
+        block_called.must_equal false
       end
 
     end
 
-    context 'value not yet present' do
+    describe 'value not yet present' do
 
       it 'evaluates the block and sets the result' do
         block_called = false
@@ -90,8 +90,8 @@ RSpec.describe DeviceDetector::MemoryCache do
           block_called = true
         end
 
-        expect(block_called).to eq(true)
-        expect(subject.data[key]).to eq(true)
+        block_called.must_equal true
+        subject.data[key].must_equal true
       end
 
     end
@@ -108,7 +108,7 @@ RSpec.describe DeviceDetector::MemoryCache do
       subject.set('3', 'baz')
       subject.set('4', 'boz')
 
-      expect(subject.data.keys.size).to eq(3)
+      subject.data.keys.size.must_equal 3
     end
 
   end
