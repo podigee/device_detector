@@ -1,5 +1,8 @@
 # Change Log
 
+## [0.7.0]
+- [Issue #8](https://github.com/podigee/device_detector/issues/8) Fixed Mac OS X full version format. Thanks to [aaronchi](https://github.com/aaronchi) for reporting.
+
 ## [0.6.0]
 
 - [Issue #7](https://github.com/podigee/device_detector/issues/7) Fixed missing name extraction from regexp. Thanks to [janxious](https://github.com/janxious) for reporting.
