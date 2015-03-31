@@ -42,5 +42,19 @@ describe DeviceDetector do
 
   end
 
+  describe 'Mac OS X' do
+
+    let(:user_agent) { 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2227.1 Safari/537.36' }
+
+    describe '#full_version' do
+
+      it 'returns the correct OS version' do
+        client.os_full_version.must_equal '10.10.1'
+      end
+
+    end
+
+  end
+
 end
 

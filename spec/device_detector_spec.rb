@@ -39,7 +39,7 @@ describe DeviceDetector do
       describe '#os_full_version' do
 
         it 'returns the operating system full version' do
-          client.os_full_version.must_equal '10_8_5'
+          client.os_full_version.must_equal '10.8.5'
         end
 
       end
