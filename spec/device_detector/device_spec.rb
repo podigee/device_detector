@@ -140,6 +140,29 @@ describe DeviceDetector::Device do
       end
 
     end
+
+    describe 'Galaxy S2' do
+
+      let(:user_agent) { 'Mozilla/5.0 (Linux; U; Android 4.1.2; de-ch; SAMSUNG GT-I9100/I9100XWLSD Build/JZO54K) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30' }
+
+      it 'identifies the device' do
+        device.name.must_equal 'GALAXY S II'
+        device.type.must_equal 'smartphone'
+      end
+
+    end
+
+    describe 'Galaxy S3' do
+
+      let(:user_agent) { 'Mozilla/5.0 (Linux; U; Android 4.0.4; en-gb; GT-I9300 Build/IMM76D) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30' }
+
+      it 'identifies the device' do
+        device.name.must_equal 'GALAXY S III'
+        device.type.must_equal 'smartphone'
+      end
+
+    end
+
   end
 
 end

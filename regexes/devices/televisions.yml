@@ -163,7 +163,7 @@ Smart:
   regex: 'Smart'
   device: 'tv'
   models:
-    - regex: '([A-Z]{2}[0-9]{2}|ZAPPIX)'
+    - regex: 'ZAPPIX'
       model: '$1'
 
 # Sony
