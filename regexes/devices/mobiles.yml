@@ -2080,6 +2080,8 @@ Samsung:
       model: 'GALAXY S III mini'
     - regex: '(?:SAMSUNG-)?GT-I9105'
       model: 'GALAXY S II Plus'
+    - regex: '(?:SAMSUNG-)?GT-I9100'
+      model: 'GALAXY S II'
     - regex: '(?:SAMSUNG-)?(?:GT-I9195|SCH-I435)'
       model: 'GALAXY S4 mini'
     - regex: '(?:SAMSUNG-)?GT-I9205'
@@ -2164,8 +2166,6 @@ Samsung:
       model: 'GALAXY Discover'
     - regex: '(?:SAMSUNG-)?SCH-S738'
       model: 'GALAXY Centura'
-    - regex: '(?:SAMSUNG-)?GT-I9100'
-      model: 'GALAXY S2'
 
     # explicit phablet models
     - regex: '(?:SAMSUNG-)?SM-N910'
