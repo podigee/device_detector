@@ -2164,6 +2164,8 @@ Samsung:
       model: 'GALAXY Discover'
     - regex: '(?:SAMSUNG-)?SCH-S738'
       model: 'GALAXY Centura'
+    - regex: '(?:SAMSUNG-)?GT-I9100'
+      model: 'GALAXY S2'
 
     # explicit phablet models
     - regex: '(?:SAMSUNG-)?SM-N910'

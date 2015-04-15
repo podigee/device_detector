@@ -140,6 +140,18 @@ describe DeviceDetector::Device do
       end
 
     end
+
+    describe 'Smart phone phone' do
+
+      let(:user_agent) { 'Mozilla/5.0 (Linux; U; Android 4.1.2; de-ch; SAMSUNG GT-I9100/I9100XWLSD Build/JZO54K) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30' }
+
+      it 'identifies the device' do
+        device.name.must_equal 'GALAXY S2'
+        device.type.must_equal 'smartphone'
+      end
+
+    end
+
   end
 
 end
