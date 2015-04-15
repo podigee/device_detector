@@ -56,5 +56,19 @@ describe DeviceDetector do
 
   end
 
+  describe 'Windows 8' do
+
+    let(:user_agent) { 'Mozilla/5.0 (Windows NT 6.3; WOW64; Trident/7.0; rv:11.0) like Gecko' }
+
+    describe 'Internet Explorer 11' do
+
+      it 'IE 11 is not a TV on Windows 8 !' do
+        client.device_type.must_equal nil
+      end
+
+    end
+
+  end
+
 end
 
