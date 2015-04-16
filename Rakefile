@@ -1,6 +1,9 @@
 require 'rake'
 require 'rake/testtask'
 
+$:.unshift 'lib'
+require 'device_detector'
+
 Rake::TestTask.new do |t|
   t.pattern = 'spec/**/*_spec.rb'
   t.libs.push 'spec'
@@ -9,14 +12,12 @@ end
 task default: :test
 
 task :detectable_names do
-  require 'device_detector'
-  bot_names = DeviceDetector::Bot.new.send(:regexes).map { |r| r['name'] }.uniq
+  bot_names = DeviceDetector::Bot.new.send(:regexes).map { |r| r['name'] }.uniq.sort_by{|n| n.downcase}
   bot_names.delete('$1')
-  client_names = DeviceDetector::Client.new.send(:regexes).map { |r| r['name'] }.uniq
+  client_names = DeviceDetector::Client.new.send(:regexes).map { |r| r['name'] }.uniq.sort_by{|n| n.downcase}
   client_names.delete('$1')
-  device_filepaths = DeviceDetector::Device.new.send(:filepaths)
-  device_regexes = DeviceDetector::Device.load_regexes(device_filepaths)
-  device_names = device_regexes.flat_map { |dn| dn.keys }.sort.uniq
+  device_regexes = DeviceDetector::Device.new.send(:load_regexes)
+  device_names = device_regexes.flat_map { |dn| dn.keys }.uniq.sort_by{|n| n.downcase}
 
   today = Date.today.strftime
 
