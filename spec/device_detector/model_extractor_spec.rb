@@ -12,9 +12,9 @@ describe DeviceDetector::ModelExtractor do
 
       let(:regex_meta) do
         {
-          'regex'  => '(?:Apple-)?iPhone ?(3GS?|4S?|5[CS]?|6(:? Plus)?)?',
-          'model'  => 'iPhone $1',
-          'device' => 'smartphone'
+          :regex  => '(?:Apple-)?iPhone ?(3GS?|4S?|5[CS]?|6(:? Plus)?)?',
+          :model  => 'iPhone $1',
+          :device => 'smartphone'
         }
       end
 
@@ -46,9 +46,9 @@ describe DeviceDetector::ModelExtractor do
       let(:device_name) { 'iPhone 6' }
       let(:regex_meta) do
         {
-          'regex'  => '(?:Apple-)?iPhone7[C,]2',
-          'model'  => 'iPhone 6',
-          'device' => 'smartphone'
+          :regex  => '(?:Apple-)?iPhone7[C,]2',
+          :model  => 'iPhone 6',
+          :device => 'smartphone'
         }
       end
 

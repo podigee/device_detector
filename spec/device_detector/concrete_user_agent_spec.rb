@@ -56,5 +56,45 @@ describe DeviceDetector do
 
   end
 
+  describe 'Chrome on Windows' do
+
+    describe '32bit' do
+
+      let(:user_agent) { 'Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/37.0.2062.103 Safari/537.36' }
+
+      it 'returns the correct client name' do
+        client.name.must_equal 'Chrome'
+      end
+
+      it 'recognizes the device name' do
+        client.device_name.must_be_nil
+      end
+
+      it 'recognizes the device type' do
+        client.device_type.must_equal "desktop"
+      end
+
+    end
+
+    describe '64bit' do
+
+      let(:user_agent) { 'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2228.0 Safari/537.36' }
+
+      it 'returns the correct client name' do
+        client.name.must_equal 'Chrome'
+      end
+
+      it 'recognizes the device name' do
+        client.device_name.must_be_nil
+      end
+
+      it 'recognizes the device type' do
+        client.device_type.must_equal "desktop"
+      end
+
+    end
+
+  end
+
 end
 

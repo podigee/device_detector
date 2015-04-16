@@ -14,6 +14,8 @@ describe DeviceDetector do
         user_agent = f["user_agent"]
         detector = DeviceDetector.new(user_agent)
         os = detector.send(:os)
+        device = detector.send(:device)
+        regex_meta = device.send(:regex_meta)
 
         describe user_agent do
           it "should be detected" do
@@ -24,19 +26,19 @@ describe DeviceDetector do
                 assert_equal f["client"]["name"], detector.name, "failed client name detection"
               end
               if f["os_family"] != "Unknown"
-                # assert_equal f["os_family"], os.family, "failed os family detection"
+                assert_equal f["os_family"], os.family, "failed os family detection"
                 assert_equal f["os"]["name"], os.name, "failed os name detection"
-                # assert_equal f["os"]["short_name"], os.short_name, "failed os short name detection"
+                assert_equal f["os"]["short_name"], os.short_name, "failed os short name detection"
                 assert_equal f["os"]["version"], os.full_version, "failed os version detection"
               end
               if f["device"]
                 expected_type = f["device"]["type"]
                 actual_type = detector.device_type
-                # if expected_type != actual_type
-                #    puts "\n", f.inspect, expected_type, actual_type, detector.device_name
-                #    debugger
-                #    detector.device_type
-                # end
+                if expected_type != actual_type
+                  # puts "\n", f.inspect, expected_type, actual_type, detector.device_name, regex_meta.inspect
+                  # debugger
+                  # detector.device_type
+                end
                 assert_equal expected_type, actual_type, "failed device type detection"
                 model = f["device"]["model"]
                 model = model.to_s unless model.nil?

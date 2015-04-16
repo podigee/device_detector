@@ -4,7 +4,7 @@ class DeviceDetector
     private
 
     def metadata_string
-      String(regex_meta['version'])
+      String(regex_meta[:version])
     end
 
   end

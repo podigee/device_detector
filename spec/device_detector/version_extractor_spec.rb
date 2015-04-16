@@ -14,9 +14,9 @@ describe DeviceDetector::VersionExtractor do
 
       let(:regex_meta) do
         {
-          'regex' => 'Avant Browser',
-          'name' => 'Avant Browser',
-          'version' => ''
+          :regex => 'Avant Browser',
+          :name => 'Avant Browser',
+          :version => ''
         }
       end
 
@@ -32,9 +32,9 @@ describe DeviceDetector::VersionExtractor do
       let(:version) { 'BonEcho (2.0)' }
       let(:regex_meta) do
         {
-          'regex' => '(BonEcho|GranParadiso|Lorentz|Minefield|Namoroka|Shiretoko)/(\d+[\.\d]+)',
-          'name' => 'Firefox',
-          'version' => '$1 ($2)'
+          :regex => '(BonEcho|GranParadiso|Lorentz|Minefield|Namoroka|Shiretoko)/(\d+[\.\d]+)',
+          :name => 'Firefox',
+          :version => '$1 ($2)'
         }
       end
 
@@ -43,7 +43,7 @@ describe DeviceDetector::VersionExtractor do
       end
 
       it 'removes trailing white spaces' do
-        regex_meta['version'] = regex_meta['version'] + '   '
+        regex_meta[:version] = regex_meta[:version] + '   '
         extractor.call.must_equal version
       end
 
@@ -54,8 +54,8 @@ describe DeviceDetector::VersionExtractor do
       let(:user_agent) { 'Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.0; Trident/4.0)' }
       let(:regex_meta) do
         {
-          'regex' => 'MSIE.*Trident/4.0',
-          'version' => '8.0'
+          :regex => 'MSIE.*Trident/4.0',
+          :version => '8.0'
         }
       end
 

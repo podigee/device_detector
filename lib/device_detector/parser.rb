@@ -23,7 +23,7 @@ class DeviceDetector
 
     def matching_regex
       from_cache([self.class.name, user_agent]) do
-        regexes.find { |r| user_agent =~ r['regex'] }
+        regexes.find { |r| user_agent =~ r[:regex] }
       end
     end
 
@@ -37,30 +37,41 @@ class DeviceDetector
 
     def filepaths
       filenames.map do |filename|
-        File.join(ROOT, 'regexes', filename)
+        [ filename.to_sym, File.join(ROOT, 'regexes', filename) ]
       end
     end
 
-    def regexes_for(filepaths)
+    def regexes_for(file_paths)
       from_cache(['regexes', self.class]) do
-        raw_regexes = load_regexes
-        parsed_regexes = raw_regexes.map { |r| parse_regexes(r) }
-
-        parsed_regexes.flatten
+        load_regexes(file_paths).flat_map { |path, regex| parse_regexes(path, regex) }
       end
     end
 
-    def load_regexes
-      raw_files = filepaths.map { |path| File.read(path) }
-
-      raw_files.map { |f| YAML.load(f) }
+    def load_regexes(file_paths)
+      file_paths.map { |path, full_path| [path, symbolize_keys!(YAML.load_file(full_path))] }
     end
 
-    def parse_regexes(raw_regexes)
+    def symbolize_keys!(object)
+      case object
+      when Array
+        object.map!{ |v| symbolize_keys!(v) }
+      when Hash
+        object.keys.each{ |k| object[k.to_sym] = symbolize_keys!(object.delete(k)) if k.is_a?(String) }
+      end
+      object
+    end
+
+    def parse_regexes(path, raw_regexes)
       raw_regexes.map do |meta|
-        meta['regex'] = Regexp.new(meta['regex']) if meta['regex'].is_a? String
+        fail "invalid device spec: #{meta.inspect}" unless meta[:regex].is_a? String
+        meta[:regex] = build_regex(meta[:regex])
+        meta[:path] = path
         meta
       end
+    end
+
+    def build_regex(src)
+      Regexp.new('(?:^|[^A-Z0-9\_\-])(?:' + src + ')', Regexp::IGNORECASE)
     end
 
     def from_cache(key)

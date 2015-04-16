@@ -132,10 +132,10 @@ describe DeviceDetector::Device do
 
     describe 'televisions' do
 
-      let(:user_agent) { 'Mozilla/5.0 (Linux; NetCast; U) AppleWebKit/537.31 (KHTML, like Gecko) Chrome/26.0.1410.33 Safari/537.31 SmartTV/5.0' }
+      let(:user_agent) { 'Mozilla/5.0 (Unknown; Linux armv7l) AppleWebKit/537.1+ (KHTML, like Gecko) Safari/537.1+ HbbTV/1.1.1 ( ;LGE ;NetCast 4.0 ;03.10.81 ;1.0M ;)' }
 
       it 'identifies the device' do
-        device.name.must_equal 'NetCast'
+        device.name.must_equal 'NetCast 4.0'
         device.type.must_equal 'tv'
       end
 
