@@ -5,9 +5,9 @@
 # @license http://www.gnu.org/licenses/lgpl.html LGPL v3 or later
 ###############
 
-#newer versions of IE
+# Spartan (newer versions of IE)
 - regex: 'Edge[ /](\d+[\.\d]+)'
-  name: 'Internet Explorer'
+  name: 'Project Spartan'
   version: '$1'
   engine:
     default: 'Edge'
@@ -422,7 +422,7 @@
   version: '$1'
   engine:
     default: 'Text-based'
-
+  
 #NCSA Mosaic
 - regex: 'NCSA_Mosaic(?:/(\d+[\.\d]+))?'
   name: 'NCSA Mosaic'
@@ -432,7 +432,7 @@
 - regex: 'ABrowse(?: (\d+[\.\d]+))?'
   name: 'ABrowse'
   version: '$1'
-
+  
 #Amaya
 - regex: 'amaya(?:/(\d+[\.\d]+))?'
   name: 'Amaya'
@@ -442,31 +442,31 @@
 - regex: 'AmigaVoyager(?:/(\d+[\.\d]+))?'
   name: 'Amiga Voyager'
   version: '$1'
-
+  
 #Amiga Aweb
 - regex: 'Amiga-Aweb(?:/(\d+[\.\d]+))?'
   name: 'Amiga Aweb'
   version: '$1'
-
+  
 #Arora
 - regex: 'Arora(?:/(\d+[\.\d]+))?'
   name: 'Arora'
   version: '$1'
   engine:
     default: 'WebKit'
-
+  
 #Beonex
 - regex: 'Beonex(?:/(\d+[\.\d]+))?'
   name: 'Beonex'
   version: '$1'
   engine:
     default: 'Gecko'
-
+  
 #BlackBerry Browser
 - regex: 'BlackBerry|PlayBook|BB10'
   name: 'BlackBerry Browser'
   version: ''
-
+  
 #BrowseX
 - regex: 'BrowseX \((\d+[\.\d]+)'
   name: 'BrowseX'
@@ -481,7 +481,7 @@
 - regex: 'Cheshire(?:/(\d+[\.\d]+))?'
   name: 'Cheshire'
   version: '$1'
-
+  
 #Dillo
 - regex: 'Dillo(?:/(\d+[\.\d]+))?'
   name: 'Dillo'
@@ -495,52 +495,52 @@
   version: '$1'
   engine:
     default: 'WebKit'
-
+  
 #Elinks
 - regex: 'Elinks(?:/(\d+[\.\d]+))?'
   name: 'Elinks'
   version: '$1'
   engine:
     default: 'Text-based'
-
+  
 #Firebird
 - regex: 'Firebird(?:/(\d+[\.\d]+))?'
   name: 'Firebird'
   version: '$1'
   engine:
     default: 'Gecko'
-
+  
 #Fluid
 - regex: 'Fluid(?:/(\d+[\.\d]+))?'
   name: 'Fluid'
   version: '$1'
   engine:
     default: 'WebKit'
-
+  
 #Galeon
 - regex: 'Galeon(?:/(\d+[\.\d]+))?'
   name: 'Galeon'
   version: '$1'
   engine:
     default: 'Gecko'
-
+  
 #Google Earth
 - regex: 'Google Earth(?:/(\d+[\.\d]+))?'
   name: 'Google Earth'
   version: '$1'
   engine:
     default: 'WebKit'
-
+  
 #HotJava
 - regex: 'HotJava(?:/(\d+[\.\d]+))?'
   name: 'HotJava'
   version: '$1'
-
+  
 #IBrowse
 - regex: 'IBrowse(?:[ /](\d+[\.\d]+))?'
   name: 'IBrowse'
   version: '$1'
-
+  
 #iCab
 - regex: 'iCab(?:[ /](\d+[\.\d]+))?'
   name: 'iCab'
@@ -612,19 +612,19 @@
   version: '$1'
   engine:
     default: '' # multi engine
-
+  
 #Kindle Browser
 - regex: 'Kindle/(\d+[\.\d]+)'
   name: 'Kindle Browser'
   version: '$1'
-
+  
 #K-meleon
 - regex: 'K-meleon(?:/(\d+[\.\d]+))?'
   name: 'K-meleon'
   version: '$1'
   engine:
     default: 'Gecko'
-
+  
 #Links
 - regex: 'Links(?: \((\d+[\.\d]+))?'
   name: 'Links'
@@ -636,19 +636,19 @@
 - regex: 'UP.Browser(?:/(\d+[\.\d]+))?'
   name: 'Openwave Mobile Browser'
   version: '$1'
-
+  
 #OmniWeb
 - regex: 'OmniWeb(?:/[v]?(\d+[\.\d]+))?'
   name: 'OmniWeb'
   version: '$1'
   engine:
     default: 'WebKit'
-
+  
 #Phoenix
 - regex: 'Phoenix(?:/(\d+[\.\d]+))?'
   name: 'Phoenix'
   version: '$1'
-
+  
 #Mobile Silk
 - regex: 'Silk(?:/(\d+[\.\d]+))?'
   name: 'Mobile Silk'
@@ -677,7 +677,7 @@
 - regex: '^Nokia|Nokia[EN]?\d+'
   name: 'Nokia Browser'
   version: ''
-
+  
 #NetFront
 - regex: 'NetFrontLifeBrowser(?:/(\d+[\.\d]+))?'
   name: 'NetFront Life'
@@ -705,6 +705,11 @@
 - regex: 'Obigo|Teleca'
   name: 'Obigo'
   version: ''
+
+#Odyssey Web Browser
+- regex: 'Odyssey Web Browser(?:.*OWB/(\d+[\.\d]+))?'
+  name: 'Odyssey Web Browser'
+  version: '$1'
 
 #Off By One
 - regex: 'OffByOne'
@@ -761,7 +766,7 @@
   version: ''
   engine:
     default: 'WebKit'
-
+  
 #Safari
 - regex: '(?:iPod|iPad|iPhone).+Version/(\d+[\.\d]+)'
   name: 'Mobile Safari'
@@ -783,4 +788,3 @@
   version: '$1'
   engine:
     default: 'WebKit'
-

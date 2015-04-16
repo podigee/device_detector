@@ -21,12 +21,12 @@ class DeviceDetector
     # televisions.yml works best at the end
     def filenames
       [
-        'devices/cameras.yml',
-        'devices/car_browsers.yml',
-        'devices/consoles.yml',
-        'devices/portable_media_players.yml',
-        'devices/mobiles.yml',
-        'devices/televisions.yml',
+        'device/televisions.yml',
+        'device/consoles.yml',
+        'device/car_browsers.yml',
+        'device/cameras.yml',
+        'device/portable_media_player.yml',
+        'device/mobiles.yml',
       ]
     end
 

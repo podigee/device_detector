@@ -39,3 +39,8 @@ task :detectable_names do
   puts
 end
 
+desc "update regex database from piwik project"
+task :update_regexes do
+  top = File.expand_path('..', __FILE__)
+  system "curl -s -L https://api.github.com/repos/piwik/device-detector/tarball/master | tar xzvf - --strip-components 1 --include */regexes/*.yml -C #{top}"
+end
