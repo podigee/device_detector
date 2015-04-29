@@ -22,5 +22,5 @@ Gem::Specification.new do |spec|
 
   spec.add_development_dependency 'minitest'
   spec.add_development_dependency 'rake'
-  spec.add_development_dependency 'pry', '~> 0.10'
+  spec.add_development_dependency 'pry', '>= 0.10'
 end

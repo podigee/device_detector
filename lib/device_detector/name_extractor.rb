@@ -12,7 +12,7 @@ class DeviceDetector
     private
 
     def metadata_string
-      regex_meta['name']
+      regex_meta[:name]
     end
 
   end

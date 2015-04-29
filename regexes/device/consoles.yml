@@ -38,4 +38,3 @@ Sony:
   regex: 'PlayStation (3|4|Portable|Vita)'
   device: 'console'
   model: 'PlayStation $1'
-

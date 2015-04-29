@@ -73,8 +73,6 @@ LG:
   models:
     - regex: '(NetCast [0-9]{1}.[0-9]{1}|GLOBAL_PLAT3)'
       model: '$1'
-    - regex: 'LGE_DLNA_SDK|NetCast'
-      model: 'NetCast'
 
 # Loewe
 Loewe:
@@ -240,4 +238,3 @@ Videoweb:
       model: '$1'
     - regex: 'ANTGalio/3.0'
       model: '600S'
-

@@ -9,12 +9,12 @@ class DeviceDetector
 
     def filenames
       [
-        'browsers.yml',
-        'feed_readers.yml',
-        'libraries.yml',
-        'mediaplayers.yml',
-        'mobile_apps.yml',
-        'pim.yml'
+        'client/feed_readers.yml',
+        'client/mobile_apps.yml',
+        'client/mediaplayers.yml',
+        'client/pim.yml',
+        'client/browsers.yml',
+        'client/libraries.yml',
       ]
     end
   end

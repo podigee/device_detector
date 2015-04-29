@@ -14,23 +14,14 @@ class DeviceDetector
 
     def extract_metadata
       user_agent.match(regex) do |match_data|
-        replace_metadata_string_with(match_data)
+        metadata_string.gsub(/\$(\d)/) do
+          match_data[$1.to_i].to_s
+        end.strip
       end
-    end
-
-    def replace_metadata_string_with(match_data)
-      string = metadata_string
-
-      1.upto(9) do |index|
-        matched_data = String(match_data[index])
-        string = string.gsub(/\$#{index}/, matched_data)
-      end
-
-      string.strip
     end
 
     def regex
-      @regex ||= regex_meta['regex']
+      @regex ||= regex_meta[:regex]
     end
 
   end

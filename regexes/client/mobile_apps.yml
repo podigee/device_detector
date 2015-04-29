@@ -29,4 +29,3 @@
 - regex: '.*__weibo__([0-9\.]+)__'
   name: 'Sina Weibo'
   version: '$1'
-
