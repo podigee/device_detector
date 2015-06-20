@@ -3,17 +3,17 @@ class DeviceDetector
 
     # order is relevant for testing with fixtures
     DEVICE_NAMES = [
-        "desktop",
-        "smartphone",
-        "tablet",
-        "feature phone",
-        "console",
-        "tv",
-        "car browser",
-        "smart display",
-        "camera",
-        "portable media player",
-        "phablet"
+        'desktop',
+        'smartphone',
+        'tablet',
+        'feature phone',
+        'console',
+        'tv',
+        'car browser',
+        'smart display',
+        'camera',
+        'portable media player',
+        'phablet'
     ]
 
     def known?

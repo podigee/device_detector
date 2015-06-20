@@ -44,11 +44,11 @@ class DeviceDetector
     t = device.type
 
     if t.nil? && android_tablet_fragment?
-      t = "tablet"
+      t = 'tablet'
     end
 
     if t.nil? && android_mobile_fragment?
-      t = "smartphone"
+      t = 'smartphone'
     end
 
     # Android up to 3.0 was designed for smartphones only. But as 3.0,
@@ -60,16 +60,16 @@ class DeviceDetector
     # smartphones Devices running Android 3.X are tablets. Device type
     # of Android 2.X and 4.X+ are unknown
     if t.nil? && os.short_name == 'AND' && os.full_version && !os.full_version.empty?
-      if os.full_version < "2"
-        t = "smartphone"
-      elsif os.full_version >= "3" && os.full_version < "4"
-        t = "tablet"
+      if os.full_version < '2'
+        t = 'smartphone'
+      elsif os.full_version >= '3' && os.full_version < '4'
+        t = 'tablet'
       end
     end
 
     # All detected feature phones running android are more likely a smartphone
-    if t == "feature phone" && os.family == 'Android'
-      t = "smartphone"
+    if t == 'feature phone' && os.family == 'Android'
+      t = 'smartphone'
     end
 
     # According to http://msdn.microsoft.com/en-us/library/ie/hh920767(v=vs.85).aspx
@@ -81,12 +81,12 @@ class DeviceDetector
     # all Windows 8 touch devices are tablets.
     if t.nil? && touch_enabled? &&
        (os.short_name == 'WRT' || (os.short_name == 'WIN' && os.full_version && os.full_version >= '8'))
-      t = "tablet"
+      t = 'tablet'
     end
 
     # set device type to desktop for all devices running a desktop os that were not detected as an other device type
     if t.nil? && os.desktop?
-      t = "desktop"
+      t = 'desktop'
     end
 
     t
