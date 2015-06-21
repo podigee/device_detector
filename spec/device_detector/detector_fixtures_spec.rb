@@ -8,7 +8,13 @@ describe DeviceDetector do
 
     describe File.basename(fixture_file) do
 
-      fixtures = YAML.load(File.read(fixture_file))
+      fixtures = nil
+      begin
+        fixtures = YAML.load(File.read(fixture_file))
+      rescue Psych::SyntaxError => e
+        fail "Failed to parse #{fixture_file}, reason: #{e}"
+      end
+
       fixtures.each do |f|
 
         user_agent = f["user_agent"]
