@@ -594,7 +594,7 @@
     short_name: XBT
     version: "12.10"
 -
-  user_agent: Opera/9.80 (X11; Linux i686; U; Lubuntu 10.10; en) Presto/2.7
+  user_agent: Opera/9.80 (X11; Linux i686; U; lubuntu 10.10; en) Presto/2.7
   os:
     name: Lubuntu
     short_name: LBT
