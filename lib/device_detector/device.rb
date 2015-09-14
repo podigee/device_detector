@@ -29,7 +29,7 @@ class DeviceDetector
     end
 
     def brand
-      regex_meta[:brand].to_s
+      regex_meta[:brand]
     end
 
     private
@@ -84,7 +84,7 @@ class DeviceDetector
           meta[:models].each do |model|
             fail "invalid model spec: #{model.inspect}" unless model[:regex].is_a? String
             model[:regex] = build_regex(model[:regex])
-            model[:brand] = brand unless model[:brand]
+            model[:brand] = brand.to_s unless model[:brand]
           end
         end
         meta[:path] = path
