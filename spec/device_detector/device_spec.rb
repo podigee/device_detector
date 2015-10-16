@@ -82,6 +82,7 @@ describe DeviceDetector::Device do
       it 'identifies the device' do
         device.name.must_equal 'GALAXY S5'
         device.type.must_equal 'smartphone'
+        device.brand.must_equal 'Samsung'
       end
 
     end
@@ -93,6 +94,7 @@ describe DeviceDetector::Device do
       it 'identifies the device' do
         device.name.must_equal 'GALAXY Camera'
         device.type.must_equal 'camera'
+        device.brand.must_equal 'Samsung'
       end
 
     end
@@ -104,6 +106,7 @@ describe DeviceDetector::Device do
       it 'identifies the device' do
         device.name.must_equal 'Model S'
         device.type.must_equal 'car browser'
+        device.brand.must_be_nil
       end
 
     end
@@ -115,6 +118,7 @@ describe DeviceDetector::Device do
       it 'identifies the device' do
         device.name.must_equal 'Wii'
         device.type.must_equal 'console'
+        device.brand.must_be_nil
       end
 
     end
@@ -126,6 +130,7 @@ describe DeviceDetector::Device do
       it 'identifies the device' do
         device.name.must_equal 'iPod Touch'
         device.type.must_equal 'portable media player'
+        device.brand.must_equal 'Apple'
       end
 
     end
@@ -137,6 +142,7 @@ describe DeviceDetector::Device do
       it 'identifies the device' do
         device.name.must_equal 'NetCast 4.0'
         device.type.must_equal 'tv'
+        device.brand.must_equal 'LG'
       end
 
     end

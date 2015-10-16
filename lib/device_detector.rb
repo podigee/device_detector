@@ -40,6 +40,10 @@ class DeviceDetector
     device.name
   end
 
+  def device_brand
+    device.brand
+  end
+
   def device_type
     t = device.type
 
