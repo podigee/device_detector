@@ -1,5 +1,16 @@
 # Change Log
 
+## [0.8.2]
+- Added device brand support. Thanks to [dnswus](https://github.com/dnswus).
+
+## [0.8.1]
+- Added Instacast detection rules
+- Updated test fixtures
+
+## [0.8.0]
+- Added a better and more robust device detection. Thanks to [skaes](https://github.com/skaes).
+- Added test fixture from the piwik project.
+
 ## [0.7.0]
 - [Issue #8](https://github.com/podigee/device_detector/issues/8) Fixed Mac OS X full version format. Thanks to [aaronchi](https://github.com/aaronchi) for reporting.
 
