@@ -3,6 +3,8 @@ class DeviceDetector
 
     def call
       s = super.to_s.gsub('_',' ').strip
+      s = s.gsub(/ TD$/i, '')
+
       s.empty? ? nil : s
     end
 
