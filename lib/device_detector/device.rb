@@ -64,7 +64,7 @@ class DeviceDetector
     end
 
     def hbbtv?
-      @regex_hbbtv ||= build_regex('HbbTV/([1-9]{1}(\.[0-9]{1}){1,2})')
+      @regex_hbbtv ||= build_regex('HbbTV/([1-9]{1}(?:\.[0-9]{1}){1,2})')
       user_agent =~ @regex_hbbtv
     end
 
