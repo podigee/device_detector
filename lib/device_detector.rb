@@ -47,7 +47,7 @@ class DeviceDetector
   def device_type
     t = device.type
 
-    if t.nil? && android_tablet_fragment?
+    if t.nil? && android_tablet_fragment? || opera_tablet?
       t = 'tablet'
     end
 
@@ -88,8 +88,17 @@ class DeviceDetector
       t = 'tablet'
     end
 
-    # set device type to desktop for all devices running a desktop os that were not detected as an other device type
-    if t.nil? && os.desktop?
+    if opera_tv_store?
+      t = 'tv'
+    end
+
+    if t.nil? && ['Kylo', 'Espial TV Browser'].include?(client.name)
+      t = 'tv'
+    end
+
+    # set device type to desktop for all devices running a desktop os that were
+    # not detected as an other device type
+    if t.nil? && os.desktop? && !puffin_browser?
       t = 'desktop'
     end
 
@@ -163,6 +172,19 @@ class DeviceDetector
 
   def touch_enabled?
     user_agent =~ build_regex('Touch')
+  end
+
+  def opera_tv_store?
+    user_agent =~ build_regex('Opera TV Store')
+  end
+
+  def opera_tablet?
+    user_agent =~ build_regex('Opera Tablet')
+  end
+
+  # This is a workaround until we support detecting mobile only browsers
+  def puffin_browser?
+    client.name == 'Puffin'
   end
 
   def build_regex(src)

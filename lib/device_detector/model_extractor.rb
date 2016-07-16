@@ -5,6 +5,8 @@ class DeviceDetector
       s = super.to_s.gsub('_',' ').strip
       s = s.gsub(/ TD$/i, '')
 
+      return nil if s == 'Build'
+
       s.empty? ? nil : s
     end
 
