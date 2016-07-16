@@ -26,7 +26,7 @@ describe DeviceDetector do
         describe user_agent do
           it "should be detected" do
             if detector.bot?
-              assert_equal f["name"], detector.bot_name, "failed bot name detection"
+              assert_equal f["bot"]["name"], detector.bot_name, "failed bot name detection"
             else
               if f["client"]
                 assert_equal f["client"]["name"], detector.name, "failed client name detection"
