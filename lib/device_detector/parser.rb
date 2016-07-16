@@ -71,7 +71,7 @@ class DeviceDetector
     end
 
     def build_regex(src)
-      Regexp.new('(?:^|[^A-Z0-9\_\-])(?:' + src + ')', Regexp::IGNORECASE)
+      Regexp.new('(?:^|[^A-Z0-9\-_]|[^A-Z0-9\-]_|sprd-)(?:' + src + ')', Regexp::IGNORECASE)
     end
 
     def from_cache(key)
