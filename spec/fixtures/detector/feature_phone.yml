@@ -85,6 +85,28 @@
   os_family: Unknown
   browser_family: Unknown
 - 
+  user_agent: |
+    GIONEE50_12864_11B_HW (MRE\\2.5.00(3072) resolution\\240320 chipset\\MT6250 touch\\1 tpannel\\0 camera\\1 gsensor\\0 keyboard\
+    ormal) 1307SY_0201_V1045 Release/2013.06.28 WAP Browser/MAUI (HTTP PGDL; HTTPS) Profile/Profile/MIDP-2.0 Configuration/CLDC-1.1 Q03C1-2.40 en-US
+  os: [ ]
+  client: null
+  device:
+    type: feature phone
+    brand: GI
+    model: 50
+  os_family: Unknown
+  browser_family: Unknown
+- 
+  user_agent: GIONEE S80/Q03C MAUI-browser/MIDP2.0/CLDC1.1/Screen-240X320
+  os: [ ]
+  client: null
+  device:
+    type: feature phone
+    brand: GI
+    model: S80
+  os_family: Unknown
+  browser_family: Unknown
+- 
   user_agent: Karbonn K222s WAP-Browser/1.0.0
   os: [ ]
   client: null
@@ -135,6 +157,7 @@
     name: Brew
     short_name: BMP
     version:
+    platform:
   client:
     type: browser
     name: Opera Mobile
@@ -183,6 +206,7 @@
     name: Brew
     short_name: BMP
     version: "1.0.4"
+    platform:
   client:
     type: browser
     name: NetFront
@@ -211,6 +235,7 @@
     name: Windows CE
     short_name: WCE
     version:
+    platform:
   client:
     type: browser
     name: IE Mobile
@@ -223,6 +248,21 @@
     model: Kin Two
   os_family: Windows Mobile
   browser_family: Internet Explorer
+- 
+  user_agent: Mozilla/4.0 (jig browser 7.3.7; P902i)
+  os: [ ]
+  client:
+    type: browser
+    name: Jig Browser
+    short_name: JI
+    version: "7.3.7"
+    engine:
+  device:
+    type: feature phone
+    brand: PA
+    model: P902i
+  os_family: Unknown
+  browser_family: Unknown
 - 
   user_agent: SAMSUNG-GT-E2152/E2152XXJK2 NetFront/3.5 Profile/MIDP-2.0 Configuration/CLDC-1.1
   os: [ ]
@@ -379,6 +419,7 @@
     name: Symbian^3
     short_name: SY3
     version:
+    platform:
   client:
     type: browser
     name: SEMC-Browser
@@ -397,6 +438,7 @@
     name: Symbian OS Series 60
     short_name: S60
     version: "5.0"
+    platform:
   client:
     type: browser
     name: Nokia Browser
@@ -415,6 +457,7 @@
     name: Symbian OS Series 60
     short_name: S60
     version: "5.0"
+    platform:
   client:
     type: browser
     name: Nokia Browser
@@ -488,6 +531,7 @@
     name: Symbian OS Series 60
     short_name: S60
     version: "5.0"
+    platform:
   client:
     type: browser
     name: Nokia Browser
@@ -506,6 +550,7 @@
     name: Symbian OS Series 60
     short_name: S60
     version: "5.0"
+    platform:
   client:
     type: browser
     name: Nokia Browser
@@ -629,6 +674,7 @@
     name: Brew
     short_name: BMP
     version: "3.1.5"
+    platform:
   client:
     type: browser
     name: NetFront
@@ -647,6 +693,7 @@
     name: Brew
     short_name: BMP
     version: "1.0.2"
+    platform:
   client:
     type: browser
     name: NetFront
@@ -705,6 +752,7 @@
     name: Windows CE
     short_name: WCE
     version:
+    platform:
   client:
     type: browser
     name: IE Mobile
@@ -717,3 +765,18 @@
     model: XV6175
   os_family: Windows Mobile
   browser_family: Internet Explorer
+- 
+  user_agent: vk-vk900/1.1 up.browser/6.2.3.4 (gui) mmp/2.0
+  os: [ ]
+  client:
+    type: browser
+    name: Openwave Mobile Browser
+    short_name: OV
+    version: "6.2.3.4"
+    engine:
+  device:
+    type: feature phone
+    brand: VK
+    model: vk900
+  os_family: Unknown
+  browser_family: Unknown

@@ -10,15 +10,25 @@
   name: 'AndroidDownloadManager'
   version: '$1'
 
-# AFNetworking generic
-- regex: '([^/]+)/(\d+(?:\.\d+)+) \((?:iPhone|iPad); iOS [0-9\.]+; Scale/[0-9\.]+\)'
-  name: '$1'
-  version: '$2'
+# Facebook
+- regex: '(?:FBAV|com.facebook.katana)(?:[ /]([\d\.]+))?'
+  name: 'Facebook'
+  version: '$1'
 
 # FeedR
 - regex: 'FeedR(?:/([\d\.]+))?'
   name: 'FeedR'
   version: '$1'
+
+# Google Play Kiosk
+- regex: 'com.google.android.apps.magazines'
+  name: 'Google Play Newsstand'
+  version: ''
+
+# Google Plus
+- regex: 'com.google.GooglePlus'
+  name: 'Google Plus'
+  version: ''
 
 # WeChat
 - regex: 'MicroMessenger/([^ ]+)'
@@ -28,4 +38,29 @@
 # Sina Weibo
 - regex: '.*__weibo__([0-9\.]+)__'
   name: 'Sina Weibo'
+  version: '$1'
+
+# Pinterest
+- regex: 'Pinterest(?:/([\d\.]+))?'
+  name: 'Pinterest'
+  version: '$1'
+
+# YouTube
+- regex: 'com.google.android.youtube(?:/([\d\.]+))?'
+  name: 'YouTube'
+  version: '$1'
+
+# AFNetworking generic
+- regex: '([^/]+)/(\d+(?:\.\d+)+) \((?:iPhone|iPad); iOS [0-9\.]+; Scale/[0-9\.]+\)'
+  name: '$1'
+  version: '$2'
+
+# WhatsApp
+- regex: 'WhatsApp(?:[ /]([\d\.]+))?'
+  name: 'WhatsApp'
+  version: '$1'
+
+# Line
+- regex: 'Line(?:[ /]([\d\.]+))'
+  name: 'Line'
   version: '$1'

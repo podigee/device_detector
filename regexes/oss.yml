@@ -8,9 +8,9 @@
 ##########
 # Tizen
 ##########
-- regex: 'Tizen'
+- regex: 'Tizen[ /]?(\d+[\.\d]+)?'
   name: 'Tizen'
-  version: ''
+  version: '$1'
 
 
 
@@ -40,9 +40,9 @@
   name: 'Windows Phone'
   version: ''
 
-- regex: 'Windows CE'
+- regex: 'Windows CE(?: (\d+[\.\d]+))?'
   name: 'Windows CE'
-  version: ''
+  version: '$1'
   
   
 - regex: '(?:IEMobile|Windows Mobile)(?: (\d+[\.\d]+))?'
@@ -57,7 +57,7 @@
 - regex: 'Windows NT 6.3; ARM;'
   name: 'Windows RT'
   version: '8.1'
-  
+
 
 ##########
 # Custom Android Roms
@@ -81,7 +81,7 @@
 ##########
 # Android
 ##########
-- regex: '(?:Android|Adr)[ /](?:[a-z]+ )?(\d+[\.\d]+)'
+- regex: '(?:(?:Orca-)?Android|Adr)[ /](?:[a-z]+ )?(\d+[\.\d]+)'
   name: 'Android'
   version: '$1'
   
@@ -102,10 +102,30 @@
   name: 'AmigaOS'
   version: ''
 
+##########
+# ThreadX
+##########
+- regex: 'ThreadX(?:/(\d+[\.\d]*))?'
+  name: 'ThreadX'
+  version: '$1'
+
+##########
+# MTK / Nucleus
+##########
+- regex: 'Nucleus(?:(?: |/v?)(\d+[\.\d]*))?'
+  name: 'MTK / Nucleus'
+  version: '$1'
+- regex: 'MTK(?:(?: |/v?)(\d+[\.\d]*))?'
+  name: 'MTK / Nucleus'
+  version: '$1'
 
 ##########
 # Linux
 ##########
+- regex: 'Maemo'
+  name: 'Maemo'
+  version: '$1'
+
 - regex: 'Arch ?Linux(?:[ /\-](\d+[\.\d]+))?'
   name: 'Arch Linux'
   version: '$1'
@@ -225,7 +245,99 @@
 ##########
 # iOS
 ##########
-- regex: '(?:CPU OS|iPhone OS|iOS)[ _](\d+(?:[_\.]\d+)*)'
+- regex: 'CFNetwork/758\.4\.3'
+  name: 'iOS'
+  version: '9.3.2'
+
+- regex: 'CFNetwork/758\.3\.15'
+  name: 'iOS'
+  version: '9.3'
+
+- regex: 'CFNetwork/758\.2\.[78]'
+  name: 'iOS'
+  version: '9.2'
+
+- regex: 'CFNetwork/758\.1\.6'
+  name: 'iOS'
+  version: '9.1'
+
+- regex: 'CFNetwork/758\.0\.2'
+  name: 'iOS'
+  version: '9.0'
+
+- regex: 'CFNetwork/711\.5\.6'
+  name: 'iOS'
+  version: '8.4.1'
+
+- regex: 'CFNetwork/711\.4\.6'
+  name: 'iOS'
+  version: '8.4'
+
+- regex: 'CFNetwork/711\.3\.18'
+  name: 'iOS'
+  version: '8.3'
+
+- regex: 'CFNetwork/711\.2\.23'
+  name: 'iOS'
+  version: '8.2'
+
+- regex: 'CFNetwork/711\.1\.1[26]'
+  name: 'iOS'
+  version: '8.1'
+
+- regex: 'CFNetwork/711\.0\.6'
+  name: 'iOS'
+  version: '8.0'
+
+- regex: 'CFNetwork/672\.1'
+  name: 'iOS'
+  version: '7.1'
+
+- regex: 'CFNetwork/672\.0'
+  name: 'iOS'
+  version: '7.0'
+
+- regex: 'CFNetwork/609\.1'
+  name: 'iOS'
+  version: '6.1'
+
+- regex: 'CFNetwork/60[29]'
+  name: 'iOS'
+  version: '6.0'
+
+- regex: 'CFNetwork/548\.1'
+  name: 'iOS'
+  version: '5.1'
+
+- regex: 'CFNetwork/548\.0'
+  name: 'iOS'
+  version: '5.0'
+
+- regex: 'CFNetwork/485\.13'
+  name: 'iOS'
+  version: '4.3'
+
+- regex: 'CFNetwork/485\.12'
+  name: 'iOS'
+  version: '4.2'
+
+- regex: 'CFNetwork/485\.10'
+  name: 'iOS'
+  version: '4.1'
+
+- regex: 'CFNetwork/485\.2'
+  name: 'iOS'
+  version: '4.0'
+
+- regex: 'CFNetwork/467\.12'
+  name: 'iOS'
+  version: '3.2'
+
+- regex: 'CFNetwork/459'
+  name: 'iOS'
+  version: '3.1'
+
+- regex: '(?:CPU OS|iPh(?:one)?[ _]OS|iOS)[ _/](\d+(?:[_\.]\d+)*)'
   name: 'iOS'
   version: '$1'
 
@@ -238,6 +350,47 @@
 ##########
 # Mac
 ##########
+
+- regex: 'CFNetwork/760'
+  name: 'Mac'
+  version: '10.11'
+
+- regex: 'CFNetwork/720'
+  name: 'Mac'
+  version: '10.10'
+
+- regex: 'CFNetwork/673'
+  name: 'Mac'
+  version: '10.9'
+
+- regex: 'CFNetwork/596'
+  name: 'Mac'
+  version: '10.8'
+
+- regex: 'CFNetwork/520'
+  name: 'Mac'
+  version: '10.7'
+
+- regex: 'CFNetwork/454'
+  name: 'Mac'
+  version: '10.6'
+
+- regex: 'CFNetwork/(?:438|422|339|330|221|220|217)'
+  name: 'Mac'
+  version: '10.5'
+
+- regex: 'CFNetwork/12[89]'
+  name: 'Mac'
+  version: '10.4'
+
+- regex: 'CFNetwork/1\.2'
+  name: 'Mac'
+  version: '10.3'
+
+- regex: 'CFNetwork/1\.1'
+  name: 'Mac'
+  version: '10.2'
+
 - regex: 'Mac OS X(?: (?:Version )?(\d+(?:[_\.]\d+)+))?'
   name: 'Mac'
   version: '$1'
@@ -340,7 +493,7 @@
   version: ''
   
   
-- regex: 'Symbian OS|SymbOS'
+- regex: 'Symbian(?: OS)?|SymbOS'
   name: 'Symbian OS'
   version: ''
   
@@ -418,8 +571,23 @@
   name: 'WebTV'
   version: '$1'
   
-  
-  
+
+##########
+# Remix OS
+##########
+- regex: 'RemixOS 5.1.1'
+  name: 'Remix OS'
+  version: '1'
+
+- regex: 'RemixOS 6.0'
+  name: 'Remix OS'
+  version: '2'
+
+- regex: 'RemixOS'
+  name: 'Remix OS'
+  version: ''
+
+
 ##########
 # Unix
 ##########
@@ -463,7 +631,7 @@
   version: '$1'
   
   
-- regex: 'IRIX(?:[/ ]?(\d+[\.\d]+))'
+- regex: 'IRIX(?:;64)?(?:[/ ]?(\d+[\.\d]+))'
   name: 'IRIX'
   version: '$1'
   
@@ -519,7 +687,7 @@
 ###########
 # Linux (Generic)
 ###########
-- regex: 'Linux[^a-z]'
+- regex: 'Linux(?:OS)?[^a-z]'
   name: 'GNU/Linux'
   version: ''
 

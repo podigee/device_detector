@@ -5,6 +5,7 @@
     name: AmigaOS
     short_name: AMG
     version:
+    platform:
   client:
     type: browser
     name: Amiga Aweb
@@ -23,6 +24,7 @@
     name: AmigaOS
     short_name: AMG
     version:
+    platform:
   client:
     type: browser
     name: Amiga Voyager
@@ -41,6 +43,7 @@
     name: AmigaOS
     short_name: AMG
     version: "1.3"
+    platform:
   client:
     type: browser
     name: SeaMonkey
@@ -59,6 +62,7 @@
     name: AmigaOS
     short_name: AMG
     version: "3.9"
+    platform:
   client:
     type: browser
     name: IBrowse
@@ -77,6 +81,7 @@
     name: AmigaOS
     short_name: AMG
     version: "4.0"
+    platform:
   client:
     type: browser
     name: IBrowse
@@ -95,6 +100,7 @@
     name: Arch Linux
     short_name: ARL
     version:
+    platform: x64
   client:
     type: browser
     name: Chrome
@@ -113,6 +119,7 @@
     name: Arch Linux
     short_name: ARL
     version:
+    platform: x86
   client:
     type: browser
     name: Firefox
@@ -131,6 +138,7 @@
     name: Arch Linux
     short_name: ARL
     version:
+    platform: x64
   client:
     type: browser
     name: Firefox
@@ -149,6 +157,7 @@
     name: BeOS
     short_name: BEO
     version:
+    platform:
   client:
     type: browser
     name: NetPositive
@@ -167,6 +176,7 @@
     name: CentOS
     short_name: CES
     version: "3.0.6"
+    platform: x64
   client:
     type: browser
     name: Firefox
@@ -185,6 +195,7 @@
     name: CentOS
     short_name: CES
     version: "3.6"
+    platform: x86
   client:
     type: browser
     name: Firefox
@@ -203,6 +214,7 @@
     name: Chrome OS
     short_name: COS
     version: "4731.101.0"
+    platform: x64
   client:
     type: browser
     name: Chrome
@@ -221,6 +233,7 @@
     name: Debian
     short_name: DEB
     version:
+    platform: x86
   client:
     type: browser
     name: Epiphany
@@ -239,6 +252,7 @@
     name: Debian
     short_name: DEB
     version:
+    platform:
   client:
     type: browser
     name: Epiphany
@@ -257,6 +271,7 @@
     name: Debian
     short_name: DEB
     version:
+    platform:
   client:
     type: browser
     name: Konqueror
@@ -275,6 +290,7 @@
     name: Debian
     short_name: DEB
     version: "1.0"
+    platform: x64
   client:
     type: browser
     name: Conkeror
@@ -293,6 +309,7 @@
     name: Debian
     short_name: DEB
     version: "3.0.6"
+    platform: x86
   client:
     type: browser
     name: Iceweasel
@@ -311,6 +328,7 @@
     name: Debian
     short_name: DEB
     version: "7.0"
+    platform: x86
   client:
     type: browser
     name: Epiphany
@@ -329,6 +347,7 @@
     name: Debian
     short_name: DEB
     version: "7.0"
+    platform: x64
   client:
     type: browser
     name: Epiphany
@@ -347,6 +366,7 @@
     name: Fedora
     short_name: FED
     version: "1.9.0.8"
+    platform: x86
   client:
     type: browser
     name: Kazehakase
@@ -365,6 +385,7 @@
     name: Fedora
     short_name: FED
     version: "2.0.0.8"
+    platform: x86
   client:
     type: browser
     name: Firefox
@@ -383,6 +404,7 @@
     name: Fedora
     short_name: FED
     version: "4.1.3"
+    platform: x64
   client:
     type: browser
     name: Konqueror
@@ -401,6 +423,7 @@
     name: Fedora
     short_name: FED
     version: "4.11.4"
+    platform: x64
   client:
     type: browser
     name: Konqueror
@@ -419,6 +442,7 @@
     name: FreeBSD
     short_name: BSD
     version:
+    platform: x64
   client:
     type: browser
     name: Firefox
@@ -437,6 +461,7 @@
     name: FreeBSD
     short_name: BSD
     version:
+    platform: x86
   client:
     type: browser
     name: Galeon
@@ -455,6 +480,7 @@
     name: FreeBSD
     short_name: BSD
     version: "2.2.8"
+    platform:
   client: null
   device:
     type: desktop
@@ -468,6 +494,7 @@
     name: Gentoo
     short_name: GNT
     version:
+    platform: x64
   client:
     type: browser
     name: Firefox
@@ -486,6 +513,7 @@
     name: Gentoo
     short_name: GNT
     version:
+    platform: x64
   client:
     type: browser
     name: Firefox
@@ -504,6 +532,7 @@
     name: GNU/Linux
     short_name: LIN
     version:
+    platform: x64
   client:
     type: browser
     name: Conkeror
@@ -522,6 +551,7 @@
     name: GNU/Linux
     short_name: LIN
     version:
+    platform: x64
   client:
     type: browser
     name: Firefox
@@ -540,6 +570,7 @@
     name: GNU/Linux
     short_name: LIN
     version:
+    platform: x86
   client:
     type: browser
     name: Firefox
@@ -558,6 +589,7 @@
     name: GNU/Linux
     short_name: LIN
     version:
+    platform: x86
   client:
     type: browser
     name: Firefox
@@ -576,6 +608,7 @@
     name: GNU/Linux
     short_name: LIN
     version:
+    platform: x64
   client:
     type: browser
     name: Firefox
@@ -594,6 +627,7 @@
     name: GNU/Linux
     short_name: LIN
     version:
+    platform: x64
   client:
     type: browser
     name: Iceape
@@ -612,6 +646,7 @@
     name: GNU/Linux
     short_name: LIN
     version:
+    platform: x64
   client:
     type: browser
     name: Iceweasel
@@ -630,6 +665,7 @@
     name: GNU/Linux
     short_name: LIN
     version:
+    platform: x64
   client:
     type: browser
     name: Konqueror
@@ -648,6 +684,7 @@
     name: GNU/Linux
     short_name: LIN
     version:
+    platform: x86
   client:
     type: browser
     name: Links
@@ -666,6 +703,7 @@
     name: GNU/Linux
     short_name: LIN
     version:
+    platform: ARM
   client:
     type: browser
     name: MicroB
@@ -684,6 +722,7 @@
     name: GNU/Linux
     short_name: LIN
     version:
+    platform:
   client:
     type: browser
     name: Midori
@@ -702,6 +741,7 @@
     name: GNU/Linux
     short_name: LIN
     version:
+    platform:
   client:
     type: browser
     name: Midori
@@ -720,6 +760,7 @@
     name: GNU/Linux
     short_name: LIN
     version:
+    platform: x86
   client:
     type: browser
     name: NCSA Mosaic
@@ -738,6 +779,7 @@
     name: GNU/Linux
     short_name: LIN
     version:
+    platform: x86
   client:
     type: browser
     name: Netscape
@@ -756,6 +798,7 @@
     name: GNU/Linux
     short_name: LIN
     version:
+    platform:
   client:
     type: browser
     name: Opera
@@ -774,6 +817,7 @@
     name: GNU/Linux
     short_name: LIN
     version:
+    platform: x86
   client:
     type: browser
     name: Phoenix
@@ -787,29 +831,12 @@
   os_family: GNU/Linux
   browser_family: Firefox
 - 
-  user_agent: 'Mozilla/5.0 (X11; U; Linux x86_64; fa-ir) AppleWebKit/534.35 (KHTML, like Gecko)  Chrome/11.0.696.65 Safari/534.35 Puffin/2.10977AP'
-  os:
-    name: GNU/Linux
-    short_name: LIN
-    version:
-  client:
-    type: browser
-    name: Puffin
-    short_name: PU
-    version: "2.10977"
-    engine: WebKit
-  device:
-    type: desktop
-    brand:
-    model:
-  os_family: GNU/Linux
-  browser_family: Unknown
-- 
   user_agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.21 (KHTML, like Gecko) rekonq/2.3.2 Safari/537.21
   os:
     name: GNU/Linux
     short_name: LIN
     version:
+    platform: x64
   client:
     type: browser
     name: Rekonq
@@ -828,6 +855,7 @@
     name: GNU/Linux
     short_name: LIN
     version:
+    platform: x64
   client:
     type: browser
     name: SeaMonkey
@@ -846,6 +874,7 @@
     name: GNU/Linux
     short_name: LIN
     version:
+    platform: x64
   client:
     type: browser
     name: Snowshoe
@@ -864,6 +893,7 @@
     name: GNU/Linux
     short_name: LIN
     version:
+    platform: x86
   client:
     type: browser
     name: Swiftfox
@@ -882,6 +912,7 @@
     name: GNU/Linux
     short_name: LIN
     version:
+    platform: x86
   client:
     type: pim
     name: Thunderbird
@@ -898,6 +929,7 @@
     name: Haiku OS
     short_name: HAI
     version:
+    platform:
   client:
     type: browser
     name: Firefox
@@ -916,6 +948,7 @@
     name: Haiku OS
     short_name: HAI
     version:
+    platform:
   client:
     type: browser
     name: WebPositive
@@ -934,6 +967,7 @@
     name: Inferno
     short_name: INF
     version:
+    platform:
   client:
     type: browser
     name: Charon
@@ -952,6 +986,7 @@
     name: IRIX
     short_name: IRI
     version: "5.3"
+    platform:
   client: null
   device:
     type: desktop
@@ -965,6 +1000,7 @@
     name: Kubuntu
     short_name: KBT
     version:
+    platform:
   client:
     type: browser
     name: Konqueror
@@ -983,6 +1019,7 @@
     name: Kubuntu
     short_name: KBT
     version: "8.04"
+    platform: x64
   client:
     type: browser
     name: Firefox
@@ -1001,6 +1038,7 @@
     name: Mac
     short_name: MAC
     version:
+    platform:
   client:
     type: browser
     name: Arora
@@ -1019,6 +1057,7 @@
     name: Mac
     short_name: MAC
     version:
+    platform:
   client:
     type: browser
     name: Cheshire
@@ -1037,6 +1076,7 @@
     name: Mac
     short_name: MAC
     version:
+    platform:
   client:
     type: browser
     name: Internet Explorer
@@ -1055,6 +1095,7 @@
     name: Mac
     short_name: MAC
     version:
+    platform:
   client:
     type: browser
     name: Midori
@@ -1073,6 +1114,7 @@
     name: Mac
     short_name: MAC
     version:
+    platform:
   client:
     type: browser
     name: Opera Next
@@ -1086,45 +1128,12 @@
   os_family: Mac
   browser_family: Opera
 - 
-  user_agent: Safari/9537.73.11 CFNetwork/673.0.3 Darwin/13.0.0 (x86_64) (MacBookAir6%2C2)
-  os:
-    name: Mac
-    short_name: MAC
-    version:
-  client:
-    type: browser
-    name: Safari
-    short_name: SF
-    version:
-    engine: WebKit
-  device:
-    type: desktop
-    brand:
-    model:
-  os_family: Mac
-  browser_family: Safari
-- 
-  user_agent: SubStream/0.7 CFNetwork/485.12.30 Darwin/10.4.0
-  os:
-    name: Mac
-    short_name: MAC
-    version:
-  client:
-    type: mediaplayer
-    name: SubStream
-    version: "0.7"
-  device:
-    type: desktop
-    brand:
-    model:
-  os_family: Mac
-  browser_family: Unknown
-- 
   user_agent: Mozilla/5.0 (Macintosh; U; PPC Mac OS X; en-us) AppleWebKit/125.5.7 (KHTML, like Gecko) SunriseBrowser/0.833
   os:
     name: Mac
     short_name: MAC
     version:
+    platform:
   client:
     type: browser
     name: Sunrise
@@ -1143,6 +1152,7 @@
     name: Mac
     short_name: MAC
     version:
+    platform:
   client:
     type: browser
     name: Sunrise
@@ -1156,11 +1166,31 @@
   os_family: Mac
   browser_family: Unknown
 - 
+  user_agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_2) AppleWebKit/537.36 (KHTML, like Gecko) brave/0.7.9 Chrome/47.0.2526.73 Electron/0.36.2 Safari/537.36
+  os:
+    name: Mac
+    short_name: MAC
+    version: "10.11.2"
+    platform:
+  client:
+    type: browser
+    name: Brave
+    short_name: BR
+    version: "0.7.9"
+    engine: Blink
+  device:
+    type: desktop
+    brand:
+    model:
+  os_family: Mac
+  browser_family: Chrome
+- 
   user_agent: QuickTime\xaa.7.0.4 (qtver=7.0.4;cpu=PPC;os=Mac 10.3.9)
   os:
     name: Mac
     short_name: MAC
     version: "10.3.9"
+    platform:
   client:
     type: mediaplayer
     name: QuickTime
@@ -1177,6 +1207,7 @@
     name: Mac
     short_name: MAC
     version: "10.5.6"
+    platform:
   client:
     type: browser
     name: Fluid
@@ -1195,6 +1226,7 @@
     name: Mac
     short_name: MAC
     version: "10.5.8"
+    platform:
   client:
     type: browser
     name: iCab
@@ -1213,6 +1245,7 @@
     name: Mac
     short_name: MAC
     version: "10.5.8"
+    platform:
   client:
     type: browser
     name: Safari
@@ -1231,6 +1264,7 @@
     name: Mac
     short_name: MAC
     version: "10.6"
+    platform:
   client:
     type: browser
     name: Camino
@@ -1249,6 +1283,7 @@
     name: Mac
     short_name: MAC
     version: "10.6"
+    platform:
   client:
     type: browser
     name: Firefox
@@ -1267,6 +1302,7 @@
     name: Mac
     short_name: MAC
     version: "10.6"
+    platform:
   client:
     type: pim
     name: Postbox
@@ -1283,6 +1319,7 @@
     name: Mac
     short_name: MAC
     version: "10.6.8"
+    platform:
   client:
     type: mediaplayer
     name: QuickTime
@@ -1299,6 +1336,7 @@
     name: Mac
     short_name: MAC
     version: "10.6.8"
+    platform:
   client:
     type: browser
     name: Safari
@@ -1317,6 +1355,7 @@
     name: Mac
     short_name: MAC
     version: "10.7"
+    platform:
   client:
     type: browser
     name: Firefox
@@ -1335,6 +1374,7 @@
     name: Mac
     short_name: MAC
     version: "10.8.5"
+    platform:
   client:
     type: browser
     name: Chrome
@@ -1353,6 +1393,7 @@
     name: Mac
     short_name: MAC
     version: "10.8.5"
+    platform:
   client:
     type: browser
     name: Maxthon
@@ -1371,6 +1412,7 @@
     name: Mac
     short_name: MAC
     version: "10.9"
+    platform:
   client:
     type: browser
     name: Firefox
@@ -1389,6 +1431,7 @@
     name: Mac
     short_name: MAC
     version: "10.9.1"
+    platform:
   client:
     type: browser
     name: Chrome
@@ -1407,6 +1450,7 @@
     name: Mac
     short_name: MAC
     version: "10.9.1"
+    platform:
   client:
     type: browser
     name: OmniWeb
@@ -1425,6 +1469,7 @@
     name: Mac
     short_name: MAC
     version: "10.9.1"
+    platform:
   client:
     type: browser
     name: Safari
@@ -1443,6 +1488,7 @@
     name: Mandriva
     short_name: MDR
     version: "1.9.2.17"
+    platform: x86
   client:
     type: browser
     name: Firefox
@@ -1461,6 +1507,7 @@
     name: Mint
     short_name: MIN
     version: "16"
+    platform: x86
   client:
     type: browser
     name: Firefox
@@ -1479,6 +1526,7 @@
     name: MorphOS
     short_name: MOR
     version: "3.7"
+    platform:
   client:
     type: browser
     name: Odyssey Web Browser
@@ -1497,6 +1545,7 @@
     name: NetBSD
     short_name: NBS
     version:
+    platform: x64
   client:
     type: browser
     name: Firefox
@@ -1515,6 +1564,7 @@
     name: OpenBSD
     short_name: OBS
     version:
+    platform: x64
   client:
     type: browser
     name: Chrome
@@ -1533,6 +1583,7 @@
     name: OpenBSD
     short_name: OBS
     version:
+    platform: x64
   client:
     type: browser
     name: Firefox
@@ -1551,6 +1602,7 @@
     name: OS/2
     short_name: OS2
     version:
+    platform:
   client:
     type: browser
     name: Firefox
@@ -1569,6 +1621,7 @@
     name: OSF1
     short_name: T64
     version: "4.0"
+    platform:
   client: null
   device:
     type: desktop
@@ -1582,6 +1635,7 @@
     name: OSF1
     short_name: T64
     version: "5.1"
+    platform:
   client: null
   device:
     type: desktop
@@ -1595,6 +1649,7 @@
     name: Red Hat
     short_name: RHT
     version:
+    platform:
   client:
     type: library
     name: Wget
@@ -1611,6 +1666,7 @@
     name: Red Hat
     short_name: RHT
     version: "4.3.4"
+    platform:
   client:
     type: browser
     name: Konqueror
@@ -1629,6 +1685,7 @@
     name: Sabayon
     short_name: SAB
     version:
+    platform: x64
   client:
     type: browser
     name: Opera
@@ -1647,6 +1704,7 @@
     name: Slackware
     short_name: SLW
     version:
+    platform: x86
   client:
     type: browser
     name: Chrome
@@ -1665,6 +1723,7 @@
     name: Slackware
     short_name: SLW
     version: "13.0"
+    platform: x86
   client:
     type: browser
     name: Firefox
@@ -1683,6 +1742,7 @@
     name: Solaris
     short_name: SOS
     version:
+    platform: x86
   client:
     type: browser
     name: Firefox
@@ -1701,6 +1761,7 @@
     name: Solaris
     short_name: SOS
     version: "5.10"
+    platform: x86
   client: null
   device:
     type: desktop
@@ -1714,6 +1775,7 @@
     name: Solaris
     short_name: SOS
     version: "5.10"
+    platform:
   client:
     type: browser
     name: Internet Explorer
@@ -1732,6 +1794,7 @@
     name: Solaris
     short_name: SOS
     version: "10.1"
+    platform: x64
   client: null
   device:
     type: desktop
@@ -1745,6 +1808,7 @@
     name: Solaris
     short_name: SOS
     version: "5.5.1"
+    platform:
   client: null
   device:
     type: desktop
@@ -1758,6 +1822,7 @@
     name: SUSE
     short_name: SSE
     version: "3.6.24"
+    platform: x86
   client:
     type: browser
     name: Firefox
@@ -1776,6 +1841,7 @@
     name: SUSE
     short_name: SSE
     version: "31.0.1650.63"
+    platform: x86
   client:
     type: browser
     name: Chrome
@@ -1794,6 +1860,7 @@
     name: Syllable
     short_name: SYL
     version:
+    platform:
   client:
     type: browser
     name: ABrowse
@@ -1812,6 +1879,7 @@
     name: Ubuntu
     short_name: UBT
     version:
+    platform: x64
   client:
     type: browser
     name: Chromium
@@ -1830,6 +1898,7 @@
     name: Ubuntu
     short_name: UBT
     version:
+    platform: x86
   client:
     type: browser
     name: Elinks
@@ -1848,6 +1917,7 @@
     name: Ubuntu
     short_name: UBT
     version:
+    platform: x64
   client:
     type: browser
     name: Firefox
@@ -1866,6 +1936,7 @@
     name: Ubuntu
     short_name: UBT
     version: "1.1.9"
+    platform: x86
   client:
     type: browser
     name: SeaMonkey
@@ -1884,6 +1955,7 @@
     name: Ubuntu
     short_name: UBT
     version: "9.04"
+    platform: x86
   client:
     type: browser
     name: Firefox
@@ -1902,6 +1974,7 @@
     name: Ubuntu
     short_name: UBT
     version: "9.10"
+    platform: x86
   client:
     type: browser
     name: Firefox
@@ -1920,6 +1993,7 @@
     name: Ubuntu
     short_name: UBT
     version: "9.25"
+    platform: x86
   client:
     type: browser
     name: Firefox
@@ -1938,6 +2012,7 @@
     name: Ubuntu
     short_name: UBT
     version: "10.10"
+    platform: x64
   client:
     type: browser
     name: Epiphany
@@ -1956,6 +2031,7 @@
     name: Windows
     short_name: WIN
     version:
+    platform:
   client:
     type: browser
     name: Beonex
@@ -1974,6 +2050,7 @@
     name: Windows
     short_name: WIN
     version:
+    platform:
   client:
     type: browser
     name: BrowseX
@@ -1992,6 +2069,7 @@
     name: Windows
     short_name: WIN
     version:
+    platform:
   client:
     type: pim
     name: Postbox
@@ -2008,6 +2086,7 @@
     name: Windows
     short_name: WIN
     version: "7"
+    platform: x64
   client:
     type: browser
     name: Amigo
@@ -2026,6 +2105,7 @@
     name: Windows
     short_name: WIN
     version: "7"
+    platform: x64
   client:
     type: browser
     name: Baidu Spark
@@ -2044,6 +2124,7 @@
     name: Windows
     short_name: WIN
     version: "7"
+    platform: x64
   client:
     type: browser
     name: Chrome
@@ -2062,6 +2143,7 @@
     name: Windows
     short_name: WIN
     version: "7"
+    platform: x64
   client:
     type: browser
     name: Chrome
@@ -2080,6 +2162,7 @@
     name: Windows
     short_name: WIN
     version: "7"
+    platform: x64
   client:
     type: browser
     name: Chrome
@@ -2098,6 +2181,7 @@
     name: Windows
     short_name: WIN
     version: "7"
+    platform: x64
   client:
     type: browser
     name: Chrome Frame
@@ -2116,6 +2200,7 @@
     name: Windows
     short_name: WIN
     version: "7"
+    platform:
   client:
     type: browser
     name: ChromePlus
@@ -2134,6 +2219,7 @@
     name: Windows
     short_name: WIN
     version: "7"
+    platform: x64
   client:
     type: browser
     name: Comodo Dragon
@@ -2152,6 +2238,7 @@
     name: Windows
     short_name: WIN
     version: "7"
+    platform: x64
   client:
     type: browser
     name: CoolNovo
@@ -2170,6 +2257,7 @@
     name: Windows
     short_name: WIN
     version: "7"
+    platform: x64
   client:
     type: browser
     name: Firefox
@@ -2188,6 +2276,7 @@
     name: Windows
     short_name: WIN
     version: "7"
+    platform:
   client:
     type: browser
     name: Firefox
@@ -2206,6 +2295,7 @@
     name: Windows
     short_name: WIN
     version: "7"
+    platform:
   client:
     type: browser
     name: Firefox
@@ -2224,6 +2314,7 @@
     name: Windows
     short_name: WIN
     version: "7"
+    platform:
   client:
     type: browser
     name: Flock
@@ -2242,6 +2333,7 @@
     name: Windows
     short_name: WIN
     version: "7"
+    platform:
   client:
     type: browser
     name: IceDragon
@@ -2260,6 +2352,7 @@
     name: Windows
     short_name: WIN
     version: "7"
+    platform:
   client:
     type: browser
     name: Internet Explorer
@@ -2278,6 +2371,7 @@
     name: Windows
     short_name: WIN
     version: "7"
+    platform:
   client:
     type: browser
     name: Internet Explorer
@@ -2296,6 +2390,7 @@
     name: Windows
     short_name: WIN
     version: "7"
+    platform: x64
   client:
     type: browser
     name: Internet Explorer
@@ -2314,6 +2409,7 @@
     name: Windows
     short_name: WIN
     version: "7"
+    platform: x64
   client:
     type: browser
     name: Internet Explorer
@@ -2332,6 +2428,26 @@
     name: Windows
     short_name: WIN
     version: "7"
+    platform:
+  client:
+    type: browser
+    name: Internet Explorer
+    short_name: IE
+    version: "11.0"
+    engine: Trident
+  device:
+    type: desktop
+    brand:
+    model:
+  os_family: Windows
+  browser_family: Internet Explorer
+- 
+  user_agent: Mozilla/5.0 (Windows NT 6.1; WOW64; Trident/7.0; Banca Caboto s.p.a.; rv:11.0) like Gecko
+  os:
+    name: Windows
+    short_name: WIN
+    version: "7"
+    platform: x64
   client:
     type: browser
     name: Internet Explorer
@@ -2350,6 +2466,7 @@
     name: Windows
     short_name: WIN
     version: "7"
+    platform: x64
   client:
     type: browser
     name: Internet Explorer
@@ -2368,6 +2485,7 @@
     name: Windows
     short_name: WIN
     version: "7"
+    platform:
   client:
     type: browser
     name: Iron
@@ -2386,6 +2504,7 @@
     name: Windows
     short_name: WIN
     version: "7"
+    platform:
   client:
     type: pim
     name: Microsoft Outlook
@@ -2402,6 +2521,7 @@
     name: Windows
     short_name: WIN
     version: "7"
+    platform: x64
   client:
     type: pim
     name: Microsoft Outlook
@@ -2418,6 +2538,7 @@
     name: Windows
     short_name: WIN
     version: "7"
+    platform: x64
   client:
     type: pim
     name: Microsoft Outlook
@@ -2434,6 +2555,7 @@
     name: Windows
     short_name: WIN
     version: "7"
+    platform: x64
   client:
     type: browser
     name: Opera
@@ -2452,6 +2574,7 @@
     name: Windows
     short_name: WIN
     version: "7"
+    platform: x64
   client:
     type: browser
     name: Opera
@@ -2470,6 +2593,7 @@
     name: Windows
     short_name: WIN
     version: "7"
+    platform: x64
   client:
     type: browser
     name: Opera Next
@@ -2488,6 +2612,7 @@
     name: Windows
     short_name: WIN
     version: "7"
+    platform:
   client:
     type: mediaplayer
     name: QuickTime
@@ -2504,6 +2629,7 @@
     name: Windows
     short_name: WIN
     version: "7"
+    platform:
   client:
     type: browser
     name: RockMelt
@@ -2522,6 +2648,7 @@
     name: Windows
     short_name: WIN
     version: "7"
+    platform:
   client:
     type: browser
     name: Sleipnir
@@ -2540,6 +2667,7 @@
     name: Windows
     short_name: WIN
     version: "7"
+    platform:
   client:
     type: browser
     name: Sogou Explorer
@@ -2558,6 +2686,7 @@
     name: Windows
     short_name: WIN
     version: "7"
+    platform: x64
   client:
     type: browser
     name: Sogou Explorer
@@ -2576,6 +2705,7 @@
     name: Windows
     short_name: WIN
     version: "8"
+    platform: x64
   client:
     type: browser
     name: Baidu Spark
@@ -2594,6 +2724,7 @@
     name: Windows
     short_name: WIN
     version: "8"
+    platform: x64
   client:
     type: browser
     name: Chrome
@@ -2612,6 +2743,7 @@
     name: Windows
     short_name: WIN
     version: "8"
+    platform: x64
   client:
     type: browser
     name: CometBird
@@ -2630,6 +2762,7 @@
     name: Windows
     short_name: WIN
     version: "8"
+    platform: x64
   client:
     type: browser
     name: Firefox
@@ -2648,6 +2781,7 @@
     name: Windows
     short_name: WIN
     version: "8"
+    platform: x64
   client:
     type: browser
     name: IceDragon
@@ -2666,6 +2800,7 @@
     name: Windows
     short_name: WIN
     version: "8"
+    platform:
   client:
     type: browser
     name: Opera Next
@@ -2684,6 +2819,7 @@
     name: Windows
     short_name: WIN
     version: "8"
+    platform: x64
   client:
     type: browser
     name: Opera Next
@@ -2702,6 +2838,7 @@
     name: Windows
     short_name: WIN
     version: "8"
+    platform: x64
   client:
     type: browser
     name: Pale Moon
@@ -2720,6 +2857,7 @@
     name: Windows
     short_name: WIN
     version: "8"
+    platform: x64
   client:
     type: browser
     name: SeaMonkey
@@ -2738,6 +2876,7 @@
     name: Windows
     short_name: WIN
     version: "8"
+    platform: x64
   client:
     type: browser
     name: Yandex Browser
@@ -2756,6 +2895,7 @@
     name: Windows
     short_name: WIN
     version: "8.1"
+    platform: x64
   client:
     type: browser
     name: Chrome
@@ -2774,6 +2914,7 @@
     name: Windows
     short_name: WIN
     version: "8.1"
+    platform: x64
   client:
     type: browser
     name: Firefox
@@ -2792,6 +2933,7 @@
     name: Windows
     short_name: WIN
     version: "8.1"
+    platform:
   client:
     type: browser
     name: Internet Explorer
@@ -2810,6 +2952,7 @@
     name: Windows
     short_name: WIN
     version: "8.1"
+    platform: x64
   client:
     type: browser
     name: Opera
@@ -2828,6 +2971,7 @@
     name: Windows
     short_name: WIN
     version: "95"
+    platform:
   client: null
   device:
     type: desktop
@@ -2841,6 +2985,7 @@
     name: Windows
     short_name: WIN
     version: "95"
+    platform:
   client:
     type: browser
     name: Firebird
@@ -2859,6 +3004,7 @@
     name: Windows
     short_name: WIN
     version: "95"
+    platform:
   client:
     type: browser
     name: Internet Explorer
@@ -2877,6 +3023,7 @@
     name: Windows
     short_name: WIN
     version: "2000"
+    platform:
   client:
     type: browser
     name: Firefox
@@ -2895,6 +3042,7 @@
     name: Windows
     short_name: WIN
     version: "2000"
+    platform:
   client:
     type: browser
     name: Internet Explorer
@@ -2913,6 +3061,7 @@
     name: Windows
     short_name: WIN
     version: "2000"
+    platform:
   client:
     type: browser
     name: Lunascape
@@ -2931,6 +3080,7 @@
     name: Windows
     short_name: WIN
     version: "2000"
+    platform:
   client:
     type: browser
     name: Off By One
@@ -2949,12 +3099,13 @@
     name: Windows
     short_name: WIN
     version: "2000"
+    platform:
   client:
     type: browser
     name: Opera
     short_name: OP
     version: "6.0"
-    engine: Presto
+    engine: Elektra
   device:
     type: desktop
     brand:
@@ -2967,6 +3118,7 @@
     name: Windows
     short_name: WIN
     version: "ME"
+    platform:
   client:
     type: browser
     name: Internet Explorer
@@ -2985,6 +3137,7 @@
     name: Windows
     short_name: WIN
     version: "NT"
+    platform:
   client:
     type: browser
     name: Internet Explorer
@@ -3003,6 +3156,7 @@
     name: Windows
     short_name: WIN
     version: "Server 2003"
+    platform: x64
   client:
     type: browser
     name: Firefox
@@ -3021,6 +3175,7 @@
     name: Windows
     short_name: WIN
     version: "Server 2003"
+    platform:
   client:
     type: browser
     name: Internet Explorer
@@ -3039,6 +3194,7 @@
     name: Windows
     short_name: WIN
     version: "Server 2003"
+    platform:
   client:
     type: browser
     name: Lunascape
@@ -3057,6 +3213,7 @@
     name: Windows
     short_name: WIN
     version: "Vista"
+    platform: x64
   client:
     type: browser
     name: Firefox
@@ -3075,6 +3232,7 @@
     name: Windows
     short_name: WIN
     version: "Vista"
+    platform:
   client:
     type: browser
     name: Firefox
@@ -3093,6 +3251,7 @@
     name: Windows
     short_name: WIN
     version: "Vista"
+    platform:
   client:
     type: browser
     name: Internet Explorer
@@ -3111,6 +3270,7 @@
     name: Windows
     short_name: WIN
     version: "Vista"
+    platform:
   client:
     type: browser
     name: Internet Explorer
@@ -3129,6 +3289,7 @@
     name: Windows
     short_name: WIN
     version: "Vista"
+    platform:
   client:
     type: browser
     name: Internet Explorer
@@ -3147,6 +3308,7 @@
     name: Windows
     short_name: WIN
     version: "Vista"
+    platform:
   client:
     type: browser
     name: Opera Next
@@ -3165,6 +3327,7 @@
     name: Windows
     short_name: WIN
     version: "Vista"
+    platform:
   client:
     type: mediaplayer
     name: QuickTime
@@ -3181,6 +3344,7 @@
     name: Windows
     short_name: WIN
     version: "Vista"
+    platform:
   client:
     type: mediaplayer
     name: QuickTime
@@ -3197,6 +3361,7 @@
     name: Windows
     short_name: WIN
     version: "XP"
+    platform:
   client: null
   device:
     type: desktop
@@ -3210,6 +3375,7 @@
     name: Windows
     short_name: WIN
     version: "XP"
+    platform:
   client:
     type: browser
     name: Avant Browser
@@ -3228,6 +3394,7 @@
     name: Windows
     short_name: WIN
     version: "XP"
+    platform:
   client:
     type: browser
     name: Baidu Spark
@@ -3246,6 +3413,7 @@
     name: Windows
     short_name: WIN
     version: "XP"
+    platform:
   client:
     type: browser
     name: Baidu Spark
@@ -3264,6 +3432,7 @@
     name: Windows
     short_name: WIN
     version: "XP"
+    platform:
   client:
     type: browser
     name: Chrome
@@ -3282,6 +3451,7 @@
     name: Windows
     short_name: WIN
     version: "XP"
+    platform:
   client:
     type: browser
     name: Chrome Frame
@@ -3300,6 +3470,7 @@
     name: Windows
     short_name: WIN
     version: "XP"
+    platform:
   client:
     type: browser
     name: CoolNovo
@@ -3318,6 +3489,7 @@
     name: Windows
     short_name: WIN
     version: "XP"
+    platform:
   client:
     type: browser
     name: Firefox
@@ -3336,6 +3508,7 @@
     name: Windows
     short_name: WIN
     version: "XP"
+    platform:
   client:
     type: browser
     name: Firefox
@@ -3354,6 +3527,7 @@
     name: Windows
     short_name: WIN
     version: "XP"
+    platform:
   client:
     type: browser
     name: Fireweb Navigator
@@ -3372,6 +3546,7 @@
     name: Windows
     short_name: WIN
     version: "XP"
+    platform:
   client:
     type: browser
     name: Google Earth
@@ -3390,6 +3565,7 @@
     name: Windows
     short_name: WIN
     version: "XP"
+    platform:
   client:
     type: browser
     name: Internet Explorer
@@ -3408,6 +3584,7 @@
     name: Windows
     short_name: WIN
     version: "XP"
+    platform:
   client:
     type: browser
     name: Internet Explorer
@@ -3426,6 +3603,7 @@
     name: Windows
     short_name: WIN
     version: "XP"
+    platform:
   client:
     type: browser
     name: Internet Explorer
@@ -3444,6 +3622,7 @@
     name: Windows
     short_name: WIN
     version: "XP"
+    platform:
   client:
     type: browser
     name: Internet Explorer
@@ -3462,6 +3641,7 @@
     name: Windows
     short_name: WIN
     version: "XP"
+    platform:
   client:
     type: browser
     name: Internet Explorer
@@ -3480,6 +3660,7 @@
     name: Windows
     short_name: WIN
     version: "XP"
+    platform:
   client:
     type: browser
     name: Internet Explorer
@@ -3498,6 +3679,7 @@
     name: Windows
     short_name: WIN
     version: "XP"
+    platform:
   client:
     type: browser
     name: Internet Explorer
@@ -3516,6 +3698,7 @@
     name: Windows
     short_name: WIN
     version: "XP"
+    platform:
   client:
     type: browser
     name: Internet Explorer
@@ -3534,6 +3717,7 @@
     name: Windows
     short_name: WIN
     version: "XP"
+    platform:
   client:
     type: browser
     name: Internet Explorer
@@ -3552,6 +3736,7 @@
     name: Windows
     short_name: WIN
     version: "XP"
+    platform:
   client:
     type: browser
     name: K-meleon
@@ -3570,6 +3755,7 @@
     name: Windows
     short_name: WIN
     version: "XP"
+    platform:
   client:
     type: browser
     name: Kapiko
@@ -3588,6 +3774,7 @@
     name: Windows
     short_name: WIN
     version: "XP"
+    platform:
   client:
     type: browser
     name: Konqueror
@@ -3606,6 +3793,7 @@
     name: Windows
     short_name: WIN
     version: "XP"
+    platform:
   client:
     type: browser
     name: Liebao
@@ -3624,6 +3812,7 @@
     name: Windows
     short_name: WIN
     version: "XP"
+    platform:
   client:
     type: browser
     name: Maxthon
@@ -3642,6 +3831,7 @@
     name: Windows
     short_name: WIN
     version: "XP"
+    platform:
   client:
     type: browser
     name: Maxthon
@@ -3660,6 +3850,7 @@
     name: Windows
     short_name: WIN
     version: "XP"
+    platform:
   client:
     type: browser
     name: Maxthon
@@ -3678,6 +3869,7 @@
     name: Windows
     short_name: WIN
     version: "XP"
+    platform:
   client:
     type: browser
     name: Opera
@@ -3696,6 +3888,7 @@
     name: Windows
     short_name: WIN
     version: "XP"
+    platform:
   client:
     type: browser
     name: Opera
@@ -3714,6 +3907,7 @@
     name: Windows
     short_name: WIN
     version: "XP"
+    platform:
   client:
     type: browser
     name: Opera
@@ -3732,6 +3926,7 @@
     name: Windows
     short_name: WIN
     version: "XP"
+    platform:
   client:
     type: browser
     name: Opera
@@ -3750,6 +3945,7 @@
     name: Windows
     short_name: WIN
     version: "XP"
+    platform:
   client:
     type: browser
     name: QQ Browser
@@ -3768,6 +3964,7 @@
     name: Windows
     short_name: WIN
     version: "XP"
+    platform:
   client:
     type: mediaplayer
     name: XBMC
@@ -3784,6 +3981,7 @@
     name: Windows
     short_name: WIN
     version: "7"
+    platform:
   client:
     type: browser
     name: Internet Explorer
@@ -3797,11 +3995,31 @@
   os_family: Windows
   browser_family: Internet Explorer
 - 
+  user_agent: Safari/9537.73.11 CFNetwork/673.0.3 Darwin/13.0.0 (x86_64) (MacBookAir6%2C2)
+  os:
+    name: Mac
+    short_name: MAC
+    version: "10.9"
+    platform: x64
+  client:
+    type: browser
+    name: Safari
+    short_name: SF
+    version:
+    engine: WebKit
+  device:
+    type: desktop
+    brand: AP
+    model:
+  os_family: Mac
+  browser_family: Safari
+- 
   user_agent: Mozilla/5.0 (Windows NT 6.1; WOW64; Trident/7.0; MAAU; rv:11.0) like Gecko
   os:
     name: Windows
     short_name: WIN
     version: "7"
+    platform: x64
   client:
     type: browser
     name: Internet Explorer
@@ -3820,6 +4038,7 @@
     name: Windows
     short_name: WIN
     version: "8.1"
+    platform: x64
   client:
     type: browser
     name: Internet Explorer
@@ -3838,6 +4057,7 @@
     name: Windows
     short_name: WIN
     version: "8.1"
+    platform: x64
   client:
     type: browser
     name: Internet Explorer
@@ -3856,6 +4076,7 @@
     name: Windows
     short_name: WIN
     version: "8.1"
+    platform: x64
   client:
     type: browser
     name: Internet Explorer
@@ -3874,6 +4095,7 @@
     name: Windows
     short_name: WIN
     version: "7"
+    platform: x64
   client:
     type: pim
     name: Microsoft Outlook
@@ -3890,6 +4112,7 @@
     name: Windows
     short_name: WIN
     version: "8"
+    platform: x64
   client:
     type: browser
     name: Internet Explorer
@@ -3908,6 +4131,7 @@
     name: Windows
     short_name: WIN
     version: "XP"
+    platform:
   client:
     type: browser
     name: Internet Explorer
@@ -3926,6 +4150,7 @@
     name: Windows
     short_name: WIN
     version: "7"
+    platform: x64
   client:
     type: browser
     name: Internet Explorer
@@ -3944,6 +4169,7 @@
     name: Windows
     short_name: WIN
     version: "7"
+    platform: x64
   client:
     type: browser
     name: Internet Explorer
@@ -3962,6 +4188,7 @@
     name: Windows
     short_name: WIN
     version: "7"
+    platform: x64
   client:
     type: browser
     name: Internet Explorer
@@ -3980,6 +4207,7 @@
     name: Windows
     short_name: WIN
     version: "7"
+    platform:
   client:
     type: browser
     name: Internet Explorer
@@ -3998,6 +4226,7 @@
     name: Windows
     short_name: WIN
     version: "8"
+    platform: x64
   client:
     type: browser
     name: Internet Explorer
@@ -4016,6 +4245,7 @@
     name: Windows
     short_name: WIN
     version: "7"
+    platform: x64
   client:
     type: browser
     name: Internet Explorer
@@ -4034,6 +4264,7 @@
     name: Windows
     short_name: WIN
     version: "7"
+    platform: x64
   client:
     type: browser
     name: Internet Explorer
@@ -4052,6 +4283,7 @@
     name: Windows
     short_name: WIN
     version: "7"
+    platform: x64
   client:
     type: pim
     name: Microsoft Outlook
@@ -4068,6 +4300,7 @@
     name: Windows
     short_name: WIN
     version: "8"
+    platform: x64
   client:
     type: browser
     name: Internet Explorer
@@ -4086,6 +4319,7 @@
     name: Windows
     short_name: WIN
     version: "8"
+    platform: x64
   client:
     type: browser
     name: Internet Explorer
@@ -4104,6 +4338,7 @@
     name: Windows
     short_name: WIN
     version: "8"
+    platform: x64
   client:
     type: browser
     name: Internet Explorer
@@ -4122,6 +4357,7 @@
     name: Windows
     short_name: WIN
     version: "7"
+    platform:
   client:
     type: browser
     name: Internet Explorer
@@ -4140,6 +4376,7 @@
     name: Windows
     short_name: WIN
     version: "7"
+    platform: x64
   client:
     type: browser
     name: Internet Explorer
@@ -4158,6 +4395,7 @@
     name: Windows
     short_name: WIN
     version: "7"
+    platform:
   client:
     type: browser
     name: Internet Explorer
@@ -4176,6 +4414,7 @@
     name: Windows
     short_name: WIN
     version: "7"
+    platform: x64
   client:
     type: browser
     name: Internet Explorer
@@ -4194,6 +4433,7 @@
     name: Windows
     short_name: WIN
     version: "8"
+    platform: x64
   client:
     type: browser
     name: Internet Explorer
@@ -4212,6 +4452,7 @@
     name: Windows
     short_name: WIN
     version: "8.1"
+    platform: x64
   client:
     type: browser
     name: Internet Explorer
@@ -4230,6 +4471,7 @@
     name: Windows
     short_name: WIN
     version: "XP"
+    platform:
   client:
     type: browser
     name: Internet Explorer
@@ -4248,6 +4490,7 @@
     name: Windows
     short_name: WIN
     version: "7"
+    platform: x64
   client:
     type: browser
     name: Internet Explorer
@@ -4266,6 +4509,7 @@
     name: Windows
     short_name: WIN
     version: "7"
+    platform: x64
   client:
     type: browser
     name: Internet Explorer
@@ -4284,6 +4528,7 @@
     name: Windows
     short_name: WIN
     version: "7"
+    platform: x64
   client:
     type: browser
     name: Internet Explorer
@@ -4302,6 +4547,7 @@
     name: Windows
     short_name: WIN
     version: "8.1"
+    platform: x64
   client:
     type: browser
     name: Internet Explorer
@@ -4320,6 +4566,7 @@
     name: Windows
     short_name: WIN
     version: "7"
+    platform: x64
   client:
     type: browser
     name: Internet Explorer
@@ -4338,6 +4585,7 @@
     name: Windows
     short_name: WIN
     version: "8"
+    platform: x64
   client:
     type: browser
     name: Internet Explorer
@@ -4356,6 +4604,7 @@
     name: Windows
     short_name: WIN
     version: "8"
+    platform: x64
   client:
     type: browser
     name: Internet Explorer
@@ -4374,6 +4623,7 @@
     name: Windows
     short_name: WIN
     version: "7"
+    platform: x64
   client:
     type: browser
     name: Internet Explorer
@@ -4392,6 +4642,7 @@
     name: Windows
     short_name: WIN
     version: "7"
+    platform: x64
   client:
     type: browser
     name: Internet Explorer
@@ -4410,6 +4661,7 @@
     name: Windows
     short_name: WIN
     version: "7"
+    platform: x64
   client:
     type: browser
     name: Internet Explorer
@@ -4428,6 +4680,7 @@
     name: Windows
     short_name: WIN
     version: "7"
+    platform: x64
   client:
     type: browser
     name: Internet Explorer
@@ -4446,6 +4699,7 @@
     name: Windows
     short_name: WIN
     version: "8"
+    platform: x64
   client:
     type: browser
     name: Internet Explorer
@@ -4464,6 +4718,7 @@
     name: Windows
     short_name: WIN
     version: "7"
+    platform: x64
   client:
     type: browser
     name: Internet Explorer
@@ -4482,6 +4737,7 @@
     name: Windows
     short_name: WIN
     version: "7"
+    platform:
   client:
     type: browser
     name: Internet Explorer
@@ -4500,6 +4756,7 @@
     name: Windows
     short_name: WIN
     version: "7"
+    platform:
   client:
     type: browser
     name: Internet Explorer
@@ -4518,6 +4775,7 @@
     name: Windows
     short_name: WIN
     version: "8.1"
+    platform: x64
   client:
     type: browser
     name: Internet Explorer
@@ -4536,6 +4794,7 @@
     name: Windows
     short_name: WIN
     version: "8.1"
+    platform: x64
   client:
     type: browser
     name: Internet Explorer
@@ -4554,6 +4813,7 @@
     name: Windows
     short_name: WIN
     version: "8.1"
+    platform: x64
   client:
     type: browser
     name: Internet Explorer

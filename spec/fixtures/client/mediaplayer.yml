@@ -29,6 +29,12 @@
     name: VLC
     version: "2.1.0"
 -
+  user_agent: LibVLC/2.2.3 (LIVE555 Streaming Media v2015.10.12)
+  client:
+    type: mediaplayer
+    name: VLC
+    version: "2.2.3"
+-
   user_agent: Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 6.0; FunWebProducts; SLCC1; .NET CLR 2.0.50727; Media Center PC 5.0; .NET CLR 3.0.04506; Windows-Media-Player/10.00.00.3990)
   client:
     type: mediaplayer
@@ -160,4 +166,3 @@
     type: mediaplayer
     name: Instacast
     version: "4.1.2"
-
