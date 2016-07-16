@@ -96,5 +96,41 @@ describe DeviceDetector do
 
   end
 
+  describe 'recognize and ignore sprd- prefix' do
+
+    let(:user_agent) { 'sprd-Galaxy-S5/1.0 Linux/2.6.35.7 Android/4.4.4 Release/11.29.2014 Browser/AppleWebKit533.1 (KHTML, like Gecko) Mozilla/5.0 Mobile' }
+
+    it 'returns the correct client name' do
+      client.name.must_equal "Android Browser"
+    end
+
+    it 'recognizes the device name' do
+      client.device_name.must_equal "GALAXY S5"
+    end
+
+    it 'recognizes the device type' do
+      client.device_type.must_equal "smartphone"
+    end
+
+  end
+
+  describe 'remove TD suffix from model' do
+
+    let(:user_agent) { 'Lenovo-A398t+_TD/S100 Linux/3.4.5 Android/4.1.2 Release/09.10.2013 Browser/AppleWebKit534.30 Mobile Safari/534.30' }
+
+    it 'returns the correct client name' do
+      client.name.must_equal "Android Browser"
+    end
+
+    it 'recognizes the device name' do
+      client.device_name.must_equal "A398t+"
+    end
+
+    it 'recognizes the device type' do
+      client.device_type.must_equal "smartphone"
+    end
+
+  end
+
 end
 
