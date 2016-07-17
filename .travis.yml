@@ -1,10 +1,14 @@
 language: ruby
 rvm:
+  - 1.9.3
   - 2.0.0-p648
   - 2.1.10
   - 2.2.5
   - 2.3.1
   - ruby-head
   - rbx-2
+before_install:
+  - gem update --system
+  - gem update bundler
 script:
   bundle exec rake test
