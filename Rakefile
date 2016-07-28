@@ -12,12 +12,14 @@ end
 task default: :test
 
 task :detectable_names do
-  bot_names = DeviceDetector::Bot.new.send(:regexes).map { |r| r['name'] }.uniq.sort_by { |n| n.downcase }
+  bot_names = DeviceDetector::Bot.new.send(:regexes).map { |r| r[:name] }.uniq.sort_by { |n| n.downcase }
   bot_names.delete('$1')
-  client_names = DeviceDetector::Client.new.send(:regexes).map { |r| r['name'] }.uniq.sort_by { |n| n.downcase }
+  client_names = DeviceDetector::Client.new.send(:regexes).map { |r| r[:name] }.uniq.sort_by { |n| n.downcase }
   client_names.delete('$1')
-  device_regexes = DeviceDetector::Device.new.send(:load_regexes)
-  device_names = device_regexes.flat_map { |dn| dn.keys }.uniq.sort_by { |n| n.downcase }
+  device = DeviceDetector::Device.new
+  device_paths = device.send(:filepaths)
+  device_regexes = device.send(:load_regexes, device_paths)
+  device_names = device_regexes.flat_map { |dn| dn[1].keys }.uniq.sort_by { |n| n.downcase }
 
   today = Date.today.strftime
 
@@ -39,36 +41,39 @@ task :detectable_names do
   puts
 end
 
-PIWIK_TARBALL_LOCATION = '/tmp/piwik_device_detector.tar.gz'.freeze
+PIWIK_REPO_URL = 'https://github.com/piwik/device-detector.git'.freeze
+PIWIK_CHECKOUT_LOCATION = '/tmp/piwik_device_detector'.freeze
 
-def get_latest_piwik_tarball
-  system "curl -s -L https://api.github.com/repos/piwik/device-detector/tarball/master -o #{PIWIK_TARBALL_LOCATION}"
+def get_latest_piwik_checkout
+  if File.exist?(PIWIK_CHECKOUT_LOCATION)
+    system "cd #{PIWIK_CHECKOUT_LOCATION}; git reset --hard HEAD; git pull origin master"
+  else
+    system "git clone --depth 1 #{PIWIK_REPO_URL} #{PIWIK_CHECKOUT_LOCATION}"
+  end
 end
 
 desc 'update regex database from piwik project'
 task :update_regexes do
   top = File.expand_path('..', __FILE__)
-  get_latest_piwik_tarball
-  system "tar xzvf #{PIWIK_TARBALL_LOCATION} --strip-components 1 --include */regexes/*.yml -C #{top}"
+  get_latest_piwik_checkout
+  system "cp -R #{PIWIK_CHECKOUT_LOCATION}/regexes/* #{top}/regexes"
 end
 
 desc 'update fixtures from piwik project'
 task :update_fixtures do
   top = File.expand_path('..', __FILE__)
-  get_latest_piwik_tarball
+  get_latest_piwik_checkout
 
   fixture_mappings = [
-    # tablet.yml from the detector fixtures is broken: https://github.com/piwik/device-detector/issues/5355
-    #{ local_path: "#{top}/spec/fixtures/detector", archive_path: '*/Tests/fixtures/*.yml', strip_components: 3 },
-    { local_path: "#{top}/spec/fixtures/client", archive_path: '*/Tests/Parser/Client/fixtures/*.yml', strip_components: 5 },
-    { local_path: "#{top}/spec/fixtures/parser", archive_path: '*/Tests/Parser/fixtures/*.yml', strip_components: 4 },
-    { local_path: "#{top}/spec/fixtures/device", archive_path: '*/Tests/Parser/Devices/fixtures/*.yml', strip_components: 5 },
+    {target_path: "#{top}/spec/fixtures/detector", source_path: 'Tests/fixtures/*.yml'},
+    {target_path: "#{top}/spec/fixtures/client", source_path: 'Tests/Parser/Client/fixtures/*.yml'},
+    {target_path: "#{top}/spec/fixtures/parser", source_path: 'Tests/Parser/fixtures/*.yml'},
+    {target_path: "#{top}/spec/fixtures/device", source_path: 'Tests/Parser/Devices/fixtures/*.yml'},
   ]
 
   fixture_mappings.each do |mapping|
-    strip_components = mapping.fetch(:strip_components)
-    archive_path = mapping.fetch(:archive_path)
-    local_path = mapping.fetch(:local_path)
-    system "tar xzvf #{PIWIK_TARBALL_LOCATION} --strip-components #{strip_components} --include #{archive_path} -C #{local_path}"
+    source_path = mapping.fetch(:source_path)
+    target_path = mapping.fetch(:target_path)
+    system "cp -R #{PIWIK_CHECKOUT_LOCATION}/#{source_path} #{target_path}"
   end
 end

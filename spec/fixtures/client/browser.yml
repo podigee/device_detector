@@ -8,6 +8,22 @@
     version: "6.8.7"
     engine: WebKit
 -
+  user_agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.2311.152 Safari/537.36 QIHU 360SE
+  client:
+    type: browser
+    name: 360 Browser
+    short_name: 3B
+    version:
+    engine: WebKit
+-
+  user_agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.2311.152 Safari/537.36 QIHU 360EE
+  client:
+    type: browser
+    name: 360 Browser
+    short_name: 3B
+    version:
+    engine: WebKit
+-
   user_agent: Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1; Avant Browser; InfoPath.1)
   client:
     type: browser
@@ -23,6 +39,14 @@
     short_name: AB
     version: "0.6"
     engine: WebKit
+-
+  user_agent: Mozilla/3.04 (compatible; NCBrowser/2.35; ANTFresco/2.17; RISC OS-NC 5.13 Laz1UK1309)
+  client:
+    type: browser
+    name: ANT Fresco
+    short_name: AF
+    version: "2.17"
+    engine:
 -
   user_agent: HbbTV/1.1.1 (+PVR;Humax;HD FOX+;1.00.12;1.0)CE-HTML/1.0 ANTGalio/3.1.1.23.04.09
   client:
@@ -56,6 +80,14 @@
     version:
     engine: WebKit
 -
+  user_agent: Mozilla/5.0 (Linux; U; Android 2.3.5; ru-ru; IQ270 Firebird Build/GRJ22; LeWa_IQ270_ROM_12.12.14) AppleWebKit/533.1 (KHTML, like Gecko) Version/4.0 Mobile Safari/533.1
+  client:
+    type: browser
+    name: Android Browser
+    short_name: AN
+    version:
+    engine: WebKit
+-
   user_agent: 'Mozilla/5.0 (Macintosh; U; Intel Mac OS X; en-US) AppleWebKit/532.1 (KHTML, like Gecko) Arora/0.10.1 (Git: 1329 e5385f3) Safari/532.1'
   client:
     type: browser
@@ -78,6 +110,14 @@
     name: Amiga Aweb
     short_name: AW
     version:
+    engine:
+-
+  user_agent: AtomicBrowser/7.0.1 CFNetwork/672.1.15 Darwin/14.0.0
+  client:
+    type: browser
+    name: Atomic Web Browser
+    short_name: AT
+    version: "7.0.1"
     engine:
 -
   user_agent: BlackBerry8520/5.0.0.681 Profile/MIDP-2.1 Configuration/CLDC-1.1 VendorID/134
@@ -120,6 +160,14 @@
     version: "0.7.6"
     engine:
 -
+  user_agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_2) AppleWebKit/537.36 (KHTML, like Gecko) brave/0.7.9 Chrome/47.0.2526.73 Electron/0.36.2 Safari/537.36
+  client:
+    type: browser
+    name: Brave
+    short_name: BR
+    version: "0.7.9"
+    engine: Blink
+-
   user_agent: 'Mozilla/4.61 [en] (X11; U; ) - BrowseX (2.0.0 Windows)'
   client:
     type: browser
@@ -135,6 +183,14 @@
     short_name: CA
     version: "2.1.2"
     engine: Gecko
+-
+  user_agent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) coc_coc_browser/45.0 Chrome/39.0.2171.74 Safari/537.36
+  client:
+    type: browser
+    name: Coc Coc
+    short_name: CC
+    version: "45.0"
+    engine: Blink
 -
   user_agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/535.11 (KHTML, like Gecko) Comodo_Dragon/17.1.0.0 Chrome/17.0.963.38 Safari/535.11
   client:
@@ -240,6 +296,14 @@
     version: "1.0"
     engine: WebKit
 -
+  user_agent: Deepnet Explorer 1.5.3; Smart 2x2; Avant Browser; .NET CLR 2.0.50727; InfoPath.1)
+  client:
+    type: browser
+    name: Deepnet Explorer
+    short_name: DE
+    version: "1.5.3"
+    engine:
+-
   user_agent: Mozilla/5.0 (SAMSUNG; SAMSUNG-GT-S5380D/S5380DNVKL1; U; Bada/2.0; fr-fr) AppleWebKit/534.20 (KHTML, like Gecko) Dolfin/3.0 Mobile HVGA SMM-MMS/1.2.0 OPN-B
   client:
     type: browser
@@ -255,6 +319,14 @@
     short_name: DI
     version: "0.8.5"
     engine: Dillo
+-
+  user_agent: Mozilla/5.0 (Windows; U; Windows NT 6.1; en-US) AppleWebKit/533+ (KHTML, like Gecko) Element Browser 5.0
+  client:
+    type: browser
+    name: Element Browser
+    short_name: EB
+    version: "5.0"
+    engine: WebKit
 -
   user_agent: ELinks/0.12~pre6-1ubuntu1 (textmode; Ubuntu; Linux 3.11.0-13-generic i686; 100x25-2)
   client:
@@ -392,6 +464,14 @@
     version: "2.4"
     engine:
 -
+  user_agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/534+ (KHTML, like Gecko) FireWeb/1.0.0.0
+  client:
+    type: browser
+    name: Fireweb
+    short_name: FW
+    version: "1.0.0.0"
+    engine: WebKit
+-
   user_agent: Mozilla/5.0 (X11; U; FreeBSD i386; en-US; rv:1.7.12) Gecko/20051105 Galeon/1.3.21
   client:
     type: browser
@@ -480,6 +560,30 @@
     version: "12.0"
     engine: Edge
 -
+  user_agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.2311.135 Safari/537.36 Edge/12.10240
+  client:
+    type: browser
+    name: Microsoft Edge
+    short_name: PS
+    version: "12.10240"
+    engine: Edge
+-
+  user_agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/46.0.2486.0 Safari/537.36 Edge/13.10537
+  client:
+    type: browser
+    name: Microsoft Edge
+    short_name: PS
+    version: "13.10537"
+    engine: Edge
+-
+  user_agent: Mozilla/5.0 (Windows NT 10.0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/46.0.2486.0 Safari/537.36 Edge/13.10547
+  client:
+    type: browser
+    name: Microsoft Edge
+    short_name: PS
+    version: "13.10547"
+    engine: Edge
+-
   user_agent: Mozilla/5.0 (compatible; MSIE 9.0; Windows Phone OS 7.5; Trident/5.0; IEMobile/9.0; Acer; Allegro)
   client:
     type: browser
@@ -502,6 +606,38 @@
     name: Jasmine
     short_name: JS
     version: "0.8"
+    engine:
+-
+  user_agent: Mozilla/4.0 (jig browser 5.0.1; F900iT)
+  client:
+    type: browser
+    name: Jig Browser
+    short_name: JI
+    version: "5.0.1"
+    engine:
+-
+  user_agent: Mozilla/4.0 (jig browser web; 1.0.4; V702NK)
+  client:
+    type: browser
+    name: Jig Browser
+    short_name: JI
+    version: "1.0.4"
+    engine:
+-
+  user_agent: Mozilla/4.0 (jig browser9i 1.5.0; F10B; 2004)
+  client:
+    type: browser
+    name: Jig Browser
+    short_name: JI
+    version: "1.5.0"
+    engine:
+-
+  user_agent: Mozilla/4.0 (jig browser9 1.4.9; D905i; 2043)
+  client:
+    type: browser
+    name: Jig Browser
+    short_name: JI
+    version: "1.4.9"
     engine:
 -
   user_agent: Mozilla/4.0 (compatible; Linux 2.6.22) NetFront/3.4 Kindle/2.0 (screen 600x800)
@@ -544,6 +680,14 @@
     version: "0.5.6"
     engine: Gecko
 -
+  user_agent: Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US; rv:1.9.2) Gecko/20100222 Firefox/3.6 Kylo/0.6.1.70394
+  client:
+    type: browser
+    name: Kylo
+    short_name: KY
+    version: "0.6.1.70394"
+    engine: Gecko
+-
   user_agent: Mozilla/5.0 (Windows NT 5.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/34.0.1847.137 Safari/537.36 LBBROWSER
   client:
     type: browser
@@ -559,6 +703,14 @@
     short_name: LI
     version: "2.1"
     engine: Text-based
+-
+  user_agent: Mozilla/5.0 (OpenBSD i386) AppleWebKit/538.1+ (KHTML, like Gecko) WebKitGTK+/2.2.3 luakit/0d5f4
+  client:
+    type: browser
+    name: LuaKit
+    short_name: LU
+    version:
+    engine: WebKit
 -
   user_agent: Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.0; .NET CLR 1.1.4322; Lunascape 2.1.3)
   client:
@@ -582,6 +734,22 @@
     name: MicroB
     short_name: MB
     version: "0.9.7"
+    engine: Gecko
+-
+  user_agent: Maemo Browser
+  client:
+    type: browser
+    name: MicroB
+    short_name: MB
+    version:
+    engine: Gecko
+-
+  user_agent: Mozilla/5.0 (X11; U; Linux armv7l; pt-PT; rv:1.9.2.3pre) Gecko/20100723 Firefox/3.5 Maemo Browser 1.7.4.8 RX-51 N900
+  client:
+    type: browser
+    name: MicroB
+    short_name: MB
+    version: "1.7.4.8"
     engine: Gecko
 -
   user_agent: NCSA_Mosaic/2.7b5 (X11;Linux 2.6.7 i686) libwww/2.12 modified
@@ -614,6 +782,14 @@
     name: Mobile Safari
     short_name: MF
     version:
+    engine: WebKit
+-
+  user_agent: MobileSafari/9537.53 CFNetwork/672.1.13 Darwin/13.1.0
+  client:
+    type: browser
+    name: Mobile Safari
+    short_name: MF
+    version: "9537.53"
     engine: WebKit
 -
   user_agent: Mozilla/5.0 (X11; Linux) AppleWebKit/535.22 (KHTML, like Gecko) Chrome/18.0.1025.133 Safari/535.22 Midori/0.5
@@ -696,6 +872,22 @@
     version: "6.01"
     engine: Gecko
 -
+  user_agent: Mozilla/5.0 (Windows; U; Windows NT 6.0; en-US; rv:1.7.5) Gecko/20070321 Netscape/8.1.3
+  client:
+    type: browser
+    name: Netscape
+    short_name: NS
+    version: "8.1.3"
+    engine: Gecko
+-
+  user_agent: Mozilla/5.0 (DirectFB; Linux armv7l) AppleWebKit/534.26+ (KHTML, like Gecko) Version/5.0 Safari/534.26+ LG Browser/5.00.00(+mouse+3D+SCREEN+TUNER; LGE; 47LM9600-NA; 06.00.00; 0x00000001;); LG NetCast.TV-2012 0
+  client:
+    type: browser
+    name: LG Browser
+    short_name: LG
+    version: "5.00.00"
+    engine: WebKit
+-
   user_agent: Huawei/1.0/0HuaweiG2800/WAP2.0/Obigo-Browser/Q03C MMS/Obigo-MMS/1.2
   client:
     type: browser
@@ -709,7 +901,7 @@
     type: browser
     name: Odyssey Web Browser
     short_name: OD
-    version: 1.23
+    version: "1.23"
     engine: WebKit
 -
   user_agent: Mozilla/4.7 (compatible; OffByOne; Windows 2000) Webster Pro V3.4
@@ -719,6 +911,14 @@
     short_name: OF
     version:
     engine:
+-
+  user_agent: OneBrowser/4.2.0/Adr(Linux; U; Android 2.3.4; en-us; ADR6325 Build/GRJ22) AppleWebKit/533.1 (KHTML, like Gecko) Mobile Safari/533.1
+  client:
+    type: browser
+    name: ONE Browser
+    short_name: OE
+    version: "4.2.0"
+    engine: WebKit
 -
   user_agent: UCWEB/2.0 (Linux; U; Opera Mini/7.1.32052/30.3697; en-US; GT-S6812) U2/1.0.0 UCBrowser/9.0.0.366 Mobile
   client:
@@ -742,6 +942,30 @@
     name: Opera
     short_name: OP
     version: "12.10"
+    engine: Presto
+-
+  user_agent: Opera/3.2 (Windows 2000 3.8; )
+  client:
+    type: browser
+    name: Opera
+    short_name: OP
+    version: "3.2"
+    engine:
+-
+  user_agent: 'Opera/6.04 (Windows 2000; U) [en]'
+  client:
+    type: browser
+    name: Opera
+    short_name: OP
+    version: "6.04"
+    engine: Elektra
+-
+  user_agent: MOT-A1600/1.0 LinuxOS/2.4.20 Release/8.22.2006 Browser/Opera8.00 Profile/MIDP-2.0 Configuration/CLDC-1.1 Software/R542_G_11.61.33R
+  client:
+    type: browser
+    name: Opera
+    short_name: OP
+    version: "8.00"
     engine: Presto
 -
   user_agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 1091) AppleWebKit/537.36 (KHTML like Gecko) Chrome/33.0.1750.91 Safari/537.36 OPR/20.0.1387.37 (Edition Next)
@@ -768,12 +992,28 @@
     version: "6.2.3.2"
     engine:
 -
+  user_agent: SonyEricssonW395c/R1DA Browser/OpenWave/1.0 Profile/MIDP-2.1 Configuration/CLDC-1.1
+  client:
+    type: browser
+    name: Openwave Mobile Browser
+    short_name: OV
+    version: "1.0"
+    engine:
+-
   user_agent: 'Mozilla/5.0 (Macintosh; Intel  Mac OS X 10_9_1; en-US) AppleWebKit/9537.73.11 (KHTML, like Gecko) Version/7.0 Safari/537.71 OmniWeb/v624.0'
   client:
     type: browser
     name: OmniWeb
     short_name: OW
     version: "624.0"
+    engine: WebKit
+-
+  user_agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/538.1 (KHTML, like Gecko) Otter/0.9.04
+  client:
+    type: browser
+    name: Otter Browser
+    short_name: OT
+    version: "0.9.04"
     engine: WebKit
 -
   user_agent: Mozilla/4.0 (compatible; MSIE 6.0; Windows 98; PalmSource/Palm-D050; Blazer/4.3) 16;320x320
@@ -816,6 +1056,14 @@
     version:
     engine:
 -
+    user_agent: 'Palmscape/3.0J [ja] (v. 3.5.2H1.5; 153x130; c8)'
+    client:
+      type: browser
+      name: Palmscape
+      short_name: PA
+      version: 3.0
+      engine:
+-
   user_agent: Mozilla/5.0 (X11; U; Linux i686; en-US; rv:1.2b) Gecko/20021029 Phoenix/0.4
   client:
     type: browser
@@ -848,6 +1096,22 @@
     version: "0.16.91.483"
     engine: WebKit
 -
+  user_agent: Mozilla/5.0 (SMART-TV; Linux; Tizen 2.3) AppleWebkit/538.1 (KHTML, like Gecko) SamsungBrowser/1.0 TV Safari/538.1
+  client:
+    type: browser
+    name: Samsung Browser
+    short_name: SB
+    version: 1.0
+    engine: WebKit
+-
+  user_agent: Mozilla/5.0 (Linux; Android 5.1.1; SAMSUNG SM-A510F Build/LMY47X) AppleWebKit/537.36 (KHTML, like Gecko) SamsungBrowser/4.0 Chrome/44.0.2403.133 Mobile Safari/537.36
+  client:
+    type: browser
+    name: Samsung Browser
+    short_name: SB
+    version: 4.0
+    engine: WebKit
+-
   user_agent: Mozilla/5.0 (Maemo; Linux; U; Jolla; Sailfish; Mobile; rv:26.0) Gecko/26.0 Firefox/26.0 SailfishBrowser/1.0 like Safari/538.1
   client:
     type: browser
@@ -864,6 +1128,14 @@
     version: "2"
     engine:
 -
+  user_agent: Mozilla/5.0 (X11; Linux i686; U; en-US) Gecko/20081217 Vision-Browser/8.1 301x200 LG VN530
+  client:
+    type: browser
+    name: Vision Mobile Browser
+    short_name: VB
+    version: "8.1"
+    engine: Gecko
+-
   user_agent: Safari/9537.73.11 CFNetwork/673.0.3 Darwin/13.0.0 (x86_64) (MacBookAir6%2C2)
   client:
     type: browser
@@ -871,6 +1143,14 @@
     short_name: SF
     version:
     engine: WebKit
+-
+  user_agent: Sraf/3.0 (Linux i686 ; U; HbbTV/1.1.1 (+PVR+DL;NEXUS; TV44; sw1.0) CE-HTML/1.0 Config(L:eng,CC:DEU); en/de)
+  client:
+    type: browser
+    name: Seraphic Sraf
+    short_name: SS
+    version: "3.0"
+    engine: Blink
 -
   user_agent: CELKON.C64/R2AE SEMC-Browser/4.0.3 Profile/MIDP-2.0 Configuration/CLDC-1.1
   client:
@@ -886,6 +1166,14 @@
     name: Shiira
     short_name: SH
     version: "1.2.3"
+    engine: WebKit
+-
+  user_agent: Mozilla/5.0 (Macintosh; U; Intel Mac OS X 10_5_7; xx) AppleWebKit/530.17 (KHTML, like Gecko) Version/4.0 Safari/530.17 Skyfire/6DE
+  client:
+    type: browser
+    name: Skyfire
+    short_name: SK
+    version:
     engine: WebKit
 -
   user_agent: Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.1; Trident/6.0; Sleipnir/2.9.18)
@@ -920,6 +1208,14 @@
     version: "0.833"
     engine: WebKit
 -
+  user_agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.17 (KHTML, like Gecko) SuperBird/24.0
+  client:
+    type: browser
+    name: SuperBird
+    short_name: SP
+    version: "24.0"
+    engine: WebKit
+-
   user_agent: Mozilla/5.0 (X11; U; Linux i686; en-US; rv:1.8.1) Gecko/20061024 Firefox/2.0 (Swiftfox)
   client:
     type: browser
@@ -950,6 +1246,14 @@
     name: Vivaldi
     short_name: VI
     version: "1.0.105.7"
+    engine: Blink
+-
+  user_agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) TweakStyle/0.9.2 Chrome/49.0.2623.75 Electron/0.37.5 Safari/537.36 (Tab 1)
+  client:
+    type: browser
+    name: TweakStyle
+    short_name: TS
+    version: "0.9.2"
     engine: Blink
 -
   user_agent: Mozilla/5.0 (compatible; U; Webpositive/533.4; Haiku) AppleWebkit/533.4 (KHTML, like gecko) Chrome/5.0.375.55 Safari/533.4
@@ -999,4 +1303,11 @@
     short_name: QQ
     version: "8.0.3197.400"
     engine: WebKit
-
+-
+  user_agent: MQQBrowser/Mini2.6 (SAMSUNG-SGH-A777/A777UCIF2)
+  client:
+    type: browser
+    name: QQ Browser
+    short_name: QQ
+    version: "2.6"
+    engine:

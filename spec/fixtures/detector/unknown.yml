@@ -148,6 +148,7 @@
     name: Android
     short_name: AND
     version:
+    platform: ARM
   client:
     type: browser
     name: Fennec
@@ -161,47 +162,12 @@
   os_family: Android
   browser_family: Firefox
 - 
-  user_agent: Opera/9.80 (Android; Opera Mini/7.5.32193/28.3782; U; es) Presto/2.8.119 Version/11.10
-  os:
-    name: Android
-    short_name: AND
-    version:
-  client:
-    type: browser
-    name: Opera Mini
-    short_name: OI
-    version: "7.5.32193"
-    engine: Presto
-  device:
-    type:
-    brand:
-    model:
-  os_family: Android
-  browser_family: Opera
-- 
-  user_agent: Opera/9.80 (Android; Opera Mini/7.5.33361/34.818; U; en) Presto/2.8.119 Version/11.10
-  os:
-    name: Android
-    short_name: AND
-    version:
-  client:
-    type: browser
-    name: Opera Mini
-    short_name: OI
-    version: "7.5.33361"
-    engine: Presto
-  device:
-    type:
-    brand:
-    model:
-  os_family: Android
-  browser_family: Opera
-- 
   user_agent: Opera/9.80 (Android; Opera Mini/7.5.33361/34.861; U; en) Presto/2.8.119 Version/11.10
   os:
     name: Android
     short_name: AND
     version:
+    platform:
   client:
     type: browser
     name: Opera Mini
@@ -220,24 +186,7 @@
     name: Android
     short_name: AND
     version: "2.3"
-  client:
-    type: browser
-    name: Android Browser
-    short_name: AN
-    version:
-    engine: WebKit
-  device:
-    type:
-    brand:
-    model:
-  os_family: Android
-  browser_family: Android Browser
-- 
-  user_agent: Mozilla/5.0 (Linux; U; Android 2.3; es-es; MID Build/GRH55) AppleWebKit/533.1 (KHTML, like Gecko) Version/4.0 Mobile Safari/533.1
-  os:
-    name: Android
-    short_name: AND
-    version: "2.3"
+    platform:
   client:
     type: browser
     name: Android Browser
@@ -256,6 +205,7 @@
     name: Android
     short_name: AND
     version: "2.3.6"
+    platform:
   client:
     type: browser
     name: Android Browser
@@ -274,6 +224,7 @@
     name: Android
     short_name: AND
     version: "2.3.6"
+    platform:
   client:
     type: browser
     name: Android Browser
@@ -292,6 +243,7 @@
     name: Android
     short_name: AND
     version: "2.3.6"
+    platform:
   client:
     type: browser
     name: Android Browser
@@ -310,6 +262,7 @@
     name: Android
     short_name: AND
     version: "2.3.6"
+    platform:
   client:
     type: browser
     name: Android Browser
@@ -328,24 +281,7 @@
     name: Android
     short_name: AND
     version: "2.3.6"
-  client:
-    type: browser
-    name: Android Browser
-    short_name: AN
-    version:
-    engine: WebKit
-  device:
-    type:
-    brand:
-    model:
-  os_family: Android
-  browser_family: Android Browser
-- 
-  user_agent: Mozilla/5.0 (Linux; U; Android 2.3.6; vi-vn; Pioneer Build/GRK39F) AppleWebKit/533.1 (KHTML, like Gecko) Version/4.0 Mobile Safari/533.1
-  os:
-    name: Android
-    short_name: AND
-    version: "2.3.6"
+    platform:
   client:
     type: browser
     name: Android Browser
@@ -364,6 +300,7 @@
     name: Android
     short_name: AND
     version: "2.3.6"
+    platform:
   client:
     type: browser
     name: Android Browser
@@ -382,6 +319,7 @@
     name: Android
     short_name: AND
     version: "2.3.6"
+    platform:
   client:
     type: browser
     name: Android Browser
@@ -400,6 +338,7 @@
     name: Android
     short_name: AND
     version: "2.3.6"
+    platform:
   client:
     type: browser
     name: Android Browser
@@ -418,6 +357,7 @@
     name: Android
     short_name: AND
     version: "2.3.6"
+    platform:
   client:
     type: browser
     name: Android Browser
@@ -436,24 +376,7 @@
     name: Android
     short_name: AND
     version: "2.3.6"
-  client:
-    type: browser
-    name: Android Browser
-    short_name: AN
-    version:
-    engine: WebKit
-  device:
-    type:
-    brand:
-    model:
-  os_family: Android
-  browser_family: Android Browser
-- 
-  user_agent: Mozilla/5.0 (Linux; U; Android 2.3.7; cs-cz; Vodafone Smart II Build/GINGERBREAD) AppleWebKit/533.1 (KHTML, like Gecko) Version/4.0 Mobile Safari/533.1 SVN/01016
-  os:
-    name: Android
-    short_name: AND
-    version: "2.3.7"
+    platform:
   client:
     type: browser
     name: Android Browser
@@ -472,6 +395,7 @@
     name: Android
     short_name: AND
     version: "2.3.7"
+    platform:
   client:
     type: browser
     name: Android Browser
@@ -490,6 +414,7 @@
     name: Android
     short_name: AND
     version: "2.3.7"
+    platform:
   client:
     type: browser
     name: Android Browser
@@ -508,6 +433,7 @@
     name: Android
     short_name: AND
     version: "2.3.7"
+    platform:
   client:
     type: browser
     name: Android Browser
@@ -526,24 +452,7 @@
     name: Android
     short_name: AND
     version: "2.3.7"
-  client:
-    type: browser
-    name: Android Browser
-    short_name: AN
-    version:
-    engine: WebKit
-  device:
-    type:
-    brand:
-    model:
-  os_family: Android
-  browser_family: Android Browser
-- 
-  user_agent: Mozilla/5.0 (Linux; U; Android 2.3.7; en-us; ViewPhone3 Build/GWK74) AppleWebKit/533.1 (KHTML, like Gecko) Version/4.0 Mobile Safari/533.1
-  os:
-    name: Android
-    short_name: AND
-    version: "2.3.7"
+    platform:
   client:
     type: browser
     name: Android Browser
@@ -562,6 +471,7 @@
     name: Android
     short_name: AND
     version: "2.3.7"
+    platform:
   client:
     type: browser
     name: Android Browser
@@ -580,6 +490,7 @@
     name: Android
     short_name: AND
     version: "2.3.7"
+    platform:
   client:
     type: browser
     name: Android Browser
@@ -598,6 +509,7 @@
     name: Android
     short_name: AND
     version: "2.3.7"
+    platform:
   client:
     type: browser
     name: Android Browser
@@ -616,6 +528,7 @@
     name: Android
     short_name: AND
     version: "2.3.7"
+    platform:
   client:
     type: browser
     name: Android Browser
@@ -634,6 +547,7 @@
     name: Android
     short_name: AND
     version: "2.3.7"
+    platform:
   client:
     type: browser
     name: Android Browser
@@ -652,24 +566,7 @@
     name: Android
     short_name: AND
     version: "2.3.7"
-  client:
-    type: browser
-    name: Android Browser
-    short_name: AN
-    version:
-    engine: WebKit
-  device:
-    type:
-    brand:
-    model:
-  os_family: Android
-  browser_family: Android Browser
-- 
-  user_agent: Mozilla/5.0 (Linux; U; Android 2.3.7; zh-cn; u8800 Build/MIUI) AppleWebKit/533.1 (KHTML, like Gecko) Version/4.0 Mobile Safari/533.1
-  os:
-    name: Android
-    short_name: AND
-    version: "2.3.7"
+    platform:
   client:
     type: browser
     name: Android Browser
@@ -688,6 +585,7 @@
     name: Android
     short_name: AND
     version: "4.0.3"
+    platform:
   client:
     type: browser
     name: Android Browser
@@ -706,6 +604,7 @@
     name: Android
     short_name: AND
     version: "4.0.3"
+    platform:
   client:
     type: browser
     name: Android Browser
@@ -724,6 +623,7 @@
     name: Android
     short_name: AND
     version: "4.0.3"
+    platform:
   client:
     type: browser
     name: Android Browser
@@ -742,6 +642,7 @@
     name: Android
     short_name: AND
     version: "4.0.3"
+    platform:
   client:
     type: browser
     name: Android Browser
@@ -760,6 +661,7 @@
     name: Android
     short_name: AND
     version: "4.0.3"
+    platform:
   client:
     type: browser
     name: Android Browser
@@ -778,6 +680,7 @@
     name: Android
     short_name: AND
     version: "4.0.3"
+    platform:
   client:
     type: browser
     name: Android Browser
@@ -796,6 +699,7 @@
     name: Android
     short_name: AND
     version: "4.0.3"
+    platform:
   client:
     type: browser
     name: Android Browser
@@ -814,6 +718,7 @@
     name: Android
     short_name: AND
     version: "4.0.3"
+    platform:
   client:
     type: browser
     name: Android Browser
@@ -832,42 +737,7 @@
     name: Android
     short_name: AND
     version: "4.0.3"
-  client:
-    type: browser
-    name: Android Browser
-    short_name: AN
-    version:
-    engine: WebKit
-  device:
-    type:
-    brand:
-    model:
-  os_family: Android
-  browser_family: Android Browser
-- 
-  user_agent: Mozilla/5.0 (Linux; U; Android 4.0.3; en-us; Next9P Build/IML74K) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Safari/534.30
-  os:
-    name: Android
-    short_name: AND
-    version: "4.0.3"
-  client:
-    type: browser
-    name: Android Browser
-    short_name: AN
-    version:
-    engine: WebKit
-  device:
-    type:
-    brand:
-    model:
-  os_family: Android
-  browser_family: Android Browser
-- 
-  user_agent: Mozilla/5.0 (Linux; U; Android 4.0.3; en-us; PG86100 Build/IML74K) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30 airGClient/2.1.7
-  os:
-    name: Android
-    short_name: AND
-    version: "4.0.3"
+    platform:
   client:
     type: browser
     name: Android Browser
@@ -886,6 +756,7 @@
     name: Android
     short_name: AND
     version: "4.0.3"
+    platform:
   client:
     type: browser
     name: Android Browser
@@ -904,6 +775,7 @@
     name: Android
     short_name: AND
     version: "4.0.3"
+    platform:
   client:
     type: browser
     name: Android Browser
@@ -922,6 +794,7 @@
     name: Android
     short_name: AND
     version: "4.0.3"
+    platform:
   client:
     type: browser
     name: Android Browser
@@ -940,6 +813,7 @@
     name: Android
     short_name: AND
     version: "4.0.3"
+    platform:
   client:
     type: browser
     name: Android Browser
@@ -958,6 +832,7 @@
     name: Android
     short_name: AND
     version: "4.0.3"
+    platform:
   client:
     type: browser
     name: Android Browser
@@ -976,6 +851,7 @@
     name: Android
     short_name: AND
     version: "4.0.3"
+    platform:
   client:
     type: browser
     name: Android Browser
@@ -994,6 +870,7 @@
     name: Android
     short_name: AND
     version: "4.0.3"
+    platform:
   client:
     type: browser
     name: Android Browser
@@ -1012,6 +889,7 @@
     name: Android
     short_name: AND
     version: "4.0.3"
+    platform:
   client:
     type: browser
     name: Android Browser
@@ -1030,6 +908,7 @@
     name: Android
     short_name: AND
     version: "4.0.3"
+    platform:
   client:
     type: browser
     name: Android Browser
@@ -1048,6 +927,7 @@
     name: Android
     short_name: AND
     version: "4.0.3"
+    platform:
   client:
     type: browser
     name: Android Browser
@@ -1066,42 +946,7 @@
     name: Android
     short_name: AND
     version: "4.0.3"
-  client:
-    type: browser
-    name: Android Browser
-    short_name: AN
-    version:
-    engine: WebKit
-  device:
-    type:
-    brand:
-    model:
-  os_family: Android
-  browser_family: Android Browser
-- 
-  user_agent: Mozilla/5.0 (Linux; U; Android 4.0.3; ru-ru; Next8P12 Build/IML74K) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Safari/534.30
-  os:
-    name: Android
-    short_name: AND
-    version: "4.0.3"
-  client:
-    type: browser
-    name: Android Browser
-    short_name: AN
-    version:
-    engine: WebKit
-  device:
-    type:
-    brand:
-    model:
-  os_family: Android
-  browser_family: Android Browser
-- 
-  user_agent: Mozilla/5.0 (Linux; U; Android 4.0.3; ru-ru; PAP4300 DUO Build/IML74K) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30
-  os:
-    name: Android
-    short_name: AND
-    version: "4.0.3"
+    platform:
   client:
     type: browser
     name: Android Browser
@@ -1120,6 +965,7 @@
     name: Android
     short_name: AND
     version: "4.0.3"
+    platform:
   client:
     type: browser
     name: Android Browser
@@ -1138,24 +984,7 @@
     name: Android
     short_name: AND
     version: "4.0.3"
-  client:
-    type: browser
-    name: Android Browser
-    short_name: AN
-    version:
-    engine: WebKit
-  device:
-    type:
-    brand:
-    model:
-  os_family: Android
-  browser_family: Android Browser
-- 
-  user_agent: Mozilla/5.0 (Linux; U; Android 4.0.3; tr-tr; P713 Build/IML74K) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Safari/534.30
-  os:
-    name: Android
-    short_name: AND
-    version: "4.0.3"
+    platform:
   client:
     type: browser
     name: Android Browser
@@ -1174,6 +1003,7 @@
     name: Android
     short_name: AND
     version: "4.0.3"
+    platform:
   client:
     type: browser
     name: Android Browser
@@ -1192,6 +1022,7 @@
     name: Android
     short_name: AND
     version: "4.0.3"
+    platform:
   client:
     type: browser
     name: Android Browser
@@ -1210,6 +1041,7 @@
     name: Android
     short_name: AND
     version: "4.0.3"
+    platform:
   client:
     type: browser
     name: Android Browser
@@ -1228,6 +1060,7 @@
     name: Android
     short_name: AND
     version: "4.0.3"
+    platform:
   client:
     type: browser
     name: Android Browser
@@ -1246,6 +1079,7 @@
     name: Android
     short_name: AND
     version: "4.0.3"
+    platform:
   client:
     type: browser
     name: Android Browser
@@ -1264,24 +1098,7 @@
     name: Android
     short_name: AND
     version: "4.0.3"
-  client:
-    type: browser
-    name: Android Browser
-    short_name: AN
-    version:
-    engine: WebKit
-  device:
-    type:
-    brand:
-    model:
-  os_family: Android
-  browser_family: Android Browser
-- 
-  user_agent: Mozilla/5.0 (Linux; U; Android 4.0.3; zh-cn; vollo Vi86 Build/volloVi86) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30
-  os:
-    name: Android
-    short_name: AND
-    version: "4.0.3"
+    platform:
   client:
     type: browser
     name: Android Browser
@@ -1300,6 +1117,7 @@
     name: Android
     short_name: AND
     version: "4.0.3"
+    platform:
   client:
     type: browser
     name: Android Browser
@@ -1318,6 +1136,7 @@
     name: Android
     short_name: AND
     version: "4.0.3"
+    platform:
   client:
     type: browser
     name: Android Browser
@@ -1336,6 +1155,7 @@
     name: Android
     short_name: AND
     version: "4.0.4"
+    platform:
   client:
     type: browser
     name: Android Browser
@@ -1354,6 +1174,7 @@
     name: Android
     short_name: AND
     version: "4.0.4"
+    platform:
   client:
     type: browser
     name: Android Browser
@@ -1372,78 +1193,7 @@
     name: Android
     short_name: AND
     version: "4.0.4"
-  client:
-    type: browser
-    name: Android Browser
-    short_name: AN
-    version:
-    engine: WebKit
-  device:
-    type:
-    brand:
-    model:
-  os_family: Android
-  browser_family: Android Browser
-- 
-  user_agent: Mozilla/5.0 (Linux; U; Android 4.0.4; bg-bg; ELEMENT7V2 Build/IMM76D) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30
-  os:
-    name: Android
-    short_name: AND
-    version: "4.0.4"
-  client:
-    type: browser
-    name: Android Browser
-    short_name: AN
-    version:
-    engine: WebKit
-  device:
-    type:
-    brand:
-    model:
-  os_family: Android
-  browser_family: Android Browser
-- 
-  user_agent: Mozilla/5.0 (Linux; U; Android 4.0.4; ca-es; CT710 Build/IMM76I) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Safari/534.30
-  os:
-    name: Android
-    short_name: AND
-    version: "4.0.4"
-  client:
-    type: browser
-    name: Android Browser
-    short_name: AN
-    version:
-    engine: WebKit
-  device:
-    type:
-    brand:
-    model:
-  os_family: Android
-  browser_family: Android Browser
-- 
-  user_agent: Mozilla/5.0 (Linux; U; Android 4.0.4; cs-cz; ELEMENT10 1 Build/ICS.g08refem611.20121108) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Safari/534.30
-  os:
-    name: Android
-    short_name: AND
-    version: "4.0.4"
-  client:
-    type: browser
-    name: Android Browser
-    short_name: AN
-    version:
-    engine: WebKit
-  device:
-    type:
-    brand:
-    model:
-  os_family: Android
-  browser_family: Android Browser
-- 
-  user_agent: Mozilla/5.0 (Linux; U; Android 4.0.4; cs-cz; ELEMENT8 Build/IMM76D) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Safari/534.30
-  os:
-    name: Android
-    short_name: AND
-    version: "4.0.4"
+    platform:
   client:
     type: browser
     name: Android Browser
@@ -1462,6 +1212,7 @@
     name: Android
     short_name: AND
     version: "4.0.4"
+    platform:
   client:
     type: browser
     name: Android Browser
@@ -1480,6 +1231,7 @@
     name: Android
     short_name: AND
     version: "4.0.4"
+    platform:
   client:
     type: browser
     name: Android Browser
@@ -1498,6 +1250,7 @@
     name: Android
     short_name: AND
     version: "4.0.4"
+    platform:
   client:
     type: browser
     name: Android Browser
@@ -1516,6 +1269,7 @@
     name: Android
     short_name: AND
     version: "4.0.4"
+    platform:
   client:
     type: browser
     name: Android Browser
@@ -1534,6 +1288,7 @@
     name: Android
     short_name: AND
     version: "4.0.4"
+    platform:
   client:
     type: browser
     name: Android Browser
@@ -1552,6 +1307,7 @@
     name: Android
     short_name: AND
     version: "4.0.4"
+    platform:
   client:
     type: browser
     name: Android Browser
@@ -1570,6 +1326,7 @@
     name: Android
     short_name: AND
     version: "4.0.4"
+    platform:
   client:
     type: browser
     name: Android Browser
@@ -1588,24 +1345,7 @@
     name: Android
     short_name: AND
     version: "4.0.4"
-  client:
-    type: browser
-    name: Android Browser
-    short_name: AN
-    version:
-    engine: WebKit
-  device:
-    type:
-    brand:
-    model:
-  os_family: Android
-  browser_family: Android Browser
-- 
-  user_agent: Mozilla/5.0 (Linux; U; Android 4.0.4; en-ie; SmartTabII7 Build/IMM76D) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Safari/534.30
-  os:
-    name: Android
-    short_name: AND
-    version: "4.0.4"
+    platform:
   client:
     type: browser
     name: Android Browser
@@ -1624,6 +1364,7 @@
     name: Android
     short_name: AND
     version: "4.0.4"
+    platform:
   client:
     type: browser
     name: Android Browser
@@ -1642,6 +1383,7 @@
     name: Android
     short_name: AND
     version: "4.0.4"
+    platform:
   client:
     type: browser
     name: Android Browser
@@ -1660,6 +1402,7 @@
     name: Android
     short_name: AND
     version: "4.0.4"
+    platform:
   client:
     type: browser
     name: Android Browser
@@ -1678,6 +1421,7 @@
     name: Android
     short_name: AND
     version: "4.0.4"
+    platform:
   client:
     type: browser
     name: Android Browser
@@ -1696,6 +1440,7 @@
     name: Android
     short_name: AND
     version: "4.0.4"
+    platform:
   client:
     type: browser
     name: Android Browser
@@ -1714,6 +1459,7 @@
     name: Android
     short_name: AND
     version: "4.0.4"
+    platform:
   client:
     type: browser
     name: Android Browser
@@ -1732,6 +1478,7 @@
     name: Android
     short_name: AND
     version: "4.0.4"
+    platform:
   client:
     type: browser
     name: Android Browser
@@ -1750,6 +1497,7 @@
     name: Android
     short_name: AND
     version: "4.0.4"
+    platform:
   client:
     type: browser
     name: Android Browser
@@ -1768,6 +1516,7 @@
     name: Android
     short_name: AND
     version: "4.0.4"
+    platform:
   client:
     type: browser
     name: Android Browser
@@ -1786,6 +1535,7 @@
     name: Android
     short_name: AND
     version: "4.0.4"
+    platform:
   client:
     type: browser
     name: Android Browser
@@ -1804,6 +1554,7 @@
     name: Android
     short_name: AND
     version: "4.0.4"
+    platform:
   client:
     type: browser
     name: Android Browser
@@ -1822,24 +1573,7 @@
     name: Android
     short_name: AND
     version: "4.0.4"
-  client:
-    type: browser
-    name: Android Browser
-    short_name: AN
-    version:
-    engine: WebKit
-  device:
-    type:
-    brand:
-    model:
-  os_family: Android
-  browser_family: Android Browser
-- 
-  user_agent: Mozilla/5.0 (Linux; U; Android 4.0.4; en-us; N9500 Build/IMM76I) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30
-  os:
-    name: Android
-    short_name: AND
-    version: "4.0.4"
+    platform:
   client:
     type: browser
     name: Android Browser
@@ -1858,6 +1592,7 @@
     name: Android
     short_name: AND
     version: "4.0.4"
+    platform:
   client:
     type: browser
     name: Android Browser
@@ -1876,6 +1611,7 @@
     name: Android
     short_name: AND
     version: "4.0.4"
+    platform:
   client:
     type: browser
     name: Android Browser
@@ -1894,6 +1630,7 @@
     name: Android
     short_name: AND
     version: "4.0.4"
+    platform:
   client:
     type: browser
     name: Android Browser
@@ -1912,6 +1649,7 @@
     name: Android
     short_name: AND
     version: "4.0.4"
+    platform:
   client:
     type: browser
     name: Android Browser
@@ -1930,6 +1668,7 @@
     name: Android
     short_name: AND
     version: "4.0.4"
+    platform:
   client:
     type: browser
     name: Android Browser
@@ -1948,6 +1687,7 @@
     name: Android
     short_name: AND
     version: "4.0.4"
+    platform:
   client:
     type: browser
     name: Android Browser
@@ -1966,6 +1706,7 @@
     name: Android
     short_name: AND
     version: "4.0.4"
+    platform:
   client:
     type: browser
     name: Android Browser
@@ -1984,6 +1725,7 @@
     name: Android
     short_name: AND
     version: "4.0.4"
+    platform:
   client:
     type: browser
     name: Android Browser
@@ -2002,6 +1744,7 @@
     name: Android
     short_name: AND
     version: "4.0.4"
+    platform:
   client:
     type: browser
     name: Android Browser
@@ -2020,6 +1763,7 @@
     name: Android
     short_name: AND
     version: "4.0.4"
+    platform:
   client:
     type: browser
     name: Android Browser
@@ -2038,6 +1782,7 @@
     name: Android
     short_name: AND
     version: "4.0.4"
+    platform:
   client:
     type: browser
     name: Android Browser
@@ -2056,6 +1801,7 @@
     name: Android
     short_name: AND
     version: "4.0.4"
+    platform:
   client:
     type: browser
     name: Android Browser
@@ -2074,24 +1820,7 @@
     name: Android
     short_name: AND
     version: "4.0.4"
-  client:
-    type: browser
-    name: Android Browser
-    short_name: AN
-    version:
-    engine: WebKit
-  device:
-    type:
-    brand:
-    model:
-  os_family: Android
-  browser_family: Android Browser
-- 
-  user_agent: Mozilla/5.0 (Linux; U; Android 4.0.4; es-es; Sygnus Build/IMM76D) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30
-  os:
-    name: Android
-    short_name: AND
-    version: "4.0.4"
+    platform:
   client:
     type: browser
     name: Android Browser
@@ -2110,6 +1839,7 @@
     name: Android
     short_name: AND
     version: "4.0.4"
+    platform:
   client:
     type: browser
     name: Android Browser
@@ -2128,6 +1858,7 @@
     name: Android
     short_name: AND
     version: "4.0.4"
+    platform:
   client:
     type: browser
     name: Android Browser
@@ -2146,6 +1877,7 @@
     name: Android
     short_name: AND
     version: "4.0.4"
+    platform:
   client:
     type: browser
     name: Android Browser
@@ -2164,6 +1896,7 @@
     name: Android
     short_name: AND
     version: "4.0.4"
+    platform:
   client:
     type: browser
     name: Android Browser
@@ -2182,6 +1915,7 @@
     name: Android
     short_name: AND
     version: "4.0.4"
+    platform:
   client:
     type: browser
     name: Android Browser
@@ -2200,24 +1934,7 @@
     name: Android
     short_name: AND
     version: "4.0.4"
-  client:
-    type: browser
-    name: Android Browser
-    short_name: AN
-    version:
-    engine: WebKit
-  device:
-    type:
-    brand:
-    model:
-  os_family: Android
-  browser_family: Android Browser
-- 
-  user_agent: Mozilla/5.0 (Linux; U; Android 4.0.4; fr-fr; ThL W3 Build/IMM76D) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30
-  os:
-    name: Android
-    short_name: AND
-    version: "4.0.4"
+    platform:
   client:
     type: browser
     name: Android Browser
@@ -2236,6 +1953,7 @@
     name: Android
     short_name: AND
     version: "4.0.4"
+    platform:
   client:
     type: browser
     name: Android Browser
@@ -2254,6 +1972,7 @@
     name: Android
     short_name: AND
     version: "4.0.4"
+    platform:
   client:
     type: browser
     name: Android Browser
@@ -2272,6 +1991,7 @@
     name: Android
     short_name: AND
     version: "4.0.4"
+    platform:
   client:
     type: browser
     name: Android Browser
@@ -2290,6 +2010,7 @@
     name: Android
     short_name: AND
     version: "4.0.4"
+    platform:
   client:
     type: browser
     name: Android Browser
@@ -2308,6 +2029,7 @@
     name: Android
     short_name: AND
     version: "4.0.4"
+    platform:
   client:
     type: browser
     name: Android Browser
@@ -2326,6 +2048,7 @@
     name: Android
     short_name: AND
     version: "4.0.4"
+    platform:
   client:
     type: browser
     name: Android Browser
@@ -2344,6 +2067,7 @@
     name: Android
     short_name: AND
     version: "4.0.4"
+    platform:
   client:
     type: browser
     name: Android Browser
@@ -2362,6 +2086,7 @@
     name: Android
     short_name: AND
     version: "4.0.4"
+    platform:
   client:
     type: browser
     name: Android Browser
@@ -2380,6 +2105,7 @@
     name: Android
     short_name: AND
     version: "4.0.4"
+    platform:
   client:
     type: browser
     name: Android Browser
@@ -2398,42 +2124,7 @@
     name: Android
     short_name: AND
     version: "4.0.4"
-  client:
-    type: browser
-    name: Android Browser
-    short_name: AN
-    version:
-    engine: WebKit
-  device:
-    type:
-    brand:
-    model:
-  os_family: Android
-  browser_family: Android Browser
-- 
-  user_agent: Mozilla/5.0 (Linux; U; Android 4.0.4; pl-pl; OV-TB-07B Build/IMM76D) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30
-  os:
-    name: Android
-    short_name: AND
-    version: "4.0.4"
-  client:
-    type: browser
-    name: Android Browser
-    short_name: AN
-    version:
-    engine: WebKit
-  device:
-    type:
-    brand:
-    model:
-  os_family: Android
-  browser_family: Android Browser
-- 
-  user_agent: Mozilla/5.0 (Linux; U; Android 4.0.4; pl-pl; OV-TB-08 II Build/IMM76D) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Safari/534.30
-  os:
-    name: Android
-    short_name: AND
-    version: "4.0.4"
+    platform:
   client:
     type: browser
     name: Android Browser
@@ -2452,6 +2143,7 @@
     name: Android
     short_name: AND
     version: "4.0.4"
+    platform:
   client:
     type: browser
     name: Android Browser
@@ -2470,6 +2162,7 @@
     name: Android
     short_name: AND
     version: "4.0.4"
+    platform:
   client:
     type: browser
     name: Android Browser
@@ -2488,6 +2181,7 @@
     name: Android
     short_name: AND
     version: "4.0.4"
+    platform:
   client:
     type: browser
     name: Android Browser
@@ -2506,24 +2200,7 @@
     name: Android
     short_name: AND
     version: "4.0.4"
-  client:
-    type: browser
-    name: Android Browser
-    short_name: AN
-    version:
-    engine: WebKit
-  device:
-    type:
-    brand:
-    model:
-  os_family: Android
-  browser_family: Android Browser
-- 
-  user_agent: Mozilla/5.0 (Linux; U; Android 4.0.4; ro-ro; OV-TB-07B Build/IMM76D) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30
-  os:
-    name: Android
-    short_name: AND
-    version: "4.0.4"
+    platform:
   client:
     type: browser
     name: Android Browser
@@ -2542,6 +2219,7 @@
     name: Android
     short_name: AND
     version: "4.0.4"
+    platform:
   client:
     type: browser
     name: Android Browser
@@ -2560,6 +2238,7 @@
     name: Android
     short_name: AND
     version: "4.0.4"
+    platform:
   client:
     type: browser
     name: Android Browser
@@ -2578,42 +2257,7 @@
     name: Android
     short_name: AND
     version: "4.0.4"
-  client:
-    type: browser
-    name: Android Browser
-    short_name: AN
-    version:
-    engine: WebKit
-  device:
-    type:
-    brand:
-    model:
-  os_family: Android
-  browser_family: Android Browser
-- 
-  user_agent: Mozilla/5.0 (Linux; U; Android 4.0.4; ru-ru; POV_TAB_NAVI7_3G_M Build/IMM76D) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Safari/534.30
-  os:
-    name: Android
-    short_name: AND
-    version: "4.0.4"
-  client:
-    type: browser
-    name: Android Browser
-    short_name: AN
-    version:
-    engine: WebKit
-  device:
-    type:
-    brand:
-    model:
-  os_family: Android
-  browser_family: Android Browser
-- 
-  user_agent: Mozilla/5.0 (Linux; U; Android 4.0.4; ru-ru; ThL W5 Build/IMM76D) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30
-  os:
-    name: Android
-    short_name: AND
-    version: "4.0.4"
+    platform:
   client:
     type: browser
     name: Android Browser
@@ -2632,6 +2276,7 @@
     name: Android
     short_name: AND
     version: "4.0.4"
+    platform:
   client:
     type: browser
     name: Android Browser
@@ -2650,24 +2295,7 @@
     name: Android
     short_name: AND
     version: "4.0.4"
-  client:
-    type: browser
-    name: Android Browser
-    short_name: AN
-    version:
-    engine: WebKit
-  device:
-    type:
-    brand:
-    model:
-  os_family: Android
-  browser_family: Android Browser
-- 
-  user_agent: Mozilla/5.0 (Linux; U; Android 4.0.4; th-th; SH837W Build/IMM76D) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30
-  os:
-    name: Android
-    short_name: AND
-    version: "4.0.4"
+    platform:
   client:
     type: browser
     name: Android Browser
@@ -2686,6 +2314,7 @@
     name: Android
     short_name: AND
     version: "4.0.4"
+    platform:
   client:
     type: browser
     name: Android Browser
@@ -2704,6 +2333,7 @@
     name: Android
     short_name: AND
     version: "4.0.4"
+    platform:
   client:
     type: browser
     name: Android Browser
@@ -2722,6 +2352,7 @@
     name: Android
     short_name: AND
     version: "4.0.4"
+    platform:
   client:
     type: browser
     name: Android Browser
@@ -2740,6 +2371,7 @@
     name: Android
     short_name: AND
     version: "4.0.4"
+    platform:
   client:
     type: browser
     name: Android Browser
@@ -2758,6 +2390,7 @@
     name: Android
     short_name: AND
     version: "4.0.4"
+    platform:
   client:
     type: browser
     name: Android Browser
@@ -2776,6 +2409,7 @@
     name: Android
     short_name: AND
     version: "4.0.4"
+    platform:
   client:
     type: browser
     name: Android Browser
@@ -2794,6 +2428,7 @@
     name: Android
     short_name: AND
     version: "4.0.4"
+    platform:
   client:
     type: browser
     name: Android Browser
@@ -2812,6 +2447,7 @@
     name: Android
     short_name: AND
     version: "4.0.4"
+    platform:
   client:
     type: browser
     name: Android Browser
@@ -2830,6 +2466,7 @@
     name: Android
     short_name: AND
     version: "4.0.4"
+    platform:
   client:
     type: browser
     name: Android Browser
@@ -2848,6 +2485,7 @@
     name: Android
     short_name: AND
     version: "4.0.4"
+    platform:
   client:
     type: browser
     name: Android Browser
@@ -2866,6 +2504,7 @@
     name: Android
     short_name: AND
     version: "4.0.4"
+    platform:
   client:
     type: browser
     name: Android Browser
@@ -2884,6 +2523,7 @@
     name: Android
     short_name: AND
     version: "4.0.4"
+    platform:
   client:
     type: browser
     name: Maxthon
@@ -2902,6 +2542,7 @@
     name: Android
     short_name: AND
     version: "4.0.4"
+    platform:
   client:
     type: browser
     name: Puffin
@@ -2920,6 +2561,7 @@
     name: Android
     short_name: AND
     version: "4.0.9"
+    platform:
   client:
     type: browser
     name: Android Browser
@@ -2938,6 +2580,7 @@
     name: Android
     short_name: AND
     version: "4.1"
+    platform:
   client:
     type: browser
     name: Android Browser
@@ -2956,6 +2599,7 @@
     name: Android
     short_name: AND
     version: "4.1.0"
+    platform:
   client:
     type: browser
     name: Android Browser
@@ -2974,6 +2618,7 @@
     name: Android
     short_name: AND
     version: "4.1.1"
+    platform:
   client:
     type: browser
     name: Android Browser
@@ -2992,6 +2637,7 @@
     name: Android
     short_name: AND
     version: "4.1.1"
+    platform:
   client:
     type: browser
     name: Android Browser
@@ -3010,6 +2656,7 @@
     name: Android
     short_name: AND
     version: "4.1.1"
+    platform:
   client:
     type: browser
     name: Android Browser
@@ -3028,6 +2675,7 @@
     name: Android
     short_name: AND
     version: "4.1.1"
+    platform:
   client:
     type: browser
     name: Android Browser
@@ -3046,6 +2694,7 @@
     name: Android
     short_name: AND
     version: "4.1.1"
+    platform:
   client:
     type: browser
     name: Android Browser
@@ -3064,6 +2713,7 @@
     name: Android
     short_name: AND
     version: "4.1.1"
+    platform:
   client:
     type: browser
     name: Android Browser
@@ -3082,6 +2732,7 @@
     name: Android
     short_name: AND
     version: "4.1.1"
+    platform:
   client:
     type: browser
     name: Android Browser
@@ -3100,6 +2751,7 @@
     name: Android
     short_name: AND
     version: "4.1.1"
+    platform:
   client:
     type: browser
     name: Android Browser
@@ -3118,24 +2770,7 @@
     name: Android
     short_name: AND
     version: "4.1.1"
-  client:
-    type: browser
-    name: Android Browser
-    short_name: AN
-    version:
-    engine: WebKit
-  device:
-    type:
-    brand:
-    model:
-  os_family: Android
-  browser_family: Android Browser
-- 
-  user_agent: Mozilla/5.0 (Linux; U; Android 4.1.1; ru-ru; U23GT Build/JRO03H) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Safari/534.30
-  os:
-    name: Android
-    short_name: AND
-    version: "4.1.1"
+    platform:
   client:
     type: browser
     name: Android Browser
@@ -3154,6 +2789,7 @@
     name: Android
     short_name: AND
     version: "4.1.1"
+    platform:
   client:
     type: browser
     name: Android Browser
@@ -3172,6 +2808,7 @@
     name: Android
     short_name: AND
     version: "4.1.1"
+    platform:
   client:
     type: browser
     name: Android Browser
@@ -3190,6 +2827,7 @@
     name: Android
     short_name: AND
     version: "4.1.1"
+    platform:
   client:
     type: browser
     name: Android Browser
@@ -3208,6 +2846,26 @@
     name: Android
     short_name: AND
     version: "4.1.1"
+    platform:
+  client:
+    type: browser
+    name: Android Browser
+    short_name: AN
+    version:
+    engine: WebKit
+  device:
+    type:
+    brand:
+    model:
+  os_family: Android
+  browser_family: Android Browser
+- 
+  user_agent: Mozilla/5.0 (Linux; U; Android 4.4.2; zh-cn; X5 R1 Build/KOT49H) AppleWebKit/534.24 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.24 T5/2.0 baiduboxapp/6.7 (Baidu; P1 4.4.2)
+  os:
+    name: Android
+    short_name: AND
+    version: "4.4.2"
+    platform:
   client:
     type: browser
     name: Android Browser
@@ -3226,6 +2884,7 @@
     name: Brew
     short_name: BMP
     version: "3.1.5.20"
+    platform:
   client:
     type: browser
     name: UC Browser
@@ -3244,6 +2903,7 @@
     name: CyanogenMod
     short_name: CYN
     version:
+    platform:
   client:
     type: browser
     name: Android Browser
@@ -3262,24 +2922,7 @@
     name: CyanogenMod
     short_name: CYN
     version: "7.2.0"
-  client:
-    type: browser
-    name: Android Browser
-    short_name: AN
-    version:
-    engine: WebKit
-  device:
-    type:
-    brand:
-    model:
-  os_family: Android
-  browser_family: Android Browser
-- 
-  user_agent: Mozilla/5.0 (Linux; U; Android 2.3.7; en-us; PC36100 Build/GRI40; CyanogenMod-7.2.0) AppleWebKit/533.1 (KHTML, like Gecko) Version/4.0 Mobile Safari/533.1
-  os:
-    name: CyanogenMod
-    short_name: CYN
-    version: "7.2.0"
+    platform:
   client:
     type: browser
     name: Android Browser
@@ -3298,6 +2941,7 @@
     name: CyanogenMod
     short_name: CYN
     version: "7.2.0"
+    platform:
   client:
     type: browser
     name: Android Browser
@@ -3316,6 +2960,7 @@
     name: CyanogenMod
     short_name: CYN
     version: "9"
+    platform:
   client:
     type: browser
     name: Android Browser
@@ -3334,6 +2979,7 @@
     name: CyanogenMod
     short_name: CYN
     version: "9"
+    platform:
   client:
     type: browser
     name: Android Browser
@@ -3352,6 +2998,7 @@
     name: CyanogenMod
     short_name: CYN
     version: "9.0.0"
+    platform:
   client:
     type: browser
     name: Android Browser
@@ -3365,11 +3012,31 @@
   os_family: Android
   browser_family: Android Browser
 - 
+  user_agent: 'Mozilla/5.0 (X11; U; Linux x86_64; fa-ir) AppleWebKit/534.35 (KHTML, like Gecko)  Chrome/11.0.696.65 Safari/534.35 Puffin/2.10977AP'
+  os:
+    name: GNU/Linux
+    short_name: LIN
+    version:
+    platform: x64
+  client:
+    type: browser
+    name: Puffin
+    short_name: PU
+    version: "2.10977"
+    engine: WebKit
+  device:
+    type:
+    brand:
+    model:
+  os_family: GNU/Linux
+  browser_family: Unknown
+- 
   user_agent: Mozilla/5.0 (Linux; U; Android 2.3.6; zh-cn; SPHS on Hsdroid Build/MocorDroid2.3.5) AppleWebKit/533.1 (KHTML, like Gecko) Version/4.0 Mobile Safari/533.1
   os:
     name: MocorDroid
     short_name: MCD
     version: "2.3.5"
+    platform:
   client:
     type: browser
     name: Android Browser
@@ -3388,6 +3055,7 @@
     name: RISC OS
     short_name: ROS
     version: "3.70"
+    platform:
   client:
     type: browser
     name: Oregano
@@ -3406,6 +3074,7 @@
     name: RISC OS
     short_name: ROS
     version: "4.39"
+    platform:
   client: null
   device:
     type:
@@ -3419,7 +3088,13 @@
     name: RISC OS
     short_name: ROS
     version: "5.13"
-  client: null
+    platform:
+  client:
+    type: browser
+    name: ANT Fresco
+    short_name: AF
+    version: "2.17"
+    engine:
   device:
     type:
     brand:
@@ -3431,7 +3106,8 @@
   os:
     name: Tizen
     short_name: TIZ
-    version:
+    version: "1.0"
+    platform:
   client:
     type: browser
     name: Tizen Browser
@@ -3450,6 +3126,7 @@
     name: Windows CE
     short_name: WCE
     version:
+    platform:
   client:
     type: browser
     name: Internet Explorer
@@ -3468,6 +3145,7 @@
     name: Windows Mobile
     short_name: WMO
     version:
+    platform:
   client:
     type: browser
     name: Opera Mobile
@@ -3486,6 +3164,7 @@
     name: Windows Phone
     short_name: WPH
     version:
+    platform:
   client:
     type: browser
     name: IE Mobile
@@ -3498,3 +3177,20 @@
     model:
   os_family: Windows Mobile
   browser_family: Internet Explorer
+- 
+  user_agent: SubStream/0.7 CFNetwork/485.12.30 Darwin/10.4.0
+  os:
+    name: iOS
+    short_name: IOS
+    version: "4.2"
+    platform:
+  client:
+    type: mediaplayer
+    name: SubStream
+    version: "0.7"
+  device:
+    type:
+    brand: AP
+    model:
+  os_family: iOS
+  browser_family: Unknown

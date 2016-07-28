@@ -9,6 +9,10 @@
   name: 'Banshee'
   version: '$1'
 
+- regex: 'Boxee(?:[ /]([\d\.]+))?'
+  name: 'Boxee'
+  version: '$1'
+
 - regex: 'Clementine(?:[ /]([\d\.]+))?'
   name: 'Clementine'
   version: '$1'
@@ -49,7 +53,7 @@
   name: 'SubStream'
   version: '$1'
 
-- regex: 'VLC(?:/([\d\.]+))?'
+- regex: '(?:Lib)?VLC(?:/([\d\.]+))?'
   name: 'VLC'
   version: '$1'
 
@@ -57,7 +61,7 @@
   name: 'Winamp'
   version: '$1'
 
-- regex: 'Windows-Media-Player(?:/(\d+[\.\d]+))?'
+- regex: '(?:Windows-Media-Player|NSPlayer)(?:/(\d+[\.\d]+))?'
   name: 'Windows Media Player'
   version: '$1'
 
@@ -73,6 +77,6 @@
   name: 'Stagefright'
   version: '$1'
 
-- regex: 'Instacast\/([\d\.]+) CFNetwork\/([\d\.]+)'
+- regex: 'Instacast(?:/([\d\.]+))? CFNetwork/([\d\.]+)'
   name: 'Instacast'
   version: '$1'

@@ -29,7 +29,7 @@
     name: 'Acoon GmbH'
     url: 'http://www.acoon.de'
 
-- regex: 'AddThis.com'
+- regex: 'AddThis\.com'
   name: 'AddThis.com'
   category: 'Social Media Agent'
   url: ''
@@ -61,6 +61,14 @@
     name: 'Amorank'
     url: 'http://www.amorank.com'
 
+- regex: 'Applebot'
+  name: 'Applebot'
+  category: 'Crawler'
+  url: 'http://www.apple.com/go/applebot'
+  producer:
+    name: 'Apple Inc'
+    url: 'http://www.apple.com'
+
 - regex: 'Curious George'
   name: 'Analytics SEO Crawler'
   category: 'Crawler'
@@ -69,7 +77,7 @@
     name: 'Analytics SEO'
     url: 'http://www.analyticsseo.com'
 
-- regex: 'archive.org_bot|special_archiver'
+- regex: 'archive\.org_bot|special_archiver'
   name: 'archive.org bot'
   category: 'Crawler'
   url: 'http://www.archive.org/details/archive.org_bot'
@@ -85,7 +93,7 @@
     name: 'Ask Jeeves Inc.'
     url: 'http://www.ask.com'
 
-- regex: 'Backlink-Ceck.de'
+- regex: 'Backlink-Ceck\.de'
   name: 'Backlink-Ceck.de'
   category: 'Crawler'
   url: 'http://www.backlink-check.de/bot.html'
@@ -108,6 +116,14 @@
   producer:
     name: 'Baidu'
     url: 'http://www.baidu.com'
+
+- regex: 'BazQux'
+  name: 'BazQux Reader'
+  url: 'https://bazqux.com/fetcher'
+  category: 'Feed Fetcher'
+  producer:
+    name: ''
+    url: ''
 
 - regex: 'MSNBot|msrbot|bingbot|BingPreview|msnbot-(UDiscovery|NewsBlogs)|adidxbot'
   name: 'BingBot'
@@ -141,6 +157,14 @@
     name: ''
     url: ''
 
+- regex: 'Blogtrottr'
+  name: 'Blogtrottr'
+  url: ''
+  category: 'Feed Fetcher'
+  producer:
+    name: 'Blogtrottr Ltd'
+    url: 'https://blogtrottr.com/'
+
 - regex: 'BountiiBot'
   name: 'Bountii Bot'
   category: 'Search bot'
@@ -157,7 +181,15 @@
     name: 'Browsershots.org'
     url: 'http://browsershots.org'
 
-- regex: '(?<!HTC)[ _]Butterfly'
+- regex: 'BUbiNG'
+  name: 'BUbiNG'
+  category: 'Crawler'
+  url: 'http://law.di.unimi.it/BUbiNG.html'
+  producer:
+    name: ''
+    url: ''
+
+- regex: '(?<!HTC)[ _]Butterfly/'
   name: 'Butterfly Robot'
   category: 'Search bot'
   url: 'http://labs.topsy.com/butterfly'
@@ -197,6 +229,14 @@
     name: 'CloudFlare'
     url: 'http://www.cloudflare.com'
 
+- regex: 'coccoc/'
+  name: 'Cốc Cốc Bot'
+  url: 'http://help.coccoc.com/'
+  category: 'Search bot'
+  producer:
+    name: 'Cốc Cốc'
+    url: 'http://coccoc.com/'
+
 - regex: 'CommaFeed'
   name: 'CommaFeed'
   url: 'http://www.commafeed.com'
@@ -204,6 +244,14 @@
   producer:
     name: ''
     url: ''
+
+- regex: 'Daum(oa)?[ /][0-9]'
+  name: 'Daum'
+  category: 'Search bot'
+  url: 'http://tab.search.daum.net/aboutWebSearch_en.html'
+  producer:
+    name: 'Daum Communications Corp.'
+    url: 'http://www.kakaocorp.com/main'
 
 - regex: 'Dazoobot'
   name: 'Dazoobot'
@@ -220,6 +268,14 @@
   producer:
     name: 'Discovery Engine'
     url: 'http://discoveryengine.com'
+
+- regex: 'Domain Re-Animator Bot|support@domainreanimator.com'
+  name: 'Domain Re-Animator Bot'
+  category: 'Crawler'
+  url: ''
+  producer:
+    name: 'Domain Re-Animator, LLC'
+    url: 'http://domainreanimator.com'
 
 - regex: 'DotBot'
   name: 'DotBot'
@@ -293,6 +349,14 @@
     name: ''
     url: ''
 
+- regex: 'Feed Wrangler'
+  name: 'Feed Wrangler'
+  url: 'https://feedwrangler.net/'
+  category: 'Feed Fetcher'
+  producer:
+    name: 'David Smith & Developing Perspective, LLC'
+    url: 'https://david-smith.org'
+
 - regex: '(Meta)?Feedly(Bot|App)?'
   name: 'Feedly'
   url: 'http://www.feedly.com'
@@ -309,7 +373,7 @@
     name: ''
     url: ''
 
-- regex: 'Fever'
+- regex: 'Fever/[0-9]'
   name: 'Fever'
   url: 'http://feedafever.com/'
   category: 'Feed Fetcher'
@@ -324,6 +388,14 @@
   producer:
     name: 'Genieo'
     url: 'http://www.genieo.com'
+
+- regex: 'Gluten Free Crawler'
+  name: 'Gluten Free Crawler'
+  category: 'Crawler'
+  url: 'http://glutenfreepleasure.com/'
+  producer:
+    name: ''
+    url: ''
 
 - regex: 'ichiro/mobile goo'
   name: 'Goo'
@@ -341,7 +413,23 @@
     name: 'Google Inc.'
     url: 'http://www.google.com'
 
-- regex: 'Googlebot(-Mobile|-Image|-Video|-News)?|Feedfetcher-Google|Google-Test|Google-Site-Verification|Google Web Preview|AdsBot-Google(-Mobile)?|Mediapartners-Google|Google.*/\+/web/snippet|GoogleProducer'
+- regex: 'google_partner_monitoring'
+  name: 'Google Partner Monitoring'
+  category: 'Site Monitor'
+  url: ''
+  producer:
+    name: 'Google Inc.'
+    url: 'http://www.google.com'
+
+- regex: 'via ggpht\.com GoogleImageProxy'
+  name: 'Gmail Image Proxy'
+  category: 'Crawler'
+  url: ''
+  producer:
+    name: 'Google Inc.'
+    url: 'http://www.google.com'
+
+- regex: 'Googlebot(-Mobile|-Image|-Video|-News)?|Feedfetcher-Google|Google-Test|Google-Site-Verification|Google Web Preview|AdsBot-Google(-Mobile)?|Mediapartners-Google|Google.*/\+/web/snippet|GoogleProducer|Google[ -]Publisher[ -]Plugin'
   name: 'Googlebot'
   category: 'Search bot'
   url: 'http://www.google.com/bot.html'
@@ -365,9 +453,17 @@
     name: 'towards GmbH'
     url: 'http://www.towards.ch/'
 
+- regex: 'ICC-Crawler'
+  name: 'ICC-Crawler'
+  category: 'Crawler'
+  url: 'http://www.nict.go.jp/en/univ-com/plan/crawl.html'
+  producer:
+    name: ''
+    url: ''
+
 - regex: 'iisbot'
   name: 'IIS Site Analysis'
-  category: 'crawler'
+  category: 'Crawler'
   url: 'http://www.iis.net/iisbot.html'
   producer:
     name: 'Microsoft Corporation'
@@ -381,7 +477,15 @@
     name: ''
     url: ''
 
-- regex: 'linkdexbot(-mobile)?|linkdex.com'
+- regex: 'larbin'
+  name: 'Larbin web crawler'
+  category: 'Crawler'
+  url: 'http://larbin.sourceforge.net'
+  producer:
+    name: ''
+    url: ''
+
+- regex: 'linkdexbot(-mobile)?|linkdex\.com'
   name: 'Linkdex Bot'
   category: 'Search bot'
   url: 'http://www.linkdex.com/bots'
@@ -397,7 +501,14 @@
     name: 'LinkedIn'
     url: 'http://www.linkedin.com'
 
-- regex: 'Mail.RU(_Bot)?'
+- regex: 'ltx71'
+  name: 'LTX71'
+  url: 'http://ltx71.com/'
+  producer:
+    name: ''
+    url: ''
+
+- regex: 'Mail\.RU(_Bot)?'
   name: 'Mail.Ru Bot'
   category: 'Search bot'
   url: 'http://help.mail.ru/webmaster/indexing/robots/types_robots'
@@ -533,6 +644,14 @@
     name: 'OpenWebSpider Lab'
     url: 'http://lab.openwebspider.org'
 
+- regex: 'OrangeBot|VoilaBot'
+  name: 'Orange Bot'
+  category: 'Search bot'
+  url: 'http://lemoteur.orange.fr'
+  producer:
+    name: 'Orange'
+    url: 'http://www.orange.fr'
+
 - regex: 'PaperLiBot'
   name: 'PaperLiBot'
   category: 'Search bot'
@@ -540,6 +659,14 @@
   producer:
     name: 'Smallrivers SA'
     url: 'http://www.paper.li'
+
+- regex: 'phpservermon'
+  name: 'PHP Server Monitor'
+  category: 'Site Monitor'
+  url: 'https://github.com/phpservermon/phpservermon'
+  producer:
+    name: 'PHP Server Monitor'
+    url: 'http://www.phpservermonitor.org/'
 
 - regex: 'psbot(-page)?'
   name: 'Picsearch bot'
@@ -549,9 +676,9 @@
     name: 'Picsearch'
     url: 'http://www.picsearch.com'
 
-- regex: 'Pingdom.com'
+- regex: 'Pingdom\.com'
   name: 'Pingdom Bot'
-  category: 'Site Monitors'
+  category: 'Site Monitor'
   url: ''
   producer:
     name: 'Pingdom AB'
@@ -580,6 +707,19 @@
   producer:
     name: 'SEOmoz, Inc.'
     url: 'http://moz.com/'
+
+- regex: 'ROI Hunter'
+  name: 'ROI Hunter'
+  category: 'Crawler'
+  url: ''
+  producer:
+    name: 'Roihunter a.s.'
+    url: 'http://roihunter.com/'
+
+- regex: 'Scrapy'
+  name: 'Scrapy'
+  category: 'Crawler'
+  url: 'http://scrapy.org'
 
 - regex: 'Screaming Frog SEO Spider'
   name: 'Screaming Frog SEO Spider'
@@ -621,6 +761,14 @@
     name: 'SEO Engine'
     url: 'http://www.seoengine.com'
 
+- regex: 'SkypeUriPreview'
+  name: 'Skype URI Preview'
+  category: 'Service Agent'
+  url: ''
+  producer:
+    name: 'Skype Communications S.à.r.l.'
+    url: 'https://www.skype.com'
+
 - regex: 'SeznamBot|SklikBot|Seznam screenshot-generator'
   name: 'Seznam Bot'
   category: 'Search bot'
@@ -660,6 +808,14 @@
   producer:
     name: 'SISTRIX GmbH'
     url: 'http://www.sistrix.de'
+
+- regex: 'Slackbot|Slack-ImgProxy'
+  name: 'Slackbot'
+  category: 'Crawler'
+  url: 'https://api.slack.com/robots'
+  producer:
+    name: 'Slack Technologies'
+    url: 'http://slack.com'
 
 - regex: '(Sogou (web|inst|Pic) spider)|New-Sogou-Spider'
   name: 'Sogou Spider'
@@ -708,6 +864,10 @@
   producer:
     name: 'Domain Tools'
     url: 'http://www.domaintools.com'
+
+- regex: 'TelegramBot'
+  name: 'TelgramBot'
+  url: 'https://telegram.org/blog/bot-revolution'
 
 - regex: 'TinEye-bot'
   name: 'TinEye Crawler'
@@ -781,14 +941,6 @@
     name: 'Alentum Software Ltd.'
     url: 'http://www.alentum.com'
 
-- regex: 'VoilaBot'
-  name: 'Voila Bot'
-  category: 'Search bot'
-  url: 'http://www.voila.fr'
-  producer:
-    name: ''
-    url: ''
-
 - regex: 'Jigsaw'
   name: 'W3C CSS Validator'
   category: 'Validator'
@@ -853,6 +1005,14 @@
     name: 'Steve Webb'
     url: 'http://badcheese.com'
 
+- regex: 'websitepulse[+ ]checker'
+  name: 'WebSitePulse'
+  category: 'Site Monitor'
+  url: 'http://badcheese.com/crawler.html'
+  producer:
+    name: 'WebSitePulse'
+    url: 'http://www.websitepulse.com/'
+
 - regex: 'Wotbox'
   name: 'Wotbox'
   category: 'Search bot'
@@ -877,7 +1037,23 @@
     name: 'Yahoo! Inc.'
     url: 'http://www.yahoo.com'
 
-- regex: 'Yandex(Bot|Images|Antivirus|Direct|Blogs|Favicons|ImageResizer|News(links)?|Metrika|.Gazeta Bot)'
+- regex: 'Yahoo Link Preview|Yahoo:LinkExpander:Slingstone'
+  name: 'Yahoo! Link Preview'
+  category: 'Crawler'
+  url: 'https://help.yahoo.com/kb/mail/yahoo-link-preview-SLN23615.html'
+  producer:
+    name: 'Yahoo! Inc.'
+    url: 'http://www.yahoo.com'
+
+- regex: 'YahooCacheSystem'
+  name: 'Yahoo! Cache System'
+  category: 'Crawler'
+  url: ''
+  producer:
+    name: 'Yahoo! Inc.'
+    url: 'http://www.yahoo.com'
+
+- regex: 'Yandex(Bot|Images|Antivirus|Direct|Blogs|Favicons|ImageResizer|News(links)?|Metrika|\.Gazeta Bot)|YaDirectFetcher'
   name: 'Yandex Bot'
   category: 'Search bot'
   url: 'http://www.yandex.com/bots'
@@ -900,6 +1076,11 @@
   producer:
     name: 'NetEase, Inc.'
     url: 'http://corp.163.com'
+
+- regex: 'YOURLS v[0-9]'
+  name: 'Yourls'
+  category: 'Crawler'
+  url: 'http://yourls.org'
 
 - regex: 'YRSpider|YYSpider'
   name: 'Yunyun Bot'
@@ -957,7 +1138,7 @@
     name: 'HubPages'
     url: 'http://hubpages.com/'
 
-- regex: 'Pinterest/\d\.\d.*www.pinterest.com.*'
+- regex: 'Pinterest/\d\.\d.*www\.pinterest\.com.*'
   name: 'Pinterest'
   url: ''
   category: 'Crawler'
@@ -973,7 +1154,7 @@
     name: 'Site24x7'
     url: 'https://www.site24x7.com'
 
-- regex: 'www.monitor.us'
+- regex: 'www\.monitor\.us'
   name: 'Monitor.Us'
   category: 'Site Monitor'
   url: 'http://www.monitor.us'
@@ -981,6 +1162,9 @@
     name: 'Monitor.Us'
     url: 'http://www.monitor.us'
 
+- regex: 'Zao/'
+  name: 'Zao'
+  category: 'Crawler'
 
 - regex: 'lycos'
   name: 'Lycos'
@@ -1027,24 +1211,24 @@
 - regex: 'NetLyzer FastProbe'
   name: 'NetLyzer FastProbe'
 
-- regex: 'AdMantX.*admantx.com'
+- regex: 'AdMantX.*admantx\.com'
   name: 'ADMantX'
 
 - regex: 'Server Density Service Monitoring.*'
   name: 'Server Density'
 
-- regex: '(nuhk|TsolCrawler|Yammybot|Openbot|Gulper Web Bot|grub-client|Download Demon|SearchExpress|Microsoft URL Control|borg|altavista|teoma|blitzbot|oegp|furlbot|http%20client|polybot|htdig|mogimogi|larbin|scrubby|searchsight|seekbot|semanticdiscovery|snappy|vortex|zao|zeal|fast-webcrawler|converacrawler|dataparksearch|findlinks|BrowserMob|HttpMonitor|ThumbShotsBot|URL2PNG|ZooShot|GomezA|Catchpoint bot|Google SketchUp|Read%20Later|Minimo|RackspaceBot)'
-  name: 'Bot'
+- regex: '(A6-Indexer|nuhk|TsolCrawler|Yammybot|Openbot|Gulper Web Bot|grub-client|Download Demon|SearchExpress|Microsoft URL Control|borg|altavista|teoma|blitzbot|oegp|furlbot|http%20client|polybot|htdig|mogimogi|larbin|scrubby|searchsight|seekbot|semanticdiscovery|snappy|vortex(?! Build)|zeal|fast-webcrawler|converacrawler|dataparksearch|findlinks|BrowserMob|HttpMonitor|ThumbShotsBot|URL2PNG|ZooShot|GomezA|Catchpoint bot|Google SketchUp|Read%20Later|Minimo|RackspaceBot)'
+  name: 'Generic Bot'
 
 # Generic detections
 
 - regex: 'Nutch'
   name: 'Nutch-based Bot'
-  category: 'crawler'
+  category: 'Crawler'
   url: 'https://nutch.apache.org'
   producer:
     name: 'The Apache Software Foundation'
     url: 'http://www.apache.org/foundation/'
 
-- regex: '[a-z0-9\-_]*(bot|crawler|archiver|transcoder|spider)'
+- regex: '[a-z0-9\-_]*((?<!cu)bot|crawler|archiver|transcoder|spider)([^a-z]|$)'
   name: 'Generic Bot'
