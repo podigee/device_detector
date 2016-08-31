@@ -20,8 +20,6 @@ describe DeviceDetector do
         user_agent = f["user_agent"]
         detector = DeviceDetector.new(user_agent)
         os = detector.send(:os)
-        device = detector.send(:device)
-        regex_meta = device.send(:regex_meta)
 
         describe user_agent do
           it "should be detected" do
