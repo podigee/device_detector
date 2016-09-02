@@ -47,7 +47,7 @@ client.os_full_version # => '8'
 
 # For many devices, you can also query the device name (usually the model name)
 client.device_name # => 'iPhone 5'
-# Device types can be one of the following: smartphone, tablet, console, 
+# Device types can be one of the following: smartphone, tablet, console,
 # portable media player, tv, car browser, camera
 client.device_type # => 'smartphone'
 ```
@@ -152,12 +152,14 @@ Updated on 2016-07-16
 
 - Mati Sojka: https://github.com/yagooar
 - Ben Zimmer: https://github.com/benzimmer
+- Peter Gao: https://github.com/peteygao
 
 ## Contributors
 
 Thanks a lot to the following contributors:
 
-- Peter Gao: https://github.com/peteygao
+- Dennis Wu: https://github.com/dnswus
+- Mark Dodwell: https://github.com/mkdynamic
 
 ## Contributing
 
