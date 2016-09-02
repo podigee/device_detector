@@ -3,7 +3,8 @@ class DeviceDetector
 
     DEFAULT_MAX_KEYS = 5000
 
-    attr_reader :data, :max_keys
+    attr_reader :data, :max_keys, :lock
+    private :lock
 
     def initialize(config)
       @data = {}
@@ -38,8 +39,6 @@ class DeviceDetector
     end
 
     private
-
-    attr_reader :lock
 
     def purge_cache
       key_size = data.size
