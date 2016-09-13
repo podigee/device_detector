@@ -716,6 +716,14 @@
     name: 'Roihunter a.s.'
     url: 'http://roihunter.com/'
 
+- regex: 'RuxitSynthetic'
+  name: 'Ruxit Synthetic'
+  category: 'Service Agent'
+  url: 'https://www.dynatrace.com/platform/offerings/ruxit/'
+  producer:
+    name: 'Dynatrace LLC'
+    url: 'https://www.dynatrace.com/'
+
 - regex: 'Scrapy'
   name: 'Scrapy'
   category: 'Crawler'
