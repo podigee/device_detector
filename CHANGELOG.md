@@ -1,5 +1,8 @@
 # Change Log
 
+## [1.0.0]
+- Bumped version to 1.0.0 :D Thanks to all the maintainers and contributors that have helped getting so far!
+
 ## [0.9.1]
 - Removed regexp warnings in Ruby 2.2.4+. Thanks to [mkdynamic](https://github.com/mkdynamic)
 
