@@ -47,7 +47,7 @@ client.os_full_version # => '8'
 
 # For many devices, you can also query the device name (usually the model name)
 client.device_name # => 'iPhone 5'
-# Device types can be one of the following: desktop, smartphone, tablet, console, 
+# Device types can be one of the following: desktop, smartphone, tablet, console,
 # portable media player, tv, car browser, camera
 client.device_type # => 'smartphone'
 ```
@@ -71,6 +71,15 @@ end
 ```
 
 If you have a Rails application, you can create an initializer, for example `config/initializers/device_detector.rb`.
+
+If you have a long running process and you want to clear the cache, you can:
+
+```ruby
+# Remove user agent cache
+DeviceDetector.cache.force_purge!
+# Remove cached regexes
+DeviceDetector.regex_cache.force_purge!
+```
 
 ## Benchmarks
 

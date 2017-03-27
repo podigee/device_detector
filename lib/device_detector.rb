@@ -142,6 +142,10 @@ class DeviceDetector
       yield(config)
     end
 
+    def regex_cache
+      @regex_cache ||= MemoryCache.new
+    end
+
   end
 
   private
