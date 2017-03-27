@@ -238,7 +238,7 @@
     default: 'Presto'
     versions:
       15: 'Blink'
-- regex: 'Opera Mini/(?:att/)?(\d+[\.\d]+)'
+- regex: 'Opera ?Mini/(?:att/)?(\d+[\.\d]+)'
   name: 'Opera Mini'
   version: '$1'
   engine:
@@ -433,6 +433,24 @@
   name: 'Samsung Browser'
   version: '$1'
 
+#Streamy
+#This browser is built on top of Chromium.
+#It should be checked first.
+- regex: 'Streamy(?:/(\d+[\.\d]+))?'
+  name: 'Streamy'
+  version: '$1'
+  engine:
+    default: 'WebKit'
+
+#Isivioo
+#Andorid version of the browser is built on top of Chrome Mobile.
+#It should be checked first.
+- regex: 'isivioo'
+  name: 'Isivioo'
+  version: ''
+  engine:
+    default: 'WebKit'
+
 #Chrome
 - regex: 'CrMo(?:/(\d+[\.\d]+))?'
   name: 'Chrome Mobile'
@@ -560,6 +578,13 @@
   engine:
     default: 'Gecko'
 
+#B-Line
+- regex: 'bline(?:/(\d+[\.\d]+))?'
+  name: 'B-Line'
+  version: '$1'
+  engine:
+    default: 'WebKit'
+
 #BrowseX
 - regex: 'BrowseX \((\d+[\.\d]+)'
   name: 'BrowseX'
@@ -574,6 +599,13 @@
 - regex: 'Cheshire(?:/(\d+[\.\d]+))?'
   name: 'Cheshire'
   version: '$1'
+
+#dbrowser
+- regex: 'dbrowser'
+  name: 'dbrowser'
+  version: ''
+  engine:
+    default: 'WebKit'
 
 #Dillo
 - regex: 'Dillo(?:/(\d+[\.\d]+))?'
@@ -905,6 +937,11 @@
   name: 'BlackBerry Browser'
   version: ''
 
+#BriskBard
+- regex: 'BriskBard(?:/(\d+[\.\d]+))?'
+  name: 'BriskBard'
+  version: '$1'
+
 #Android Browser
 - regex: 'Android'
   name: 'Android Browser'
@@ -933,3 +970,8 @@
   version: '$1'
   engine:
     default: 'WebKit'
+    
+#Dorado
+- regex: 'Dorado WAP-Browser[/ ](\d+[\.\d]+)'
+  name: 'Dorado'
+  version: '$1'
