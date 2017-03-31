@@ -11,6 +11,7 @@ require 'device_detector/bot'
 require 'device_detector/client'
 require 'device_detector/device'
 require 'device_detector/os'
+require 'device_detector/vendor_fragment'
 
 class DeviceDetector
 

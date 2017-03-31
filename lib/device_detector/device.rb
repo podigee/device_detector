@@ -59,6 +59,14 @@ class DeviceDetector
             regex.delete(:models)
           end
         end
+        if regex && regex[:brand] == 'Unknown'
+          regex.delete :brand
+        end
+        regex ||= {}
+        unless regex.key? :brand
+          vf = VendorFragment.new(user_agent)
+          regex[:brand] = vf.brand unless vf.nil?
+        end
         regex
       end
     end
@@ -80,6 +88,7 @@ class DeviceDetector
       raw_regexes.map do |brand, meta|
         fail "invalid device spec: #{meta.inspect}" unless meta[:regex].is_a? String
         meta[:regex] = build_regex(meta[:regex])
+        meta[:brand] = brand.to_s
         if meta.key?(:models)
           meta[:models].each do |model|
             fail "invalid model spec: #{model.inspect}" unless model[:regex].is_a? String

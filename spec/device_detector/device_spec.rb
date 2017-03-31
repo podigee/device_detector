@@ -106,7 +106,7 @@ describe DeviceDetector::Device do
       it 'identifies the device' do
         device.name.must_equal 'Model S'
         device.type.must_equal 'car browser'
-        device.brand.must_be_nil
+        device.brand.must_equal 'Tesla'
       end
 
     end
@@ -118,7 +118,7 @@ describe DeviceDetector::Device do
       it 'identifies the device' do
         device.name.must_equal 'Wii'
         device.type.must_equal 'console'
-        device.brand.must_be_nil
+        device.brand.must_equal 'Nintendo'
       end
 
     end
