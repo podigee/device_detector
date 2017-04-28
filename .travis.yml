@@ -1,5 +1,6 @@
 language: ruby
 sudo: false
+dist: precise
 rvm:
   - 1.9.3
   - 2.0.0-p648
@@ -7,7 +8,7 @@ rvm:
   - 2.2.5
   - 2.3.1
   - ruby-head
-  - rubinius-3.75
+  - rbx-2.2.1
 before_install:
   - gem update --system
   - gem --version
