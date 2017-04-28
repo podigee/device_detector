@@ -7,7 +7,7 @@ rvm:
   - 2.2.5
   - 2.3.1
   - ruby-head
-  - rbx-3
+  - rubinius-3.75
 before_install:
   - gem update --system
   - gem --version
