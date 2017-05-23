@@ -6,7 +6,7 @@ class DeviceDetector
     attr_reader :data, :max_keys, :lock
     private :lock
 
-    def initialize(config)
+    def initialize(config={})
       @data = {}
       @max_keys = config[:max_cache_keys] || DEFAULT_MAX_KEYS
       @lock = Mutex.new
@@ -36,6 +36,10 @@ class DeviceDetector
         value = yield if block_given?
         set(string_key, value)
       end
+    end
+
+    def force_purge!
+      @data.clear
     end
 
     private

@@ -42,7 +42,7 @@ class DeviceDetector
     end
 
     def regexes_for(file_paths)
-      from_cache(['regexes', self.class]) do
+      from_regex_cache(self.class) do
         load_regexes(file_paths).flat_map { |path, regex| parse_regexes(path, regex) }
       end
     end
@@ -76,6 +76,10 @@ class DeviceDetector
 
     def from_cache(key)
       DeviceDetector.cache.get_or_set(key) { yield }
+    end
+
+    def from_regex_cache(key)
+      DeviceDetector.regex_cache.get_or_set(key) { yield }
     end
 
   end
