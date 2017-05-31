@@ -70,6 +70,26 @@ describe DeviceDetector do
 
     end
 
+    describe 'firefox mobile phone' do
+
+      let(:user_agent) {'Mozilla/5.0 (Android 7.0; Mobile; rv:53.0) Gecko/53.0 Firefox/53.0'}
+
+      it 'detects smartphone' do
+        client.device_type.must_equal 'smartphone'
+      end
+
+    end
+
+    describe 'firefox mobile tablet' do
+
+      let(:user_agent) {'Mozilla/5.0 (Android 6.0.1; Tablet; rv:47.0) Gecko/47.0 Firefox/47.0'}
+
+      it 'detects tablet' do
+        client.device_type.must_equal 'tablet'
+      end
+
+    end
+
   end
 
   describe 'unknown user agent' do
