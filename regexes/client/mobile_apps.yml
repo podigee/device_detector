@@ -10,6 +10,10 @@
   name: 'AndroidDownloadManager'
   version: '$1'
 
+- regex: 'bPod'
+  name: 'bPod'
+  version: ''
+
 # Facebook
 - regex: '(?:FBAV|com.facebook.katana)(?:[ /]([\d\.]+))?'
   name: 'Facebook'
@@ -45,6 +49,11 @@
   name: 'Pinterest'
   version: '$1'
 
+# Podcatcher Deluxe
+- regex: 'Podcatcher Deluxe'
+  name: 'Podcatcher Deluxe'
+  version: ''
+
 # YouTube
 - regex: 'com.google.android.youtube(?:/([\d\.]+))?'
   name: 'YouTube'
@@ -63,4 +72,66 @@
 # Line
 - regex: 'Line(?:[ /]([\d\.]+))'
   name: 'Line'
+  version: '$1'
+
+# Instacast
+- regex: 'Instacast(?:HD)?/(\d\.[\d\.abc]+) CFNetwork/([\d\.]+) Darwin/([\d\.]+)'
+  name: 'Instacast'
+  version: '$1'
+-
+  regex: 'Podcasts/([\d\.]+)'
+  name: 'Podcasts'
+  version: '$1'
+-
+  regex: 'Pocket Casts(?:, (?:Android|iOS) v([\d\.]+))?'
+  name: 'Pocket Casts'
+  version: '$1'
+-
+  regex: 'Podcat/([\d\.]+)'
+  name: 'Podcat'
+  version: '$1'
+
+-
+  regex: 'BeyondPod'
+  name: 'BeyondPod'
+  version:
+-
+  regex: 'AntennaPod/?([\d\.]+)?'
+  name: 'AntennaPod'
+  version: '$1'
+-
+  regex: 'Overcast/([\d\.]+)'
+  name: 'Overcast'
+  version: '$1'
+-
+  regex: 'Player FM'
+  name: 'Player FM'
+  version: ''
+-
+  regex: 'Podkicker(?: Pro)?/([\d\.]+)'
+  name: 'Podkicker'
+  version: '$1'
+-
+  regex: 'Castro/(\d+)'
+  name: 'Castro'
+  version: '$1'
+-
+  regex: 'Castro 2 ([\d\.]+)/[\d]+ Like iTunes'
+  name: 'Castro 2'
+  version: '$1'
+-
+  regex: 'Castro 2'
+  name: 'Castro 2'
+  version: ''
+-
+  regex: 'DoggCatcher'
+  name: 'DoggCatcher'
+  version:
+-
+  regex: 'Podcat/([\d]+) CFNetwork/([\d\.]+) Darwin/([\d\.]+)'
+  name: 'Podcat'
+  version: '$1'
+-
+  regex: 'i[cC]atcher[^\d]+([\d\.]+)'
+  name: 'iCatcher'
   version: '$1'
