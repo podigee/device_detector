@@ -20,6 +20,10 @@ describe DeviceDetector::Device do
             assert device.known?, "isn't known as a device"
           end
 
+          it "should have the expected brand" do
+            assert_equal f["device"]["brand"], device.brand, "failed brand detection"
+          end
+
           it "should have the expected model" do
             assert_equal f["device"]["model"], device.name, "failed model detection"
           end

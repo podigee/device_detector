@@ -2,7 +2,7 @@ class DeviceDetector
   class MetadataExtractor < Struct.new(:user_agent, :regex_meta)
 
     def call
-      regex_meta.any? ? extract_metadata : nil
+      regex_meta[:regex].nil? ? nil : extract_metadata
     end
 
     private
@@ -26,4 +26,3 @@ class DeviceDetector
 
   end
 end
-
