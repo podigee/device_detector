@@ -1,5 +1,11 @@
 # Change Log
 
+## [1.0.1]
+- Updated detection rules from upstream on 2018-04-27
+
+## [1.0.0]
+- Boom! The 1.0.0 has landed :)
+
 ## [0.9.0]
 - Preparing for the 1.0.0 release. This version (with minor bumps) will be promoted to 1.0.0 once the release has been proven stable
 - Updated regex files from upstream
