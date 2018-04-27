@@ -58,6 +58,12 @@
   name: 'Windows RT'
   version: '8.1'
 
+##########
+# Windows IoT
+##########
+- regex: 'Windows IoT 10.0'
+  name: 'Windows IoT'
+  version: '10'
 
 ##########
 # Custom Android Roms
@@ -419,7 +425,7 @@
 ##########
 # ChromeOS
 ##########
-- regex: 'CrOS [a-z0-9_]+ (\d+[\.\d]+)'
+- regex: 'CrOS [a-z0-9_]+ .* Chrome/(\d+[\.\d]+)'
   name: 'Chrome OS'
   version: '$1'
   
