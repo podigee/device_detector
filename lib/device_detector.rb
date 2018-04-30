@@ -117,6 +117,14 @@ class DeviceDetector
     bot.name
   end
 
+
+  # Returns whether the UserAgent seems to be a request library
+  #
+  # @return [Boolean] true if library, false otherwise
+  def library?
+    client.library?
+  end
+
   class << self
 
     class Configuration

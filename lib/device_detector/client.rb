@@ -5,6 +5,10 @@ class DeviceDetector
       regex_meta.any?
     end
 
+    def library?
+      regex_meta[:path] == :'client/libraries.yml'
+    end
+
     private
 
     def filenames
