@@ -3,7 +3,7 @@ require_relative '../spec_helper'
 describe DeviceDetector do
 
   fixture_dir = File.expand_path('../../fixtures/detector', __FILE__)
-  fixture_files = Dir["#{fixture_dir}/*.yml"]
+  fixture_files = Dir["#{fixture_dir}/smartphone.yml"]
   fixture_files.each do |fixture_file|
 
     describe File.basename(fixture_file) do
