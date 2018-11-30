@@ -71,6 +71,11 @@
   name: 'Aloha Browser'
   version: '$1'
 
+#Avast Secure Browser
+- regex: 'Avast(?:/(\d+[\.\d]+))?'
+  name: 'Avast Secure Browser'
+  version: '$1'
+
 #Epic
 - regex: 'Epic(?:/(\d+[\.\d]+))?'
   name: 'Epic'
@@ -109,6 +114,11 @@
   version: ''
   engine:
     default: '' # multiple
+
+#Oppo Browser
+- regex: 'OppoBrowser(?:/(\d+[\.\d]+))?'
+  name: 'Oppo Browser'
+  version: '$1'
 
 #Amigo
 - regex: 'Chrome/(\d+[\.\d]+).*MRCHROME'
@@ -204,6 +214,11 @@
   version: '$1'
   engine:
     default: 'Gecko'
+
+#Cunaguaro
+- regex: 'Cunaguaro(?:/(\d+[\.\d]+))?'
+  name: 'Cunaguaro'
+  version: '$1'
 
 #Firefox Focus / Firefox Klar
 - regex: '(?:Focus|Klar)(?:/(\d+[\.\d]+))?'
@@ -310,6 +325,9 @@
     default: 'Presto'
     versions:
       15: 'Blink'
+- regex: '(?:OPT)/(\d+[\.\d]+)'
+  name: 'Opera Touch'
+  version: '$1'
 - regex: 'Opera/(\d+[\.\d]+).+Opera Mobi'
   name: 'Opera Mobile'
   version: '$1'
@@ -575,6 +593,11 @@
     default: 'WebKit'
     versions:
       28: 'Blink'
+- regex: 'HeadlessChrome(?:/(\d+[\.\d]+))?'
+  name: 'Headless Chrome'
+  version: '$1'
+  engine:
+    default: 'Blink'
 - regex: 'Chrome(?:/(\d+[\.\d]+))?'
   name: 'Chrome'
   version: '$1'
@@ -821,7 +844,7 @@
   version: '$1'
   engine:
     default: 'Trident'
-- regex: 'IE[ /](\d+[\.\d]++)'
+- regex: 'IE[ /](\d+[\.\d]+)'
   name: 'Internet Explorer'
   version: '$1'
   engine:
@@ -908,6 +931,11 @@
 #NetPositive
 - regex: 'NetPositive(?:/(\d+[\.\d]+))?'
   name: 'NetPositive'
+  version: '$1'
+
+# NTENT Browser
+- regex: 'NTENTBrowser(?:/(\d+[\.\d]+))?'
+  name: 'NTENT Browser'
   version: '$1'
 
 #Obigo
