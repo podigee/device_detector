@@ -110,6 +110,13 @@
   engine:
     default: '' # multiple
 
+#Tenta Browser
+- regex: 'Tenta\/((\d+)([\d\.]+))'
+  name: 'Tenta Browser'
+  version: '$1'
+  engine:
+    default: 'WebKit'
+
 #Amigo
 - regex: 'Chrome/(\d+[\.\d]+).*MRCHROME'
   name: 'Amigo'
