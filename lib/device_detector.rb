@@ -28,6 +28,10 @@ class DeviceDetector
     client.full_version
   end
 
+  def os_family
+    os.family
+  end
+
   def os_name
     os.name
   end
