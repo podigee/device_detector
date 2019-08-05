@@ -66,6 +66,13 @@
   version: '10'
 
 ##########
+# KaiOS
+##########
+- regex: 'KAIOS(?:/(\d+[\.\d]+))?'
+  name: 'KaiOS'
+  version: '$1'
+
+##########
 # Custom Android Roms
 ##########
 - regex: 'RazoDroiD(?: v(\d+[\.\d]*))?'
@@ -84,10 +91,14 @@
   name: 'MocorDroid'
   version: '$1'
 
+- regex: 'Fire OS(?:/(\d+[\.\d]*))?'
+  name: 'Fire OS'
+  version: '$1'
+
 ##########
 # Android
 ##########
-- regex: '(?:(?:Orca-)?Android|Adr)[ /](?:[a-z]+ )?(\d+[\.\d]+)'
+- regex: '(?:(?:Orca-)?Android|Adr)[ /](?:[a-z]+ )?(\d+[\.\d]*)'
   name: 'Android'
   version: '$1'
   
@@ -249,12 +260,59 @@
 - regex: 'Windows'
   name: 'Windows'
   version: ''
-  
-  
+
+
+##########
+# Haiku OS
+##########
+- regex: 'Haiku'
+  name: 'Haiku OS'
+  version: ''
+
   
 ##########
 # iOS
 ##########
+- regex: 'CFNetwork/889'
+  name: 'iOS'
+  version: '11.1'
+
+- regex: 'CFNetwork/887.*(x86_64)'
+  name: 'Mac'
+  version: '10.13'
+
+- regex: 'CFNetwork/887'
+  name: 'iOS'
+  version: '11.0'
+
+- regex: 'CFNetwork/811.*(x86_64)'
+  name: 'Mac'
+  version: '10.12'
+
+- regex: 'CFNetwork/811'
+  name: 'iOS'
+  version: '10.3'
+
+- regex: 'CFNetwork/808\.3'
+  name: 'iOS'
+  version: '10.3'
+
+- regex: 'CFNetwork/808\.2'
+  name: 'iOS'
+  version: '10.2'
+
+- regex: 'CFNetwork/808\.1'
+  name: 'iOS'
+  version: '10.1'
+
+- regex: 'CFNetwork/808\.0'
+  name: 'iOS'
+  version: '10.0'
+
+- regex: 'CFNetwork/808'
+  name: 'iOS'
+  version: '10'
+
 - regex: 'CFNetwork/758\.4\.3'
   name: 'iOS'
   version: '9.3.2'
@@ -368,6 +426,10 @@
 # Mac
 ##########
 
+- regex: 'CFNetwork/807'
+  name: 'Mac'
+  version: '10.12'
+
 - regex: 'CFNetwork/760'
   name: 'Mac'
   version: '10.11'
@@ -408,7 +470,7 @@
   name: 'Mac'
   version: '10.2'
 
-- regex: 'Mac OS X(?: (?:Version )?(\d+(?:[_\.]\d+)+))?'
+- regex: 'Mac[ +]OS[ +]X(?:[ /](?:Version )?(\d+(?:[_\.]\d+)+))?'
   name: 'Mac'
   version: '$1'
   
@@ -455,14 +517,6 @@
   
 - regex: 'bPod'
   name: 'BlackBerry OS'
-  version: ''
-
-
-##########
-# Haiku OS
-##########
-- regex: 'Haiku'
-  name: 'Haiku OS'
   version: ''
 
 

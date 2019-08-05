@@ -76,6 +76,15 @@
       name: Alexa Internet
       url: http://www.alexa.com
 - 
+  user_agent: Mozilla/5.0 (compatible; alexa site audit/1.0; http://www.alexa.com/help/webmasters; )
+  bot:
+    name: Alexa Site Audit
+    category: Site Monitor
+    url: http://www.alexa.com/help/webmasters
+    producer:
+      name: Alexa Internet
+      url: http://www.alexa.com
+- 
   user_agent: AmorankSpider/0.1; +http://amorank.com/webcrawler.html
   bot:
     name: Amorank Spider
@@ -120,6 +129,15 @@
     producer:
       name: Apple Inc
       url: http://www.apple.com
+- 
+  user_agent: Arachni/v1.5.1
+  bot:
+    name: Arachni
+    category: Security Checker
+    url: http://www.arachni-scanner.com
+    producer:
+      name: Sarosys LLC
+      url: http://www.sarosys.com/
 - 
   user_agent: Mozilla/2.0 (compatible; Ask Jeeves/Teoma)
   bot:
@@ -430,8 +448,8 @@
   user_agent: collectd/5.5.1
   bot:
     name: Collectd
-    category: Site Monitor
     url: https://collectd.org/
+    category: Site Monitor
     producer:
       name: Collectd
       url: https://collectd.org/
@@ -743,11 +761,23 @@
   bot:
     name: Generic Bot
 - 
+  user_agent: help@dataminr.com
+  bot:
+    name: Generic Bot
+- 
   user_agent: 'HybridBot (hybrid.ru/about. If our bot caused problems please contact us. Contact email: m.lyashkov@targetix.net)'
   bot:
     name: Generic Bot
 - 
+  user_agent: Mozilla/5.0 (compatible; +http://tweetedtimes.com)
+  bot:
+    name: Generic Bot
+- 
   user_agent: Mozilla/5.0 (compatible; Shareaholicbot/2.0; +http://www.shareaholic.com/bot)
+  bot:
+    name: Generic Bot
+- 
+  user_agent: Mozilla/5.0 (compatible; TrendsmapResolver/0.1)
   bot:
     name: Generic Bot
 - 
@@ -818,6 +848,15 @@
     name: Google Partner Monitoring
     category: Site Monitor
     url: ""
+    producer:
+      name: Google Inc.
+      url: http://www.google.com
+- 
+  user_agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko; Google Search Console) Chrome/41.0.2272.118 Safari/537.36
+  bot:
+    name: Google Search Console
+    category: Crawler
+    url: https://search.google.com/search-console/about
     producer:
       name: Google Inc.
       url: http://www.google.com
@@ -976,6 +1015,24 @@
       url: http://www.google.com
 - 
   user_agent: Mozilla/5.0 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)
+  bot:
+    name: Googlebot
+    category: Search bot
+    url: http://www.google.com/bot.html
+    producer:
+      name: Google Inc.
+      url: http://www.google.com
+- 
+  user_agent: Mozilla/5.0 (en-US) AppleWebKit/537.36 (KHTML, like Gecko; Google-Assess) Chrome/34.0.1847.116 Safari/537.36
+  bot:
+    name: Googlebot
+    category: Search bot
+    url: http://www.google.com/bot.html
+    producer:
+      name: Google Inc.
+      url: http://www.google.com
+- 
+  user_agent: Mozilla/5.0 (en-us) AppleWebKit/537.36(KHTML, like Gecko; Google-Adwords-DisplayAds-WebRender;) Chrome/41.0.2272.118Safari/537.36
   bot:
     name: Googlebot
     category: Search bot
@@ -1670,6 +1727,15 @@
   bot:
     name: Octopus
 - 
+  user_agent: omgili/0.5 +http://omgili.com
+  bot:
+    name: Omgili bot
+    category: Search bot
+    url: http://www.omgili.com/Crawler.html
+    producer:
+      name: Omgili
+      url: http://www.omgili.com
+- 
   user_agent: omgilibot/0.3 +http://www.omgili.com/Crawler.html
   bot:
     name: Omgili bot
@@ -1837,6 +1903,15 @@
     producer:
       name: QueryEye Inc.
       url: http://queryeye.com
+- 
+  user_agent: Quora Link Preview/1.0 (http://www.quora.com)
+  bot:
+    name: Quora Link Preview
+    category: Crawler
+    url: ""
+    producer:
+      name: Quora
+      url: http://www.quora.com
 - 
   user_agent: 'Mozilla/5.0 (compatible; Qwantify/2.2w; +https://www.qwant.com/)/*'
   bot:
@@ -2161,6 +2236,15 @@
       name: Slack Technologies
       url: http://slack.com
 - 
+  user_agent: 'AppEngine-Google; (+http://code.google.com/appengine; appid: s~snapchat-proxy)'
+  bot:
+    name: Snapchat Proxy
+    category: Crawler
+    url: https://www.snapchat.com
+    producer:
+      name: Snapchat Inc.
+      url: https://www.snapchat.com
+- 
   user_agent: New-Sogou-Spider/1.0 (compatible; MSIE 5.5; Windows 98)
   bot:
     name: Sogou Spider
@@ -2412,6 +2496,15 @@
       name: Uptime
       url: https://uptime.com
 - 
+  user_agent: Mozilla/5.0 (compatible; vkShare; +http://vk.com/dev/Share)
+  bot:
+    name: VK Share Button
+    category: Crawler
+    url: http://vk.com/dev/Share
+    producer:
+      name: VK
+      url: http://vk.com/
+- 
   user_agent: 'Mozilla/4.0 (compatible;  Vagabondo/4.0; http://webagent.wise-guys.nl/; http://www.wise-guys.nl/)'
   bot:
     name: Vagabondo
@@ -2527,6 +2620,12 @@
     producer:
       name: WeSEE Ltd
       url: http://www.wesee.com
+- 
+  user_agent: Mozilla/5.0 (Linux; Android 6.0.1; Moto G (4) Build/MPJ24.139-64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.146 Mobile Safari/537.36 PTST/180829.190838
+  bot:
+    name: WebPageTest
+    category: Site Monitor
+    url: https://www.webpagetest.org
 - 
   user_agent: websitepulse checker/1.1 (compatible; MSIE 5.5; Netscape 4.75; Linux)
   bot:
@@ -2753,6 +2852,15 @@
       name: Yandex LLC
       url: http://company.yandex.com
 - 
+  user_agent: Mozilla/5.0 (compatible; YandexVerticals/1.0; http://yandex.com/bots)
+  bot:
+    name: Yandex Bot
+    category: Search bot
+    url: http://www.yandex.com/bots
+    producer:
+      name: Yandex LLC
+      url: http://company.yandex.com
+- 
   user_agent: Yeti/1.1 (Naver Corp.; http://help.naver.com/robots/)
   bot:
     name: Yeti/Naverbot
@@ -2956,8 +3064,8 @@
   user_agent: masscan/1.0 (https://github.com/robertdavidgraham/masscan)
   bot:
     name: masscan
-    category: Crawler
     url: https://github.com/robertdavidgraham/masscan
+    category: Crawler
     producer:
       name: Robert Graham
       url: https://github.com/robertdavidgraham

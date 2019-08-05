@@ -216,6 +216,15 @@
     engine: Gecko
     engine_version: ""
 -
+  user_agent: Mozilla/5.0 (X11; Linux x86_64; rv:27.0) Gecko/20100101 Firefox/27.0 Cunaguaro/27.0
+  client:
+    type: browser
+    name: Cunaguaro
+    short_name: CU
+    version: "27.0"
+    engine: Gecko
+    engine_version: ""
+-
   user_agent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) coc_coc_browser/45.0 Chrome/39.0.2171.74 Safari/537.36
   client:
     type: browser
@@ -251,6 +260,24 @@
     version: "19.0.1084.52"
     engine: WebKit
     engine_version:
+-
+  user_agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_0) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/63.0.3205.0 Safari/537.36
+  client:
+    type: browser
+    name: Headless Chrome
+    short_name: HC
+    version: "63.0.3205.0"
+    engine: Blink
+    engine_version: ""
+-
+  user_agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/60.0.3112.78 Safari/537.36
+  client:
+    type: browser
+    name: Headless Chrome
+    short_name: HC
+    version: "60.0.3112.78"
+    engine: Blink
+    engine_version: ""
 -
   user_agent: Mozilla/5.0 ArchLinux (X11; U; Linux x86_64; en-US) AppleWebKit/534.30 (KHTML, like Gecko) Chrome/12.0.742.100 Safari/534.30
   client:
@@ -945,6 +972,15 @@
     engine: Gecko
     engine_version:
 -
+  user_agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36 Avast/66.2.567.182
+  client:
+    type: browser
+    name: Avast Secure Browser
+    short_name: AS
+    version: "66.2.567.182"
+    engine: WebKit
+    engine_version: "537.36"
+-
   user_agent: Maemo Browser
   client:
     type: browser
@@ -1107,6 +1143,15 @@
     engine: Gecko
     engine_version:
 -
+  user_agent: Mozilla/5.0 (Android 5.1; U613 Build/LMY47D) AppleWebKit/537.36 (KHTML, like Gecko) NTENTBrowser/1.0.0.547 (CellularOne-US) Mobile Safari/537.36
+  client:
+    type: browser
+    name: NTENT Browser
+    short_name: NT
+    version: "1.0.0.547"
+    engine: WebKit
+    engine_version: "537.36"
+-
   user_agent: Mozilla/5.0 (DirectFB; Linux armv7l) AppleWebKit/534.26+ (KHTML, like Gecko) Version/5.0 Safari/534.26+ LG Browser/5.00.00(+mouse+3D+SCREEN+TUNER; LGE; 47LM9600-NA; 06.00.00; 0x00000001;); LG NetCast.TV-2012 0
   client:
     type: browser
@@ -1152,6 +1197,15 @@
     engine: WebKit
     engine_version: "533.1"
 -
+  user_agent: Mozilla/5.0 (iPhone; CPU iPhone OS 11_4_1 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) OPT/1.10.36 Mobile/15G77
+  client:
+    type: browser
+    name: Opera Touch
+    short_name: OO
+    version: "1.10.36"
+    engine: WebKit
+    engine_version: "605.1.15"
+-
   user_agent: Opera/9.80 (J2ME/MIDP; Opera Mini; U; en) Presto/2.12.423 Version/12.16
   client:
     type: browser
@@ -1160,7 +1214,6 @@
     version: "12.16"
     engine: Presto
     engine_version: "2.12.423"
-
 -
   user_agent: UCWEB/2.0 (Linux; U; Opera Mini/7.1.32052/30.3697; en-US; GT-S6812) U2/1.0.0 UCBrowser/9.0.0.366 Mobile
   client:
@@ -1269,6 +1322,15 @@
     version: "624.0"
     engine: WebKit
     engine_version: "9537.73.11"
+-
+  user_agent: Mozilla/5.0 (Linux; U; Android 7.1.1; en-us; CPH1729 Build/N6F26Q) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/53.0.2785.134 Mobile Safari/537.36 OppoBrowser/1.0.0
+  client:
+    type: browser
+    name: Oppo Browser
+    short_name: PP
+    version: "1.0.0"
+    engine: WebKit
+    engine_version: "537.36"
 -
   user_agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/538.1 (KHTML, like Gecko) Otter/0.9.04
   client:
