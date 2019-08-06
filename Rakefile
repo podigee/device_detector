@@ -14,6 +14,8 @@ end
 task default: :test
 
 task :detectable_names do
+  require 'Date'
+
   bot_names = DeviceDetector::Bot.new.send(:regexes).map { |r| r[:name] }.uniq.sort_by(&:downcase)
   bot_names.delete('$1')
   client_names = DeviceDetector::Client.new.send(:regexes).map { |r| r[:name] }.uniq.sort_by(&:downcase)

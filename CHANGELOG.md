@@ -1,5 +1,8 @@
 # Change Log
 
+## [1.0.2]
+- Updated detection rules from upstream on 2019-08-05
+
 ## [1.0.1]
 - Updated detection rules from upstream on 2018-04-27
 
@@ -40,4 +43,3 @@
 - Added rake task for automatic generation of supported and detectable clients and devices
 - Updated detection rules
 - Fixed device type detection, when type is specified on top level of a nested regex
-
