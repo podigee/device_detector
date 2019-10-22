@@ -27,4 +27,16 @@ describe DeviceDetector::Bot do
       end
     end
   end
+
+  describe 'Googlebots' do
+    it 'detects any googlebot' do
+      user_agent = 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 '+
+        '(KHTML, like Gecko) Chrome/41.0.2272.118 Safari/537.36 '+
+        '(compatible; Google-Something-Something; '+
+        '+https://support.google.com/webmasters/answer/1061943)'
+      bot = DeviceDetector::Bot.new(user_agent)
+      assert bot.bot?, "isn't a bot"
+      assert_equal 'Googlebot', bot.name, "failed bot name detection"
+    end
+  end
 end
