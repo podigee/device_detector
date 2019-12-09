@@ -85,6 +85,22 @@
       name: Alexa Internet
       url: http://www.alexa.com
 - 
+  user_agent: Amazon Route 53 Health Check Service; ref:xxxxxxxx-xxxx-xxxxxxxxx-xxxxxxxxxxxx; report http://amzn.to/xxxxxxx
+  bot:
+    name: Amazon Route53 Health Check
+    category: Service Agent
+    producer:
+      name: Amazon Web Services
+      url: https://aws.amazon.com/
+- 
+  user_agent: Amazon-Route53-Health-Check-Service (ref b0eb04d5-cb5e-40e7-839b-558e52fc3f0d; report http://amzn.to/1vsZADi)
+  bot:
+    name: Amazon Route53 Health Check
+    category: Service Agent
+    producer:
+      name: Amazon Web Services
+      url: https://aws.amazon.com/
+- 
   user_agent: AmorankSpider/0.1; +http://amorank.com/webcrawler.html
   bot:
     name: Amorank Spider
@@ -481,6 +497,15 @@
       name: Datadog
       url: https://www.datadoghq.com/
 - 
+  user_agent: Mozilla/5.0 (X11; Datanyze; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
+  bot:
+    name: Datanyze
+    url: ""
+    category: Crawler
+    producer:
+      name: Datanyze
+      url: https://www.datanyze.com
+- 
   user_agent: Mozilla/5.0 (compatible; Dataprovider/6.92; +https://www.dataprovider.com/)
   bot:
     name: Dataprovider
@@ -552,6 +577,15 @@
     producer:
       name: SEOmoz, Inc.
       url: http://moz.com/
+- 
+  user_agent: DuckDuckBot/1.0; (+http://duckduckgo.com/duckduckbot.html)
+  bot:
+    name: DuckDuckGo Bot
+    category: Search bot
+    url: https://duckduckgo.com/duckduckbot
+    producer:
+      name: DuckDuckGo
+      url: https://duckduckgo.com/
 - 
   user_agent: Mozilla/5.0 (compatible; DuckDuckGo-Favicons-Bot/1.0; +http://duckduckgo.com)
   bot:
@@ -757,6 +791,18 @@
       name: Flipboard
       url: http://flipboard.com/
 - 
+  user_agent: freshrss/0.8-dev (Linux; http://freshrss.org) SimplePie/1.4-dev-FreshRSS
+  bot:
+    name: FreshRSS
+    category: Feed Fetcher
+    url: https://freshrss.org/
+- 
+  user_agent: FreshRSS/1.12.0 (Linux; https://freshrss.org)
+  bot:
+    name: FreshRSS
+    category: Feed Fetcher
+    url: https://freshrss.org/
+- 
   user_agent: COMODO SSL Checker
   bot:
     name: Generic Bot
@@ -824,6 +870,11 @@
     producer:
       name: Google Inc.
       url: http://www.google.com
+-
+  user_agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/49.0.2623.75 Safari/537.36 Google Favicon
+  bot:
+    name: Google Favicon
+    category: Crawler
 - 
   user_agent: DoCoMo/2.0 P900i(c100;TB;W24H11) (compatible; ichiro/mobile goo; +http://search.goo.ne.jp/option/use/sub4/sub4-1/)
   bot:
@@ -1977,6 +2028,10 @@
       name: Roihunter a.s.
       url: http://roihunter.com/
 - 
+  user_agent: RSSRadio (Push Notification Scanner;support@dorada.co.uk)
+  bot:
+    name: RSSRadio Bot
+- 
   user_agent: Rainmeter WebParser plugin
   bot:
     name: Rainmeter
@@ -2051,6 +2106,24 @@
     name: SISTRIX Crawler
     category: Crawler
     url: http://crawler.sistrix.net
+    producer:
+      name: SISTRIX GmbH
+      url: http://www.sistrix.de
+- 
+  user_agent: Mozilla/5.0 (compatible; SISTRIX Optimizer)
+  bot:
+    name: SISTRIX Optimizer
+    category: Crawler
+    url: https://optimizer.sistrix.com
+    producer:
+      name: SISTRIX GmbH
+      url: http://www.sistrix.de
+- 
+  user_agent: Mozilla/5.0 (compatible; SISTRIX Optimizer; Uptime; +https://www.sistrix.com/faq/uptime)
+  bot:
+    name: SISTRIX Optimizer
+    category: Crawler
+    url: https://optimizer.sistrix.com
     producer:
       name: SISTRIX GmbH
       url: http://www.sistrix.de
@@ -2132,10 +2205,6 @@
   bot:
     name: Server Density
 - 
-  user_agent: RSSRadio (Push Notification Scanner;support@dorada.co.uk)
-  bot:
-    name: RSSRadio Bot
-- 
   user_agent: Mozilla/5.0 (compatible; SeznamBot/3.1-test1; +http://fulltext.sblog.cz/)
   bot:
     name: Seznam Bot
@@ -2213,15 +2282,6 @@
     name: SilverReader
     url: http://silverreader.com
     category: Feed Fetcher
-    producer:
-      name: ""
-      url: ""
-- 
-  user_agent: freshrss/0.8-dev (Linux; http://freshrss.org) SimplePie/1.4-dev-FreshRSS
-  bot:
-    name: SimplePie
-    url: http://www.simplepie.org
-    category: Feed Parser
     producer:
       name: ""
       url: ""
@@ -2354,6 +2414,13 @@
     producer:
       name: Tailrank Inc
       url: http://spinn3r.com
+- 
+  user_agent: Spotify/1.0
+  bot:
+    name: Spotify
+    producer:
+      name: Spotify
+      url: https://www.spotify.com
 - 
   user_agent: Mozilla/5.0 (compatible; SputnikBot/2.2)
   bot:
@@ -3128,16 +3195,66 @@
     producer:
       name: sqlmap
       url: http://sqlmap.org/
-- 
-  user_agent: Mozilla/5.0 zgrab/0.x
+-
+  user_agent: 'BoardReader Blog Indexer(http://boardreader.com)'
   bot:
-    name: zgrab
-    category: Security Checker
-    url: https://github.com/zmap/zgrab
-
-  user_agent: Spotify/1.0
-  bot:
-    name: Spotify
+    name: BoardReader Blog Indexer
+    category: Crawler
     producer:
-      name: Spotify
-      url: https://www.spotify.com
+      name: BoardReader
+      url: http://boardreader.com/
+-
+  user_agent: 'Nuzzel'
+  bot:
+    name: Nuzzel
+    category: Crawler
+    producer:
+      name: Nuzzel
+      url: https://www.nuzzel.com/
+-
+  user_agent: 'Mozilla/5.0 eCairn-Grabber/1.0 (+http://ecairn.com/grabber)'
+  bot:
+    name: eCairn-Grabber
+    category: Crawler
+    producer:
+      name: eCairn
+      url: https://ecairn.com
+-
+  user_agent: 'Mozilla/5.0/Firefox/42.0 - nbertaupete95(at)gmail.com'
+  bot:
+    name: nbertaupete95
+    category: Crawler
+-
+  user_agent: 'Mozilla/5.0 (compatible; Twingly Recon; twingly.com)'
+  bot:
+    name: Twingly Recon
+    category: Crawler
+    producer:
+      name: Twingly
+      url: https://www.twingly.com
+-
+  user_agent: 'Mozilla/5.0 (compatible; inoreader.com; 2 subscribers)'
+  bot:
+    name: inoreader
+    category: Feed Reader
+    url: https://www.inoreader.com
+-
+  user_agent: 'Mozilla/5.0 (compatible; theoldreader.com; 1 subscribers; feed-id=aaa)'
+  bot:
+    name: theoldreader
+    category: Feed Reader
+    url: https://theoldreader.com
+-
+  user_agent: 'The Knowledge AI'
+  bot:
+    name: The Knowledge AI
+    category: Crawler
+- 
+  user_agent: shopify-partner-homepage-scraper
+  bot:
+    name: Shopify Partner
+    category: Crawler
+    url: https://www.shopify.com/partners
+    producer:
+      name: Shopify
+      url: https://www.shopify.com/

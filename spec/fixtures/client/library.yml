@@ -1,3 +1,4 @@
+---
 -
   user_agent: Wget/1.10+devel
   client:
@@ -15,7 +16,7 @@
   client:
     type: library
     name: Wget
-    version:
+    version: ""
 -
   user_agent: curl/7.21.0 (i386-redhat-linux-gnu) libcurl/7.21.0 NSS/3.12.10.0 zlib/1.2.5 libidn/1.18 libssh2/1.2.4
   client:
@@ -51,7 +52,7 @@
   client:
     type: library
     name: Python urllib
-    version:
+    version: ""
 -
   user_agent: Java/1.7.0_51
   client:
@@ -87,55 +88,55 @@
   client:
     type: library
     name: HTTP_Request2
-    version: 2.3.0
+    version: "2.3.0"
 -
   user_agent: Mechanize/2.7.3 Ruby/1.9.3p551 (http://github.com/sparklemotion/mechanize/)
   client:
     type: library
     name: Mechanize
-    version: 2.7.3
+    version: "2.7.3"
 -
   user_agent: Python/3.5 aiohttp/1.0.5
   client:
     type: library
     name: aiohttp
-    version: 1.0.5
+    version: "1.0.5"
 -
   user_agent: Google-HTTP-Java-Client/1.17.0-rc (gzip)
   client:
     type: library
     name: Google HTTP Java Client
-    version: 1.17.0-rc
+    version: "1.17.0-rc"
 -
   user_agent: WWW-Mechanize/1.73
   client:
     type: library
     name: WWW-Mechanize
-    version: 1.73
+    version: "1.73"
 -
   user_agent: Faraday v0.9.1
   client:
     type: library
     name: Faraday
-    version: 0.9.1
+    version: "0.9.1"
 -
   user_agent: Go-http-client/1.1
   client:
     type: library
     name: Go-http-client
-    version: 1.1
+    version: "1.1"
 -
   user_agent: Go-http-client/2.0
   client:
     type: library
     name: Go-http-client
-    version: 2.0
+    version: "2.0"
 -
   user_agent: Go 1.1 package http
   client:
     type: library
     name: Go-http-client
-    version: 1.1
+    version: "1.1"
 -
   user_agent: urlgrabber/3.9.1 yum/3.2.29
   client:
@@ -160,3 +161,15 @@
     type: library
     name: HTTPie
     version: "1.0.2"
+-
+  user_agent: rest-client/2.0.2 (linux-gnu x86_64) ruby/2.5.3p105
+  client:
+    type: library
+    name: REST Client for Ruby
+    version: "2.0.2"
+-
+  user_agent: RestSharp/106.2.1.0
+  client:
+    type: library
+    name: RestSharp
+    version: "106.2.1.0"
