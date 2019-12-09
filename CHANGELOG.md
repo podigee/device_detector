@@ -1,5 +1,8 @@
 # Change Log
 
+## [1.0.3]
+- Updated detection rules from upstream on 2019-12-09
+
 ## [1.0.2]
 - Updated detection rules from upstream on 2019-08-05
 
