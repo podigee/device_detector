@@ -165,4 +165,43 @@
   regex: 'RSSRadio/([\d]+)?'
   name: 'RSSRadio'
   version: '$1'
-  
+-
+  regex: 'SogouSearch Android[\d\.]+ version([\d\.]+)?'
+  name: 'SogouSearch App'
+  version: '$1'
+-
+  regex: 'NewsArticle/([\d\.]+)?'
+  name: 'NewsArticle App'
+  version: '$1'
+-
+  regex: 'tieba/([\d\.]+)?'
+  name: 'tieba'
+  version: '$1'
+-
+  regex: 'com\.douban\.group/([\d\.]+)?'
+  name: 'douban App'
+  version: '$1'
+-
+  regex: 'BingWeb/([\d\.]+)?'
+  name: 'BingWebApp'
+  version: '$1'
+-
+  regex: 'GSA/([\d\.]+)?'
+  name: 'Google Search App'
+  version: '$1'
+-
+  regex: 'Flipboard/([\d\.]+)?'
+  name: 'Flipboard App'
+  version: '$1'
+-
+  regex: 'Instagram[ /]([\d\.]+)?'
+  name: 'Instagram App'
+  version: '$1'
+-
+  regex: 'baiduboxapp/([\d\.]+)?'
+  name: 'Baidu Box App'
+  version: '$1'
+-
+  regex: 'Crosswalk(?!.*Streamy)/([\d\.]+)?'
+  name: 'CrosswalkApp'
+  version: '$1'

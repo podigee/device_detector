@@ -61,6 +61,13 @@
     name: 'Alexa Internet'
     url: 'http://www.alexa.com'
 
+- regex: 'Amazon[ -]Route ?53[ -]Health[ -]Check[ -]Service'
+  name: 'Amazon Route53 Health Check'
+  category: 'Service Agent'
+  producer:
+    name: 'Amazon Web Services'
+    url: 'https://aws.amazon.com/'
+
 - regex: 'AmorankSpider'
   name: 'Amorank Spider'
   category: 'Crawler'
@@ -197,6 +204,13 @@
     name: 'Blogtrottr Ltd'
     url: 'https://blogtrottr.com/'
 
+- regex: 'BoardReader Blog Indexer'
+  name: 'BoardReader Blog Indexer'
+  category: 'Crawler'
+  producer:
+    name: 'BoardReader'
+    url: 'http://boardreader.com/'
+
 - regex: 'BountiiBot'
   name: 'Bountii Bot'
   category: 'Search bot'
@@ -309,6 +323,15 @@
     name: 'Datadog'
     url: 'https://www.datadoghq.com/'
 
+- regex: 'Datanyze'
+  name: 'Datanyze'
+  url: ''
+  category: 'Crawler'
+  producer:
+    name: 'Datanyze'
+    url: 'https://www.datanyze.com'
+
+
 - regex: 'Dataprovider'
   name: 'Dataprovider'
   category: 'Crawler'
@@ -357,7 +380,7 @@
     name: 'SEOmoz, Inc.'
     url: 'http://moz.com/'
 
-- regex: 'DuckDuck'
+- regex: 'DuckDuck(?:Go-Favicons-)?Bot'
   name: 'DuckDuckGo Bot'
   category: 'Search bot'
   url: 'https://duckduckgo.com/duckduckbot'
@@ -372,6 +395,13 @@
   producer:
     name: 'easou ICP'
     url: 'http://www.easou.com'
+
+- regex: 'eCairn-Grabber'
+  name: 'eCairn-Grabber'
+  category: 'Crawler'
+  producer:
+    name: 'eCairn'
+    url: 'https://ecairn.com'
 
 - regex: 'EMail Exractor'
   name: 'EMail Exractor'
@@ -482,6 +512,11 @@
   category: 'Crawler'
   url: 'http://www.findxbot.com'
 
+- regex: 'FreshRSS'
+  name: 'FreshRSS'
+  category: 'Feed Fetcher'
+  url: 'https://freshrss.org/'
+
 - regex: 'Genieo'
   name: 'Genieo Web filter'
   category: ''
@@ -513,6 +548,10 @@
   producer:
     name: 'NTT Resonant'
     url: 'http://goo.ne.jp'
+
+- regex: 'Google Favicon'
+  name: 'Google Favicon'
+  category: 'Crawler'
 
 - regex: 'Google Search Console'
   name: 'Google Search Console'
@@ -625,6 +664,11 @@
   producer:
     name: ''
     url: ''
+
+- regex: 'inoreader.com'
+  name: 'inoreader'
+  category: 'Feed Reader'
+  url: 'https://www.inoreader.com'
 
 - regex: 'iisbot'
   name: 'IIS Site Analysis'
@@ -808,6 +852,10 @@
     name: 'Nagios Plugins Development Team'
     url: 'https://nagios.org'
 
+- regex: 'nbertaupete95\(at\)gmail.com'
+  name: 'nbertaupete95'
+  category: 'Crawler'
+
 - regex: 'Netcraft( Web Server Survey| SSL Server Survey|SurveyAgent)'
   name: 'Netcraft Survey Bot'
   category: 'Search bot'
@@ -818,7 +866,7 @@
 
 - regex: 'netEstate NE Crawler'
   name: 'netEstate'
-  category: 'Analytics SEO Crawler'
+  category: 'Crawler'
   url: 'http://www.website-datenbank.de/Impressum'
   producer:
     name: 'netEstate GmbH'
@@ -863,6 +911,13 @@
   producer:
     name: 'Nmap'
     url: 'https://nmap.org/'
+
+- regex: 'Nuzzel'
+  name: 'Nuzzel'
+  category: 'Crawler'
+  producer:
+    name: 'Nuzzel'
+    url: https://www.nuzzel.com/ 
 
 - regex: 'Octopus [0-9]'
   name: 'Octopus'
@@ -1111,6 +1166,14 @@
     name: 'Seznam.cz, a.s.'
     url: 'http://www.seznam.cz/'
 
+- regex: 'shopify-partner-homepage-scraper'
+  name: 'Shopify Partner'
+  category: 'Crawler'
+  url: 'https://www.shopify.com/partners'
+  producer:
+    name: 'Shopify'
+    url: 'https://www.shopify.com/'
+
 - regex: 'ShopWiki'
   name: 'ShopWiki'
   category: 'Search tools'
@@ -1139,6 +1202,14 @@
   name: 'SISTRIX Crawler'
   category: 'Crawler'
   url: 'http://crawler.sistrix.net'
+  producer:
+    name: 'SISTRIX GmbH'
+    url: 'http://www.sistrix.de'
+
+- regex: 'SISTRIX Optimizer'
+  name: 'SISTRIX Optimizer'
+  category: 'Crawler'
+  url: 'https://optimizer.sistrix.com'
   producer:
     name: 'SISTRIX GmbH'
     url: 'http://www.sistrix.de'
@@ -1274,6 +1345,11 @@
     name: ''
     url: ''
 
+- regex: 'theoldreader.com'
+  name: 'theoldreader'
+  category: 'Feed Reader'
+  url: 'https://theoldreader.com'
+
 - regex: 'trendictionbot'
   name: 'Trendiction Bot'
   category: 'Crawler'
@@ -1305,6 +1381,13 @@
   producer:
     name: 'Mediasift'
     url: ''
+
+- regex: 'Twingly Recon'
+  name: 'Twingly Recon'
+  category: 'Crawler'
+  producer:
+    name: 'Twingly'
+    url: 'https://www.twingly.com'
 
 - regex: 'Twitterbot'
   name: 'Twitterbot'
@@ -1736,6 +1819,10 @@
   producer:
     name: 'Spotify'
     url: 'https://www.spotify.com'
+
+- regex: 'The Knowledge AI'
+  name: 'The Knowledge AI'
+  category: 'Crawler'
 
 # Generic detections
 
