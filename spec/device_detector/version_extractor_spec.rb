@@ -21,7 +21,7 @@ describe DeviceDetector::VersionExtractor do
       end
 
       it 'returns nil' do
-        extractor.call.must_equal ''
+        value(extractor.call).must_equal ''
       end
 
     end
@@ -39,12 +39,12 @@ describe DeviceDetector::VersionExtractor do
       end
 
       it 'returns the correct version' do
-        extractor.call.must_equal version
+        value(extractor.call).must_equal version
       end
 
       it 'removes trailing white spaces' do
         regex_meta[:version] = regex_meta[:version] + '   '
-        extractor.call.must_equal version
+        value(extractor.call).must_equal version
       end
 
     end
@@ -60,7 +60,7 @@ describe DeviceDetector::VersionExtractor do
       end
 
       it 'returns the correct version' do
-        extractor.call.must_equal '8.0'
+        value(extractor.call).must_equal '8.0'
       end
 
     end
@@ -71,10 +71,9 @@ describe DeviceDetector::VersionExtractor do
       let(:regex_meta) { {} }
 
       it 'returns nil' do
-        extractor.call.must_be_nil
+        value(extractor.call).must_be_nil
       end
 
     end
   end
 end
-

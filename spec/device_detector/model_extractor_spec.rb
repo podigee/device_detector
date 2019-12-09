@@ -23,7 +23,7 @@ describe DeviceDetector::ModelExtractor do
         let(:device_name) { 'iPhone' }
 
         it 'returns the textual portion without trailing whitespace' do
-          extractor.call.must_equal device_name
+          value(extractor.call).must_equal device_name
         end
 
       end
@@ -33,7 +33,7 @@ describe DeviceDetector::ModelExtractor do
         let(:device_name) { 'iPhone 5S' }
 
         it 'returns the full device name' do
-          extractor.call.must_equal device_name
+          value(extractor.call).must_equal device_name
         end
 
       end
@@ -53,7 +53,7 @@ describe DeviceDetector::ModelExtractor do
       end
 
       it 'returns the model name' do
-        extractor.call.must_equal device_name
+        value(extractor.call).must_equal device_name
       end
 
     end
