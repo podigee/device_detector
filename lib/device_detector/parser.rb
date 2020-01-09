@@ -42,12 +42,12 @@ class DeviceDetector
     end
 
     def filenames
-      fail NotImplementedError
+      raise NotImplementedError
     end
 
     def filepaths
       filenames.map do |filename|
-        [ filename.to_sym, File.join(ROOT, 'regexes', filename) ]
+        [filename.to_sym, File.join(ROOT, 'regexes', filename)]
       end
     end
 
@@ -64,16 +64,17 @@ class DeviceDetector
     def symbolize_keys!(object)
       case object
       when Array
-        object.map!{ |v| symbolize_keys!(v) }
+        object.map! { |v| symbolize_keys!(v) }
       when Hash
-        object.keys.each{ |k| object[k.to_sym] = symbolize_keys!(object.delete(k)) if k.is_a?(String) }
+        object.keys.each { |k| object[k.to_sym] = symbolize_keys!(object.delete(k)) if k.is_a?(String) }
       end
       object
     end
 
     def parse_regexes(path, raw_regexes)
       raw_regexes.map do |meta|
-        fail "invalid device spec: #{meta.inspect}" unless meta[:regex].is_a? String
+        raise "invalid device spec: #{meta.inspect}" unless meta[:regex].is_a? String
+
         meta[:regex] = build_regex(meta[:regex])
         meta[:path] = path
         meta
@@ -87,6 +88,5 @@ class DeviceDetector
     def from_cache(key)
       DeviceDetector.cache.get_or_set(key) { yield }
     end
-
   end
 end
