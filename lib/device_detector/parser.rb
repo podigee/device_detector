@@ -1,7 +1,17 @@
-class DeviceDetector
-  class Parser < Struct.new(:user_agent)
+# frozen_string_literal: true
 
-    ROOT = File.expand_path('../../..', __FILE__)
+class DeviceDetector
+  class Parser
+    ROOT = File.expand_path('../..', __dir__)
+
+    REGEX_CACHE = ::DeviceDetector::MemoryCache.new({})
+    private_constant :REGEX_CACHE
+
+    def initialize(user_agent)
+      @user_agent = user_agent
+    end
+
+    attr_reader :user_agent
 
     def name
       from_cache(['name', self.class.name, user_agent]) do
@@ -42,7 +52,7 @@ class DeviceDetector
     end
 
     def regexes_for(file_paths)
-      from_cache(['regexes', self.class]) do
+      REGEX_CACHE.get_or_set(file_paths) do
         load_regexes(file_paths).flat_map { |path, regex| parse_regexes(path, regex) }
       end
     end
