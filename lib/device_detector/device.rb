@@ -50,7 +50,7 @@ class DeviceDetector
     def matching_regex
       from_cache([self.class.name, user_agent]) do
         regex_list = hbbtv? ? regexes_for_hbbtv : regexes_other
-        regex = regex_list.find { |r| user_agent =~ r[:regex] }
+        regex = regex_find(user_agent, regex_list)
         if regex && regex[:models]
           model_regex = regex[:models].find { |m| user_agent =~ m[:regex]}
           if model_regex
@@ -61,6 +61,23 @@ class DeviceDetector
         end
         regex
       end
+    end
+
+    # Finds the first match of the string in a list of regexes.
+    # Handles exception with special characters caused by bug in Ruby regex
+    # @param user_agent [String] User Agent string
+    # @param regex_list [Array<Regex>] List of regexes
+    #
+    # @return [MatchData, nil] MatchData if string matches any regexp, nil otherwise
+    def regex_find(user_agent, regex_list)
+      regex_list.find { |r| user_agent =~ r[:regex] }
+    rescue RegexpError
+      # Bug in ruby regex and special characters, retry with clean
+      # https://bugs.ruby-lang.org/issues/13671
+      user_agent = user_agent.encode(
+        ::Encoding::ASCII, invalid: :replace, undef: :replace, replace: ''
+      )
+      regex_list.find { |r| user_agent =~ r[:regex] }
     end
 
     def hbbtv?
