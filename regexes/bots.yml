@@ -592,7 +592,15 @@
   producer:
     name: 'Google Inc.'
     url: 'http://www.google.com'
-    
+
+- regex: 'GoogleDocs'
+  name: 'Google docs'
+  category: 'Crawler'
+  url: 'https://docs.google.com/'
+  producer:
+    name: 'Google Inc.'
+    url: 'http://www.google.com'
+
 - regex: 'SeznamEmailProxy'
   name: 'Seznam Email Proxy'
   category: 'Crawler'
