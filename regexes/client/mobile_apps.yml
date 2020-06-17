@@ -1,7 +1,7 @@
 ###############
 # Device Detector - The Universal Device Detection library for parsing User Agents
 #
-# @link http://piwik.org
+# @link https://matomo.org
 # @license http://www.gnu.org/licenses/lgpl.html LGPL v3 or later
 ###############
 
@@ -33,6 +33,11 @@
 - regex: 'FeedR(?:/([\d\.]+))?'
   name: 'FeedR'
   version: '$1'
+
+# Google Go
+- regex: 'com.google.android.apps.searchlite'
+  name: 'Google Go'
+  version: ''
 
 # Google Play Kiosk
 - regex: 'com.google.android.apps.magazines'
@@ -112,6 +117,10 @@
 -
   regex: 'Overcast/([\d\.]+)'
   name: 'Overcast'
+  version: '$1'
+-
+  regex: '(?:CastBox|fm.castbox.audiobook.radio.podcast)/?([\d\.]+)?'
+  name: 'CastBox'
   version: '$1'
 -
   regex: 'Player FM'
@@ -202,6 +211,18 @@
   name: 'Baidu Box App'
   version: '$1'
 -
-  regex: 'Crosswalk(?!.*Streamy)/([\d\.]+)?'
+  regex: 'Crosswalk(?!.*(?:Streamy|QwantMobile))/([\d\.]+)?'
   name: 'CrosswalkApp'
+  version: '$1'
+-
+  regex: 'Twitter for iPhone[/]?([\d\.]+)?'
+  name: 'Twitter'
+  version: '$1'
+-
+  regex: 'TopBuzz/([\d\.]+)'
+  name: 'TopBuzz'
+  version: '$1'
+-
+  regex: 'Snapchat/([\d\.]+)'
+  name: 'Snapchat'
   version: '$1'

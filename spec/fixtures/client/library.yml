@@ -173,3 +173,21 @@
     type: library
     name: RestSharp
     version: "106.2.1.0"
+-
+  user_agent: scalaj-http/2.4.0
+  client:
+    type: library
+    name: ScalaJ HTTP
+    version: "2.4.0"
+-
+  user_agent: REST::Client/273
+  client:
+    type: library
+    name: Perl REST::Client
+    version: "273"
+-
+  user_agent: 'node-fetch/1.0 (+https://github.com/bitinn/node-fetch)'
+  client:
+    type: library
+    name: Node Fetch
+    version: '1.0'

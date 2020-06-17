@@ -106,7 +106,7 @@ describe DeviceDetector::Device do
       it 'identifies the device' do
         value(device.name).must_equal 'Model S'
         value(device.type).must_equal 'car browser'
-        value(device.brand).must_be_nil
+        value(device.brand).must_equal 'Tesla'
       end
 
     end
