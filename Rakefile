@@ -63,19 +63,6 @@ task :update_regexes do
   system "cp -R #{PIWIK_CHECKOUT_LOCATION}/regexes/* #{top}/regexes"
 end
 
-desc 'fix regexes that are broken because of a bug in ruby'
-task :fix_regexes do
-  # fix broken regexes: https://github.com/podigee/device_detector/issues/65
-
-  # modify regex to bypass ruby bug
-  system "sed -i '' 's/\|ImSmart \|ERGO \|X-Style Tab //g' regexes/device/mobiles.yml"
-
-  # remove fixtures that test that regex
-  system "sed -i '' '/X-Style Tab A101/,/^-/{d;};' spec/fixtures/**/*.yml"
-  system "sed -i '' '/ERGO A500 Best Build/,/^-/{d;};' spec/fixtures/**/*.yml"
-  system "sed -i '' '/ImSmart A501 Build.KOT49H/,/^-/{d;};' spec/fixtures/**/*.yml"
-end
-
 desc 'update fixtures from piwik project'
 task :update_fixtures do
   top = File.expand_path(__dir__)
