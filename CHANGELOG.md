@@ -1,5 +1,10 @@
 # Change Log
 
+## [1.0.4]
+- Updated detection rules from upstream on 2020-06-23
+- [Issue #69](https://github.com/podigee/device_detector/issues/69): Performance: RegExp definitions are only loaded once.
+- [Issue #74](https://github.com/podigee/device_detector/issues/74): Development: Added Rubocop
+
 ## [1.0.3]
 - Updated detection rules from upstream on 2019-12-09
 
