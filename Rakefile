@@ -16,11 +16,13 @@ task default: :test
 task :detectable_names do
   require 'date'
 
-  bot_names = DeviceDetector::Bot.new.send(:regexes).map { |r| r[:name] }.uniq.sort_by(&:downcase)
+  bot_names = DeviceDetector::Bot.new('').send(:regexes)
+                                 .map { |r| r[:name] }.uniq.sort_by(&:downcase)
   bot_names.delete('$1')
-  client_names = DeviceDetector::Client.new.send(:regexes).map { |r| r[:name] }.uniq.sort_by(&:downcase)
+  client_names = DeviceDetector::Client.new('').send(:regexes)
+                                       .map { |r| r[:name] }.uniq.sort_by(&:downcase)
   client_names.delete('$1')
-  device = DeviceDetector::Device.new
+  device = DeviceDetector::Device.new('')
   device_paths = device.send(:filepaths)
   device_regexes = device.send(:load_regexes, device_paths)
   device_names = device_regexes.flat_map { |dn| dn[1].keys }.uniq.sort_by(&:downcase)
