@@ -8,7 +8,7 @@ before_install:
   - gem update --system
   - gem --version
   - gem update bundler
-  - bundler --version
+  - bundle --version
 cache: bundler
 script:
   bundle exec rake test
