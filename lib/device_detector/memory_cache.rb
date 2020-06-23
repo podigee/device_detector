@@ -51,12 +51,12 @@ class DeviceDetector
     def purge_cache
       key_size = data.size
 
-      if key_size >= max_keys
-        # always remove about 1/3 of keys to reduce garbage collecting
-        amount_of_keys = key_size / 3
+      return if key_size < max_keys
 
-        data.keys.first(amount_of_keys).each { |key| data.delete(key) }
-      end
+      # always remove about 1/3 of keys to reduce garbage collecting
+      amount_of_keys = key_size / 3
+
+      data.keys.first(amount_of_keys).each { |key| data.delete(key) }
     end
   end
 end

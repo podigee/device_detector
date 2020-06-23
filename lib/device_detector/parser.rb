@@ -66,7 +66,10 @@ class DeviceDetector
       when Array
         object.map! { |v| symbolize_keys!(v) }
       when Hash
-        object.keys.each { |k| object[k.to_sym] = symbolize_keys!(object.delete(k)) if k.is_a?(String) }
+        keys = object.keys
+        keys.each do |k|
+          object[k.to_sym] = symbolize_keys!(object.delete(k)) if k.is_a?(String)
+        end
       end
       object
     end

@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 require 'yaml'
 
 require 'device_detector/version'
@@ -13,7 +15,6 @@ require 'device_detector/device'
 require 'device_detector/os'
 
 class DeviceDetector
-
   attr_reader :user_agent
 
   def initialize(user_agent)
@@ -54,8 +55,9 @@ class DeviceDetector
     # Chrome on Android passes the device type based on the keyword 'Mobile'
     # If it is present the device should be a smartphone, otherwise it's a tablet
     # See https://developer.chrome.com/multidevice/user-agent#chrome_for_android_user_agent
-    # Note: We do not check for browser (family) here, as there might be mobile apps using Chrome, that won't have
-    #       a detected browser, but can still be detected. So we check the useragent for Chrome instead.
+    # Note: We do not check for browser (family) here, as there might be mobile apps using Chrome,
+    # that won't have a detected browser, but can still be detected. So we check the useragent for
+    # Chrome instead.
     if t.nil? && os.family == 'Android' && user_agent =~ build_regex('Chrome\/[\.0-9]*')
       if user_agent =~ build_regex('Chrome\/[\.0-9]* Mobile')
         t = 'smartphone'
@@ -64,13 +66,9 @@ class DeviceDetector
       end
     end
 
-    if t.nil? && android_tablet_fragment? || opera_tablet?
-      t = 'tablet'
-    end
+    t = 'tablet' if t.nil? && android_tablet_fragment? || opera_tablet?
 
-    if t.nil? && android_mobile_fragment?
-      t = 'smartphone'
-    end
+    t = 'smartphone' if t.nil? && android_mobile_fragment?
 
     # Android up to 3.0 was designed for smartphones only. But as 3.0,
     # which was tablet only, was published too late, there were a
@@ -89,35 +87,27 @@ class DeviceDetector
     end
 
     # All detected feature phones running android are more likely a smartphone
-    if t == 'feature phone' && os.family == 'Android'
-      t = 'smartphone'
-    end
+    t = 'smartphone' if t == 'feature phone' && os.family == 'Android'
 
     # According to http://msdn.microsoft.com/en-us/library/ie/hh920767(v=vs.85).aspx
-    # Internet Explorer 10 introduces the "Touch" UA string token. If this token is present at the end of the
-    # UA string, the computer has touch capability, and is running Windows 8 (or later).
+    # Internet Explorer 10 introduces the "Touch" UA string token. If this token is present at the
+    # end of the UA string, the computer has touch capability, and is running Windows 8 (or later).
     # This UA string will be transmitted on a touch-enabled system running Windows 8 (RT)
     #
-    # As most touch enabled devices are tablets and only a smaller part are desktops/notebooks we assume that
-    # all Windows 8 touch devices are tablets.
+    # As most touch enabled devices are tablets and only a smaller part are desktops/notebooks we
+    # assume that all Windows 8 touch devices are tablets.
     if t.nil? && touch_enabled? &&
        (os.short_name == 'WRT' || (os.short_name == 'WIN' && os.full_version && os.full_version >= '8'))
       t = 'tablet'
     end
 
-    if opera_tv_store?
-      t = 'tv'
-    end
+    t = 'tv' if opera_tv_store?
 
-    if t.nil? && ['Kylo', 'Espial TV Browser'].include?(client.name)
-      t = 'tv'
-    end
+    t = 'tv' if t.nil? && ['Kylo', 'Espial TV Browser'].include?(client.name)
 
     # set device type to desktop for all devices running a desktop os that were
     # not detected as an other device type
-    if t.nil? && os.desktop? && !puffin_browser?
-      t = 'desktop'
-    end
+    t = 'desktop' if t.nil? && os.desktop? && !puffin_browser?
 
     t
   end
@@ -135,7 +125,6 @@ class DeviceDetector
   end
 
   class << self
-
     class Configuration
       attr_accessor :max_cache_keys
 
@@ -154,11 +143,10 @@ class DeviceDetector
       @cache ||= MemoryCache.new(config.to_hash)
     end
 
-    def configure(&block)
+    def configure
       @config = Configuration.new
       yield(config)
     end
-
   end
 
   private
@@ -207,5 +195,4 @@ class DeviceDetector
   def build_regex(src)
     Regexp.new('(?:^|[^A-Z0-9\_\-])(?:' + src + ')', Regexp::IGNORECASE)
   end
-
 end

@@ -1,6 +1,7 @@
+# frozen_string_literal: true
+
 class DeviceDetector
   class Client < Parser
-
     def known?
       regex_meta.any?
     end
@@ -14,7 +15,7 @@ class DeviceDetector
         'client/mediaplayers.yml',
         'client/pim.yml',
         'client/browsers.yml',
-        'client/libraries.yml',
+        'client/libraries.yml'
       ]
     end
   end

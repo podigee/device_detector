@@ -39,7 +39,11 @@ class DeviceDetector
       end
     end
 
-    DESKTOP_OSS = Set.new(['AmigaOS', 'IBM', 'GNU/Linux', 'Mac', 'Unix', 'Windows', 'BeOS', 'Chrome OS'])
+    DESKTOP_OSS = Set.new(
+      [
+        'AmigaOS', 'IBM', 'GNU/Linux', 'Mac', 'Unix', 'Windows', 'BeOS', 'Chrome OS'
+      ]
+    )
 
     # OS short codes mapped to long names
     OPERATING_SYSTEMS = {
@@ -127,7 +131,9 @@ class DeviceDetector
       'WOS' => 'webOS'
     }.freeze
 
-    DOWNCASED_OPERATING_SYSTEMS = OPERATING_SYSTEMS.each_with_object({}) { |(short, long), h| h[long.downcase] = short }
+    DOWNCASED_OPERATING_SYSTEMS = OPERATING_SYSTEMS.each_with_object({}) do |(short, long), h|
+      h[long.downcase] = short
+    end
 
     OS_FAMILIES = {
       'Android' => %w[AND CYN FIR REM RZD MLD MCD YNS],

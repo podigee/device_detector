@@ -1,20 +1,21 @@
+# frozen_string_literal: true
+
 class DeviceDetector
   class Device < Parser
-
     # order is relevant for testing with fixtures
     DEVICE_NAMES = [
-        'desktop',
-        'smartphone',
-        'tablet',
-        'feature phone',
-        'console',
-        'tv',
-        'car browser',
-        'smart display',
-        'camera',
-        'portable media player',
-        'phablet'
-    ]
+      'desktop',
+      'smartphone',
+      'tablet',
+      'feature phone',
+      'console',
+      'tv',
+      'car browser',
+      'smart display',
+      'camera',
+      'portable media player',
+      'phablet'
+    ].freeze
 
     def known?
       regex_meta.any?
@@ -43,7 +44,7 @@ class DeviceDetector
         'device/car_browsers.yml',
         'device/cameras.yml',
         'device/portable_media_player.yml',
-        'device/mobiles.yml',
+        'device/mobiles.yml'
       ]
     end
 
@@ -52,9 +53,13 @@ class DeviceDetector
         regex_list = hbbtv? ? regexes_for_hbbtv : regexes_other
         regex = regex_find(user_agent, regex_list)
         if regex && regex[:models]
-          model_regex = regex[:models].find { |m| user_agent =~ m[:regex]}
+          model_regex = regex[:models].find { |m| user_agent =~ m[:regex] }
           if model_regex
-            regex = regex.merge(:regex_model => model_regex[:regex], :model => model_regex[:model], :brand => model_regex[:brand])
+            regex = regex.merge({
+                                  regex_model: model_regex[:regex],
+                                  model: model_regex[:model],
+                                  brand: model_regex[:brand]
+                                })
             regex[:device] = model_regex[:device] if model_regex.key?(:device)
             regex.delete(:models)
           end
@@ -90,16 +95,18 @@ class DeviceDetector
     end
 
     def regexes_other
-      regexes.select { |r| r[:path] != :'device/televisions.yml' }
+      regexes.reject { |r| r[:path] == :'device/televisions.yml' }
     end
 
     def parse_regexes(path, raw_regexes)
       raw_regexes.map do |brand, meta|
-        fail "invalid device spec: #{meta.inspect}" unless meta[:regex].is_a? String
+        raise "invalid device spec: #{meta.inspect}" unless meta[:regex].is_a? String
+
         meta[:regex] = build_regex(meta[:regex])
         if meta.key?(:models)
           meta[:models].each do |model|
-            fail "invalid model spec: #{model.inspect}" unless model[:regex].is_a? String
+            raise "invalid model spec: #{model.inspect}" unless model[:regex].is_a? String
+
             model[:regex] = build_regex(model[:regex])
             model[:brand] = brand.to_s unless model[:brand]
           end
@@ -108,6 +115,5 @@ class DeviceDetector
         meta
       end
     end
-
   end
 end
