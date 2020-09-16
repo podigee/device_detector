@@ -622,34 +622,34 @@
 
 #Firefox Mobile
 - regex: '(?:Mobile|Tablet).*Servo.*Firefox(?:/(\d+[\.\d]+))?'
-  name: 'Firefox Mobile'
+  name: 'Firefox Android'
   version: '$1'
   engine:
     default: 'Servo'
 - regex: '(?:Mobile|Tablet).*Firefox(?:/(\d+[\.\d]+))?'
-  name: 'Firefox Mobile'
+  name: 'Firefox Android'
   version: '$1'
   engine:
     default: 'Gecko'
 - regex: 'FxiOS/(\d+[\.\d]+)'
-  name: 'Firefox Mobile iOS'
+  name: 'Firefox iOS'
   version: '$1'
   engine:
     default: 'WebKit'
 
 #Firefox
 - regex: '.*Servo.*Firefox(?:/(\d+[\.\d]+))?'
-  name: 'Firefox'
+  name: 'Firefox Desktop'
   version: '$1'
   engine:
     default: 'Servo'
 - regex: 'Firefox(?:/(\d+[\.\d]+))?'
-  name: 'Firefox'
+  name: 'Firefox Desktop'
   version: '$1'
   engine:
     default: 'Gecko'
 - regex: '(?:BonEcho|GranParadiso|Lorentz|Minefield|Namoroka|Shiretoko)/(\d+[\.\d]+)'
-  name: 'Firefox'
+  name: 'Firefox Desktop'
   version: '$1'
   engine:
     default: 'Gecko'
@@ -1219,7 +1219,7 @@
 
 # Chrome Webview
 - regex: 'Version/.* Chrome(?:/(\d+[\.\d]+))?'
-  name: 'Chrome Webview'
+  name: 'Chrome In-App'
   version: '$1'
   engine:
     default: 'WebKit'
@@ -1228,14 +1228,14 @@
 
 #Chrome
 - regex: 'CrMo(?:/(\d+[\.\d]+))?'
-  name: 'Chrome Mobile'
+  name: 'Chrome Android'
   version: '$1'
   engine:
     default: 'WebKit'
     versions:
       28: 'Blink'
 - regex: 'CriOS(?:/(\d+[\.\d]+))?'
-  name: 'Chrome Mobile iOS'
+  name: 'Chrome iOS'
   version: '$1'
   engine:
     default: 'WebKit'
@@ -1264,7 +1264,7 @@
   engine:
     default: 'Blink'
 - regex: 'Chrome(?!book)(?:/(\d+[\.\d]+))?'
-  name: 'Chrome'
+  name: 'Chrome Desktop'
   version: '$1'
   engine:
     default: 'WebKit'
@@ -1686,17 +1686,17 @@
 
 #Safari
 - regex: '(?:(?:iPod|iPad|iPhone).+Version|MobileSafari)/(\d+[\.\d]+)'
-  name: 'Mobile Safari'
+  name: 'Safari iOS'
   version: '$1'
   engine:
     default: 'WebKit'
 - regex: '(?:Version/(\d+[\.\d]+).*)?Mobile.*Safari/'
-  name: 'Mobile Safari'
+  name: 'Safari iOS'
   version: '$1'
   engine:
     default: 'WebKit'
 - regex: '(?:iPod|iPhone|iPad)'
-  name: 'Mobile Safari'
+  name: 'Safari iOS'
   version: ''
   engine:
     default: 'WebKit'
