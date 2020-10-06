@@ -14,7 +14,9 @@ class DeviceDetector
       'smart display',
       'camera',
       'portable media player',
-      'phablet'
+      'phablet',
+      'smart speaker',
+      'wearable'
     ].freeze
 
     def known?
@@ -44,7 +46,8 @@ class DeviceDetector
         'device/car_browsers.yml',
         'device/cameras.yml',
         'device/portable_media_player.yml',
-        'device/mobiles.yml'
+        'device/mobiles.yml',
+        'device/notebooks.yml'
       ]
     end
 
