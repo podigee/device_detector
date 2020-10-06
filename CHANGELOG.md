@@ -1,5 +1,8 @@
 # Change Log
 
+## [1.0.5]
+- Updated detection rules from upstream on 2020-10-06
+
 ## [1.0.4]
 - Updated detection rules from upstream on 2020-06-23
 - [Issue #69](https://github.com/podigee/device_detector/issues/69): Performance: RegExp definitions are only loaded once.
