@@ -13,6 +13,7 @@ end
 
 task default: :test
 
+desc 'generate detectable names output for README'
 task :detectable_names do
   require 'date'
 
