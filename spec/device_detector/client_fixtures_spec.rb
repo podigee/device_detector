@@ -24,6 +24,12 @@ describe DeviceDetector::Client do
             assert_equal f["client"]["name"], client.name, "failed client name detection"
           end
 
+          if fixture_file['library.yml']
+
+            it 'should be a library' do
+              client.library?.must_equal true
+            end
+          end
         end
       end
     end

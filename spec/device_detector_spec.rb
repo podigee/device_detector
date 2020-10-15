@@ -186,4 +186,24 @@ describe DeviceDetector do
       end
     end
   end
+
+  describe '#library?' do
+    subject { client.library? }
+
+    describe 'when user_agent is curl/1.2.3' do
+
+      let(:user_agent) { 'curl/1.2.3' }
+
+      it { subject.must_equal true }
+
+    end
+
+    describe 'when user_agent is Chrome' do
+
+      let(:user_agent) { 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_8_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/30.0.1599.69' }
+
+      it { subject.must_equal false }
+
+    end
+  end
 end
