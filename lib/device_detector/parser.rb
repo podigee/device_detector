@@ -68,7 +68,8 @@ class DeviceDetector
       when Hash
         keys = object.keys
         keys.each do |k|
-          object[k.to_sym] = symbolize_keys!(object.delete(k)) if k.is_a?(String)
+          nk = k.to_sym if k.is_a?(String)
+          object[nk] = symbolize_keys!(object.delete(k))
         end
       end
       object
