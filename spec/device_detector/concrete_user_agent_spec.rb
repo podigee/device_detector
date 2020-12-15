@@ -105,7 +105,7 @@ describe DeviceDetector do
     end
 
     it 'recognizes the device name' do
-      value(client.device_name).must_equal "GALAXY S5"
+      value(client.device_name).must_equal "Galaxy S5"
     end
 
     it 'recognizes the device type' do
@@ -130,6 +130,14 @@ describe DeviceDetector do
       value(client.device_type).must_equal "smartphone"
     end
 
+  end
+
+  describe "TEST" do
+    let(:user_agent) { 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.80 Safari/537.36' }
+
+    it "should have Apple brand" do
+      value(client.device_brand).must_equal "Apple"
+    end
   end
 
 end
