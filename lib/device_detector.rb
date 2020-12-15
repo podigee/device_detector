@@ -46,7 +46,9 @@ class DeviceDetector
   end
 
   def device_brand
-    device.brand
+    b = device.brand
+    b = 'Apple' if b.nil? && ['Apple TV', 'iOS', 'Mac'].include?(os_name)
+    b
   end
 
   def device_type
@@ -59,7 +61,7 @@ class DeviceDetector
     # that won't have a detected browser, but can still be detected. So we check the useragent for
     # Chrome instead.
     if t.nil? && os.family == 'Android' && user_agent =~ build_regex('Chrome\/[\.0-9]*')
-      if user_agent =~ build_regex('Chrome\/[\.0-9]* Mobile')
+      if user_agent =~ build_regex('Chrome/[\.0-9]* (?:Mobile|eliboM)')
         t = 'smartphone'
       elsif user_agent =~ build_regex('Chrome\/[\.0-9]* (?!Mobile)')
         t = 'tablet'
