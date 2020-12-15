@@ -35,6 +35,7 @@ class DeviceDetector
         else
           short = 'UNK'
         end
+
         { name: os_name, short: short, family: FAMILY_TO_OS[short] }
       end
     end
@@ -62,10 +63,12 @@ class DeviceDetector
       'COS' => 'Chrome OS',
       'CYN' => 'CyanogenMod',
       'DEB' => 'Debian',
+      'DEE' => 'Deepin',
       'DFB' => 'DragonFly',
       'FED' => 'Fedora',
       'FOS' => 'Firefox OS',
       'FIR' => 'Fire OS',
+      'FRE' => 'Freebox',
       'BSD' => 'FreeBSD',
       'GNT' => 'Gentoo',
       'GTV' => 'Google TV',
@@ -89,6 +92,7 @@ class DeviceDetector
       'MOR' => 'MorphOS',
       'NBS' => 'NetBSD',
       'MTK' => 'MTK / Nucleus',
+      'MRE' => 'MRE',
       'WII' => 'Nintendo',
       'NDS' => 'Nintendo Mobile',
       'OS2' => 'OS/2',
@@ -99,6 +103,7 @@ class DeviceDetector
       'PS3' => 'PlayStation',
       'RHT' => 'Red Hat',
       'ROS' => 'RISC OS',
+      'RSO' => 'Rosa',
       'REM' => 'Remix OS',
       'RZD' => 'RazoDroiD',
       'SAB' => 'Sabayon',
@@ -128,7 +133,7 @@ class DeviceDetector
       'YNS' => 'YunOs',
       'IOS' => 'iOS',
       'POS' => 'palmOS',
-      'WOS' => 'webOS'
+      'WOS' => 'webOS',
     }.freeze
 
     DOWNCASED_OPERATING_SYSTEMS = OPERATING_SYSTEMS.each_with_object({}) do |(short, long), h|
@@ -138,26 +143,26 @@ class DeviceDetector
     OS_FAMILIES = {
       'Android' => %w[AND CYN FIR REM RZD MLD MCD YNS],
       'AmigaOS' => %w[AMG MOR],
-      'Apple TV' => ['ATV'],
+      'Apple TV' => %w[ATV],
       'BlackBerry' => %w[BLB QNX],
-      'Brew' => ['BMP'],
+      'Brew' => %w[BMP],
       'BeOS' => %w[BEO HAI],
-      'Chrome OS' => ['COS'],
+      'Chrome OS' => %w[COS],
       'Firefox OS' => %w[FOS KOS],
       'Gaming Console' => %w[WII PS3],
-      'Google TV' => ['GTV'],
-      'IBM' => ['OS2'],
-      'iOS' => ['IOS'],
-      'RISC OS' => ['ROS'],
-      'GNU/Linux' => %w[LIN ARL DEB KNO MIN UBT KBT XBT LBT FED RHT VLN MDR GNT SAB SLW SSE CES BTR SAF ORD TOS],
+      'Google TV' => %w[GTV],
+      'IBM' => %w[OS2],
+      'iOS' => %w[IOS],
+      'RISC OS' => %w[ROS],
+      'GNU/Linux'=> %w[LIN ARL DEB KNO MIN UBT KBT XBT LBT FED RHT VLN MDR GNT SAB SLW SSE CES BTR SAF ORD TOS RSO DEE FRE],
       'Mac' => ['MAC'],
       'Mobile Gaming Console' => %w[PSP NDS XBX],
-      'Real-time OS' => %w[MTK TDX],
+      'Real-time OS' => %w[MTK TDX MRE],
       'Other Mobile' => %w[WOS POS SBA TIZ SMG MAE],
       'Symbian' => %w[SYM SYS SY3 S60 S40],
       'Unix' => %w[SOS AIX HPX BSD NBS OBS DFB SYL IRI T64 INF],
-      'WebTV' => ['WTV'],
-      'Windows' => ['WIN'],
+      'WebTV' => %w[WTV],
+      'Windows' => %w[WIN],
       'Windows Mobile' => %w[WPH WMO WCE WRT WIO]
     }.freeze
 
