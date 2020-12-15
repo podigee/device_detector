@@ -72,7 +72,7 @@ describe DeviceDetector::Device do
       let(:user_agent) { 'Mozilla/5.0 (Linux; Android 4.4.2; es-us; SAMSUNG SM-G900F Build/KOT49H) AppleWebKit/537.36 (KHTML, like Gecko)' }
 
       it 'identifies the device' do
-        value(device.name).must_equal 'GALAXY S5'
+        value(device.name).must_equal 'Galaxy S5'
         value(device.type).must_equal 'smartphone'
         value(device.brand).must_equal 'Samsung'
       end
@@ -82,7 +82,7 @@ describe DeviceDetector::Device do
       let(:user_agent) { 'Mozilla/5.0 (Linux; U; Android 4.0; xx-xx; EK-GC100 Build/IMM76D) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30' }
 
       it 'identifies the device' do
-        value(device.name).must_equal 'GALAXY Camera'
+        value(device.name).must_equal 'Galaxy Camera'
         value(device.type).must_equal 'camera'
         value(device.brand).must_equal 'Samsung'
       end
