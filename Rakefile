@@ -75,7 +75,7 @@ task :update_fixtures do
     { target_path: "#{top}/spec/fixtures/detector", source_path: 'Tests/fixtures/*.yml' },
     { target_path: "#{top}/spec/fixtures/client", source_path: 'Tests/Parser/Client/fixtures/*.yml' },
     { target_path: "#{top}/spec/fixtures/parser", source_path: 'Tests/Parser/fixtures/*.yml' },
-    { target_path: "#{top}/spec/fixtures/device", source_path: 'Tests/Parser/Devices/fixtures/*.yml' }
+    { target_path: "#{top}/spec/fixtures/device", source_path: 'Tests/Parser/Device/fixtures/*.yml' }
   ]
 
   fixture_mappings.each do |mapping|
