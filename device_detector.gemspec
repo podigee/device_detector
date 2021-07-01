@@ -13,9 +13,8 @@ Gem::Specification.new do |spec|
   spec.homepage      = 'http://podigee.github.io/device_detector'
   spec.license       = 'LGPL-3.0'
 
-  spec.files         = `git ls-files -z`.split("\x0")
+  spec.files         = Dir["{lib,regexes}/**/*", "README.md", "LICENSE.txt", "CHANGELOG.md"]
   spec.executables   = []
-  spec.test_files    = spec.files.grep(%r{^(spec)/})
   spec.require_paths = ['lib']
 
   spec.required_ruby_version = '>= 1.9.3'
