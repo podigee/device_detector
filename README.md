@@ -45,11 +45,13 @@ client.full_version # => '30.0.1599.69'
 client.os_name # => 'Windows'
 client.os_full_version # => '8'
 
+# Device types can be one of the following: desktop, smartphone, tablet, feature phone,
+# console, tv, car browser, camera, portable media player, phablet, smart speaker, or
+# wearable.
+client.device_type # => 'smartphone'
+
 # For many devices, you can also query the device name (usually the model name)
 client.device_name # => 'iPhone 5'
-# Device types can be one of the following: desktop, smartphone, tablet, console,
-# portable media player, tv, car browser, camera
-client.device_type # => 'smartphone'
 ```
 
 `DeviceDetector` will return `nil` on all attributes, if the `user_agent` is unknown.
