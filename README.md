@@ -46,7 +46,7 @@ client.os_name # => 'Windows'
 client.os_full_version # => '8'
 
 # Device types can be one of the following: desktop, smartphone, tablet, feature phone,
-# console, tv, car browser, camera, portable media player, phablet, smart speaker, or
+# console, tv, car browser, smart display, camera, portable media player, phablet, smart speaker, or
 # wearable.
 client.device_type # => 'smartphone'
 
