@@ -30,7 +30,7 @@ class DeviceDetector
     def os_info
       from_cache(['os_info', self.class.name, user_agent]) do
         os_name = NameExtractor.new(user_agent, regex_meta).call
-        if os_name && short = DOWNCASED_OPERATING_SYSTEMS[os_name.downcase]
+        if os_name && (short = DOWNCASED_OPERATING_SYSTEMS[os_name.downcase])
           os_name = OPERATING_SYSTEMS[short]
         else
           short = 'UNK'
@@ -156,29 +156,34 @@ class DeviceDetector
     end
 
     OS_FAMILIES = {
-      'Android' => %w[AND CYN FIR REM RZD MLD MCD YNS],
+      'Android' => %w[AND CYN FIR REM RZD MLD MCD YNS GRI HAR],
       'AmigaOS' => %w[AMG MOR],
-      'Apple TV' => ['ATV'],
       'BlackBerry' => %w[BLB QNX],
       'Brew' => ['BMP'],
       'BeOS' => %w[BEO HAI],
-      'Chrome OS' => ['COS'],
+      'Chrome OS' => %w[COS FYD SEE],
       'Firefox OS' => %w[FOS KOS],
       'Gaming Console' => %w[WII PS3],
       'Google TV' => ['GTV'],
       'IBM' => ['OS2'],
-      'iOS' => ['IOS'],
+      'iOS' => %w[IOS ATV WAS IPA],
       'RISC OS' => ['ROS'],
-      'GNU/Linux' => %w[LIN ARL DEB KNO MIN UBT KBT XBT LBT FED RHT VLN MDR GNT SAB SLW SSE CES BTR SAF ORD TOS],
+      'GNU/Linux' => %w[
+        LIN ARL DEB KNO MIN UBT KBT XBT LBT FED
+        RHT VLN MDR GNT SAB SLW SSE CES BTR SAF
+        ORD TOS RSO DEE FRE MAG FEN CAI PCL HAS
+        LOS DVK
+      ],
       'Mac' => ['MAC'],
       'Mobile Gaming Console' => %w[PSP NDS XBX],
-      'Real-time OS' => %w[MTK TDX],
+      'Real-time OS' => %w[MTK TDX MRE JME REX],
       'Other Mobile' => %w[WOS POS SBA TIZ SMG MAE],
       'Symbian' => %w[SYM SYS SY3 S60 S40],
       'Unix' => %w[SOS AIX HPX BSD NBS OBS DFB SYL IRI T64 INF],
       'WebTV' => ['WTV'],
       'Windows' => ['WIN'],
-      'Windows Mobile' => %w[WPH WMO WCE WRT WIO]
+      'Windows Mobile' => %w[WPH WMO WCE WRT WIO],
+      'Other Smart TV' => ['WHS']
     }.freeze
 
     FAMILY_TO_OS = OS_FAMILIES.each_with_object({}) do |(family, oss), h|
