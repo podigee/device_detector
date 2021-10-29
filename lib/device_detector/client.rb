@@ -6,6 +6,14 @@ class DeviceDetector
       regex_meta.any?
     end
 
+    def browser?
+      regex_meta[:path] == :"client/browsers.yml"
+    end
+
+    def mobile_only_browser?
+      DeviceDetector::Browser.mobile_only_browser?(name)
+    end
+
     private
 
     def filenames

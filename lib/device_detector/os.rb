@@ -153,7 +153,7 @@ class DeviceDetector
 
     DOWNCASED_OPERATING_SYSTEMS = OPERATING_SYSTEMS.each_with_object({}) do |(short, long), h|
       h[long.downcase] = short
-    end
+    end.freeze
 
     OS_FAMILIES = {
       'Android' => %w[AND CYN FIR REM RZD MLD MCD YNS GRI HAR],
@@ -188,7 +188,7 @@ class DeviceDetector
 
     FAMILY_TO_OS = OS_FAMILIES.each_with_object({}) do |(family, oss), h|
       oss.each { |os| h[os] = family }
-    end
+    end.freeze
 
     def filenames
       ['oss.yml']
