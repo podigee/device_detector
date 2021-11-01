@@ -27,10 +27,12 @@ describe DeviceDetector do
         describe user_agent do
           it 'should be detected' do
             if detector.bot?
-              assert_equal str_or_nil(f['bot']['name']), detector.bot_name, 'failed bot name detection'
+              assert_equal str_or_nil(f['bot']['name']), detector.bot_name,
+                           'failed bot name detection'
             else
               if f['client']
-                assert_equal str_or_nil(f['client']['name']), detector.name, 'failed client name detection'
+                assert_equal str_or_nil(f['client']['name']), detector.name,
+                             'failed client name detection'
               end
 
               os_family = str_or_nil(f['os_family'])
@@ -49,9 +51,11 @@ describe DeviceDetector do
                 end
 
                 short_name = str_or_nil(f['os']['short_name'])
-                if short_name.nil?
-                  assert_nil os.short_name, 'failed os short name detection'
-                else
+                if short_name.nil? && f['os']['name']
+                  short_name = DeviceDetector::OS::OPERATING_SYSTEMS[f['os']['name']]
+                end
+
+                unless short_name.nil?
                   assert_equal short_name, os.short_name, 'failed os short name detection'
                 end
 

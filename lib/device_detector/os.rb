@@ -30,7 +30,7 @@ class DeviceDetector
     def os_info
       from_cache(['os_info', self.class.name, user_agent]) do
         os_name = NameExtractor.new(user_agent, regex_meta).call
-        if os_name && short = DOWNCASED_OPERATING_SYSTEMS[os_name.downcase]
+        if os_name && (short = DOWNCASED_OPERATING_SYSTEMS[os_name.downcase])
           os_name = OPERATING_SYSTEMS[short]
         else
           short = 'UNK'
@@ -50,7 +50,7 @@ class DeviceDetector
       'AIX' => 'AIX',
       'AND' => 'Android',
       'AMG' => 'AmigaOS',
-      'ATV' => 'Apple TV',
+      'ATV' => 'tvOS',
       'ARL' => 'Arch Linux',
       'BTR' => 'BackTrack',
       'SBA' => 'Bada',
@@ -58,29 +58,42 @@ class DeviceDetector
       'BLB' => 'BlackBerry OS',
       'QNX' => 'BlackBerry Tablet OS',
       'BMP' => 'Brew',
+      'CAI' => 'Caixa Mágica',
       'CES' => 'CentOS',
       'COS' => 'Chrome OS',
       'CYN' => 'CyanogenMod',
       'DEB' => 'Debian',
+      'DEE' => 'Deepin',
       'DFB' => 'DragonFly',
+      'DVK' => 'DVKBuntu',
       'FED' => 'Fedora',
+      'FEN' => 'Fenix',
       'FOS' => 'Firefox OS',
       'FIR' => 'Fire OS',
+      'FRE' => 'Freebox',
       'BSD' => 'FreeBSD',
+      'FYD' => 'FydeOS',
       'GNT' => 'Gentoo',
+      'GRI' => 'GridOS',
       'GTV' => 'Google TV',
       'HPX' => 'HP-UX',
       'HAI' => 'Haiku OS',
+      'IPA' => 'iPadOS',
+      'HAR' => 'HarmonyOS',
+      'HAS' => 'HasCodingOS',
       'IRI' => 'IRIX',
       'INF' => 'Inferno',
+      'JME' => 'Java ME',
       'KOS' => 'KaiOS',
       'KNO' => 'Knoppix',
       'KBT' => 'Kubuntu',
       'LIN' => 'GNU/Linux',
       'LBT' => 'Lubuntu',
+      'LOS' => 'Lumin OS',
       'VLN' => 'VectorLinux',
       'MAC' => 'Mac',
       'MAE' => 'Maemo',
+      'MAG' => 'Mageia',
       'MDR' => 'Mandriva',
       'SMG' => 'MeeGo',
       'MCD' => 'MocorDroid',
@@ -89,21 +102,26 @@ class DeviceDetector
       'MOR' => 'MorphOS',
       'NBS' => 'NetBSD',
       'MTK' => 'MTK / Nucleus',
+      'MRE' => 'MRE',
       'WII' => 'Nintendo',
       'NDS' => 'Nintendo Mobile',
       'OS2' => 'OS/2',
       'T64' => 'OSF1',
       'OBS' => 'OpenBSD',
       'ORD' => 'Ordissimo',
+      'PCL' => 'PCLinuxOS',
       'PSP' => 'PlayStation Portable',
       'PS3' => 'PlayStation',
       'RHT' => 'Red Hat',
       'ROS' => 'RISC OS',
+      'RSO' => 'Rosa',
       'REM' => 'Remix OS',
+      'REX' => 'REX',
       'RZD' => 'RazoDroiD',
       'SAB' => 'Sabayon',
       'SSE' => 'SUSE',
       'SAF' => 'Sailfish OS',
+      'SEE' => 'SeewoOS',
       'SLW' => 'Slackware',
       'SOS' => 'Solaris',
       'SYL' => 'Syllable',
@@ -116,7 +134,9 @@ class DeviceDetector
       'TIZ' => 'Tizen',
       'TOS' => 'TmaxOS',
       'UBT' => 'Ubuntu',
+      'WAS' => 'watchOS',
       'WTV' => 'WebTV',
+      'WHS' => 'Whale OS',
       'WIN' => 'Windows',
       'WCE' => 'Windows CE',
       'WIO' => 'Windows IoT',
@@ -133,37 +153,42 @@ class DeviceDetector
 
     DOWNCASED_OPERATING_SYSTEMS = OPERATING_SYSTEMS.each_with_object({}) do |(short, long), h|
       h[long.downcase] = short
-    end
+    end.freeze
 
     OS_FAMILIES = {
-      'Android' => %w[AND CYN FIR REM RZD MLD MCD YNS],
+      'Android' => %w[AND CYN FIR REM RZD MLD MCD YNS GRI HAR],
       'AmigaOS' => %w[AMG MOR],
-      'Apple TV' => ['ATV'],
       'BlackBerry' => %w[BLB QNX],
       'Brew' => ['BMP'],
       'BeOS' => %w[BEO HAI],
-      'Chrome OS' => ['COS'],
+      'Chrome OS' => %w[COS FYD SEE],
       'Firefox OS' => %w[FOS KOS],
       'Gaming Console' => %w[WII PS3],
       'Google TV' => ['GTV'],
       'IBM' => ['OS2'],
-      'iOS' => ['IOS'],
+      'iOS' => %w[IOS ATV WAS IPA],
       'RISC OS' => ['ROS'],
-      'GNU/Linux' => %w[LIN ARL DEB KNO MIN UBT KBT XBT LBT FED RHT VLN MDR GNT SAB SLW SSE CES BTR SAF ORD TOS],
+      'GNU/Linux' => %w[
+        LIN ARL DEB KNO MIN UBT KBT XBT LBT FED
+        RHT VLN MDR GNT SAB SLW SSE CES BTR SAF
+        ORD TOS RSO DEE FRE MAG FEN CAI PCL HAS
+        LOS DVK
+      ],
       'Mac' => ['MAC'],
       'Mobile Gaming Console' => %w[PSP NDS XBX],
-      'Real-time OS' => %w[MTK TDX],
+      'Real-time OS' => %w[MTK TDX MRE JME REX],
       'Other Mobile' => %w[WOS POS SBA TIZ SMG MAE],
       'Symbian' => %w[SYM SYS SY3 S60 S40],
       'Unix' => %w[SOS AIX HPX BSD NBS OBS DFB SYL IRI T64 INF],
       'WebTV' => ['WTV'],
       'Windows' => ['WIN'],
-      'Windows Mobile' => %w[WPH WMO WCE WRT WIO]
+      'Windows Mobile' => %w[WPH WMO WCE WRT WIO],
+      'Other Smart TV' => ['WHS']
     }.freeze
 
     FAMILY_TO_OS = OS_FAMILIES.each_with_object({}) do |(family, oss), h|
       oss.each { |os| h[os] = family }
-    end
+    end.freeze
 
     def filenames
       ['oss.yml']
