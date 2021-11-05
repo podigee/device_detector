@@ -131,11 +131,11 @@
 ##########
 # Android
 ##########
-- regex: '(?:Podbean|Podimo)(?:.+)?/Android'
+- regex: '(?:Podbean|Podimo)(?:.*)/Android'
   name: 'Android'
   version: ''
 
-- regex: 'Pinterest for Android/.+; (\d(?:[\d\.]+)?)\)$'
+- regex: 'Pinterest for Android/.+; (\d(?:[\d\.]*))\)$'
   name: 'Android'
   version: '$1'
 
@@ -458,7 +458,7 @@
   name: 'iOS'
   version: '$1.$2'
 
-- regex: 'Pinterest for iOS/.+; (\d(?:[\d\.]+)?)\)$'
+- regex: 'Pinterest for iOS/.+; (\d(?:[\d\.]*))\)$'
   name: 'iOS'
   version: '$1'
 
