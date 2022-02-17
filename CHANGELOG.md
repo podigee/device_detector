@@ -1,5 +1,12 @@
 # Change Log
 
+## [1.0.7]
+- Updated detection rules from upstream on 2022-02-17
+- Fixes Ruby warnings when compiling RegExes ([#89](https://github.com/podigee/device_detector/issues/89), [#91](https://github.com/podigee/device_detector/issues/91))
+
+## [1.0.6]
+- Updated detection rules from upstream on 2021-10-28
+
 ## [1.0.5]
 - Updated detection rules from upstream on 2020-10-06
 
