@@ -540,12 +540,6 @@
     name: Wirtschafts Woche
     version: 1.1.14
 -
-  user_agent: Outlook-iOS/709.2042344.prod.iphone (3.21.0)
-  client:
-    type: mobile app
-    name: Microsoft Outlook
-    version: 3.21.0
--
   user_agent: TVirl/0.3.2.2 (Linux;Android 7.0)
   client:
     type: mobile app
@@ -701,3 +695,423 @@
     type: mobile app
     name: TikTok
     version: 21.0.0
+-
+  user_agent: HikConnect/200717 (iPhone; iOS 14.4; Scale/2.00)
+  client:
+    type: mobile app
+    name: Hik-Connect
+    version: ""
+-
+  user_agent: Pinterest for Android Tablet/9.32.1 (gta4xlwifi; 11)
+  client:
+    type: mobile app
+    name: Pinterest
+    version: 9.32.1
+-
+  user_agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; Cortana 1.14.2.19041; 10.0.0.0.19042.1288) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36 Edge/18.19042
+  client:
+    type: mobile app
+    name: Cortana
+    version: 1.14.2.19041
+-
+  user_agent: Opera News/8.3.2254.55686/52.0.2743.10 (Android 11)
+  client:
+    type: mobile app
+    name: Opera News
+    version: 8.3.2254.55686
+-
+  user_agent: CreativeCloud/5.6.0.788/Mac-11.4
+  client:
+    type: mobile app
+    name: Adobe Creative Cloud
+    version: 5.6.0.788
+-
+  user_agent: iPhoneLync/6.28.1.8 (iPhone iOS 14.7.1)
+  client:
+    type: mobile app
+    name: Skype for Business
+    version: 6.28.1.8
+-
+  user_agent: Flipp-iOS/775 CFNetwork/1240.0.4 Darwin/20.6.0
+  client:
+    type: mobile app
+    name: Flipp
+    version: ""
+-
+  user_agent: Flipp-iOS/19.0.0 (iPhone; iOS 14.8; Scale/2.00)
+  client:
+    type: mobile app
+    name: Flipp
+    version: 19.0.0
+-
+  user_agent: rekordbox/5.8.6.0004 Windows 10(64bit)
+  client:
+    type: mobile app
+    name: rekordbox
+    version: 5.8.6.0004
+-
+  user_agent: GoogleSoftwareUpdate/1.3.16.180 CFNetwork/1325.0.1 Darwin/21.1.0
+  client:
+    type: mobile app
+    name: Chrome Update
+    version: 1.3.16.180
+-
+  user_agent: Google Update/1.3.36.112;winhttp
+  client:
+    type: mobile app
+    name: Chrome Update
+    version: 1.3.36.112
+-
+  user_agent: Microsoft-WNS/10.0
+  client:
+    type: mobile app
+    name: Windows Push Notification Services
+    version: "10.0"
+-
+  user_agent: Microsoft BITS/7.8
+  client:
+    type: mobile app
+    name: Background Intelligent Transfer Service
+    version: "7.8"
+-
+  user_agent: 'ERA Agent Update (Windows; U; 64bit; BPC 8.0.1238.0; OS: 10.0.19042 SP 0.0 NT; x64c; APP era; HWF: 0100CC8A-BE80-F512-E058-0DE202DAC0CB; PLOC en_US; PCODE 901.0.0; PX 0)'
+  client:
+    type: mobile app
+    name: ESET Remote Administrator
+    version: ""
+-
+  user_agent: 'EpicGamesLauncher/12.0.8-15573162   Portal Release-Live Windows/10.0.19041.1.768.64bit'
+  client:
+    type: mobile app
+    name: Epic Games Launcher
+    version: 12.0.8
+-
+  user_agent: Microsoft-WebDAV-MiniRedir/10.0.19042
+  client:
+    type: mobile app
+    name: WebDAV
+    version: ""
+-
+  user_agent: Battle.net/2.6.0.13147 (retail)
+  client:
+    type: mobile app
+    name: Battle.net
+    version: 2.6.0.13147
+-
+  user_agent: Bookshelf-Android/10.0.3 (Android OS/9; Samsung Chromebook 3) vitalsource
+  client:
+    type: mobile app
+    name: Bookshelf
+    version: 10.0.3
+-
+  user_agent: RaveSocial/3.8.5;Android/10;Density/1.96875;Device/SM-A705FN;Manufacturer/samsung;ScreenWidth/810;ScreenHeight/1649
+  client:
+    type: mobile app
+    name: Rave Social
+    version: 3.8.5
+-
+  user_agent: wordcookies/21.0930.01 CFNetwork/1240.0.4 Darwin/20.6.0
+  client:
+    type: mobile app
+    name: Word Cookies!
+    version: 21.0930.01
+-
+  user_agent: iOS/14.8 com.meevii.bibleKJV/2.83.0
+  client:
+    type: mobile app
+    name: Bible KJV
+    version: 2.83.0
+-
+  user_agent: MetaTrader 5 Terminal/5.2981 (Windows NT 10.0.19042; x64)
+  client:
+    type: mobile app
+    name: MetaTrader
+    version: "5.2981"
+-
+  user_agent: ios/14.8 com.paint.bynumber/2.72.0
+  client:
+    type: mobile app
+    name: Paint by Number
+    version: 2.72.0
+-
+  user_agent: ios.zepeto_global/3.6.2 (ios; U; iOS 14.7.1; en-CA; occ-CA; iPhone 11);ZEPETO
+  client:
+    type: mobile app
+    name: ZEPETO
+    version: 3.6.2
+-
+  user_agent: Jungle Disk Workgroup HTTP/110 (Windows 10.0 64-bit)
+  client:
+    type: mobile app
+    name: Jungle Disk
+    version: ""
+-
+  user_agent: Mozilla/5.0 (Android) Nextcloud-android/3.17.1
+  client:
+    type: mobile app
+    name: Nextcloud
+    version: 3.17.1
+-
+  user_agent: Mozilla/5.0 (iPad; CPU OS 14_6 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148 TeamsMobile-iOS
+  client:
+    type: mobile app
+    name: Teams
+    version: ""
+-
+  user_agent: Mozilla/5.0 (iPhone; CPU iPhone OS 14_6 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148 GoNativeIOS/1.0 gonative
+  client:
+    type: mobile app
+    name: GoNative
+    version: "1.0"
+-
+  user_agent: Mozilla/5.0 (iPhone; CPU iPhone OS 14_4_2 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148 Pandora/2108.1.1
+  client:
+    type: mobile app
+    name: Pandora
+    version: 2108.1.1
+-
+  user_agent: Mozilla/5.0 (iPhone; CPU iPhone OS 14_7_1 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148 Safari/605.1 Blackboard/6.9
+  client:
+    type: mobile app
+    name: Blackboard
+    version: "6.9"
+-
+  user_agent: 'Mozilla/5.0 (iPhone; CPU iPhone OS 14_8 like Mac OS X) AppleWebKit/600.1.4 (KHTML, like Gecko) Mobile/12A365 QQMusic/10.18.0 Mskin/white Mcolor/22d59cff Bcolor/00000000 skinid[902] NetType/2G WebView/UIWebView Released[1] zh-Hans-JP DeviceModel/iPhone13,4 skin_css/skin2_1_902 Pixel/1284 FreeFlow/0 teenMode/0 nft_released/[1] FontMode/0]  pixel/1284 model/iPhone13,4'
+  client:
+    type: mobile app
+    name: QQMusic
+    version: 10.18.0
+-
+  user_agent: 'Mozilla/5.0 (iPhone; CPU iPhone OS 14_7_1 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148  etoro-cordova-app'
+  client:
+    type: mobile app
+    name: eToro
+    version: ""
+-
+  user_agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_16_0) AppleWebKit/537.36 (KHTML, like Gecko) QtWebEngine/5.11.1 Chrome/65.0.3325.230 Safari/537.36 Avid Link Desktop App/20.4.0.1302
+  client:
+    type: mobile app
+    name: Avid Link
+    version: 20.4.0.1302
+-
+  user_agent: Mozilla/5.0 (Linux; Android 11; SM-N981U Build/RP1A.200720.012; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/95.0.4638.50 Mobile Safari/537.36 Blackboard/unspecified
+  client:
+    type: mobile app
+    name: Blackboard
+    version: ""
+-
+  user_agent: 'Mozilla/5.0 (Linux; Android 11; SM-G973F Build/RP1A.200720.012; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/95.0.4638.74 Mobile Safari/537.36 [FBAN/AudienceNetworkForAndroid;FBSN/Android;FBSV/11;FBAB/com.dopuz.klotski.riddle;FBAV/5.1701;FBBV/51701;FBVS/6.7.0;FBLC/en_GB]'
+  client:
+    type: mobile app
+    name: Facebook Audience Network
+    version: "5.1701"
+-
+  user_agent: 'Gibbon/2020.2.2.0/2020.2.2.0: Netflix/2020.2.2.0 (DEVTYPE=NFANDROID2-PRV-FIRETVSTICK2018; CERTVER=0)'
+  client:
+    type: mobile app
+    name: Netflix
+    version: 2020.2.2.0
+-
+  user_agent: GoogleTagManager/4.00 (Linux; U; Android 9; en-us; U693CL Build/U693CL_01.02.03)
+  client:
+    type: mobile app
+    name: Google Tag Manager
+    version: "4.00"
+-
+  user_agent: Mozilla/3.0 (compatible; Adobe Synchronizer 21.7.20095)
+  client:
+    type: mobile app
+    name: Adobe Synchronizer
+    version: 21.7.20095
+-
+  user_agent: Mozilla/5.0 (Linux) mirall/2.5.1
+  client:
+    type: mobile app
+    name: Nextcloud
+    version: 2.5.1
+-
+  user_agent: BlueStacks/4.260.0.1020/87750099-46c9-43c0-8eb9-90c8687934ce gzip
+  client:
+    type: mobile app
+    name: BlueStacks
+    version: 4.260.0.1020
+-
+  user_agent: BlueStacks 5/5.0.230.1001/a86919c0-9431-426e-8862-c346ce1e4f38 gzip
+  client:
+    type: mobile app
+    name: BlueStacks
+    version: 5.0.230.1001
+-
+  user_agent: Mozilla/5.0 (Windows NT; Windows NT 10.0; en-US) WindowsPowerShell/5.1.18362.1714
+  client:
+    type: mobile app
+    name: PowerShell
+    version: 5.1.18362.1714
+-
+  user_agent: PAN GlobalProtect/5.2.6-87 (Microsoft Windows 10 Enterprise , 64-bit) Mozilla/5.0 (Windows NT 6.2; Win64; x64; Trident/7.0; rv:11.0) like Gecko
+  client:
+    type: mobile app
+    name: GlobalProtect
+    version: 5.2.6
+-
+  user_agent: Theyub v7.4.8 IOS iPhoneXSMax CA en
+  client:
+    type: mobile app
+    name: Theyub
+    version: 7.4.8
+-
+  user_agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) discord/1.0.9003 Chrome/91.0.4472.164 Electron/13.4.0 Safari/537.36
+  client:
+    type: mobile app
+    name: Discord
+    version: 1.0.9003
+-
+  user_agent: Discord-Updater/1
+  client:
+    type: mobile app
+    name: Discord
+    version: ""
+-
+  user_agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) TradingView/1.0.0-beta.15 Chrome/96.0.4664.55 Safari/537.36 TVDesktop/1.0.0-beta.15
+  client:
+    type: mobile app
+    name: TradingView
+    version: 1.0.0
+-
+  user_agent: Mozilla/5.0 (Linux; Android 11) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.127 Mobile Safari/537.36 Instabridge
+  client:
+    type: mobile app
+    name: Instabridge
+    version: ""
+-
+  user_agent: Be Focused/104 CFNetwork/976 Darwin/18.2.0
+  client:
+    type: mobile app
+    name: Be Focused
+    version: ""
+-
+  user_agent: Focuskeeper/2.0.15.4 CFNetwork/1240.0.4 Darwin/20.5.0
+  client:
+    type: mobile app
+    name: Focus Keeper
+    version: 2.0.15.4
+-
+  user_agent: Focus Matrix/155 CFNetwork/976 Darwin/18.2.0
+  client:
+    type: mobile app
+    name: Focus Matrix
+    version: ""
+-
+  user_agent: WindowsStoreSDK
+  client:
+    type: mobile app
+    name: Microsoft Store
+    version: ""
+-
+  user_agent: Asus Update/1.3.107.67;winhttp;cup-ecdsa
+  client:
+    type: mobile app
+    name: ASUS Updater
+    version: 1.3.107.67
+-
+  user_agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Skype/8.79.0.95 Chrome/91.0.4472.164 Electron/13.6.0 Safari/537.36
+  client:
+    type: mobile app
+    name: Skype
+    version: 8.79.0.95
+-
+  user_agent: Mozilla/5.0 (Linux; Android 10; M2004J19C Build/QP1A.190711.020; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/80.0.3987.99 Mobile Safari/537.36 imoAndroid/2020.07.3051; 10; REL; M2004J19C; Redmi; play; phone; arm64-v8a; galahad; 2000MHz;
+  client:
+    type: mobile app
+    name: 'IMO HD Video Calls & Chat'
+    version: 2020.07.3051
+-
+  user_agent: Mozilla/5.0 (Linux; Android 10; M2006C3LG Build/QP1A.190711.020; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/87.0.4280.101 Mobile Safari/537.36 imoAndroid/9.8.000000012091; 10; REL; M2006C3LG; Redmi; pl
+  client:
+    type: mobile app
+    name: 'IMO International Calls & Chat'
+    version: 9.8.000000012091
+-
+  user_agent: Mozilla/5.0 (Linux; Android 8.1.0; DUB-LX1 Build/HUAWEIDUB-LX1; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/83.0.4103.83 Mobile Safari/537.36 [FB_IAB/Orca-Android;FBAV/267.0.0.15.119;]
+  client:
+    type: mobile app
+    name: Facebook Messenger
+    version: 267.0.0.15.119
+-
+  user_agent: 'Mozilla/5.0 (Linux; Android 9; SM-J415F Build/PPR1.180610.011; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/83.0.4103.101 Mobile Safari/537.36[FBAN/EMA;FBLC/ar_AR;FBAV/201.0.0.7.119;]'
+  client:
+    type: mobile app
+    name: Facebook Lite
+    version: 201.0.0.7.119
+-
+  user_agent: Mozilla/5.0 (Linux; Android 10; NEN-L22 Build/HUAWEINEN-L22; ) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/83.0.4103.106 Mobile Safari/537.36 BingSapphire/21.6.390910305
+  client:
+    type: mobile app
+    name: Microsoft Bing Search
+    version: 21.6.390910305
+-
+  user_agent: Mozilla/5.0 (Linux; Android 10; JNY-LX1 Build/HUAWEIJNY-L21; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/88.0.4324.93 Mobile Safari/537.36HiSearch/21.1.11.300
+  client:
+    type: mobile app
+    name: HiSearch
+    version: 21.1.11.300
+-
+  user_agent: Mozilla/5.0 (iPhone; CPU iPhone OS 15_1 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.5 Mobile/15E148 Safari/604.1 RDDocuments/8.1.8.826
+  client:
+    type: mobile app
+    name: RDDocuments
+    version: 8.1.8.826
+-
+  user_agent: Mozilla/5.0 (iPhone; CPU iPhone OS 13_5 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/FSCDCSafe 18.5.274700 18.5.274700 15.0 Safari/605.1.15
+  client:
+    type: mobile app
+    name: F-Secure SAFE
+    version: 18.5.274700
+-
+  user_agent: Twitterrific/977 CFNetwork/1128.0.1 Darwin/19.6.0
+  client:
+    type: mobile app
+    name: Twitterrific
+    version: ""
+-
+  user_agent: UconnectLive/2 CFNetwork/1197 Darwin/20.0.0
+  client:
+    type: mobile app
+    name: Uconnect LIVE
+    version: ""
+-
+  user_agent: WeChat/7.0.12.33 CFNetwork/1125.2 Darwin/19.4.0
+  client:
+    type: mobile app
+    name: WeChat
+    version: 7.0.12.33
+-
+  user_agent: 'Wayback%20Machine%20Extension/16 CFNetwork/978.2 Darwin/18.7.0 (x86_64)'
+  client:
+    type: mobile app
+    name: Wayback Machine
+    version: ""
+-
+  user_agent: Google.DriveExtension/4.2020.46208 (OS=iOS;OSVer=13.6;Manufacturer=Apple;Model=iPhone_11_Pro_Max) gzip
+  client:
+    type: mobile app
+    name: Google Drive
+    version: 4.2020.46208
+-
+  user_agent: H10P/com.Nanoteq.QmunicateH10p;os=Apple-iOS;model=iPhone9,3;osversion=13.6/3.1.0 (belle-sip/1.6.1)
+  client:
+    type: mobile app
+    name: Q-municate
+    version: 3.1.0
+-
+  user_agent: 'LightSpeed [FBAN/mLite;FBAV/171.0.0.53.116;FBBV/227057459;FBDV/iPhone7,1;FBMD/iPhone;FBSN/iOS;FBSV/12.4.9;FBSS/3;FBCR/;FBID/phone;FBLC/vi_VN;FBOP/0]'
+  client:
+    type: mobile app
+    name: Facebook Messenger Lite
+    version: 171.0.0.53.116
+-
+  user_agent: 'Dalvik/2.1.0 (Linux; U; Android 10; SM-G970U1 Build/QP1A.190711.020) [FBAN/MessengerLite;FBAV/78.0.1.18.236;FBPN/com.facebook.mlite;FBLC/es_MX;FBBV/201616056;FBCR/TELCEL;FBMF/samsung;FBBD/samsung;FBDV/SM-G970U1;FBSV/10;FBCA/arm64-v8a:null;FBDM/{density=3.0,width=1080,height=2020};]'
+  client:
+    type: mobile app
+    name: Facebook Messenger Lite
+    version: 78.0.1.18.236

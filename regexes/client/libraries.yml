@@ -156,3 +156,22 @@
 - regex: 'gvfs/(?:(\d+[\.\d]+))?'
   name: 'gvfs'
   version: '$1'
+
+# https://openwrt.org/packages/pkgdata/uclient-fetch
+- regex: 'uclient-fetch'
+  name: 'uclient-fetch'
+  version: ''
+
+# https://github.com/microsoft/cpprestsdk
+- regex: 'cpprestsdk/([\.\d]+)'
+  name: 'C++ REST SDK'
+  version: '$1'
+
+- regex: 'lua-resty-http/([\.\d]+).+ngx_'
+  name: 'LUA OpenResty NGINX'
+  version: '$1'
+
+# https://github.com/Kong/unirest-java
+- regex: 'unirest-java/([\.\d]+)'
+  name: 'Unirest for Java'
+  version: '$1'

@@ -4432,3 +4432,85 @@
     name: DataForSeoBot
     category: Crawler
     url: https://dataforseo.com/dataforseo-bot
+-
+  user_agent: Mozilla/5.0 (compatible; Discordbot/2.0; +https://discordapp.com)
+  bot:
+    name: Discord Bot
+    category: Service Agent
+    url: https://discordapp.com
+-
+  user_agent: facebookcatalog/1.0
+  bot:
+    name: Facebook External Hit
+    category: Social Media Agent
+    url: https://www.facebook.com/externalhit_uatext.php
+    producer:
+      name: Facebook
+      url: http://www.facebook.com
+-
+  user_agent: Mozilla/5.0 (compatible; Linespider/1.1; https://lin.ee/4dwXkTH)
+  bot:
+    name: Linespider
+    category: Crawler
+    url: https://lin.ee/4dwXkTH
+-
+  user_agent: Mozilla/5.0 (compatible; Cincraw/1.0; +http://cincrawdata.net/bot/)
+  bot:
+    name: Cincraw
+    category: Crawler
+    url: http://cincrawdata.net/bot/
+-
+  user_agent: CISPA Web Analyzer (https://notify.cispa.de)
+  bot:
+    name: CISPA Web Analyzer
+    category: Crawler
+    url: https://notify.cispa.de/
+    producer:
+      name: 'CISPA - Helmholtz-Zentrum für Informationssicherheit gGmbH'
+      url: https://cispa.de/en
+-
+  user_agent: IonCrawl (https://www.ionos.de/terms-gtc/faq-crawler-en/)
+  bot:
+    name: IONOS Crawler
+    category: Crawler
+    url: https://www.ionos.de/terms-gtc/faq-crawler-en/
+    producer:
+      name: IONOS SE
+      url: https://www.ionos.de/
+-
+  user_agent: Crawldad (+https://gist.github.com/jayhardee9/2f2a2c4dba26564ee040ae32e0dd0972)
+  bot:
+    name: Crawldad
+    category: Crawler
+    url: https://gist.github.com/jayhardee9/2f2a2c4dba26564ee040ae32e0dd0972
+-
+  user_agent: 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36 ### This is a crawler for security.txt files. For more information visit https://securitytxt-scan.cs.hm.edu/ ###'
+  bot:
+    name: security.txt scanserver
+    category: Security Checker
+    url: https://securitytxt-scan.cs.hm.edu/
+    producer:
+      name: Hochschule für angewandte Wissenschaften München
+      url: https://www.hm.edu/
+-
+  user_agent: Mozilla/5.0 (Linux; CentOS Linux release 7.4.1708) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36 (compatible; AdsBot-Naver/1.0; +http://searchad.naver.com)
+  bot:
+    name: Yeti/Naverbot
+    category: Search bot
+    url: http://help.naver.com/robots/
+    producer:
+      name: Naver
+      url: http://www.naver.com
+-
+  user_agent: Mozilla/5.0 (compatible; Google-Stale-Content-Probe; +http://www.google.com/bot.html)
+  bot:
+    name: Googlebot
+    category: Search bot
+    url: http://www.google.com/bot.html
+    producer:
+      name: Google Inc.
+      url: http://www.google.com
+-
+  user_agent: cortex/1.0
+  bot:
+    name: Generic Bot

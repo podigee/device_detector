@@ -5,6 +5,83 @@
 # @license http://www.gnu.org/licenses/lgpl.html LGPL v3 or later
 ###############
 
+# T+Browser (https://t.chanjet.com/tplus/view/login/downloadBrowser.html | https://dad.chanapp.chanjet.com/tplusapp/TPlusBrowser.exe)
+- regex: 'T\+Browser/(\d+[\.\d]+)'
+  name: 'T+Browser'
+  version: '$1'
+  engine:
+    default: 'Blink'
+
+# ChanjetCloud (https://dad.chanapp.chanjet.com/tplusapp/HsySetup.exe)
+- regex: 'ChanjetCloud/(\d+[\.\d]+)'
+  name: 'ChanjetCloud'
+  version: '$1'
+  engine:
+    default: 'Blink'
+
+# Sushi Browser (https://sushi-browser.com/)
+- regex: 'SushiBrowser/(\d+[\.\d]+)'
+  name: 'Sushi Browser'
+  version: '$1'
+  engine:
+    default: 'Blink'
+
+# Peeps dBrowser (https://peepsx.com/dbrowser.html)
+- regex: 'dBrowser/(\d+[\.\d]+)'
+  name: 'Peeps dBrowser'
+  version: '$1'
+  engine:
+    default: 'Blink'
+
+# LT Browser (https://www.lambdatest.com/lt-browser)
+- regex: 'LTBrowser/(\d+[\.\d]+)'
+  name: 'LT Browser'
+  version: '$1'
+  engine:
+    default: 'Blink'
+
+# Lagatos Browser (https://lagatos.com/)
+- regex: 'lagatos-browser/(\d+[\.\d]+)'
+  name: 'Lagatos Browser'
+  version: '$1'
+  engine:
+    default: 'Blink'
+
+# PSI Secure Browser (https://tca.psiexams.com/portal/testdelivery/sb_rpnow_download.jsp?)
+- regex: 'psi-secure-browser/(\d+[\.\d]+)'
+  name: 'PSI Secure Browser'
+  version: '$1'
+  engine:
+    default: 'Blink'
+
+# Harman Browser (https://www.harman.com/)
+- regex: 'Harman_Browser/(\d+[\.\d]+)'
+  name: 'Harman Browser'
+  version: '$1'
+  engine:
+    default: 'Blink'
+
+# Bonsai (https://bonsaibrowser.com/)
+- regex: 'bonsai-browser/(\d+[\.\d]+)'
+  name: 'Bonsai'
+  version: '$1'
+  engine:
+    default: 'Blink'
+
+# Spectre Browser (https://spectrebots.com/products/spectre-desktop-browser)
+- regex: 'spectre-browser/(\d+[\.\d]+)'
+  name: 'Spectre Browser'
+  version: '$1'
+  engine:
+    default: 'Blink'
+
+# Flash Browser (https://github.com/asteroid-dev/FlashBrowser or https://github.com/radubirsan/FlashBrowser)
+- regex: 'FlashBrowser/(\d+[\.\d]+)'
+  name: 'Flash Browser'
+  version: '$1'
+  engine:
+    default: 'Blink'
+
 # Secure Browser (https://safertechnologies.io/)
 - regex: 'Secure/(?:(\d+[\.\d]+))?'
   name: 'Secure Browser'
@@ -449,9 +526,21 @@
   version: '$1'
 
 # Lunascape Lite (https://www.lunascape.tv/)
-- regex: 'iLunascapeLite/(?:(\d+[\.\d]+))?'
+- regex: 'iLunascapeLite/(?:(\d+\.[.\d]+))?'
   name: 'Lunascape Lite'
   version: '$1'
+
+# Lunascape
+- regex: 'Chrome/.+ i?Lunascape(?:[/ ](\d+\.[.\d]+))?'
+  name: 'Lunascape'
+  version: '$1'
+  engine:
+    default: 'Blink'
+- regex: 'i?Lunascape(?:[/ ](\d+\.[.\d]+))?'
+  name: 'Lunascape'
+  version: '$1'
+  engine:
+    default: '' # multi engine
 
 # Polypane (https://polypane.app/)
 - regex: 'Polypane/(?:(\d+[\.\d]+))?'
@@ -604,6 +693,10 @@
 - regex: 'Beamrise(?:/(\d+[\.\d]+))?'
   name: 'Beamrise'
   version: '$1'
+  engine:
+    default: 'WebKit'
+    versions:
+      28: 'Blink'
 
 # Faux Browser (https://apps.apple.com/us/app/faux-browser/id472250940)
 - regex: 'Faux(?:/(\d+[\.\d]+))?'
@@ -633,6 +726,13 @@
 # Hawk Turbo Browser
 - regex: 'Hawk/TurboBrowser(?:/v?(\d+[\.\d]+))?'
   name: 'Hawk Turbo Browser'
+  version: '$1'
+  engine:
+    default: 'Blink'
+
+# Hawk Quick Browser
+- regex: 'Hawk/QuickBrowser(?:/v?(\d+[\.\d]+))?'
+  name: 'Hawk Quick Browser'
   version: '$1'
   engine:
     default: 'Blink'
@@ -719,10 +819,19 @@
   engine:
     default: 'Blink'
 
-# Huawei Browser
+# Huawei Browser Mobile
 - regex: 'HuaweiBrowser(?:/(\d+[\.\d]+))?'
+  name: 'Huawei Browser Mobile'
+  version: '$1'
+  engine:
+    default: 'Blink'
+
+# Huawei Browser
+- regex: 'HBPC/(\d+[\.\d]+)'
   name: 'Huawei Browser'
   version: '$1'
+  engine:
+    default: 'Blink'
 
 # vivo Browser
 - regex: 'VivoBrowser(?:/(\d+[\.\d]+))?'
@@ -858,7 +967,7 @@
   version: '$1'
 
 # Avast Secure Browser | Avast SafeZone Browser (https://www.avast.com/)
-- regex: '(?:Avast|ASW|Safer)(?:/(\d+[\.\d]+))?'
+- regex: '(?:Avast(?:SecureBrowser)?|ASW|Safer)(?:/(\d+[\.\d]+))?'
   name: 'Avast Secure Browser'
   version: '$1'
 
@@ -1055,7 +1164,7 @@
     default: 'Goanna'
 
 #Firefox Focus / Firefox Klar
-- regex: '(?:Focus|Klar)(?:/(\d+[\.\d]+))?'
+- regex: '(?:Focus|Klar)(?:/(\d+[\.\d]+))'
   name: 'Firefox Focus'
   version: '$1'
 
@@ -1198,11 +1307,17 @@
   version: ''
 
 # Opera GX (https://www.opera.com/gx#start | http://ftp.opera.com/pub/opera_gx/)
-- regex: 'OPRGX(?:/(\d+[\.\d]+))?'
+- regex: 'Chrome/.+ OP(?:RG)?X(?:/(\d+[\.\d]+))?'
   name: 'Opera GX'
   version: '$1'
   engine:
     default: 'Blink'
+
+- regex: 'OP(?:RG)?X(?:/(\d+[\.\d]+))?'
+  name: 'Opera GX'
+  version: '$1'
+  engine:
+    default: 'WebKit'
 
 #Opera
 - regex: '(?:Opera Tablet.*Version|Opera/.+Opera Mobi.+Version|Mobile.+OPR)/(\d+[\.\d]+)'
@@ -1225,6 +1340,11 @@
 - regex: 'Opera%20Touch/(\d+[\.\d]+)? CFNetwork/.+Darwin/.+(?!.*x86_64)'
   name: 'Opera Touch'
   version: '$1'
+  engine:
+    default: 'WebKit'
+- regex: 'Opera%20Touch/.+CFNetwork/.+Darwin/.+(?!.*x86_64)'
+  name: 'Opera Touch'
+  version: ''
   engine:
     default: 'WebKit'
 - regex: 'OPT/(\d+[\.\d]+)'
@@ -1398,7 +1518,7 @@
     default: 'WebKit'
     versions:
       '5.2': 'Blink'
-- regex: '(?:Maxthon(?:%20Browser)?|MxBrowser(?:-inhouse|-iPhone)?)[ /](\d+[\.\d]+)'
+- regex: '(?:Maxthon(?:%20Browser)?|MxBrowser(?:-inhouse|-iPhone)?|MXiOS)[ /](\d+[\.\d]+)'
   name: 'Maxthon'
   version: '$1'
   engine:
@@ -1430,6 +1550,8 @@
   version: '$1'
   engine:
     default: 'WebKit'
+    versions:
+      28: 'Blink'
 
 - regex: 'Iron(?:/(\d+[\.\d]+))?'
   name: 'Iron'
@@ -1531,6 +1653,8 @@
 - regex: 'UBrowser(?:/(\d+[\.\d]+))?'
   name: 'UBrowser'
   version: '$1'
+  engine:
+    default: 'Blink'
 
 #Streamy (Chromium based)
 - regex: 'Streamy(?:/(\d+[\.\d]+))?'
@@ -1556,6 +1680,11 @@
 - regex: 'UC AppleWebKit'
   name: 'UC Browser'
   version: ''
+- regex: 'UC%20Browser/(\d+[\.\d]+)? CFNetwork/.+Darwin/.+(?!.*x86_64)'
+  name: 'UC Browser'
+  version: '$1'
+  engine:
+    default: 'WebKit'
 
 #It should be checked before Chrome since the UA contains the Chrome
 
@@ -1580,6 +1709,11 @@
 
 # Web Explorer
 - regex: 'Web Explorer/(\d+[\.\d]+).*Chrome'
+  name: 'Web Explorer'
+  version: '$1'
+  engine:
+    default: 'WebKit'
+- regex: 'webexplorer/(\d+)'
   name: 'Web Explorer'
   version: '$1'
   engine:
@@ -1652,6 +1786,16 @@
   version: '$1'
   engine:
     default: 'WebKit'
+
+# iBrowser Mini
+- regex: 'iBrowser/Mini(\d+\.\d+)'
+  name: 'iBrowser Mini'
+  version: '$1'
+
+# iBrowser
+- regex: 'iBrowser/(\d+\.[.\d]+)?'
+  name: 'iBrowser'
+  version: '$1'
 
 #IBrowse
 - regex: 'IBrowse(?:[ /](\d+[\.\d]+))?'
@@ -1976,8 +2120,20 @@
   engine:
     default: 'Gecko'
 
-#Google Earth
-- regex: 'Google Earth(?:/(\d+[\.\d]+))?'
+# Google Earth Pro (https://www.google.se/intl/en/earth/versions/)
+- regex: 'Google Earth Pro(?:/(\d+[\.\d]+))?'
+  name: 'Google Earth Pro'
+  version: '$1'
+  engine:
+    default: 'WebKit'
+- regex: 'GoogleEarth/(\d+[\.\d]+).+client:(?:Plus|Pro)'
+  name: 'Google Earth Pro'
+  version: '$1'
+  engine:
+    default: 'WebKit'
+
+# Google Earth (https://www.google.se/intl/en/earth/versions/)
+- regex: 'Google ?Earth(?:/v?(\d+[\.\d]+))?'
   name: 'Google Earth'
   version: '$1'
   engine:
@@ -2003,13 +2159,6 @@
     default: 'iCab'
     versions:
       4: 'WebKit'
-
-#Lunascape
-- regex: 'i?Lunascape(?:[/ ](\d+[\.\d]+))?'
-  name: 'Lunascape'
-  version: '$1'
-  engine:
-    default: '' # multi engine
 
 # Crazy Browser
 - regex: 'Crazy Browser (\d+[\.\d]+)'
@@ -2201,6 +2350,11 @@
 - regex: 'Coast(?:/(\d+[\.\d]+))?'
   name: 'Coast'
   version: '$1'
+- regex: 'Opera%20Coast/(\d+[\.\d]+)? CFNetwork/.+Darwin/.+(?!.*x86_64)'
+  name: 'Coast'
+  version: '$1'
+  engine:
+    default: 'WebKit'
 
 # surf (https://surf.suckless.org/)
 - regex: 'Surf(?:/(\d+[\.\d]+))?'
@@ -2266,7 +2420,7 @@
   version: '$1'
 
 # MAUI Wap Browser
-- regex: 'WAP Browser/MAUI|(?:\w+)?Maui Wap Browser|MAUI[- ]Browser'
+- regex: 'WAP Browser/MAUI|(?:\w*)Maui Wap Browser|MAUI[- ]Browser'
   name: 'MAUI WAP Browser'
   version: ''
 

@@ -9,8 +9,18 @@
   name: 'Outlook Express'
   version: '$1'
 
-- regex: 'Microsoft Outlook(?:[/ ](\d+[\.\d]+))?'
+# Outlook https://apps.apple.com/ru/app/microsoft-outlook/id951937596
+- regex: '^Outlook-iOS/(?:.+\((\d+[\.\d]+)\)$)?'
   name: 'Microsoft Outlook'
+  version: '$1'
+
+- regex: '(?:(?:Microsoft )?Outlook|MacOutlook)(?:[/ ](\d+[\.\d]+))?'
+  name: 'Microsoft Outlook'
+  version: '$1'
+
+# Default Mail Client for Windows
+- regex: 'WindowsMail(?:/(\d+[\.\d]+))'
+  name: 'Windows Mail'
   version: '$1'
 
 - regex: '(?:Thunderbird|Icedove|Shredder)(?:/(\d+[\.\d]+))?'
@@ -96,4 +106,9 @@
 # Rambox Pro (https://rambox.app/)
 - regex: 'ramboxpro/(\d+\.[\.\d]+)?'
   name: 'Rambox Pro'
+  version: '$1'
+
+# Mailbird (https://www.getmailbird.com/)
+- regex: 'Mailbird/(\d+\.[\.\d]+)/'
+  name: 'Mailbird'
   version: '$1'
