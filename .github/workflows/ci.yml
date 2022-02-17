@@ -2,8 +2,9 @@
 name: CI
 
 on:
-  - push
-  - pull_request
+  push:
+    branches: [ master, develop, ci ]
+  pull_request:
 
 jobs:
   rspec:
