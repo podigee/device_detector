@@ -19,14 +19,29 @@
   name: 'bPod'
   version: ''
 
+# Facebook Audience Network
+- regex: 'AudienceNetworkForAndroid.+(?:FBAV)(?:[ /]([\d\.]+))?'
+  name: 'Facebook Audience Network'
+  version: '$1'
+
+# Facebook Messenger (https://play.google.com/store/apps/details?id=com.facebook.orca)
+- regex: '(?:MessengerForiOS|MESSENGER|FB_IAB/Orca-Android).(?:FBAV)(?:[ /]([\d\.]+))?'
+  name: 'Facebook Messenger'
+  version: '$1'
+
 # Facebook Messenger Lite
-- regex: 'MessengerLiteForiOS.(?:FBAV)(?:[ /]([\d\.]+))?'
+- regex: '(?:mLite|MessengerLite(?:ForiOS)?).(?:FBAV)(?:[ /]([\d\.]+))?'
   name: 'Facebook Messenger Lite'
   version: '$1'
 
-# Facebook Messenger
-- regex: '(?:MessengerForiOS|MESSENGER).(?:FBAV)(?:[ /]([\d\.]+))?'
-  name: 'Facebook Messenger'
+# Facebook Groups
+- regex: '(?:GroupsForiOS).(?:FBAV)(?:[ /]([\d\.]+))?'
+  name: 'Facebook Groups'
+  version: '$1'
+
+# Facebook Lite (https://play.google.com/store/apps/details?id=com.facebook.lite)
+- regex: 'FBAN/EMA.+FBAV(?:[ /]([\d\.]+))?'
+  name: 'Facebook Lite'
   version: '$1'
 
 # Facebook
@@ -57,8 +72,16 @@
   name: 'Google Plus'
   version: ''
 
+# Google Drive (https://apps.apple.com/us/app/google-drive/id507874739)
+- regex: 'Google.DriveExtension(?:/([\d\.]+))?'
+  name: 'Google Drive'
+  version: '$1'
+
 # WeChat
 - regex: 'MicroMessenger/([^; ]+)'
+  name: 'WeChat'
+  version: '$1'
+- regex: 'WeChat/([\d\.]+)'
   name: 'WeChat'
   version: '$1'
 - regex: 'WeChatShareExtensionNew/([\d\.]+)'
@@ -76,7 +99,7 @@
   version: '$1'
 
 # Pinterest
-- regex: 'Pinterest(?: for (?:Android|iOS))?(?:/([\d\.]+))?'
+- regex: 'Pinterest(?: for (?:Android(?: Tablet)?|iOS))?(?:/([\d\.]+))?'
   name: 'Pinterest'
   version: '$1'
 
@@ -98,6 +121,15 @@
 # Downcast (www.downcastapp.com | https://apps.apple.com/us/app/downcast/id393858566)
 - regex: 'Downcast/(\d+\.[\d\.]+)?(?:.+(?:!Mac)|$)'
   name: 'Downcast'
+  version: '$1'
+
+# Flipp (https://apps.apple.com/us/app/flipp-weekly-shopping/id725097967)
+- regex: 'Flipp-iOS/.+CFNetwork'
+  name: 'Flipp'
+  version: ''
+
+- regex: 'Flipp-iOS/(\d+[\.\d]+)'
+  name: 'Flipp'
   version: '$1'
 
 # AFNetworking generic
@@ -306,7 +338,11 @@
   version: ''
 
 # Discord (https://apps.apple.com/us/app/discord-talk-chat-hang-out/id985746746)
-- regex: 'Discord/([\d\.]+)'
+- regex: 'discord/([\d\.]+).+Electron'
+  name: 'Discord'
+  version: '$1'
+
+- regex: 'discord(?:-Updater)?/([\d\.]+)'
   name: 'Discord'
   version: ''
 
@@ -353,7 +389,17 @@
   name: 'Microsoft Office Mobile'
   version: '$1'
 
+# Skype
+- regex: 'Skype/([\d\.]+)'
+  name: 'Skype'
+  version: '$1'
+
 - regex: 'OC/([\d\.]+) \(Skype for Business\)'
+  name: 'Skype for Business'
+  version: '$1'
+
+# https://apps.apple.com/us/app/skype-for-business/id605841731
+- regex: 'iPhoneLync/([\d\.]+)'
   name: 'Skype for Business'
   version: '$1'
 
@@ -477,10 +523,10 @@
   version: '$1'
 
 # TuneIn Radio Pro
-- regex: 'TuneIn Radio Pro(?:[^/]+)?/(\d+[\.\d]+)'
+- regex: 'TuneIn Radio Pro(?:[^/]*)/(\d+[\.\d]+)'
   name: 'TuneIn Radio Pro'
   version: '$1'
-- regex: 'TuneIn(?: Radio(?:[^/]+)?)?/(\d+[\.\d]+)'
+- regex: 'TuneIn(?: Radio(?:[^/]*))?/(\d+[\.\d]+)'
   name: 'TuneIn Radio'
   version: '$1'
 
@@ -533,11 +579,6 @@
   name: 'Wirtschafts Woche'
   version: '$1'
 
-# Outlook https://apps.apple.com/ru/app/microsoft-outlook/id951937596
-- regex: '^Outlook-iOS/.+\((\d+[\.\d]+)\)$'
-  name: 'Microsoft Outlook'
-  version: '$1'
-
 - regex: '^TVirl/(\d+[\.\d]+)'
   name: 'TVirl'
   version: '$1'
@@ -577,6 +618,11 @@
   name: 'Binance'
   version: '$1'
 
+# Binance (https://www.binance.com/en/desktop-download)
+- regex: 'Binance/(\d+[\.\d]+)'
+  name: 'Binance'
+  version: '$1'
+
 # My World https://apps.apple.com/app/id598556821
 - regex: 'ru\.mail\.my/(\d+[\.\d]+)'
   name: 'My World'
@@ -596,6 +642,10 @@
 - regex: 'Teams/(\d+[\.\d]+)'
   name: 'Teams'
   version: '$1'
+
+- regex: 'TeamsMobile-iOS'
+  name: 'Teams'
+  version: ''
 
 # Streamlabs OBS (https://streamlabs.com/)
 - regex: 'StreamlabsOBS/(\d+[\.\d]+)'
@@ -645,3 +695,387 @@
 - regex: 'COAF%20SMART%20Citizen/'
   name: 'COAF SMART Citizen'
   version: ''
+
+# GitHub Desktop (https://desktop.github.com/)
+- regex: 'GitHubDesktop/([\d\.]+)'
+  name: 'GitHub Desktop'
+  version: '$1'
+
+# Logi Options+ (https://www.logitech.com/en-us/software/logi-options-plus.html)
+- regex: 'logioptionsplus/([\d\.]+)'
+  name: 'Logi Options+'
+  version: '$1'
+
+# Emby Theater (https://emby.media/emby-theater.html)
+- regex: 'EmbyTheater/([\d\.]+)'
+  name: 'Emby Theater'
+  version: '$1'
+
+# Y8 Browser (https://www.y8.com/)
+- regex: 'y8-browser/([\d\.]+)'
+  name: 'Y8 Browser'
+  version: '$1'
+
+# NuMuKi Browser (https://www.numuki.com/app-download/)
+- regex: 'NuMuKiBrowser/([\d\.]+)'
+  name: 'NuMuKi Browser'
+  version: '$1'
+
+# Landis+Gyr AIM Browser (https://www.landisgyr.eu/product/gridstream-aim/)
+- regex: 'LandisGyrAIMbrowser/(\d+[\.\d]+)'
+  name: 'Landis+Gyr AIM Browser'
+  version: '$1'
+
+# Visual Studio Code (https://code.visualstudio.com/)
+- regex: 'Code/(\d+[\.\d]+)'
+  name: 'Visual Studio Code'
+  version: '$1'
+
+# Wireshark (https://www.wireshark.org)
+- regex: 'Wireshark/(\d+[\.\d]+)'
+  name: 'Wireshark'
+  version: '$1'
+
+# Samsung Magician (https://www.samsung.com/semiconductor/minisite/ssd/product/consumer/magician/)
+- regex: 'Magician'
+  name: 'Samsung Magician'
+  version: ''
+
+# Razer Synapse (https://www.razer.com/synapse-3)
+- regex: 'Razer Central PC'
+  name: 'Razer Synapse'
+  version: ''
+
+# Git (https://git-scm.com/download/win)
+- regex: 'git/(\d+[\.\d]+)'
+  name: 'Git'
+  version: '$1'
+
+# Google Podcasts (https://apps.apple.com/us/app/google-podcasts/id1398000105)
+- regex: 'GooglePodcasts/(\d+[\.\d]+)'
+  name: 'Google Podcasts'
+  version: '$1'
+
+# Windows CryptoAPI (https://www.microsoft.com/en-us/)
+- regex: 'Microsoft-CryptoAPI/(\d+[\.\d]+)'
+  name: 'Windows CryptoAPI'
+  version: ''
+
+# Windows Delivery Optimization (https://www.microsoft.com/en-us/)
+- regex: 'Microsoft-Delivery-Optimization'
+  name: 'Windows Delivery Optimization'
+  version: ''
+
+# Windows Update Agent (https://www.microsoft.com/en-us/)
+- regex: 'Windows-Update-Agent'
+  name: 'Windows Update Agent'
+  version: ''
+
+# Dr. Watson (https://www.microsoft.com/en-us/)
+- regex: '^MSDW'
+  name: 'Dr. Watson'
+  version: ''
+
+# qBittorrent (https://www.qbittorrent.org/)
+- regex: 'qBittorrent/(\d+[\.\d]+)'
+  name: 'qBittorrent'
+  version: '$1'
+
+# CPU-Z (https://www.cpuid.com/)
+- regex: '^CPUID'
+  name: 'CPU-Z'
+  version: ''
+
+# AIDA64 (https://www.aida64.com/)
+- regex: 'AIDA64'
+  name: 'AIDA64'
+  version: ''
+
+# HandBrake (https://handbrake.fr/)
+- regex: 'HandBrake Win Upd (\d+[\.\d]+)'
+  name: 'HandBrake'
+  version: '$1'
+
+# CCleaner (https://www.ccleaner.com/)
+- regex: 'CCleaner, (\d+[\.\d]+)'
+  name: 'CCleaner'
+  version: '$1'
+
+# Edge Update (https://www.microsoft.com/en-us/)
+- regex: 'Microsoft Edge Update/(\d+[\.\d]+)'
+  name: 'Edge Update'
+  version: '$1'
+
+# Chrome Update (https://www.google.com/chrome/)
+- regex: 'Google(?:Software| )Update/(\d+[\.\d]+)'
+  name: 'Chrome Update'
+  version: '$1'
+
+# Bose Music (https://apps.apple.com/us/app/bose-music/id1364986984)
+- regex: 'Bose Music'
+  name: 'Bose Music'
+  version: ''
+
+# HikConnect (https://apps.apple.com/us/app/hik-connect-for-end-user/id1087803190)
+- regex: 'HikConnect'
+  name: 'Hik-Connect'
+  version: ''
+
+# Cortana (https://www.microsoft.com/en-us/)
+- regex: 'Cortana (\d+[\.\d]+)'
+  name: 'Cortana'
+  version: '$1'
+
+# Opera News (https://play.google.com/store/apps/details?id=com.opera.app.news)
+- regex: 'Opera News/(\d+[\.\d]+)'
+  name: 'Opera News'
+  version: '$1'
+
+# Adobe Creative Cloud (https://apps.apple.com/us/app/adobe-creative-cloud/id852473028)
+- regex: 'CreativeCloud/(\d+[\.\d]+)'
+  name: 'Adobe Creative Cloud'
+  version: '$1'
+
+# rekordbox (https://rekordbox.com/en/)
+- regex: 'rekordbox/(\d+[\.\d]+)'
+  name: 'rekordbox'
+  version: '$1'
+
+# Windows Push Notification Services (https://www.microsoft.com/en-us/)
+- regex: 'Microsoft-WNS/(\d+[\.\d]+)'
+  name: 'Windows Push Notification Services'
+  version: '$1'
+
+# Background Intelligent Transfer Service (https://www.microsoft.com/en-us/)
+- regex: 'Microsoft BITS/(\d+[\.\d]+)'
+  name: 'Background Intelligent Transfer Service'
+  version: '$1'
+
+# ESET Remote Administrator (https://www.eset.com/me/business/remote-management/remote-administrator/)
+- regex: 'ERA Agent Update'
+  name: 'ESET Remote Administrator'
+  version: ''
+
+# Epic Games Launcher (https://www.epicgames.com/store/en-US/download)
+- regex: 'EpicGamesLauncher/(\d+[\.\d]+)'
+  name: 'Epic Games Launcher'
+  version: '$1'
+
+# WebDAV (https://www.microsoft.com/en-us/)
+- regex: 'Microsoft-WebDAV-MiniRedir'
+  name: 'WebDAV'
+  version: ''
+
+# Battle.net  (https://eu.shop.battle.net/en-us)
+- regex: 'Battle.net/(\d+[\.\d]+)'
+  name: 'Battle.net'
+  version: '$1'
+
+# Bookshelf (https://play.google.com/store/apps/details?id=com.vitalsource.bookshelf)
+- regex: 'Bookshelf-Android/(\d+[\.\d]+)'
+  name: 'Bookshelf'
+  version: '$1'
+
+# Rave Social (https://www.ravesocial.com/)
+- regex: 'RaveSocial/(\d+[\.\d]+)'
+  name: 'Rave Social'
+  version: '$1'
+
+# Word Cookies! (https://apps.apple.com/us/app/word-cookies/id1153883316)
+- regex: 'wordcookies/(\d+[\.\d]+)'
+  name: 'Word Cookies!'
+  version: '$1'
+
+# Bible KJV (https://apps.apple.com/us/app/bible-kjv/id544098932)
+- regex: 'com.meevii.bibleKJV/(\d+[\.\d]+)'
+  name: 'Bible KJV'
+  version: '$1'
+
+# MetaTrader (https://www.metatrader5.com/)
+- regex: 'MetaTrader 5 Terminal/(\d+[\.\d]+)'
+  name: 'MetaTrader'
+  version: '$1'
+
+# Paint by Number (https://apps.apple.com/us/app/paint-by-number-coloring-games/id1420058690)
+- regex: 'com.paint.bynumber/(\d+[\.\d]+)'
+  name: 'Paint by Number'
+  version: '$1'
+
+# ZEPETO (https://apps.apple.com/app/id1350301428)
+- regex: 'zepeto_global/(\d+[\.\d]+)'
+  name: 'ZEPETO'
+  version: '$1'
+
+# Jungle Disk (https://www.jungledisk.com/)
+- regex: 'Jungle Disk Workgroup HTTP'
+  name: 'Jungle Disk'
+  version: ''
+
+# Nextcloud (https://play.google.com/store/apps/details?id=com.nextcloud.client)
+- regex: '(?:mirall|Nextcloud-android)/(\d+[\.\d]+)'
+  name: 'Nextcloud'
+  version: '$1'
+
+# GoNative (https://gonative.io/)
+- regex: 'GoNativeIOS/(\d+[\.\d]+)'
+  name: 'GoNative'
+  version: '$1'
+
+# Pandora (https://apps.apple.com/us/app/pandora-music-podcasts/id284035177)
+- regex: 'Pandora/(\d+[\.\d]+)'
+  name: 'Pandora'
+  version: '$1'
+
+# Blackboard (https://apps.apple.com/us/app/blackboard/id950424861)
+- regex: 'Blackboard/(\d+[\.\d]+)'
+  name: 'Blackboard'
+  version: '$1'
+
+- regex: 'Blackboard/unspecified'
+  name: 'Blackboard'
+  version: ''
+
+# QQMusic (https://apps.apple.com/cn/app/qq%E9%9F%B3%E4%B9%90-%E5%90%AC%E6%88%91%E6%83%B3%E5%90%AC/id414603431)
+- regex: 'QQMusic/(\d+[\.\d]+)'
+  name: 'QQMusic'
+  version: '$1'
+
+# eToro (https://www.etoro.com/)
+- regex: 'etoro-cordova-app'
+  name: 'eToro'
+  version: ''
+
+# Avid Link (https://www.avid.com/products/avid-link)
+- regex: 'Avid Link Desktop App/(\d+[\.\d]+)'
+  name: 'Avid Link'
+  version: '$1'
+
+# Netflix (https://www.netflix.com/)
+- regex: 'Netflix/(\d+[\.\d]+)'
+  name: 'Netflix'
+  version: '$1'
+
+# Google Tag Manager (https://www.google.com/)
+- regex: 'GoogleTagManager/(\d+[\.\d]+)'
+  name: 'Google Tag Manager'
+  version: '$1'
+
+# Adobe Synchronizer (https://www.adobe.com/)
+- regex: 'Adobe Synchronizer (\d+[\.\d]+)'
+  name: 'Adobe Synchronizer'
+  version: '$1'
+
+# BlueStacks (https://www.bluestacks.com/)
+- regex: 'BlueStacks(?: 5)?/(\d+[\.\d]+)'
+  name: 'BlueStacks'
+  version: '$1'
+
+# PowerShell (https://www.microsoft.com/en-us/)
+- regex: 'WindowsPowerShell/(\d+[\.\d]+)'
+  name: 'PowerShell'
+  version: '$1'
+
+# GlobalProtect (https://www.paloaltonetworks.com/products/globalprotect)
+- regex: 'PAN GlobalProtect/(\d+[\.\d]+)'
+  name: 'GlobalProtect'
+  version: '$1'
+
+# Theyub
+- regex: 'Theyub v(\d+[\.\d]+)'
+  name: 'Theyub'
+  version: '$1'
+
+# BBC News
+- regex: 'BBCNewsUKWatchApp/(\d+[\.\d]+)'
+  name: 'BBC News'
+  version: '$1'
+
+# TradingView (https://www.tradingview.com/)
+- regex: 'TradingView/(\d+[\.\d]+)'
+  name: 'TradingView'
+  version: '$1'
+
+# Instabridge (https://instabridge.com/en/)
+- regex: 'Instabridge'
+  name: 'Instabridge'
+  version: ''
+
+# Be Focused (https://apps.apple.com/app/id973130201)
+- regex: 'Be Focused/(\d+\.[\.\d]+)?'
+  name: 'Be Focused'
+  version: '$1'
+
+# Focus Matrix (https://apps.apple.com/app/id1087284172)
+- regex: 'Focus Matrix/(\d+\.[\.\d]+)?'
+  name: 'Focus Matrix'
+  version: '$1'
+
+# Focus Keeper (https://apps.apple.com/app/id867374917)
+- regex: 'Focuskeeper/(\d+\.[\.\d]+)?'
+  name: 'Focus Keeper'
+  version: '$1'
+
+# Quick Search TV (https://play.google.com/store/apps/details?id=com.aospstudio.tvsearch)
+- regex: 'Quick Search TV/(\d+\.[\.\d]+)'
+  name: 'Quick Search TV'
+  version: '$1'
+
+# Microsoft Store (https://www.microsoft.com/en-us/store/apps/windows)
+- regex: 'WindowsStoreSDK'
+  name: 'Microsoft Store'
+  version: ''
+
+# ASUS Updater (https://www.asus.com/)
+- regex: 'Asus Update/(\d+\.[\.\d]+)'
+  name: 'ASUS Updater'
+  version: '$1'
+
+# IMO.IM HD Version https://play.google.com/store/apps/details?id=com.imo.android.imoimhd
+- regex: 'imoAndroid/(20\d{2}.[\.\d]+)'
+  name: 'IMO HD Video Calls & Chat'
+  version: '$1'
+
+# IMO.IM https://play.google.com/store/apps/details?id=com.imo.android.imoim
+- regex: 'imoAndroid/(\d+\.[\.\d]+)'
+  name: 'IMO International Calls & Chat'
+  version: '$1'
+
+# Microsoft Bing Search (https://play.google.com/store/apps/details?id=com.microsoft.bing | https://apps.apple.com/us/app/microsoft-bing-search/id345323231)
+- regex: 'BingSapphire/(\d+\.[\.\d]+)'
+  name: 'Microsoft Bing Search'
+  version: '$1'
+
+# HiSearch
+- regex: '.+HiSearch/(\d+\.[\.\d]+)'
+  name: 'HiSearch'
+  version: '$1'
+
+# RDDocuments (https://apps.apple.com/app/id364901807)
+- regex: 'RDDocuments/(\d+\.[\.\d]+)'
+  name: 'RDDocuments'
+  version: '$1'
+
+# F-Secure SAFE (https://apps.apple.com/app/f-secure-safe/id572847748)
+- regex: 'FSCDCSafe (\d+\.[\.\d]+)'
+  name: 'F-Secure SAFE'
+  version: '$1'
+
+# Twitterrific (https://apps.apple.com/us/app/twitterrific-tweet-your-way/id580311103)
+- regex: 'Twitterrific'
+  name: 'Twitterrific'
+  version: ''
+
+# Uconnect LIVE (https://apps.apple.com/it/app/uconnect-live/id881830261?l=en)
+- regex: 'UconnectLive'
+  name: 'Uconnect LIVE'
+  version: ''
+
+# Wayback Machine (https://apps.apple.com/us/app/wayback-machine/id1472432422)
+- regex: 'Wayback%20Machine%20Extension'
+  name: 'Wayback Machine'
+  version: ''
+
+# Q-municate (https://www.qmunicateh10.com | https://apps.apple.com/gb/app/q-municate/id909698517)
+- regex: 'com.Nanoteq.QmunicateH10p.+/(\d+\.[\.\d]+) \('
+  name: 'Q-municate'
+  version: '$1'

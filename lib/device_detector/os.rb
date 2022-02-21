@@ -108,12 +108,14 @@ class DeviceDetector
       'OS2' => 'OS/2',
       'T64' => 'OSF1',
       'OBS' => 'OpenBSD',
+      'OWR' => 'OpenWrt',
       'ORD' => 'Ordissimo',
       'PCL' => 'PCLinuxOS',
       'PSP' => 'PlayStation Portable',
       'PS3' => 'PlayStation',
       'RHT' => 'Red Hat',
       'ROS' => 'RISC OS',
+      'ROK' => 'Roku OS',
       'RSO' => 'Rosa',
       'REM' => 'Remix OS',
       'REX' => 'REX',
@@ -145,7 +147,7 @@ class DeviceDetector
       'WRT' => 'Windows RT',
       'XBX' => 'Xbox',
       'XBT' => 'Xubuntu',
-      'YNS' => 'YunOs',
+      'YNS' => 'YunOS',
       'IOS' => 'iOS',
       'POS' => 'palmOS',
       'WOS' => 'webOS'
@@ -172,7 +174,7 @@ class DeviceDetector
         LIN ARL DEB KNO MIN UBT KBT XBT LBT FED
         RHT VLN MDR GNT SAB SLW SSE CES BTR SAF
         ORD TOS RSO DEE FRE MAG FEN CAI PCL HAS
-        LOS DVK
+        LOS DVK ROK OWR
       ],
       'Mac' => ['MAC'],
       'Mobile Gaming Console' => %w[PSP NDS XBX],

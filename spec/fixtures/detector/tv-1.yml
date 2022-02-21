@@ -361,23 +361,29 @@
   browser_family: Chrome
 -
   user_agent: Mozilla/5.0 (QSP; Roku; AP; 6.2.80.2752)
-  os: [ ]
+  os:
+    name: Roku OS
+    version: 6.2.80.2752
+    platform: ""
   client: null
   device:
     type: tv
     brand: Roku
     model: Digital Video Player
-  os_family: Unknown
+  os_family: GNU/Linux
   browser_family: Unknown
 -
   user_agent: Mozilla/5.0 (QSP; Roku; UI; 5.3.0.49)
-  os: [ ]
+  os:
+    name: Roku OS
+    version: 5.3.0.49
+    platform: ""
   client: null
   device:
     type: tv
     brand: Roku
     model: Digital Video Player
-  os_family: Unknown
+  os_family: GNU/Linux
   browser_family: Unknown
 -
   user_agent: Mozilla/5.0 (Linux; Android 7.1; Rombica Smart Box v006) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.101 Safari/537.36
@@ -2497,5 +2503,1663 @@
     type: tv
     brand: DEXP
     model: U43F8000Q
+  os_family: Android
+  browser_family: Opera
+-
+  user_agent: Roku/Pluto-9.40 (069.40E04200A) v5.3.4
+  os:
+    name: Roku OS
+    version: "9.40"
+    platform: ""
+  client: null
+  device:
+    type: tv
+    brand: Roku
+    model: Digital Video Player
+  os_family: GNU/Linux
+  browser_family: Unknown
+-
+  user_agent: RokuOS/9.4.0.4200, Ignition X/11.8.2021022414, Roku
+  os:
+    name: Roku OS
+    version: 9.4.0.4200
+    platform: ""
+  client: null
+  device:
+    type: tv
+    brand: Roku
+    model: Digital Video Player
+  os_family: GNU/Linux
+  browser_family: Unknown
+-
+  user_agent: Mozilla/5.0 (Linux; Android 7.1.2; Ugoos-AM3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.71 Safari/537.36
+  os:
+    name: Android
+    version: 7.1.2
+    platform: ""
+  client:
+    type: browser
+    name: Chrome
+    version: 94.0.4606.71
+    engine: Blink
+    engine_version: ""
+  device:
+    type: tv
+    brand: Ugoos
+    model: AM3
+  os_family: Android
+  browser_family: Chrome
+-
+  user_agent: Mozilla/5.0 (Linux; Android 10; LEAP-S1 Build/QTT5.200819.003; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/94.0.4606.85 Mobile Safari/537.36
+  os:
+    name: Android
+    version: "10"
+    platform: ""
+  client:
+    type: browser
+    name: Chrome Webview
+    version: 94.0.4606.85
+    engine: Blink
+    engine_version: ""
+  device:
+    type: tv
+    brand: STRONG
+    model: LEAP-S1
+  os_family: Android
+  browser_family: Chrome
+-
+  user_agent: 'Gibbon/2020.2.2.0/2020.2.2.0: Netflix/2020.2.2.0 (DEVTYPE=NFANDROID2-PRV-FIRETVSTICK2018; CERTVER=0)'
+  os:
+    name: Fire OS
+    version: "6"
+    platform: ""
+  client:
+    type: mobile app
+    name: Netflix
+    version: 2020.2.2.0
+  device:
+    type: tv
+    brand: Amazon
+    model: Fire TV Stick 4K
+  os_family: Android
+  browser_family: Unknown
+-
+  user_agent: Mozilla/5.0 (Linux; Android 7.0; Polar_P24L51T2CSM Build/NRD90M; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/51.0.2704.91 Safari/537.36
+  os:
+    name: Android
+    version: "7.0"
+    platform: ""
+  client:
+    type: browser
+    name: Chrome Webview
+    version: 51.0.2704.91
+    engine: Blink
+    engine_version: ""
+  device:
+    type: tv
+    brand: Polar
+    model: P24L51T2CSM
+  os_family: Android
+  browser_family: Chrome
+-
+  user_agent: Mozilla/5.0 (Linux; U; Android 7.1.2; en-US; MyGica HDR Smart TV Box Build/V002S901_20171221) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/40.0.2214.89 UCBrowser/11.4.8.1012 Mobile Safari/537.36
+  os:
+    name: Android
+    version: 7.1.2
+    platform: ""
+  client:
+    type: browser
+    name: UC Browser
+    version: 11.4.8.1012
+    engine: WebKit
+    engine_version: "537.36"
+  device:
+    type: tv
+    brand: MyGica
+    model: HDR Smart TV Box
+  os_family: Android
+  browser_family: Unknown
+-
+  user_agent: Mozilla/5.0 (Linux; Android 6.0.1; MyGica HDR Quad Core Box) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.50 Safari/537.36
+  os:
+    name: Android
+    version: 6.0.1
+    platform: ""
+  client:
+    type: browser
+    name: Chrome
+    version: 95.0.4638.50
+    engine: Blink
+    engine_version: ""
+  device:
+    type: tv
+    brand: MyGica
+    model: HDR Quad Core Box
+  os_family: Android
+  browser_family: Chrome
+-
+  user_agent: Mozilla/5.0 (Linux; Android 5.1.1; MyGica ATV1900 NO WV) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.136 Safari/537.36
+  os:
+    name: Android
+    version: 5.1.1
+    platform: ""
+  client:
+    type: browser
+    name: Chrome
+    version: 79.0.3945.136
+    engine: Blink
+    engine_version: ""
+  device:
+    type: tv
+    brand: MyGica
+    model: ATV1900
+  os_family: Android
+  browser_family: Chrome
+-
+  user_agent: Mozilla/5.0 (Linux; Android 5.1.1; MyGica ATV495 Pro 16G) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.120 Safari/537.36
+  os:
+    name: Android
+    version: 5.1.1
+    platform: ""
+  client:
+    type: browser
+    name: Chrome
+    version: 91.0.4472.120
+    engine: Blink
+    engine_version: ""
+  device:
+    type: tv
+    brand: MyGica
+    model: ATV495 Pro 16G
+  os_family: Android
+  browser_family: Chrome
+-
+  user_agent: Mozilla/5.0 (Linux; Android 6.0.1; MyGica Quad core Enjoy tv box) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.185 Safari/537.36
+  os:
+    name: Android
+    version: 6.0.1
+    platform: ""
+  client:
+    type: browser
+    name: Chrome
+    version: 86.0.4240.185
+    engine: Blink
+    engine_version: ""
+  device:
+    type: tv
+    brand: MyGica
+    model: Quad Core Enjoy TV Box
+  os_family: Android
+  browser_family: Chrome
+-
+  user_agent: Mozilla/5.0 (Linux; Android 6.0.1; MyGica ATV1960) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.101 Safari/537.36
+  os:
+    name: Android
+    version: 6.0.1
+    platform: ""
+  client:
+    type: browser
+    name: Chrome
+    version: 91.0.4472.101
+    engine: Blink
+    engine_version: ""
+  device:
+    type: tv
+    brand: MyGica
+    model: ATV1960
+  os_family: Android
+  browser_family: Chrome
+-
+  user_agent: Mozilla/5.0 (Linux; Android 10; Paladin TV Build/QP1A.191105.004; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/74.0.3729.186 Safari/537.36
+  os:
+    name: Android
+    version: "10"
+    platform: ""
+  client:
+    type: browser
+    name: Chrome Webview
+    version: 74.0.3729.186
+    engine: Blink
+    engine_version: ""
+  device:
+    type: tv
+    brand: Paladin
+    model: TV Box
+  os_family: Android
+  browser_family: Chrome
+-
+  user_agent: Mozilla/5.0 (Linux; Android 9; haierATVnippori Build/PTO3.200227.001; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/95.0.4638.74 Mobile Safari/537.36
+  os:
+    name: Android
+    version: "9"
+    platform: ""
+  client:
+    type: browser
+    name: Chrome Webview
+    version: 95.0.4638.74
+    engine: Blink
+    engine_version: ""
+  device:
+    type: tv
+    brand: Haier
+    model: 2K Android TV
+  os_family: Android
+  browser_family: Chrome
+-
+  user_agent: Mozilla/5.0 (Linux; Android 9; POLARLINE_32PL13TC-SM Build/PPR2.180905.006.A1; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/66.0.3359.158 Safari/537.36
+  os:
+    name: Android
+    version: "9"
+    platform: ""
+  client:
+    type: browser
+    name: Chrome Webview
+    version: 66.0.3359.158
+    engine: Blink
+    engine_version: ""
+  device:
+    type: tv
+    brand: PolarLine
+    model: 32PL13TC-SM
+  os_family: Android
+  browser_family: Chrome
+-
+  user_agent: Mozilla/5.0 (Linux; Android 9; Rombica Smart Box B1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.99 Safari/537.36
+  os:
+    name: Android
+    version: "9"
+    platform: ""
+  client:
+    type: browser
+    name: Chrome
+    version: 71.0.3578.99
+    engine: Blink
+    engine_version: ""
+  device:
+    type: tv
+    brand: Rombica
+    model: Smart Box B1
+  os_family: Android
+  browser_family: Chrome
+-
+  user_agent: Mozilla/5.0 (Linux; Android 9; NEXON X3+) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.152 Safari/537.36
+  os:
+    name: Android
+    version: "9"
+    platform: ""
+  client:
+    type: browser
+    name: Chrome
+    version: 88.0.4324.152
+    engine: Blink
+    engine_version: ""
+  device:
+    type: tv
+    brand: NEXON
+    model: X3+
+  os_family: Android
+  browser_family: Chrome
+-
+  user_agent: Mozilla/5.0 (Linux; Android 9; BeyondTV2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.20 Mobile Safari/537.36
+  os:
+    name: Android
+    version: "9"
+    platform: ""
+  client:
+    type: browser
+    name: Chrome Mobile
+    version: 97.0.4692.20
+    engine: Blink
+    engine_version: ""
+  device:
+    type: tv
+    brand: TCL
+    model: Beyond TV 2
+  os_family: Android
+  browser_family: Chrome
+-
+  user_agent: Dalvik/2.1.0 (Linux; U; Android 9; BeyondTV5 Build/PPR1.180610.011)
+  os:
+    name: Android
+    version: "9"
+    platform: ""
+  client:
+    type: browser
+    name: Android Browser
+    version: ""
+    engine: WebKit
+    engine_version: ""
+  device:
+    type: tv
+    brand: TCL
+    model: Beyond TV 5
+  os_family: Android
+  browser_family: Android Browser
+-
+  user_agent: Mozilla/5.0 (Linux; Android 9; NWX-40F171MSY Build/PPR1.180610.011; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/64.0.3282.123 Mobile Safari/537.36
+  os:
+    name: Android
+    version: "9"
+    platform: ""
+  client:
+    type: browser
+    name: Chrome Webview
+    version: 64.0.3282.123
+    engine: Blink
+    engine_version: ""
+  device:
+    type: tv
+    brand: Novex
+    model: NWX-40F171MSY
+  os_family: Android
+  browser_family: Chrome
+-
+  user_agent: Mozilla/5.0 (Linux; Android 9.0; BeyondTV Build/PPR1.180610.011) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.132 Mobile Safari/537.36
+  os:
+    name: Android
+    version: "9.0"
+    platform: ""
+  client:
+    type: browser
+    name: Chrome Mobile
+    version: 57.0.2987.132
+    engine: Blink
+    engine_version: ""
+  device:
+    type: tv
+    brand: TCL
+    model: Beyond TV
+  os_family: Android
+  browser_family: Chrome
+-
+  user_agent: Mozilla/5.0 (Linux; Android 9; GTKing PRO) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.85 Safari/537.36
+  os:
+    name: Android
+    version: "9"
+    platform: ""
+  client:
+    type: browser
+    name: Chrome
+    version: 94.0.4606.85
+    engine: Blink
+    engine_version: ""
+  device:
+    type: tv
+    brand: Beelink
+    model: GT King Pro
+  os_family: Android
+  browser_family: Chrome
+-
+  user_agent: Mozilla/5.0 (Linux; Android 7.1.2; Rombica Smart Box Q2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.45 Safari/537.36
+  os:
+    name: Android
+    version: 7.1.2
+    platform: ""
+  client:
+    type: browser
+    name: Chrome
+    version: 96.0.4664.45
+    engine: Blink
+    engine_version: ""
+  device:
+    type: tv
+    brand: Rombica
+    model: Smart Box Q2
+  os_family: Android
+  browser_family: Chrome
+-
+  user_agent: TV Bro/1.0 Mozilla/5.0 (Linux; Android 9; ATV R1 Build/PTT1.190521.001; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/87.0.4280.101 Safari/537.36
+  os:
+    name: Android
+    version: "9"
+    platform: ""
+  client:
+    type: browser
+    name: TV Bro
+    version: "1.0"
+    engine: WebKit
+    engine_version: "537.36"
+  device:
+    type: tv
+    brand: Kalley
+    model: Android TV R1
+  os_family: Android
+  browser_family: Chrome
+-
+  user_agent: Mozilla/5.0 (Linux; Android 7.1.2; TX3 Mini) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.45 Safari/537.36
+  os:
+    name: Android
+    version: 7.1.2
+    platform: ""
+  client:
+    type: browser
+    name: Chrome
+    version: 96.0.4664.45
+    engine: Blink
+    engine_version: ""
+  device:
+    type: tv
+    brand: Tanix
+    model: TX3 Mini
+  os_family: Android
+  browser_family: Chrome
+-
+  user_agent: Mozilla/5.0 (Linux; Android 9; Rombica TV Ultima) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.149 Safari/537.36
+  os:
+    name: Android
+    version: "9"
+    platform: ""
+  client:
+    type: browser
+    name: Chrome
+    version: 80.0.3987.149
+    engine: Blink
+    engine_version: ""
+  device:
+    type: tv
+    brand: Rombica
+    model: TV Ultima
+  os_family: Android
+  browser_family: Chrome
+-
+  user_agent: Mozilla/5.0 (Linux; Android 9; Polar_P40L33T2CSM Build/PPR1.180610.011; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/64.0.3282.123 Safari/537.36
+  os:
+    name: Android
+    version: "9"
+    platform: ""
+  client:
+    type: browser
+    name: Chrome Webview
+    version: 64.0.3282.123
+    engine: Blink
+    engine_version: ""
+  device:
+    type: tv
+    brand: Polar
+    model: P40L33T2CSM
+  os_family: Android
+  browser_family: Chrome
+-
+  user_agent: Mozilla/5.0 (Linux; arm; Android 7.1.2; Perfeo_PF_A4552) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.182 YaApp_Android/21.23.1/apad YaSearchBrowser/21.23.1/apad BroPP/1.0 SA/3 Mobile Safari/537.36
+  os:
+    name: Android
+    version: 7.1.2
+    platform: ARM
+  client:
+    type: browser
+    name: Yandex Browser
+    version: 21.23.1
+    engine: Blink
+    engine_version: ""
+  device:
+    type: tv
+    brand: Perfeo
+    model: RATE
+  os_family: Android
+  browser_family: Unknown
+-
+  user_agent: Mozilla/5.0 (Linux; Android 10; Rombica TV Fly) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4577.62 Safari/537.36
+  os:
+    name: Android
+    version: "10"
+    platform: ""
+  client:
+    type: browser
+    name: Chrome
+    version: 93.0.4577.62
+    engine: Blink
+    engine_version: ""
+  device:
+    type: tv
+    brand: Rombica
+    model: TV Fly
+  os_family: Android
+  browser_family: Chrome
+-
+  user_agent: Mozilla/5.0 (Linux; Android 9; 42FLEA73T2SM Build/PPR2.180905.006.A1; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/66.0.3359.158 Safari/537.36
+  os:
+    name: Android
+    version: "9"
+    platform: ""
+  client:
+    type: browser
+    name: Chrome Webview
+    version: 66.0.3359.158
+    engine: Blink
+    engine_version: ""
+  device:
+    type: tv
+    brand: Erisson
+    model: 42FLEA73T2SM
+  os_family: Android
+  browser_family: Chrome
+-
+  user_agent: Mozilla/5.0 (Linux; Android 9; 43U800BR Build/PTT1.190222.001; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/75.0.3770.143 Safari/537.36 Quick Search TV/21.09.23
+  os:
+    name: Android
+    version: "9"
+    platform: ""
+  client:
+    type: mobile app
+    name: Quick Search TV
+    version: 21.09.23
+  device:
+    type: tv
+    brand: Kivi
+    model: 43U800BR
+  os_family: Android
+  browser_family: Unknown
+-
+  user_agent: Mozilla/5.0 (Linux; Android 9; Smart Box D1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.159 Safari/537.36
+  os:
+    name: Android
+    version: "9"
+    platform: ""
+  client:
+    type: browser
+    name: Chrome
+    version: 92.0.4515.159
+    engine: Blink
+    engine_version: ""
+  device:
+    type: tv
+    brand: Rombica
+    model: Smart Box D1
+  os_family: Android
+  browser_family: Chrome
+-
+  user_agent: Mozilla/5.0 (Linux; Android 9; Smart Box F2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.99 Safari/537.36
+  os:
+    name: Android
+    version: "9"
+    platform: ""
+  client:
+    type: browser
+    name: Chrome
+    version: 71.0.3578.99
+    engine: Blink
+    engine_version: ""
+  device:
+    type: tv
+    brand: Rombica
+    model: Smart Box F2
+  os_family: Android
+  browser_family: Chrome
+-
+  user_agent: Mozilla/5.0 (Linux; Android 9; Smart Box X1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.73 Safari/537.36
+  os:
+    name: Android
+    version: "9"
+    platform: ""
+  client:
+    type: browser
+    name: Chrome
+    version: 77.0.3865.73
+    engine: Blink
+    engine_version: ""
+  device:
+    type: tv
+    brand: Rombica
+    model: Smart Box X1
+  os_family: Android
+  browser_family: Chrome
+-
+  user_agent: Mozilla/5.0 (Linux; Android 9; Smart Box Z1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.99 Safari/537.36
+  os:
+    name: Android
+    version: "9"
+    platform: ""
+  client:
+    type: browser
+    name: Chrome
+    version: 71.0.3578.99
+    engine: Blink
+    engine_version: ""
+  device:
+    type: tv
+    brand: Rombica
+    model: Smart Box Z1
+  os_family: Android
+  browser_family: Chrome
+-
+  user_agent: Mozilla/5.0 (Linux; Android 7.1.2; Smart Box H4 Build/SBox-H4; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/52.0.2743.100 Safari/537.36
+  os:
+    name: Android
+    version: 7.1.2
+    platform: ""
+  client:
+    type: browser
+    name: Chrome Webview
+    version: 52.0.2743.100
+    engine: Blink
+    engine_version: ""
+  device:
+    type: tv
+    brand: Rombica
+    model: Smart Box H4
+  os_family: Android
+  browser_family: Chrome
+-
+  user_agent: Mozilla/5.0 (Linux; Android 8.1.0; Smart Box G2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.105 Safari/537.36 OPR/63.3.3216.58675
+  os:
+    name: Android
+    version: 8.1.0
+    platform: ""
+  client:
+    type: browser
+    name: Opera
+    version: 63.3.3216.58675
+    engine: Blink
+    engine_version: ""
+  device:
+    type: tv
+    brand: Rombica
+    model: Smart Box G2
+  os_family: Android
+  browser_family: Opera
+-
+  user_agent: Mozilla/5.0 (Linux; Android 9.0; Smart Box A1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.85 Safari/537.36
+  os:
+    name: Android
+    version: "9.0"
+    platform: ""
+  client:
+    type: browser
+    name: Chrome
+    version: 94.0.4606.85
+    engine: Blink
+    engine_version: ""
+  device:
+    type: tv
+    brand: Rombica
+    model: Smart Box A1
+  os_family: Android
+  browser_family: Chrome
+-
+  user_agent: Mozilla/5.0 (Linux; Android 9.0; Smart Box A3 Build/SBox-A3; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/95.0.4638.74 Safari/537.36
+  os:
+    name: Android
+    version: "9.0"
+    platform: ""
+  client:
+    type: browser
+    name: Chrome Webview
+    version: 95.0.4638.74
+    engine: Blink
+    engine_version: ""
+  device:
+    type: tv
+    brand: Rombica
+    model: Smart Box A3
+  os_family: Android
+  browser_family: Chrome
+-
+  user_agent: Mozilla/5.0 (Linux; Android 9.0; Smart Box D2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.131 Safari/537.36
+  os:
+    name: Android
+    version: "9.0"
+    platform: ""
+  client:
+    type: browser
+    name: Chrome
+    version: 92.0.4515.131
+    engine: Blink
+    engine_version: ""
+  device:
+    type: tv
+    brand: Rombica
+    model: Smart Box D2
+  os_family: Android
+  browser_family: Chrome
+-
+  user_agent: Mozilla/5.0 (Linux; Android 7.0; TF-LED40S19T2S Build/NRD90M; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/51.0.2704.91 Safari/537.36
+  os:
+    name: Android
+    version: "7.0"
+    platform: ""
+  client:
+    type: browser
+    name: Chrome Webview
+    version: 51.0.2704.91
+    engine: Blink
+    engine_version: ""
+  device:
+    type: tv
+    brand: Telefunken
+    model: TF-LED40S19T2S
+  os_family: Android
+  browser_family: Chrome
+-
+  user_agent: Mozilla/5.0 (Linux; Android 9; STV-40LED25S Build/PPR2.180905.006.A1; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/66.0.3359.158 Safari/537.36
+  os:
+    name: Android
+    version: "9"
+    platform: ""
+  client:
+    type: browser
+    name: Chrome Webview
+    version: 66.0.3359.158
+    engine: Blink
+    engine_version: ""
+  device:
+    type: tv
+    brand: Shivaki
+    model: STV-40LED25S
+  os_family: Android
+  browser_family: Chrome
+-
+  user_agent: Mozilla/5.0 (Linux; Android 9; STV-40LED42S Build/PPR2.180905.006.A1; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/66.0.3359.158 Safari/537.36
+  os:
+    name: Android
+    version: "9"
+    platform: ""
+  client:
+    type: browser
+    name: Chrome Webview
+    version: 66.0.3359.158
+    engine: Blink
+    engine_version: ""
+  device:
+    type: tv
+    brand: Shivaki
+    model: STV-40LED42S
+  os_family: Android
+  browser_family: Chrome
+-
+  user_agent: Mozilla/5.0 (Linux; Android 9; STV_32LED42S Build/PPR1.180610.011; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/64.0.3282.123 Safari/537.36
+  os:
+    name: Android
+    version: "9"
+    platform: ""
+  client:
+    type: browser
+    name: Chrome Webview
+    version: 64.0.3282.123
+    engine: Blink
+    engine_version: ""
+  device:
+    type: tv
+    brand: Shivaki
+    model: STV-32LED42S
+  os_family: Android
+  browser_family: Chrome
+-
+  user_agent: Mozilla/5.0 (Linux; Android 9; SUN_LED32S11) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.90 Safari/537.36
+  os:
+    name: Android
+    version: "9"
+    platform: ""
+  client:
+    type: browser
+    name: Chrome
+    version: 78.0.3904.90
+    engine: Blink
+    engine_version: ""
+  device:
+    type: tv
+    brand: SUNWIND
+    model: SUN-LED32S11
+  os_family: Android
+  browser_family: Chrome
+-
+  user_agent: Mozilla/5.0 (Linux; Android 7.1.1; 40FR52BR Build/NMF26Q; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/52.0.2743.100 Safari/537.36
+  os:
+    name: Android
+    version: 7.1.1
+    platform: ""
+  client:
+    type: browser
+    name: Chrome Webview
+    version: 52.0.2743.100
+    engine: Blink
+    engine_version: ""
+  device:
+    type: tv
+    brand: Kivi
+    model: 40FR52BR
+  os_family: Android
+  browser_family: Chrome
+-
+  user_agent: Mozilla/5.0 (Linux; Android 9; H96 Max) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.104 Safari/537.36
+  os:
+    name: Android
+    version: "9"
+    platform: ""
+  client:
+    type: browser
+    name: Chrome
+    version: 96.0.4664.104
+    engine: Blink
+    engine_version: ""
+  device:
+    type: tv
+    brand: H96
+    model: Max
+  os_family: Android
+  browser_family: Chrome
+-
+  user_agent: Mozilla/5.0 (Linux; U; Android 9; ar-SA; H96 Max RK3318 Build/PQ2A.190205.003) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/78.0.3904.108 UCBrowser/13.4.0.1306 Mobile Safari/537.36
+  os:
+    name: Android
+    version: "9"
+    platform: ""
+  client:
+    type: browser
+    name: UC Browser
+    version: 13.4.0.1306
+    engine: WebKit
+    engine_version: "537.36"
+  device:
+    type: tv
+    brand: H96
+    model: Max RK3318
+  os_family: Android
+  browser_family: Unknown
+-
+  user_agent: Mozilla/5.0 (Linux; Android 10.0; QG9) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.104 Safari/537.36
+  os:
+    name: Android
+    version: "10.0"
+    platform: ""
+  client:
+    type: browser
+    name: Chrome
+    version: 96.0.4664.104
+    engine: Blink
+    engine_version: ""
+  device:
+    type: tv
+    brand: Andowl
+    model: QG9
+  os_family: Android
+  browser_family: Chrome
+-
+  user_agent: Mozilla/5.0 (Linux; Android 10.1; MDTV) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.74 Safari/537.36
+  os:
+    name: Android
+    version: "10.1"
+    platform: ""
+  client:
+    type: browser
+    name: Chrome
+    version: 95.0.4638.74
+    engine: Blink
+    engine_version: ""
+  device:
+    type: tv
+    brand: MDTV
+    model: ""
+  os_family: Android
+  browser_family: Chrome
+-
+  user_agent: Mozilla/5.0 (Linux; Android 10; FO-R15 Build/QP1A.191105.004) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.109 Safari/537.36
+  os:
+    name: Android
+    version: "10"
+    platform: ""
+  client:
+    type: browser
+    name: Chrome
+    version: 65.0.3325.109
+    engine: Blink
+    engine_version: ""
+  device:
+    type: tv
+    brand: ""
+    model: FO-R15
+  os_family: Android
+  browser_family: Chrome
+-
+  user_agent: Mozilla/5.0 (Linux; Android 10.0; TVBOX) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.104 Safari/537.36
+  os:
+    name: Android
+    version: "10.0"
+    platform: ""
+  client:
+    type: browser
+    name: Chrome
+    version: 96.0.4664.104
+    engine: Blink
+    engine_version: ""
+  device:
+    type: tv
+    brand: ""
+    model: ""
+  os_family: Android
+  browser_family: Chrome
+-
+  user_agent: Mozilla/5.0 (Linux; Android 10; MBOX) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.104 Safari/537.36
+  os:
+    name: Android
+    version: "10"
+    platform: ""
+  client:
+    type: browser
+    name: Chrome
+    version: 96.0.4664.104
+    engine: Blink
+    engine_version: ""
+  device:
+    type: tv
+    brand: MBOX
+    model: ""
+  os_family: Android
+  browser_family: Chrome
+-
+  user_agent: Mozilla/5.0 (Linux; Android 4.4.4; Smart TV Build/20200715_232528) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/33.0.0.0 Safari/537.36
+  os:
+    name: Android
+    version: 4.4.4
+    platform: ""
+  client:
+    type: browser
+    name: Chrome Webview
+    version: 33.0.0.0
+    engine: Blink
+    engine_version: ""
+  device:
+    type: tv
+    brand: ""
+    model: ""
+  os_family: Android
+  browser_family: Chrome
+-
+  user_agent: Mozilla/5.0 (Linux; Android 5.1.1; QBOX) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.74 Safari/537.36
+  os:
+    name: Android
+    version: 5.1.1
+    platform: ""
+  client:
+    type: browser
+    name: Chrome
+    version: 95.0.4638.74
+    engine: Blink
+    engine_version: ""
+  device:
+    type: tv
+    brand: Q-Box
+    model: ""
+  os_family: Android
+  browser_family: Chrome
+-
+  user_agent: Mozilla/5.0 (Linux; Android 5.1.1; M8S+ 4K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.74 Safari/537.36
+  os:
+    name: Android
+    version: 5.1.1
+    platform: ""
+  client:
+    type: browser
+    name: Chrome
+    version: 95.0.4638.74
+    engine: Blink
+    engine_version: ""
+  device:
+    type: tv
+    brand: ""
+    model: M8S+ 4K
+  os_family: Android
+  browser_family: Chrome
+-
+  user_agent: Mozilla/5.0 (Linux; Android 5.1; PCBox Build/LMY47I) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.89 Safari/537.36
+  os:
+    name: Android
+    version: "5.1"
+    platform: ""
+  client:
+    type: browser
+    name: Chrome
+    version: 50.0.2661.89
+    engine: Blink
+    engine_version: ""
+  device:
+    type: tv
+    brand: ""
+    model: ""
+  os_family: Android
+  browser_family: Chrome
+-
+  user_agent: Mozilla/5.0 (Linux; Android 6.0.1; rk3368-box) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4577.82 Safari/537.36
+  os:
+    name: Android
+    version: 6.0.1
+    platform: ""
+  client:
+    type: browser
+    name: Chrome
+    version: 93.0.4577.82
+    engine: Blink
+    engine_version: ""
+  device:
+    type: tv
+    brand: ""
+    model: ""
+  os_family: Android
+  browser_family: Chrome
+-
+  user_agent: Mozilla/5.0 (Linux; Android 9; HiSmart 4K ATV4 Build/PTT1.181214.002; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/81.0.4044.111 Mobile Safari/537.36
+  os:
+    name: Android
+    version: "9"
+    platform: ""
+  client:
+    type: browser
+    name: Chrome Webview
+    version: 81.0.4044.111
+    engine: Blink
+    engine_version: ""
+  device:
+    type: tv
+    brand: Hisense
+    model: HiSmart 4K ATV4
+  os_family: Android
+  browser_family: Chrome
+-
+  user_agent: Mozilla/5.0 (Linux; Android 7.1.1; Smart_Starwind Build/NMF26Q; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/52.0.2743.100 Safari/537.36 Quick Search TV/21.09.23
+  os:
+    name: Android
+    version: 7.1.1
+    platform: ""
+  client:
+    type: mobile app
+    name: Quick Search TV
+    version: 21.09.23
+  device:
+    type: tv
+    brand: Starwind
+    model: ""
+  os_family: Android
+  browser_family: Unknown
+-
+  user_agent: Mozilla/5.0 (Linux; Android 9; H10 PLAY) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.104 Safari/537.36
+  os:
+    name: Android
+    version: "9"
+    platform: ""
+  client:
+    type: browser
+    name: Chrome
+    version: 96.0.4664.104
+    engine: Blink
+    engine_version: ""
+  device:
+    type: tv
+    brand: ""
+    model: H10 Play
+  os_family: Android
+  browser_family: Chrome
+-
+  user_agent: Mozilla/5.0 (Linux; Android 9; Mecool-BB2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.85 Safari/537.36 OPR/66.1.3445.62185
+  os:
+    name: Android
+    version: "9"
+    platform: ""
+  client:
+    type: browser
+    name: Opera
+    version: 66.1.3445.62185
+    engine: Blink
+    engine_version: ""
+  device:
+    type: tv
+    brand: Mecool
+    model: BB2
+  os_family: Android
+  browser_family: Opera
+-
+  user_agent: Mozilla/5.0 (Linux; Android 9; STV_32LED30C Build/PPR1.180610.011; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/64.0.3282.123 Safari/537.36
+  os:
+    name: Android
+    version: "9"
+    platform: ""
+  client:
+    type: browser
+    name: Chrome Webview
+    version: 64.0.3282.123
+    engine: Blink
+    engine_version: ""
+  device:
+    type: tv
+    brand: Shivaki
+    model: STV-32LED30C
+  os_family: Android
+  browser_family: Chrome
+-
+  user_agent: Mozilla/5.0 (Linux; Android 9; TF-LED32S75T2S Build/PTT1.190222.001) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.91 Safari/537.36
+  os:
+    name: Android
+    version: "9"
+    platform: ""
+  client:
+    type: browser
+    name: Chrome
+    version: 69.0.3497.91
+    engine: Blink
+    engine_version: ""
+  device:
+    type: tv
+    brand: Telefunken
+    model: TF-LED32S75T2S
+  os_family: Android
+  browser_family: Chrome
+-
+  user_agent: Mozilla/5.0 (Linux; Android 9; X-MEDIA) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.74 Safari/537.36
+  os:
+    name: Android
+    version: "9"
+    platform: ""
+  client:
+    type: browser
+    name: Chrome
+    version: 95.0.4638.74
+    engine: Blink
+    engine_version: ""
+  device:
+    type: tv
+    brand: Divisat
+    model: X-Media
+  os_family: Android
+  browser_family: Chrome
+-
+  user_agent: Mozilla/5.0 (Linux; Android 9; DVS X3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.104 Safari/537.36
+  os:
+    name: Android
+    version: "9"
+    platform: ""
+  client:
+    type: browser
+    name: Chrome
+    version: 96.0.4664.104
+    engine: Blink
+    engine_version: ""
+  device:
+    type: tv
+    brand: Divisat
+    model: X3
+  os_family: Android
+  browser_family: Chrome
+-
+  user_agent: Mozilla/5.0 (Linux; Android 9; ARTLINE-KMX3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.92 Safari/537.36
+  os:
+    name: Android
+    version: "9"
+    platform: ""
+  client:
+    type: browser
+    name: Chrome
+    version: 96.0.4664.92
+    engine: Blink
+    engine_version: ""
+  device:
+    type: tv
+    brand: ArtLine
+    model: KMX3
+  os_family: Android
+  browser_family: Chrome
+-
+  user_agent: Mozilla/5.0 (Linux; Android 9; 50LEX-8173/UTS2C Build/PTT1.190222.001) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.91 Safari/537.36
+  os:
+    name: Android
+    version: "9"
+    platform: ""
+  client:
+    type: browser
+    name: Chrome
+    version: 69.0.3497.91
+    engine: Blink
+    engine_version: ""
+  device:
+    type: tv
+    brand: BBK
+    model: 50LEX-8173/UTS2C
+  os_family: Android
+  browser_family: Chrome
+-
+  user_agent: Mozilla/5.0 (Linux; Android 9; 55LEX-8161/UTS2C Build/PTT1.190222.001) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.91 Safari/537.36
+  os:
+    name: Android
+    version: "9"
+    platform: ""
+  client:
+    type: browser
+    name: Chrome
+    version: 69.0.3497.91
+    engine: Blink
+    engine_version: ""
+  device:
+    type: tv
+    brand: BBK
+    model: 55LEX-8161/UTS2C
+  os_family: Android
+  browser_family: Chrome
+-
+  user_agent: Mozilla/5.0 (Linux; Android 9; 55LEX-8162/UTS2C Build/PTT1.190222.001) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.91 Safari/537.36
+  os:
+    name: Android
+    version: "9"
+    platform: ""
+  client:
+    type: browser
+    name: Chrome
+    version: 69.0.3497.91
+    engine: Blink
+    engine_version: ""
+  device:
+    type: tv
+    brand: BBK
+    model: 55LEX-8162/UTS2C
+  os_family: Android
+  browser_family: Chrome
+-
+  user_agent: Mozilla/5.0 (Linux; Android 9; DM-LED43SR23 Build/PPR2.180905.006.A1; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/66.0.3359.158 Safari/537.36
+  os:
+    name: Android
+    version: "9"
+    platform: ""
+  client:
+    type: browser
+    name: Chrome Webview
+    version: 66.0.3359.158
+    engine: Blink
+    engine_version: ""
+  device:
+    type: tv
+    brand: Digma
+    model: DM-LED43SR23
+  os_family: Android
+  browser_family: Chrome
+-
+  user_agent: Mozilla/5.0 (Linux; Android 9; DM-LED24SR20 Build/PPR2.180905.006.A1; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/66.0.3359.158 Safari/537.36
+  os:
+    name: Android
+    version: "9"
+    platform: ""
+  client:
+    type: browser
+    name: Chrome Webview
+    version: 66.0.3359.158
+    engine: Blink
+    engine_version: ""
+  device:
+    type: tv
+    brand: Digma
+    model: DM-LED24SR20
+  os_family: Android
+  browser_family: Chrome
+-
+  user_agent: Mozilla/5.0 (Linux; Android 9; 55LEX-8174/UTS2C Build/PTT1.190222.001) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.91 Safari/537.36
+  os:
+    name: Android
+    version: "9"
+    platform: ""
+  client:
+    type: browser
+    name: Chrome
+    version: 69.0.3497.91
+    engine: Blink
+    engine_version: ""
+  device:
+    type: tv
+    brand: BBK
+    model: 55LEX-8174/UTS2C
+  os_family: Android
+  browser_family: Chrome
+-
+  user_agent: Mozilla/5.0 (Linux; Android 9; 28LH7011T Build/PPR2.180905.006.A1; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/66.0.3359.158 Safari/537.36
+  os:
+    name: Android
+    version: "9"
+    platform: ""
+  client:
+    type: browser
+    name: Chrome Webview
+    version: 66.0.3359.158
+    engine: Blink
+    engine_version: ""
+  device:
+    type: tv
+    brand: Asano
+    model: 28LH7011T 28.0"
+  os_family: Android
+  browser_family: Chrome
+-
+  user_agent: Mozilla/5.0 (Linux; Android 9; 32LH7010T Build/PPR2.180905.006.A1; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/66.0.3359.158 Safari/537.36
+  os:
+    name: Android
+    version: "9"
+    platform: ""
+  client:
+    type: browser
+    name: Chrome Webview
+    version: 66.0.3359.158
+    engine: Blink
+    engine_version: ""
+  device:
+    type: tv
+    brand: Asano
+    model: 32LH7010T 32.0"
+  os_family: Android
+  browser_family: Chrome
+-
+  user_agent: Mozilla/5.0 (Linux; Android 9; 32H520T Build/PPR1.180610.011; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/64.0.3282.123 Mobile Safari/537.36
+  os:
+    name: Android
+    version: "9"
+    platform: ""
+  client:
+    type: browser
+    name: Chrome Webview
+    version: 64.0.3282.123
+    engine: Blink
+    engine_version: ""
+  device:
+    type: tv
+    brand: Leff
+    model: 32H520T
+  os_family: Android
+  browser_family: Chrome
+-
+  user_agent: Mozilla/5.0 (Linux; Android 9; KIVI 4K Android TV Build/PTO6.200910.002; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/94.0.4606.85 Mobile Safari/537.36
+  os:
+    name: Android
+    version: "9"
+    platform: ""
+  client:
+    type: browser
+    name: Chrome Webview
+    version: 94.0.4606.85
+    engine: Blink
+    engine_version: ""
+  device:
+    type: tv
+    brand: Kivi
+    model: 4K Android TV
+  os_family: Android
+  browser_family: Chrome
+-
+  user_agent: TV Bro/1.0 Mozilla/5.0 (Linux; Android 9; KIVI 2K Android TV Build/PTO6.200622.002; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/93.0.4577.62 Safari/537.36
+  os:
+    name: Android
+    version: "9"
+    platform: ""
+  client:
+    type: browser
+    name: TV Bro
+    version: "1.0"
+    engine: WebKit
+    engine_version: "537.36"
+  device:
+    type: tv
+    brand: Kivi
+    model: 2K Android TV
+  os_family: Android
+  browser_family: Chrome
+-
+  user_agent: Mozilla/5.0 (Linux; Android 10; OT-DVB30) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.121 Mobile Safari/537.36
+  os:
+    name: Android
+    version: "10"
+    platform: ""
+  client:
+    type: browser
+    name: Chrome Mobile
+    version: 72.0.3626.121
+    engine: Blink
+    engine_version: ""
+  device:
+    type: tv
+    brand: Orbita
+    model: OT-DVB30
+  os_family: Android
+  browser_family: Chrome
+-
+  user_agent: TV Bro/1.0 Mozilla/5.0 (Linux; Android 7.1.2; NV711WAC Build/NMF26X; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/52.0.2743.100 Safari/537.36
+  os:
+    name: Android
+    version: 7.1.2
+    platform: ""
+  client:
+    type: browser
+    name: TV Bro
+    version: "1.0"
+    engine: WebKit
+    engine_version: "537.36"
+  device:
+    type: tv
+    brand: Eltex
+    model: NV-711-Wac
+  os_family: Android
+  browser_family: Chrome
+-
+  user_agent: TV Bro/1.0 Mozilla/5.0 (Linux; Android 9; haierATV Build/PTO3.201213.001; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/96.0.4664.45 Safari/537.36
+  os:
+    name: Android
+    version: "9"
+    platform: ""
+  client:
+    type: browser
+    name: TV Bro
+    version: "1.0"
+    engine: WebKit
+    engine_version: "537.36"
+  device:
+    type: tv
+    brand: Haier
+    model: Android TV
+  os_family: Android
+  browser_family: Chrome
+-
+  user_agent: Dalvik/2.1.0 (Linux; U; Android 8.0.0; Amigo7 Build/OPR6.170623.013)
+  os:
+    name: Android
+    version: 8.0.0
+    platform: ""
+  client:
+    type: browser
+    name: Android Browser
+    version: ""
+    engine: WebKit
+    engine_version: ""
+  device:
+    type: tv
+    brand: Amino
+    model: Amigo 7
+  os_family: Android
+  browser_family: Android Browser
+-
+  user_agent: Dalvik/2.1.0 (Linux; U; Android 9; Amigo7xYUF Build/PI)
+  os:
+    name: Android
+    version: "9"
+    platform: ""
+  client:
+    type: browser
+    name: Android Browser
+    version: ""
+    engine: WebKit
+    engine_version: ""
+  device:
+    type: tv
+    brand: Amino
+    model: Amigo 7x
+  os_family: Android
+  browser_family: Android Browser
+-
+  user_agent: Dalvik/2.1.0 (Linux; U; Android 9; Amigo7xSCB Build/PI)
+  os:
+    name: Android
+    version: "9"
+    platform: ""
+  client:
+    type: browser
+    name: Android Browser
+    version: ""
+    engine: WebKit
+    engine_version: ""
+  device:
+    type: tv
+    brand: Amino
+    model: Amigo 7x
+  os_family: Android
+  browser_family: Android Browser
+-
+  user_agent: Mozilla/5.0 (Linux; Android 7.0; S_TURBO_PRO) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.74 Safari/537.36
+  os:
+    name: Android
+    version: "7.0"
+    platform: ""
+  client:
+    type: browser
+    name: Chrome
+    version: 95.0.4638.74
+    engine: Blink
+    engine_version: ""
+  device:
+    type: tv
+    brand: Formuler
+    model: S Turbo Pro
+  os_family: Android
+  browser_family: Chrome
+-
+  user_agent: Mozilla/5.0 (Linux; Android 9; N5NOVA) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.74 Safari/537.36
+  os:
+    name: Android
+    version: "9"
+    platform: ""
+  client:
+    type: browser
+    name: Chrome
+    version: 95.0.4638.74
+    engine: Blink
+    engine_version: ""
+  device:
+    type: tv
+    brand: Magicsee
+    model: N5 Nova
+  os_family: Android
+  browser_family: Chrome
+-
+  user_agent: Mozilla/5.0 (Linux; Android 9; NEO U22-XJ) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.74 Safari/537.36
+  os:
+    name: Android
+    version: "9"
+    platform: ""
+  client:
+    type: browser
+    name: Chrome
+    version: 95.0.4638.74
+    engine: Blink
+    engine_version: ""
+  device:
+    type: tv
+    brand: Minix
+    model: NEO U22
+  os_family: Android
+  browser_family: Chrome
+-
+  user_agent: Mozilla/5.0 (Linux; Android 10; pendoo T95) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.74 Safari/537.36
+  os:
+    name: Android
+    version: "10"
+    platform: ""
+  client:
+    type: browser
+    name: Chrome
+    version: 95.0.4638.74
+    engine: Blink
+    engine_version: ""
+  device:
+    type: tv
+    brand: Pendoo
+    model: T95
+  os_family: Android
+  browser_family: Chrome
+-
+  user_agent: Mozilla/5.0 (Linux; Android 11; TranSpeed X4S) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.116 Safari/537.36
+  os:
+    name: Android
+    version: "11"
+    platform: ""
+  client:
+    type: browser
+    name: Chrome
+    version: 79.0.3945.116
+    engine: Blink
+    engine_version: ""
+  device:
+    type: tv
+    brand: Transpeed
+    model: X4S
+  os_family: Android
+  browser_family: Chrome
+-
+  user_agent: Mozilla/5.0 (Linux; arm; Android 9; 32LH7030S) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.85 YaApp_Android/21.111.1/apad YaSearchBrowser/21.111.1/apad BroPP/1.0 SA/3 Mobile Safari/537.36
+  os:
+    name: Android
+    version: "9"
+    platform: ARM
+  client:
+    type: browser
+    name: Yandex Browser
+    version: 21.111.1
+    engine: Blink
+    engine_version: ""
+  device:
+    type: tv
+    brand: Asano
+    model: 32LH7030S 32.0"
+  os_family: Android
+  browser_family: Unknown
+-
+  user_agent: Mozilla/5.0 (Linux; arm; Android 9; Horizont 32LE7011D) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.85 YaApp_Android/21.117.1/apad YaSearchBrowser/21.117.1/apad BroPP/1.0 SA/3 Mobile Safari/537.36
+  os:
+    name: Android
+    version: "9"
+    platform: ARM
+  client:
+    type: browser
+    name: Yandex Browser
+    version: 21.117.1
+    engine: Blink
+    engine_version: ""
+  device:
+    type: tv
+    brand: Horizont
+    model: 32LE7011D
+  os_family: Android
+  browser_family: Unknown
+-
+  user_agent: Mozilla/5.0 (Linux; Android 10; Vinabox_X20) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.74 Safari/537.36
+  os:
+    name: Android
+    version: "10"
+    platform: ""
+  client:
+    type: browser
+    name: Chrome
+    version: 95.0.4638.74
+    engine: Blink
+    engine_version: ""
+  device:
+    type: tv
+    brand: Vinabox
+    model: X20
+  os_family: Android
+  browser_family: Chrome
+-
+  user_agent: Mozilla/5.0 (Linux; Android 4.4.4; Rombica_Cinema4K_v01) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36 OPR/58.4.2878.56737
+  os:
+    name: Android
+    version: 4.4.4
+    platform: ""
+  client:
+    type: browser
+    name: Opera
+    version: 58.4.2878.56737
+    engine: Blink
+    engine_version: ""
+  device:
+    type: tv
+    brand: Rombica
+    model: Cinema 4K v01
   os_family: Android
   browser_family: Opera
