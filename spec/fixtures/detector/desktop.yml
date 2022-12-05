@@ -163,7 +163,7 @@
   user_agent: Mozilla/5.0 (X11; U; Linux i686 (x86_64); en-US; rv:1.9.0.6) Gecko/2009020414 CentOS/3.0.6-1.el5.centos Firefox/3.0.6
   os:
     name: CentOS
-    version: "3.0.6"
+    version: "5"
     platform: x64
   client:
     type: browser
@@ -181,7 +181,7 @@
   user_agent: Mozilla/5.0 (X11; U; Linux i686; en-US; rv:1.9.2.13) Gecko/20101209 CentOS/3.6-2.el5.centos Firefox/3.6.13
   os:
     name: CentOS
-    version: "3.6"
+    version: "5"
     platform: x86
   client:
     type: browser
@@ -199,14 +199,14 @@
   user_agent: Mozilla/5.0 (X11; CrOS x86_64 4731.101.0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/31.0.1650.67 Safari/537.36
   os:
     name: Chrome OS
-    version: "31.0.1650.67"
+    version: "4731.101.0"
     platform: x64
   client:
     type: browser
     name: Chrome
     version: "31.0.1650.67"
     engine: Blink
-    engine_version: ""
+    engine_version: "31.0.1650.67"
   device:
     type: desktop
     brand: ""
@@ -361,7 +361,7 @@
   user_agent: Mozilla/5.0 (X11; U; Linux i686; en-US; rv:1.9.0.8) Gecko Fedora/1.9.0.8-1.fc10 Kazehakase/0.5.6
   os:
     name: Fedora
-    version: "1.9.0.8"
+    version: "10"
     platform: x86
   client:
     type: browser
@@ -379,7 +379,7 @@
   user_agent: Mozilla/5.0 (X11; U; Linux i686; en-US; rv:1.8.1.8) Gecko/20071019 Fedora/2.0.0.8-1.fc7 Firefox/2.0.0.8
   os:
     name: Fedora
-    version: "2.0.0.8"
+    version: "7"
     platform: x86
   client:
     type: browser
@@ -397,7 +397,7 @@
   user_agent: Mozilla/5.0 (compatible; Konqueror/4.1; Linux 2.6.27.7-134.fc10.x86_64; X11; x86_64) KHTML/4.1.3 (like Gecko) Fedora/4.1.3-4.fc10
   os:
     name: Fedora
-    version: "4.1.3"
+    version: "10"
     platform: x64
   client:
     type: browser
@@ -415,7 +415,7 @@
   user_agent: Mozilla/5.0 (X11; Linux x86_64) KHTML/4.11.4 (like Gecko) Konqueror/4.11 Fedora/4.11.4-1.fc19
   os:
     name: Fedora
-    version: "4.11.4"
+    version: "19"
     platform: x64
   client:
     type: browser
@@ -1011,7 +1011,7 @@
   user_agent: Mozilla/5.0 (X11; U; Linux i686; en-US; rv:1.9.2.17) Gecko/20110429 Mandriva Linux/1.9.2.17-0.1mdv2010.0 (2010.0) Firefox/3.6.17
   os:
     name: Mandriva
-    version: "1.9.2.17"
+    version: "2010.0"
     platform: x86
   client:
     type: browser
@@ -1090,7 +1090,7 @@
     name: Chrome
     version: "28.0.1500.45"
     engine: Blink
-    engine_version: ""
+    engine_version: "28.0.1500.45"
   device:
     type: desktop
     brand: ""
@@ -1351,7 +1351,7 @@
     name: Chrome
     version: "31.0.1650.63"
     engine: Blink
-    engine_version: ""
+    engine_version: "31.0.1650.63"
   device:
     type: desktop
     brand: ""
@@ -1387,7 +1387,7 @@
     name: Chromium
     version: "31.0.1650.63"
     engine: Blink
-    engine_version: ""
+    engine_version: "31.0.1650.63"
   device:
     type: desktop
     brand: ""
@@ -1581,7 +1581,7 @@
     name: Amigo
     version: "28.0.1500.74"
     engine: Blink
-    engine_version: ""
+    engine_version: "28.0.1500.74"
   device:
     type: desktop
     brand: ""
@@ -1653,7 +1653,7 @@
     name: Chrome
     version: "31.0.1650.63"
     engine: Blink
-    engine_version: ""
+    engine_version: "31.0.1650.63"
   device:
     type: desktop
     brand: ""
@@ -1671,7 +1671,7 @@
     name: Chrome
     version: "69.0.3497.128"
     engine: Blink
-    engine_version: ""
+    engine_version: "69.0.3497.128"
   device:
     type: desktop
     brand: ""
@@ -2097,7 +2097,7 @@
     name: Opera
     version: "18.0.1284.49"
     engine: Blink
-    engine_version: ""
+    engine_version: "31.0.1650.57"
   device:
     type: desktop
     brand: ""
@@ -2115,7 +2115,7 @@
     name: Opera Neon
     version: "1.0.2459.0"
     engine: Blink
-    engine_version: ""
+    engine_version: "53.0.2785.21"
   device:
     type: desktop
     brand: ""
@@ -2133,7 +2133,7 @@
     name: Opera Next
     version: "20.0.1387.37"
     engine: Blink
-    engine_version: ""
+    engine_version: "33.0.1750.91"
   device:
     type: desktop
     brand: ""
@@ -2239,7 +2239,7 @@
     name: Whale Browser
     version: "0.7.33.5"
     engine: Blink
-    engine_version: ""
+    engine_version: "52.0.2743.116"
   device:
     type: desktop
     brand: ""
@@ -2365,7 +2365,7 @@
     name: Opera Next
     version: "15.0.1147.18"
     engine: Blink
-    engine_version: ""
+    engine_version: "28.0.1500.20"
   device:
     type: desktop
     brand: ""
@@ -2435,7 +2435,7 @@
     name: Yandex Browser
     version: "13.10.1500.9323"
     engine: Blink
-    engine_version: ""
+    engine_version: "28.0.1500.95"
   device:
     type: desktop
     brand: ""
@@ -2453,7 +2453,7 @@
     name: Chrome
     version: "32.0.1700.76"
     engine: Blink
-    engine_version: ""
+    engine_version: "32.0.1700.76"
   device:
     type: desktop
     brand: ""
@@ -2507,7 +2507,7 @@
     name: Opera
     version: "18.0.1284.68"
     engine: Blink
-    engine_version: ""
+    engine_version: "31.0.1650.63"
   device:
     type: desktop
     brand: ""
@@ -2525,7 +2525,7 @@
     name: Chrome
     version: "69.0.3497.128"
     engine: Blink
-    engine_version: ""
+    engine_version: "69.0.3497.128"
   device:
     type: desktop
     brand: ""
@@ -2543,7 +2543,7 @@
     name: Chrome
     version: "69.0.3497.128"
     engine: Blink
-    engine_version: ""
+    engine_version: "69.0.3497.128"
   device:
     type: desktop
     brand: ""
@@ -2561,7 +2561,7 @@
     name: Chrome
     version: "69.0.3497.128"
     engine: Blink
-    engine_version: ""
+    engine_version: "69.0.3497.128"
   device:
     type: desktop
     brand: ""
@@ -3108,7 +3108,7 @@
     name: Seznam Browser
     version: "3.0.0"
     engine: Blink
-    engine_version: ""
+    engine_version: "50.0.2661.102"
   device:
     type: desktop
     brand: ""
@@ -3731,7 +3731,7 @@
     name: Chrome
     version: "78.0.3904.62"
     engine: Blink
-    engine_version: ""
+    engine_version: "78.0.3904.62"
   device:
     type: desktop
     brand: Chuwi
@@ -3799,7 +3799,7 @@
     name: Chrome
     version: "40.0.2214.89"
     engine: Blink
-    engine_version: ""
+    engine_version: "40.0.2214.89"
   device:
     type: desktop
     brand: Acer
@@ -3975,7 +3975,7 @@
     name: Opera Next
     version: "20.0.1387.37"
     engine: Blink
-    engine_version: ""
+    engine_version: "33.0.1750.91"
   device:
     type: desktop
     brand: Apple
@@ -4047,7 +4047,7 @@
     name: Brave
     version: "0.7.9"
     engine: Blink
-    engine_version: ""
+    engine_version: "47.0.2526.73"
   device:
     type: desktop
     brand: Apple
@@ -4239,7 +4239,7 @@
     name: Chrome
     version: "31.0.1650.63"
     engine: Blink
-    engine_version: ""
+    engine_version: "31.0.1650.63"
   device:
     type: desktop
     brand: Apple
@@ -4311,7 +4311,7 @@
     name: Chrome
     version: "31.0.1650.63"
     engine: Blink
-    engine_version: ""
+    engine_version: "31.0.1650.63"
   device:
     type: desktop
     brand: Apple
@@ -6887,7 +6887,7 @@
     name: Aloha Browser
     version: "0.1.0"
     engine: Blink
-    engine_version: ""
+    engine_version: "85.0.4183.83"
   device:
     type: desktop
     brand: ""
@@ -7257,7 +7257,7 @@
     name: Chrome
     version: 88.0.4324.93
     engine: Blink
-    engine_version: ""
+    engine_version: "88.0.4324.93"
   device:
     type: desktop
     brand: BilimLand
@@ -7339,7 +7339,7 @@
     name: Chrome
     version: 86.0.4240.185
     engine: Blink
-    engine_version: ""
+    engine_version: "86.0.4240.185"
   device:
     type: desktop
     brand: HP
@@ -7537,7 +7537,7 @@
     name: Chrome
     version: 80.0.3987.162
     engine: Blink
-    engine_version: ""
+    engine_version: "80.0.3987.162"
   device:
     type: desktop
     brand: HP
@@ -7555,7 +7555,7 @@
     name: Chrome
     version: 72.0.3626.121
     engine: Blink
-    engine_version: ""
+    engine_version: "72.0.3626.121"
   device:
     type: desktop
     brand: Acer
@@ -7850,3 +7850,1016 @@
     model: iMac 27" (2012)
   os_family: Mac
   browser_family: Safari
+-
+  user_agent: 'Safari5525.28.3 CFNetwork/438.12 Darwin/9.7.0 (i386) (iMac7%2C1)'
+  os:
+    name: Mac
+    version: ""
+    platform: x86
+  client:
+    type: browser
+    name: Safari
+    version: ""
+    engine: WebKit
+    engine_version: ""
+  device:
+    type: desktop
+    brand: Apple
+    model: iMac (2007)
+  os_family: Mac
+  browser_family: Safari
+-
+  user_agent: 'Safari/8536.30.1 CFNetwork/596.5 Darwin/12.5.0 (x86_64) (iMac13%2C1)'
+  os:
+    name: Mac
+    version: 10.8.5
+    platform: x64
+  client:
+    type: browser
+    name: Safari
+    version: ""
+    engine: WebKit
+    engine_version: ""
+  device:
+    type: desktop
+    brand: Apple
+    model: iMac 21.5" (2012-2013)
+  os_family: Mac
+  browser_family: Safari
+-
+  user_agent: 'Safari/7537.78.2 CFNetwork/520.5.3 Darwin/11.4.2 (i386) (iMac6%2C1)'
+  os:
+    name: Mac
+    version: 10.7.5
+    platform: x86
+  client:
+    type: browser
+    name: Safari
+    version: ""
+    engine: WebKit
+    engine_version: ""
+  device:
+    type: desktop
+    brand: Apple
+    model: iMac 24" (2006)
+  os_family: Mac
+  browser_family: Safari
+-
+  user_agent: 'Reeder/1020.09.00 CFNetwork/596.3.3 Darwin/12.3.0 (x86_64) (iMac9%2C1)'
+  os:
+    name: Mac
+    version: 10.8.3
+    platform: x64
+  client:
+    type: feed reader
+    name: Reeder
+    version: 1020.09.00
+  device:
+    type: desktop
+    brand: Apple
+    model: iMac (2009)
+  os_family: Mac
+  browser_family: Unknown
+-
+  user_agent: 'Reeder/1020.09.00 CFNetwork/596.2.3 Darwin/12.2.0 (x86_64) (iMac12%2C2)'
+  os:
+    name: Mac
+    version: 10.8.2
+    platform: x64
+  client:
+    type: feed reader
+    name: Reeder
+    version: 1020.09.00
+  device:
+    type: desktop
+    brand: Apple
+    model: iMac 27" (2011)
+  os_family: Mac
+  browser_family: Unknown
+-
+  user_agent: 'Safari/7537.78.2 CFNetwork/520.5.3 Darwin/11.4.2 (i386) (MacBookAir1%2C1)'
+  os:
+    name: Mac
+    version: 10.7.5
+    platform: x86
+  client:
+    type: browser
+    name: Safari
+    version: ""
+    engine: WebKit
+    engine_version: ""
+  device:
+    type: desktop
+    brand: Apple
+    model: MacBook Air 13" (2008)
+  os_family: Mac
+  browser_family: Safari
+-
+  user_agent: 'Safari/6534.59.10 CFNetwork/454.12.4 Darwin/10.8.0 (i386) (iMac5%2C2)'
+  os:
+    name: Mac
+    version: 10.6.8
+    platform: x86
+  client:
+    type: browser
+    name: Safari
+    version: ""
+    engine: WebKit
+    engine_version: ""
+  device:
+    type: desktop
+    brand: Apple
+    model: iMac 17" (2006)
+  os_family: Mac
+  browser_family: Safari
+-
+  user_agent: 'Safari5533.22.3 CFNetwork/438.16 Darwin/9.8.0 (i386) (iMac8%2C1)'
+  os:
+    name: Mac
+    version: 10.5.8
+    platform: x86
+  client:
+    type: browser
+    name: Safari
+    version: ""
+    engine: WebKit
+    engine_version: ""
+  device:
+    type: desktop
+    brand: Apple
+    model: iMac (2008)
+  os_family: Mac
+  browser_family: Safari
+-
+  user_agent: 'Safari/6534.59.8 CFNetwork/454.12.4 Darwin/10.8.0 (i386) (Macmini1%2C1)'
+  os:
+    name: Mac
+    version: 10.6.8
+    platform: x86
+  client:
+    type: browser
+    name: Safari
+    version: ""
+    engine: WebKit
+    engine_version: ""
+  device:
+    type: desktop
+    brand: Apple
+    model: Mac Mini (2006)
+  os_family: Mac
+  browser_family: Safari
+-
+  user_agent: 'Safari/7534.53.10 CFNetwork/520.3.2 Darwin/11.3.0 (x86_64) (Macmini4%2C1)'
+  os:
+    name: Mac
+    version: 10.7.3
+    platform: x64
+  client:
+    type: browser
+    name: Safari
+    version: ""
+    engine: WebKit
+    engine_version: ""
+  device:
+    type: desktop
+    brand: Apple
+    model: Mac Mini (2010)
+  os_family: Mac
+  browser_family: Safari
+-
+  user_agent: 'Safari/7537.78.2 CFNetwork/520.5.3 Darwin/11.4.2 (x86_64) (Macmini5%2C2)'
+  os:
+    name: Mac
+    version: 10.7.5
+    platform: x64
+  client:
+    type: browser
+    name: Safari
+    version: ""
+    engine: WebKit
+    engine_version: ""
+  device:
+    type: desktop
+    brand: Apple
+    model: Mac Mini (2011)
+  os_family: Mac
+  browser_family: Safari
+-
+  user_agent: 'Safari/9537.75.14 CFNetwork/673.4 Darwin/13.1.0 (x86_64) (Macmini6%2C2)'
+  os:
+    name: Mac
+    version: 10.9.2
+    platform: x64
+  client:
+    type: browser
+    name: Safari
+    version: ""
+    engine: WebKit
+    engine_version: ""
+  device:
+    type: desktop
+    brand: Apple
+    model: Mac Mini (2012)
+  os_family: Mac
+  browser_family: Safari
+-
+  user_agent: 'Safari/7534.56.5 CFNetwork/520.4.3 Darwin/11.4.0 (i386) (MacBook2%2C1)'
+  os:
+    name: Mac
+    version: 10.7.4
+    platform: x86
+  client:
+    type: browser
+    name: Safari
+    version: ""
+    engine: WebKit
+    engine_version: ""
+  device:
+    type: desktop
+    brand: Apple
+    model: MacBook 13" (2006-2007)
+  os_family: Mac
+  browser_family: Safari
+-
+  user_agent: 'Safari/7537.78.2 CFNetwork/520.5.3 Darwin/11.4.2 (i386) (MacBook3%2C1)'
+  os:
+    name: Mac
+    version: 10.7.5
+    platform: x86
+  client:
+    type: browser
+    name: Safari
+    version: ""
+    engine: WebKit
+    engine_version: ""
+  device:
+    type: desktop
+    brand: Apple
+    model: MacBook 13" (2007)
+  os_family: Mac
+  browser_family: Safari
+-
+  user_agent: 'Safari/6534.59.10 CFNetwork/454.12.4 Darwin/10.8.0 (i386) (MacBook5%2C1)'
+  os:
+    name: Mac
+    version: 10.6.8
+    platform: x86
+  client:
+    type: browser
+    name: Safari
+    version: ""
+    engine: WebKit
+    engine_version: ""
+  device:
+    type: desktop
+    brand: Apple
+    model: MacBook 13" (2008)
+  os_family: Mac
+  browser_family: Safari
+-
+  user_agent: 'Safari/6533.19.4 CFNetwork/454.11.5 Darwin/10.6.0 (i386) (iMac5%2C1)'
+  os:
+    name: Mac
+    version: ""
+    platform: x86
+  client:
+    type: browser
+    name: Safari
+    version: ""
+    engine: WebKit
+    engine_version: ""
+  device:
+    type: desktop
+    brand: Apple
+    model: iMac (2006)
+  os_family: Mac
+  browser_family: Safari
+-
+  user_agent: 'Spector%20Pro/3731 CFNetwork/454.11.5 Darwin/10.6.0 (i386) (iMac11%2C3)'
+  os:
+    name: Mac
+    version: ""
+    platform: x86
+  client: null
+  device:
+    type: desktop
+    brand: Apple
+    model: iMac 27" (2010)
+  os_family: Mac
+  browser_family: Unknown
+-
+  user_agent: 'Safari/6533.18.5 CFNetwork/454.11.5 Darwin/10.5.0 (i386) (MacPro1%2C1)'
+  os:
+    name: Mac
+    version: ""
+    platform: x86
+  client:
+    type: browser
+    name: Safari
+    version: ""
+    engine: WebKit
+    engine_version: ""
+  device:
+    type: desktop
+    brand: Apple
+    model: Mac Pro (2006)
+  os_family: Mac
+  browser_family: Safari
+-
+  user_agent: 'Safari5533.19.4 CFNetwork/438.14 Darwin/9.8.0 (i386) (Macmini2%2C1)'
+  os:
+    name: Mac
+    version: 10.5.8
+    platform: x86
+  client:
+    type: browser
+    name: Safari
+    version: ""
+    engine: WebKit
+    engine_version: ""
+  device:
+    type: desktop
+    brand: Apple
+    model: Mac Mini (2007)
+  os_family: Mac
+  browser_family: Safari
+-
+  user_agent: 'Safari/6533.20.27 CFNetwork/454.11.5 Darwin/10.6.0 (i386) (Macmini3%2C1)'
+  os:
+    name: Mac
+    version: ""
+    platform: x86
+  client:
+    type: browser
+    name: Safari
+    version: ""
+    engine: WebKit
+    engine_version: ""
+  device:
+    type: desktop
+    brand: Apple
+    model: Mac Mini (2009)
+  os_family: Mac
+  browser_family: Safari
+-
+  user_agent: 'Safari/6531.21.10 CFNetwork/454.5 Darwin/10.2.0 (i386) (iMac11%2C1)'
+  os:
+    name: Mac
+    version: ""
+    platform: x86
+  client:
+    type: browser
+    name: Safari
+    version: ""
+    engine: WebKit
+    engine_version: ""
+  device:
+    type: desktop
+    brand: Apple
+    model: iMac 27" (2009)
+  os_family: Mac
+  browser_family: Safari
+-
+  user_agent: 'Safari/9537.86.7.8 CFNetwork/673.6 Darwin/13.4.0 (x86_64) (iMac14%2C3)'
+  os:
+    name: Mac
+    version: 10.9.5
+    platform: x64
+  client:
+    type: browser
+    name: Safari
+    version: ""
+    engine: WebKit
+    engine_version: ""
+  device:
+    type: desktop
+    brand: Apple
+    model: iMac 21.5" (2013)
+  os_family: Mac
+  browser_family: Safari
+-
+  user_agent: 'Safari5533.22.3 CFNetwork/438.16 Darwin/9.8.0 (Power%20Macintosh) (PowerBook6%2C7)'
+  os:
+    name: Mac
+    version: 10.5.8
+    platform: ""
+  client:
+    type: browser
+    name: Safari
+    version: ""
+    engine: WebKit
+    engine_version: ""
+  device:
+    type: desktop
+    brand: Apple
+    model: iBook G4 (2005)
+  os_family: Mac
+  browser_family: Safari
+-
+  user_agent: 'Safari5533.22.3 CFNetwork/438.16 Darwin/9.8.0 (Power%20Macintosh) (PowerMac12%2C1)'
+  os:
+    name: Mac
+    version: 10.5.8
+    platform: ""
+  client:
+    type: browser
+    name: Safari
+    version: ""
+    engine: WebKit
+    engine_version: ""
+  device:
+    type: desktop
+    brand: Apple
+    model: iMac G5 (2005)
+  os_family: Mac
+  browser_family: Safari
+-
+  user_agent: 'Safari5533.22.3 CFNetwork/438.16 Darwin/9.8.0 (i386) (MacBook1%2C1)'
+  os:
+    name: Mac
+    version: 10.5.8
+    platform: x86
+  client:
+    type: browser
+    name: Safari
+    version: ""
+    engine: WebKit
+    engine_version: ""
+  device:
+    type: desktop
+    brand: Apple
+    model: MacBook 13" (2006)
+  os_family: Mac
+  browser_family: Safari
+-
+  user_agent: 'Safari/7537.78.2 CFNetwork/520.5.3 Darwin/11.4.2 (x86_64) (MacBook5%2C2)'
+  os:
+    name: Mac
+    version: 10.7.5
+    platform: x64
+  client:
+    type: browser
+    name: Safari
+    version: ""
+    engine: WebKit
+    engine_version: ""
+  device:
+    type: desktop
+    brand: Apple
+    model: MacBook 13" (2009)
+  os_family: Mac
+  browser_family: Safari
+-
+  user_agent: 'Safari5530.18 CFNetwork/438.12 Darwin/9.7.0 (i386) (MacPro2%2C1)'
+  os:
+    name: Mac
+    version: ""
+    platform: x86
+  client:
+    type: browser
+    name: Safari
+    version: ""
+    engine: WebKit
+    engine_version: ""
+  device:
+    type: desktop
+    brand: Apple
+    model: Mac Pro (2007)
+  os_family: Mac
+  browser_family: Safari
+-
+  user_agent: 'Safari/9537.85.15.3 CFNetwork/673.5 Darwin/13.4.0 (x86_64) (MacPro3%2C1)'
+  os:
+    name: Mac
+    version: 10.9.5
+    platform: x64
+  client:
+    type: browser
+    name: Safari
+    version: ""
+    engine: WebKit
+    engine_version: ""
+  device:
+    type: desktop
+    brand: Apple
+    model: Mac Pro (2008)
+  os_family: Mac
+  browser_family: Safari
+-
+  user_agent: 'Safari/9537.85.17.9.1 CFNetwork/673.6 Darwin/13.4.0 (x86_64) (MacPro4%2C1)'
+  os:
+    name: Mac
+    version: 10.9.5
+    platform: x64
+  client:
+    type: browser
+    name: Safari
+    version: ""
+    engine: WebKit
+    engine_version: ""
+  device:
+    type: desktop
+    brand: Apple
+    model: Mac Pro (2009)
+  os_family: Mac
+  browser_family: Safari
+-
+  user_agent: 'Safari5533.18.5 CFNetwork/438.14 Darwin/9.8.0 (Power%20Macintosh) (PowerBook5%2C6)'
+  os:
+    name: Mac
+    version: 10.5.8
+    platform: ""
+  client:
+    type: browser
+    name: Safari
+    version: ""
+    engine: WebKit
+    engine_version: ""
+  device:
+    type: desktop
+    brand: Apple
+    model: PowerBook G4 (2005)
+  os_family: Mac
+  browser_family: Safari
+-
+  user_agent: 'Mail/1816 CFNetwork/673.0.3 Darwin/13.0.0 (x86_64) (Macmini5%2C1)'
+  os:
+    name: Mac
+    version: 10.9.0
+    platform: x64
+  client: null
+  device:
+    type: desktop
+    brand: Apple
+    model: Mac Mini (2011)
+  os_family: Mac
+  browser_family: Unknown
+-
+  user_agent: 'Mail/1874 CFNetwork/673.2.1 Darwin/13.1.0 (x86_64) (Macmini6%2C1)'
+  os:
+    name: Mac
+    version: 10.9.2
+    platform: x64
+  client: null
+  device:
+    type: desktop
+    brand: Apple
+    model: Mac Mini (2012)
+  os_family: Mac
+  browser_family: Unknown
+-
+  user_agent: 'OmniWeb622.19.3.0.170128 CFNetwork/438.16 Darwin/9.8.0 (Power%20Macintosh) (PowerMac7%2C3)'
+  os:
+    name: Mac
+    version: 10.5.8
+    platform: ""
+  client:
+    type: browser
+    name: OmniWeb
+    version: ""
+    engine: WebKit
+    engine_version: ""
+  device:
+    type: desktop
+    brand: Apple
+    model: Power Macintosh G5 (2004-2005)
+  os_family: Mac
+  browser_family: Unknown
+-
+  user_agent: 'Safari5525.27.1 CFNetwork/422.15.2 Darwin/9.6.0 (Power%20Macintosh) (PowerMac8%2C2)'
+  os:
+    name: Mac
+    version: ""
+    platform: ""
+  client:
+    type: browser
+    name: Safari
+    version: ""
+    engine: WebKit
+    engine_version: ""
+  device:
+    type: desktop
+    brand: Apple
+    model: iMac G5 (2005)
+  os_family: Mac
+  browser_family: Safari
+-
+  user_agent: 'Safari5525.28.3 CFNetwork/438.12 Darwin/9.7.0 (Power%20Macintosh) (PowerMac10%2C1)'
+  os:
+    name: Mac
+    version: ""
+    platform: ""
+  client:
+    type: browser
+    name: Safari
+    version: ""
+    engine: WebKit
+    engine_version: ""
+  device:
+    type: desktop
+    brand: Apple
+    model: Mac Mini G4 (2005)
+  os_family: Mac
+  browser_family: Safari
+-
+  user_agent: 'Speedy/138 CFNetwork/596.2.3 Darwin/12.2.0 (x86_64) (Macmini5%2C3)'
+  os:
+    name: Mac
+    version: 10.8.2
+    platform: x64
+  client: null
+  device:
+    type: desktop
+    brand: Apple
+    model: Mac Mini (2011)
+  os_family: Mac
+  browser_family: Unknown
+-
+  user_agent: 'com.apple.WebKit.Networking/9601.7.8 CFNetwork/673.6 Darwin/13.4.0 (x86_64) (iMac11%2C2)'
+  os:
+    name: Mac
+    version: 10.9.5
+    platform: x64
+  client: null
+  device:
+    type: desktop
+    brand: Apple
+    model: iMac 21.5" (2010)
+  os_family: Mac
+  browser_family: Unknown
+-
+  user_agent: Mozilla/5.0 (Linux; Android 5.1; Remix Mini) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.105 Safari/537.36
+  os:
+    name: Remix OS
+    version: "2"
+    platform: ""
+  client:
+    type: browser
+    name: Chrome
+    version: 89.0.4389.105
+    engine: Blink
+    engine_version: "89.0.4389.105"
+  device:
+    type: desktop
+    brand: Jedi
+    model: Remix Mini
+  os_family: Android
+  browser_family: Chrome
+-
+  user_agent: Chrome/Soldier_0.3.0 (Windows NT 10.0)
+  os:
+    name: Windows
+    version: "10"
+    platform: ""
+  client:
+    type: mobile app
+    name: Soldier
+    version: 0.3.0
+  device:
+    type: desktop
+    brand: ""
+    model: ""
+  os_family: Windows
+  browser_family: Unknown
+-
+  user_agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.41 Safari/537.36 TeslaBrowser/1.0
+  os:
+    name: Windows
+    version: "10"
+    platform: x64
+  client:
+    type: browser
+    name: Tesla Browser
+    version: 101.0.4951.41
+    engine: Blink
+    engine_version: 101.0.4951.41
+  device:
+    type: desktop
+    brand: ""
+    model: ""
+  os_family: Windows
+  browser_family: Chrome
+-
+  user_agent: Mozilla/5.0 (Linux; Android 5.1.1; Aquarius Pro, Std, Elt Series) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.143 Safari/537.36
+  os:
+    name: Android
+    version: 5.1.1
+    platform: ""
+  client:
+    type: browser
+    name: Chrome
+    version: 75.0.3770.143
+    engine: Blink
+    engine_version: 75.0.3770.143
+  device:
+    type: desktop
+    brand: Aquarius
+    model: Pro Std Elite Series
+  os_family: Android
+  browser_family: Chrome
+-
+  user_agent: Mozilla/5.0 (Linux; Android 9; NUC10i3FNH Build/PQ2A.190405.003; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/101.0.4951.61 Safari/537.36
+  os:
+    name: Android
+    version: "9"
+    platform: ""
+  client:
+    type: browser
+    name: Chrome Webview
+    version: 101.0.4951.61
+    engine: Blink
+    engine_version: 101.0.4951.61
+  device:
+    type: desktop
+    brand: Intel
+    model: NUC 10
+  os_family: Android
+  browser_family: Chrome
+-
+  user_agent: Mozilla/5.0 (Linux; Android 9; ZC-339) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36
+  os:
+    name: Android
+    version: "9"
+    platform: ""
+  client:
+    type: browser
+    name: Chrome
+    version: 103.0.0.0
+    engine: Blink
+    engine_version: 103.0.0.0
+  device:
+    type: desktop
+    brand: Wanmukang
+    model: ZC-339
+  os_family: Android
+  browser_family: Chrome
+-
+  user_agent: Mozilla/5.0 (Linux; Android 9; Samsung Chromebook 3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36
+  os:
+    name: Android
+    version: "9"
+    platform: ""
+  client:
+    type: browser
+    name: Chrome
+    version: 104.0.0.0
+    engine: Blink
+    engine_version: 104.0.0.0
+  device:
+    type: desktop
+    brand: Samsung
+    model: Chromebook 3
+  os_family: Android
+  browser_family: Chrome
+-
+  user_agent: Mozilla/5.0 (Linux; Android 7.1.1; Latitude 7390) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.5005.78 Safari/537.36
+  os:
+    name: Android
+    version: 7.1.1
+    platform: ""
+  client:
+    type: browser
+    name: Chrome
+    version: 102.0.5005.78
+    engine: Blink
+    engine_version: 102.0.5005.78
+  device:
+    type: desktop
+    brand: Dell
+    model: Latitude 7390
+  os_family: Android
+  browser_family: Chrome
+-
+  user_agent: Mozilla/5.0 (Linux; Android 9; SATELLITE L50-C) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.0.0 Safari/537.36
+  os:
+    name: Android
+    version: "9"
+    platform: ""
+  client:
+    type: browser
+    name: Chrome
+    version: 102.0.0.0
+    engine: Blink
+    engine_version: 102.0.0.0
+  device:
+    type: desktop
+    brand: Toshiba
+    model: Satellite L50C
+  os_family: Android
+  browser_family: Chrome
+-
+  user_agent: Mozilla/5.0 (Linux; Android 10; Samsung Chromebook Plus Build/R74-11895.118.0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4577.62 Mobile Safari/537.36
+  os:
+    name: Android
+    version: "10"
+    platform: ""
+  client:
+    type: browser
+    name: Chrome Mobile
+    version: 93.0.4577.62
+    engine: Blink
+    engine_version: 93.0.4577.62
+  device:
+    type: desktop
+    brand: Samsung
+    model: Chromebook Plus
+  os_family: Android
+  browser_family: Chrome
+-
+  user_agent: Mozilla/5.0 (Linux; Android 8.1.0; Satellite C655) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.127 Safari/537.36
+  os:
+    name: Android
+    version: 8.1.0
+    platform: ""
+  client:
+    type: browser
+    name: Chrome
+    version: 85.0.4183.127
+    engine: Blink
+    engine_version: 85.0.4183.127
+  device:
+    type: desktop
+    brand: Toshiba
+    model: Satellite C655
+  os_family: Android
+  browser_family: Chrome
+-
+  user_agent: Mozilla/5.0 (Linux; Android 8.1.0; Satellite A100) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.99 Safari/537.36
+  os:
+    name: Android
+    version: 8.1.0
+    platform: ""
+  client:
+    type: browser
+    name: Chrome
+    version: 71.0.3578.99
+    engine: Blink
+    engine_version: 71.0.3578.99
+  device:
+    type: desktop
+    brand: Toshiba
+    model: Satellite A100
+  os_family: Android
+  browser_family: Chrome
+-
+  user_agent: Mozilla/5.0 (Linux; Android 8.1.0; Satellite Pro L300) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.67 Safari/537.36
+  os:
+    name: Android
+    version: 8.1.0
+    platform: ""
+  client:
+    type: browser
+    name: Chrome
+    version: 75.0.3770.67
+    engine: Blink
+    engine_version: 75.0.3770.67
+  device:
+    type: desktop
+    brand: Toshiba
+    model: Satellite Pro L300
+  os_family: Android
+  browser_family: Chrome
+-
+  user_agent: Mozilla/5.0 (Linux; Android 7.1.1; Inspiron N4050 Build/NMF26O; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/52.0.2743.100 Safari/537.36
+  os:
+    name: Android
+    version: 7.1.1
+    platform: ""
+  client:
+    type: browser
+    name: Chrome Webview
+    version: 52.0.2743.100
+    engine: Blink
+    engine_version: 52.0.2743.100
+  device:
+    type: desktop
+    brand: Dell
+    model: Inspiron N4050
+  os_family: Android
+  browser_family: Chrome
+-
+  user_agent: Mozilla/5.0 (Linux; Android 7.1.1; Inspiron 5567) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.101 Safari/537.36
+  os:
+    name: Android
+    version: 7.1.1
+    platform: ""
+  client:
+    type: browser
+    name: Chrome
+    version: 75.0.3770.101
+    engine: Blink
+    engine_version: 75.0.3770.101
+  device:
+    type: desktop
+    brand: Dell
+    model: Inspiron 5567
+  os_family: Android
+  browser_family: Chrome
+-
+  user_agent: Mozilla/5.0 (Linux; Android 7.1.1; Inspiron 5545) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.136 Safari/537.36
+  os:
+    name: Android
+    version: 7.1.1
+    platform: ""
+  client:
+    type: browser
+    name: Chrome
+    version: 74.0.3729.136
+    engine: Blink
+    engine_version: 74.0.3729.136
+  device:
+    type: desktop
+    brand: Dell
+    model: Inspiron 5545
+  os_family: Android
+  browser_family: Chrome
+-
+  user_agent: Mozilla/5.0 (Linux; Android 7.1.1; Inspiron 5468) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.121 Safari/537.36
+  os:
+    name: Android
+    version: 7.1.1
+    platform: ""
+  client:
+    type: browser
+    name: Chrome
+    version: 72.0.3626.121
+    engine: Blink
+    engine_version: 72.0.3626.121
+  device:
+    type: desktop
+    brand: Dell
+    model: Inspiron 5468
+  os_family: Android
+  browser_family: Chrome
+-
+  user_agent: Mozilla/5.0 (Linux; Android 7.1.1; Inspiron 3558) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.101 Safari/537.36
+  os:
+    name: Android
+    version: 7.1.1
+    platform: ""
+  client:
+    type: browser
+    name: Chrome
+    version: 85.0.4183.101
+    engine: Blink
+    engine_version: 85.0.4183.101
+  device:
+    type: desktop
+    brand: Dell
+    model: Inspiron 3558
+  os_family: Android
+  browser_family: Chrome
+-
+  user_agent: Mozilla/5.0 (Linux; Android 7.1.1; Inspiron 3542) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.90 Safari/537.36
+  os:
+    name: Android
+    version: 7.1.1
+    platform: ""
+  client:
+    type: browser
+    name: Chrome
+    version: 73.0.3683.90
+    engine: Blink
+    engine_version: 73.0.3683.90
+  device:
+    type: desktop
+    brand: Dell
+    model: Inspiron 3542
+  os_family: Android
+  browser_family: Chrome
+-
+  user_agent: Mozilla/5.0 (Linux; Android 7.1.1; Inspiron 3521) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.143 Safari/537.36
+  os:
+    name: Android
+    version: 7.1.1
+    platform: ""
+  client:
+    type: browser
+    name: Chrome
+    version: 75.0.3770.143
+    engine: Blink
+    engine_version: 75.0.3770.143
+  device:
+    type: desktop
+    brand: Dell
+    model: Inspiron 3521
+  os_family: Android
+  browser_family: Chrome
+-
+  user_agent: Mozilla/5.0 (Linux; Android 7.1.1; F0CU0028RK) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.89 Safari/537.36
+  os:
+    name: Android
+    version: 7.1.1
+    platform: ""
+  client:
+    type: browser
+    name: Chrome
+    version: 75.0.3770.89
+    engine: Blink
+    engine_version: 75.0.3770.89
+  device:
+    type: desktop
+    brand: Lenovo
+    model: IdeaCentre 520S-23IKU
+  os_family: Android
+  browser_family: Chrome

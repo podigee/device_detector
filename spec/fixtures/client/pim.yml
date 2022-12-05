@@ -209,3 +209,27 @@
     type: pim
     name: Microsoft Outlook
     version: 16.16.18071205
+-
+  user_agent: 'Yahoo%20Mail/49268 CFNetwork/1121.2.2 Darwin/19.3.0'
+  client:
+    type: pim
+    name: Yahoo Mail
+    version: ""
+-
+  user_agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36 eM Client/8.2.1659.0
+  client:
+    type: pim
+    name: eM Client
+    version: 8.2.1659.0
+-
+  user_agent: NaverMailApp/2.2.2 (Android 10; SM-G986N)
+  client:
+    type: pim
+    name: NAVER Mail
+    version: 2.2.2
+-
+  user_agent: Microsoft Office/16.0 (Microsoft Outlook 16.0.12329; Pro), Mozilla/4.0 (compatible; ms-office; MSOffice 16)
+  client:
+    type: pim
+    name: Microsoft Outlook
+    version: 16.0.12329

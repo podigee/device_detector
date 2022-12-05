@@ -112,3 +112,18 @@
 - regex: 'Mailbird/(\d+\.[\.\d]+)/'
   name: 'Mailbird'
   version: '$1'
+
+# Yahoo Mail (https://apps.apple.com/us/app/yahoo-mail-organised-email/id577586159)
+- regex: 'Yahoo%20Mail'
+  name: 'Yahoo Mail'
+  version: ''
+
+# eM Client (https://emclient.com/)
+- regex: 'eM Client/(\d+\.[\.\d]+)'
+  name: 'eM Client'
+  version: '$1'
+
+# NAVER Mail (https://play.google.com/store/apps/details?id=com.nhn.android.mail)
+- regex: 'NaverMailApp/(\d+\.[\.\d]+)'
+  name: 'NAVER Mail'
+  version: '$1'

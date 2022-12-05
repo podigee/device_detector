@@ -16,7 +16,7 @@
   client:
     type: library
     name: Wget
-    version: ""
+    version:
 -
   user_agent: curl/7.21.0 (i386-redhat-linux-gnu) libcurl/7.21.0 NSS/3.12.10.0 zlib/1.2.5 libidn/1.18 libssh2/1.2.4
   client:
@@ -52,7 +52,7 @@
   client:
     type: library
     name: Python urllib
-    version: ""
+    version:
 -
   user_agent: Java/1.7.0_51
   client:
@@ -204,6 +204,12 @@
     name: Postman Desktop
     version: "7.9.1"
 -
+  user_agent: insomnia/2022.6.0
+  client:
+    type: library
+    name: Insomnia REST Client
+    version: "2022.6.0"
+-
   user_agent: Jakarta Commons-HttpClient/3.1
   client:
     type: library
@@ -238,7 +244,7 @@
   client:
     type: library
     name: uTorrent
-    version: ""
+    version:
 -
   user_agent: aria2/1.33.1
   client:
@@ -256,7 +262,7 @@
   client:
     type: library
     name: uclient-fetch
-    version: ""
+    version:
 -
   user_agent: cpprestsdk/2.8.0
   client:
@@ -275,3 +281,244 @@
     type: library
     name: Unirest for Java
     version: 3.1.00
+-
+  user_agent: GuzzleHttp/6.5.5 curl/7.58.0 PHP/7.4.21
+  client:
+    type: library
+    name: Guzzle (PHP HTTP Client)
+    version: 6.5.5
+-
+  user_agent: Mozilla/5.0 (X11; Linux x86_64; rv:21.0) Gecko/20100101 SlimerJS/0.7
+  client:
+    type: library
+    name: SlimerJS
+    version: "0.7"
+-
+  user_agent: Mozilla/5.0 (win32) AppleWebKit/537.36 (KHTML, like Gecko) jsdom/15.2.1
+  client:
+    type: library
+    name: jsdom
+    version: 15.2.1
+-
+  user_agent: Java-http-client/11.0.13
+  client:
+    type: library
+    name: Java HTTP Client
+    version: 11.0.13
+-
+  user_agent: WinHTTP
+  client:
+    type: library
+    name: Windows HTTP
+    version:
+-
+  user_agent: 'Mozilla/5.0 (compatible; U; AnyEvent-HTTP/2.21;  http://software.schmorp.de/pkg/AnyEvent)'
+  client:
+    type: library
+    name: AnyEvent HTTP
+    version: "2.21"
+-
+  user_agent: Apache-HttpClient/4.5.3 (Java/1.8.0_292)
+  client:
+    type: library
+    name: Apache HTTP Client
+    version: 4.5.3
+-
+  user_agent: Cpanel-HTTP-Client/1.0
+  client:
+    type: library
+    name: cPanel HTTP Client
+    version: "1.0"
+-
+  user_agent: PHP-Curl-Class/9.5.1 (+https://github.com/php-curl-class/php-curl-class)
+  client:
+    type: library
+    name: PHP cURL Class
+    version: 9.5.1
+-
+  user_agent: geoipupdate/4.9.0
+  client:
+    type: library
+    name: GeoIP Update
+    version: 4.9.0
+-
+  user_agent: fasthttp
+  client:
+    type: library
+    name: fasthttp
+    version:
+-
+  user_agent: python-httpx/0.19.0
+  client:
+    type: library
+    name: HTTPX
+    version: 0.19.0
+-
+  user_agent: Python-httplib2/0.18.1 (gzip)
+  client:
+    type: library
+    name: httplib2
+    version: 0.18.1
+-
+  user_agent: hackney/1.7.1
+  client:
+    type: library
+    name: hackney
+    version: 1.7.1
+-
+  user_agent: network-okhttp3/3.12.10.301
+  client:
+    type: library
+    name: OkHttp
+    version: 3.12.10.301
+-
+  user_agent: okhttp3-3.12.1.hw.191202
+  client:
+    type: library
+    name: OkHttp
+    version: 3.12.1
+-
+  user_agent: grpc-java-okhttp/1.32.2
+  client:
+    type: library
+    name: gRPC-Java
+    version: 1.32.2
+-
+  user_agent: go-resty/2.7.0 (https://github.com/go-resty/resty)
+  client:
+    type: library
+    name: Resty
+    version: 2.7.0
+-
+  user_agent: pa11y/6.1.1
+  client:
+    type: library
+    name: Pa11y
+    version: 6.1.1
+-
+  user_agent: ultimate_sitemap_parser/0.5
+  client:
+    type: library
+    name: Ultimate Sitemap Parser
+    version: "0.5"
+-
+  user_agent: Artifactory/7.21.5 72105900
+  client:
+    type: library
+    name: Artifactory
+    version: 7.21.5
+-
+  user_agent: containers/5.17.0 (github.com/containers/image)
+  client:
+    type: library
+    name: containers
+    version: 5.17.0
+-
+  user_agent: containerd/v1.4.13-k3s1
+  client:
+    type: library
+    name: Containerd
+    version: 1.4.13
+-
+  user_agent: containerd/1.5.11+azure-1
+  client:
+    type: library
+    name: Containerd
+    version: 1.5.11
+-
+  user_agent: cri-o/1.16.1 go/go1.12.17 os/linux arch/amd64
+  client:
+    type: library
+    name: cri-o
+    version: 1.16.1
+
+-
+  user_agent: go-containerregistry/v0.11.0
+  client:
+    type: library
+    name: go-container registry
+    version: 0.11.0
+-
+  user_agent: Buildah/1.23.1
+  client:
+    type: library
+    name: Buildah
+    version: 1.23.1
+-
+  user_agent: buildkit/0.10
+  client:
+    type: library
+    name: BuildKit
+    version: "0.10"
+-
+  user_agent: buildkit/v0.10
+  client:
+    type: library
+    name: BuildKit
+    version: "0.10"
+-
+  user_agent: BSRPC 0.9.1
+  client:
+    type: library
+    name: Open Build Service
+    version: 0.9.1
+-
+  user_agent: skopeo/1.7.0
+  client:
+    type: library
+    name: Skopeo
+    version: 1.7.0
+-
+  user_agent: Helm/3.9.2
+  client:
+    type: library
+    name: Helm
+    version: 3.9.2
+-
+  user_agent: harbor-registry-client
+  client:
+    type: library
+    name: Harbor registry client
+    version: ""
+-
+  user_agent: libcurl/7.79.1 r-curl/4.3.2 httr/1.4.3
+  client:
+    type: library
+    name: r-curl
+    version: 4.3.2
+-
+  user_agent: Dart/2.16 (dart:io)
+  client:
+    type: library
+    name: Dart
+    version: "2.16"
+-
+  user_agent: req/v3 (https://github.com/imroc/req)
+  client:
+    type: library
+    name: req
+    version: "3"
+-
+  user_agent: azure-data-factory/2.0
+  client:
+    type: library
+    name: Azure Data Factory
+    version: "2.0"
+-
+  user_agent: quic-go-HTTP/3
+  client:
+    type: library
+    name: quic-go
+    version: ""
+-
+  user_agent: 'Typhoeus - https://github.com/typhoeus/typhoeus'
+  client:
+    type: library
+    name: Typhoeus
+    version: ""
+-
+  user_agent: got (https://github.com/sindresorhus/got)
+  client:
+    type: library
+    name: got
+    version: ""

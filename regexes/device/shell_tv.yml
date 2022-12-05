@@ -110,8 +110,19 @@ Loview:
   device: 'tv'
   model: ''
 
+# Supra
+Supra:
+  regex: 'Supra Shell'
+  device: 'tv'
+  model: ''
+
 # Yuno (yuno.bbk.ru)
 Yuno:
   regex: 'Yuno Shell'
+  device: 'tv'
+  model: ''
+
+TCL:
+  regex: 'TCL/TCL-'
   device: 'tv'
   model: ''
