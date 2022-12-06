@@ -21,7 +21,8 @@ describe DeviceDetector do
 
       fixtures.each do |f|
         user_agent = f['user_agent']
-        detector = DeviceDetector.new(user_agent)
+        headers = f['headers']
+        detector = DeviceDetector.new(user_agent, headers)
         os = detector.send(:os)
 
         describe user_agent do
