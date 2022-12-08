@@ -1,7 +1,7 @@
 require_relative '../spec_helper'
 
 describe DeviceDetector::ModelExtractor do
-  subject { DeviceDetector::ModelExtractor.new(user_agent, regex_meta, nil) }
+  subject { DeviceDetector::ModelExtractor.new(user_agent, regex_meta) }
 
   alias_method :extractor, :subject
 

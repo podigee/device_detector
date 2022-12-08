@@ -1,7 +1,7 @@
 require_relative '../spec_helper'
 
 describe DeviceDetector::VersionExtractor do
-  subject { DeviceDetector::VersionExtractor.new(user_agent, regex_meta, nil) }
+  subject { DeviceDetector::VersionExtractor.new(user_agent, regex_meta) }
 
   alias_method :extractor, :subject
 
