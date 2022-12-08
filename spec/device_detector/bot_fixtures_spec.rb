@@ -11,15 +11,15 @@ describe DeviceDetector::Bot do
         user_agent = f['user_agent']
         headers = f['headers']
 
-        bot = DeviceDetector::Bot.new(user_agent, headers)
+        device = DeviceDetector.new(user_agent, headers)
 
         describe user_agent do
           it 'should be a bot' do
-            assert bot.bot?, "isn't a bot"
+            assert device.bot?, "isn't a bot"
           end
 
           it 'should have the expected name' do
-            assert_equal f['bot']['name'], bot.name, 'failed bot name detection'
+            assert_equal f['bot']['name'], device.name, 'failed bot name detection'
           end
         end
       end

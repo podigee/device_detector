@@ -39,32 +39,33 @@ describe DeviceDetector do
               os_family = str_or_nil(f['os_family'])
               if os_family != 'Unknown'
                 if os_family.nil?
-                  assert_nil os.family, 'failed os family detection'
+                  assert_nil detector.os_family, 'failed os family detection'
                 else
-                  assert_equal os_family, os.family, 'failed os family detection'
+                  assert_equal os_family, detector.os_family, 'failed os family detection'
                 end
 
                 name = str_or_nil(f['os']['name'])
                 if name.nil?
-                  assert_nil os.name, 'failed os name detection'
+                  assert_nil detector.os_name, 'failed os name detection'
                 else
-                  assert_equal name, os.name, 'failed os name detection'
+                  assert_equal name, detector.os_name, 'failed os name detection'
                 end
 
                 short_name = str_or_nil(f['os']['short_name'])
                 if short_name.nil? && f['os']['name']
                   short_name = DeviceDetector::OS::OPERATING_SYSTEMS[f['os']['name']]
                 end
+                detector_short_name = detector.client_hint&.os_short_name || os.short_name
 
                 unless short_name.nil?
-                  assert_equal short_name, os.short_name, 'failed os short name detection'
+                  assert_equal short_name, detector_short_name, 'failed os short name detection'
                 end
 
                 os_version = str_or_nil(f['os']['version'])
                 if os_version.nil?
-                  assert_nil os.full_version, 'failed os version detection'
+                  assert_nil detector.os_full_version, 'failed os version detection'
                 else
-                  assert_equal os_version, os.full_version, 'failed os version detection'
+                  assert_equal os_version, detector.os_full_version, 'failed os version detection'
                 end
               end
               if f['device']
