@@ -14,36 +14,46 @@ require 'device_detector/client'
 require 'device_detector/device'
 require 'device_detector/os'
 require 'device_detector/browser'
+require 'device_detector/client_hint'
 
 class DeviceDetector
-  attr_reader :user_agent
+  attr_reader :client_hint, :user_agent
 
-  def initialize(user_agent)
+  def initialize(user_agent, headers = nil)
+    @client_hint = ClientHint.new(headers)
     @user_agent = user_agent
   end
 
   def name
-    client.name
+    return client.name if mobile_fix?
+
+    client_hint.browser_name || client.name
   end
 
   def full_version
-    client.full_version
+    client_hint.platform_version || client.full_version
   end
 
   def os_family
-    os.family
+    return 'GNU/Linux' if linux_fix?
+
+    client_hint.os_family || os.family || client_hint.platform
   end
 
   def os_name
-    os.name
+    return 'GNU/Linux' if linux_fix?
+
+    client_hint.os_name || os.name || client_hint.platform
   end
 
   def os_full_version
-    os.full_version
+    return if skip_os_version?
+
+    client_hint.os_version || os.full_version
   end
 
   def device_name
-    device.name
+    device.name || client_hint.model || fix_for_x_music
   end
 
   def device_brand
@@ -62,7 +72,7 @@ class DeviceDetector
     # Note: We do not check for browser (family) here, as there might be mobile apps using Chrome,
     # that won't have a detected browser, but can still be detected. So we check the useragent for
     # Chrome instead.
-    if t.nil? && os.family == 'Android' && user_agent =~ build_regex('Chrome\/[\.0-9]*')
+    if t.nil? && os_family == 'Android' && user_agent =~ build_regex('Chrome\/[\.0-9]*')
       if user_agent =~ build_regex('(?:Mobile|eliboM) Safari\/')
         t = 'smartphone'
       elsif user_agent =~ build_regex('(?!Mobile )Safari\/')
@@ -97,7 +107,7 @@ class DeviceDetector
     end
 
     # All detected feature phones running android are more likely a smartphone
-    t = 'smartphone' if t == 'feature phone' && os.family == 'Android'
+    t = 'smartphone' if t == 'feature phone' && os_family == 'Android'
 
     # All unknown devices under running Java ME are more likely a features phones
     t = 'feature phone' if t.nil? && os_name == 'Java ME'
@@ -111,19 +121,25 @@ class DeviceDetector
     # assume that all Windows 8 touch devices are tablets.
     if t.nil? && touch_enabled? &&
        (os_name == 'Windows RT' ||
-        (os_name == 'Windows' && os.full_version &&
-         Gem::Version.new(os.full_version) >= VersionExtractor::MAJOR_VERSION_8))
+        (os_name == 'Windows' && os_full_version &&
+         Gem::Version.new(os_full_version) >= VersionExtractor::MAJOR_VERSION_8))
       t = 'tablet'
     end
 
     # All devices running Opera TV Store are assumed to be a tv
     t = 'tv' if opera_tv_store?
 
+    # All devices that contain Andr0id in string are assumed to be a tv
+    t = 'tv' if user_agent =~ build_regex('Andr0id|Android TV')
+
     # All devices running Tizen TV or SmartTV are assumed to be a tv
     t = 'tv' if t.nil? && tizen_samsung_tv?
 
     # Devices running Kylo or Espital TV Browsers are assumed to be a TV
-    t = 'tv' if t.nil? && ['Kylo', 'Espial TV Browser'].include?(client.name)
+    t = 'tv' if t.nil? && ['Kylo', 'Espial TV Browser'].include?(name)
+
+    # All devices containing TV fragment are assumed to be a tv
+    t = 'tv' if t.nil? && user_agent =~ build_regex('\(TV;')
 
     has_desktop = t != 'desktop' && desktop_string? && desktop_fragment?
     t = 'desktop' if has_desktop
@@ -190,12 +206,31 @@ class DeviceDetector
     @os ||= OS.new(user_agent)
   end
 
+  # https://github.com/matomo-org/device-detector/blob/be1c9ef486c247dc4886668da5ed0b1c49d90ba8/Parser/Client/Browser.php#L772
+  # Fix mobile browser names e.g. Chrome => Chrome Mobile
+  def mobile_fix?
+    client.name == "#{client_hint.browser_name} Mobile"
+  end
+
+  def linux_fix?
+    client_hint.platform == 'Linux' && os.name == 'Android' && client_hint.mobile == '?0'
+  end
+
+  # Related to issue mentionned in device.rb#1562
+  def fix_for_x_music
+    user_agent.include?('X-music Ⅲ') ? 'X-Music III' : nil
+  end
+
+  def skip_os_version?
+    !client_hint.os_family.nil? && client_hint.os_family != os.family
+  end
+
   def android_tablet_fragment?
-    user_agent =~ build_regex('Android(?: \d.\d(?:.\d)?)?; Tablet;')
+    user_agent =~ build_regex('Android( [\.0-9]+)?; Tablet;')
   end
 
   def android_mobile_fragment?
-    user_agent =~ build_regex('Android(?: \d.\d(?:.\d)?)?; Mobile;')
+    user_agent =~ build_regex('Android( [\.0-9]+)?; Mobile;')
   end
 
   def desktop_fragment?
