@@ -36,8 +36,10 @@ FiiO:
   regex: 'FiiO'
   device: 'portable media player'
   models:
-    - regex: 'M15'
-      model: 'M15'
+    - regex: 'M11 Plus LTD'
+      model: 'M11 Plus LTD'
+    - regex: 'M(1[57])'
+      model: 'M$1'
 
 Microsoft:
   regex: 'Microsoft ZuneHD'
@@ -84,3 +86,17 @@ SONOS:
       model: 'Play:5'
     - regex: 'Sonos;One;'
       model: 'One'
+
+# Shanling
+Shanling:
+  regex: 'Shanling M6'
+  device: 'portable media player'
+  models:
+    - regex: 'Shanling (M6\(21\))'
+      model: '$1'
+
+# Sylvania
+Sylvania:
+  regex: '(SLTDVD102[34])'
+  device: 'portable media player'
+  model: '$1'
