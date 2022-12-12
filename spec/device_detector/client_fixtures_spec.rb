@@ -9,7 +9,7 @@ describe DeviceDetector::Client do
       fixtures.each do |f|
         user_agent = f['user_agent']
         headers = f['headers']
-        client = DeviceDetector::Client.new(user_agent, headers)
+        client = DeviceDetector.new(user_agent, headers)
 
         describe user_agent do
           it 'should be known' do
