@@ -59,6 +59,27 @@ You can make a check to ensure the client has been detected:
 ```ruby
 client.known? # => will return false if user_agent is unknown
 ```
+### Using Client hint
+
+Optionally `DeviceDetector` is using the content of `Sec-CH-UA` stored in the headers to improve the accuracy of the detection :
+
+```ruby
+user_agent = 'Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/30.0.1599.17 Safari/537.36'
+headers = {"Sec-CH-UA"=>'"Chromium";v="106", "Brave";v="106", "Not;A=Brand";v="99"'}
+client = DeviceDetector.new(user_agent, headers)
+
+client.name # => 'Brave'
+```
+
+Same goes with `http-x-requested-with`/`x-requested-with` :
+
+``` ruby
+user_agent = 'Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/30.0.1599.17 Safari/537.36'
+headers = {"http-x-requested-with"=>"org.mozilla.focus"}
+client = DeviceDetector.new(user_agent, headers)
+
+client.name # => 'Firefox Focus'
+```
 
 ### Memory cache
 
