@@ -1,5 +1,10 @@
 # Change Log
 
+## [1.1.0]
+- Updated detection rules from upstream on 2022-12-09
+- Add support for client hints in header
+- Changed the minimum required Ruby version (>= 2.7.5)
+
 ## [1.0.7]
 - Updated detection rules from upstream on 2022-02-17
 - Fixes Ruby warnings when compiling RegExes ([#89](https://github.com/podigee/device_detector/issues/89), [#91](https://github.com/podigee/device_detector/issues/91))
