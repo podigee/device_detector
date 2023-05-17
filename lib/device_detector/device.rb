@@ -1558,7 +1558,7 @@ class DeviceDetector
     # @return [MatchData, nil] MatchData if string matches any regexp, nil otherwise
     def regex_find(user_agent, regex_list)
       regex_list.find { |r| user_agent =~ r[:regex] }
-    rescue RegexpError
+    rescue RegexpError, Encoding::CompatibilityError
       # Bug in ruby regex and special characters, retry with clean
       # https://bugs.ruby-lang.org/issues/13671
       user_agent = user_agent.encode(
