@@ -35,6 +35,16 @@ describe DeviceDetector::Device do
     end
   end
 
+  describe 'when User-Agent contains an unsupported char' do
+    let(:user_agent) { 'Mon User-Agent personnalisé' }
+
+    it 'does not raise an error' do
+      value(device.name).must_be_nil
+      value(device.type).must_be_nil
+    end
+  end
+
+
   describe '#type' do
     describe 'when models are nested' do
       let(:user_agent) do
