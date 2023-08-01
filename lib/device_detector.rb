@@ -218,7 +218,7 @@ class DeviceDetector
 
   # Related to issue mentionned in device.rb#1562
   def fix_for_x_music
-    user_agent.include?('X-music Ⅲ') ? 'X-Music III' : nil
+    user_agent&.include?('X-music Ⅲ') ? 'X-Music III' : nil
   end
 
   def skip_os_version?
