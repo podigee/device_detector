@@ -14,15 +14,17 @@ class DeviceDetector
       return if headers.nil?
 
       @headers = headers
+      @full_version = headers['Sec-CH-UA-Full-Version']
       @browser_list = extract_browser_list
       @app_name = extract_app_name
       @platform = headers['Sec-CH-UA-Platform']
-      @platform_version = headers['Sec-CH-UA-Platform-Version']
+      @platform_version = extract_platform_version
       @mobile = headers['Sec-CH-UA-Mobile']
       @model = extract_model
     end
 
-    attr_reader :app_name, :browser_list, :headers, :mobile, :model, :platform, :platform_version
+    attr_reader :app_name, :browser_list, :full_version, :headers, :mobile, :model, :platform,
+                :platform_version
 
     def browser_name
       return 'Iridium' if is_iridium?
@@ -56,6 +58,13 @@ class DeviceDetector
     end
 
     private
+
+    def extract_platform_version
+      return if  headers['Sec-CH-UA-Platform-Version'].nil?
+      return if  headers['Sec-CH-UA-Platform-Version'] == ''
+
+      headers['Sec-CH-UA-Platform-Version']
+    end
 
     # https://github.com/matomo-org/device-detector/blob/28211c6f411528abf41304e07b886fdf322a49b7/Parser/OperatingSystem.php#L330
     def android_app?
@@ -92,7 +101,7 @@ class DeviceDetector
       return if browser_list.nil?
 
       !browser_list.find do |browser|
-        browser.name == 'Chromium' && %w[2022.04 2022].include?(browser.version)
+        browser.name == 'Chromium' && %w[2021.12 2022.04 2022].include?(browser.version)
       end.nil?
     end
 
@@ -135,12 +144,18 @@ class DeviceDetector
       return if headers['Sec-CH-UA'].nil?
 
       headers['Sec-CH-UA'].split(', ').map do |component|
-        component_and_version = component.gsub('"', '').split("\;v=")
-        name = name_from_known_browsers(component_and_version.first)
-        next if name.nil?
+        name_and_version = extract_browser_name_and_version(component)
+        next if name_and_version[:name].nil?
 
-        HintBrowser.new(name, component_and_version.last)
+        HintBrowser.new(name_and_version[:name], name_and_version[:version])
       end.compact
+    end
+
+    def extract_browser_name_and_version(component)
+      component_and_version = component.gsub('"', '').split("\;v=")
+      name = name_from_known_browsers(component_and_version.first)
+      browser_version = full_version&.gsub('"', '') || component_and_version.last
+      { name: name, version: browser_version }
     end
 
     # https://github.com/matomo-org/device-detector/blob/be1c9ef486c247dc4886668da5ed0b1c49d90ba8/Parser/Client/Browser.php#L865
