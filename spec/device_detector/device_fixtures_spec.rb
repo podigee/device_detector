@@ -21,6 +21,10 @@ describe DeviceDetector::Device do
             assert_equal f['device']['model'], device.name, 'failed model detection'
           end
 
+          it 'should have the expected brand' do
+            assert_equal f['device']['brand'], device.brand, 'failed brand detection'
+          end
+
           it 'should have the expected type' do
             expected_device_type = DeviceDetector::Device::DEVICE_NAMES[f['device']['type']]
             assert_equal expected_device_type, device.type, 'failed device name detection'

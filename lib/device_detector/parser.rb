@@ -58,7 +58,29 @@ class DeviceDetector
     end
 
     def load_regexes(file_paths)
-      file_paths.map { |path, full_path| [path, symbolize_keys!(YAML.load_file(full_path))] }
+      file_paths.map do |path, full_path|
+        object = YAML.load_file(full_path)
+        object = rewrite_device_object!(object) if is_device_yml_file?(full_path)
+        object = rewrite_vendor_object!(object) if is_vendor_yml_file?(full_path)
+
+        [path, symbolize_keys!(object)]
+      end
+    end
+
+    def is_device_yml_file?(file_path)
+      file_path.include?('/regexes/device/')
+    end
+
+    def is_vendor_yml_file?(file_path)
+      file_path.include?('/regexes/vendorfragments')
+    end
+
+    def rewrite_vendor_object!(object)
+      object.map { |key, values| values.map { |v| { 'regex_name' => key, 'regex' => v } } }.flatten
+    end
+
+    def rewrite_device_object!(object)
+      object.map { |key, value| [key, { 'regex_name' => key }.merge!(value)] }.to_h
     end
 
     def symbolize_keys!(object)
@@ -88,8 +110,8 @@ class DeviceDetector
       Regexp.new('(?:^|[^A-Z0-9\-_]|[^A-Z0-9\-]_|sprd-|MZ-)(?:' + src + ')', Regexp::IGNORECASE)
     end
 
-    def from_cache(key)
-      DeviceDetector.cache.get_or_set(key) { yield }
+    def from_cache(key, &block)
+      DeviceDetector.cache.get_or_set(key, &block)
     end
   end
 end

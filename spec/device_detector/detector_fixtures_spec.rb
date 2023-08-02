@@ -91,6 +91,14 @@ describe DeviceDetector do
                 else
                   assert_equal model, detector.device_name, 'failed device name detection'
                 end
+
+                brand = str_or_nil(f['device']['brand'])
+                brand = brand.to_s unless brand.nil?
+                if brand.nil?
+                  assert_nil detector.device_brand, 'failed brand name detection'
+                else
+                  assert_equal brand, detector.device_brand, 'failed brand name detection'
+                end
               end
             end
           end
