@@ -21,7 +21,19 @@ class DeviceDetector
 
   def initialize(user_agent, headers = nil)
     @client_hint = ClientHint.new(headers)
-    @user_agent = user_agent
+    @user_agent = set_user_agent(user_agent)
+  end
+
+  # https://github.com/matomo-org/device-detector/blob/c235832dba13961ab0f71b681616baf1aa48de23/Parser/Device/AbstractDeviceParser.php#L1873
+  def set_user_agent(user_agent)
+    return user_agent if client_hint.model.nil?
+
+    regex = build_regex('Android 10[.\d]*; K(?: Build/|[;)])')
+    return user_agent unless user_agent =~ regex
+
+    version = client_hint.os_version || '10'
+
+    user_agent.gsub(regex, "Android #{version}, #{client_hint.model}")
   end
 
   def name
@@ -53,6 +65,8 @@ class DeviceDetector
   end
 
   def device_name
+    return if fake_ua?
+
     device.name || client_hint.model || fix_for_x_music
   end
 
@@ -204,6 +218,11 @@ class DeviceDetector
 
   def os
     @os ||= OS.new(user_agent)
+  end
+
+  # https://github.com/matomo-org/device-detector/blob/827a3fab7e38c3274c18d2f5f5bc2a78b7ef4a3a/DeviceDetector.php#L921C5-L921C5
+  def fake_ua?
+    os_name == 'Android' && device_brand == 'Apple'
   end
 
   # https://github.com/matomo-org/device-detector/blob/be1c9ef486c247dc4886668da5ed0b1c49d90ba8/Parser/Client/Browser.php#L772
