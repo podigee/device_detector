@@ -116,7 +116,7 @@ describe DeviceDetector::Device do
       it 'identifies the device' do
         value(device.name).must_equal 'Wii'
         value(device.type).must_equal 'console'
-        value(device.brand).must_be_nil
+        value(device.brand).must_equal 'Nintendo'
       end
     end
 

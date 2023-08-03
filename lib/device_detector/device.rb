@@ -1724,10 +1724,23 @@ class DeviceDetector
     end
 
     def brand
-      regex_meta[:brand]
+      return regex_meta[:brand] if regex_meta[:brand] == 'Sony Ericsson'
+
+      brand = regex_meta[:regex_name] || regex_meta[:brand] || vendor_fragment.name || fix_for_x_music
+      return if brand == 'Unknown'
+
+      brand
     end
 
     private
+
+    def fix_for_x_music
+      user_agent&.include?('X-music Ⅲ') ? 'OneClick' : nil
+    end
+
+    def vendor_fragment
+      ::DeviceDetector::VendorFragment.new(user_agent)
+    end
 
     # The order of files needs to be the same as the order of device
     # parser classes used in the piwik project.
