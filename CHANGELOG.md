@@ -1,5 +1,11 @@
 # Change Log
 
+## [1.1.1]
+- Updated detection rules from upstream on 2023-07-01
+- Fix issue when user agent is nil ([#104](https://github.com/podigee/device_detector/issues/104))
+- Fix issue when user agent is not UTF-8 encoded ([#105](https://github.com/podigee/device_detector/issues/105), [#106](https://github.com/podigee/device_detector/issues/106))
+- Improve device brand name detection
+
 ## [1.1.0]
 - Updated detection rules from upstream on 2022-12-09
 - Add support for client hints in header
