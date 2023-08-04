@@ -22,7 +22,8 @@ class DeviceDetector
 
   def initialize(user_agent, headers = nil)
     @client_hint = ClientHint.new(headers)
-    @user_agent = set_user_agent(user_agent)
+    utf8_user_agent = encode_user_agent_if_needed(user_agent)
+    @user_agent = set_user_agent(utf8_user_agent)
   end
 
   # https://github.com/matomo-org/device-detector/blob/c235832dba13961ab0f71b681616baf1aa48de23/Parser/Device/AbstractDeviceParser.php#L1873
@@ -35,6 +36,13 @@ class DeviceDetector
     version = client_hint.os_version || '10'
 
     user_agent.gsub(regex, "Android #{version}, #{client_hint.model}")
+  end
+
+  def encode_user_agent_if_needed(user_agent)
+    return if user_agent.nil?
+    return user_agent if user_agent.encoding.name == 'UTF-8'
+
+    user_agent.encode('utf-8', 'binary', undef: :replace)
   end
 
   def name

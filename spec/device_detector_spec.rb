@@ -9,7 +9,9 @@ describe DeviceDetector do
 
   describe 'known user agent' do
     describe 'desktop chrome browser' do
-      let(:user_agent) { 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_8_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/30.0.1599.69' }
+      let(:user_agent) do
+        'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_8_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/30.0.1599.69'
+      end
 
       describe '#name' do
         it 'returns the name' do
@@ -97,6 +99,52 @@ describe DeviceDetector do
 
   describe 'unknown user agent' do
     let(:user_agent) { 'garbage123' }
+
+    describe '#name' do
+      it 'returns nil' do
+        value(client.name).must_be_nil
+      end
+    end
+
+    describe '#full_version' do
+      it 'returns nil' do
+        value(client.full_version).must_be_nil
+      end
+    end
+
+    describe '#os_name' do
+      it 'returns nil' do
+        value(client.os_name).must_be_nil
+      end
+    end
+
+    describe '#os_full_version' do
+      it 'returns nil' do
+        value(client.os_full_version).must_be_nil
+      end
+    end
+
+    describe '#known?' do
+      it 'returns false' do
+        value(client.known?).must_equal false
+      end
+    end
+
+    describe '#bot?' do
+      it 'returns false' do
+        value(client.bot?).must_equal false
+      end
+    end
+
+    describe '#bot_name' do
+      it 'returns nil' do
+        value(client.bot_name).must_be_nil
+      end
+    end
+  end
+
+  describe 'wrongly encoded user agent' do
+    let(:user_agent) { 'Mon User-Agent personnalisé'.dup.force_encoding('ASCII-8BIT') }
 
     describe '#name' do
       it 'returns nil' do
