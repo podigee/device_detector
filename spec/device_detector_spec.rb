@@ -143,6 +143,52 @@ describe DeviceDetector do
     end
   end
 
+  describe 'user agent is nil' do
+    let(:user_agent) { nil }
+
+    describe '#name' do
+      it 'returns nil' do
+        value(client.name).must_be_nil
+      end
+    end
+
+    describe '#full_version' do
+      it 'returns nil' do
+        value(client.full_version).must_be_nil
+      end
+    end
+
+    describe '#os_name' do
+      it 'returns nil' do
+        value(client.os_name).must_be_nil
+      end
+    end
+
+    describe '#os_full_version' do
+      it 'returns nil' do
+        value(client.os_full_version).must_be_nil
+      end
+    end
+
+    describe '#known?' do
+      it 'returns false' do
+        value(client.known?).must_equal false
+      end
+    end
+
+    describe '#bot?' do
+      it 'returns false' do
+        value(client.bot?).must_equal false
+      end
+    end
+
+    describe '#bot_name' do
+      it 'returns nil' do
+        value(client.bot_name).must_be_nil
+      end
+    end
+  end
+
   describe 'wrongly encoded user agent' do
     let(:user_agent) { 'Mon User-Agent personnalisé'.dup.force_encoding('ASCII-8BIT') }
 
