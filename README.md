@@ -8,14 +8,16 @@ DeviceDetector will parse any user agent and detect the browser, operating syste
 
 The DeviceDetector is optimized for speed of detection, by providing optimized code and in-memory caching.
 
-This project originated as a Ruby port of the Universal Device Detection library.
-You can find the original code here: https://github.com/piwik/device-detector.
+DeviceDetector is funded by the owners of [Podigee the podcast hosting, analytics & monetization SaaS for podcasters big and small.](https://www.podigee.com) and actively maintained by the development team.
+
+This project originated as a Ruby port of the Universal Device Detection library written and maintained by Matomo Analytics.
+You can find the original code here: [https://github.com/piwik/device-detector](https://github.com/matomo-org/device-detector).
 
 ## Disclaimer
 
 This port does not aspire to be a one-to-one copy from the original code, but rather an adaptation for the Ruby language.
 
-Still, our goal is to use the original, unchanged regex yaml files, in order to mutually benefit from updates and pull request to both the original and the ported versions.
+Still, our goal is to use the original, unchanged regex yaml files for user agent detection provided by the upstream version, in order to mutually benefit from updates and pull request to both the original and the ported versions.
 
 ## Installation
 
@@ -172,7 +174,7 @@ Updated on 2023-08-01
 
 ## Maintainers
 
-- Mati Sojka: https://github.com/yagooar
+- Mateusz Sojka: https://github.com/yagooar
 - Ben Zimmer: https://github.com/benzimmer
 
 ## Contributors
