@@ -174,7 +174,7 @@ Updated on 2023-08-01
 
 ## Maintainers
 
-- Mateusz Sojka: https://github.com/yagooar
+- Mateusz Sojka: https://github.com/matisojka
 - Ben Zimmer: https://github.com/benzimmer
 
 ## Contributors
