@@ -41,6 +41,7 @@ class DeviceDetector
       'AG' => 'ANTGalio',
       'AL' => 'Aloha Browser',
       'AH' => 'Aloha Browser Lite',
+      'A8' => 'ALVA',
       'AM' => 'Amaya',
       'A3' => 'Amaze Browser',
       'A5' => 'Amerigo',
@@ -64,7 +65,7 @@ class DeviceDetector
       'A2' => 'Atlas',
       'AS' => 'Avast Secure Browser',
       'VG' => 'AVG Secure Browser',
-      'AC' => 'Avira Scout',
+      'AC' => 'Avira Secure Browser',
       'A1' => 'AwoX',
       'BA' => 'Beaker Browser',
       'BM' => 'Beamrise',
@@ -94,6 +95,7 @@ class DeviceDetector
       'BX' => 'BrowseX',
       'BZ' => 'Browzar',
       'B7' => 'Browlser',
+      '4B' => 'BrowsBit',
       'BY' => 'Biyubi',
       'BF' => 'Byffox',
       'B4' => 'BF Browser',
@@ -264,10 +266,12 @@ class DeviceDetector
       'LH' => 'Light',
       'L1' => 'Lilo',
       'LI' => 'Links',
+      'LC' => 'LogicUI TV Browser',
       'IF' => 'Lolifox',
       'LO' => 'Lovense Browser',
       'LT' => 'LT Browser',
       'LU' => 'LuaKit',
+      'LJ' => 'LUJO TV Browser',
       'LL' => 'Lulumi',
       'LS' => 'Lunascape',
       'LN' => 'Lunascape Lite',
@@ -303,6 +307,7 @@ class DeviceDetector
       'NB' => 'Nokia Browser',
       'NO' => 'Nokia OSS Browser',
       'NV' => 'Nokia Ovi Browser',
+      'N2' => 'Norton Secure Browser',
       'NX' => 'Nox Browser',
       'N1' => 'NOMone VR Browser',
       'NE' => 'NetSurf',
@@ -313,6 +318,7 @@ class DeviceDetector
       'WR' => 'NextWord Browser',
       'NT' => 'NTENT Browser',
       'OC' => 'Oculus Browser',
+      'O6' => 'Odd Browser',
       'O1' => 'Opera Mini iOS',
       'OB' => 'Obigo',
       'O2' => 'Odin',
@@ -337,11 +343,13 @@ class DeviceDetector
       'OR' => 'Oregano',
       'O0' => 'Origin In-Game Overlay',
       'OY' => 'Origyn Web Browser',
+      'O8' => 'OrNET Browser',
       'OV' => 'Openwave Mobile Browser',
       'O3' => 'OpenFin',
       'O4' => 'Open Browser',
       '4U' => 'Open Browser 4U',
       '5G' => 'Open Browser fast 5G',
+      'O7' => 'Open TV Browser',
       'OW' => 'OmniWeb',
       'OT' => 'Otter Browser',
       'PL' => 'Palm Blazer',
@@ -354,11 +362,13 @@ class DeviceDetector
       '2P' => 'Puffin Web Browser',
       'PW' => 'Palm WebPro',
       'PA' => 'Palmscape',
+      'P7' => 'Pawxy',
       'PE' => 'Perfect Browser',
       'P1' => 'Phantom.me',
       'PH' => 'Phantom Browser',
       'PX' => 'Phoenix',
       'PB' => 'Phoenix Browser',
+      'P8' => 'PICO Browser',
       'PF' => 'PlayFree Browser',
       'PK' => 'PocketBook Browser',
       'PO' => 'Polaris',
@@ -384,7 +394,9 @@ class DeviceDetector
       'RE' => 'Realme Browser',
       'RK' => 'Rekonq',
       'RM' => 'RockMelt',
+      'RB' => 'Roku Browser',
       'SB' => 'Samsung Browser',
+      '3L' => 'Samsung Browser Lite',
       'SA' => 'Sailfish Browser',
       'S8' => 'Seewo Browser',
       'SC' => 'SEMC-Browser',
@@ -529,7 +541,9 @@ class DeviceDetector
         O4 XO U0 B0 VA X0 A5 X1 18
         B5 B6 TC A6 2X F4 YG WR NA
         DM 1M A7 XN XT XB W1 HT B7
-        B9
+        B9 T0 I8 O6 P7 O8 4B A8 P8
+        1W EV Z0 I9 V4 H4 M5 0S 0C
+        ZR D6 F6
       ]
     ).freeze
 

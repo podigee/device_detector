@@ -584,10 +584,46 @@
   bot:
     name: CloudFlare Always Online
     category: Site Monitor
-    url: http://www.cloudflare.com/always-online
+    url: https://www.cloudflare.com/always-online
     producer:
       name: CloudFlare
-      url: http://www.cloudflare.com
+      url: https://www.cloudflare.com/
+-
+  user_agent: Cloudflare-SSLDetector
+  bot:
+    name: Cloudflare SSL Detector
+    category: Site Monitor
+    url: https://developers.cloudflare.com/fundamentals/reference/cloudflare-site-crawling/
+    producer:
+      name: CloudFlare
+      url: https://www.cloudflare.com/
+-
+  user_agent: Cloudflare Custom Hostname Verification
+  bot:
+    name: Cloudflare Custom Hostname Verification
+    category: Service Agent
+    url: https://developers.cloudflare.com/fundamentals/reference/cloudflare-site-crawling/
+    producer:
+      name: CloudFlare
+      url: https://www.cloudflare.com/
+-
+  user_agent: 'Mozilla/5.0 (compatible; Cloudflare-Traffic-Manager/1.0; +https://www.cloudflare.com/traffic-manager/; pool-id: <POOLID>)'
+  bot:
+    name: Cloudflare Traffic Manager
+    category: Site Monitor
+    url: https://developers.cloudflare.com/fundamentals/reference/cloudflare-site-crawling/
+    producer:
+      name: CloudFlare
+      url: https://www.cloudflare.com/
+-
+  user_agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.107 Safari/537.36 (compatible; +https://developers.cloudflare.com/security-center/)
+  bot:
+    name: Cloudflare Security Insights
+    category: Site Monitor
+    url: https://developers.cloudflare.com/fundamentals/reference/cloudflare-site-crawling/
+    producer:
+      name: CloudFlare
+      url: https://www.cloudflare.com/
 -
   user_agent: collectd/5.5.1
   bot:
@@ -3338,7 +3374,16 @@
   bot:
     name: Yahoo! Japan BRW
     category: Crawler
-    url: https://www.yahoo-help.jp/app/answers/detail/p/595/a_id/42716/~/ウェブページにアクセスするシステムのユーザーエージェントについて
+    url: https://support.yahoo-net.jp/PccSearch/s/article/H000007955
+    producer:
+      name: Yahoo! Japan Corp.
+      url: https://www.yahoo.co.jp/
+-
+  user_agent: Mozilla/5.0 (compatible; Y!J-WSC/1.0; +https://yahoo.jp/3BSZgF)
+  bot:
+    name: Yahoo! Japan WSC
+    category: Crawler
+    url: https://support.yahoo-net.jp/PccSearch/s/article/H000007955
     producer:
       name: Yahoo! Japan Corp.
       url: https://www.yahoo.co.jp/
@@ -3917,7 +3962,16 @@
     url: https://www.cloudflare.com/
     producer:
       name: Cloudflare
-      url: https://www.cloudflare.com
+      url: https://www.cloudflare.com/
+-
+  user_agent: Cloudflare-diagnostics
+  bot:
+    name: Cloudflare Diagnostics
+    category: Site Monitor
+    url: https://www.cloudflare.com/
+    producer:
+      name: Cloudflare
+      url: https://www.cloudflare.com/
 -
   user_agent: Mozilla/5.0 (iPhone; CPU iPhone OS 12_0 like Mac OS X) adbeat.com/policy AppleWebKit/605.1.15 (KHTML, like Gecko) CriOS/69.0.3497.105 Mobile/15E148 Safari/605.1
   bot:
@@ -5556,7 +5610,7 @@
     url: https://developers.cloudflare.com/health-checks/
     producer:
       name: CloudFlare
-      url: http://www.cloudflare.com
+      url: https://www.cloudflare.com/
 -
   user_agent: Mozilla/5.0 (Morningscore/1.0)
   bot:
@@ -5692,3 +5746,138 @@
     producer:
       name: Crissy Field GmbH
       url: https://www.crissyfield.de/
+-
+  user_agent: Mozilla/5.0 researchscan.comsys.rwth-aachen.de
+  bot:
+    name: Research Scan
+    category: Crawler
+    url: http://researchscan.comsys.rwth-aachen.de/
+    producer:
+      name: RWTH Aachen University
+      url: https://www.comsys.rwth-aachen.de/
+-
+  user_agent: newspaper/0.2.8
+  bot:
+    name: Scraping Robot
+    category: Crawler
+    url: https://scrapingrobot.com/
+    producer:
+      name: Sprious LLC
+      url: https://sprious.com/
+-
+  user_agent: Google
+  bot:
+    name: Googlebot
+    category: Search bot
+    url: http://www.google.com/bot.html
+    producer:
+      name: Google Inc.
+      url: http://www.google.com
+-
+  user_agent: Mozilla/5.0 AppleWebKit/537.36 (KHTML, like Gecko; compatible; GPTBot/1.0; +https://openai.com/gptbot)
+  bot:
+    name: GPTBot
+    category: Crawler
+    url: https://platform.openai.com/docs/gptbot
+    producer:
+      name: OpenAI OpCo, LLC
+      url: https://openai.com/
+-
+  user_agent: Mozilla/5.0 (compatible; Google-InspectionTool/1.0;)
+  bot:
+    name: Googlebot
+    category: Search bot
+    url: http://www.google.com/bot.html
+    producer:
+      name: Google Inc.
+      url: http://www.google.com
+-
+  user_agent: GoogleOther
+  bot:
+    name: Googlebot
+    category: Search bot
+    url: http://www.google.com/bot.html
+    producer:
+      name: Google Inc.
+      url: http://www.google.com
+-
+  user_agent: Ant.com beta/1.0 (Crawling antmarks; https://www.ant.com; admin@ant.com)
+  bot:
+    name: Ant
+    category: Crawler
+    url: https://www.ant.com/
+    producer:
+      name: Ant.com Ltd.
+      url: https://www.ant.com/
+-
+  user_agent: Magellan
+  bot:
+    name: Generic Bot
+-
+  user_agent: Mozilla/5.0 (compatible; WebwikiBot/2.1; +https://www.webwiki.co.uk)
+  bot:
+    name: Webwiki
+    category: Crawler
+    url: https://www.webwiki.com/
+    producer:
+      name: webwiki GmbH
+      url: https://www.webwiki.com/
+-
+  user_agent: phpMyAdmin
+  bot:
+    name: phpMyAdmin
+    category: Service Agent
+    url: https://www.phpmyadmin.net/
+-
+  user_agent: Matomo/4.15.1
+  bot:
+    name: Matomo
+    category: Service Agent
+    url: https://github.com/matomo-org/matomo
+    producer:
+      name: InnoCraft Ltd
+      url: https://matomo.org/
+-
+  user_agent: CustomUserAgent/1.0
+  bot:
+    name: Generic Bot
+-
+  user_agent: Prometheus/2.40.5
+  bot:
+    name: Prometheus
+    category: Service Agent
+    url: https://github.com/prometheus/prometheus
+    producer:
+      name: The Linux Foundation
+      url: https://www.cncf.io/
+-
+  user_agent: firefox
+  bot:
+    name: Generic Bot
+-
+  user_agent: Chrome
+  bot:
+    name: Generic Bot
+-
+  user_agent: ArchiveTeam ArchiveBot/20220523.4a672db (wpull 2.0.3) and not Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.2311.90 Safari/537.36
+  bot:
+    name: ArchiveBot
+    category: Crawler
+    url: https://wiki.archiveteam.org/index.php?title=ArchiveBot
+    producer:
+      name: ArchiveTeam
+      url: https://wiki.archiveteam.org/
+-
+  user_agent: MADBbot/0.1 (Gathering webpages for data analytics; https://madb.zapto.org/bot.html; ma-db-crawl@googlegroups.com)
+  bot:
+    name: MADBbot
+    category: Crawler
+    url: https://madb.zapto.org/bot.html
+-
+  user_agent: MeltwaterNews www.meltwater.com
+  bot:
+    name: MeltwaterNews
+    category: Crawler
+    producer:
+      name: Meltwater Deutschland GmbH
+      url: https://www.meltwater.com/
