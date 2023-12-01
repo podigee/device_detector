@@ -94,6 +94,7 @@ class DeviceDetector
       'INF' => 'Inferno',
       'JME' => 'Java ME',
       'KOS' => 'KaiOS',
+      'KAL' => 'Kali',
       'KAN' => 'Kanotix',
       'KNO' => 'Knoppix',
       'KTV' => 'KreaTV',
@@ -104,6 +105,7 @@ class DeviceDetector
       'LEN' => 'Lineage OS',
       'LBT' => 'Lubuntu',
       'LOS' => 'Lumin OS',
+      'LUN' => 'LuneOS',
       'VLN' => 'VectorLinux',
       'MAC' => 'Mac',
       'MAE' => 'Maemo',
@@ -126,14 +128,17 @@ class DeviceDetector
       'OBS' => 'OpenBSD',
       'OWR' => 'OpenWrt',
       'OTV' => 'Opera TV',
+      'ORA' => 'Oracle Linux',
       'ORD' => 'Ordissimo',
       'PAR' => 'Pardus',
       'PCL' => 'PCLinuxOS',
+      'PIC' => 'PICO OS',
       'PLA' => 'Plasma Mobile',
       'PSP' => 'PlayStation Portable',
       'PS3' => 'PlayStation',
       'PUR' => 'PureOS',
       'RHT' => 'Red Hat',
+      'RED' => 'RedOS',
       'REV' => 'Revenge OS',
       'ROS' => 'RISC OS',
       'ROK' => 'Roku OS',
@@ -159,9 +164,12 @@ class DeviceDetector
       'TEN' => 'TencentOS',
       'TDX' => 'ThreadX',
       'TIZ' => 'Tizen',
+      'TIV' => 'TiVo OS',
       'TOS' => 'TmaxOS',
       'UBT' => 'Ubuntu',
+      'VID' => 'VIDAA',
       'WAS' => 'watchOS',
+      'WER' => 'Wear OS',
       'WTV' => 'WebTV',
       'WHS' => 'Whale OS',
       'WIN' => 'Windows',
@@ -186,7 +194,7 @@ class DeviceDetector
 
     OS_FAMILIES = {
       'Android' => %w[ AND CYN FIR REM RZD MLD MCD YNS GRI HAR
-                       ADR CLR BOS REV LEN SIR RRS],
+                       ADR CLR BOS REV LEN SIR RRS WER PIC],
       'AmigaOS' => %w[AMG MOR],
       'BlackBerry' => %w[BLB QNX],
       'Brew' => ['BMP'],
@@ -204,7 +212,7 @@ class DeviceDetector
         ORD TOS RSO DEE FRE MAG FEN CAI PCL HAS
         LOS DVK ROK OWR OTV KTV PUR PLA FUC PAR
         FOR MON KAN ZEN LND LNS CHN AMZ TEN CST
-        NOV ROU ZOR
+        NOV ROU ZOR VID
       ],
       'Mac' => ['MAC'],
       'Mobile Gaming Console' => %w[PSP NDS XBX],

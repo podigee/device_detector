@@ -84,7 +84,7 @@ class DeviceDetector
 
     # Assume all devices running iOS / Mac OS are from Apple
     brand = device.brand
-    brand = 'Apple' if brand.nil? && ['Apple TV', 'iOS', 'Mac'].include?(os_name)
+    brand = 'Apple' if brand.nil? && %w[iPadOS tvOS watchOS iOS Mac].include?(os_name)
 
     brand
   end
@@ -162,7 +162,8 @@ class DeviceDetector
     t = 'tv' if t.nil? && tizen_samsung_tv?
 
     # Devices running Kylo or Espital TV Browsers are assumed to be a TV
-    t = 'tv' if t.nil? && ['Kylo', 'Espial TV Browser'].include?(name)
+    t = 'tv' if ['Kylo', 'Espial TV Browser', 'LUJO TV Browser', 'LogicUI TV Browser',
+                 'Open TV Browser'].include?(name)
 
     # All devices containing TV fragment are assumed to be a tv
     t = 'tv' if t.nil? && user_agent =~ build_regex('\(TV;')
@@ -273,7 +274,7 @@ class DeviceDetector
   end
 
   def opera_tv_store?
-    user_agent =~ build_regex('Opera TV Store')
+    user_agent =~ build_regex('Opera TV Store|OMI/')
   end
 
   def opera_tablet?

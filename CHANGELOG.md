@@ -1,5 +1,8 @@
 # Change Log
 
+## [1.1.2]
+-  Updated detection rules from upstream on 2023-11-27
+
 ## [1.1.1]
 - Updated detection rules from upstream on 2023-07-01
 - Fix issue when user agent is nil ([#104](https://github.com/podigee/device_detector/issues/104))
