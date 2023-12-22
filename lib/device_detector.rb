@@ -52,7 +52,7 @@ class DeviceDetector
   end
 
   def full_version
-    client_hint.platform_version || client.full_version
+    client_hint.full_version || client.full_version
   end
 
   def os_family
