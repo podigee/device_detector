@@ -27,7 +27,7 @@ class DeviceDetector
                 :platform_version
 
     def browser_name
-      return 'Iridium' if is_iridium?
+      return 'Iridium' if iridium?
 
       browser_name_from_list || app_name
     end
@@ -97,11 +97,11 @@ class DeviceDetector
     # https://github.com/matomo-org/device-detector/blob/be1c9ef486c247dc4886668da5ed0b1c49d90ba8/Parser/Client/Browser.php#L749
     # If version from client hints report 2022 or 2022.04, then is the Iridium browser
     # https://iridiumbrowser.de/news/2022/05/16/version-2022-04-released
-    def is_iridium?
+    def iridium?
       return if browser_list.nil?
 
       !browser_list.find do |browser|
-        browser.name == 'Chromium' && %w[2021.12 2022.04 2022].include?(browser.version)
+        browser.name == 'Chromium' && browser.version.match(/^202[0-4]/)
       end.nil?
     end
 
