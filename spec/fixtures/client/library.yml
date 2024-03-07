@@ -557,3 +557,81 @@
     type: library
     name: FFUF
     version: 1.5.0
+-
+  user_agent: cpp-httplib/0.10.9
+  client:
+    type: library
+    name: cpp-httplib
+    version: 0.10.9
+-
+  user_agent: Definitely-Not-Requests
+  client:
+    type: library
+    name: Requests
+    version: ""
+-
+  user_agent: Stealer 0.2.0
+  client:
+    type: library
+    name: Stealer
+    version: 0.2.0
+-
+  user_agent: Mandrill-PHP/1.0.55
+  client:
+    type: library
+    name: Mandrill PHP
+    version: 1.0.55
+-
+  user_agent: babashka.http-client/0.4.14
+  client:
+    type: library
+    name: Babashka HTTP Client
+    version: 0.4.14
+-
+  user_agent: http.rb/4.0.0
+  client:
+    type: library
+    name: http.rb
+    version: 4.0.0
+-
+  user_agent: node-superagent/3.8.2
+  client:
+    type: library
+    name: superagent
+    version: 3.8.2
+-
+  user_agent: CakePHP
+  client:
+    type: library
+    name: CakePHP
+    version: ""
+-
+  user_agent: request.js
+  client:
+    type: library
+    name: request
+    version: ""
+-
+  user_agent: kiwi-tcms/13.0
+  client:
+    type: library
+    name: Kiwi TCMS
+    version: 13.0
+-
+  user_agent: kiwi-tcms/12.6.1-Enterprise
+  client:
+    type: library
+    name: Kiwi TCMS
+    version: 12.6.1
+-
+  user_agent: tcms-api/12.9.1/Python 3.11.8 (main, Feb  7 2024, 04:02:05) [GCC 11.4.0]
+  client:
+    type: library
+    name: Kiwi TCMS API
+    version: 12.9.1
+-
+  user_agent: tcms-api/12.7/Java
+  client:
+    type: library
+    name: Kiwi TCMS API
+    version: 12.7

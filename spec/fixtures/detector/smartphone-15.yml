@@ -743,8 +743,8 @@
     type: browser
     name: Baidu Browser
     version: "3.2.0.3"
-    engine: WebKit
-    engine_version: "537.36"
+    engine: Blink
+    engine_version: "30.0.0.0"
   device:
     type: smartphone
     brand: ThL
@@ -1361,19 +1361,6 @@
     type: smartphone
     brand: Tecno Mobile
     model: t36
-  os_family: Real-time OS
-  browser_family: Unknown
--
-  user_agent: TECNOT611/wap2.0_Profile/MIDP-2.0/CLDC-1.1/240x320/key
-  os:
-    name: Java ME
-    version: ""
-    platform: ""
-  client: null
-  device:
-    type: feature phone
-    brand: Tecno Mobile
-    model: T611
   os_family: Real-time OS
   browser_family: Unknown
 -
@@ -3331,8 +3318,8 @@
     type: browser
     name: UC Browser
     version: "12.8.5.1121"
-    engine: WebKit
-    engine_version: "537.36"
+    engine: Blink
+    engine_version: "57.0.2987.108"
   device:
     type: smartphone
     brand: teXet
@@ -3349,8 +3336,8 @@
     type: browser
     name: Quark
     version: "2.4.4.993"
-    engine: WebKit
-    engine_version: "537.36"
+    engine: Blink
+    engine_version: "57.0.2987.108"
   device:
     type: smartphone
     brand: teXet
@@ -3529,8 +3516,8 @@
     type: browser
     name: UC Browser
     version: "12.5.0.1109"
-    engine: WebKit
-    engine_version: "537.36"
+    engine: Blink
+    engine_version: "57.0.2987.108"
   device:
     type: smartphone
     brand: teXet
@@ -3619,8 +3606,8 @@
     type: browser
     name: Puffin
     version: "7.5.3.20547"
-    engine: WebKit
-    engine_version: "537.36"
+    engine: Blink
+    engine_version: "63.0.3239.111"
   device:
     type: smartphone
     brand: teXet
@@ -4949,8 +4936,8 @@
     type: browser
     name: NTENT Browser
     version: "4.2.0.181"
-    engine: WebKit
-    engine_version: "537.36"
+    engine: Blink
+    engine_version: "54.0.2840.9"
   device:
     type: smartphone
     brand: Unnecto
@@ -5735,8 +5722,8 @@
     type: browser
     name: Samsung Browser
     version: "6.4"
-    engine: WebKit
-    engine_version: "537.36"
+    engine: Blink
+    engine_version: "56.0.2924.87"
   device:
     type: smartphone
     brand: Vonino
@@ -6077,8 +6064,8 @@
     type: browser
     name: QQ Browser
     version: "9.9"
-    engine: WebKit
-    engine_version: "537.36"
+    engine: Blink
+    engine_version: "66.0.3359.126"
   device:
     type: smartphone
     brand: Vertu
@@ -7457,8 +7444,8 @@
     type: browser
     name: UC Browser
     version: "13.0.3.1083"
-    engine: WebKit
-    engine_version: "537.36"
+    engine: Blink
+    engine_version: "78.0.3904.108"
   device:
     type: smartphone
     brand: Vivo
@@ -7475,8 +7462,8 @@
     type: browser
     name: vivo Browser
     version: "8.4.12.0"
-    engine: WebKit
-    engine_version: "537.36"
+    engine: Blink
+    engine_version: "62.0.3202.84"
   device:
     type: smartphone
     brand: Vivo
@@ -7529,8 +7516,8 @@
     type: browser
     name: UC Browser
     version: "13.0.2.1082"
-    engine: WebKit
-    engine_version: "537.36"
+    engine: Blink
+    engine_version: "78.0.3904.108"
   device:
     type: smartphone
     brand: Vivo
@@ -7547,8 +7534,8 @@
     type: browser
     name: QQ Browser
     version: "10.5"
-    engine: WebKit
-    engine_version: "537.36"
+    engine: Blink
+    engine_version: "66.0.3359.126"
   device:
     type: smartphone
     brand: Vivo
@@ -7619,8 +7606,8 @@
     type: browser
     name: UC Browser
     version: "13.1.3.1093"
-    engine: WebKit
-    engine_version: "537.36"
+    engine: Blink
+    engine_version: "78.0.3904.108"
   device:
     type: smartphone
     brand: Vivo
@@ -7709,8 +7696,8 @@
     type: browser
     name: UC Browser
     version: "13.0.2.1289"
-    engine: WebKit
-    engine_version: "537.36"
+    engine: Blink
+    engine_version: "57.0.2987.108"
   device:
     type: smartphone
     brand: Vivo
@@ -7745,8 +7732,8 @@
     type: browser
     name: vivo Browser
     version: "20.0.2.1"
-    engine: WebKit
-    engine_version: "537.36"
+    engine: Blink
+    engine_version: "62.0.3202.84"
   device:
     type: smartphone
     brand: Vivo
@@ -7781,8 +7768,8 @@
     type: browser
     name: QQ Browser
     version: "9.1"
-    engine: WebKit
-    engine_version: "537.36"
+    engine: Blink
+    engine_version: "57.0.2987.132"
   device:
     type: smartphone
     brand: Vivo
@@ -8015,8 +8002,8 @@
     type: browser
     name: UC Browser
     version: "13.0.5.1290"
-    engine: WebKit
-    engine_version: "537.36"
+    engine: Blink
+    engine_version: "57.0.2987.108"
   device:
     type: smartphone
     brand: Vivo
@@ -8483,8 +8470,8 @@
     type: browser
     name: QQ Browser
     version: "6.2"
-    engine: WebKit
-    engine_version: "537.36"
+    engine: Blink
+    engine_version: "66.0.3359.126"
   device:
     type: smartphone
     brand: Vivo
@@ -8555,8 +8542,8 @@
     type: browser
     name: vivo Browser
     version: "7.8.10.5"
-    engine: WebKit
-    engine_version: "537.36"
+    engine: Blink
+    engine_version: "62.0.3202.84"
   device:
     type: smartphone
     brand: Vivo
@@ -8591,8 +8578,8 @@
     type: browser
     name: UC Browser
     version: "12.13.5.1209"
-    engine: WebKit
-    engine_version: "537.36"
+    engine: Blink
+    engine_version: "57.0.2987.108"
   device:
     type: smartphone
     brand: Vivo
@@ -8663,8 +8650,8 @@
     type: browser
     name: vivo Browser
     version: "8.0.10.1"
-    engine: WebKit
-    engine_version: "537.36"
+    engine: Blink
+    engine_version: "62.0.3202.84"
   device:
     type: smartphone
     brand: Vivo
@@ -8699,8 +8686,8 @@
     type: browser
     name: vivo Browser
     version: "8.1.14.2"
-    engine: WebKit
-    engine_version: "537.36"
+    engine: Blink
+    engine_version: "62.0.3202.84"
   device:
     type: smartphone
     brand: Vivo
@@ -10071,19 +10058,3 @@
     model: Activ
   os_family: Android
   browser_family: Chrome
--
-  user_agent: Mozilla/5.0 (iPhone; CPU iPhone OS 16_1_1 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148 Instagram 267.0.0.8.92 (iPhone15,2; iOS 16_1_1; ro_RO; ro-RO; scale=3.00; 1179x2556; 439751848)
-  os:
-    name: iOS
-    version: 16.1.1
-    platform: ""
-  client:
-    type: mobile app
-    name: Instagram App
-    version: 267.0.0.8.92
-  device:
-    type: phablet
-    brand: Apple
-    model: iPhone 14 Pro
-  os_family: iOS
-  browser_family: Unknown

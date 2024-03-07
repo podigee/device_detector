@@ -981,8 +981,8 @@
     type: browser
     name: UC Browser
     version: 12.12.9.1226
-    engine: WebKit
-    engine_version: "537.36"
+    engine: Blink
+    engine_version: "57.0.2987.108"
   device:
     type: smartphone
     brand: LT Mobile
@@ -999,8 +999,8 @@
     type: browser
     name: UC Browser
     version: 12.14.0.1221
-    engine: WebKit
-    engine_version: "537.36"
+    engine: Blink
+    engine_version: "57.0.2987.108"
   device:
     type: smartphone
     brand: LG
@@ -1017,8 +1017,8 @@
     type: browser
     name: UC Browser
     version: 13.1.2.1293
-    engine: WebKit
-    engine_version: "537.36"
+    engine: Blink
+    engine_version: "57.0.2987.108"
   device:
     type: smartphone
     brand: LG
@@ -1593,8 +1593,8 @@
     type: browser
     name: Quark
     version: 5.8.2.221
-    engine: WebKit
-    engine_version: "537.36"
+    engine: Blink
+    engine_version: "78.0.3904.108"
   device:
     type: smartphone
     brand: Nubia
@@ -2439,8 +2439,8 @@
     type: browser
     name: MIUI Browser
     version: 13.6.2
-    engine: WebKit
-    engine_version: "537.36"
+    engine: Blink
+    engine_version: "89.0.4389.116"
   device:
     type: smartphone
     brand: Xiaomi
@@ -3003,24 +3003,6 @@
     type: smartphone
     brand: Torque
     model: DROIDZ Atom S
-  os_family: Android
-  browser_family: Android Browser
--
-  user_agent: Mozilla/5.0 (Linux; U; Android 4.0.4; en-us; DROIDZ Drive+ Build/IMM76D) AppleWebKit/534.30 (KHTML like Gecko) Version/4.0 Mobile Safari/534.30
-  os:
-    name: Android
-    version: 4.0.4
-    platform: ""
-  client:
-    type: browser
-    name: Android Browser
-    version: ""
-    engine: WebKit
-    engine_version: "534.30"
-  device:
-    type: tablet
-    brand: Torque
-    model: DROIDZ Drive+
   os_family: Android
   browser_family: Android Browser
 -
@@ -5679,8 +5661,8 @@
     type: browser
     name: UC Browser
     version: 12.12.5.1189
-    engine: WebKit
-    engine_version: "537.36"
+    engine: Blink
+    engine_version: "57.0.2987.108"
   device:
     type: smartphone
     brand: ECOO
@@ -5733,8 +5715,8 @@
     type: browser
     name: UC Browser
     version: 12.9.7.1179
-    engine: WebKit
-    engine_version: "537.36"
+    engine: Blink
+    engine_version: "57.0.2987.108"
   device:
     type: smartphone
     brand: Lava
@@ -5769,8 +5751,8 @@
     type: browser
     name: UC Browser
     version: 13.1.2.1293
-    engine: WebKit
-    engine_version: "537.36"
+    engine: Blink
+    engine_version: "57.0.2987.108"
   device:
     type: smartphone
     brand: Lava
@@ -5787,8 +5769,8 @@
     type: browser
     name: UC Browser
     version: 12.11.8.1186
-    engine: WebKit
-    engine_version: "537.36"
+    engine: Blink
+    engine_version: "57.0.2987.108"
   device:
     type: smartphone
     brand: Mafe
@@ -6847,7 +6829,7 @@
     platform: ""
   client:
     type: browser
-    name: Iron
+    name: Android Browser
     version: ""
     engine: WebKit
     engine_version: "534.30"
@@ -6856,7 +6838,7 @@
     brand: Hammer
     model: Iron
   os_family: Android
-  browser_family: Chrome
+  browser_family: Android Browser
 -
   user_agent: Mozilla/5.0 (Linux; Android 11; V2180A) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.5112.105 Mobile Safari/537.36
   os:
@@ -6965,24 +6947,6 @@
     model: Maimang 4
   os_family: Android
   browser_family: Unknown
--
-  user_agent: Mozilla/5.0 (Linux; Android 7.1; HUAWEI MT2-L01) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Mobile Safari/537.36 OPR/58.4.2878.56737
-  os:
-    name: Android
-    version: "7.1"
-    platform: ""
-  client:
-    type: browser
-    name: Opera Mobile
-    version: 58.4.2878.56737
-    engine: Blink
-    engine_version: 81.0.4044.138
-  device:
-    type: phablet
-    brand: Huawei
-    model: Ascend Mate 2
-  os_family: Android
-  browser_family: Opera
 -
   user_agent: Mozilla/5.0 (Linux; Android 7.0; HUAWEI MLA-L12) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.88 Mobile Safari/537.36
   os:
@@ -8280,24 +8244,6 @@
   os_family: Android
   browser_family: Unknown
 -
-  user_agent: UCWEB/2.0 (MIDP-2.0; U; Adr 9; ru; Redmi_Note_8_Pro) U2/1.0.0 UCBrowser/11.0.6.1040 U2/1.0.0 Mobile
-  os:
-    name: Android
-    version: "9"
-    platform: ""
-  client:
-    type: browser
-    name: UC Browser
-    version: 11.0.6.1040
-    engine: ""
-    engine_version: ""
-  device:
-    type: phablet
-    brand: Xiaomi
-    model: Redmi Note 8 Pro
-  os_family: Android
-  browser_family: Unknown
--
   user_agent: Mozilla/5.0 (Linux; Android 9; Z3352CA) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.5005.78 Mobile Safari/537.36
   os:
     name: Android
@@ -9207,8 +9153,8 @@
     type: browser
     name: UC Browser
     version: 12.13.8.1210
-    engine: WebKit
-    engine_version: "537.36"
+    engine: Blink
+    engine_version: "57.0.2987.108"
   device:
     type: smartphone
     brand: Lava
@@ -9225,8 +9171,8 @@
     type: browser
     name: UC Browser
     version: 13.1.2.1293
-    engine: WebKit
-    engine_version: "537.36"
+    engine: Blink
+    engine_version: "57.0.2987.108"
   device:
     type: smartphone
     brand: Lava
@@ -9243,8 +9189,8 @@
     type: browser
     name: UC Browser
     version: 12.13.5.1209
-    engine: WebKit
-    engine_version: "537.36"
+    engine: Blink
+    engine_version: "57.0.2987.108"
   device:
     type: smartphone
     brand: Lava
@@ -9261,8 +9207,8 @@
     type: browser
     name: UC Browser
     version: 13.2.0.1296
-    engine: WebKit
-    engine_version: "537.36"
+    engine: Blink
+    engine_version: "57.0.2987.108"
   device:
     type: smartphone
     brand: MicroMax
@@ -9279,8 +9225,8 @@
     type: browser
     name: UC Browser
     version: 12.9.9.1155
-    engine: WebKit
-    engine_version: "537.36"
+    engine: Blink
+    engine_version: "57.0.2987.108"
   device:
     type: smartphone
     brand: MicroMax
@@ -9297,8 +9243,8 @@
     type: browser
     name: UC Browser
     version: 12.13.5.1209
-    engine: WebKit
-    engine_version: "537.36"
+    engine: Blink
+    engine_version: "57.0.2987.108"
   device:
     type: smartphone
     brand: MicroMax
@@ -9315,8 +9261,8 @@
     type: browser
     name: UC Browser
     version: 12.13.8.1210
-    engine: WebKit
-    engine_version: "537.36"
+    engine: Blink
+    engine_version: "57.0.2987.108"
   device:
     type: smartphone
     brand: MicroMax
@@ -9351,8 +9297,8 @@
     type: browser
     name: UC Browser Turbo
     version: 1.7.6.900
-    engine: WebKit
-    engine_version: "537.36"
+    engine: Blink
+    engine_version: "57.0.2987.108"
   device:
     type: smartphone
     brand: MicroMax
@@ -9387,8 +9333,8 @@
     type: browser
     name: UC Browser
     version: 12.8.5.1121
-    engine: WebKit
-    engine_version: "537.36"
+    engine: Blink
+    engine_version: "57.0.2987.108"
   device:
     type: smartphone
     brand: MicroMax
@@ -9423,8 +9369,8 @@
     type: browser
     name: UC Browser
     version: 12.9.7.1157
-    engine: WebKit
-    engine_version: "537.36"
+    engine: Blink
+    engine_version: "57.0.2987.108"
   device:
     type: smartphone
     brand: MicroMax
@@ -9441,8 +9387,8 @@
     type: browser
     name: UC Browser
     version: 13.3.0.1302
-    engine: WebKit
-    engine_version: "537.36"
+    engine: Blink
+    engine_version: "78.0.3904.108"
   device:
     type: smartphone
     brand: MicroMax
@@ -9459,8 +9405,8 @@
     type: browser
     name: UC Browser
     version: 12.9.9.1155
-    engine: WebKit
-    engine_version: "537.36"
+    engine: Blink
+    engine_version: "57.0.2987.108"
   device:
     type: smartphone
     brand: MicroMax
@@ -10069,8 +10015,8 @@
     type: browser
     name: MIUI Browser
     version: 13.13.2
-    engine: WebKit
-    engine_version: "537.36"
+    engine: Blink
+    engine_version: "100.0.4896.127"
   device:
     type: smartphone
     brand: POCO

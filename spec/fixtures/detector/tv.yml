@@ -1050,8 +1050,8 @@
     type: browser
     name: UC Browser
     version: 12.13.2.1208
-    engine: WebKit
-    engine_version: "537.36"
+    engine: Blink
+    engine_version: "57.0.2987.108"
   device:
     type: tv
     brand: Sunvell
@@ -1731,8 +1731,8 @@
 -
   user_agent: Mozilla/5.0 (Linux; Android 9; AFTEUFF014 Build/PMAIN1; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/70.0.3538.110 Mobile Safari/537.36 cordova-amazon-fireos/3.4.0 AmazonWebAppPlatform/3.4.0;2.0
   os:
-    name: Android
-    version: "9"
+    name: Fire OS
+    version: "7"
     platform: ""
   client:
     type: browser
@@ -1749,8 +1749,8 @@
 -
   user_agent: Mozilla/5.0 (Linux; Android 9; AFTEU011) AppleWebKit/537.36 (KHTML, like Gecko) Silk/80.1.145 like Chrome/80.0.3987.119 Safari/537.36
   os:
-    name: Android
-    version: "9"
+    name: Fire OS
+    version: "7"
     platform: ""
   client:
     type: browser
@@ -1767,8 +1767,8 @@
 -
   user_agent: Mozilla/5.0 (Linux; Android 9; AFTEU014 Build/PMAIN1; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/70.0.3538.110 Mobile Safari/537.36 cordova-amazon-fireos/3.4.0 AmazonWebAppPlatform/3.4.0;2.0
   os:
-    name: Android
-    version: "9"
+    name: Fire OS
+    version: "7"
     platform: ""
   client:
     type: browser
@@ -2154,8 +2154,8 @@
 -
   user_agent: Mozilla/5.0 (Linux; Android 7.1.2; AFTJMST12) AppleWebKit/537.36 (KHTML, like Gecko) Silk/79.5.1 like Chrome/79.0.3945.136 Safari/537.36
   os:
-    name: Android
-    version: 7.1.2
+    name: Fire OS
+    version: "6"
     platform: ""
   client:
     type: browser
@@ -2172,8 +2172,8 @@
 -
   user_agent: Mozilla/5.0 (Linux; Android 7.1.2; AFTEAMR311 Build/NS6269; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/70.0.3538.110 Mobile Safari/537.36
   os:
-    name: Android
-    version: 7.1.2
+    name: Fire OS
+    version: "6"
     platform: ""
   client:
     type: browser
@@ -2302,8 +2302,8 @@
 -
   user_agent: Mozilla/5.0 (Linux; Android 4.2.2; AFTB Build/JDQ39) AppleWebKit/537.22 (KHTML, like Gecko) Chrome/25.0.1364.173 Mobile Safari/537.22 cordova-amazon-fireos/3.4.0 AmazonWebAppPlatform/3.4.0;2.0
   os:
-    name: Android
-    version: 4.2.2
+    name: Fire OS
+    version: "3"
     platform: ""
   client:
     type: browser
@@ -2320,8 +2320,8 @@
 -
   user_agent: Mozilla/5.0 (Linux; Android 7.1.2; AFTN Build/NS6210; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/55.0.2883.91 Mobile Safari/537.36 cordova-amazon-fireos/3.4.0 AmazonWebAppPlatform/3.4.0;2.0
   os:
-    name: Android
-    version: 7.1.2
+    name: Fire OS
+    version: "6"
     platform: ""
   client:
     type: browser
@@ -2338,8 +2338,8 @@
 -
   user_agent: Mozilla/5.0 (Linux; Android 7.1.2; AFTA Build/NS6223) AppleWebKit/537.36 (KHTML, like Gecko) Silk/68.3.1 like Chrome/68.0.3440.85 Safari/537.36
   os:
-    name: Android
-    version: 7.1.2
+    name: Fire OS
+    version: "6"
     platform: ""
   client:
     type: browser
@@ -2356,8 +2356,8 @@
 -
   user_agent: Mozilla/5.0 (Linux; Android 9; AFTR Build/PMAIN1; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/70.0.3538.110 Mobile Safari/537.36 cordova-amazon-fireos/3.4.0 AmazonWebAppPlatform/3.4.0;2.0
   os:
-    name: Android
-    version: "9"
+    name: Fire OS
+    version: "7"
     platform: ""
   client:
     type: browser
@@ -2374,8 +2374,8 @@
 -
   user_agent: Mozilla/5.0 (Linux; Android 4.2.2; AFTM Build/JDQ39) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/34.0.0.0 Mobile Safari/537.36 cordova-amazon-fireos/3.4.0 AmazonWebAppPlatform/3.4.0;2.0
   os:
-    name: Android
-    version: 4.2.2
+    name: Fire OS
+    version: "3"
     platform: ""
   client:
     type: browser
@@ -2392,8 +2392,8 @@
 -
   user_agent: Mozilla/5.0 (Linux; Android 5.1.1; AFTT Build/LVY48F; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/49.0.2623.10
   os:
-    name: Android
-    version: 5.1.1
+    name: Fire OS
+    version: "5"
     platform: ""
   client:
     type: browser
@@ -2410,8 +2410,8 @@
 -
   user_agent: Mozilla/5.0 (Linux; Android 5.1.1; AFTS Build/LVY48F; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/55.0.28
   os:
-    name: Android
-    version: 5.1.1
+    name: Fire OS
+    version: "5"
     platform: ""
   client:
     type: browser
@@ -2849,8 +2849,8 @@
     type: browser
     name: Puffin
     version: 7.8.2.40664
-    engine: WebKit
-    engine_version: "537.36"
+    engine: Blink
+    engine_version: "69.0.3497.100"
   device:
     type: tv
     brand: Kivi
@@ -3004,8 +3004,8 @@
 -
   user_agent: Mozilla/5.0 (Linux; Android 5.1.1; AFTRS Build/LVY48F) AppleWebKit/537.36 (KHTML, like Gecko) Silk/65.2.1 like Chrome/65.0.3325.144 Safari/537.36
   os:
-    name: Android
-    version: 5.1.1
+    name: Fire OS
+    version: "5"
     platform: ""
   client:
     type: browser
@@ -3034,7 +3034,7 @@
   device:
     type: tv
     brand: LG
-    model: 49UH664V
+    model: 49UH664V-ZC
   os_family: Other Mobile
   browser_family: Chrome
 -
@@ -3052,7 +3052,7 @@
   device:
     type: tv
     brand: LG
-    model: 55UJ6307
+    model: 55UJ6307-ZA
   os_family: Other Mobile
   browser_family: Chrome
 -
@@ -3106,7 +3106,7 @@
   device:
     type: tv
     brand: LG
-    model: NetCast
+    model: 42LE5500-SA
   os_family: GNU/Linux
   browser_family: Unknown
 -
@@ -3124,7 +3124,7 @@
   device:
     type: tv
     brand: LG
-    model: NetCast
+    model: 47LM9600-NA
   os_family: GNU/Linux
   browser_family: Unknown
 -
@@ -3173,8 +3173,8 @@
     type: browser
     name: QtWebEngine
     version: 5.2.1
-    engine: WebKit
-    engine_version: "537.36"
+    engine: Blink
+    engine_version: "38.0.2125.122"
   device:
     type: tv
     brand: LG
@@ -3588,17 +3588,15 @@
     version: ""
     platform: ""
   client:
-    type: browser
-    name: Opera
-    version: "11.50"
-    engine: Presto
-    engine_version: 2.9.167
+    type: mediaplayer
+    name: DIGA
+    version: ""
   device:
     type: tv
     brand: Panasonic
     model: DIGA M9031
   os_family: GNU/Linux
-  browser_family: Opera
+  browser_family: Unknown
 -
   user_agent: Hybridcast/1.0 (;008045;PANATV1308;2;2;)
   os: [ ]
@@ -4791,8 +4789,8 @@
     type: browser
     name: TV Bro
     version: "1.0"
-    engine: WebKit
-    engine_version: "537.36"
+    engine: Blink
+    engine_version: "79.0.3945.93"
   device:
     type: tv
     brand: Sony
@@ -4827,8 +4825,8 @@
     type: browser
     name: TV Bro
     version: "1.0"
-    engine: WebKit
-    engine_version: "537.36"
+    engine: Blink
+    engine_version: "77.0.3865.92"
   device:
     type: tv
     brand: Sony
@@ -6213,8 +6211,8 @@
     type: browser
     name: QQ Browser
     version: "8.4"
-    engine: WebKit
-    engine_version: "537.36"
+    engine: Blink
+    engine_version: "57.0.2987.132"
   device:
     type: tv
     brand: Xiaomi
@@ -6429,8 +6427,8 @@
     type: browser
     name: UC Browser
     version: 12.13.0.1207
-    engine: WebKit
-    engine_version: "537.36"
+    engine: Blink
+    engine_version: "57.0.2987.108"
   device:
     type: tv
     brand: Zidoo
@@ -6465,8 +6463,8 @@
     type: browser
     name: TV Bro
     version: "1.0"
-    engine: WebKit
-    engine_version: "537.36"
+    engine: Blink
+    engine_version: "81.0.4044.111"
   device:
     type: tv
     brand: Vontar
@@ -6699,80 +6697,80 @@
   device:
     type: tv
     brand: Salora
-    model: ""
+    model: Smart TV (2017)
   os_family: GNU/Linux
   browser_family: Opera
 -
   user_agent: Zeasn/2.0 Mozilla/5.0 (Linux;CE-HTML/1.0;U;en), Chrome/49.0.2623.87 Safari/537.36 AppleWebKit 537.36 (KHTML, like Gecko) Tbrowser/2.0, _TV_UNKONWN/V8-NT563LA-LF1V250 (WESTPOINT,TETS-4919SM,wireless)
   os:
-    name: GNU/Linux
-    version: ""
+    name: Whale OS
+    version: "1"
     platform: ""
   client:
     type: browser
     name: T-Browser
     version: "2.0"
     engine: Blink
-    engine_version: "49.0.2623.87"
+    engine_version: 49.0.2623.87
   device:
     type: tv
     brand: Westpoint
     model: TETS-4919SM
-  os_family: GNU/Linux
+  os_family: Other Smart TV
   browser_family: Chrome
 -
   user_agent: Zeasn/2.0 NETTV/4.5.0 Mozilla/5.0 (Linux;CE-HTML/1.0;U;en), Chrome/42.0.2311.152 Safari/537.36 AppleWebKit 537.36 (KHTML, like Gecko) Tbrowser/2.0, _TV_nt563/V8-NT563LA-LF1V286 (KALLEY,55D1240,wireless)
   os:
-    name: GNU/Linux
-    version: ""
+    name: Whale OS
+    version: "1"
     platform: ""
   client:
     type: browser
     name: T-Browser
     version: "2.0"
     engine: Blink
-    engine_version: "42.0.2311.152"
+    engine_version: 42.0.2311.152
   device:
     type: tv
     brand: Kalley
     model: 55D1240
-  os_family: GNU/Linux
+  os_family: Other Smart TV
   browser_family: Chrome
 -
   user_agent: Zeasn/2.0 NETTV/4.5.0 Mozilla/5.0 (Linux;CE-HTML/1.0;U;en), Chrome/49.0.2623.87 Safari/537.36 AppleWebKit 537.36 (KHTML, like Gecko) Tbrowser/2.0, _TV_UNKONWN/V8-N563T01-LF1V196 (TCL,43S62FS,wired)
   os:
-    name: GNU/Linux
-    version: ""
+    name: Whale OS
+    version: "1"
     platform: ""
   client:
     type: browser
     name: T-Browser
     version: "2.0"
     engine: Blink
-    engine_version: "49.0.2623.87"
+    engine_version: 49.0.2623.87
   device:
     type: tv
     brand: TCL
     model: 43S62FS
-  os_family: GNU/Linux
+  os_family: Other Smart TV
   browser_family: Chrome
 -
   user_agent: Zeasn/2.0 NETTV/4.5.0 Mozilla/5.0 (Linux;CE-HTML/1.0;U;en), Chrome/42.0.2311.152 Safari/537.36 AppleWebKit 537.36 (KHTML, like Gecko) Tbrowser/2.0, _TV_nt563/V8-NT563NA-LF1V278 (JVC,32D1290,wireless)
   os:
-    name: GNU/Linux
-    version: ""
+    name: Whale OS
+    version: "1"
     platform: ""
   client:
     type: browser
     name: T-Browser
     version: "2.0"
     engine: Blink
-    engine_version: "42.0.2311.152"
+    engine_version: 42.0.2311.152
   device:
     type: tv
     brand: JVC
     model: 32D1290
-  os_family: GNU/Linux
+  os_family: Other Smart TV
   browser_family: Chrome
 -
   user_agent: Mozilla/5.0 (Linux armv7l) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/44.0.2403.130 Safari/537.36 OPR/31.0.1890.0 OMI/4.6.1.40.Dominik2.175 VSTVB MB100 HbbTV/1.2.1 (; JVC; MB110; 2.21.7.0; ;) SmartTvA/3.0.0
@@ -7029,56 +7027,56 @@
 -
   user_agent: Zeasn/2.0 NETTV/4.5.0 Mozilla/5.0 (Linux armv7i;CE-HTML/1.0;U;en), Chrome/61.0.3163.100 Safari/537.36 AppleWebKit 537.36 (KHTML, like Gecko) Tbrowser/2.0, _TV_UNKONWN/V8-NT563LA-LF1V200 (AKAI,AK3219NF,wireless)
   os:
-    name: GNU/Linux
-    version: ""
+    name: Whale OS
+    version: "1"
     platform: ARM
   client:
     type: browser
     name: T-Browser
     version: "2.0"
     engine: Blink
-    engine_version: "61.0.3163.100"
+    engine_version: 61.0.3163.100
   device:
     type: tv
     brand: Akai
     model: AK3219NF
-  os_family: GNU/Linux
+  os_family: Other Smart TV
   browser_family: Chrome
 -
   user_agent: Opera/9.80 Zeasn/2.0 NETTV/4.5.0 Mozilla/5.0 (Linux armv7i;CE-HTML/1.0;U;en), Chrome/42.0.2311.152 Safari/537.36 AppleWebKit 537.36 (KHTML, like Gecko) Tbrowser/2.0, _TV_MT5655/V8-S586T02-LF1V052 (THOMSON,55UC6306,wired)
   os:
-    name: GNU/Linux
-    version: ""
+    name: Whale OS
+    version: "1"
     platform: ARM
   client:
     type: browser
     name: T-Browser
     version: "2.0"
     engine: Blink
-    engine_version: "42.0.2311.152"
+    engine_version: 42.0.2311.152
   device:
     type: tv
     brand: Thomson
     model: 55UC6306
-  os_family: GNU/Linux
+  os_family: Other Smart TV
   browser_family: Chrome
 -
   user_agent: 'Zeasn/2.0 NETTV/4.5.0 Mozilla/5.0 (Linux;CE-HTML/1.0;U;en), Chrome/49.0.2623.87 Safari/537.36 AppleWebKit 537.36 (KHTML, like Gecko) Tbrowser/2.0, _TV_UNKONWN/V8-S586T02-LF1V425 (TCL,U43P60*6,wired)'
   os:
-    name: GNU/Linux
-    version: ""
+    name: Whale OS
+    version: "1"
     platform: ""
   client:
     type: browser
     name: T-Browser
     version: "2.0"
     engine: Blink
-    engine_version: "49.0.2623.87"
+    engine_version: 49.0.2623.87
   device:
     type: tv
     brand: TCL
     model: U43P60
-  os_family: GNU/Linux
+  os_family: Other Smart TV
   browser_family: Chrome
 -
   user_agent: Opera/9.80 (Linux mips; ) Presto/2.12.407 Version/12.51 MB95/3.3.8.n (AKAI, Si2157LG32, wireless)
@@ -7569,20 +7567,20 @@
 -
   user_agent: Opera/9.80 Zeasn/2.0 NETTV/4.5.0 Mozilla/5.0 (Linux armv7i;CE-HTML/1.0;U;en), Chrome/42.0.2311.152 Safari/537.36 AppleWebKit 537.36 (KHTML, like Gecko) Tbrowser/2.0, _TV_MT5655/V8-S586T02-LF1V089 (THOMSON,49UC6306,wired)
   os:
-    name: GNU/Linux
-    version: ""
+    name: Whale OS
+    version: "1"
     platform: ARM
   client:
     type: browser
     name: T-Browser
     version: "2.0"
     engine: Blink
-    engine_version: "42.0.2311.152"
+    engine_version: 42.0.2311.152
   device:
     type: tv
     brand: Thomson
     model: 49UC6306
-  os_family: GNU/Linux
+  os_family: Other Smart TV
   browser_family: Chrome
 -
   user_agent: Opera/9.80 NETTV/4.5.0 Mozilla/5.0 (Linux armv7i; CE-HTML/1.0; U; en) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/49.0.2623.75 Safari/537.36 NETRANGEMMH Tbrowser/2.0 _TV_NT563/V8-NT563LA-LF1V380 (Panasonic_S,43D1270,wireless)
@@ -7761,7 +7759,7 @@
   device:
     type: tv
     brand: Laurus
-    model: ""
+    model: Smart TV (2017)
   os_family: GNU/Linux
   browser_family: Opera
 -
@@ -7779,7 +7777,7 @@
   device:
     type: tv
     brand: Fuego
-    model: ""
+    model: Smart TV (2017)
   os_family: GNU/Linux
   browser_family: Opera
 -
@@ -7797,7 +7795,7 @@
   device:
     type: tv
     brand: Technika
-    model: ""
+    model: Smart TV (2017)
   os_family: GNU/Linux
   browser_family: Opera
 -
@@ -7851,7 +7849,7 @@
   device:
     type: tv
     brand: VOX
-    model: ""
+    model: Smart TV (2017)
   os_family: GNU/Linux
   browser_family: Opera
 -
@@ -7887,7 +7885,7 @@
   device:
     type: tv
     brand: WELLINGTON
-    model: ""
+    model: Smart TV (2017)
   os_family: GNU/Linux
   browser_family: Opera
 -
@@ -7905,7 +7903,7 @@
   device:
     type: tv
     brand: REGAL
-    model: ""
+    model: Smart TV (2017)
   os_family: GNU/Linux
   browser_family: Opera
 -
@@ -8031,7 +8029,7 @@
   device:
     type: tv
     brand: ALDI NORD
-    model: ""
+    model: Smart TV (2017)
   os_family: GNU/Linux
   browser_family: Opera
 -
@@ -8121,7 +8119,7 @@
   device:
     type: tv
     brand: Horizon
-    model: ""
+    model: Smart TV (2017)
   os_family: GNU/Linux
   browser_family: Opera
 -
@@ -8157,7 +8155,7 @@
   device:
     type: tv
     brand: Ok
-    model: ""
+    model: Smart TV (2017)
   os_family: GNU/Linux
   browser_family: Opera
 -
@@ -8175,7 +8173,7 @@
   device:
     type: tv
     brand: Essentielb
-    model: ""
+    model: Smart TV (2017)
   os_family: GNU/Linux
   browser_family: Opera
 -
@@ -8193,7 +8191,7 @@
   device:
     type: tv
     brand: Hi-Level
-    model: ""
+    model: Smart TV (2019)
   os_family: GNU/Linux
   browser_family: Opera
 -
@@ -8244,7 +8242,7 @@
   device:
     type: tv
     brand: Qilive
-    model: ""
+    model: Smart TV (2017)
   os_family: GNU/Linux
   browser_family: Opera
 -
@@ -8280,7 +8278,7 @@
   device:
     type: tv
     brand: SEG
-    model: ""
+    model: Smart TV (2017)
   os_family: GNU/Linux
   browser_family: Opera
 -
@@ -8316,7 +8314,7 @@
   device:
     type: tv
     brand: PROFiLO
-    model: ""
+    model: Smart TV (2017)
   os_family: GNU/Linux
   browser_family: Opera
 -
@@ -8370,7 +8368,7 @@
   device:
     type: tv
     brand: 'F&U'
-    model: ""
+    model: Smart TV (2017)
   os_family: GNU/Linux
   browser_family: Opera
 -
@@ -9165,7 +9163,7 @@
     engine_version: "55.0.2883.91"
   device:
     type: tv
-    brand: SWTV
+    brand: Skyworth
     model: SKWE20E21
   os_family: GNU/Linux
   browser_family: Chrome
@@ -9618,17 +9616,15 @@
     version: "10"
     platform: ""
   client:
-    type: browser
-    name: Seraphic Sraf
-    version: "5.0"
-    engine: Blink
-    engine_version: "73.0.3683.103"
+    type: mediaplayer
+    name: YouView
+    version: ""
   device:
     type: tv
     brand: Technicolor
     model: UZW4054TTG
   os_family: Android
-  browser_family: Chrome
+  browser_family: Unknown
 -
   user_agent: Mozilla/5.0 (QtEmbedded; U; Linux; C) AppleWebKit/534.34 (KHTML, like Gecko) SigmaDesigns/0.5 Safari/534.34; Westerndigital/Streamer2010/Gen3-2.02.01
   os:
