@@ -266,7 +266,7 @@ class DeviceDetector
   end
 
   def desktop_fragment?
-    user_agent =~ build_regex('Desktop (x(?:32|64)|WOW64);')
+    user_agent =~ build_regex('Desktop(?: (x(?:32|64)|WOW64))?;')
   end
 
   def touch_enabled?
