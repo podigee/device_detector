@@ -41,7 +41,7 @@ class DeviceDetector
 
     DESKTOP_OSS = Set.new(
       [
-        'AmigaOS', 'IBM', 'GNU/Linux', 'Mac', 'Unix', 'Windows', 'BeOS', 'Chrome OS'
+        'AmigaOS', 'IBM', 'GNU/Linux', 'Mac', 'Unix', 'Windows', 'BeOS', 'Chrome OS', 'Chromium OS'
       ]
     )
 
@@ -61,6 +61,7 @@ class DeviceDetector
       'QNX' => 'BlackBerry Tablet OS',
       'BOS' => 'Bliss OS',
       'BMP' => 'Brew',
+      'BSN' => 'BrightSignOS',
       'CAI' => 'Caixa Mágica',
       'CES' => 'CentOS',
       'CST' => 'CentOS Stream',
@@ -80,6 +81,7 @@ class DeviceDetector
       'FOR' => 'Foresight Linux',
       'FRE' => 'Freebox',
       'BSD' => 'FreeBSD',
+      'FRI' => 'FRITZ!OS',
       'FYD' => 'FydeOS',
       'FUC' => 'Fuchsia',
       'GNT' => 'Gentoo',
@@ -137,6 +139,8 @@ class DeviceDetector
       'PSP' => 'PlayStation Portable',
       'PS3' => 'PlayStation',
       'PUR' => 'PureOS',
+      'PIO' => 'Raspberry Pi OS',
+      'RAS' => 'Raspbian',
       'RHT' => 'Red Hat',
       'RED' => 'RedOS',
       'REV' => 'Revenge OS',
@@ -167,6 +171,7 @@ class DeviceDetector
       'TIV' => 'TiVo OS',
       'TOS' => 'TmaxOS',
       'UBT' => 'Ubuntu',
+      'UOS' => 'UOS',
       'VID' => 'VIDAA',
       'WAS' => 'watchOS',
       'WER' => 'Wear OS',
@@ -212,12 +217,13 @@ class DeviceDetector
         ORD TOS RSO DEE FRE MAG FEN CAI PCL HAS
         LOS DVK ROK OWR OTV KTV PUR PLA FUC PAR
         FOR MON KAN ZEN LND LNS CHN AMZ TEN CST
-        NOV ROU ZOR VID
+        NOV ROU ZOR RED KAL ORA VID TIV BSN RAS
+        UOS PIO FRI
       ],
       'Mac' => ['MAC'],
       'Mobile Gaming Console' => %w[PSP NDS XBX],
       'Real-time OS' => %w[MTK TDX MRE JME REX],
-      'Other Mobile' => %w[WOS POS SBA TIZ SMG MAE],
+      'Other Mobile' => %w[WOS POS SBA TIZ SMG MAE LUN],
       'Symbian' => %w[SYM SYS SY3 S60 S40],
       'Unix' => %w[SOS AIX HPX BSD NBS OBS DFB SYL IRI T64 INF],
       'WebTV' => ['WTV'],
