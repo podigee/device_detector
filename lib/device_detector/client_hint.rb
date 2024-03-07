@@ -69,7 +69,7 @@ class DeviceDetector
     # https://github.com/matomo-org/device-detector/blob/28211c6f411528abf41304e07b886fdf322a49b7/Parser/OperatingSystem.php#L330
     def android_app?
       %w[com.hisense.odinbrowser com.seraphic.openinet.pre
-         com.appssppa.idesktoppcbrowser].include?(app_name_from_headers)
+         com.appssppa.idesktoppcbrowser every.browser.inc].include?(app_name_from_headers)
     end
 
     def browser_name_from_list
@@ -162,6 +162,8 @@ class DeviceDetector
     def name_from_known_browsers(name)
       # https://github.com/matomo-org/device-detector/blob/be1c9ef486c247dc4886668da5ed0b1c49d90ba8/Parser/Client/Browser.php#L628
       return 'Chrome' if name == 'Google Chrome'
+      return 'Vewd Browser' if name == 'Vewd Core'
+      return 'DuckDuckGo Privacy Browser' if name == 'DuckDuckGo'
 
       available_browsers.find do |i|
         i == name ||

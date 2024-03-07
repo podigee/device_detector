@@ -163,7 +163,7 @@ class DeviceDetector
 
     # Devices running Kylo or Espital TV Browsers are assumed to be a TV
     t = 'tv' if ['Kylo', 'Espial TV Browser', 'LUJO TV Browser', 'LogicUI TV Browser',
-                 'Open TV Browser'].include?(name)
+                 'Open TV Browser', 'Crow Browser', 'Vewd Browser'].include?(name)
 
     # All devices containing TV fragment are assumed to be a tv
     t = 'tv' if t.nil? && user_agent =~ build_regex('\(TV;')
