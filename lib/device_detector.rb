@@ -92,6 +92,9 @@ class DeviceDetector
   def device_type
     t = device.type
 
+    # All devices containing VR fragment are assumed to be a wearable
+    t = 'wearable' if t.nil? && android_VR_fragment?
+
     # Chrome on Android passes the device type based on the keyword 'Mobile'
     # If it is present the device should be a smartphone, otherwise it's a tablet
     # See https://developer.chrome.com/multidevice/user-agent#chrome_for_android_user_agent
@@ -99,12 +102,15 @@ class DeviceDetector
     # that won't have a detected browser, but can still be detected. So we check the useragent for
     # Chrome instead.
     if t.nil? && os_family == 'Android' && user_agent =~ build_regex('Chrome\/[\.0-9]*')
-      if user_agent =~ build_regex('(?:Mobile|eliboM) Safari\/')
-        t = 'smartphone'
-      elsif user_agent =~ build_regex('(?!Mobile )Safari\/')
-        t = 'tablet'
-      end
+      t = if user_agent =~ build_regex('(?:Mobile|eliboM)')
+            'smartphone'
+          else
+            'tablet'
+          end
     end
+
+    # Some UA contain the fragment 'Pad/APad', so we assume those devices as tablets
+    t = 'tablet' if t.nil? && user_agent =~ build_regex('Pad/APad')
 
     # Some UA contain the fragment 'Android; Tablet;' or 'Opera Tablet', so we assume those devices
     # as tablets
@@ -161,13 +167,15 @@ class DeviceDetector
     # All devices running Tizen TV or SmartTV are assumed to be a tv
     t = 'tv' if t.nil? && tizen_samsung_tv?
 
-    # Devices running Kylo or Espital TV Browsers are assumed to be a TV
+    # Devices running those clients are assumed to be a TV
     t = 'tv' if ['Kylo', 'Espial TV Browser', 'LUJO TV Browser', 'LogicUI TV Browser',
-                 'Open TV Browser', 'Crow Browser', 'Vewd Browser'].include?(name)
+                 'Open TV Browser', 'Seraphic Sraf', 'Opera Devices', 'Crow Browser',
+                 'Vewd Browser', 'TiviMate', 'Quick Search TV'].include?(name)
 
     # All devices containing TV fragment are assumed to be a tv
     t = 'tv' if t.nil? && user_agent =~ build_regex('\(TV;')
 
+    # Set device type desktop if string ua contains desktop
     has_desktop = t != 'desktop' && desktop_string? && desktop_fragment?
     t = 'desktop' if has_desktop
 
@@ -263,6 +271,10 @@ class DeviceDetector
 
   def android_mobile_fragment?
     user_agent =~ build_regex('Android( [\.0-9]+)?; Mobile;')
+  end
+
+  def android_VR_fragment?
+    user_agent =~ build_regex('Android( [\.0-9]+)?; Mobile VR;| VR ')
   end
 
   def desktop_fragment?
