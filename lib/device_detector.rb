@@ -52,6 +52,8 @@ class DeviceDetector
   end
 
   def full_version
+    return fire_os_version if fire_os?
+
     client_hint.platform_version || client.full_version
   end
 
@@ -84,7 +86,7 @@ class DeviceDetector
 
     # Assume all devices running iOS / Mac OS are from Apple
     brand = device.brand
-    brand = 'Apple' if brand.nil? && %w[iPadOS tvOS watchOS iOS Mac].include?(os_name)
+    brand = 'Apple' if brand.nil? && apple_os?(os_name)
 
     brand
   end
@@ -93,7 +95,7 @@ class DeviceDetector
     t = device.type
 
     # All devices containing VR fragment are assumed to be a wearable
-    t = 'wearable' if t.nil? && android_VR_fragment?
+    t = 'wearable' if t.nil? && android_vr_fragment?
 
     # Chrome on Android passes the device type based on the keyword 'Mobile'
     # If it is present the device should be a smartphone, otherwise it's a tablet
@@ -241,9 +243,13 @@ class DeviceDetector
     @os ||= OS.new(user_agent)
   end
 
+  def apple_os?(os_name)
+    %w[iPadOS tvOS watchOS iOS Mac].include?(os_name)
+  end
+
   # https://github.com/matomo-org/device-detector/blob/827a3fab7e38c3274c18d2f5f5bc2a78b7ef4a3a/DeviceDetector.php#L921C5-L921C5
   def fake_ua?
-    os_name == 'Android' && device.brand == 'Apple'
+    device.brand == 'Apple' && !apple_os?(os_name)
   end
 
   # https://github.com/matomo-org/device-detector/blob/be1c9ef486c247dc4886668da5ed0b1c49d90ba8/Parser/Client/Browser.php#L772
@@ -273,7 +279,7 @@ class DeviceDetector
     user_agent =~ build_regex('Android( [\.0-9]+)?; Mobile;')
   end
 
-  def android_VR_fragment?
+  def android_vr_fragment?
     user_agent =~ build_regex('Android( [\.0-9]+)?; Mobile VR;| VR ')
   end
 
@@ -313,6 +319,18 @@ class DeviceDetector
     return false if uses_mobile_browser?
 
     os.desktop?
+  end
+
+  def fire_os_version
+    version = client_hint.platform_version
+    major_version = version[0, version.index('.')]
+    mapping = { '11': '8', '10': '8', '9': '7', '7': '6', '5': '5', '4.4.3': '4.5.1', '4.4.2': '4',
+                '4.2.2': '3', '4.0.3': '3', '4.0.2': '3', '4': '2', '2': '1' }
+    mapping[version] || mapping[major_version] || version
+  end
+
+  def fire_os?
+    os.name == 'Fire OS'
   end
 
   def build_regex(src)

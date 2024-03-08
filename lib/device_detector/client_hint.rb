@@ -60,8 +60,8 @@ class DeviceDetector
     private
 
     def extract_platform_version
-      return if  headers['Sec-CH-UA-Platform-Version'].nil?
-      return if  headers['Sec-CH-UA-Platform-Version'] == ''
+      return if headers['Sec-CH-UA-Platform-Version'].nil?
+      return if headers['Sec-CH-UA-Platform-Version'] == ''
 
       headers['Sec-CH-UA-Platform-Version']
     end
