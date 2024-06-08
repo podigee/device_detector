@@ -10,37 +10,37 @@
   client:
     type: library
     name: Wget
-    version: "1.11.4"
+    version: 1.11.4
 -
   user_agent: Wget/ (linux-gnu)
   client:
     type: library
     name: Wget
-    version:
+    version: ""
 -
   user_agent: curl/7.21.0 (i386-redhat-linux-gnu) libcurl/7.21.0 NSS/3.12.10.0 zlib/1.2.5 libidn/1.18 libssh2/1.2.4
   client:
     type: library
     name: curl
-    version: "7.21.0"
+    version: 7.21.0
 -
   user_agent: PycURL/7.19.3.1 libcurl/7.26.0 GnuTLS/2.12.20 zlib/1.2.7 libidn/1.25 libssh2/1.4.2 librtmp/2.3
   client:
     type: library
     name: curl
-    version: "7.26.0"
+    version: 7.26.0
 -
   user_agent: python-requests/1.2.0 CPython/2.7.3 Linux/3.8.0-33-generic
   client:
     type: library
     name: Python Requests
-    version: "1.2.0"
+    version: 1.2.0
 -
   user_agent: python-requests/1.2.0 CPython/2.7.5 Windows/7
   client:
     type: library
     name: Python Requests
-    version: "1.2.0"
+    version: 1.2.0
 -
   user_agent: Python-urllib/2.6
   client:
@@ -52,19 +52,19 @@
   client:
     type: library
     name: Python urllib
-    version:
+    version: ""
 -
   user_agent: Java/1.7.0_51
   client:
     type: library
     name: Java
-    version: "1.7.0"
+    version: 1.7.0
 -
   user_agent: Java1.1.4
   client:
     type: library
     name: Java
-    version: "1.1.4"
+    version: 1.1.4
 -
   user_agent: libwww-perl/5.69
   client:
@@ -82,31 +82,31 @@
   client:
     type: library
     name: Guzzle (PHP HTTP Client)
-    version: "3.9.3"
+    version: 3.9.3
 -
   user_agent: HTTP_Request2/2.3.0 (http://pear.php.net/package/http_request2) PHP/5.3.3
   client:
     type: library
     name: HTTP_Request2
-    version: "2.3.0"
+    version: 2.3.0
 -
   user_agent: Mechanize/2.7.3 Ruby/1.9.3p551 (http://github.com/sparklemotion/mechanize/)
   client:
     type: library
     name: Mechanize
-    version: "2.7.3"
+    version: 2.7.3
 -
   user_agent: Python/3.5 aiohttp/1.0.5
   client:
     type: library
     name: aiohttp
-    version: "1.0.5"
+    version: 1.0.5
 -
   user_agent: Google-HTTP-Java-Client/1.17.0-rc (gzip)
   client:
     type: library
     name: Google HTTP Java Client
-    version: "1.17.0-rc"
+    version: 1.17.0-rc
 -
   user_agent: WWW-Mechanize/1.73
   client:
@@ -118,7 +118,7 @@
   client:
     type: library
     name: Faraday
-    version: "0.9.1"
+    version: 0.9.1
 -
   user_agent: Go-http-client/1.1
   client:
@@ -142,7 +142,7 @@
   client:
     type: library
     name: urlgrabber (yum)
-    version: "3.9.1"
+    version: 3.9.1
 -
   user_agent: urlgrabber/3.10 yum/3.4.3
   client:
@@ -154,31 +154,31 @@
   client:
     type: library
     name: libdnf
-    version: "0.11.1"
+    version: 0.11.1
 -
   user_agent: HTTPie/1.0.2
   client:
     type: library
     name: HTTPie
-    version: "1.0.2"
+    version: 1.0.2
 -
   user_agent: rest-client/2.0.2 (linux-gnu x86_64) ruby/2.5.3p105
   client:
     type: library
     name: REST Client for Ruby
-    version: "2.0.2"
+    version: 2.0.2
 -
   user_agent: RestSharp/106.2.1.0
   client:
     type: library
     name: RestSharp
-    version: "106.2.1.0"
+    version: 106.2.1.0
 -
   user_agent: scalaj-http/2.4.0
   client:
     type: library
     name: ScalaJ HTTP
-    version: "2.4.0"
+    version: 2.4.0
 -
   user_agent: REST::Client/273
   client:
@@ -196,19 +196,19 @@
   client:
     type: library
     name: ReactorNetty
-    version: "0.9.10"
+    version: 0.9.10
 -
   user_agent: PostmanRuntime/7.9.1
   client:
     type: library
     name: Postman Desktop
-    version: "7.9.1"
+    version: 7.9.1
 -
   user_agent: insomnia/2022.6.0
   client:
     type: library
     name: Insomnia REST Client
-    version: "2022.6.0"
+    version: 2022.6.0
 -
   user_agent: Jakarta Commons-HttpClient/3.1
   client:
@@ -244,7 +244,7 @@
   client:
     type: library
     name: uTorrent
-    version:
+    version: ""
 -
   user_agent: aria2/1.33.1
   client:
@@ -262,7 +262,7 @@
   client:
     type: library
     name: uclient-fetch
-    version:
+    version: ""
 -
   user_agent: cpprestsdk/2.8.0
   client:
@@ -310,7 +310,7 @@
   client:
     type: library
     name: Windows HTTP
-    version:
+    version: ""
 -
   user_agent: 'Mozilla/5.0 (compatible; U; AnyEvent-HTTP/2.21;  http://software.schmorp.de/pkg/AnyEvent)'
   client:
@@ -346,7 +346,7 @@
   client:
     type: library
     name: fasthttp
-    version:
+    version: ""
 -
   user_agent: python-httpx/0.19.0
   client:
@@ -526,7 +526,7 @@
   client:
     type: library
     name: Axios
-    version: "1.2.0"
+    version: 1.2.0
 -
   user_agent: HTMLParser/1.6
   client:
@@ -557,3 +557,105 @@
     type: library
     name: FFUF
     version: 1.5.0
+-
+  user_agent: cpp-httplib/0.10.9
+  client:
+    type: library
+    name: cpp-httplib
+    version: 0.10.9
+-
+  user_agent: Definitely-Not-Requests
+  client:
+    type: library
+    name: Requests
+    version: ""
+-
+  user_agent: Stealer 0.2.0
+  client:
+    type: library
+    name: Stealer
+    version: 0.2.0
+-
+  user_agent: Mandrill-PHP/1.0.55
+  client:
+    type: library
+    name: Mandrill PHP
+    version: 1.0.55
+-
+  user_agent: babashka.http-client/0.4.14
+  client:
+    type: library
+    name: Babashka HTTP Client
+    version: 0.4.14
+-
+  user_agent: http.rb/4.0.0
+  client:
+    type: library
+    name: http.rb
+    version: 4.0.0
+-
+  user_agent: node-superagent/3.8.2
+  client:
+    type: library
+    name: superagent
+    version: 3.8.2
+-
+  user_agent: CakePHP
+  client:
+    type: library
+    name: CakePHP
+    version: ""
+-
+  user_agent: request.js
+  client:
+    type: library
+    name: request
+    version: ""
+-
+  user_agent: qbhttp/1.0.0
+  client:
+    type: library
+    name: QbHttp
+    version: 1.0.0
+-
+  user_agent: kiwi-tcms/13.0
+  client:
+    type: library
+    name: Kiwi TCMS
+    version: "13.0"
+-
+  user_agent: kiwi-tcms/12.6.1-Enterprise
+  client:
+    type: library
+    name: Kiwi TCMS
+    version: 12.6.1
+-
+  user_agent: 'tcms-api/12.9.1/Python 3.11.8 (main, Feb  7 2024, 04:02:05) [GCC 11.4.0]'
+  client:
+    type: library
+    name: Kiwi TCMS API
+    version: 12.9.1
+-
+  user_agent: tcms-api/12.7/Java
+  client:
+    type: library
+    name: Kiwi TCMS API
+    version: "12.7"
+-
+  user_agent: electron-fetch/1.0 electron (+https://github.com/arantes555/electron-fetch)
+  client:
+    type: library
+    name: Electron Fetch
+    version: "1.0"
+-
+  user_agent: httprs/0.1.0
+  client:
+    type: library
+    name: httprs
+    version: 0.1.0
+-
+  user_agent: Boto3/1.17.18 Python/3.8.5 Darwin/19.6.0 Botocore/1.20.18
+  client:
+    type: library
+    name: Boto3
+    version: 1.17.18

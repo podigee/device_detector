@@ -9,6 +9,10 @@
   name: 'Audacious'
   version: '$1'
 
+- regex: '(?:AlexaMediaPlayer/|^AlexaMediaPlayer/|^Echo/|Amazon;Echo(?:_|;)|^AlexaService/|^Alexa Mobile Voice/)([a-z\d]+\.[a-z.\d]+)?'
+  name: 'Alexa'
+  version: '$1'
+
 - regex: 'Banshee(?:[ /]([\d\.]+))?'
   name: 'Banshee'
   version: '$1'
@@ -168,6 +172,16 @@
   version: '$1'
 
 # Xtream Player (https://play.google.com/store/apps/details?id=com.devcoder.iptvxtreamplayer)
-- regex: 'com.devcoder.iptvxtreamplayer'
+- regex: 'com\.devcoder\.iptvxtreamplayer'
   name: 'Xtream Player'
   version: ''
+
+# DIGA (https://av.jpn.support.panasonic.com/support/global/cs/bd/diga_player/2013/android/index.html)
+- regex: 'DIGA(?:Plus/(\d+\.[.\d]+))?'
+  name: 'DIGA'
+  version: '$1'
+
+# YouView (https://www.youview.com/)
+- regex: 'YouView(?:HTML/(\d+\.[.\d]+))?'
+  name: 'YouView'
+  version: '$1'

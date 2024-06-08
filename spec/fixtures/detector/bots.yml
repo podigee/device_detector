@@ -7,7 +7,7 @@
     url: https://www.360monitoring.io
     producer:
       name: Plesk International GmbH
-      url: https://www.plesk.com   
+      url: https://www.plesk.com
 -
   user_agent: 360spider-image
   bot:
@@ -221,8 +221,8 @@
     category: Feed Fetcher
     url: https://awario.com/bots.html
     producer:
-      name: Awario
-      url: https://awario.com/
+      name: TechFusion Ltd.
+      url: https://www.techfusion.com.cy/
 -
   user_agent: AwarioSmartBot/1.0 (+https://awario.com/bots.html; bots@awario.com)
   bot:
@@ -230,8 +230,8 @@
     category: Search bot
     url: https://awario.com/bots.html
     producer:
-      name: Awario
-      url: https://awario.com/
+      name: TechFusion Ltd.
+      url: https://www.techfusion.com.cy/
 -
   user_agent: Mozilla/5.0 (compatible; BLEXBot/1.0; +http://webmeup-crawler.com/)
   bot:
@@ -912,30 +912,30 @@
 -
   user_agent: facebookexternalhit/1.1 (+http://www.facebook.com/externalhit_uatext.php)
   bot:
-    name: Facebook External Hit
+    name: Facebook Crawler
     category: Social Media Agent
-    url: https://www.facebook.com/externalhit_uatext.php
+    url: https://developers.facebook.com/docs/sharing/webmasters/crawler/
     producer:
-      name: Facebook
-      url: http://www.facebook.com
+      name: Meta Platforms, Inc.
+      url: https://www.meta.com/
 -
   user_agent: facebookexternalua
   bot:
-    name: Facebook External Hit
+    name: Facebook Crawler
     category: Social Media Agent
-    url: https://www.facebook.com/externalhit_uatext.php
+    url: https://developers.facebook.com/docs/sharing/webmasters/crawler/
     producer:
-      name: Facebook
-      url: http://www.facebook.com
+      name: Meta Platforms, Inc.
+      url: https://www.meta.com/
 -
   user_agent: facebookplatform/1.0 (+http://developers.facebook.com)
   bot:
-    name: Facebook External Hit
+    name: Facebook Crawler
     category: Social Media Agent
-    url: https://www.facebook.com/externalhit_uatext.php
+    url: https://developers.facebook.com/docs/sharing/webmasters/crawler/
     producer:
-      name: Facebook
-      url: http://www.facebook.com
+      name: Meta Platforms, Inc.
+      url: https://www.meta.com/
 -
   user_agent: Feed Wrangler/1.0 (3 subscribers; feed-id=248559; http://feedwrangler.net; Allow like Gecko)
   bot:
@@ -1085,15 +1085,39 @@
 -
   user_agent: Mozilla/5.0 (compatible; +http://tweetedtimes.com)
   bot:
-    name: Generic Bot
+    name: TweetedTimes Bot
+    category: Crawler
+    url: https://tweetedtimes.com/
+    producer:
+      name: TweetedTimes
+      url: https://tweetedtimes.com/
 -
   user_agent: Mozilla/5.0 (compatible; Shareaholicbot/2.0; +http://www.shareaholic.com/bot)
   bot:
-    name: Generic Bot
+    name: Steve Bot
+    category: Crawler
+    url: https://www.shareaholic.com/steve
+    producer:
+      name: Shareaholic, Inc.
+      url: https://www.shareaholic.com/
+-
+  user_agent: Mozilla/5.0 (compatible; Shareaholic/1.0; +http://www.shareaholic.com/steve)
+  bot:
+    name: Steve Bot
+    category: Crawler
+    url: https://www.shareaholic.com/steve
+    producer:
+      name: Shareaholic, Inc.
+      url: https://www.shareaholic.com/
 -
   user_agent: Mozilla/5.0 (compatible; TrendsmapResolver/0.1)
   bot:
-    name: Generic Bot
+    name: Trendsmap
+    category: Crawler
+    url: https://www.trendsmap.com/
+    producer:
+      name: Trendsmap Pty Ltd
+      url: https://www.trendsmap.com/
 -
   user_agent: niki-bot
   bot:
@@ -1145,7 +1169,7 @@
     url: ""
     producer:
       name: Google Inc.
-      url: http://www.google.com
+      url: https://www.google.com/
 -
   user_agent: DoCoMo/2.0 P900i(c100;TB;W24H11) (compatible; ichiro/mobile goo; +http://search.goo.ne.jp/option/use/sub4/sub4-1/)
   bot:
@@ -1168,7 +1192,7 @@
     url: http://developers.google.com/speed/pagespeed/insights/
     producer:
       name: Google Inc.
-      url: http://www.google.com
+      url: https://www.google.com/
 -
   user_agent: Mozilla/5.0 (Windows NT 5.1) AppleWebKit/535.1 (KHTML, like Gecko) Chrome/14.0.835.202 Safari/535.1 google_partner_monitoring FWSzVTDDBz14547302713138T
   bot:
@@ -1177,7 +1201,7 @@
     url: ""
     producer:
       name: Google Inc.
-      url: http://www.google.com
+      url: https://www.google.com/
 -
   user_agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko; Google Search Console) Chrome/41.0.2272.118 Safari/537.36
   bot:
@@ -1186,7 +1210,7 @@
     url: https://search.google.com/search-console/about
     producer:
       name: Google Inc.
-      url: http://www.google.com
+      url: https://www.google.com/
 -
   user_agent: Google-Structured-Data-Testing-Tool +https://search.google.com/structured-data/testing-tool)
   bot:
@@ -1195,313 +1219,313 @@
     url: https://search.google.com/structured-data/testing-tool
     producer:
       name: Google Inc.
-      url: http://www.google.com
+      url: https://www.google.com/
 -
   user_agent: AdsBot-Google (+http://www.google.com/adsbot.html)
   bot:
     name: Googlebot
     category: Search bot
-    url: http://www.google.com/bot.html
+    url: https://developers.google.com/search/docs/crawling-indexing/overview-google-crawlers
     producer:
       name: Google Inc.
-      url: http://www.google.com
+      url: https://www.google.com/
 -
   user_agent: AdsBot-Google-Mobile (+http://www.google.com/mobile/adsbot.html) Mozilla (iPhone; U; CPU iPhone OS 3 0 like Mac OS X) AppleWebKit (KHTML, like Gecko) Mobile Safari
   bot:
     name: Googlebot
     category: Search bot
-    url: http://www.google.com/bot.html
+    url: https://developers.google.com/search/docs/crawling-indexing/overview-google-crawlers
     producer:
       name: Google Inc.
-      url: http://www.google.com
+      url: https://www.google.com/
 -
   user_agent: APIs-Google (+https://developers.google.com/webmasters/APIs-Google.html)
   bot:
     name: Googlebot
     category: Search bot
-    url: http://www.google.com/bot.html
+    url: https://developers.google.com/search/docs/crawling-indexing/overview-google-crawlers
     producer:
       name: Google Inc.
-      url: http://www.google.com
+      url: https://www.google.com/
 -
   user_agent: DoCoMo/2.0 N905i(c100;TB;W24H16) (compatible; Googlebot-Mobile/2.1; +http://www.google.com/bot.html)
   bot:
     name: Googlebot
     category: Search bot
-    url: http://www.google.com/bot.html
+    url: https://developers.google.com/search/docs/crawling-indexing/overview-google-crawlers
     producer:
       name: Google Inc.
-      url: http://www.google.com
+      url: https://www.google.com/
 -
   user_agent: Feedfetcher-Google; (+http://www.google.com/feedfetcher.html; 19 subscribers; feed-id=13965549748850348809)
   bot:
     name: Googlebot
     category: Search bot
-    url: http://www.google.com/bot.html
+    url: https://developers.google.com/search/docs/crawling-indexing/overview-google-crawlers
     producer:
       name: Google Inc.
-      url: http://www.google.com
+      url: https://www.google.com/
 -
   user_agent: Feedfetcher-Google; (+http://www.google.com/feedfetcher.html; 2 subscribers; feed-id=17860707833818568603)
   bot:
     name: Googlebot
     category: Search bot
-    url: http://www.google.com/bot.html
+    url: https://developers.google.com/search/docs/crawling-indexing/overview-google-crawlers
     producer:
       name: Google Inc.
-      url: http://www.google.com
+      url: https://www.google.com/
 -
   user_agent: Feedfetcher-Google; (+http://www.google.com/feedfetcher.html; 375 subscribers; feed-id=15381863289700640853)
   bot:
     name: Googlebot
     category: Search bot
-    url: http://www.google.com/bot.html
+    url: https://developers.google.com/search/docs/crawling-indexing/overview-google-crawlers
     producer:
       name: Google Inc.
-      url: http://www.google.com
+      url: https://www.google.com/
 -
   user_agent: Google-AdWords-Express
   bot:
     name: Googlebot
     category: Search bot
-    url: http://www.google.com/bot.html
+    url: https://developers.google.com/search/docs/crawling-indexing/overview-google-crawlers
     producer:
       name: Google Inc.
-      url: http://www.google.com
+      url: https://www.google.com/
 -
   user_agent: Google-Adwords-Instant (+http://www.google.com/adsbot.html)
   bot:
     name: Googlebot
     category: Search bot
-    url: http://www.google.com/bot.html
+    url: https://developers.google.com/search/docs/crawling-indexing/overview-google-crawlers
     producer:
       name: Google Inc.
-      url: http://www.google.com
+      url: https://www.google.com/
 -
   user_agent: Google-speakr
   bot:
     name: Googlebot
     category: Search bot
-    url: http://www.google.com/bot.html
+    url: https://developers.google.com/search/docs/crawling-indexing/overview-google-crawlers
     producer:
       name: Google Inc.
-      url: http://www.google.com
+      url: https://www.google.com/
 -
   user_agent: Googlebot (gocrawl v0.4)
   bot:
     name: Googlebot
     category: Search bot
-    url: http://www.google.com/bot.html
+    url: https://developers.google.com/search/docs/crawling-indexing/overview-google-crawlers
     producer:
       name: Google Inc.
-      url: http://www.google.com
+      url: https://www.google.com/
 -
   user_agent: Googlebot-Image/1.0
   bot:
     name: Googlebot
     category: Search bot
-    url: http://www.google.com/bot.html
+    url: https://developers.google.com/search/docs/crawling-indexing/overview-google-crawlers
     producer:
       name: Google Inc.
-      url: http://www.google.com
+      url: https://www.google.com/
 -
   user_agent: Googlebot-News (2.3.3, ruby 1.9.3 (2013-11-22))
   bot:
-    name: Googlebot
+    name: Googlebot News
     category: Search bot
-    url: http://www.google.com/bot.html
+    url: https://developers.google.com/search/docs/crawling-indexing/overview-google-crawlers
     producer:
       name: Google Inc.
-      url: http://www.google.com
+      url: https://www.google.com/
 -
   user_agent: Googlebot-Video/1.0
   bot:
     name: Googlebot
     category: Search bot
-    url: http://www.google.com/bot.html
+    url: https://developers.google.com/search/docs/crawling-indexing/overview-google-crawlers
     producer:
       name: Google Inc.
-      url: http://www.google.com
+      url: https://www.google.com/
 -
   user_agent: Googlebot/2.1 (http://www.googlebot.com/bot.html)
   bot:
     name: Googlebot
     category: Search bot
-    url: http://www.google.com/bot.html
+    url: https://developers.google.com/search/docs/crawling-indexing/overview-google-crawlers
     producer:
       name: Google Inc.
-      url: http://www.google.com
+      url: https://www.google.com/
 -
   user_agent: Googlebot/Nutch-1.7
   bot:
     name: Googlebot
     category: Search bot
-    url: http://www.google.com/bot.html
+    url: https://developers.google.com/search/docs/crawling-indexing/overview-google-crawlers
     producer:
       name: Google Inc.
-      url: http://www.google.com
+      url: https://www.google.com/
 -
   user_agent: GoogleProducer; (+http://goo.gl/7y4SX)
   bot:
     name: Googlebot
     category: Search bot
-    url: http://www.google.com/bot.html
+    url: https://developers.google.com/search/docs/crawling-indexing/overview-google-crawlers
     producer:
       name: Google Inc.
-      url: http://www.google.com
+      url: https://www.google.com/
 -
   user_agent: Mediapartners-Google
   bot:
     name: Googlebot
     category: Search bot
-    url: http://www.google.com/bot.html
+    url: https://developers.google.com/search/docs/crawling-indexing/overview-google-crawlers
     producer:
       name: Google Inc.
-      url: http://www.google.com
+      url: https://www.google.com/
 -
   user_agent: Mozilla/5.0 (compatible) Feedfetcher-Google;(+http://www.google.com/feedfetcher.html)
   bot:
     name: Googlebot
     category: Search bot
-    url: http://www.google.com/bot.html
+    url: https://developers.google.com/search/docs/crawling-indexing/overview-google-crawlers
     producer:
       name: Google Inc.
-      url: http://www.google.com
+      url: https://www.google.com/
 -
   user_agent: Mozilla/5.0 (compatible; Google-Youtube-Links)
   bot:
     name: Googlebot
     category: Search bot
-    url: http://www.google.com/bot.html
+    url: https://developers.google.com/search/docs/crawling-indexing/overview-google-crawlers
     producer:
       name: Google Inc.
-      url: http://www.google.com
+      url: https://www.google.com/
 -
   user_agent: Mozilla/5.0 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)
   bot:
     name: Googlebot
     category: Search bot
-    url: http://www.google.com/bot.html
+    url: https://developers.google.com/search/docs/crawling-indexing/overview-google-crawlers
     producer:
       name: Google Inc.
-      url: http://www.google.com
+      url: https://www.google.com/
 -
   user_agent: Mozilla/5.0 (en-US) AppleWebKit/537.36 (KHTML, like Gecko; Google-Assess) Chrome/34.0.1847.116 Safari/537.36
   bot:
     name: Googlebot
     category: Search bot
-    url: http://www.google.com/bot.html
+    url: https://developers.google.com/search/docs/crawling-indexing/overview-google-crawlers
     producer:
       name: Google Inc.
-      url: http://www.google.com
+      url: https://www.google.com/
 -
   user_agent: Mozilla/5.0 (en-us) AppleWebKit/537.36(KHTML, like Gecko; Google-Adwords-DisplayAds-WebRender;) Chrome/41.0.2272.118Safari/537.36
   bot:
     name: Googlebot
     category: Search bot
-    url: http://www.google.com/bot.html
+    url: https://developers.google.com/search/docs/crawling-indexing/overview-google-crawlers
     producer:
       name: Google Inc.
-      url: http://www.google.com
+      url: https://www.google.com/
 -
   user_agent: Mozilla/5.0 (iPhone; CPU iPhone OS 6_0 like Mac OS X) AppleWebKit/536.26 (KHTML, like Gecko) Version/6.0 Mobile/10A5376e Safari/8536.25 (compatible; Googlebot-Mobile/2.1; +http://www.google.com/bot.html)
   bot:
     name: Googlebot
     category: Search bot
-    url: http://www.google.com/bot.html
+    url: https://developers.google.com/search/docs/crawling-indexing/overview-google-crawlers
     producer:
       name: Google Inc.
-      url: http://www.google.com
+      url: https://www.google.com/
 -
   user_agent: Mozilla/5.0 (Linux; Android 4.0.4; Galaxy Nexus Build/IMM76B) AppleWebKit/537.36 (KHTML, like Gecko; Google-Publisher-Plugin) Chrome/27.0.1453 Mobile Safari/537.36
   bot:
     name: Googlebot
     category: Search bot
-    url: http://www.google.com/bot.html
+    url: https://developers.google.com/search/docs/crawling-indexing/overview-google-crawlers
     producer:
       name: Google Inc.
-      url: http://www.google.com
+      url: https://www.google.com/
 -
   user_agent: Mozilla/5.0 (Linux; Android 6.0.1; Nexus 5X Build/MMB29P) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2272.96 Mobile Safari/537.36 (compatible; Google-AMPHTML)
   bot:
     name: Googlebot
     category: Search bot
-    url: http://www.google.com/bot.html
+    url: https://developers.google.com/search/docs/crawling-indexing/overview-google-crawlers
     producer:
       name: Google Inc.
-      url: http://www.google.com
+      url: https://www.google.com/
 -
   user_agent: Mozilla/5.0 (Linux; Android 6.0.1; Nexus 5X Build/MMB29P) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2272.96 Mobile Safari/537.36 (compatible; Google-Read-Aloud; +https://support.google.com/webmasters/answer/1061943)
   bot:
     name: Googlebot
     category: Search bot
-    url: http://www.google.com/bot.html
+    url: https://developers.google.com/search/docs/crawling-indexing/overview-google-crawlers
     producer:
       name: Google Inc.
-      url: http://www.google.com
+      url: https://www.google.com/
 -
   user_agent: Mozilla/5.0 (Linux; Android 8.0; Pixel 2 Build/OPD3.170816.012; DuplexWeb-Google/1.0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.131 Mobile Safari/537.36
   bot:
     name: Googlebot
     category: Search bot
-    url: http://www.google.com/bot.html
+    url: https://developers.google.com/search/docs/crawling-indexing/overview-google-crawlers
     producer:
       name: Google Inc.
-      url: http://www.google.com
+      url: https://www.google.com/
 -
   user_agent: Mozilla/5.0 (Windows NT 6.1; rv:6.0) Gecko/20110814 Firefox/6.0 Google (+https://developers.google.com/+/web/snippet/)
   bot:
     name: Googlebot
     category: Search bot
-    url: http://www.google.com/bot.html
+    url: https://developers.google.com/search/docs/crawling-indexing/overview-google-crawlers
     producer:
       name: Google Inc.
-      url: http://www.google.com
+      url: https://www.google.com/
 -
   user_agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/27.0.1453 Safari/537.36 (compatible; Google-HotelAdsVerifier/2.0)
   bot:
     name: Googlebot
     category: Search bot
-    url: http://www.google.com/bot.html
+    url: https://developers.google.com/search/docs/crawling-indexing/overview-google-crawlers
     producer:
       name: Google Inc.
-      url: http://www.google.com
+      url: https://www.google.com/
 -
   user_agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko; Google Web Preview) Chrome/27.0.1453 Safari/537.36
   bot:
     name: Googlebot
     category: Search bot
-    url: http://www.google.com/bot.html
+    url: https://developers.google.com/search/docs/crawling-indexing/overview-google-crawlers
     producer:
       name: Google Inc.
-      url: http://www.google.com
+      url: https://www.google.com/
 -
   user_agent: Mozilla/5.0 AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2272.118 Safari/537.36 (compatible; Google-Shopping-Quality +http://www.google.com/merchants/tos/extend/DE/tos.html)
   bot:
     name: Googlebot
     category: Search bot
-    url: http://www.google.com/bot.html
+    url: https://developers.google.com/search/docs/crawling-indexing/overview-google-crawlers
     producer:
       name: Google Inc.
-      url: http://www.google.com
+      url: https://www.google.com/
 -
   user_agent: Mozilla/5.0 AppleWebKit/537.36 (KHTML, like Gecko; compatible; Googlebot/2.1; +http://www.google.com/bot.html) Safari/537.36
   bot:
     name: Googlebot
     category: Search bot
-    url: http://www.google.com/bot.html
+    url: https://developers.google.com/search/docs/crawling-indexing/overview-google-crawlers
     producer:
       name: Google Inc.
-      url: http://www.google.com
+      url: https://www.google.com/
 -
   user_agent: SAMSUNG-SGH-E250/1.0 Profile/MIDP-2.0 Configuration/CLDC-1.1 UP.Browser/6.2.3.3.c.1.101 (GUI) MMP/2.0 (compatible; Googlebot-Mobile/2.1; +http://www.google.com/bot.html)
   bot:
     name: Googlebot
     category: Search bot
-    url: http://www.google.com/bot.html
+    url: https://developers.google.com/search/docs/crawling-indexing/overview-google-crawlers
     producer:
       name: Google Inc.
-      url: http://www.google.com
+      url: https://www.google.com/
 -
   user_agent: Grammarly/1.0 (http://www.grammarly.com)
   bot:
@@ -1717,7 +1741,8 @@
   user_agent: 'ltx71 - (http://ltx71.com/)'
   bot:
     name: LTX71
-    url: http://ltx71.com/
+    category: Security Checker
+    url: https://ltx71.com/
     producer:
       name: ""
       url: ""
@@ -1755,7 +1780,7 @@
     category: Site Monitor
     url: https://last-modified.com/en/about
     producer:
-      name:
+      name: ""
       url: https://last-modified.com/en
 -
   user_agent: linkdex.com/v2.0 and linkdex.com/v2.1
@@ -2182,6 +2207,15 @@
       name: Nuzzel
       url: https://www.nuzzel.com/
 -
+  user_agent: NodePing
+  bot:
+    name: NodePing
+    category: Site Monitor
+    url: https://nodeping.com
+    producer:
+      name: NodePing
+      url: https://nodeping.com
+-
   user_agent: Octopus 1.0.2
   bot:
     name: Octopus
@@ -2208,7 +2242,7 @@
   bot:
     name: OnlineOrNot Bot
     category: Site Monitor
-    url: "https://onlineornot.com/website-monitoring"
+    url: https://onlineornot.com/website-monitoring
     producer:
       name: OnlineOrNot
       url: https://onlineornot.com
@@ -2369,7 +2403,7 @@
       name: Pinterest
       url: https://www.pinterest.com/
 -
-  user_agent: Mozilla/5.0 (Linux; Android 6.0.1; Nexus 5X Build/MMB29P) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2272.96 Mobile Safari/537.36 (compatible; Pinterestbot/1.0;  https://www.pinterest.com/bot.html)
+  user_agent: 'Mozilla/5.0 (Linux; Android 6.0.1; Nexus 5X Build/MMB29P) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2272.96 Mobile Safari/537.36 (compatible; Pinterestbot/1.0;  https://www.pinterest.com/bot.html)'
   bot:
     name: Pinterest
     url: https://help.pinterest.com/en/business/article/pinterest-crawler
@@ -2614,12 +2648,12 @@
 -
   user_agent: Mozilla/5.0 (compatible; SemrushBot/0.97; +http://www.semrush.com/bot.html)
   bot:
-    name: Semrush Bot
+    name: SemrushBot
     category: Crawler
-    url: http://www.semrush.com/bot.html
+    url: https://www.semrush.com/bot/
     producer:
-      name: SEMrush
-      url: http://www.semrush.com
+      name: Semrush Inc.
+      url: https://www.semrush.com/
 -
   user_agent: SensikaBot/x.33 (+http://sensika.com)
   bot:
@@ -2906,13 +2940,13 @@
   user_agent: Mozilla/5.0 (compatible; SputnikBot/2.2)
   bot:
     name: Sputnik Bot
-    category: "Crawler"
+    category: Crawler
     url: ""
 -
   user_agent: Mozilla/5.0 (compatible; SputnikImageBot/2.2)
   bot:
     name: Sputnik Image Bot
-    category: "Crawler"
+    category: Crawler
     url: ""
 -
   user_agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_8_5) AppleWebKit/536.30.1 (KHTML, like Gecko) (compatible; Startpagina-Linkchecker/1.0; +https://www.startpagina.nl/linkchecker)
@@ -3034,19 +3068,19 @@
   bot:
     name: TweetedTimes Bot
     category: Crawler
-    url: http://tweetedtimes.com
+    url: https://tweetedtimes.com/
     producer:
       name: TweetedTimes
-      url: http://tweetedtimes.com/
+      url: https://tweetedtimes.com/
 -
   user_agent: TweetedTimes Bot/1.0 (Mozilla/5.0 Compatible, +http://tweetedtimes.com)
   bot:
     name: TweetedTimes Bot
     category: Crawler
-    url: http://tweetedtimes.com
+    url: https://tweetedtimes.com/
     producer:
       name: TweetedTimes
-      url: http://tweetedtimes.com/
+      url: https://tweetedtimes.com/
 -
   user_agent: Mozilla/5.0 (compatible; TweetmemeBot/3.0; +http://tweetmeme.com/)
   bot:
@@ -3103,30 +3137,30 @@
 -
   user_agent: Mozilla/5.0+(compatible; UptimeRobot/2.0; http://www.uptimerobot.com/)
   bot:
-    name: Uptime Robot
+    name: UptimeRobot
     category: Site Monitor
-    url: ""
+    url: https://uptimerobot.com/
     producer:
       name: Uptime Robot
-      url: http://uptimerobot.com
+      url: https://uptimerobot.com/
 -
   user_agent: Mozilla/5.0 (compatible; Uptimebot/1.0; +http://www.uptime.com/uptimebot)
   bot:
     name: Uptimebot
     category: Site Monitor
-    url: https://uptime.com/uptimebot
+    url: https://uptime.com/uptime-bot
     producer:
       name: Uptime
-      url: https://uptime.com
+      url: https://uptime.com/
 -
   user_agent: Mozilla/5.0 (compatible; vkShare; +http://vk.com/dev/Share)
   bot:
     name: VK Share Button
     category: Crawler
-    url: http://vk.com/dev/Share
+    url: https://dev.vk.com/en/widgets/share
     producer:
       name: VK
-      url: http://vk.com/
+      url: https://vk.com/
 -
   user_agent: 'Mozilla/4.0 (compatible;  Vagabondo/4.0; http://webagent.wise-guys.nl/; http://www.wise-guys.nl/)'
   bot:
@@ -3437,208 +3471,199 @@
   bot:
     name: Yandex Bot
     category: Search bot
-    url: http://www.yandex.com/bots
+    url: https://yandex.com/support/webmaster/robot-workings/check-yandex-robots.html
     producer:
       name: Yandex LLC
-      url: http://company.yandex.com
+      url: https://yandex.com/company/
 -
   user_agent: Mozilla/5.0 (compatible; YaDirectFetcher/1.0; +http://yandex.com/bots)
   bot:
     name: Yandex Bot
     category: Search bot
-    url: http://www.yandex.com/bots
+    url: https://yandex.com/support/webmaster/robot-workings/check-yandex-robots.html
     producer:
       name: Yandex LLC
-      url: http://company.yandex.com
+      url: https://yandex.com/company/
 -
   user_agent: Mozilla/5.0 (compatible; YandexAntivirus/2.0; +http://yandex.com/bots)
   bot:
     name: Yandex Bot
     category: Search bot
-    url: http://www.yandex.com/bots
+    url: https://yandex.com/support/webmaster/robot-workings/check-yandex-robots.html
     producer:
       name: Yandex LLC
-      url: http://company.yandex.com
+      url: https://yandex.com/company/
 -
   user_agent: Mozilla/5.0 (compatible; YandexAntivirus/2.0; +http://yandex.com/bots)
   bot:
     name: Yandex Bot
     category: Search bot
-    url: http://www.yandex.com/bots
+    url: https://yandex.com/support/webmaster/robot-workings/check-yandex-robots.html
     producer:
       name: Yandex LLC
-      url: http://company.yandex.com
+      url: https://yandex.com/company/
 -
   user_agent: Mozilla/5.0 (compatible; YandexBlogs/0.99; robot; B; +http://yandex.com/bots)
   bot:
     name: Yandex Bot
     category: Search bot
-    url: http://www.yandex.com/bots
+    url: https://yandex.com/support/webmaster/robot-workings/check-yandex-robots.html
     producer:
       name: Yandex LLC
-      url: http://company.yandex.com
--
-  user_agent: Mozilla/5.0 (compatible; YandexBlogs/0.99; robot; B; +http://yandex.com/bots)
-  bot:
-    name: Yandex Bot
-    category: Search bot
-    url: http://www.yandex.com/bots
-    producer:
-      name: Yandex LLC
-      url: http://company.yandex.com
+      url: https://yandex.com/company/
 -
   user_agent: Mozilla/5.0 (compatible; YandexBot/3.0; +http://yandex.com/bots)
   bot:
     name: Yandex Bot
     category: Search bot
-    url: http://www.yandex.com/bots
+    url: https://yandex.com/support/webmaster/robot-workings/check-yandex-robots.html
     producer:
       name: Yandex LLC
-      url: http://company.yandex.com
+      url: https://yandex.com/company/
 -
   user_agent: Mozilla/5.0 (compatible; YandexDirect/3.0; +http://yandex.com/bots)
   bot:
     name: Yandex Bot
     category: Search bot
-    url: http://www.yandex.com/bots
+    url: https://yandex.com/support/webmaster/robot-workings/check-yandex-robots.html
     producer:
       name: Yandex LLC
-      url: http://company.yandex.com
+      url: https://yandex.com/company/
 -
   user_agent: Mozilla/5.0 (compatible; YandexFavicons/1.0; +http://yandex.com/bots)
   bot:
     name: Yandex Bot
     category: Search bot
-    url: http://www.yandex.com/bots
+    url: https://yandex.com/support/webmaster/robot-workings/check-yandex-robots.html
     producer:
       name: Yandex LLC
-      url: http://company.yandex.com
+      url: https://yandex.com/company/
 -
   user_agent: Mozilla/5.0 (compatible; YandexImageResizer/2.0; +http://yandex.com/bots)
   bot:
     name: Yandex Bot
     category: Search bot
-    url: http://www.yandex.com/bots
+    url: https://yandex.com/support/webmaster/robot-workings/check-yandex-robots.html
     producer:
       name: Yandex LLC
-      url: http://company.yandex.com
+      url: https://yandex.com/company/
 -
   user_agent: Mozilla/5.0 (compatible; YandexImages/3.0; +http://yandex.com/bots)
   bot:
     name: Yandex Bot
     category: Search bot
-    url: http://www.yandex.com/bots
+    url: https://yandex.com/support/webmaster/robot-workings/check-yandex-robots.html
     producer:
       name: Yandex LLC
-      url: http://company.yandex.com
+      url: https://yandex.com/company/
 -
   user_agent: Mozilla/5.0 (compatible; YandexMetrika/2.0; +http://yandex.com/bots)
   bot:
     name: Yandex Bot
     category: Search bot
-    url: http://www.yandex.com/bots
+    url: https://yandex.com/support/webmaster/robot-workings/check-yandex-robots.html
     producer:
       name: Yandex LLC
-      url: http://company.yandex.com
+      url: https://yandex.com/company/
 -
   user_agent: Mozilla/5.0 (compatible; YandexMobileScreenShotBot/1.0; +http://yandex.com/bots)
   bot:
     name: Yandex Bot
     category: Search bot
-    url: http://www.yandex.com/bots
+    url: https://yandex.com/support/webmaster/robot-workings/check-yandex-robots.html
     producer:
       name: Yandex LLC
-      url: http://company.yandex.com
+      url: https://yandex.com/company/
 -
   user_agent: Mozilla/5.0 (compatible; YandexNews/3.0; +http://yandex.com/bots)
   bot:
     name: Yandex Bot
     category: Search bot
-    url: http://www.yandex.com/bots
+    url: https://yandex.com/support/webmaster/robot-workings/check-yandex-robots.html
     producer:
       name: Yandex LLC
-      url: http://company.yandex.com
+      url: https://yandex.com/company/
 -
   user_agent: Mozilla/5.0 (compatible; YandexNewslinks; +http://yandex.com/bots)
   bot:
     name: Yandex Bot
     category: Search bot
-    url: http://www.yandex.com/bots
+    url: https://yandex.com/support/webmaster/robot-workings/check-yandex-robots.html
     producer:
       name: Yandex LLC
-      url: http://company.yandex.com
+      url: https://yandex.com/company/
 -
   user_agent: Mozilla/5.0 (compatible; YandexOntoDB/1.0; +http://yandex.com/bots)
   bot:
     name: Yandex Bot
     category: Search bot
-    url: http://www.yandex.com/bots
+    url: https://yandex.com/support/webmaster/robot-workings/check-yandex-robots.html
     producer:
       name: Yandex LLC
-      url: http://company.yandex.com
+      url: https://yandex.com/company/
 -
   user_agent: Mozilla/5.0 (compatible; YandexOntoDBAPI/1.0; +http://yandex.com/bots)
   bot:
     name: Yandex Bot
     category: Search bot
-    url: http://www.yandex.com/bots
+    url: https://yandex.com/support/webmaster/robot-workings/check-yandex-robots.html
     producer:
       name: Yandex LLC
-      url: http://company.yandex.com
+      url: https://yandex.com/company/
 -
   user_agent: Mozilla/5.0 (compatible; YandexPartner/3.0; +http://yandex.com/bots)
   bot:
     name: Yandex Bot
     category: Search bot
-    url: http://www.yandex.com/bots
+    url: https://yandex.com/support/webmaster/robot-workings/check-yandex-robots.html
     producer:
       name: Yandex LLC
-      url: http://company.yandex.com
+      url: https://yandex.com/company/
 -
   user_agent: Mozilla/5.0 (compatible; YandexRCA/1.0; +http://yandex.com/bots)
   bot:
     name: Yandex Bot
     category: Search bot
-    url: http://www.yandex.com/bots
+    url: https://yandex.com/support/webmaster/robot-workings/check-yandex-robots.html
     producer:
       name: Yandex LLC
-      url: http://company.yandex.com
+      url: https://yandex.com/company/
 -
   user_agent: Mozilla/5.0 (compatible; YandexSearchShop/1.0; +http://yandex.com/bots)
   bot:
     name: Yandex Bot
     category: Search bot
-    url: http://www.yandex.com/bots
+    url: https://yandex.com/support/webmaster/robot-workings/check-yandex-robots.html
     producer:
       name: Yandex LLC
-      url: http://company.yandex.com
+      url: https://yandex.com/company/
 -
   user_agent: Mozilla/5.0 (compatible; YandexTracker/1.0; +http://yandex.com/bots)
   bot:
     name: Yandex Bot
     category: Search bot
-    url: http://www.yandex.com/bots
+    url: https://yandex.com/support/webmaster/robot-workings/check-yandex-robots.html
     producer:
       name: Yandex LLC
-      url: http://company.yandex.com
+      url: https://yandex.com/company/
 -
   user_agent: Mozilla/5.0 (compatible; YandexTurbo/1.0; +http://yandex.com/bots)
   bot:
     name: Yandex Bot
     category: Search bot
-    url: http://www.yandex.com/bots
+    url: https://yandex.com/support/webmaster/robot-workings/check-yandex-robots.html
     producer:
       name: Yandex LLC
-      url: http://company.yandex.com
+      url: https://yandex.com/company/
 -
   user_agent: Mozilla/5.0 (compatible; YandexVerticals/1.0; http://yandex.com/bots)
   bot:
     name: Yandex Bot
     category: Search bot
-    url: http://www.yandex.com/bots
+    url: https://yandex.com/support/webmaster/robot-workings/check-yandex-robots.html
     producer:
       name: Yandex LLC
-      url: http://company.yandex.com
+      url: https://yandex.com/company/
 -
   user_agent: Mozilla/5.0 (compatible; NaverJapan/1.0; +http://corp.naver.jp/)
   bot:
@@ -3941,10 +3966,10 @@
   bot:
     name: Googlebot
     category: Search bot
-    url: http://www.google.com/bot.html
+    url: https://developers.google.com/search/docs/crawling-indexing/overview-google-crawlers
     producer:
       name: Google Inc.
-      url: http://www.google.com
+      url: https://www.google.com/
 -
   user_agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; BDCbot/1.0; +http://bigweb.bigdatacorp.com.br/faq.aspx) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Safari/537.36
   bot:
@@ -4055,7 +4080,10 @@
   bot:
     name: Project Resonance
     category: Crawler
-    url: http://project-resonance.com
+    url: https://project-resonance.com/
+    producer:
+      name: RedHunt Labs Limited
+      url: https://redhuntlabs.com/
 -
   user_agent: Mozilla/5.0 (compatible; DataXu/1.0; +http://dataxu.com)
   bot:
@@ -4175,17 +4203,17 @@
     url: https://whatcms.org/
     category: Crawler
     producer:
-      name: "Nineteen Ten LLC"
-      url: "https://whatcms.org/"
+      name: Nineteen Ten LLC
+      url: https://whatcms.org/
 -
-  user_agent: httpx - Open-source project (github.com/projectdiscovery/httpx)
+  user_agent: 'httpx - Open-source project (github.com/projectdiscovery/httpx)'
   bot:
     name: httpx
     url: https://github.com/projectdiscovery/httpx
     category: Crawler
     producer:
-      name: ""
-      url: ""
+      name: ProjectDiscovery, Inc.
+      url: https://projectdiscovery.io/
 -
   user_agent: 'Expanse indexes the network perimeters of our customers. If you have any questions or concerns, please reach out to: scaninfo@expanseinc.com'
   bot:
@@ -4196,7 +4224,7 @@
       name: Expanse Inc.
       url: https://expanse.co/
 -
-  user_agent: 'HuaweiWebCatBot/6.0) (To acquire the allowed html pages as reliable information of URL categorization in the automatic process for Huawei Web Categorization.; https://isecurity.huawei.com/; sec at huawei dot com)'
+  user_agent: HuaweiWebCatBot/6.0) (To acquire the allowed html pages as reliable information of URL categorization in the automatic process for Huawei Web Categorization.; https://isecurity.huawei.com/; sec at huawei dot com)
   bot:
     name: HuaweiWebCatBot
     category: Crawler
@@ -4355,7 +4383,7 @@
     category: Crawler
     url: https://well-known.dev
 -
-  user_agent: Mozilla/5.0 (compatible; Adsbot/3.1;  https://seostar.co/robot/)
+  user_agent: 'Mozilla/5.0 (compatible; Adsbot/3.1;  https://seostar.co/robot/)'
   bot:
     name: Adsbot
     category: Crawler
@@ -4383,7 +4411,7 @@
       name: Netpeak Ltd
       url: https://netpeak.net/
 -
-  user_agent: colly - https://github.com/gocolly/colly/v2
+  user_agent: 'colly - https://github.com/gocolly/colly/v2'
   bot:
     name: colly
     category: Crawler
@@ -4405,7 +4433,7 @@
   bot:
     name: Seekport
     category: Crawler
-    url: http://www.seekport.com/
+    url: https://bot.seekport.com/
     producer:
       name: SISTRIX GmbH
       url: https://www.sistrix.de/
@@ -4462,7 +4490,7 @@
     name: K6
     url: https://k6.io/
 -
-  user_agent: Mozilla/5.0 (compatible; Neevabot/1.0;  https://neeva.com/neevabot)
+  user_agent: 'Mozilla/5.0 (compatible; Neevabot/1.0;  https://neeva.com/neevabot)'
   bot:
     name: Neevabot
     category: Search bot
@@ -4549,12 +4577,12 @@
 -
   user_agent: facebookcatalog/1.0
   bot:
-    name: Facebook External Hit
+    name: Facebook Crawler
     category: Social Media Agent
-    url: https://www.facebook.com/externalhit_uatext.php
+    url: https://developers.facebook.com/docs/sharing/webmasters/crawler/
     producer:
-      name: Facebook
-      url: http://www.facebook.com
+      name: Meta Platforms, Inc.
+      url: https://www.meta.com/
 -
   user_agent: Mozilla/5.0 (compatible; Linespider/1.1; https://lin.ee/4dwXkTH)
   bot:
@@ -4614,10 +4642,10 @@
   bot:
     name: Googlebot
     category: Search bot
-    url: http://www.google.com/bot.html
+    url: https://developers.google.com/search/docs/crawling-indexing/overview-google-crawlers
     producer:
       name: Google Inc.
-      url: http://www.google.com
+      url: https://www.google.com/
 -
   user_agent: cortex/1.0
   bot:
@@ -4627,10 +4655,10 @@
   bot:
     name: Googlebot
     category: Search bot
-    url: http://www.google.com/bot.html
+    url: https://developers.google.com/search/docs/crawling-indexing/overview-google-crawlers
     producer:
       name: Google Inc.
-      url: http://www.google.com
+      url: https://www.google.com/
 -
   user_agent: Mozilla/5.0 (compatible; TigerBot/8.69; Tiger.ch)
   bot:
@@ -4672,10 +4700,10 @@
   bot:
     name: Googlebot
     category: Search bot
-    url: http://www.google.com/bot.html
+    url: https://developers.google.com/search/docs/crawling-indexing/overview-google-crawlers
     producer:
       name: Google Inc.
-      url: http://www.google.com
+      url: https://www.google.com/
 -
   user_agent: CrowdTanglebot/1.0
   bot:
@@ -4755,7 +4783,7 @@
     category: Crawler
     url: http://abonti.com/
 -
-  user_agent: 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36; +collection@infegy.com'
+  user_agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36; +collection@infegy.com
   bot:
     name: Infegy
     category: Crawler
@@ -5060,8 +5088,8 @@
     category: Crawler
     url: https://www.zaldamo.com/search.html
     producer:
-      name: Project Orlando, LLC.
-      url: https://www.projectorlando.com/
+      name: Zaldamo, LLC.
+      url: https://www.zaldamo.com/
 -
   user_agent: Anarchy99
   bot:
@@ -5114,11 +5142,11 @@
 -
   user_agent: Mozilla/5.0 (compatible; SerpReputationManagementAgent/1.0)
   bot:
-    name: SEMrush Reputation Management
+    name: Semrush Reputation Management
     category: Service Agent
     url: https://www.semrush.com/bot/
     producer:
-      name: SEMrush
+      name: Semrush Inc.
       url: https://www.semrush.com/
 -
   user_agent: panscient.com
@@ -5130,9 +5158,23 @@
       name: Panscient, Inc.
       url: https://www.panscient.com/
 -
+  user_agent: daumoa,damoa,daum,daumos,duamoa,duam,duamo
+  bot:
+    name: Daum
+    category: Search bot
+    url: http://tab.search.daum.net/aboutWebSearch_en.html
+    producer:
+      name: Daum Communications Corp.
+      url: http://www.kakaocorp.com/main
+-
   user_agent: daumoa,damoa,daum,daumos,duamoa,duam,duamos
   bot:
-    name: Generic Bot
+    name: Daum
+    category: Search bot
+    url: http://tab.search.daum.net/aboutWebSearch_en.html
+    producer:
+      name: Daum Communications Corp.
+      url: http://www.kakaocorp.com/main
 -
   user_agent: "'Cloud mapping experiment. Contact research@pdrlabs.net'"
   bot:
@@ -5441,10 +5483,10 @@
   bot:
     name: Googlebot
     category: Search bot
-    url: http://www.google.com/bot.html
+    url: https://developers.google.com/search/docs/crawling-indexing/overview-google-crawlers
     producer:
       name: Google Inc.
-      url: http://www.google.com
+      url: https://www.google.com/
 -
   user_agent: Mozilla/5.0 (iplabel; Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.75 Safari/537.36
   bot:
@@ -5550,10 +5592,10 @@
   bot:
     name: Googlebot
     category: Search bot
-    url: http://www.google.com/bot.html
+    url: https://developers.google.com/search/docs/crawling-indexing/overview-google-crawlers
     producer:
       name: Google Inc.
-      url: http://www.google.com
+      url: https://www.google.com/
 -
   user_agent: 'hackermention <https://hackermention.appspot.com/>'
   bot:
@@ -5570,13 +5612,13 @@
       name: BitSight Technologies, Inc.
       url: https://www.bitsight.com/
 -
-  user_agent: 'Mozilla/5.0 (compatible; Ezgif/1.0; +https://ezgif.com/about)'
+  user_agent: Mozilla/5.0 (compatible; Ezgif/1.0; +https://ezgif.com/about)
   bot:
     name: Ezgif
     category: Service Agent
     url: https://ezgif.com/about
 -
-  user_agent: 'Mozilla/5.0 (compatible; intelx.io_bot +https://intelx.io)'
+  user_agent: Mozilla/5.0 (compatible; intelx.io_bot +https://intelx.io)
   bot:
     name: Intelligence X
     category: Crawler
@@ -5594,7 +5636,7 @@
       name: Grier Forensics, LLC
       url: https://www.grierforensics.com/
 -
-  user_agent: 'AdsTxtCrawler/1.0; +https://github.com/InteractiveAdvertisingBureau/adstxtcrawler'
+  user_agent: AdsTxtCrawler/1.0; +https://github.com/InteractiveAdvertisingBureau/adstxtcrawler
   bot:
     name: AdsTxtCrawler
     category: Crawler
@@ -5741,7 +5783,7 @@
   user_agent: RepoLookoutBot/v1.1.0-209-g2b273e8 (abuse reports to abuse@repo-lookout.org)
   bot:
     name: Repo Lookout
-    category: Crawler
+    category: Security Checker
     url: https://www.repo-lookout.org/
     producer:
       name: Crissy Field GmbH
@@ -5769,10 +5811,10 @@
   bot:
     name: Googlebot
     category: Search bot
-    url: http://www.google.com/bot.html
+    url: https://developers.google.com/search/docs/crawling-indexing/overview-google-crawlers
     producer:
       name: Google Inc.
-      url: http://www.google.com
+      url: https://www.google.com/
 -
   user_agent: Mozilla/5.0 AppleWebKit/537.36 (KHTML, like Gecko; compatible; GPTBot/1.0; +https://openai.com/gptbot)
   bot:
@@ -5787,19 +5829,19 @@
   bot:
     name: Googlebot
     category: Search bot
-    url: http://www.google.com/bot.html
+    url: https://developers.google.com/search/docs/crawling-indexing/overview-google-crawlers
     producer:
       name: Google Inc.
-      url: http://www.google.com
+      url: https://www.google.com/
 -
   user_agent: GoogleOther
   bot:
     name: Googlebot
     category: Search bot
-    url: http://www.google.com/bot.html
+    url: https://developers.google.com/search/docs/crawling-indexing/overview-google-crawlers
     producer:
       name: Google Inc.
-      url: http://www.google.com
+      url: https://www.google.com/
 -
   user_agent: Ant.com beta/1.0 (Crawling antmarks; https://www.ant.com; admin@ant.com)
   bot:
@@ -5828,6 +5870,15 @@
     name: phpMyAdmin
     category: Service Agent
     url: https://www.phpmyadmin.net/
+-
+  user_agent: Trackable/0.1 NNjCeA
+  bot:
+    name: Chartable
+    category: Site Monitor
+    url: https://help.chartable.com/article/34-what-is-the-trackable-analytics-prefix
+    producer:
+      name: Chartable
+      url: https://chartable.com
 -
   user_agent: Matomo/4.15.1
   bot:
@@ -5881,3 +5932,1795 @@
     producer:
       name: Meltwater Deutschland GmbH
       url: https://www.meltwater.com/
+-
+  user_agent: Owler@ows.eu/1
+  bot:
+    name: OWLer
+    category: Crawler
+    url: https://openwebsearch.eu/owler/
+    producer:
+      name: Open Search Foundation e.V.
+      url: https://openwebsearch.eu/
+-
+  user_agent: OWLer/0.1 (built with StormCrawler; https://ows.eu/owler; owl@ow-s.eu
+  bot:
+    name: OWLer
+    category: Crawler
+    url: https://openwebsearch.eu/owler/
+    producer:
+      name: Open Search Foundation e.V.
+      url: https://openwebsearch.eu/
+-
+  user_agent: Page Monitor (https://confluence.dev.bbc.co.uk/display/men/Page+Monitor)
+  bot:
+    name: BBC Page Monitor
+    category: Site Monitor
+    url: https://confluence.dev.bbc.co.uk/display/men/Page+Monitor
+    producer:
+      name: BBC
+      url: https://www.bbc.com/
+-
+  user_agent: BBC-Forge-URL-Monitor-Twisted
+  bot:
+    name: BBC Forge URL Monitor
+    category: Site Monitor
+    url: https://www.bbc.com/
+    producer:
+      name: BBC
+      url: https://www.bbc.com/
+-
+  user_agent: ClaudeBot
+  bot:
+    name: ClaudeBot
+    category: Crawler
+    url: https://github.com/ClaudeBot/ClaudeBot
+-
+  user_agent: TheSafeInternetSearch
+  bot:
+    name: Generic Bot
+-
+  user_agent: TheSafexInternetSearcher
+  bot:
+    name: Generic Bot
+-
+  user_agent: TheSafeInternetxSearch
+  bot:
+    name: Generic Bot
+-
+  user_agent: TheSafexInternetSearch
+  bot:
+    name: Generic Bot
+-
+  user_agent: Mozilla/5.0 (compatible; ImagesiftBot; +imagesift.com)
+  bot:
+    name: ImageSift
+    category: Crawler
+    url: https://imagesift.com/
+    producer:
+      name: Castle Global, Inc.
+      url: https://thehive.ai/
+-
+  user_agent: TactiScout/recruit (+http://find-it.world/TempCrawl/Crawltheque.php)
+  bot:
+    name: TactiScout
+    category: Crawler
+    url: https://find-it.world/TempCrawl/Crawltheque.php
+    producer:
+      name: Tactikast
+-
+  user_agent: Brightbot 1.0
+  bot:
+    name: BrightBot
+    category: Crawler
+    url: https://www.brightbot.app/
+    producer:
+      name: Bright Interactive Ltd
+      url: https://www.builtbybright.com/
+-
+  user_agent: DaspeedBot/1.0 (+https://daspeed.io/bot-info)
+  bot:
+    name: DaspeedBot
+    category: Crawler
+    url: https://daspeed.io/
+    producer:
+      name: DAWAP SARL
+      url: https://dawap.fr/
+-
+  user_agent: AntBot
+  bot:
+    name: Ant
+    category: Crawler
+    url: https://www.ant.com/
+    producer:
+      name: Ant.com Ltd.
+      url: https://www.ant.com/
+-
+  user_agent: AntBot/1.0 (http://www.ant.com)
+  bot:
+    name: Ant
+    category: Crawler
+    url: https://www.ant.com/
+    producer:
+      name: Ant.com Ltd.
+      url: https://www.ant.com/
+-
+  user_agent: Mozilla/5.0 (compatible; StractBot/0.1; open source search engine; +https://stract.com/webmasters)
+  bot:
+    name: Stract
+    category: Crawler
+    url: https://stract.com/webmasters
+    producer:
+      name: Stract
+      url: https://github.com/StractOrg/stract/
+-
+  user_agent: Mozilla/5.0 (compatible; GeedoBot; +http://www.geedo.com/bot.html)
+  bot:
+    name: GeedoBot
+    category: Crawler
+    url: https://geedo.com/bot/
+-
+  user_agent: Mozilla/5.0 (compatible; BackupLand/1.0; https://go.backupland.com/; Domain check for viruses;)
+  bot:
+    name: BackupLand
+    category: Crawler
+    url: https://go.backupland.com/
+    producer:
+      name: ООО «КВАРТА»
+      url: https://go.backupland.com/
+-
+  user_agent: Mozilla/5.0 (compatible; Konturbot/1.2; +http://kontur.ru; cargo@kontur.ru)
+  bot:
+    name: Konturbot
+    category: Crawler
+    url: https://kontur.ru/
+    producer:
+      name: АО «ПФ «СКБ Контур»
+      url: https://kontur.ru/
+-
+  user_agent: Mozilla/5.0 (keys-so-bot)
+  bot:
+    name: Keys.so
+    category: Crawler
+    url: https://www.keys.so/
+    producer:
+      name: ООО «МОДЕСКО»
+      url: https://www.modesco.ru/
+-
+  user_agent: Mozilla/5.0 (compatible; LetsearchBot/1.0; +https://letsearch.ru/bots)
+  bot:
+    name: LetSearch
+    category: Crawler
+    url: https://letsearch.ru/bots
+-
+  user_agent: Mozilla/5.0 (compatible; Example3/1.0; +https://www.example3.com/domain/example.com)
+  bot:
+    name: Example3
+    category: Crawler
+    url: https://www.example3.com/
+-
+  user_agent: P3P Validator
+  bot:
+    name: W3C P3P Validator
+    category: Validator
+    url: https://www.w3.org/P3P/validator.html
+    producer:
+      name: W3C
+      url: https://www.w3.org
+-
+  user_agent: kirkland-signature
+  bot:
+    name: Generic Bot
+-
+  user_agent: Mozilla/5.0 (compatible; StatOnlineRuBot/1.0)
+  bot:
+    name: StatOnline.ru
+    category: Crawler
+    url: https://statonline.ru/
+    producer:
+      name: ООО «Регистратор доменных имен РЕГ.РУ»
+      url: https://statonline.ru/
+-
+  user_agent: Mozilla/5.0 (compatible; YandexRenderResourcesBot/1.0; +http://yandex.com/bots) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.268
+  bot:
+    name: Yandex Bot
+    category: Search bot
+    url: https://yandex.com/support/webmaster/robot-workings/check-yandex-robots.html
+    producer:
+      name: Yandex LLC
+      url: https://yandex.com/company/
+-
+  user_agent: Mozilla/5.0 (compatible; YandexAccessibilityBot/3.0; +http://yandex.com/bots)
+  bot:
+    name: Yandex Bot
+    category: Search bot
+    url: https://yandex.com/support/webmaster/robot-workings/check-yandex-robots.html
+    producer:
+      name: Yandex LLC
+      url: https://yandex.com/company/
+-
+  user_agent: Mozilla/5.0 (compatible; YandexAdNet/1.0; +http://yandex.com/bots)
+  bot:
+    name: Yandex Bot
+    category: Search bot
+    url: https://yandex.com/support/webmaster/robot-workings/check-yandex-robots.html
+    producer:
+      name: Yandex LLC
+      url: https://yandex.com/company/
+-
+  user_agent: Mozilla/5.0 (compatible; YandexCalendar/1.0; +http://yandex.com/bots)
+  bot:
+    name: Yandex Bot
+    category: Search bot
+    url: https://yandex.com/support/webmaster/robot-workings/check-yandex-robots.html
+    producer:
+      name: Yandex LLC
+      url: https://yandex.com/company/
+-
+  user_agent: Mozilla/5.0 (compatible; YandexDirectDyn/1.0; +http://yandex.com/bots
+  bot:
+    name: Yandex Bot
+    category: Search bot
+    url: https://yandex.com/support/webmaster/robot-workings/check-yandex-robots.html
+    producer:
+      name: Yandex LLC
+      url: https://yandex.com/company/
+-
+  user_agent: Mozilla/5.0 (compatible; YandexForDomain/1.0; +http://yandex.com/bots)
+  bot:
+    name: Yandex Bot
+    category: Search bot
+    url: https://yandex.com/support/webmaster/robot-workings/check-yandex-robots.html
+    producer:
+      name: Yandex LLC
+      url: https://yandex.com/company/
+-
+  user_agent: Mozilla/5.0 (iPhone; CPU iPhone OS 8_1 like Mac OS X) AppleWebKit/600.1.4 (KHTML, like Gecko) Version/8.0 Mobile/12B411 Safari/600.1.4 (compatible; YandexMobileBot/3.0; +http://yandex.com/bots)
+  bot:
+    name: Yandex Bot
+    category: Search bot
+    url: https://yandex.com/support/webmaster/robot-workings/check-yandex-robots.html
+    producer:
+      name: Yandex LLC
+      url: https://yandex.com/company/
+-
+  user_agent: Mozilla/5.0 (compatible; YandexMarket/2.0; +http://yandex.com/bots)
+  bot:
+    name: Yandex Bot
+    category: Search bot
+    url: https://yandex.com/support/webmaster/robot-workings/check-yandex-robots.html
+    producer:
+      name: Yandex LLC
+      url: https://yandex.com/company/
+-
+  user_agent: Mozilla/5.0 (compatible; YandexMedia/3.0; +http://yandex.com/bots)
+  bot:
+    name: Yandex Bot
+    category: Search bot
+    url: https://yandex.com/support/webmaster/robot-workings/check-yandex-robots.html
+    producer:
+      name: Yandex LLC
+      url: https://yandex.com/company/
+-
+  user_agent: Mozilla/5.0 (compatible; YandexPagechecker/1.0; +http://yandex.com/bots)
+  bot:
+    name: Yandex Bot
+    category: Search bot
+    url: https://yandex.com/support/webmaster/robot-workings/check-yandex-robots.html
+    producer:
+      name: Yandex LLC
+      url: https://yandex.com/company/
+-
+  user_agent: Mozilla/5.0 (compatible; YandexSitelinks; Dyatel; +http://yandex.com/bots)
+  bot:
+    name: Yandex Bot
+    category: Search bot
+    url: https://yandex.com/support/webmaster/robot-workings/check-yandex-robots.html
+    producer:
+      name: Yandex LLC
+      url: https://yandex.com/company/
+-
+  user_agent: Mozilla/5.0 (compatible; YandexSpravBot/1.0; +http://yandex.com/bots)
+  bot:
+    name: Yandex Bot
+    category: Search bot
+    url: https://yandex.com/support/webmaster/robot-workings/check-yandex-robots.html
+    producer:
+      name: Yandex LLC
+      url: https://yandex.com/company/
+-
+  user_agent: Mozilla/5.0 (compatible; YandexVertis/3.0; +http://yandex.com/bots)
+  bot:
+    name: Yandex Bot
+    category: Search bot
+    url: https://yandex.com/support/webmaster/robot-workings/check-yandex-robots.html
+    producer:
+      name: Yandex LLC
+      url: https://yandex.com/company/
+-
+  user_agent: Mozilla/5.0 (compatible; YandexVideo/3.0; +http://yandex.com/bots)
+  bot:
+    name: Yandex Bot
+    category: Search bot
+    url: https://yandex.com/support/webmaster/robot-workings/check-yandex-robots.html
+    producer:
+      name: Yandex LLC
+      url: https://yandex.com/company/
+-
+  user_agent: Mozilla/5.0 (compatible; YandexVideoParser/1.0; +http://yandex.com/bots)
+  bot:
+    name: Yandex Bot
+    category: Search bot
+    url: https://yandex.com/support/webmaster/robot-workings/check-yandex-robots.html
+    producer:
+      name: Yandex LLC
+      url: https://yandex.com/company/
+-
+  user_agent: Mozilla/5.0 (compatible; YandexWebmaster/2.0; +http://yandex.com/bots)
+  bot:
+    name: Yandex Bot
+    category: Search bot
+    url: https://yandex.com/support/webmaster/robot-workings/check-yandex-robots.html
+    producer:
+      name: Yandex LLC
+      url: https://yandex.com/company/
+-
+  user_agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2228.0 Safari/537.36 (compatible; YandexScreenshotBot/3.0; +http://yandex.com/bots)
+  bot:
+    name: Yandex Bot
+    category: Search bot
+    url: https://yandex.com/support/webmaster/robot-workings/check-yandex-robots.html
+    producer:
+      name: Yandex LLC
+      url: https://yandex.com/company/
+-
+  user_agent: Google-Safety
+  bot:
+    name: Googlebot
+    category: Search bot
+    url: https://developers.google.com/search/docs/crawling-indexing/overview-google-crawlers
+    producer:
+      name: Google Inc.
+      url: https://www.google.com/
+-
+  user_agent: Google-Extended
+  bot:
+    name: Googlebot
+    category: Search bot
+    url: https://developers.google.com/search/docs/crawling-indexing/overview-google-crawlers
+    producer:
+      name: Google Inc.
+      url: https://www.google.com/
+-
+  user_agent: Spawning-AI
+  bot:
+    name: Spawning AI
+    category: Crawler
+    url: https://spawning.ai/
+    producer:
+      name: Spawning, Inc
+      url: https://spawning.ai/
+-
+  user_agent: domain research project (+https://trentwil.es/domains.html)
+  bot:
+    name: Domain Research Project
+    category: Crawler
+    url: https://trentwil.es/domains.html
+    producer:
+      name: Trent Wiles
+      url: https://trentwil.es/
+-
+  user_agent: Mozilla/5.0 (compatible; VKRobot/1.0)
+  bot:
+    name: VK Robot
+    category: Crawler
+    url: https://dev.vk.com/en/
+    producer:
+      name: VK
+      url: https://vk.com/
+-
+  user_agent: Mozilla/5.0 (compatible; Odin; https://docs.getodin.com/)
+  bot:
+    name: Odin
+    category: Security Checker
+    url: https://docs.getodin.com/
+    producer:
+      name: Cyble Inc.
+      url: https://cyble.com/
+-
+  user_agent: YouBot (+http://www.you.com)
+  bot:
+    name: YouBot
+    category: Crawler
+    url: https://about.you.com/youbot/
+    producer:
+      name: SuSea, Inc.
+      url: https://you.com/
+-
+  user_agent: Mozilla/5.0 (compatible; YouBot/1.0; +https://about.you.com/youbot/)
+  bot:
+    name: YouBot
+    category: Crawler
+    url: https://about.you.com/youbot/
+    producer:
+      name: SuSea, Inc.
+      url: https://you.com/
+-
+  user_agent: SiteScoreBot v20210315
+  bot:
+    name: SiteScore
+    category: Crawler
+    url: https://sitescore.ai/
+-
+  user_agent: Mozilla/5.0 (compatible; AwarioBot/1.0; +https://awario.com/bots.html)
+  bot:
+    name: Awario
+    category: Search bot
+    url: https://awario.com/bots.html
+    producer:
+      name: TechFusion Ltd.
+      url: https://www.techfusion.com.cy/
+-
+  user_agent: MBCrawler/1.0 (https://monitorbacklinks.com/robot)
+  bot:
+    name: Monitor Backlinks
+    category: Crawler
+    url: https://www.seoptimer.com/monitor-backlinks/
+    producer:
+      name: SEOptimer
+      url: https://www.seoptimer.com/
+-
+  user_agent: mariadb-mysql-kbs-bot (+https://github.com/williamdes/mariadb-mysql-kbs; williamdes+mariadb-mysql-kbs@wdes.fr)
+  bot:
+    name: MariaDB/MySQL Knowledge Base
+    category: Crawler
+    url: https://github.com/williamdes/mariadb-mysql-kbs
+    producer:
+      name: WDES SAS
+      url: https://wdes.fr/en/
+-
+  user_agent: GitHubCopilotChat/0.8.0
+  bot:
+    name: GitHubCopilotChat
+    category: Crawler
+    url: https://github.com/aaamoon/copilot-gpt4-service
+-
+  user_agent: pdrl.fm Analyzer / 1.0.0
+  bot:
+    name: Podroll Analyzer
+    category: Crawler
+    url: https://podroll.fm
+-
+  user_agent: Mozilla/5.0 (compatible; PodUptime/1.0; +https://poduptime.com)
+  bot:
+    name: PodUptime
+    category: Site Monitor
+    url: https://poduptime.com
+-
+  user_agent: anthropic-ai
+  bot:
+    name: Anthropic AI
+    category: Crawler
+    url: https://www.anthropic.com/
+    producer:
+      name: Anthropic, PBC
+      url: https://www.anthropic.com/
+-
+  user_agent: bingadsbot
+  bot:
+    name: BingBot
+    category: Search bot
+    url: http://search.msn.com/msnbot.htmn
+    producer:
+      name: Microsoft Corporation
+      url: http://www.microsoft.com
+-
+  user_agent: default_useragent
+  bot:
+    name: Generic Bot
+-
+  user_agent: Mozilla/5.0 (compatible; NetpeakCheckerBot/3.7; +https://netpeaksoftware.com/checker)
+  bot:
+    name: Netpeak Checker
+    category: Crawler
+    url: https://netpeaksoftware.com/checker
+    producer:
+      name: Netpeak LTD
+      url: https://netpeaksoftware.com/
+-
+  user_agent: mozilla/5.0 (compatible; SandobaCrawler/1.0; +https://www.sandoba.com/en/crawler/)
+  bot:
+    name: Sandoba//Crawler
+    category: Crawler
+    url: https://www.sandoba.com/en/crawler/
+    producer:
+      name: SANDOBA//EBUSINESS SOLUTIONS
+      url: https://www.sandoba.com/
+-
+  user_agent: SirdataBot (+https://semantic-api.docs.sirdata.net/contextual-api/contextual-api/introduction)
+  bot:
+    name: Sirdata
+    category: Crawler
+    url: https://semantic-api.docs.sirdata.net/contextual-api/contextual-api/introduction
+    producer:
+      name: Sirdata SAS
+      url: https://www.sirdata.com/
+-
+  user_agent: CheckMarkNetwork/1.0 (+http://www.checkmarknetwork.com/spider.html)
+  bot:
+    name: CheckMark Network
+    category: Crawler
+    url: https://www.checkmarknetwork.com/spider.html/
+    producer:
+      name: Exipert, Inc.
+      url: https://www.checkmarknetwork.com/
+-
+  user_agent: Mozilla/5.0 (compatible; FacebookBot/1.0; +https://developers.facebook.com/docs/sharing/webmasters/facebookbot/)
+  bot:
+    name: FacebookBot
+    category: Crawler
+    url: https://developers.facebook.com/docs/sharing/bot
+    producer:
+      name: Meta Platforms, Inc.
+      url: https://www.meta.com/
+-
+  user_agent: cohere-ai
+  bot:
+    name: Cohere AI
+    category: Crawler
+    url: https://cohere.com/
+    producer:
+      name: Cohere, Inc.
+      url: https://cohere.com/
+-
+  user_agent: Mozilla/5.0 AppleWebKit/537.36 (KHTML, like Gecko; compatible; PerplexityBot/1.0; +https://perplexity.ai/perplexitybot)
+  bot:
+    name: PerplexityBot
+    category: Crawler
+    url: https://docs.perplexity.ai/docs/perplexitybot
+    producer:
+      name: Perplexity AI, Inc.
+      url: https://www.perplexity.ai/
+-
+  user_agent: Mozilla/5.0 (compatible; TTD-Content; +https://www.thetradedesk.com/general/ttd-content)
+  bot:
+    name: The Trade Desk Content
+    category: Crawler
+    url: https://www.thetradedesk.com/us/ttd-content
+    producer:
+      name: The Trade Desk, Inc.
+      url: https://www.thetradedesk.com/
+-
+  user_agent: montastic-monitor http://www.montastic.com
+  bot:
+    name: Montastic Monitor
+    category: Site Monitor
+    url: https://www.montastic.com/
+    producer:
+      name: Metadot, Corp.
+      url: https://www.metadot.com/
+-
+  user_agent: Ruby, Twurly v1.1 (https://twurly.org)
+  bot:
+    name: Twurly
+    category: Crawler
+    url: https://twurly.org/
+-
+  user_agent: Mozilla/5.0 (Mixnode) AppleWebKit/537.36 (KHTML, like Gecko)
+  bot:
+    name: Mixnode
+    category: Crawler
+    url: https://www.mixnode.com/
+    producer:
+      name: Mixnode Technologies, Inc.
+      url: https://www.mixnode.com/
+-
+  user_agent: MixnodeCache/1.8(+https://cache.mixnode.com/)
+  bot:
+    name: Mixnode
+    category: Crawler
+    url: https://www.mixnode.com/
+    producer:
+      name: Mixnode Technologies, Inc.
+      url: https://www.mixnode.com/
+-
+  user_agent: Mixnode/3.0.1 (+https://www.mixnode.com/; Speed analysis; no data is stored)
+  bot:
+    name: Mixnode
+    category: Crawler
+    url: https://www.mixnode.com/
+    producer:
+      name: Mixnode Technologies, Inc.
+      url: https://www.mixnode.com/
+-
+  user_agent: CSSCheck/1.2.2
+  bot:
+    name: CSSCheck
+    category: Validator
+-
+  user_agent: Mozilla/5.0 (Linux; Android 6.0.1; Nexus 5X Build/MMB29P) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.6167.85 Mobile Safari/537.36 (compatible; AdsBot-Google-Mobile; +http://www.google.com/mobile/adsbot.html)
+  bot:
+    name: Googlebot
+    category: Search bot
+    url: https://developers.google.com/search/docs/crawling-indexing/overview-google-crawlers
+    producer:
+      name: Google Inc.
+      url: https://www.google.com/
+-
+  user_agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36 Google-PageRenderer Google (+https://developers.google.com/+/web/snippet/)
+  bot:
+    name: Googlebot
+    category: Search bot
+    url: https://developers.google.com/search/docs/crawling-indexing/overview-google-crawlers
+    producer:
+      name: Google Inc.
+      url: https://www.google.com/
+-
+  user_agent: Mozilla/5.0 AppleWebKit/537.36 (KHTML, like Gecko; compatible; MicrosoftPreview/2.0; +https://aka.ms/MicrosoftPreview) Chrome/100.0.4896.127 Safari/537.36
+  bot:
+    name: Microsoft Preview
+    category: Service Agent
+    url: https://www.bing.com/webmasters/help/which-crawlers-does-bing-use-8c184ec0
+    producer:
+      name: Microsoft Corporation
+      url: https://www.microsoft.com/
+-
+  user_agent: 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36 AppEngine-Google; (+http://code.google.com/appengine; appid: s~virustotalcloud)'
+  bot:
+    name: VirusTotal Cloud
+    category: Crawler
+    url: https://www.virustotal.com/
+    producer:
+      name: Chronicle Security Ireland Limited
+      url: https://chronicle.security/
+-
+  user_agent: Mozilla/5.0 (Android 10; Mobile; rv:122.0) Gecko/122.0 Firefox/122.0 TinEye/1.0 (via http://www.tineye.com/)
+  bot:
+    name: TinEye
+    category: Crawler
+    url: https://tineye.com/
+    producer:
+      name: Idée, Inc.
+      url: https://tineye.com/
+-
+  user_agent: 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:49.0) Gecko/20100101 Firefox/49.0 AppEngine-Google; (+http://code.google.com/appengine; appid: e~arsnova-filter-system)'
+  bot:
+    name: ARSNova Filter System
+    category: Crawler
+    url: https://particify.de/en/
+    producer:
+      name: 'Particify Gerhardt & Weingarten OHG'
+      url: https://particify.de/en/
+-
+  user_agent: Mozilla/5.0 (compatible; SeekportBot; +https://bot.seekport.com)
+  bot:
+    name: Seekport
+    category: Crawler
+    url: https://bot.seekport.com/
+    producer:
+      name: SISTRIX GmbH
+      url: https://www.sistrix.de/
+-
+  user_agent: Mozilla/5.0 (compatible; botify; http://botify.com)
+  bot:
+    name: Botify
+    category: Crawler
+    url: https://www.botify.com/
+    producer:
+      name: BOTIFY SAS
+      url: https://www.botify.com/
+-
+  user_agent: Mozilla/5.0 (compatible; SnapchatAds/1.0; +https://businesshelp.snapchat.com/s/article/adsbot-crawler)
+  bot:
+    name: Snapchat Ads
+    category: Crawler
+    url: https://businesshelp.snapchat.com/s/article/adsbot-crawler?language=en_US
+    producer:
+      name: Snapchat Inc.
+      url: https://www.snapchat.com/
+-
+  user_agent: Mozilla/5.0 (compatible; adscanner/)/1.0 (http://seocompany.store; spider@seocompany.store)
+  bot:
+    name: Adscanner
+    category: Crawler
+    url: https://www.alleyesonscreens.com/
+    producer:
+      name: AdScanner d.o.o
+      url: https://www.alleyesonscreens.com/
+-
+  user_agent: Mozilla/5.0 (compatible; online-webceo-bot/1.0; +http://online.webceo.com)
+  bot:
+    name: WebCEO
+    category: Crawler
+    url: https://www.webceo.com/
+    producer:
+      name: WebCEO, LLC
+      url: https://www.webceo.com/
+-
+  user_agent: NetTrack Anonymous Web Statistics https://nettrack.info/support.php
+  bot:
+    name: NetTrack
+    category: Crawler
+    url: https://web.archive.org/web/20160607151934/https://nettrack.info/
+-
+  user_agent: Mozilla/5.0 (compatible; DNS SSL/TLS HTTP HTML Website Security Scanner/0.2 beta; +https://www.htmlyse.com/)
+  bot:
+    name: htmlyse
+    category: Crawler
+    url: https://www.htmlyse.com/
+    producer:
+      name: Vistex LTD
+      url: https://www.htmlyse.com/
+-
+  user_agent: keycdn-tools:https://www.example.com
+  bot:
+    name: KeyCDN Tools
+    category: Service Agent
+    url: https://tools.keycdn.com/geo
+-
+  user_agent: Google-Transparency-Report
+  bot:
+    name: Google Transparency Report
+    category: Site Monitor
+    url: https://transparencyreport.google.com/
+    producer:
+      name: Google Inc.
+      url: https://www.google.com/
+-
+  user_agent: Xenu Link Sleuth/1.3.8
+  bot:
+    name: Generic Bot
+-
+  user_agent: Arquivo-web-crawler (compatible; heritrix/3.4.0-20200304 +https://arquivo.pt/faq-crawling)
+  bot:
+    name: Heritrix
+    category: Crawler
+    url: https://webarchive.jira.com/wiki/display/Heritrix/Heritrix
+    producer:
+      name: The Internet Archive
+      url: https://archive.org
+-
+  user_agent: Arquivo-web-crawler (compatible; brozzler/1.5 +https://arquivo.pt/faq-crawling)
+  bot:
+    name: Arquivo.pt
+    category: Crawler
+    url: https://sobre.arquivo.pt/en/help/crawling-and-archiving-web-content/
+    producer:
+      name: FCT|FCCN
+      url: https://www.fct.pt/
+-
+  user_agent: Arquivo-web-crawler (compatible; browsertrix/0.8 +https://arquivo.pt/faq-crawling)
+  bot:
+    name: Arquivo.pt
+    category: Crawler
+    url: https://sobre.arquivo.pt/en/help/crawling-and-archiving-web-content/
+    producer:
+      name: FCT|FCCN
+      url: https://www.fct.pt/
+-
+  user_agent: WordPress/6.4.1; https://www.isitwp.com
+  bot:
+    name: IsItWP
+    category: Crawler
+    url: https://www.isitwp.com/
+    producer:
+      name: WPBeginner, LLC
+      url: https://www.wpbeginner.com/
+-
+  user_agent: ZmEu
+  bot:
+    name: Generic Bot
+-
+  user_agent: Zeus
+  bot:
+    name: Generic Bot
+-
+  user_agent: Mozilla/5.0 (WhatsMyIP.org GeoIP_Lookups) http://whatsmyip.org/ua
+  bot:
+    name: WhatsMyIP.org
+    category: Service Agent
+    url: https://www.whatsmyip.org/ua/
+-
+  user_agent: Mozilla/5.0 (WhatsMyIP.org HTTP_Compression_Test) http://whatsmyip.org/ua
+  bot:
+    name: WhatsMyIP.org
+    category: Service Agent
+    url: https://www.whatsmyip.org/ua/
+-
+  user_agent: Mozilla/5.0 (WhatsMyIP.org HTTP_Headers) http://whatsmyip.org/ua
+  bot:
+    name: WhatsMyIP.org
+    category: Service Agent
+    url: https://www.whatsmyip.org/ua/
+-
+  user_agent: Mozilla/5.0 (WhatsMyIP.org PageRank_WebStats_Tool) http://whatsmyip.org/ua
+  bot:
+    name: WhatsMyIP.org
+    category: Service Agent
+    url: https://www.whatsmyip.org/ua/
+-
+  user_agent: Mozilla/5.0 (WhatsMyIP.org Text_to_Code_Ratio_Tool) http://whatsmyip.org/ua
+  bot:
+    name: WhatsMyIP.org
+    category: Service Agent
+    url: https://www.whatsmyip.org/ua/
+-
+  user_agent: Mozilla/5.0 (WhatsMyIP.org MAC_Address_Lookup_Tool) http://whatsmyip.org/ua
+  bot:
+    name: WhatsMyIP.org
+    category: Service Agent
+    url: https://www.whatsmyip.org/ua/
+-
+  user_agent: Mozilla/5.0 (WhatsMyIP.org URL_Shortener_Preview_Tool) http://whatsmyip.org/ua
+  bot:
+    name: WhatsMyIP.org
+    category: Service Agent
+    url: https://www.whatsmyip.org/ua/
+-
+  user_agent: Mozilla/5.0 (WhatsMyIP.org Random_Website_Loader) http://whatsmyip.org/ua
+  bot:
+    name: WhatsMyIP.org
+    category: Service Agent
+    url: https://www.whatsmyip.org/ua/
+-
+  user_agent: keycdn-tools/perf
+  bot:
+    name: KeyCDN Tools
+    category: Service Agent
+    url: https://tools.keycdn.com/
+    producer:
+      name: proinity LLC
+      url: https://www.keycdn.com/
+-
+  user_agent: keycdn-tools/br
+  bot:
+    name: KeyCDN Tools
+    category: Service Agent
+    url: https://tools.keycdn.com/
+    producer:
+      name: proinity LLC
+      url: https://www.keycdn.com/
+-
+  user_agent: keycdn-tools/h2
+  bot:
+    name: KeyCDN Tools
+    category: Service Agent
+    url: https://tools.keycdn.com/
+    producer:
+      name: proinity LLC
+      url: https://www.keycdn.com/
+-
+  user_agent: Mozilla/5.0 (compatible; AmazonAdBot/1.0; +https://adbot.amazon.com)
+  bot:
+    name: Amazon AdBot
+    category: Crawler
+    url: https://adbot.amazon.com/
+    producer:
+      name: Amazon.com, Inc.
+      url: https://www.amazon.com/
+-
+  user_agent: SenutoBot/1.0 (compatible; SenutoBot/1.0; +https://www.senuto.com/)
+  bot:
+    name: Senuto
+    category: Crawler
+    url: https://www.senuto.com/
+    producer:
+      name: Senuto Sp. z o.o.
+      url: https://www.senuto.com/
+-
+  user_agent: Automattic Analytics Crawler/0.2; http://wordpress.com/crawler/
+  bot:
+    name: Automattic Analytics
+    category: Crawler
+    url: https://wordpress.com/crawler/
+    producer:
+      name: Wordpress.org
+      url: https://wordpress.org/
+-
+  user_agent: IDG/EU (http://spaziodati.eu/)
+  bot:
+    name: SpazioDati
+    category: Crawler
+    url: https://www.spaziodati.eu/
+    producer:
+      name: SpazioDati s.r.l.
+      url: https://www.spaziodati.eu/
+-
+  user_agent: GozleBot; http://gozle.com.tm
+  bot:
+    name: Gozle
+    category: Crawler
+    url: https://gozle.com.tm/en/blog/post/1
+    producer:
+      name: Doly Horjun HJ
+      url: https://gozle.com.tm/
+-
+  user_agent: Quantcastbot/2.0 (+http://www.quantcast.com/bot)
+  bot:
+    name: Quantcast
+    category: Crawler
+    url: https://www.quantcast.com/bot/
+    producer:
+      name: Quantcast Corp.
+      url: https://www.quantcast.com/
+-
+  user_agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/102.0.5005.182 Safari/537.36 FontRadar
+  bot:
+    name: FontRadar
+    category: Crawler
+    url: https://www.fontradar.com/
+    producer:
+      name: EMDASH SAS
+      url: https://www.fontradar.com/
+-
+  user_agent: survey-security-dot-txt/0.1
+  bot:
+    name: Generic Bot
+-
+  user_agent: WebAuthn Adoption Study (Contact mb364@hdm-stuttgart.de)
+  bot:
+    name: Generic Bot
+-
+  user_agent: ViberUrlDownloader
+  bot:
+    name: Viber Url Downloader
+    category: Service Agent
+    url: https://www.viber.com/
+    producer:
+      name: Viber Media S.à r.l.
+      url: https://www.viber.com/
+-
+  user_agent: Zeno
+  bot:
+    name: Zeno
+    category: Crawler
+    url: https://github.com/internetarchive/Zeno
+    producer:
+      name: The Internet Archive
+      url: https://archive.org/
+-
+  user_agent: Barracuda Sentinel (EE)
+  bot:
+    name: Barracuda Sentinel
+    category: Service Agent
+    url: https://sentinel.barracudanetworks.com/
+    producer:
+      name: Barracuda Networks, Inc.
+      url: https://www.barracudanetworks.com/
+-
+  user_agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.5672.126 Safari/537.36 RuxitSynthetic/1.0 v104032285451 t1437235942278817309 ath5a4d3a2e altpub cvcv=2 smf=0
+  bot:
+    name: RuxitSynthetic
+    category: Site Monitor
+    url: https://community.dynatrace.com/t5/Troubleshooting/Basic-Commands-for-Synthetic/ta-p/198164
+    producer:
+      name: Dynatrace LLC
+      url: https://www.dynatrace.com/
+-
+  user_agent: DynatraceSynthetic/1.179
+  bot:
+    name: DynatraceSynthetic
+    category: Site Monitor
+    url: https://community.dynatrace.com/t5/Troubleshooting/Basic-Commands-for-Synthetic/ta-p/198164
+    producer:
+      name: Dynatrace LLC
+      url: https://www.dynatrace.com/
+-
+  user_agent: Mozilla/5.0 (Linux; Android 6.0.1; Nexus 5X Build/MMB29P) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Mobile Safari/537.36 +https://sitebulb.com
+  bot:
+    name: Sitebulb
+    category: Crawler
+    url: https://sitebulb.com/
+    producer:
+      name: Sitebulb Limited
+      url: https://sitebulb.com/
+-
+  user_agent: Mozilla/5.0 (compatible; Monsidobot/2.2; +http://monsido.com/bot.html; info@monsido.com)
+  bot:
+    name: Monsidobot
+    category: Crawler
+    url: https://monsido.com/bot-html
+    producer:
+      name: Monsido LLC
+      url: https://monsido.com/
+-
+  user_agent: AccompanyBot
+  bot:
+    name: AccompanyBot
+    category: Crawler
+    url: https://www.accompany.com/
+    producer:
+      name: Accompani, Inc
+      url: https://www.accompany.com/
+-
+  user_agent: TheWebInternetSearcher
+  bot:
+    name: Generic Bot
+-
+  user_agent: Searcherweb
+  bot:
+    name: Generic Bot
+-
+  user_agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0 Safari/537.36 Ghost Inspector
+  bot:
+    name: Ghost Inspector
+    category: Site Monitor
+    url: 'https://docs.ghostinspector.com/faq/#how-do-i-detect-ghost-inspector-test-runner-traffic-on-my-site'
+    producer:
+      name: Ghost Inspector, Inc.
+      url: https://www.ghostinspector.com/
+-
+  user_agent: Mozilla/5.0 (X11; Linux aarch64) AppleWebKit/537.36 (KHTML, like Gecko) Cypress/12.1.0 Chrome/106.0.5249.51 Electron/21.0.0 Safari/537.36
+  bot:
+    name: Cypress
+    category: Site Monitor
+    url: https://github.com/cypress-io/cypress
+    producer:
+      name: Cypress.io, Inc.
+      url: https://www.cypress.io/
+-
+  user_agent: Google-Area120-PrivacyPolicyFetcher
+  bot:
+    name: Google Area 120 Privacy Policy Fetcher
+    category: Crawler
+    url: https://area120.google.com/
+    producer:
+      name: Google Inc.
+      url: https://www.google.com/
+-
+  user_agent: Mozilla/5.0 (compatible; YandexUserproxy; robot; +http://yandex.com/bots)
+  bot:
+    name: Yandex Bot
+    category: Search bot
+    url: https://yandex.com/support/webmaster/robot-workings/check-yandex-robots.html
+    producer:
+      name: Yandex LLC
+      url: https://yandex.com/company/
+-
+  user_agent: 'Mozilla/5.0 (compatible; Google-Apps-Script; beanserver; +https://script.google.com; id: )'
+  bot:
+    name: Google Apps Script
+    category: Service Agent
+    url: https://www.google.com/script/start/
+-
+  user_agent: Google-Lens
+  bot:
+    name: Googlebot
+    category: Search bot
+    url: https://developers.google.com/search/docs/crawling-indexing/overview-google-crawlers
+    producer:
+      name: Google Inc.
+      url: https://www.google.com/
+-
+  user_agent: Mozilla/5.0 (compatible; SiteOne-Crawler/1.0.7; +https://crawler.siteone.io/bot/?r=xxxxxxxx)
+  bot:
+    name: SiteOne Crawler
+    category: Crawler
+    url: https://crawler.siteone.io/bot/
+    producer:
+      name: SiteOne s.r.o.
+      url: https://www.siteone.io/
+-
+  user_agent: Mozilla/5.0 (compatible; Detectify) +https://detectify.com/bot/xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx
+  bot:
+    name: Detectify
+    category: Security Checker
+    url: https://support.detectify.com/support/solutions/articles/48001049001-how-to-allow-detectify-to-access-your-site
+    producer:
+      name: Detectify AB
+      url: https://detectify.com/
+-
+  user_agent: Mozilla/5.0 (compatible; Detectify; stateless-http-tests; xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx)
+  bot:
+    name: Detectify
+    category: Security Checker
+    url: https://support.detectify.com/support/solutions/articles/48001049001-how-to-allow-detectify-to-access-your-site
+    producer:
+      name: Detectify AB
+      url: https://detectify.com/
+-
+  user_agent: Mozilla/5.0 (compatible; Detectify)
+  bot:
+    name: Detectify
+    category: Security Checker
+    url: https://support.detectify.com/support/solutions/articles/48001049001-how-to-allow-detectify-to-access-your-site
+    producer:
+      name: Detectify AB
+      url: https://detectify.com/
+-
+  user_agent: DomCopBot (https://www.domcop.com/bot)
+  bot:
+    name: DomCop Bot
+    category: Crawler
+    url: https://www.domcop.com/bot
+    producer:
+      name: Axeman Technology Solutions LLP
+      url: https://axemantech.com/
+-
+  user_agent: Mozilla/5.0 (compatible; Paqlebot/2.0; +http://www.paqle.dk/about/paqlebot)
+  bot:
+    name: Paqlebot
+    category: Crawler
+    url: https://www.paqle.dk/about/paqlebot
+    producer:
+      name: Paqle A/S
+      url: https://www.paqle.dk/
+-
+  user_agent: Mozilla/4.0 (compatible; Wibybot; https://wiby.me/)
+  bot:
+    name: Wibybot
+    category: Crawler
+    url: https://www.wiby.me/
+-
+  user_agent: Synapse (bot; +https://github.com/matrix-org/synapse)
+  bot:
+    name: Synapse
+    category: Crawler
+    url: https://github.com/matrix-org/synapse
+-
+  user_agent: Mozilla/5.0 (compatible; OSZKbot/3.3 (OSZKBOT,oszkbot) +http://mekosztaly.oszk.hu/mia) on behalf of the National Szechenyi Library
+  bot:
+    name: OSZKbot
+    category: Crawler
+    url: http://mekosztaly.oszk.hu/mia/
+    producer:
+      name: National Szechenyi Library
+      url: https://webarchivum.oszk.hu/
+-
+  user_agent: SplitSignalBot
+  bot:
+    name: SplitSignalBot
+    category: Crawler
+    url: https://www.semrush.com/bot/
+    producer:
+      name: Semrush Inc.
+      url: https://www.semrush.com/
+-
+  user_agent: Mozilla/5.0 (compatible; SiteAuditBot/0.97; http://www.semrush.com/bot.html)
+  bot:
+    name: SiteAuditBot
+    category: Crawler
+    url: https://www.semrush.com/bot/
+    producer:
+      name: Semrush Inc.
+      url: https://www.semrush.com/
+-
+  user_agent: Zoombot (SEOChecker 1.0 http://suite.seozoom.it/bot.html)
+  bot:
+    name: ZoomBot
+    category: Crawler
+    url: https://suite.seozoom.it/bot.html
+    producer:
+      name: SEO Cube S.r.l.
+      url: https://www.seocube.it/
+-
+  user_agent: ZoomBot (Linkbot 1.0 http://suite.seozoom.it/bot.html)
+  bot:
+    name: ZoomBot
+    category: Crawler
+    url: https://suite.seozoom.it/bot.html
+    producer:
+      name: SEO Cube S.r.l.
+      url: https://www.seocube.it/
+-
+  user_agent: Mozilla/5.0 (compatible; RavenCrawler/2.0; +https://raventools.com/seo-website-auditor/)
+  bot:
+    name: RavenCrawler
+    category: Crawler
+    url: https://raventools.com/site-auditor/
+    producer:
+      name: TapClicks, Inc.
+      url: https://www.tapclicks.com/
+-
+  user_agent: KadoBot (https://www.kadolijst.nl/bot)
+  bot:
+    name: KadoBot
+    category: Crawler
+    url: https://www.kadolijst.nl/bot
+    producer:
+      name: Kadolijst
+      url: https://www.kadolijst.nl/
+-
+  user_agent: Investis-Site24x7
+  bot:
+    name: Site24x7 Website Monitoring
+    category: Site Monitor
+    url: https://www.site24x7.com/site24x7-faq.html
+    producer:
+      name: Site24x7
+      url: https://www.site24x7.com
+-
+  user_agent: Mozilla/5.0 (Unknown; Linux x86_64) AppleWebKit/538.1 (KHTML, like Gecko) HLB/1.247
+  bot:
+    name: Site24x7 Defacement Monitor
+    category: Site Monitor
+    url: https://support.site24x7.com/portal/en/kb/articles/default-user-agent-used-in-website-defacement-monitor
+    producer:
+      name: Site24x7
+      url: https://www.site24x7.com/
+-
+  user_agent: Mozilla/5.0 (compatible; Dubbotbot/0.2; +http://dubbot.com)
+  bot:
+    name: Dubbotbot
+    category: Crawler
+    url: https://help.dubbot.com/en/articles/6746594-example-custom-user-agent
+    producer:
+      name: DubBot
+      url: https://dubbot.com/
+-
+  user_agent: Mozilla/5.0 (compatible; Swiftbot/1.0; UID/; +http://swiftype.com/swiftbot)
+  bot:
+    name: Swiftbot
+    category: Crawler
+    url: https://swiftype.com/swiftbot
+    producer:
+      name: Elasticsearch, B.V.
+      url: https://www.elastic.co/
+-
+  user_agent: EyeMonIT_bot_version_0.1_(https://www.eyemon.it/)
+  bot:
+    name: EyeMonit
+    category: Site Monitor
+    url: https://eyemonit.com/
+    producer:
+      name: EyeMonit
+      url: https://eyemonit.com/
+-
+  user_agent: ThousandEyes-Dragonfly-x1
+  bot:
+    name: ThousandEyes
+    category: Site Monitor
+    url: https://www.thousandeyes.com/
+    producer:
+      name: Cisco Systems, Inc.
+      url: https://www.cisco.com/
+-
+  user_agent: OmtrBot/1.0
+  bot:
+    name: OmtrBot
+    category: Site Monitor
+-
+  user_agent: WebMon/2.0.0
+  bot:
+    name: WebMon
+    category: Site Monitor
+-
+  user_agent: AdsTxtCrawlerTP/1.2
+  bot:
+    name: AdsTxtCrawlerTP
+    category: Crawler
+-
+  user_agent: fragFINN.de HTTP-Collector
+  bot:
+    name: fragFINN
+    category: Crawler
+    url: https://www.fragfinn.de/
+    producer:
+      name: fragFINN e.V.
+      url: https://www.fragfinn.de/
+-
+  user_agent: Clickagy Intelligence Bot v2
+  bot:
+    name: Clickagy
+    category: Crawler
+    url: https://www.clickagy.com/
+    producer:
+      name: Clickagy, LLC
+      url: https://www.clickagy.com/
+-
+  user_agent: kiwitcms-gitops/0.1
+  bot:
+    name: Kiwi TCMS GitOps
+    category: Service Agent
+    url: https://kiwitcms.org
+    producer:
+      name: Open Technologies Bulgaria, Ltd.
+      url: https://kiwitcms.org
+-
+  user_agent: kiwitcms-gitops/1
+  bot:
+    name: Kiwi TCMS GitOps
+    category: Service Agent
+    url: https://kiwitcms.org
+    producer:
+      name: Open Technologies Bulgaria, Ltd.
+      url: https://kiwitcms.org
+-
+  user_agent: Googlebot-News
+  bot:
+    name: Googlebot News
+    category: Search bot
+    url: https://developers.google.com/search/docs/crawling-indexing/overview-google-crawlers
+    producer:
+      name: Google Inc.
+      url: https://www.google.com/
+-
+  user_agent: '${jndi:ldap://${hostName}.useragent.xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx.oast.live}'
+  bot:
+    name: Interactsh
+    category: Security Checker
+    url: https://github.com/projectdiscovery/interactsh
+    producer:
+      name: ProjectDiscovery, Inc.
+      url: https://projectdiscovery.io/
+-
+  user_agent: '${jndi:ldap://${hostName}.useragent.xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx.oast.pro}'
+  bot:
+    name: Interactsh
+    category: Security Checker
+    url: https://github.com/projectdiscovery/interactsh
+    producer:
+      name: ProjectDiscovery, Inc.
+      url: https://projectdiscovery.io/
+-
+  user_agent: '${jndi:ldap://${hostName}.useragent.xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx.oast.online}'
+  bot:
+    name: Interactsh
+    category: Security Checker
+    url: https://github.com/projectdiscovery/interactsh
+    producer:
+      name: ProjectDiscovery, Inc.
+      url: https://projectdiscovery.io/
+-
+  user_agent: '${jndi:ldap://${hostName}.useragent.xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx.oast.site}'
+  bot:
+    name: Interactsh
+    category: Security Checker
+    url: https://github.com/projectdiscovery/interactsh
+    producer:
+      name: ProjectDiscovery, Inc.
+      url: https://projectdiscovery.io/
+-
+  user_agent: '${jndi:ldap://${hostName}.useragent.xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx.oast.fun}'
+  bot:
+    name: Interactsh
+    category: Security Checker
+    url: https://github.com/projectdiscovery/interactsh
+    producer:
+      name: ProjectDiscovery, Inc.
+      url: https://projectdiscovery.io/
+-
+  user_agent: '${jndi:ldap://${hostName}.useragent.xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx.oast.me}'
+  bot:
+    name: Interactsh
+    category: Security Checker
+    url: https://github.com/projectdiscovery/interactsh
+    producer:
+      name: ProjectDiscovery, Inc.
+      url: https://projectdiscovery.io/
+-
+  user_agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.183 Safari/537.36 webtru_crawler
+  bot:
+    name: webtru
+    category: Crawler
+    url: https://webtru.io/
+    producer:
+      name: DataSign Inc.
+      url: https://datasign.jp/
+-
+  user_agent: Mozilla / 5.0(Windows NT 10.0; Win64; x64) AppleWebKit / 537.36(KHTML, like Gecko; compatible; URLSuMaBot / 1.0; +https://www.urlsuma.de/bot.aspx) Chrome / 70.0.3538.77 Safari / 537.36
+  bot:
+    name: URLSuMaBot
+    category: Crawler
+    url: https://www.urlsuma.de/
+-
+  user_agent: Mozilla/5.0 (compatible; MSIE 7.0; Windows NT 5.1; .NET CLR 1.1.4322) 360JK yunjiankong 427691
+  bot:
+    name: 360JK
+    category: Site Monitor
+    url: http://jk.cloud.360.cn/
+    producer:
+      name: 360 Security Technology Inc.
+      url: https://www.360.cn/
+-
+  user_agent: LinkChain
+  bot:
+    name: Generic Bot
+-
+  user_agent: Morfeus Fucking Scanner
+  bot:
+    name: Generic Bot
+-
+  user_agent: Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:80.0) Gecko/20100101 Firefox/80.0 UCSBNetworkMeasurement/2023 (contact; stijn; at; ucsb.edu;)
+  bot:
+    name: UCSB Network Measurement
+    category: Crawler
+    url: https://www.it.ucsb.edu/
+    producer:
+      name: University of California, Santa Barbara
+      url: https://www.it.ucsb.edu/
+-
+  user_agent: Plesk screenshot bot https://support.plesk.com/hc/en-us/articles/10301006946066
+  bot:
+    name: Plesk Screenshot Service
+    category: Service Agent
+    url: https://support.plesk.com/hc/en-us/articles/13302778306199-What-is-Plesk-Screenshot-Service
+    producer:
+      name: Plesk International GmbH
+      url: https://www.plesk.com/
+-
+  user_agent: Y!J-ASR/1.0 crawler (https://support.yahoo-net.jp/PccSearch/s/article/H000007955)
+  bot:
+    name: Yahoo! Japan ASR
+    category: Crawler
+    url: https://support.yahoo-net.jp/PccSearch/s/article/H000007955
+    producer:
+      name: Yahoo! Japan Corp.
+      url: https://www.yahoo.co.jp/
+-
+  user_agent: Who.is Bot
+  bot:
+    name: Who.is Bot
+    category: Crawler
+    url: https://who.is/
+-
+  user_agent: Mozilla/5.0 (compatible; WireReaderBot/1.0; +https://wirereader.app)
+  bot:
+    name: WireReaderBot
+    category: Feed Fetcher
+    url: https://wirereader.app/
+-
+  user_agent: WireReaderBot/1.0 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)
+  bot:
+    name: WireReaderBot
+    category: Feed Fetcher
+    url: https://wirereader.app/
+-
+  user_agent: Mozilla/5.0 (compatible; +https://probely.com/sos) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36 ProbelySPDR/0.2.0
+  bot:
+    name: Probely
+    category: Security Checker
+    url: https://probely.com/sos/
+    producer:
+      name: 'Probely - Soluções de Cibersegurança, S.A.'
+      url: https://probely.com/
+-
+  user_agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36 Uptime/1.0 (https://uptime.com)
+  bot:
+    name: Uptimebot
+    category: Site Monitor
+    url: https://uptime.com/uptime-bot
+    producer:
+      name: Uptime
+      url: https://uptime.com/
+-
+  user_agent: Mozilla/5.0 (Linux; Android 10) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.114 Mobile Safari/537.36 Uptime/1.0 (https://uptime.com)
+  bot:
+    name: Uptimebot
+    category: Site Monitor
+    url: https://uptime.com/uptime-bot
+    producer:
+      name: Uptime
+      url: https://uptime.com/
+-
+  user_agent: Mozilla/5.0 (compatible; Uptime/1.0; http://uptime.com)
+  bot:
+    name: Uptimebot
+    category: Site Monitor
+    url: https://uptime.com/uptime-bot
+    producer:
+      name: Uptime
+      url: https://uptime.com/
+-
+  user_agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.5002.111 Safari/537.36 Uptimia/1.0 (https://www.uptimia.com)
+  bot:
+    name: Uptimia
+    category: Site Monitor
+    url: https://www.uptimia.com/
+    producer:
+      name: JJ Online GmbH
+      url: https://www.uptimia.com/
+-
+  user_agent: Mozilla/5.0 (compatible; Uptimia; www.uptimia.com)
+  bot:
+    name: Uptimia
+    category: Site Monitor
+    url: https://www.uptimia.com/
+    producer:
+      name: JJ Online GmbH
+      url: https://www.uptimia.com/
+-
+  user_agent: Mozilla/5.0 (compatible; 2GDPR/1.2; https://2gdpr.com)
+  bot:
+    name: 2GDPR
+    category: Service Agent
+    url: https://2gdpr.com/tos
+    producer:
+      name: 2GDPR
+      url: https://2gdpr.com/
+-
+  user_agent: abuse.xmco.fr
+  bot:
+    name: Serenety
+    category: Security Checker
+    url: https://abuse.xmco.fr/
+    producer:
+      name: XMCO, SASU
+      url: https://www.xmco.fr/
+-
+  user_agent: CheckHost (https://check-host.net/)
+  bot:
+    name: CheckHost
+    category: Site Monitor
+    url: https://check-host.net/
+    producer:
+      name: CheckHost
+      url: https://check-host.net/
+-
+  user_agent: Mozilla/5.0 (compatible; LAC_IAHarvester/3.3.0; +https://library-archives.canada.ca/eng/services/government-canada/web-social-media-preservation-program/Pages/web-archive.aspx)
+  bot:
+    name: LAC IA Harvester
+    category: Crawler
+    url: https://library-archives.canada.ca/eng/services/government-canada/web-social-media-preservation-program/Pages/web-archive.aspx
+    producer:
+      name: Library and Archives Canada
+      url: https://library-archives.canada.ca/
+-
+  user_agent: GoogleSites
+  bot:
+    name: Googlebot
+    category: Search bot
+    url: https://developers.google.com/search/docs/crawling-indexing/overview-google-crawlers
+    producer:
+      name: Google Inc.
+      url: https://www.google.com/
+-
+  user_agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko; Google-Sites-Thumbnails) Chrome/120.0.6099.71 Safari/537.36
+  bot:
+    name: Googlebot
+    category: Search bot
+    url: https://developers.google.com/search/docs/crawling-indexing/overview-google-crawlers
+    producer:
+      name: Google Inc.
+      url: https://www.google.com/
+-
+  user_agent: Google-adstxt
+  bot:
+    name: Googlebot
+    category: Search bot
+    url: https://developers.google.com/search/docs/crawling-indexing/overview-google-crawlers
+    producer:
+      name: Google Inc.
+      url: https://www.google.com/
+-
+  user_agent: KvshClient
+  bot:
+    name: Generic Bot
+-
+  user_agent: Mozilla/5.0 infrawatch/0.1
+  bot:
+    name: Generic Bot
+-
+  user_agent: InsytfulBot/1.0; https://www.insytful.com/about-our-bot
+  bot:
+    name: InsytfulBot
+    category: Crawler
+    url: https://www.insytful.com/
+    producer:
+      name: Zengenti Limited
+      url: https://www.zengenti.com/
+-
+  user_agent: statista.com PublicationFinder-Crawler 2.0
+  bot:
+    name: Statista
+    category: Crawler
+    url: https://www.statista.com/
+    producer:
+      name: Statista, Inc.
+      url: https://www.statista.com/
+-
+  user_agent: SubstackContentFetch/1.0; https://substack.com
+  bot:
+    name: Substack Content Fetch
+    category: Crawler
+    url: https://substack.com/
+    producer:
+      name: Substack, Inc.
+      url: https://substack.com/
+-
+  user_agent: ds9 2.000.ec2(+http://www.deepsearchnine.com/ds9.html)
+  bot:
+    name: Deep SEARCH 9
+    category: Crawler
+    url: https://www.copyright.com/blog/ccc-expands-corporate-solutions-offering-with-new-technology/
+    producer:
+      name: Copyright Clearance Center, Inc.
+      url: https://www.copyright.com/
+-
+  user_agent: ds9 2.000.ec2
+  bot:
+    name: Deep SEARCH 9
+    category: Crawler
+    url: https://www.copyright.com/blog/ccc-expands-corporate-solutions-offering-with-new-technology/
+    producer:
+      name: Copyright Clearance Center, Inc.
+      url: https://www.copyright.com/
+-
+  user_agent: LiveJournal.com (webmaster@livejournal.com; for https://www.livejournal.com/users/example/; 1 readers)
+  bot:
+    name: LiveJournal
+    url: https://www.livejournal.com/
+    category: Feed Fetcher
+    producer:
+      name: ООО "СИМ"
+      url: https://www.livejournal.com/
+-
+  user_agent: bitdiscovery-suggestions
+  bot:
+    name: Tenable.asm
+    category: Security Checker
+    url: https://bitdiscovery.com/
+    producer:
+      name: Tenable, Inc.
+      url: https://www.tenable.com/
+-
+  user_agent: Castopod/1.0
+  bot:
+    name: Castopod
+    category: Crawler
+    url: https://www.castopod.org/
+-
+  user_agent: ivre-masscan/1.3 https://github.com/robertdavidgraham/
+  bot:
+    name: masscan
+    url: https://github.com/robertdavidgraham/masscan
+    category: Crawler
+    producer:
+      name: Robert Graham
+      url: https://github.com/robertdavidgraham
+-
+  user_agent: Mozilla/5.0 AppleWebKit/537.36 (KHTML, like Gecko; compatible; GeedoProductSearch; +http://www.geedo.com/product-search.html) Chrome/79.0.3945.88 Safari/537.36
+  bot:
+    name: GeedoProductSearch
+    category: Crawler
+    url: https://geedo.com/product-search/
+-
+  user_agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/121.0.6167.57 Safari/537.36 Elastic/Synthetics
+  bot:
+    name: Elastic Synthetics
+    category: Site Monitor
+    url: https://github.com/elastic/synthetics
+    producer:
+      name: Elasticsearch B.V.
+      url: https://www.elastic.co/
+-
+  user_agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:77.0) Gecko/20100101 Firefox/77.0 Time/1710630666672
+  bot:
+    name: Generic Bot
+-
+  user_agent: Mozilla/5.0 (Windows; U; Windows NT 6.1; zh-CN;; rv:1.9.0.9) Gecko/2009042410 Firefox/3.0.9 Wyzo/3.0.3 Time/1715201908281
+  bot:
+    name: Generic Bot
+-
+  user_agent: WDG_Validator/1.6.2
+  bot:
+    name: WDG HTML Validator
+    category: Validator
+    url: http://www.htmlhelp.com/tools/validator/
+-
+  user_agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko; compatible; BuiltWith/1.0; +http://builtwith.com/biup) Chrome/74.0.3729.131 Safari/537.36
+  bot:
+    name: BuiltWith
+    category: Crawler
+    url: https://builtwith.com/biup
+    producer:
+      name: BuiltWith Pty Ltd
+      url: https://builtwith.com/
+-
+  user_agent: Google Chrome Mozilla/5.0 (Windows NT 10.0; Win64; x64; CONTACT; scan@aegis.network) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36
+  bot:
+    name: Aegis
+    category: Crawler
+    url: https://web.archive.org/web/20180910002802/http://www.aegis.network/
+-
+  user_agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36 (compatible; CrawlyProjectCrawler/0.1.3; crawlyproject@digitaldragon.dev +https://crawlyproject.digitaldragon.dev/)
+  bot:
+    name: Crawly Project
+    category: Crawler
+    url: https://web.archive.org/web/20240326141952/https://crawlyproject.digitaldragon.dev/
+-
+  user_agent: BDFetch
+  bot:
+    name: BDFetch
+    category: Crawler
+    url: https://web.archive.org/web/20130821043949/http://www.branddimensions.com/
+-
+  user_agent: r00ts3c-owned-you
+  bot:
+    name: Generic Bot
+-
+  user_agent: nvdorz
+  bot:
+    name: Generic Bot
+-
+  user_agent: Root Slut
+  bot:
+    name: Generic Bot
+-
+  user_agent: Abcd
+  bot:
+    name: Generic Bot
+-
+  user_agent: NiggaBalls
+  bot:
+    name: Generic Bot
+-
+  user_agent: Dark
+  bot:
+    name: Generic Bot
+-
+  user_agent: BotPoke
+  bot:
+    name: Generic Bot
+-
+  user_agent: url
+  bot:
+    name: Generic Bot
+-
+  user_agent: facebookscraper/1.0( http://www.facebook.com/sharescraper_help.php)
+  bot:
+    name: Facebook Crawler
+    category: Social Media Agent
+    url: https://developers.facebook.com/docs/sharing/webmasters/crawler/
+    producer:
+      name: Meta Platforms, Inc.
+      url: https://www.meta.com/
+-
+  user_agent: PunkMap (https://github.com/openeasm/punkmap)
+  bot:
+    name: Punk Map
+    category: Security Checker
+    url: https://github.com/openeasm/punkmap
+-
+  user_agent: "'Mozilla/5.0 (compatible; GenomeCrawlerd/1.0; +https://www.nokia.com/networks/ip-networks/deepfield/genome/)'"
+  bot:
+    name: Deepfield Genome
+    category: Crawler
+    url: https://www.nokia.com/networks/ip-networks/deepfield/genome/
+    producer:
+      name: Nokia Corporation
+      url: https://www.nokia.com/
+-
+  user_agent: Gaisbot/3.0 (robot@gais.cs.ccu.edu.tw; http://gais.cs.ccu.edu.tw/robot.php)
+  bot:
+    name: Gaisbot
+    category: Crawler
+    url: https://web.archive.org/web/20090604121511/https://gais.cs.ccu.edu.tw/robot.php
+-
+  user_agent: FAST-WebCrawler/3.8 (crawler at trd dot overture dot com; http://www.alltheweb.com/help/webmaster/crawler)
+  bot:
+    name: AlltheWeb
+    category: Crawler
+    url: https://web.archive.org/web/20041020050801/http://www.alltheweb.com/help/webmaster/crawler
+-
+  user_agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36 (scanner.ducks.party)
+  bot:
+    name: ducks.party
+    category: Security Checker
+    url: https://ducks.party/
+-
+  user_agent: Mozilla/5.0 (compatible; Cloudflare-Smart-Transit/1.0; +https://www.cloudflare.com/
+  bot:
+    name: Cloudflare Smart Transit
+    category: Site Monitor
+    url: https://developers.cloudflare.com/fundamentals/reference/cloudflare-site-crawling/
+    producer:
+      name: CloudFlare
+      url: https://www.cloudflare.com/
+-
+  user_agent: Mozilla/5.0 (Linux; Android 11; Moto G Power (2022)) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Mobile Safari/537.36 CloudflareObservatory/1.0
+  bot:
+    name: Cloudflare Observatory
+    category: Site Monitor
+    url: https://developers.cloudflare.com/speed/speed-test/run-speed-test
+    producer:
+      name: CloudFlare
+      url: https://www.cloudflare.com/
+-
+  user_agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36 CloudflareObservatory/1.0
+  bot:
+    name: Cloudflare Observatory
+    category: Site Monitor
+    url: https://developers.cloudflare.com/speed/speed-test/run-speed-test
+    producer:
+      name: CloudFlare
+      url: https://www.cloudflare.com/

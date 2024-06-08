@@ -423,8 +423,8 @@
     type: browser
     name: UC Browser Turbo
     version: 1.10.6.900
-    engine: WebKit
-    engine_version: "537.36"
+    engine: Blink
+    engine_version: 57.0.2987.108
   device:
     type: smartphone
     brand: Philips
@@ -477,8 +477,8 @@
     type: browser
     name: MIUI Browser
     version: 13.32.0
-    engine: WebKit
-    engine_version: "537.36"
+    engine: Blink
+    engine_version: 112.0.5615.136
   device:
     type: smartphone
     brand: Xiaomi
@@ -1051,8 +1051,8 @@
     type: browser
     name: UC Browser
     version: 13.4.0.1306
-    engine: WebKit
-    engine_version: "537.36"
+    engine: Blink
+    engine_version: 78.0.3904.108
   device:
     type: smartphone
     brand: Xiaomi
@@ -1705,8 +1705,8 @@
     type: browser
     name: MIUI Browser
     version: 13.35.0
-    engine: WebKit
-    engine_version: "537.36"
+    engine: Blink
+    engine_version: 112.0.5615.136
   device:
     type: smartphone
     brand: Xiaomi
@@ -1793,8 +1793,8 @@
     type: browser
     name: Samsung Browser
     version: "22.0"
-    engine: WebKit
-    engine_version: "537.36"
+    engine: Blink
+    engine_version: 111.0.5563.116
   device:
     type: smartphone
     brand: Samsung
@@ -1847,8 +1847,8 @@
     type: browser
     name: Samsung Browser
     version: "22.0"
-    engine: WebKit
-    engine_version: "537.36"
+    engine: Blink
+    engine_version: 111.0.5563.116
   device:
     type: smartphone
     brand: Samsung
@@ -1937,8 +1937,8 @@
     type: browser
     name: UC Browser
     version: 13.4.5.1308
-    engine: WebKit
-    engine_version: "537.36"
+    engine: Blink
+    engine_version: 78.0.3904.108
   device:
     type: smartphone
     brand: Sparx
@@ -2099,8 +2099,8 @@
     type: browser
     name: vivo Browser
     version: 11.1.0.0
-    engine: WebKit
-    engine_version: "537.36"
+    engine: Blink
+    engine_version: 87.0.4280.141
   device:
     type: smartphone
     brand: Vivo
@@ -2295,7 +2295,7 @@
     platform: ""
   client:
     type: mobile app
-    name: Instagram App
+    name: Instagram
     version: 302.1.0.36.111
   device:
     type: smartphone
@@ -2311,7 +2311,7 @@
     platform: ""
   client:
     type: mobile app
-    name: Instagram App
+    name: Instagram
     version: 22.0.0.17.68
   device:
     type: smartphone
@@ -2327,7 +2327,7 @@
     platform: ""
   client:
     type: mobile app
-    name: Instagram App
+    name: Instagram
     version: 22.0.0.17.68
   device:
     type: smartphone
@@ -2361,7 +2361,7 @@
     platform: ""
   client:
     type: mobile app
-    name: Instagram App
+    name: Instagram
     version: 293.0.2.28.93
   device:
     type: smartphone
@@ -2411,7 +2411,7 @@
     platform: ""
   client:
     type: mobile app
-    name: Instagram App
+    name: Instagram
     version: 237.0.0.7.102
   device:
     type: smartphone
@@ -2427,7 +2427,7 @@
     platform: ""
   client:
     type: mobile app
-    name: Instagram App
+    name: Instagram
     version: 39.0.0.19.93
   device:
     type: smartphone
@@ -2443,7 +2443,7 @@
     platform: ""
   client:
     type: mobile app
-    name: Instagram App
+    name: Instagram
     version: 43.0.0.10.97
   device:
     type: smartphone
@@ -2513,7 +2513,7 @@
     platform: ""
   client:
     type: mobile app
-    name: Instagram App
+    name: Instagram
     version: 45.0.0.17.93
   device:
     type: smartphone
@@ -2583,7 +2583,7 @@
     platform: ""
   client:
     type: mobile app
-    name: Instagram App
+    name: Instagram
     version: 300.0.0.29.110
   device:
     type: smartphone
@@ -2599,7 +2599,7 @@
     platform: ""
   client:
     type: mobile app
-    name: Instagram App
+    name: Instagram
     version: 301.0.0.33.110
   device:
     type: smartphone
@@ -2615,7 +2615,7 @@
     platform: ""
   client:
     type: mobile app
-    name: Instagram App
+    name: Instagram
     version: 300.0.0.29.110
   device:
     type: smartphone
@@ -2631,7 +2631,7 @@
     platform: ""
   client:
     type: mobile app
-    name: Instagram App
+    name: Instagram
     version: 298.0.0.31.110
   device:
     type: smartphone
@@ -2665,7 +2665,7 @@
     platform: ""
   client:
     type: mobile app
-    name: Instagram App
+    name: Instagram
     version: 269.0.0.18.75
   device:
     type: smartphone
@@ -2681,7 +2681,7 @@
     platform: ""
   client:
     type: mobile app
-    name: Instagram App
+    name: Instagram
     version: 207.0.0.39.120
   device:
     type: smartphone
@@ -2715,7 +2715,7 @@
     platform: ""
   client:
     type: mobile app
-    name: Instagram App
+    name: Instagram
     version: 205.0.0.0.56
   device:
     type: smartphone
@@ -2731,7 +2731,7 @@
     platform: ""
   client:
     type: mobile app
-    name: Instagram App
+    name: Instagram
     version: 41.0.0.13.92
   device:
     type: smartphone
@@ -2747,7 +2747,7 @@
     platform: ""
   client:
     type: mobile app
-    name: Instagram App
+    name: Instagram
     version: 37.0.0.21.97
   device:
     type: smartphone
@@ -2763,7 +2763,7 @@
     platform: ""
   client:
     type: mobile app
-    name: Instagram App
+    name: Instagram
     version: 36.0.0.13.91
   device:
     type: smartphone
@@ -2779,7 +2779,7 @@
     platform: ""
   client:
     type: mobile app
-    name: Instagram App
+    name: Instagram
     version: 297.0.0.33.109
   device:
     type: smartphone
@@ -2795,7 +2795,7 @@
     platform: ""
   client:
     type: mobile app
-    name: Instagram App
+    name: Instagram
     version: 286.0.0.20.69
   device:
     type: smartphone
@@ -2867,8 +2867,8 @@
     type: browser
     name: Samsung Browser
     version: "22.0"
-    engine: WebKit
-    engine_version: "537.36"
+    engine: Blink
+    engine_version: 111.0.5563.116
   device:
     type: smartphone
     brand: Samsung
@@ -2991,7 +2991,7 @@
     platform: ""
   client:
     type: mobile app
-    name: Instagram App
+    name: Instagram
     version: 293.0.2.28.93
   device:
     type: smartphone
@@ -3007,7 +3007,7 @@
     platform: ""
   client:
     type: mobile app
-    name: Instagram App
+    name: Instagram
     version: 44.0.0.17.95
   device:
     type: smartphone
@@ -3111,8 +3111,8 @@
     type: browser
     name: Samsung Browser
     version: "22.0"
-    engine: WebKit
-    engine_version: "537.36"
+    engine: Blink
+    engine_version: 111.0.5563.116
   device:
     type: smartphone
     brand: OnePlus
@@ -3479,3 +3479,5297 @@
     model: Raku-Raku Smartphone F-12D
   os_family: Android
   browser_family: Android Browser
+-
+  user_agent: Mozilla/5.0 (Linux; arm_64; Android 13; Cyber 13 Pro) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.5845.64 YaSearchBrowser/23.99.1 BroPP/1.0 YaSearchApp/23.99.1 webOmni SA/3 Mobile Safari/537.36
+  os:
+    name: Android
+    version: "13"
+    platform: ARM
+  client:
+    type: browser
+    name: Yandex Browser
+    version: 23.99.1
+    engine: Blink
+    engine_version: 116.0.5845.64
+  device:
+    type: smartphone
+    brand: Hotwav
+    model: Cyber 13 Pro
+  os_family: Android
+  browser_family: Unknown
+-
+  user_agent: Mozilla/5.0 (Linux; Android 12; ZTE Blade A33+ Build/SP1A.210812.016; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/110.0.5481.153 Mobile Safari/537.36
+  os:
+    name: Android
+    version: "12"
+    platform: ""
+  client:
+    type: browser
+    name: Chrome Webview
+    version: 110.0.5481.153
+    engine: Blink
+    engine_version: 110.0.5481.153
+  device:
+    type: smartphone
+    brand: ZTE
+    model: Blade A33 Plus
+  os_family: Android
+  browser_family: Chrome
+-
+  user_agent: 'Mozilla/5.0 (Linux; Android 13; 23078PND5G Build/TP1A.220624.014; wv) AppleWebKit/537.36 (KHTML, like Gecko)  Chrome/118.0.0.0 YaBrowser/23.9.0.232 (lite) Mobile Safari/537.36'
+  os:
+    name: Android
+    version: "13"
+    platform: ""
+  client:
+    type: browser
+    name: Yandex Browser Lite
+    version: 23.9.0.232
+    engine: Blink
+    engine_version: 118.0.0.0
+  device:
+    type: smartphone
+    brand: Xiaomi
+    model: 13T Pro
+  os_family: Android
+  browser_family: Unknown
+-
+  user_agent: Mozilla/5.0 (Linux; Android 13; TECNO AD11 Build/TP1A.220624.014; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/118.0.0.0 YaBrowser/22.8.0.86 (lite) Mobile Safari/537.36
+  os:
+    name: Android
+    version: "13"
+    platform: ""
+  client:
+    type: browser
+    name: Yandex Browser Lite
+    version: 22.8.0.86
+    engine: Blink
+    engine_version: 118.0.0.0
+  device:
+    type: smartphone
+    brand: Tecno Mobile
+    model: Phantom V Flip
+  os_family: Android
+  browser_family: Unknown
+-
+  user_agent: Mozilla/5.0 (Linux; Android 13; LAVA LXX503) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.5938.154 Mobile Safari/537.36 OPR/78.2.4143.75485
+  os:
+    name: Android
+    version: "13"
+    platform: ""
+  client:
+    type: browser
+    name: Opera Mobile
+    version: 78.2.4143.75485
+    engine: Blink
+    engine_version: 117.0.5938.154
+  device:
+    type: smartphone
+    brand: Lava
+    model: Blaze 5G
+  os_family: Android
+  browser_family: Opera
+-
+  user_agent: Mozilla/5.0 (Linux; Android 14; GE2AE) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.5993.48 Mobile Safari/537.46
+  os:
+    name: Android
+    version: "14"
+    platform: ""
+  client:
+    type: browser
+    name: Chrome Mobile
+    version: 118.0.5993.48
+    engine: Blink
+    engine_version: 118.0.5993.48
+  device:
+    type: smartphone
+    brand: Google
+    model: Pixel 7 Pro
+  os_family: Android
+  browser_family: Chrome
+-
+  user_agent: Mozilla/5.0 (Linux; arm_64; Android 14; XQ-DQ72) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.5845.39 YaBrowser/23.9.8.39.00 SA/3 Mobile Safari/537.36
+  os:
+    name: Android
+    version: "14"
+    platform: ARM
+  client:
+    type: browser
+    name: Yandex Browser
+    version: 23.9.8.39.00
+    engine: Blink
+    engine_version: 116.0.5845.39
+  device:
+    type: smartphone
+    brand: Sony
+    model: Xperia 1 V
+  os_family: Android
+  browser_family: Unknown
+-
+  user_agent: Mozilla/5.0 (Linux; Android 13; Infinix X6739 Build/TP1A.220624.014; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/118.0.0.0 Mobile Safari/537.36
+  os:
+    name: Android
+    version: "13"
+    platform: ""
+  client:
+    type: browser
+    name: Chrome Webview
+    version: 118.0.0.0
+    engine: Blink
+    engine_version: 118.0.0.0
+  device:
+    type: smartphone
+    brand: Infinix
+    model: GT 10 Pro
+  os_family: Android
+  browser_family: Chrome
+-
+  user_agent: Mozilla/5.0 (Linux; arm_64; Android 13; XQ-DC72) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.5845.83 YaBrowser/23.9.7.83.00 SA/3 Mobile Safari/537.36
+  os:
+    name: Android
+    version: "13"
+    platform: ARM
+  client:
+    type: browser
+    name: Yandex Browser
+    version: 23.9.7.83.00
+    engine: Blink
+    engine_version: 116.0.5845.83
+  device:
+    type: smartphone
+    brand: Sony
+    model: Xperia 10 V
+  os_family: Android
+  browser_family: Unknown
+-
+  user_agent: Mozilla/5.0 (Linux; Android 5.1; Panasonic T45 4G) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.80 Mobile Safari/537.36
+  os:
+    name: Android
+    version: "5.1"
+    platform: ""
+  client:
+    type: browser
+    name: Chrome Mobile
+    version: 70.0.3538.80
+    engine: Blink
+    engine_version: 70.0.3538.80
+  device:
+    type: smartphone
+    brand: Panasonic
+    model: T45
+  os_family: Android
+  browser_family: Chrome
+-
+  user_agent: Mozilla/5.0 (Linux; Android 13; ASUS_AI2302 Build/TKQ1.220928.001; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/118.0.0.0 Mobile Safari/537.36
+  os:
+    name: Android
+    version: "13"
+    platform: ""
+  client:
+    type: browser
+    name: Chrome Webview
+    version: 118.0.0.0
+    engine: Blink
+    engine_version: 118.0.0.0
+  device:
+    type: smartphone
+    brand: Asus
+    model: ZenFone 10
+  os_family: Android
+  browser_family: Chrome
+-
+  user_agent: Mozilla/5.0 (Linux; arm_64; Android 13; 2306EPN60G) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 YaSearchBrowser/23.33 BroPP/1.0 YaSearchApp/23.33 webOmni SA/3 Mobile Safari/537.36
+  os:
+    name: Android
+    version: "13"
+    platform: ARM
+  client:
+    type: browser
+    name: Yandex Browser
+    version: "23.33"
+    engine: Blink
+    engine_version: 110.0.0.0
+  device:
+    type: smartphone
+    brand: Xiaomi
+    model: 13T
+  os_family: Android
+  browser_family: Unknown
+-
+  user_agent: Mozilla/5.0 (Linux; Android 7.0; Mobicel_R6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.80 Mobile Safari/537.36
+  os:
+    name: Android
+    version: "7.0"
+    platform: ""
+  client:
+    type: browser
+    name: Chrome Mobile
+    version: 70.0.3538.80
+    engine: Blink
+    engine_version: 70.0.3538.80
+  device:
+    type: smartphone
+    brand: Mobicel
+    model: R6
+  os_family: Android
+  browser_family: Chrome
+-
+  user_agent: Mozilla/5.0 (Linux; Android 9.0; nova Lite3Plus) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.146 Mobile Safari/537.36
+  os:
+    name: Android
+    version: "9.0"
+    platform: ""
+  client:
+    type: browser
+    name: Chrome Mobile
+    version: 88.0.4324.146
+    engine: Blink
+    engine_version: 88.0.4324.146
+  device:
+    type: smartphone
+    brand: Huawei
+    model: Nova Lite 3+
+  os_family: Android
+  browser_family: Chrome
+-
+  user_agent: Mozilla/5.0 (Linux; Android 9.0; nova 5T Pro) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.89 Mobile Safari/537.36
+  os:
+    name: Android
+    version: "9.0"
+    platform: ""
+  client:
+    type: browser
+    name: Chrome Mobile
+    version: 84.0.4147.89
+    engine: Blink
+    engine_version: 84.0.4147.89
+  device:
+    type: smartphone
+    brand: Huawei
+    model: Nova 5T Pro
+  os_family: Android
+  browser_family: Chrome
+-
+  user_agent: Mozilla/5.0 (Linux; arm_64; Android 13; V2250) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.5845.64 YaSearchBrowser/23.99 BroPP/1.0 YaSearchApp/23.99 webOmni SA/3 Mobile Safari/537.36
+  os:
+    name: Android
+    version: "13"
+    platform: ARM
+  client:
+    type: browser
+    name: Yandex Browser
+    version: "23.99"
+    engine: Blink
+    engine_version: 116.0.5845.64
+  device:
+    type: smartphone
+    brand: Vivo
+    model: V29
+  os_family: Android
+  browser_family: Unknown
+-
+  user_agent: UCWEB/2.0 (MIDP-2.0; U; Adr 9; ru; ZTE_Blade_L130RU) U2/1.0.0 UCBrowser/10.7.6.805 U2/1.0.0 Mobile
+  os:
+    name: Android
+    version: "9"
+    platform: ""
+  client:
+    type: browser
+    name: UC Browser
+    version: 10.7.6.805
+    engine: ""
+    engine_version: ""
+  device:
+    type: smartphone
+    brand: ZTE
+    model: Blade L130
+  os_family: Android
+  browser_family: Unknown
+-
+  user_agent: UCWEB/2.0 (MIDP-2.0; U; Adr 8.1.0; en-US; TECNO_CA7) U2/1.0.0 UCBrowser/11.1.2.1113 U2/1.0.0 Mobile
+  os:
+    name: Android
+    version: 8.1.0
+    platform: ""
+  client:
+    type: browser
+    name: UC Browser
+    version: 11.1.2.1113
+    engine: ""
+    engine_version: ""
+  device:
+    type: smartphone
+    brand: Tecno Mobile
+    model: Camon X
+  os_family: Android
+  browser_family: Unknown
+-
+  user_agent: UCWEB/2.0 (MIDP-2.0; U; Adr 7.1.1; ru; ZTE_BLADE_A0620) U2/1.0.0 UCBrowser/10.1.4.573 U2/1.0.0 Mobile
+  os:
+    name: Android
+    version: 7.1.1
+    platform: ""
+  client:
+    type: browser
+    name: UC Browser
+    version: 10.1.4.573
+    engine: ""
+    engine_version: ""
+  device:
+    type: smartphone
+    brand: ZTE
+    model: Blade A6
+  os_family: Android
+  browser_family: Unknown
+-
+  user_agent: Mozilla/5.0 (Linux; Android 7.0; E5051) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.127 Mobile Safari/537.36
+  os:
+    name: Android
+    version: "7.0"
+    platform: ""
+  client:
+    type: browser
+    name: Chrome Mobile
+    version: 85.0.4183.127
+    engine: Blink
+    engine_version: 85.0.4183.127
+  device:
+    type: smartphone
+    brand: Phicomm
+    model: Energy 4S
+  os_family: Android
+  browser_family: Chrome
+-
+  user_agent: Mozilla/5.0 (Linux; Android 7.0; E5018) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.125 Mobile Safari/537.36
+  os:
+    name: Android
+    version: "7.0"
+    platform: ""
+  client:
+    type: browser
+    name: Chrome Mobile
+    version: 84.0.4147.125
+    engine: Blink
+    engine_version: 84.0.4147.125
+  device:
+    type: smartphone
+    brand: Bird
+    model: E5018
+  os_family: Android
+  browser_family: Chrome
+-
+  user_agent: Mozilla/5.0 (Linux; Android 7.0; E435 Plus) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.125 Mobile Safari/537.36
+  os:
+    name: Android
+    version: "7.0"
+    platform: ""
+  client:
+    type: browser
+    name: Chrome Mobile
+    version: 84.0.4147.125
+    engine: Blink
+    engine_version: 84.0.4147.125
+  device:
+    type: smartphone
+    brand: Hyundai
+    model: E435 Plus
+  os_family: Android
+  browser_family: Chrome
+-
+  user_agent: Mozilla/5.0 (Linux; Android 7.0; DSR_R8) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.106 Mobile Safari/537.36
+  os:
+    name: Android
+    version: "7.0"
+    platform: ""
+  client:
+    type: browser
+    name: Chrome Mobile
+    version: 83.0.4103.106
+    engine: Blink
+    engine_version: 83.0.4103.106
+  device:
+    type: smartphone
+    brand: Cherry Mobile
+    model: Desire R8
+  os_family: Android
+  browser_family: Chrome
+-
+  user_agent: Mozilla/5.0 (Linux; Android 7.0; DSR_R7P) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.89 Mobile Safari/537.36
+  os:
+    name: Android
+    version: "7.0"
+    platform: ""
+  client:
+    type: browser
+    name: Chrome Mobile
+    version: 84.0.4147.89
+    engine: Blink
+    engine_version: 84.0.4147.89
+  device:
+    type: smartphone
+    brand: Cherry Mobile
+    model: Desire R7 Plus
+  os_family: Android
+  browser_family: Chrome
+-
+  user_agent: Mozilla/5.0 (Linux; Android 7.0; DSR_R7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.106 Mobile Safari/537.36
+  os:
+    name: Android
+    version: "7.0"
+    platform: ""
+  client:
+    type: browser
+    name: Chrome Mobile
+    version: 83.0.4103.106
+    engine: Blink
+    engine_version: 83.0.4103.106
+  device:
+    type: smartphone
+    brand: Cherry Mobile
+    model: Desire R7
+  os_family: Android
+  browser_family: Chrome
+-
+  user_agent: Mozilla/5.0 (Linux; Android 7.0; Dunns Slinger) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.136 Mobile Safari/537.36
+  os:
+    name: Android
+    version: "7.0"
+    platform: ""
+  client:
+    type: browser
+    name: Chrome Mobile
+    version: 74.0.3729.136
+    engine: Blink
+    engine_version: 74.0.3729.136
+  device:
+    type: smartphone
+    brand: DUNNS Mobile
+    model: Slinger
+  os_family: Android
+  browser_family: Chrome
+-
+  user_agent: Mozilla/5.0 (Linux; Android 5.1; DUKE8) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.89 Mobile Safari/537.36
+  os:
+    name: Android
+    version: "5.1"
+    platform: ""
+  client:
+    type: browser
+    name: Chrome Mobile
+    version: 76.0.3809.89
+    engine: Blink
+    engine_version: 76.0.3809.89
+  device:
+    type: smartphone
+    brand: CKK Mobile
+    model: DUKE 8
+  os_family: Android
+  browser_family: Chrome
+-
+  user_agent: Mozilla/5.0 (Linux; Android 5.1; DUKE 3 Build/LMY47I) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/39.0.0.0 Mobile Safari/537.36
+  os:
+    name: Android
+    version: "5.1"
+    platform: ""
+  client:
+    type: browser
+    name: Chrome Webview
+    version: 39.0.0.0
+    engine: Blink
+    engine_version: 39.0.0.0
+  device:
+    type: smartphone
+    brand: CKK Mobile
+    model: DUKE 3
+  os_family: Android
+  browser_family: Chrome
+-
+  user_agent: 'Mozilla/5.0 (Linux; Android 5.1; DUKE   II Build/LMY47I; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/73.0.3683.75 Mobile Safari/537.36'
+  os:
+    name: Android
+    version: "5.1"
+    platform: ""
+  client:
+    type: browser
+    name: Chrome Webview
+    version: 73.0.3683.75
+    engine: Blink
+    engine_version: 73.0.3683.75
+  device:
+    type: smartphone
+    brand: CKK Mobile
+    model: DUKE 2
+  os_family: Android
+  browser_family: Chrome
+-
+  user_agent: Mozilla/5.0 (Linux; Android 5.1; dopod 7P) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.111 Mobile Safari/537.36
+  os:
+    name: Android
+    version: "5.1"
+    platform: ""
+  client:
+    type: browser
+    name: Chrome Mobile
+    version: 76.0.3809.111
+    engine: Blink
+    engine_version: 76.0.3809.111
+  device:
+    type: smartphone
+    brand: Dopod
+    model: 7P
+  os_family: Android
+  browser_family: Chrome
+-
+  user_agent: Mozilla/5.0 (Linux; Android 6.0.1; LT C1300) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.90 Mobile Safari/537.36
+  os:
+    name: Android
+    version: 6.0.1
+    platform: ""
+  client:
+    type: browser
+    name: Chrome Mobile
+    version: 73.0.3683.90
+    engine: Blink
+    engine_version: 73.0.3683.90
+  device:
+    type: smartphone
+    brand: LT Mobile
+    model: W7
+  os_family: Android
+  browser_family: Chrome
+-
+  user_agent: Mozilla/5.0 (Linux; Android 13; QIN3ULTRA) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.5938.154 Mobile Safari/537.36 OPR/78.3.4143.75607
+  os:
+    name: Android
+    version: "13"
+    platform: ""
+  client:
+    type: browser
+    name: Opera Mobile
+    version: 78.3.4143.75607
+    engine: Blink
+    engine_version: 117.0.5938.154
+  device:
+    type: smartphone
+    brand: Xiaomi
+    model: Qin 3 Ultra
+  os_family: Android
+  browser_family: Opera
+-
+  user_agent: Mozilla/5.0 (Linux; Android 5.1; DL5003QL) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.99 Mobile Safari/537.36
+  os:
+    name: Android
+    version: "5.1"
+    platform: ""
+  client:
+    type: browser
+    name: Chrome Mobile
+    version: 71.0.3578.99
+    engine: Blink
+    engine_version: 71.0.3578.99
+  device:
+    type: smartphone
+    brand: Digiland
+    model: DL5003QL
+  os_family: Android
+  browser_family: Chrome
+-
+  user_agent: Mozilla/5.0 (Linux; Android 5.1; DL5503QL Build/LMY47D) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/39.0.0.0 Mobile Safari/537.36
+  os:
+    name: Android
+    version: "5.1"
+    platform: ""
+  client:
+    type: browser
+    name: Chrome Webview
+    version: 39.0.0.0
+    engine: Blink
+    engine_version: 39.0.0.0
+  device:
+    type: smartphone
+    brand: Digiland
+    model: DL5503QL
+  os_family: Android
+  browser_family: Chrome
+-
+  user_agent: Mozilla/5.0 (Linux; Android 5.1; Cynus F7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Mobile Safari/537.36
+  os:
+    name: Android
+    version: "5.1"
+    platform: ""
+  client:
+    type: browser
+    name: Chrome Mobile
+    version: 81.0.4044.138
+    engine: Blink
+    engine_version: 81.0.4044.138
+  device:
+    type: smartphone
+    brand: Mobistel
+    model: Cynus F7
+  os_family: Android
+  browser_family: Chrome
+-
+  user_agent: Mozilla/5.0 (Linux; Android 5.1; Cynus E6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.143 Mobile Safari/537.36
+  os:
+    name: Android
+    version: "5.1"
+    platform: ""
+  client:
+    type: browser
+    name: Chrome Mobile
+    version: 75.0.3770.143
+    engine: Blink
+    engine_version: 75.0.3770.143
+  device:
+    type: smartphone
+    brand: Mobistel
+    model: Cynus E6
+  os_family: Android
+  browser_family: Chrome
+-
+  user_agent: Mozilla/5.0 (Linux; Android 5.1; Cynus E4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.101 Mobile Safari/537.36
+  os:
+    name: Android
+    version: "5.1"
+    platform: ""
+  client:
+    type: browser
+    name: Chrome Mobile
+    version: 75.0.3770.101
+    engine: Blink
+    engine_version: 75.0.3770.101
+  device:
+    type: smartphone
+    brand: Mobistel
+    model: Cynus E4
+  os_family: Android
+  browser_family: Chrome
+-
+  user_agent: Mozilla/5.0 (Linux; Android 5.1; Cynus E10 Build/LMY47I) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/39.0.0.0 Mobile Safari/537.36
+  os:
+    name: Android
+    version: "5.1"
+    platform: ""
+  client:
+    type: browser
+    name: Chrome Webview
+    version: 39.0.0.0
+    engine: Blink
+    engine_version: 39.0.0.0
+  device:
+    type: smartphone
+    brand: Mobistel
+    model: Cynus E10
+  os_family: Android
+  browser_family: Chrome
+-
+  user_agent: Mozilla/5.0 (Linux; Android 5.1; CUBIX CUBE 3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Mobile Safari/537.36
+  os:
+    name: Android
+    version: "5.1"
+    platform: ""
+  client:
+    type: browser
+    name: Chrome Mobile
+    version: 86.0.4240.198
+    engine: Blink
+    engine_version: 86.0.4240.198
+  device:
+    type: smartphone
+    brand: Cherry Mobile
+    model: Cubix Cube 3
+  os_family: Android
+  browser_family: Chrome
+-
+  user_agent: Mozilla/5.0 (Linux; Android 4.4.2; DASH_JR_3G) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Mobile Safari/537.36
+  os:
+    name: Android
+    version: 4.4.2
+    platform: ""
+  client:
+    type: browser
+    name: Chrome Mobile
+    version: 78.0.3904.108
+    engine: Blink
+    engine_version: 78.0.3904.108
+  device:
+    type: smartphone
+    brand: Blu
+    model: Dash JR 3G
+  os_family: Android
+  browser_family: Chrome
+-
+  user_agent: Mozilla/5.0 (Linux; Android 4.4.2; DAGGER DG550) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.132 Mobile Safari/537.36
+  os:
+    name: Android
+    version: 4.4.2
+    platform: ""
+  client:
+    type: browser
+    name: Chrome Mobile
+    version: 80.0.3987.132
+    engine: Blink
+    engine_version: 80.0.3987.132
+  device:
+    type: smartphone
+    brand: Doogee
+    model: DG550 Dagger
+  os_family: Android
+  browser_family: Chrome
+-
+  user_agent: Mozilla/5.0 (Linux; Android 4.4.2; Cynus T8) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Mobile Safari/537.36
+  os:
+    name: Android
+    version: 4.4.2
+    platform: ""
+  client:
+    type: browser
+    name: Chrome Mobile
+    version: 81.0.4044.138
+    engine: Blink
+    engine_version: 81.0.4044.138
+  device:
+    type: smartphone
+    brand: Mobistel
+    model: Cynus T8
+  os_family: Android
+  browser_family: Chrome
+-
+  user_agent: Mozilla/5.0 (Linux; Android 8.1.0; itel A32F) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.99 Mobile Safari/537.36
+  os:
+    name: Android
+    version: 8.1.0
+    platform: ""
+  client:
+    type: browser
+    name: Chrome Mobile
+    version: 86.0.4240.99
+    engine: Blink
+    engine_version: 86.0.4240.99
+  device:
+    type: smartphone
+    brand: iTel
+    model: A32F
+  os_family: Android
+  browser_family: Chrome
+-
+  user_agent: Mozilla/5.0 (Linux; Android 5.1.0; Beeline Smart 5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.66 Mobile Safari/537.36
+  os:
+    name: Android
+    version: 5.1.0
+    platform: ""
+  client:
+    type: browser
+    name: Chrome Mobile
+    version: 87.0.4280.66
+    engine: Blink
+    engine_version: 87.0.4280.66
+  device:
+    type: smartphone
+    brand: Beeline
+    model: Smart 5
+  os_family: Android
+  browser_family: Chrome
+-
+  user_agent: Mozilla/5.0 (Linux; Android 5.0; Y100X) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.89 Mobile Safari/537.36
+  os:
+    name: Android
+    version: "5.0"
+    platform: ""
+  client:
+    type: browser
+    name: Chrome Mobile
+    version: 84.0.4147.89
+    engine: Blink
+    engine_version: 84.0.4147.89
+  device:
+    type: smartphone
+    brand: Doogee
+    model: Nova Y100X
+  os_family: Android
+  browser_family: Chrome
+-
+  user_agent: Mozilla/5.0 (Linux; Android 6.0; Getnord-Onyx) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Mobile Safari/537.36
+  os:
+    name: Android
+    version: "6.0"
+    platform: ""
+  client:
+    type: browser
+    name: Chrome Mobile
+    version: 81.0.4044.138
+    engine: Blink
+    engine_version: 81.0.4044.138
+  device:
+    type: smartphone
+    brand: Getnord
+    model: Onyx
+  os_family: Android
+  browser_family: Chrome
+-
+  user_agent: Mozilla/5.0 (Linux; Android 5.1.1; ONIDA_i4G1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.89 Mobile Safari/537.36
+  os:
+    name: Android
+    version: 5.1.1
+    platform: ""
+  client:
+    type: browser
+    name: Chrome Mobile
+    version: 76.0.3809.89
+    engine: Blink
+    engine_version: 76.0.3809.89
+  device:
+    type: smartphone
+    brand: Onida
+    model: i4G1
+  os_family: Android
+  browser_family: Chrome
+-
+  user_agent: Mozilla/5.0 (Linux; U; Android 9; en; QSmart Rocket Build/PPR1.180610.011) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/57.0.2987.108 UCBrowser/12.10.0.1163 UCTurbo/1.10.9.900 Mobile Safari/537.36
+  os:
+    name: Android
+    version: "9"
+    platform: ""
+  client:
+    type: browser
+    name: UC Browser Turbo
+    version: 1.10.9.900
+    engine: Blink
+    engine_version: 57.0.2987.108
+  device:
+    type: smartphone
+    brand: QMobile
+    model: Rocket
+  os_family: Android
+  browser_family: Unknown
+-
+  user_agent: Mozilla/5.0 (Linux; U; Android 8.1.0; en-US; Digit4G E3 pro Build/O21020) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/57.0.2987.108 UCBrowser/12.12.9.1226 Mobile Safari/537.36
+  os:
+    name: Android
+    version: 8.1.0
+    platform: ""
+  client:
+    type: browser
+    name: UC Browser
+    version: 12.12.9.1226
+    engine: Blink
+    engine_version: 57.0.2987.108
+  device:
+    type: smartphone
+    brand: Digit4G
+    model: E3 Pro
+  os_family: Android
+  browser_family: Unknown
+-
+  user_agent: Mozilla/5.0 (Linux; U; Android 8.1.0; en-US; QMobile i6 Metal 2018 Build/OPM2.171019.012) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/57.0.2987.108 UCBrowser/12.12.10.1227 Mobile Safari/537.36
+  os:
+    name: Android
+    version: 8.1.0
+    platform: ""
+  client:
+    type: browser
+    name: UC Browser
+    version: 12.12.10.1227
+    engine: Blink
+    engine_version: 57.0.2987.108
+  device:
+    type: smartphone
+    brand: QMobile
+    model: i6 Metal (2018)
+  os_family: Android
+  browser_family: Unknown
+-
+  user_agent: Mozilla/5.0 (Linux; U; Android 8.1.0; Digit4G E2 PRO Build/O21020; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/61.0.3163.98 Mobile Safari/537.36 OPR/70.0.2254.66606
+  os:
+    name: Android
+    version: 8.1.0
+    platform: ""
+  client:
+    type: browser
+    name: Opera Mobile
+    version: 70.0.2254.66606
+    engine: Blink
+    engine_version: 61.0.3163.98
+  device:
+    type: smartphone
+    brand: Digit4G
+    model: E2 Pro
+  os_family: Android
+  browser_family: Opera
+-
+  user_agent: Mozilla/5.0 (Linux; U; Android 7.1; GN5001S Build/LMY47D; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/70.0.3538.80 Mobile Safari/537.36 OPR/37.1.2254.132401
+  os:
+    name: Android
+    version: "7.1"
+    platform: ""
+  client:
+    type: browser
+    name: Opera Mobile
+    version: 37.1.2254.132401
+    engine: Blink
+    engine_version: 70.0.3538.80
+  device:
+    type: smartphone
+    brand: Gionee
+    model: GN5001S
+  os_family: Android
+  browser_family: Opera
+-
+  user_agent: Mozilla/5.0 (Linux; arm_64; Android 12; Sparx Neo 5 Plus) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.5993.2332 YaApp_Android/23.110 YaSearchBrowser/23.110 BroPP/1.0 SA/3 Mobile Safari/537.36
+  os:
+    name: Android
+    version: "12"
+    platform: ARM
+  client:
+    type: browser
+    name: Yandex Browser
+    version: "23.110"
+    engine: Blink
+    engine_version: 118.0.5993.2332
+  device:
+    type: smartphone
+    brand: Sparx
+    model: Neo 5 Plus
+  os_family: Android
+  browser_family: Unknown
+-
+  user_agent: Mozilla/5.0 (Linux; arm_64; Android 13; 2310FPCA4G) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.5993.2332 YaApp_Android/23.110.1 YaSearchBrowser/23.110.1 BroPP/1.0 SA/3 Mobile Safari/537.36
+  os:
+    name: Android
+    version: "13"
+    platform: ARM
+  client:
+    type: browser
+    name: Yandex Browser
+    version: 23.110.1
+    engine: Blink
+    engine_version: 118.0.5993.2332
+  device:
+    type: smartphone
+    brand: POCO
+    model: C65
+  os_family: Android
+  browser_family: Unknown
+-
+  user_agent: Mozilla/5.0 (Linux; arm_64; Android 13; 23106RN0DA) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.5993.2332 YaApp_Android/23.110 YaSearchBrowser/23.110 BroPP/1.0 SA/3 Mobile Safari/537.36
+  os:
+    name: Android
+    version: "13"
+    platform: ARM
+  client:
+    type: browser
+    name: Yandex Browser
+    version: "23.110"
+    engine: Blink
+    engine_version: 118.0.5993.2332
+  device:
+    type: smartphone
+    brand: Xiaomi
+    model: Redmi 13C
+  os_family: Android
+  browser_family: Unknown
+-
+  user_agent: Mozilla/5.0 (Linux; arm_64; Android 13; 23078RKD5C) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.5993.2332 YaApp_Android/23.110.1 YaSearchBrowser/23.110.1 BroPP/1.0 SA/3 Mobile Safari/537.36
+  os:
+    name: Android
+    version: "13"
+    platform: ARM
+  client:
+    type: browser
+    name: Yandex Browser
+    version: 23.110.1
+    engine: Blink
+    engine_version: 118.0.5993.2332
+  device:
+    type: smartphone
+    brand: Xiaomi
+    model: Redmi K60 Ultra
+  os_family: Android
+  browser_family: Unknown
+-
+  user_agent: Mozilla/5.0 (Linux; arm_64; Android 13; 23053RN02I) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.5845.531 YaSearchBrowser/23.97.1 BroPP/1.0 YaSearchApp/23.97.1 webOmni SA/3 Mobile Safari/537.36
+  os:
+    name: Android
+    version: "13"
+    platform: ARM
+  client:
+    type: browser
+    name: Yandex Browser
+    version: 23.97.1
+    engine: Blink
+    engine_version: 116.0.5845.531
+  device:
+    type: smartphone
+    brand: Xiaomi
+    model: Redmi 12
+  os_family: Android
+  browser_family: Unknown
+-
+  user_agent: Mozilla/5.0 (Linux; arm_64; Android 13; 2305003M) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.5993.232 YaBrowser/23.11.0.232.00 SA/3 Mobile Safari/537.36
+  os:
+    name: Android
+    version: "13"
+    platform: ARM
+  client:
+    type: browser
+    name: Yandex Browser
+    version: 23.11.0.232.00
+    engine: Blink
+    engine_version: 118.0.5993.232
+  device:
+    type: smartphone
+    brand: FreeYond
+    model: M5A
+  os_family: Android
+  browser_family: Unknown
+-
+  user_agent: Mozilla/5.0 (Linux; Android 10; Blade L210) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.101 Mobile Safari/537.36 OPR/77.0.4054.90
+  os:
+    name: Android
+    version: "10"
+    platform: ""
+  client:
+    type: browser
+    name: Opera Mobile
+    version: 77.0.4054.90
+    engine: Blink
+    engine_version: 91.0.4472.101
+  device:
+    type: smartphone
+    brand: ZTE
+    model: Blade L210
+  os_family: Android
+  browser_family: Opera
+-
+  user_agent: Mozilla/5.0 (Linux; Android 10; Blade L210RU Build/QP1A.190711.020) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.96 Mobile Safari/537.36
+  os:
+    name: Android
+    version: "10"
+    platform: ""
+  client:
+    type: browser
+    name: Chrome Mobile
+    version: 72.0.3626.96
+    engine: Blink
+    engine_version: 72.0.3626.96
+  device:
+    type: smartphone
+    brand: ZTE
+    model: Blade L210
+  os_family: Android
+  browser_family: Chrome
+-
+  user_agent: Mozilla/5.0 (Linux; Android 13; VIA X30 Build/TP1A.220624.014; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/119.0.6045.163 Mobile Safari/537.36
+  os:
+    name: Android
+    version: "13"
+    platform: ""
+  client:
+    type: browser
+    name: Chrome Webview
+    version: 119.0.6045.163
+    engine: Blink
+    engine_version: 119.0.6045.163
+  device:
+    type: smartphone
+    brand: Casper
+    model: VIA X30
+  os_family: Android
+  browser_family: Chrome
+-
+  user_agent: Mozilla/5.0 (Linux; Android 13; VER-AN10) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.0.0 Mobile Safari/537.36
+  os:
+    name: Android
+    version: "13"
+    platform: ""
+  client:
+    type: browser
+    name: Chrome Mobile
+    version: 102.0.0.0
+    engine: Blink
+    engine_version: 102.0.0.0
+  device:
+    type: smartphone
+    brand: Huawei
+    model: Honor Magic V2
+  os_family: Android
+  browser_family: Chrome
+-
+  user_agent: Mozilla/5.0 (Linux; Android 13; VER-AN00) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.101 Safari/537.36
+  os:
+    name: Android
+    version: "13"
+    platform: ""
+  client:
+    type: browser
+    name: Chrome
+    version: 75.0.3770.101
+    engine: Blink
+    engine_version: 75.0.3770.101
+  device:
+    type: smartphone
+    brand: Huawei
+    model: Honor Magic Vs2
+  os_family: Android
+  browser_family: Chrome
+-
+  user_agent: Mozilla/5.0 (Linux; Android 13; WTATTRW2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.5938.154 Mobile Safari/537.36 OPR/78.5.4143.75924
+  os:
+    name: Android
+    version: "13"
+    platform: ""
+  client:
+    type: browser
+    name: Opera Mobile
+    version: 78.5.4143.75924
+    engine: Blink
+    engine_version: 117.0.5938.154
+  device:
+    type: smartphone
+    brand: 'AT&T'
+    model: Vista
+  os_family: Android
+  browser_family: Opera
+-
+  user_agent: Mozilla/5.0 (Linux; Android 13; itel S681LN) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.5938.154 Mobile Safari/537.36 OPR/78.5.4143.75924
+  os:
+    name: Android
+    version: "13"
+    platform: ""
+  client:
+    type: browser
+    name: Opera Mobile
+    version: 78.5.4143.75924
+    engine: Blink
+    engine_version: 117.0.5938.154
+  device:
+    type: smartphone
+    brand: iTel
+    model: S23+
+  os_family: Android
+  browser_family: Opera
+-
+  user_agent: Mozilla/5.0 (Linux; Android 13; motorola edge 40) AppleWebKit/537.36 (KHTML, like Gecko) SamsungBrowser/23.0 Chrome/115.0.0.0 Mobile Safari/537.36
+  os:
+    name: Android
+    version: "13"
+    platform: ""
+  client:
+    type: browser
+    name: Samsung Browser
+    version: "23.0"
+    engine: Blink
+    engine_version: 115.0.0.0
+  device:
+    type: smartphone
+    brand: Motorola
+    model: Edge 40
+  os_family: Android
+  browser_family: Chrome
+-
+  user_agent: Mozilla/5.0 (Linux; Android 14; 23127PN0CC Build/UKQ1.230804.001; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/119.0.6045.67 Mobile Safari/537.36
+  os:
+    name: Android
+    version: "14"
+    platform: ""
+  client:
+    type: browser
+    name: Chrome Webview
+    version: 119.0.6045.67
+    engine: Blink
+    engine_version: 119.0.6045.67
+  device:
+    type: smartphone
+    brand: Xiaomi
+    model: "14"
+  os_family: Android
+  browser_family: Chrome
+-
+  user_agent: Mozilla/5.0 (Linux; Android 14; 23116PN5BC) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.5938.154 Mobile Safari/537.36 OPR/78.5.4143.75924
+  os:
+    name: Android
+    version: "14"
+    platform: ""
+  client:
+    type: browser
+    name: Opera Mobile
+    version: 78.5.4143.75924
+    engine: Blink
+    engine_version: 117.0.5938.154
+  device:
+    type: smartphone
+    brand: Xiaomi
+    model: 14 Pro
+  os_family: Android
+  browser_family: Opera
+-
+  user_agent: Mozilla/5.0 (Linux; Android 14; G0DZQ) AppleWebKit/537.46 (KHTML, like Gecko) Chrome/118.0.5993.80 Mobile Safari/537.46
+  os:
+    name: Android
+    version: "14"
+    platform: ""
+  client:
+    type: browser
+    name: Chrome Mobile
+    version: 118.0.5993.80
+    engine: Blink
+    engine_version: 118.0.5993.80
+  device:
+    type: smartphone
+    brand: Google
+    model: Pixel 7a
+  os_family: Android
+  browser_family: Chrome
+-
+  user_agent: Mozilla/5.0 (Linux; Android 14; G1MNW) AppleWebKit/537.46 (KHTML, like Gecko) Chrome/118.0.5993.80 Mobile Safari/537.46
+  os:
+    name: Android
+    version: "14"
+    platform: ""
+  client:
+    type: browser
+    name: Chrome Mobile
+    version: 118.0.5993.80
+    engine: Blink
+    engine_version: 118.0.5993.80
+  device:
+    type: smartphone
+    brand: Google
+    model: Pixel 8 Pro
+  os_family: Android
+  browser_family: Chrome
+-
+  user_agent: Mozilla/5.0 (Linux; Android 14; G82U8) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.5993.48 Mobile Safari/537.43
+  os:
+    name: Android
+    version: "14"
+    platform: ""
+  client:
+    type: browser
+    name: Chrome Mobile
+    version: 118.0.5993.48
+    engine: Blink
+    engine_version: 118.0.5993.48
+  device:
+    type: smartphone
+    brand: Google
+    model: Pixel 7a
+  os_family: Android
+  browser_family: Chrome
+-
+  user_agent: Mozilla/5.0 (Linux; Android 14; G9BQD) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.5993.48 Mobile Safari/537.36
+  os:
+    name: Android
+    version: "14"
+    platform: ""
+  client:
+    type: browser
+    name: Chrome Mobile
+    version: 118.0.5993.48
+    engine: Blink
+    engine_version: 118.0.5993.48
+  device:
+    type: smartphone
+    brand: Google
+    model: Pixel 8
+  os_family: Android
+  browser_family: Chrome
+-
+  user_agent: Mozilla/5.0 (Linux; Android 14; MZB0E6DIN) AppleWebKit/537.44 (KHTML, like Gecko) Chrome/118.0.5993.80 Mobile Safari/537.36
+  os:
+    name: Android
+    version: "14"
+    platform: ""
+  client:
+    type: browser
+    name: Chrome Mobile
+    version: 118.0.5993.80
+    engine: Blink
+    engine_version: 118.0.5993.80
+  device:
+    type: smartphone
+    brand: POCO
+    model: C51
+  os_family: Android
+  browser_family: Chrome
+-
+  user_agent: Mozilla/5.0 (Linux; arm; Android 13; V2320) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 YaSearchBrowser/23.15.1 BroPP/1.0 YaSearchApp/23.15.1 webOmni SA/3 Mobile Safari/537.36
+  os:
+    name: Android
+    version: "13"
+    platform: ARM
+  client:
+    type: browser
+    name: Yandex Browser
+    version: 23.15.1
+    engine: Blink
+    engine_version: 108.0.0.0
+  device:
+    type: smartphone
+    brand: Vivo
+    model: T2
+  os_family: Android
+  browser_family: Unknown
+-
+  user_agent: Mozilla/5.0 (Linux; arm; Android 13; V2317) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.5993.232 YaBrowser/23.11.0.232.00 SA/3 Mobile Safari/537.36
+  os:
+    name: Android
+    version: "13"
+    platform: ARM
+  client:
+    type: browser
+    name: Yandex Browser
+    version: 23.11.0.232.00
+    engine: Blink
+    engine_version: 118.0.5993.232
+  device:
+    type: smartphone
+    brand: Vivo
+    model: V29e 5G
+  os_family: Android
+  browser_family: Unknown
+-
+  user_agent: Mozilla/5.0 (Linux; arm; Android 13; V2310) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 YaSearchBrowser/23.15.1 BroPP/1.0 YaSearchApp/23.15.1 webOmni SA/3 Mobile Safari/537.36
+  os:
+    name: Android
+    version: "13"
+    platform: ARM
+  client:
+    type: browser
+    name: Yandex Browser
+    version: 23.15.1
+    engine: Blink
+    engine_version: 108.0.0.0
+  device:
+    type: smartphone
+    brand: Vivo
+    model: Y17s
+  os_family: Android
+  browser_family: Unknown
+-
+  user_agent: Mozilla/5.0 (Linux; arm; Android 13; WDY-AN00) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.5845.808 YaApp_Android/23.92.1 YaSearchBrowser/23.92.1 BroPP/1.0 SA/3 Mobile Safari/537.36
+  os:
+    name: Android
+    version: "13"
+    platform: ARM
+  client:
+    type: browser
+    name: Yandex Browser
+    version: 23.92.1
+    engine: Blink
+    engine_version: 116.0.5845.808
+  device:
+    type: smartphone
+    brand: Huawei
+    model: Honor Play 40C
+  os_family: Android
+  browser_family: Unknown
+-
+  user_agent: Mozilla/5.0 (Linux; arm; Android 13; TECNO BG6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.5845.64 YaSearchBrowser/23.99.1 BroPP/1.0 YaSearchApp/23.99.1 webOmni SA/3 Mobile Safari/537.36
+  os:
+    name: Android
+    version: "13"
+    platform: ARM
+  client:
+    type: browser
+    name: Yandex Browser
+    version: 23.99.1
+    engine: Blink
+    engine_version: 116.0.5845.64
+  device:
+    type: smartphone
+    brand: Tecno Mobile
+    model: Spark Go (2024)
+  os_family: Android
+  browser_family: Unknown
+-
+  user_agent: Mozilla/5.0 (Linux; arm; Android 13; Air1 Ultra Pro) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 YaBrowser/23.1.5.93.00 SA/3 Mobile Safari/537.36
+  os:
+    name: Android
+    version: "13"
+    platform: ARM
+  client:
+    type: browser
+    name: Yandex Browser
+    version: 23.1.5.93.00
+    engine: Blink
+    engine_version: 108.0.0.0
+  device:
+    type: smartphone
+    brand: F150
+    model: Air1 Ultra Pro
+  os_family: Android
+  browser_family: Unknown
+-
+  user_agent: Mozilla/5.0 (Linux; arm; Android 12; ZTE Blade A53) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.5993.2332 YaApp_Android/23.110 YaSearchBrowser/23.110 BroPP/1.0 SA/3 Mobile Safari/537.36
+  os:
+    name: Android
+    version: "12"
+    platform: ARM
+  client:
+    type: browser
+    name: Yandex Browser
+    version: "23.110"
+    engine: Blink
+    engine_version: 118.0.5993.2332
+  device:
+    type: smartphone
+    brand: ZTE
+    model: Blade A53
+  os_family: Android
+  browser_family: Unknown
+-
+  user_agent: Mozilla/5.0 (Linux; Android 10; Redmi K30S) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.101 Mobile Safari/537.36 EdgA/91.0.864.48
+  os:
+    name: Android
+    version: "10"
+    platform: ""
+  client:
+    type: browser
+    name: Microsoft Edge
+    version: 91.0.864.48
+    engine: Blink
+    engine_version: 91.0.4472.101
+  device:
+    type: smartphone
+    brand: Xiaomi
+    model: Redmi K30S
+  os_family: Android
+  browser_family: Internet Explorer
+-
+  user_agent: Mozilla/5.0 (Linux; Android 10; Redmi K30 Pro Zoom) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.101 Mobile Safari/537.36 OPR/77.0.4054.90
+  os:
+    name: Android
+    version: "10"
+    platform: ""
+  client:
+    type: browser
+    name: Opera Mobile
+    version: 77.0.4054.90
+    engine: Blink
+    engine_version: 91.0.4472.101
+  device:
+    type: smartphone
+    brand: Xiaomi
+    model: Redmi K30 Pro Zoom
+  os_family: Android
+  browser_family: Opera
+-
+  user_agent: Mozilla/5.0 (Linux; Android 10; Redmi K20Pro) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.101 Mobile Safari/537.36
+  os:
+    name: Android
+    version: "10"
+    platform: ""
+  client:
+    type: browser
+    name: Chrome Mobile
+    version: 91.0.4472.101
+    engine: Blink
+    engine_version: 91.0.4472.101
+  device:
+    type: smartphone
+    brand: Xiaomi
+    model: Redmi K20 Pro
+  os_family: Android
+  browser_family: Chrome
+-
+  user_agent: Mozilla/5.0 (Linux; arm_64; Android 13; WP28) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.5993.105 YaBrowser/23.11.1.105.00 SA/3 Mobile Safari/537.36
+  os:
+    name: Android
+    version: "13"
+    platform: ARM
+  client:
+    type: browser
+    name: Yandex Browser
+    version: 23.11.1.105.00
+    engine: Blink
+    engine_version: 118.0.5993.105
+  device:
+    type: smartphone
+    brand: Oukitel
+    model: WP28
+  os_family: Android
+  browser_family: Unknown
+-
+  user_agent: Mozilla/5.0 (Linux; arm_64; Android 13; WP27) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.5993.232 YaBrowser/23.11.0.232.00 SA/3 Mobile Safari/537.36
+  os:
+    name: Android
+    version: "13"
+    platform: ARM
+  client:
+    type: browser
+    name: Yandex Browser
+    version: 23.11.0.232.00
+    engine: Blink
+    engine_version: 118.0.5993.232
+  device:
+    type: smartphone
+    brand: Oukitel
+    model: WP27
+  os_family: Android
+  browser_family: Unknown
+-
+  user_agent: Mozilla/5.0 (Linux; arm_64; Android 13; WP26) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.5993.2332 YaApp_Android/23.110.1 YaSearchBrowser/23.110.1 BroPP/1.0 SA/3 Mobile Safari/537.36
+  os:
+    name: Android
+    version: "13"
+    platform: ARM
+  client:
+    type: browser
+    name: Yandex Browser
+    version: 23.110.1
+    engine: Blink
+    engine_version: 118.0.5993.2332
+  device:
+    type: smartphone
+    brand: Oukitel
+    model: WP26
+  os_family: Android
+  browser_family: Unknown
+-
+  user_agent: Mozilla/5.0 (Linux; arm_64; Android 13; WP23 Pro) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.5993.2332 YaApp_Android/23.110.1 YaSearchBrowser/23.110.1 BroPP/1.0 SA/3 Mobile Safari/537.36
+  os:
+    name: Android
+    version: "13"
+    platform: ARM
+  client:
+    type: browser
+    name: Yandex Browser
+    version: 23.110.1
+    engine: Blink
+    engine_version: 118.0.5993.2332
+  device:
+    type: smartphone
+    brand: Oukitel
+    model: WP23 Pro
+  os_family: Android
+  browser_family: Unknown
+-
+  user_agent: Mozilla/5.0 (Linux; arm_64; Android 13; Cyber X Pro) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.5845.64 YaSearchBrowser/23.99.1 BroPP/1.0 YaSearchApp/23.99.1 webOmni SA/3 Mobile Safari/537.36
+  os:
+    name: Android
+    version: "13"
+    platform: ARM
+  client:
+    type: browser
+    name: Yandex Browser
+    version: 23.99.1
+    engine: Blink
+    engine_version: 116.0.5845.64
+  device:
+    type: smartphone
+    brand: Hotwav
+    model: Cyber X Pro
+  os_family: Android
+  browser_family: Unknown
+-
+  user_agent: Mozilla/5.0 (Linux; arm_64; Android 13; KINGKONG STAR) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.5845.1159 YaApp_Android/23.96.1 YaSearchBrowser/23.96.1 BroPP/1.0 SA/3 Mobile Safari/537.36
+  os:
+    name: Android
+    version: "13"
+    platform: ARM
+  client:
+    type: browser
+    name: Yandex Browser
+    version: 23.96.1
+    engine: Blink
+    engine_version: 116.0.5845.1159
+  device:
+    type: smartphone
+    brand: CUBOT
+    model: King Kong Star
+  os_family: Android
+  browser_family: Unknown
+-
+  user_agent: Mozilla/5.0 (Linux; arm_64; Android 13; Infinix X6731B) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.5993.652 YaSearchBrowser/23.111.1 BroPP/1.0 YaSearchApp/23.111.1 webOmni SA/3 Mobile Safari/537.36
+  os:
+    name: Android
+    version: "13"
+    platform: ARM
+  client:
+    type: browser
+    name: Yandex Browser
+    version: 23.111.1
+    engine: Blink
+    engine_version: 118.0.5993.652
+  device:
+    type: smartphone
+    brand: Infinix
+    model: Zero 30
+  os_family: Android
+  browser_family: Unknown
+-
+  user_agent: Mozilla/5.0 (Linux; arm_64; Android 13; Infinix X6731) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.5993.652 YaSearchBrowser/23.111.1 BroPP/1.0 YaSearchApp/23.111.1 webOmni SA/3 Mobile Safari/537.36
+  os:
+    name: Android
+    version: "13"
+    platform: ARM
+  client:
+    type: browser
+    name: Yandex Browser
+    version: 23.111.1
+    engine: Blink
+    engine_version: 118.0.5993.652
+  device:
+    type: smartphone
+    brand: Infinix
+    model: Zero 30 5G
+  os_family: Android
+  browser_family: Unknown
+-
+  user_agent: Mozilla/5.0 (Linux; arm_64; Android 13; RP08) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.5993.232 YaBrowser/23.11.0.232.00 SA/3 Mobile Safari/537.36
+  os:
+    name: Android
+    version: "13"
+    platform: ARM
+  client:
+    type: browser
+    name: Yandex Browser
+    version: 23.11.0.232.00
+    engine: Blink
+    engine_version: 118.0.5993.232
+  device:
+    type: smartphone
+    brand: UMIDIGI
+    model: G5 Mecha
+  os_family: Android
+  browser_family: Unknown
+-
+  user_agent: Mozilla/5.0 (Linux; arm_64; Android 13; RMX3823) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.5845.64 YaSearchBrowser/23.99.1 BroPP/1.0 YaSearchApp/23.99.1 webOmni SA/3 Mobile Safari/537.36
+  os:
+    name: Android
+    version: "13"
+    platform: ARM
+  client:
+    type: browser
+    name: Yandex Browser
+    version: 23.99.1
+    engine: Blink
+    engine_version: 116.0.5845.64
+  device:
+    type: smartphone
+    brand: Realme
+    model: GT 5
+  os_family: Android
+  browser_family: Unknown
+-
+  user_agent: Mozilla/5.0 (Linux; arm_64; Android 13; RMX3770) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.5993.2332 YaApp_Android/23.110.1 YaSearchBrowser/23.110.1 BroPP/1.0 SA/3 Mobile Safari/537.36
+  os:
+    name: Android
+    version: "13"
+    platform: ARM
+  client:
+    type: browser
+    name: Yandex Browser
+    version: 23.110.1
+    engine: Blink
+    engine_version: 118.0.5993.2332
+  device:
+    type: smartphone
+    brand: Realme
+    model: 11 Pro
+  os_family: Android
+  browser_family: Unknown
+-
+  user_agent: Mozilla/5.0 (Linux; arm_64; Android 12; RMX3619) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.5845.64 YaSearchBrowser/23.99.1/apad BroPP/1.0 YaSearchApp/23.99.1/apad webOmni SA/3 Mobile Safari/537.36
+  os:
+    name: Android
+    version: "12"
+    platform: ARM
+  client:
+    type: browser
+    name: Yandex Browser
+    version: 23.99.1
+    engine: Blink
+    engine_version: 116.0.5845.64
+  device:
+    type: smartphone
+    brand: Realme
+    model: V30
+  os_family: Android
+  browser_family: Unknown
+-
+  user_agent: Mozilla/5.0 (Linux; arm_64; Android 13; motorola edge 40 neo) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.5845.64 YaSearchBrowser/23.99.1 BroPP/1.0 YaSearchApp/23.99.1 webOmni SA/3 Mobile Safari/537.36
+  os:
+    name: Android
+    version: "13"
+    platform: ARM
+  client:
+    type: browser
+    name: Yandex Browser
+    version: 23.99.1
+    engine: Blink
+    engine_version: 116.0.5845.64
+  device:
+    type: smartphone
+    brand: Motorola
+    model: Edge 40 Neo
+  os_family: Android
+  browser_family: Unknown
+-
+  user_agent: Mozilla/5.0 (Linux; arm_64; Android 14; Pixel 8) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.5845.1159 YaApp_Android/23.96.1 YaSearchBrowser/23.96.1 BroPP/1.0 SA/3 Mobile Safari/537.36
+  os:
+    name: Android
+    version: "14"
+    platform: ARM
+  client:
+    type: browser
+    name: Yandex Browser
+    version: 23.96.1
+    engine: Blink
+    engine_version: 116.0.5845.1159
+  device:
+    type: smartphone
+    brand: Google
+    model: Pixel 8
+  os_family: Android
+  browser_family: Unknown
+-
+  user_agent: Mozilla/5.0 (Linux; arm_64; Android 13; motorola razr 40) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.5845.1159 YaApp_Android/23.96.1 YaSearchBrowser/23.96.1 BroPP/1.0 SA/3 Mobile Safari/537.36
+  os:
+    name: Android
+    version: "13"
+    platform: ARM
+  client:
+    type: browser
+    name: Yandex Browser
+    version: 23.96.1
+    engine: Blink
+    engine_version: 116.0.5845.1159
+  device:
+    type: smartphone
+    brand: Motorola
+    model: RIZR 40
+  os_family: Android
+  browser_family: Unknown
+-
+  user_agent: Mozilla/5.0 (Linux; arm_64; Android 13; motorola razr 40 ultra) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.5845.29 YaBrowser/23.9.9.29.00 SA/3 Mobile Safari/537.36
+  os:
+    name: Android
+    version: "13"
+    platform: ARM
+  client:
+    type: browser
+    name: Yandex Browser
+    version: 23.9.9.29.00
+    engine: Blink
+    engine_version: 116.0.5845.29
+  device:
+    type: smartphone
+    brand: Motorola
+    model: RIZR 40 Ultra
+  os_family: Android
+  browser_family: Unknown
+-
+  user_agent: Mozilla/5.0 (Linux; arm_64; Android 13; nubia 8150N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.5845.29 YaBrowser/23.9.9.29.00 SA/3 Mobile Safari/537.36
+  os:
+    name: Android
+    version: "13"
+    platform: ARM
+  client:
+    type: browser
+    name: Yandex Browser
+    version: 23.9.9.29.00
+    engine: Blink
+    engine_version: 116.0.5845.29
+  device:
+    type: smartphone
+    brand: Nubia
+    model: Neo 5G
+  os_family: Android
+  browser_family: Unknown
+-
+  user_agent: Mozilla/5.0 (Linux; arm_64; Android 14; SM-S711B) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.5993.652 YaSearchBrowser/23.111.1 BroPP/1.0 YaSearchApp/23.111.1 webOmni SA/3 Mobile Safari/537.36
+  os:
+    name: Android
+    version: "14"
+    platform: ARM
+  client:
+    type: browser
+    name: Yandex Browser
+    version: 23.111.1
+    engine: Blink
+    engine_version: 118.0.5993.652
+  device:
+    type: smartphone
+    brand: Samsung
+    model: Galaxy S23 FE
+  os_family: Android
+  browser_family: Unknown
+-
+  user_agent: Mozilla/5.0 (Linux; arm_64; Android 13; moto g84 5G) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.5993.2332 YaApp_Android/23.110.1 YaSearchBrowser/23.110.1 BroPP/1.0 SA/3 Mobile Safari/537.36
+  os:
+    name: Android
+    version: "13"
+    platform: ARM
+  client:
+    type: browser
+    name: Yandex Browser
+    version: 23.110.1
+    engine: Blink
+    engine_version: 118.0.5993.2332
+  device:
+    type: smartphone
+    brand: Motorola
+    model: Moto G84 5G
+  os_family: Android
+  browser_family: Unknown
+-
+  user_agent: Mozilla/5.0 (Linux; arm_64; Android 13; moto g54 5G) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.5993.2332 YaApp_Android/23.110 YaSearchBrowser/23.110 BroPP/1.0 SA/3 Mobile Safari/537.36
+  os:
+    name: Android
+    version: "13"
+    platform: ARM
+  client:
+    type: browser
+    name: Yandex Browser
+    version: "23.110"
+    engine: Blink
+    engine_version: 118.0.5993.2332
+  device:
+    type: smartphone
+    brand: Motorola
+    model: Moto G54 5G
+  os_family: Android
+  browser_family: Unknown
+-
+  user_agent: Mozilla/5.0 (Linux; arm_64; Android 13; V31GT) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.5993.2332 YaApp_Android/23.110.1 YaSearchBrowser/23.110.1 BroPP/1.0 SA/3 Mobile Safari/537.36
+  os:
+    name: Android
+    version: "13"
+    platform: ARM
+  client:
+    type: browser
+    name: Yandex Browser
+    version: 23.110.1
+    engine: Blink
+    engine_version: 118.0.5993.2332
+  device:
+    type: smartphone
+    brand: Doogee
+    model: V31GT
+  os_family: Android
+  browser_family: Unknown
+-
+  user_agent: Mozilla/5.0 (Linux; arm_64; Android 13; V2304A) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.5993.2332 YaApp_Android/23.110.1 YaSearchBrowser/23.110.1 BroPP/1.0 SA/3 Mobile Safari/537.36
+  os:
+    name: Android
+    version: "13"
+    platform: ARM
+  client:
+    type: browser
+    name: Yandex Browser
+    version: 23.110.1
+    engine: Blink
+    engine_version: 118.0.5993.2332
+  device:
+    type: smartphone
+    brand: Vivo
+    model: iQOO 11S
+  os_family: Android
+  browser_family: Unknown
+-
+  user_agent: Mozilla/5.0 (Linux; arm_64; Android 13; V2302A) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.5993.232 YaBrowser/23.11.0.232.00 SA/3 Mobile Safari/537.36
+  os:
+    name: Android
+    version: "13"
+    platform: ARM
+  client:
+    type: browser
+    name: Yandex Browser
+    version: 23.11.0.232.00
+    engine: Blink
+    engine_version: 118.0.5993.232
+  device:
+    type: smartphone
+    brand: Vivo
+    model: iQOO Neo 8 Pro
+  os_family: Android
+  browser_family: Unknown
+-
+  user_agent: Mozilla/5.0 (Linux; arm_64; Android 13; V2282A) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.5845.64 YaSearchBrowser/23.99.1 BroPP/1.0 YaSearchApp/23.99.1 webOmni SA/3 Mobile Safari/537.36
+  os:
+    name: Android
+    version: "13"
+    platform: ARM
+  client:
+    type: browser
+    name: Yandex Browser
+    version: 23.99.1
+    engine: Blink
+    engine_version: 116.0.5845.64
+  device:
+    type: smartphone
+    brand: Vivo
+    model: S17t
+  os_family: Android
+  browser_family: Unknown
+-
+  user_agent: Mozilla/5.0 (Linux; arm_64; Android 13; V2279A) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.5845.1159 YaApp_Android/23.96.1 YaSearchBrowser/23.96.1 BroPP/1.0 SA/3 Mobile Safari/537.36
+  os:
+    name: Android
+    version: "13"
+    platform: ARM
+  client:
+    type: browser
+    name: Yandex Browser
+    version: 23.96.1
+    engine: Blink
+    engine_version: 116.0.5845.1159
+  device:
+    type: smartphone
+    brand: Vivo
+    model: Y35+
+  os_family: Android
+  browser_family: Unknown
+-
+  user_agent: Mozilla/5.0 (Linux; arm_64; Android 13; V2322) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.5993.232 YaBrowser/23.11.0.232.00 SA/3 Mobile Safari/537.36
+  os:
+    name: Android
+    version: "13"
+    platform: ARM
+  client:
+    type: browser
+    name: Yandex Browser
+    version: 23.11.0.232.00
+    engine: Blink
+    engine_version: 118.0.5993.232
+  device:
+    type: smartphone
+    brand: Vivo
+    model: Y27s
+  os_family: Android
+  browser_family: Unknown
+-
+  user_agent: Mozilla/5.0 (Linux; arm_64; Android 13; V2314A) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.5993.2332 YaApp_Android/23.110.1 YaSearchBrowser/23.110.1 BroPP/1.0 SA/3 Mobile Safari/537.36
+  os:
+    name: Android
+    version: "13"
+    platform: ARM
+  client:
+    type: browser
+    name: Yandex Browser
+    version: 23.110.1
+    engine: Blink
+    engine_version: 118.0.5993.2332
+  device:
+    type: smartphone
+    brand: Vivo
+    model: iQOO Z8
+  os_family: Android
+  browser_family: Unknown
+-
+  user_agent: Mozilla/5.0 (Linux; arm_64; Android 13; V2313A) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.5845.64 YaSearchBrowser/23.99 BroPP/1.0 YaSearchApp/23.99 webOmni SA/3 Mobile Safari/537.36
+  os:
+    name: Android
+    version: "13"
+    platform: ARM
+  client:
+    type: browser
+    name: Yandex Browser
+    version: "23.99"
+    engine: Blink
+    engine_version: 116.0.5845.64
+  device:
+    type: smartphone
+    brand: Vivo
+    model: Y100 5G
+  os_family: Android
+  browser_family: Unknown
+-
+  user_agent: Mozilla/5.0 (Linux; arm_64; Android 13; V2278A) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.5845.64 YaSearchBrowser/23.99/apad BroPP/1.0 YaSearchApp/23.99/apad webOmni SA/3 Mobile Safari/537.36
+  os:
+    name: Android
+    version: "13"
+    platform: ARM
+  client:
+    type: browser
+    name: Yandex Browser
+    version: "23.99"
+    engine: Blink
+    engine_version: 116.0.5845.64
+  device:
+    type: smartphone
+    brand: Vivo
+    model: Y77t
+  os_family: Android
+  browser_family: Unknown
+-
+  user_agent: Mozilla/5.0 (Linux; arm_64; Android 13; V2271A) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.5845.650 YaSearchBrowser/23.93.1 BroPP/1.0 YaSearchApp/23.93.1 webOmni SA/3 Mobile Safari/537.36
+  os:
+    name: Android
+    version: "13"
+    platform: ARM
+  client:
+    type: browser
+    name: Yandex Browser
+    version: 23.93.1
+    engine: Blink
+    engine_version: 116.0.5845.650
+  device:
+    type: smartphone
+    brand: Vivo
+    model: Y78+
+  os_family: Android
+  browser_family: Unknown
+-
+  user_agent: Mozilla/5.0 (Linux; arm_64; Android 13; V2270A) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.5845.1159 YaApp_Android/23.96.1 YaSearchBrowser/23.96.1 BroPP/1.0 SA/3 Mobile Safari/537.36
+  os:
+    name: Android
+    version: "13"
+    platform: ARM
+  client:
+    type: browser
+    name: Yandex Browser
+    version: 23.96.1
+    engine: Blink
+    engine_version: 116.0.5845.1159
+  device:
+    type: smartphone
+    brand: Vivo
+    model: iQOO Z7
+  os_family: Android
+  browser_family: Unknown
+-
+  user_agent: Mozilla/5.0 (Linux; arm_64; Android 13; V2248) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.5993.2332 YaApp_Android/23.110.1 YaSearchBrowser/23.110.1 BroPP/1.0 SA/3 Mobile Safari/537.36
+  os:
+    name: Android
+    version: "13"
+    platform: ARM
+  client:
+    type: browser
+    name: Yandex Browser
+    version: 23.110.1
+    engine: Blink
+    engine_version: 118.0.5993.2332
+  device:
+    type: smartphone
+    brand: Vivo
+    model: Y36 5G
+  os_family: Android
+  browser_family: Unknown
+-
+  user_agent: Mozilla/5.0 (Linux; arm_64; Android 13; V2245A) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.5845.1159 YaApp_Android/23.96.1 YaSearchBrowser/23.96.1 BroPP/1.0 SA/3 Mobile Safari/537.36
+  os:
+    name: Android
+    version: "13"
+    platform: ARM
+  client:
+    type: browser
+    name: Yandex Browser
+    version: 23.96.1
+    engine: Blink
+    engine_version: 116.0.5845.1159
+  device:
+    type: smartphone
+    brand: Vivo
+    model: S16 Pro
+  os_family: Android
+  browser_family: Unknown
+-
+  user_agent: Mozilla/5.0 (Linux; Android 11; Mi 11X Pro) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.101 Mobile Safari/537.36
+  os:
+    name: Android
+    version: "11"
+    platform: ""
+  client:
+    type: browser
+    name: Chrome Mobile
+    version: 91.0.4472.101
+    engine: Blink
+    engine_version: 91.0.4472.101
+  device:
+    type: smartphone
+    brand: Xiaomi
+    model: Mi 11X Pro
+  os_family: Android
+  browser_family: Chrome
+-
+  user_agent: Mozilla/5.0 (Linux; Android 11; Mi 11X) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.101 Mobile Safari/537.36 EdgA/91.0.864.48
+  os:
+    name: Android
+    version: "11"
+    platform: ""
+  client:
+    type: browser
+    name: Microsoft Edge
+    version: 91.0.864.48
+    engine: Blink
+    engine_version: 91.0.4472.101
+  device:
+    type: smartphone
+    brand: Xiaomi
+    model: Mi 11X
+  os_family: Android
+  browser_family: Internet Explorer
+-
+  user_agent: Mozilla/5.0 (Linux; Android 10; ALP-L29S Build/HUAWEIALP-L29S) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.101 Mobile Safari/537.36
+  os:
+    name: Android
+    version: "10"
+    platform: ""
+  client:
+    type: browser
+    name: Chrome Mobile
+    version: 91.0.4472.101
+    engine: Blink
+    engine_version: 91.0.4472.101
+  device:
+    type: smartphone
+    brand: Huawei
+    model: Mate 10
+  os_family: Android
+  browser_family: Chrome
+-
+  user_agent: Mozilla/5.0 (Linux; arm_64; Android 13; moto g53y 5G) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.5845.64 YaSearchBrowser/23.99.1 BroPP/1.0 YaSearchApp/23.99.1 webOmni SA/3 Mobile Safari/537.36
+  os:
+    name: Android
+    version: "13"
+    platform: ARM
+  client:
+    type: browser
+    name: Yandex Browser
+    version: 23.99.1
+    engine: Blink
+    engine_version: 116.0.5845.64
+  device:
+    type: smartphone
+    brand: Motorola
+    model: Moto G53y 5G
+  os_family: Android
+  browser_family: Unknown
+-
+  user_agent: Mozilla/5.0 (Linux; arm_64; Android 13; TECNO Mobile KI7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.5845.64 YaSearchBrowser/23.99.1 BroPP/1.0 YaSearchApp/23.99.1 webOmni SA/3 Mobile Safari/537.36
+  os:
+    name: Android
+    version: "13"
+    platform: ARM
+  client:
+    type: browser
+    name: Yandex Browser
+    version: 23.99.1
+    engine: Blink
+    engine_version: 116.0.5845.64
+  device:
+    type: smartphone
+    brand: Tecno Mobile
+    model: Spark 10 Pro
+  os_family: Android
+  browser_family: Unknown
+-
+  user_agent: Mozilla/5.0 (Linux; arm_64; Android 13; XQ-DE72) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.5993.2332 YaApp_Android/23.110.1 YaSearchBrowser/23.110.1 BroPP/1.0 SA/3 Mobile Safari/537.36
+  os:
+    name: Android
+    version: "13"
+    platform: ARM
+  client:
+    type: browser
+    name: Yandex Browser
+    version: 23.110.1
+    engine: Blink
+    engine_version: 118.0.5993.2332
+  device:
+    type: smartphone
+    brand: Sony
+    model: Xperia 5 V
+  os_family: Android
+  browser_family: Unknown
+-
+  user_agent: Mozilla/5.0 (Linux; arm_64; Android 13; SM-S236DL) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.5845.64 YaSearchBrowser/23.99 BroPP/1.0 YaSearchApp/23.99 webOmni SA/3 Mobile Safari/537.36
+  os:
+    name: Android
+    version: "13"
+    platform: ARM
+  client:
+    type: browser
+    name: Yandex Browser
+    version: "23.99"
+    engine: Blink
+    engine_version: 116.0.5845.64
+  device:
+    type: smartphone
+    brand: Samsung
+    model: Galaxy A23 5G
+  os_family: Android
+  browser_family: Unknown
+-
+  user_agent: Mozilla/5.0 (Linux; arm_64; Android 13; SM-S146VL) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.5993.232 YaBrowser/23.11.0.232.00 SA/3 Mobile Safari/537.36
+  os:
+    name: Android
+    version: "13"
+    platform: ARM
+  client:
+    type: browser
+    name: Yandex Browser
+    version: 23.11.0.232.00
+    engine: Blink
+    engine_version: 118.0.5993.232
+  device:
+    type: smartphone
+    brand: Samsung
+    model: Galaxy A14 5G
+  os_family: Android
+  browser_family: Unknown
+-
+  user_agent: Mozilla/5.0 (Linux; arm_64; Android 13; SM-M346B1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.5993.2332 YaApp_Android/23.110 YaSearchBrowser/23.110 BroPP/1.0 SA/3 Mobile Safari/537.36
+  os:
+    name: Android
+    version: "13"
+    platform: ARM
+  client:
+    type: browser
+    name: Yandex Browser
+    version: "23.110"
+    engine: Blink
+    engine_version: 118.0.5993.2332
+  device:
+    type: smartphone
+    brand: Samsung
+    model: Galaxy M34 5G
+  os_family: Android
+  browser_family: Unknown
+-
+  user_agent: Mozilla/5.0 (Linux; arm_64; Android 13; SM-M346B) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.5993.232 YaBrowser/23.11.0.232.00 SA/3 Mobile Safari/537.36
+  os:
+    name: Android
+    version: "13"
+    platform: ARM
+  client:
+    type: browser
+    name: Yandex Browser
+    version: 23.11.0.232.00
+    engine: Blink
+    engine_version: 118.0.5993.232
+  device:
+    type: smartphone
+    brand: Samsung
+    model: Galaxy M34 5G
+  os_family: Android
+  browser_family: Unknown
+-
+  user_agent: Mozilla/5.0 (Linux; arm_64; Android 13; SM-A055F) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.5845.29 YaBrowser/23.9.9.29.00 SA/3 Mobile Safari/537.36
+  os:
+    name: Android
+    version: "13"
+    platform: ARM
+  client:
+    type: browser
+    name: Yandex Browser
+    version: 23.9.9.29.00
+    engine: Blink
+    engine_version: 116.0.5845.29
+  device:
+    type: smartphone
+    brand: Samsung
+    model: Galaxy A05
+  os_family: Android
+  browser_family: Unknown
+-
+  user_agent: Mozilla/5.0 (Linux; arm_64; Android 13; RMX3820) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.5993.232 YaBrowser/23.11.0.232.00 SA/3 Mobile Safari/537.36
+  os:
+    name: Android
+    version: "13"
+    platform: ARM
+  client:
+    type: browser
+    name: Yandex Browser
+    version: 23.11.0.232.00
+    engine: Blink
+    engine_version: 118.0.5993.232
+  device:
+    type: smartphone
+    brand: Realme
+    model: GT 5
+  os_family: Android
+  browser_family: Unknown
+-
+  user_agent: Mozilla/5.0 (Linux; arm_64; Android 13; RMX3636) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.85 YaBrowser/21.11.4.131.00 SA/3 Mobile Safari/537.36
+  os:
+    name: Android
+    version: "13"
+    platform: ARM
+  client:
+    type: browser
+    name: Yandex Browser
+    version: 21.11.4.131.00
+    engine: Blink
+    engine_version: 94.0.4606.85
+  device:
+    type: smartphone
+    brand: Realme
+    model: "11"
+  os_family: Android
+  browser_family: Unknown
+-
+  user_agent: Mozilla/5.0 (Linux; arm_64; Android 13; RMX3624_Natv_vf) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.85 YaApp_Android/21.114.1 YaSearchBrowser/21.114.1 BroPP/1.0 SA/3 Mobile Safari/537.36
+  os:
+    name: Android
+    version: "13"
+    platform: ARM
+  client:
+    type: browser
+    name: Yandex Browser
+    version: 21.114.1
+    engine: Blink
+    engine_version: 94.0.4606.85
+  device:
+    type: smartphone
+    brand: Realme
+    model: C33
+  os_family: Android
+  browser_family: Unknown
+-
+  user_agent: Mozilla/5.0 (Linux; arm_64; Android 13; Power Armor X11) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.5845.64 YaSearchBrowser/23.99.1 BroPP/1.0 YaSearchApp/23.99.1 webOmni SA/3 Mobile Safari/537.36
+  os:
+    name: Android
+    version: "13"
+    platform: ARM
+  client:
+    type: browser
+    name: Yandex Browser
+    version: 23.99.1
+    engine: Blink
+    engine_version: 116.0.5845.64
+  device:
+    type: smartphone
+    brand: Ulefone
+    model: Power Armor X11
+  os_family: Android
+  browser_family: Unknown
+-
+  user_agent: Mozilla/5.0 (Linux; arm_64; Android 13; SM-A057F) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.5845.64 YaSearchBrowser/23.99 BroPP/1.0 YaSearchApp/23.99 webOmni SA/3 Mobile Safari/537.36
+  os:
+    name: Android
+    version: "13"
+    platform: ARM
+  client:
+    type: browser
+    name: Yandex Browser
+    version: "23.99"
+    engine: Blink
+    engine_version: 116.0.5845.64
+  device:
+    type: smartphone
+    brand: Samsung
+    model: Galaxy A05s
+  os_family: Android
+  browser_family: Unknown
+-
+  user_agent: Mozilla/5.0 (Linux; arm_64; Android 13; SM-A146U1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.5845.1159 YaApp_Android/23.96.1 YaSearchBrowser/23.96.1 BroPP/1.0 SA/3 Mobile Safari/537.36
+  os:
+    name: Android
+    version: "13"
+    platform: ARM
+  client:
+    type: browser
+    name: Yandex Browser
+    version: 23.96.1
+    engine: Blink
+    engine_version: 116.0.5845.1159
+  device:
+    type: smartphone
+    brand: Samsung
+    model: Galaxy A14 5G
+  os_family: Android
+  browser_family: Unknown
+-
+  user_agent: Mozilla/5.0 (Linux; arm_64; Android 13; SM-A146W) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.5993.2332 YaApp_Android/23.110.1 YaSearchBrowser/23.110.1 BroPP/1.0 SA/3 Mobile Safari/537.36
+  os:
+    name: Android
+    version: "13"
+    platform: ARM
+  client:
+    type: browser
+    name: Yandex Browser
+    version: 23.110.1
+    engine: Blink
+    engine_version: 118.0.5993.2332
+  device:
+    type: smartphone
+    brand: Samsung
+    model: Galaxy A14 5G
+  os_family: Android
+  browser_family: Unknown
+-
+  user_agent: Mozilla/5.0 (Linux; arm_64; Android 13; SM-A245N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.5845.29 YaBrowser/23.9.9.29.00 SA/3 Mobile Safari/537.36
+  os:
+    name: Android
+    version: "13"
+    platform: ARM
+  client:
+    type: browser
+    name: Yandex Browser
+    version: 23.9.9.29.00
+    engine: Blink
+    engine_version: 116.0.5845.29
+  device:
+    type: smartphone
+    brand: Samsung
+    model: Galaxy A24
+  os_family: Android
+  browser_family: Unknown
+-
+  user_agent: Mozilla/5.0 (Linux; arm_64; Android 13; SM-A3460) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.5845.64 YaSearchBrowser/23.99.1 BroPP/1.0 YaSearchApp/23.99.1 webOmni SA/3 Mobile Safari/537.36
+  os:
+    name: Android
+    version: "13"
+    platform: ARM
+  client:
+    type: browser
+    name: Yandex Browser
+    version: 23.99.1
+    engine: Blink
+    engine_version: 116.0.5845.64
+  device:
+    type: smartphone
+    brand: Samsung
+    model: Galaxy A34 5G
+  os_family: Android
+  browser_family: Unknown
+-
+  user_agent: Mozilla/5.0 (Linux; arm_64; Android 13; SM-A346N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 YaSearchBrowser/23.78.1 BroPP/1.0 YaSearchApp/23.78.1 webOmni SA/3 Mobile Safari/537.36
+  os:
+    name: Android
+    version: "13"
+    platform: ARM
+  client:
+    type: browser
+    name: Yandex Browser
+    version: 23.78.1
+    engine: Blink
+    engine_version: 114.0.0.0
+  device:
+    type: smartphone
+    brand: Samsung
+    model: Galaxy A34 5G
+  os_family: Android
+  browser_family: Unknown
+-
+  user_agent: Mozilla/5.0 (Linux; arm_64; Android 13; NX713J) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.5993.2332 YaApp_Android/23.110.1 YaSearchBrowser/23.110.1 BroPP/1.0 SA/3 Mobile Safari/537.36
+  os:
+    name: Android
+    version: "13"
+    platform: ARM
+  client:
+    type: browser
+    name: Yandex Browser
+    version: 23.110.1
+    engine: Blink
+    engine_version: 118.0.5993.2332
+  device:
+    type: smartphone
+    brand: Nubia
+    model: Z50S Pro
+  os_family: Android
+  browser_family: Unknown
+-
+  user_agent: Mozilla/5.0 (Linux; arm_64; Android 13; Jelly Star) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.5845.64 YaSearchBrowser/23.99.1 BroPP/1.0 YaSearchApp/23.99.1 webOmni SA/3 Mobile Safari/537.36
+  os:
+    name: Android
+    version: "13"
+    platform: ARM
+  client:
+    type: browser
+    name: Yandex Browser
+    version: 23.99.1
+    engine: Blink
+    engine_version: 116.0.5845.64
+  device:
+    type: smartphone
+    brand: Unihertz
+    model: Jelly Star
+  os_family: Android
+  browser_family: Unknown
+-
+  user_agent: Mozilla/5.0 (Linux; arm_64; Android 13; I2217) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.5845.29 YaBrowser/23.9.9.29.00 SA/3 Mobile Safari/537.36
+  os:
+    name: Android
+    version: "13"
+    platform: ARM
+  client:
+    type: browser
+    name: Yandex Browser
+    version: 23.9.9.29.00
+    engine: Blink
+    engine_version: 116.0.5845.29
+  device:
+    type: smartphone
+    brand: Vivo
+    model: iQOO Neo 7 Pro
+  os_family: Android
+  browser_family: Unknown
+-
+  user_agent: Mozilla/5.0 (Linux; arm_64; Android 13; E940-2849-00) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.5845.29 YaBrowser/23.9.9.29.00 SA/3 Mobile Safari/537.36
+  os:
+    name: Android
+    version: "13"
+    platform: ARM
+  client:
+    type: browser
+    name: Yandex Browser
+    version: 23.9.9.29.00
+    engine: Blink
+    engine_version: 116.0.5845.29
+  device:
+    type: smartphone
+    brand: Gigaset
+    model: GX6
+  os_family: Android
+  browser_family: Unknown
+-
+  user_agent: Mozilla/5.0 (Linux; arm_64; Android 13; Cyber X) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.5845.64 YaSearchBrowser/23.99.1 BroPP/1.0 YaSearchApp/23.99.1 webOmni SA/3 Mobile Safari/537.36
+  os:
+    name: Android
+    version: "13"
+    platform: ARM
+  client:
+    type: browser
+    name: Yandex Browser
+    version: 23.99.1
+    engine: Blink
+    engine_version: 116.0.5845.64
+  device:
+    type: smartphone
+    brand: Hotwav
+    model: Cyber X
+  os_family: Android
+  browser_family: Unknown
+-
+  user_agent: Mozilla/5.0 (Linux; arm_64; Android 13; ASUS_AI2205_A) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.5993.2332 YaApp_Android/23.110.1 YaSearchBrowser/23.110.1 BroPP/1.0 SA/3 Mobile Safari/537.36
+  os:
+    name: Android
+    version: "13"
+    platform: ARM
+  client:
+    type: browser
+    name: Yandex Browser
+    version: 23.110.1
+    engine: Blink
+    engine_version: 118.0.5993.2332
+  device:
+    type: smartphone
+    brand: Asus
+    model: ZenFone 7
+  os_family: Android
+  browser_family: Unknown
+-
+  user_agent: Mozilla/5.0 (Linux; arm_64; Android 13; 23077RABDC) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.5845.1159 YaApp_Android/23.96 YaSearchBrowser/23.96 BroPP/1.0 SA/3 Mobile Safari/537.36
+  os:
+    name: Android
+    version: "13"
+    platform: ARM
+  client:
+    type: browser
+    name: Yandex Browser
+    version: "23.96"
+    engine: Blink
+    engine_version: 116.0.5845.1159
+  device:
+    type: smartphone
+    brand: Xiaomi
+    model: Redmi 12 5G
+  os_family: Android
+  browser_family: Unknown
+-
+  user_agent: Mozilla/5.0 (Linux; arm_64; Android 13; 23076RN8DY) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.5993.232 YaBrowser/23.11.0.232.00 SA/3 Mobile Safari/537.36
+  os:
+    name: Android
+    version: "13"
+    platform: ARM
+  client:
+    type: browser
+    name: Yandex Browser
+    version: 23.11.0.232.00
+    engine: Blink
+    engine_version: 118.0.5993.232
+  device:
+    type: smartphone
+    brand: Xiaomi
+    model: Redmi 12 5G
+  os_family: Android
+  browser_family: Unknown
+-
+  user_agent: Mozilla/5.0 (Linux; arm_64; Android 13; 23046PNC9C) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.5845.29 YaBrowser/23.9.9.29.00 SA/3 Mobile Safari/537.36
+  os:
+    name: Android
+    version: "13"
+    platform: ARM
+  client:
+    type: browser
+    name: Yandex Browser
+    version: 23.9.9.29.00
+    engine: Blink
+    engine_version: 116.0.5845.29
+  device:
+    type: smartphone
+    brand: Xiaomi
+    model: Civi 3
+  os_family: Android
+  browser_family: Unknown
+-
+  user_agent: Mozilla/5.0 (Linux; arm_64; Android 12; Hammer_IRON_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.5845.29 YaBrowser/23.9.9.29.00 SA/3 Mobile Safari/537.36
+  os:
+    name: Android
+    version: "12"
+    platform: ARM
+  client:
+    type: browser
+    name: Yandex Browser
+    version: 23.9.9.29.00
+    engine: Blink
+    engine_version: 116.0.5845.29
+  device:
+    type: smartphone
+    brand: Hammer
+    model: Iron 4
+  os_family: Android
+  browser_family: Unknown
+-
+  user_agent: Mozilla/5.0 (Linux; arm_64; Android 12; Hammer_Blade_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.5993.232 YaBrowser/23.11.0.232.00 SA/3 Mobile Safari/537.36
+  os:
+    name: Android
+    version: "12"
+    platform: ARM
+  client:
+    type: browser
+    name: Yandex Browser
+    version: 23.11.0.232.00
+    engine: Blink
+    engine_version: 118.0.5993.232
+  device:
+    type: smartphone
+    brand: Hammer
+    model: Blade 4
+  os_family: Android
+  browser_family: Unknown
+-
+  user_agent: Mozilla/5.0 (Linux; Android 12; 220733SPI) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.5993.48 Mobile Safari/537.46
+  os:
+    name: Android
+    version: "12"
+    platform: ""
+  client:
+    type: browser
+    name: Chrome Mobile
+    version: 118.0.5993.48
+    engine: Blink
+    engine_version: 118.0.5993.48
+  device:
+    type: smartphone
+    brand: POCO
+    model: C50
+  os_family: Android
+  browser_family: Chrome
+-
+  user_agent: Mozilla/5.0 (Linux; Android 12; 220733SPH) AppleWebKit/537.46 (KHTML, like Gecko) Chrome/118.0.5993.48 Mobile Safari/537.36
+  os:
+    name: Android
+    version: "12"
+    platform: ""
+  client:
+    type: browser
+    name: Chrome Mobile
+    version: 118.0.5993.48
+    engine: Blink
+    engine_version: 118.0.5993.48
+  device:
+    type: smartphone
+    brand: POCO
+    model: C50
+  os_family: Android
+  browser_family: Chrome
+-
+  user_agent: Mozilla/5.0 (Linux; Android 12; 220733SH) AppleWebKit/537.44 (KHTML, like Gecko) Chrome/118.0.5993.80 Mobile Safari/537.44
+  os:
+    name: Android
+    version: "12"
+    platform: ""
+  client:
+    type: browser
+    name: Chrome Mobile
+    version: 118.0.5993.80
+    engine: Blink
+    engine_version: 118.0.5993.80
+  device:
+    type: smartphone
+    brand: Xiaomi
+    model: Redmi A1
+  os_family: Android
+  browser_family: Chrome
+-
+  user_agent: Mozilla/5.0 (Linux; Android 12; 20220728MT) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.96 Mobile Safari/537.36
+  os:
+    name: Android
+    version: "12"
+    platform: ""
+  client:
+    type: browser
+    name: Chrome Mobile
+    version: 78.0.3904.96
+    engine: Blink
+    engine_version: 78.0.3904.96
+  device:
+    type: smartphone
+    brand: SAILF
+    model: I13 Pro
+  os_family: Android
+  browser_family: Chrome
+-
+  user_agent: Mozilla/5.0 (Linux; Android 12; 23049PCD8I) AppleWebKit/537.43 (KHTML, like Gecko) Chrome/118.0.5993.48 Mobile Safari/537.36
+  os:
+    name: Android
+    version: "12"
+    platform: ""
+  client:
+    type: browser
+    name: Chrome Mobile
+    version: 118.0.5993.48
+    engine: Blink
+    engine_version: 118.0.5993.48
+  device:
+    type: smartphone
+    brand: POCO
+    model: F5
+  os_family: Android
+  browser_family: Chrome
+-
+  user_agent: Mozilla/5.0 (Linux; Android 12; 2302EPCC4I) AppleWebKit/537.46 (KHTML, like Gecko) Chrome/118.0.5993.48 Mobile Safari/537.36
+  os:
+    name: Android
+    version: "12"
+    platform: ""
+  client:
+    type: browser
+    name: Chrome Mobile
+    version: 118.0.5993.48
+    engine: Blink
+    engine_version: 118.0.5993.48
+  device:
+    type: smartphone
+    brand: POCO
+    model: C51
+  os_family: Android
+  browser_family: Chrome
+-
+  user_agent: Mozilla/5.0 (Linux; Android 12; 23028RNCAI) AppleWebKit/537.44 (KHTML, like Gecko) Chrome/118.0.5993.48 Mobile Safari/537.36
+  os:
+    name: Android
+    version: "12"
+    platform: ""
+  client:
+    type: browser
+    name: Chrome Mobile
+    version: 118.0.5993.48
+    engine: Blink
+    engine_version: 118.0.5993.48
+  device:
+    type: smartphone
+    brand: Xiaomi
+    model: Redmi A2+
+  os_family: Android
+  browser_family: Chrome
+-
+  user_agent: Mozilla/5.0 (Linux; Android 12; BV5300) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.5938.154 Mobile Safari/537.36 OPR/78.5.4143.75924
+  os:
+    name: Android
+    version: "12"
+    platform: ""
+  client:
+    type: browser
+    name: Opera Mobile
+    version: 78.5.4143.75924
+    engine: Blink
+    engine_version: 117.0.5938.154
+  device:
+    type: smartphone
+    brand: Blackview
+    model: BV5300
+  os_family: Android
+  browser_family: Opera
+-
+  user_agent: Mozilla/5.0 (Linux; Android 12; B135DL) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.5938.154 Mobile Safari/537.36 OPR/78.5.4143.75924
+  os:
+    name: Android
+    version: "12"
+    platform: ""
+  client:
+    type: browser
+    name: Opera Mobile
+    version: 78.5.4143.75924
+    engine: Blink
+    engine_version: 117.0.5938.154
+  device:
+    type: smartphone
+    brand: Blu
+    model: View 4
+  os_family: Android
+  browser_family: Opera
+-
+  user_agent: Mozilla/5.0 (Linux; Android 12; AE9120) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.0.0 Mobile Safari/537.36
+  os:
+    name: Android
+    version: "12"
+    platform: ""
+  client:
+    type: browser
+    name: Chrome Mobile
+    version: 102.0.0.0
+    engine: Blink
+    engine_version: 102.0.0.0
+  device:
+    type: smartphone
+    brand: Benco
+    model: V90
+  os_family: Android
+  browser_family: Chrome
+-
+  user_agent: Mozilla/5.0 (Linux; Android 11; AE9220) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.85 Mobile Safari/537.36
+  os:
+    name: Android
+    version: "11"
+    platform: ""
+  client:
+    type: browser
+    name: Chrome Mobile
+    version: 94.0.4606.85
+    engine: Blink
+    engine_version: 94.0.4606.85
+  device:
+    type: smartphone
+    brand: Benco
+    model: V70
+  os_family: Android
+  browser_family: Chrome
+-
+  user_agent: Mozilla/5.0 (Linux; arm_64; Android 13; AE9240) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.5993.2332 YaApp_Android/23.110.1 YaSearchBrowser/23.110.1 BroPP/1.0 SA/3 Mobile Safari/537.36
+  os:
+    name: Android
+    version: "13"
+    platform: ARM
+  client:
+    type: browser
+    name: Yandex Browser
+    version: 23.110.1
+    engine: Blink
+    engine_version: 118.0.5993.2332
+  device:
+    type: smartphone
+    brand: Benco
+    model: S1
+  os_family: Android
+  browser_family: Unknown
+-
+  user_agent: Mozilla/5.0 (Linux; arm; Android 11; AE9150) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.5845.29 YaBrowser/23.9.9.29.00 SA/3 Mobile Safari/537.36
+  os:
+    name: Android
+    version: "11"
+    platform: ARM
+  client:
+    type: browser
+    name: Yandex Browser
+    version: 23.9.9.29.00
+    engine: Blink
+    engine_version: 116.0.5845.29
+  device:
+    type: smartphone
+    brand: Benco
+    model: V62
+  os_family: Android
+  browser_family: Unknown
+-
+  user_agent: Mozilla/5.0 (Linux; U; Android 13; AE9260 Build/TP1A.220624.014; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/118.0.0.0 Mobile Safari/537.36 OPR/75.0.2254.68857
+  os:
+    name: Android
+    version: "13"
+    platform: ""
+  client:
+    type: browser
+    name: Opera Mobile
+    version: 75.0.2254.68857
+    engine: Blink
+    engine_version: 118.0.0.0
+  device:
+    type: smartphone
+    brand: Benco
+    model: S1 Pro
+  os_family: Android
+  browser_family: Opera
+-
+  user_agent: Mozilla/5.0 (Linux; Android 14; I2212) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.101 Mobile Safari/537.36
+  os:
+    name: Android
+    version: "14"
+    platform: ""
+  client:
+    type: browser
+    name: Chrome Mobile
+    version: 98.0.4758.101
+    engine: Blink
+    engine_version: 98.0.4758.101
+  device:
+    type: smartphone
+    brand: Vivo
+    model: iQOO 11
+  os_family: Android
+  browser_family: Chrome
+-
+  user_agent: Mozilla/5.0 (Linux; Android 14; GWKK3) AppleWebKit/537.46 (KHTML, like Gecko) Chrome/118.0.5993.48 Mobile Safari/537.36
+  os:
+    name: Android
+    version: "14"
+    platform: ""
+  client:
+    type: browser
+    name: Chrome Mobile
+    version: 118.0.5993.48
+    engine: Blink
+    engine_version: 118.0.5993.48
+  device:
+    type: smartphone
+    brand: Google
+    model: Pixel 7a
+  os_family: Android
+  browser_family: Chrome
+-
+  user_agent: Mozilla/5.0 (Linux; Android 14; GP4BC) AppleWebKit/537.46 (KHTML, like Gecko) Chrome/118.0.5993.80 Mobile Safari/537.36
+  os:
+    name: Android
+    version: "14"
+    platform: ""
+  client:
+    type: browser
+    name: Chrome Mobile
+    version: 118.0.5993.80
+    engine: Blink
+    engine_version: 118.0.5993.80
+  device:
+    type: smartphone
+    brand: Google
+    model: Pixel 7 Pro
+  os_family: Android
+  browser_family: Chrome
+-
+  user_agent: Mozilla/5.0 (Linux; Android 14; GKWS6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.5993.80 Mobile Safari/537.36
+  os:
+    name: Android
+    version: "14"
+    platform: ""
+  client:
+    type: browser
+    name: Chrome Mobile
+    version: 118.0.5993.80
+    engine: Blink
+    engine_version: 118.0.5993.80
+  device:
+    type: smartphone
+    brand: Google
+    model: Pixel 8
+  os_family: Android
+  browser_family: Chrome
+-
+  user_agent: Mozilla/5.0 (Linux; Android 14; GC3VE) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.5993.48 Mobile Safari/537.36
+  os:
+    name: Android
+    version: "14"
+    platform: ""
+  client:
+    type: browser
+    name: Chrome Mobile
+    version: 118.0.5993.48
+    engine: Blink
+    engine_version: 118.0.5993.48
+  device:
+    type: smartphone
+    brand: Google
+    model: Pixel 8 Pro
+  os_family: Android
+  browser_family: Chrome
+-
+  user_agent: Mozilla/5.0 (Linux; Android 13; ZTE Blade A54 Build/TP1A.220624.014; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/119.0.6045.163 Mobile Safari/537.36
+  os:
+    name: Android
+    version: "13"
+    platform: ""
+  client:
+    type: browser
+    name: Chrome Webview
+    version: 119.0.6045.163
+    engine: Blink
+    engine_version: 119.0.6045.163
+  device:
+    type: smartphone
+    brand: ZTE
+    model: Blade A54
+  os_family: Android
+  browser_family: Chrome
+-
+  user_agent: Mozilla/5.0 (Linux; Android 13; ZTE A2023) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.5938.154 Mobile Safari/537.36 OPR/78.5.4143.75924
+  os:
+    name: Android
+    version: "13"
+    platform: ""
+  client:
+    type: browser
+    name: Opera Mobile
+    version: 78.5.4143.75924
+    engine: Blink
+    engine_version: 117.0.5938.154
+  device:
+    type: smartphone
+    brand: ZTE
+    model: Axon 40 Pro
+  os_family: Android
+  browser_family: Opera
+-
+  user_agent: Mozilla/5.0 (Linux; Android 13; ZTE 9050N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Mobile Safari/537.36
+  os:
+    name: Android
+    version: "13"
+    platform: ""
+  client:
+    type: browser
+    name: Chrome Mobile
+    version: 111.0.0.0
+    engine: Blink
+    engine_version: 111.0.0.0
+  device:
+    type: smartphone
+    brand: ZTE
+    model: Blade V50
+  os_family: Android
+  browser_family: Chrome
+-
+  user_agent: Mozilla/5.0 (Linux; Android 13; Xiaomi Civi 1S) AppleWebKit/537.46 (KHTML, like Gecko) Chrome/118.0.5993.48 Mobile Safari/537.43
+  os:
+    name: Android
+    version: "13"
+    platform: ""
+  client:
+    type: browser
+    name: Chrome Mobile
+    version: 118.0.5993.48
+    engine: Blink
+    engine_version: 118.0.5993.48
+  device:
+    type: smartphone
+    brand: Xiaomi
+    model: Civi 1S
+  os_family: Android
+  browser_family: Chrome
+-
+  user_agent: Mozilla/5.0 (Linux; Android 13; XQ-DC54) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.5938.154 Mobile Safari/537.36 OPR/78.5.4143.75924
+  os:
+    name: Android
+    version: "13"
+    platform: ""
+  client:
+    type: browser
+    name: Opera Mobile
+    version: 78.5.4143.75924
+    engine: Blink
+    engine_version: 117.0.5938.154
+  device:
+    type: smartphone
+    brand: Sony
+    model: Xperia 10 V
+  os_family: Android
+  browser_family: Opera
+-
+  user_agent: Mozilla/5.0 (Linux; Android 6.0; L-ITE 504 HD Build/MRA58K; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/48.0.2564.106 Mobile Safari/537.36
+  os:
+    name: Android
+    version: "6.0"
+    platform: ""
+  client:
+    type: browser
+    name: Chrome Webview
+    version: 48.0.2564.106
+    engine: Blink
+    engine_version: 48.0.2564.106
+  device:
+    type: smartphone
+    brand: Logicom
+    model: L-ite 504 HD
+  os_family: Android
+  browser_family: Chrome
+-
+  user_agent: Mozilla/5.0 (Linux; Android 4.1.1; Z992 Build/JRO03C) AppleWebKit/535.19 (KHTML, Like Gecko) Chrome/18.0.1025.166 Mobile Safari/535.19
+  os:
+    name: Android
+    version: 4.1.1
+    platform: ""
+  client:
+    type: browser
+    name: Chrome Mobile
+    version: 18.0.1025.166
+    engine: WebKit
+    engine_version: "535.19"
+  device:
+    type: smartphone
+    brand: ZTE
+    model: Avail 2
+  os_family: Android
+  browser_family: Chrome
+-
+  user_agent: Mozilla/5.0 (Linux; Android 6.0; DialogTabPro) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.93 Safari/537.36
+  os:
+    name: Android
+    version: "6.0"
+    platform: ""
+  client:
+    type: browser
+    name: Chrome
+    version: 79.0.3945.93
+    engine: Blink
+    engine_version: 79.0.3945.93
+  device:
+    type: smartphone
+    brand: Dialog
+    model: TabPro
+  os_family: Android
+  browser_family: Chrome
+-
+  user_agent: Mozilla/5.0 (Linux; Android 4.1.2; Dialog Q178) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.99 Safari/537.36
+  os:
+    name: Android
+    version: 4.1.2
+    platform: ""
+  client:
+    type: browser
+    name: Chrome
+    version: 71.0.3578.99
+    engine: Blink
+    engine_version: 71.0.3578.99
+  device:
+    type: smartphone
+    brand: Dialog
+    model: Q178
+  os_family: Android
+  browser_family: Chrome
+-
+  user_agent: Mozilla/5.0 (Linux; Android 8.1; Home9) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.70 Safari/537.36
+  os:
+    name: Android
+    version: "8.1"
+    platform: ""
+  client:
+    type: browser
+    name: Chrome
+    version: 97.0.4692.70
+    engine: Blink
+    engine_version: 97.0.4692.70
+  device:
+    type: smartphone
+    brand: Beyond
+    model: Home 9
+  os_family: Android
+  browser_family: Chrome
+-
+  user_agent: Mozilla/5.0 (Linux; Android 9; Superb_PLus) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.141 Safari/537.36
+  os:
+    name: Android
+    version: "9"
+    platform: ""
+  client:
+    type: browser
+    name: Chrome
+    version: 87.0.4280.141
+    engine: Blink
+    engine_version: 87.0.4280.141
+  device:
+    type: smartphone
+    brand: InnJoo
+    model: SuperB Plus
+  os_family: Android
+  browser_family: Chrome
+-
+  user_agent: Mozilla/5.0 (Linux; Android 11; EDA52) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.61 Mobile Safari/537.36
+  os:
+    name: Android
+    version: "11"
+    platform: ""
+  client:
+    type: browser
+    name: Chrome Mobile
+    version: 101.0.4951.61
+    engine: Blink
+    engine_version: 101.0.4951.61
+  device:
+    type: smartphone
+    brand: Honeywell
+    model: ScanPal EDA52
+  os_family: Android
+  browser_family: Chrome
+-
+  user_agent: Mozilla/5.0 (Linux; Android 9; Superb) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.121 Safari/537.36
+  os:
+    name: Android
+    version: "9"
+    platform: ""
+  client:
+    type: browser
+    name: Chrome
+    version: 72.0.3626.121
+    engine: Blink
+    engine_version: 72.0.3626.121
+  device:
+    type: smartphone
+    brand: InnJoo
+    model: SuperB
+  os_family: Android
+  browser_family: Chrome
+-
+  user_agent: 'Mozilla/5.0 (Linux; U; Android 4.1.2; es-ar; LG-E987 Build/JZO54K) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30 [FB_IAB/FB4A;FBAV/28.0.0.20.16;]'
+  os:
+    name: Android
+    version: 4.1.2
+    platform: ""
+  client:
+    type: mobile app
+    name: Facebook
+    version: 28.0.0.20.16
+  device:
+    type: smartphone
+    brand: LG
+    model: Optimus G
+  os_family: Android
+  browser_family: Unknown
+-
+  user_agent: 'Mozilla/5.0 (Linux; Android 4.4.2; LGAS323 Build/KOT49I.AS32310a) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/30.0.0.0 Mobile Safari/537.36 [FB_IAB/FB4A;FBAV/28.0.0.20.16;]'
+  os:
+    name: Android
+    version: 4.4.2
+    platform: ""
+  client:
+    type: mobile app
+    name: Facebook
+    version: 28.0.0.20.16
+  device:
+    type: smartphone
+    brand: LG
+    model: L70
+  os_family: Android
+  browser_family: Unknown
+-
+  user_agent: 'Mozilla/5.0 (Linux; U; Android 4.2.2; es-es; Energy Phone Neo Build/JDQ39) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30 [FB_IAB/FB4A;FBAV/29.0.0.23.13;]'
+  os:
+    name: Android
+    version: 4.2.2
+    platform: ""
+  client:
+    type: mobile app
+    name: Facebook
+    version: 29.0.0.23.13
+  device:
+    type: smartphone
+    brand: Energy Sistem
+    model: Energy Phone Neo
+  os_family: Android
+  browser_family: Unknown
+-
+  user_agent: Mozilla/5.0 (Linux; Android 7.0; SNAP_PRO) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.132 Mobile Safari/537.36
+  os:
+    name: Android
+    version: "7.0"
+    platform: ""
+  client:
+    type: browser
+    name: Chrome Mobile
+    version: 76.0.3809.132
+    engine: Blink
+    engine_version: 76.0.3809.132
+  device:
+    type: smartphone
+    brand: NASCO
+    model: Snap Pro
+  os_family: Android
+  browser_family: Chrome
+-
+  user_agent: Mozilla/5.0 (Linux; Android 2.3.6; A350 TV Build/GRK39F) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3379.62 Mobile Safari/537.36
+  os:
+    name: Android
+    version: 2.3.6
+    platform: ""
+  client:
+    type: browser
+    name: Chrome Mobile
+    version: 59.0.3379.62
+    engine: Blink
+    engine_version: 59.0.3379.62
+  device:
+    type: smartphone
+    brand: Explay
+    model: A350TV
+  os_family: Android
+  browser_family: Chrome
+-
+  user_agent: Mozilla/5.0 (Linux; Android 8.1.0; S554020) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.83 Mobile Safari/537.36
+  os:
+    name: Android
+    version: 8.1.0
+    platform: ""
+  client:
+    type: browser
+    name: Chrome Mobile
+    version: 83.0.4103.83
+    engine: Blink
+    engine_version: 83.0.4103.83
+  device:
+    type: smartphone
+    brand: Fluo
+    model: L
+  os_family: Android
+  browser_family: Chrome
+-
+  user_agent: Mozilla/5.0 (Linux; Android 11; SHINE 12T) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.98 Mobile Safari/537.36
+  os:
+    name: Android
+    version: "11"
+    platform: ""
+  client:
+    type: browser
+    name: Chrome Mobile
+    version: 97.0.4692.98
+    engine: Blink
+    engine_version: 97.0.4692.98
+  device:
+    type: smartphone
+    brand: AllCall
+    model: Shine 12T
+  os_family: Android
+  browser_family: Chrome
+-
+  user_agent: Mozilla/5.0 (Linux; Android 11; SHINE 12) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.98 Mobile Safari/537.36
+  os:
+    name: Android
+    version: "11"
+    platform: ""
+  client:
+    type: browser
+    name: Chrome Mobile
+    version: 97.0.4692.98
+    engine: Blink
+    engine_version: 97.0.4692.98
+  device:
+    type: smartphone
+    brand: AllCall
+    model: Shine 12
+  os_family: Android
+  browser_family: Chrome
+-
+  user_agent: Mozilla/5.0 (Linux; U; Android 12; en-US; NEW 12 Build/SP1A.210812.016) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/78.0.3904.108 UCBrowser/13.5.8.1314 Mobile Safari/537.36
+  os:
+    name: Android
+    version: "12"
+    platform: ""
+  client:
+    type: browser
+    name: UC Browser
+    version: 13.5.8.1314
+    engine: Blink
+    engine_version: 78.0.3904.108
+  device:
+    type: smartphone
+    brand: VGO TEL
+    model: New 12
+  os_family: Android
+  browser_family: Unknown
+-
+  user_agent: Mozilla/5.0 (Linux; U; Android 12; en-US; NEW 15 Build/SP1A.210812.016) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/78.0.3904.108 UCBrowser/13.5.5.1313 Mobile Safari/537.36
+  os:
+    name: Android
+    version: "12"
+    platform: ""
+  client:
+    type: browser
+    name: UC Browser
+    version: 13.5.5.1313
+    engine: Blink
+    engine_version: 78.0.3904.108
+  device:
+    type: smartphone
+    brand: VGO TEL
+    model: New 15
+  os_family: Android
+  browser_family: Unknown
+-
+  user_agent: Mozilla/5.0 (Linux; U; Android 12; en-US; Orbit Y50 Build/SP1A.210812.016) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/78.0.3904.108 UCBrowser/13.5.8.1314 Mobile Safari/537.36
+  os:
+    name: Android
+    version: "12"
+    platform: ""
+  client:
+    type: browser
+    name: UC Browser
+    version: 13.5.8.1314
+    engine: Blink
+    engine_version: 78.0.3904.108
+  device:
+    type: smartphone
+    brand: Walton
+    model: Orbit Y50
+  os_family: Android
+  browser_family: Unknown
+-
+  user_agent: Mozilla/5.0 (Linux; Android 12; ORBIT Y21 Build/SP1A.210812.016) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.6045.66 Mobile Safari/537.36
+  os:
+    name: Android
+    version: "12"
+    platform: ""
+  client:
+    type: browser
+    name: Chrome Mobile
+    version: 119.0.6045.66
+    engine: Blink
+    engine_version: 119.0.6045.66
+  device:
+    type: smartphone
+    brand: Walton
+    model: Orbit Y21
+  os_family: Android
+  browser_family: Chrome
+-
+  user_agent: Mozilla/5.0 (Linux; Android 12; NEO_6 Build/S00812; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/116.0.0.0 Mobile Safari/537.36
+  os:
+    name: Android
+    version: "12"
+    platform: ""
+  client:
+    type: browser
+    name: Chrome Webview
+    version: 116.0.0.0
+    engine: Blink
+    engine_version: 116.0.0.0
+  device:
+    type: smartphone
+    brand: Sparx
+    model: Neo 6
+  os_family: Android
+  browser_family: Chrome
+-
+  user_agent: Mozilla/5.0 (Linux; Android 12; NEO 5 Build/SP1A.210812.016; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/119.0.6045.163 Mobile Safari/537.36
+  os:
+    name: Android
+    version: "12"
+    platform: ""
+  client:
+    type: browser
+    name: Chrome Webview
+    version: 119.0.6045.163
+    engine: Blink
+    engine_version: 119.0.6045.163
+  device:
+    type: smartphone
+    brand: Sparx
+    model: Neo 5
+  os_family: Android
+  browser_family: Chrome
+-
+  user_agent: Mozilla/5.0 (Linux; U; Android 12; en-US; LAVA LZX407 Build/SP1A.210812.016) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/78.0.3904.108 UCBrowser/13.4.0.1306 Mobile Safari/537.36
+  os:
+    name: Android
+    version: "12"
+    platform: ""
+  client:
+    type: browser
+    name: UC Browser
+    version: 13.4.0.1306
+    engine: Blink
+    engine_version: 78.0.3904.108
+  device:
+    type: smartphone
+    brand: Lava
+    model: Blaze NXT
+  os_family: Android
+  browser_family: Unknown
+-
+  user_agent: Mozilla/5.0 (Linux; Android 13; Force F15) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.6045.193 Mobile Safari/537.36 OPR/79.6.4195.77168
+  os:
+    name: Android
+    version: "13"
+    platform: ""
+  client:
+    type: browser
+    name: Opera Mobile
+    version: 79.6.4195.77168
+    engine: Blink
+    engine_version: 119.0.6045.193
+  device:
+    type: smartphone
+    brand: Novey
+    model: Force F15
+  os_family: Android
+  browser_family: Opera
+-
+  user_agent: Mozilla/5.0 (Linux; Android 13; Force G20 Build/TP1A.220624.014; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/120.0.6099.193 Mobile Safari/537.36
+  os:
+    name: Android
+    version: "13"
+    platform: ""
+  client:
+    type: browser
+    name: Chrome Webview
+    version: 120.0.6099.193
+    engine: Blink
+    engine_version: 120.0.6099.193
+  device:
+    type: smartphone
+    brand: Novey
+    model: Force G20
+  os_family: Android
+  browser_family: Chrome
+-
+  user_agent: Mozilla/5.0 (Linux; Android 13; FRI-NX9) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.6045.193 Mobile Safari/537.36 OPR/79.5.4195.76987
+  os:
+    name: Android
+    version: "13"
+    platform: ""
+  client:
+    type: browser
+    name: Opera Mobile
+    version: 79.5.4195.76987
+    engine: Blink
+    engine_version: 119.0.6045.193
+  device:
+    type: smartphone
+    brand: Huawei
+    model: Honor Magic Vs
+  os_family: Android
+  browser_family: Opera
+-
+  user_agent: Mozilla/5.0 (Linux; Android 13; Diamond Pro Max) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.101 Mobile Safari/537.36
+  os:
+    name: Android
+    version: "13"
+    platform: ""
+  client:
+    type: browser
+    name: Chrome Mobile
+    version: 98.0.4758.101
+    engine: Blink
+    engine_version: 98.0.4758.101
+  device:
+    type: smartphone
+    brand: iBrit
+    model: Diamond Pro Max
+  os_family: Android
+  browser_family: Chrome
+-
+  user_agent: Mozilla/5.0 (Linux; Android 13; ALI-NX1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Mobile Safari/537.36
+  os:
+    name: Android
+    version: "13"
+    platform: ""
+  client:
+    type: browser
+    name: Chrome Mobile
+    version: 111.0.0.0
+    engine: Blink
+    engine_version: 111.0.0.0
+  device:
+    type: smartphone
+    brand: Huawei
+    model: Honor Magic 6 Lite 5G
+  os_family: Android
+  browser_family: Chrome
+-
+  user_agent: Mozilla/5.0 (Linux; Android 13; 23076PC4BI) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.6045.193 Mobile Safari/537.36 OPR/79.6.4195.77168
+  os:
+    name: Android
+    version: "13"
+    platform: ""
+  client:
+    type: browser
+    name: Opera Mobile
+    version: 79.6.4195.77168
+    engine: Blink
+    engine_version: 119.0.6045.193
+  device:
+    type: smartphone
+    brand: POCO
+    model: M6 Pro 5G
+  os_family: Android
+  browser_family: Opera
+-
+  user_agent: Mozilla/5.0 (Linux; Android 13; 2306004M Build/TP1A.220624.014; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/120.0.6099.193 Mobile Safari/537.36
+  os:
+    name: Android
+    version: "13"
+    platform: ""
+  client:
+    type: browser
+    name: Chrome Webview
+    version: 120.0.6099.193
+    engine: Blink
+    engine_version: 120.0.6099.193
+  device:
+    type: smartphone
+    brand: FreeYond
+    model: F9S
+  os_family: Android
+  browser_family: Chrome
+-
+  user_agent: Mozilla/5.0 (Linux; Android 13; 2312FPCA6G) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.101 Mobile Safari/537.36
+  os:
+    name: Android
+    version: "13"
+    platform: ""
+  client:
+    type: browser
+    name: Chrome Mobile
+    version: 98.0.4758.101
+    engine: Blink
+    engine_version: 98.0.4758.101
+  device:
+    type: smartphone
+    brand: POCO
+    model: M6 Pro
+  os_family: Android
+  browser_family: Chrome
+-
+  user_agent: Mozilla/5.0 (Linux; Android 12; iHunt Fit Runner) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Mobile Safari/537.36
+  os:
+    name: Android
+    version: "12"
+    platform: ""
+  client:
+    type: browser
+    name: Chrome Mobile
+    version: 103.0.0.0
+    engine: Blink
+    engine_version: 103.0.0.0
+  device:
+    type: smartphone
+    brand: iHunt
+    model: Fit Runner
+  os_family: Android
+  browser_family: Chrome
+-
+  user_agent: Mozilla/5.0 (Linux; Android 12; NITRO N62 Build/SP1A.210812.016) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.6099.210 Mobile Safari/537.36
+  os:
+    name: Android
+    version: "12"
+    platform: ""
+  client:
+    type: browser
+    name: Chrome Mobile
+    version: 120.0.6099.210
+    engine: Blink
+    engine_version: 120.0.6099.210
+  device:
+    type: smartphone
+    brand: Maxwest
+    model: Nitro N62
+  os_family: Android
+  browser_family: Chrome
+-
+  user_agent: Mozilla/5.0 (Linux; Android 12; MX-A10R) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.6045.193 Safari/537.36 OPR/79.6.4195.77168
+  os:
+    name: Android
+    version: "12"
+    platform: ""
+  client:
+    type: browser
+    name: Opera
+    version: 79.6.4195.77168
+    engine: Blink
+    engine_version: 119.0.6045.193
+  device:
+    type: smartphone
+    brand: Maxwest
+    model: Astro A10R
+  os_family: Android
+  browser_family: Opera
+-
+  user_agent: Mozilla/5.0 (Linux; Android 12; MAGNO C2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Mobile Safari/537.36
+  os:
+    name: Android
+    version: "12"
+    platform: ""
+  client:
+    type: browser
+    name: Chrome Mobile
+    version: 105.0.0.0
+    engine: Blink
+    engine_version: 105.0.0.0
+  device:
+    type: smartphone
+    brand: Zuum
+    model: Magno C2
+  os_family: Android
+  browser_family: Chrome
+-
+  user_agent: Mozilla/5.0 (Linux; Android 12; Celero5G) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.0.0 Mobile Safari/537.36
+  os:
+    name: Android
+    version: "12"
+    platform: ""
+  client:
+    type: browser
+    name: Chrome Mobile
+    version: 102.0.0.0
+    engine: Blink
+    engine_version: 102.0.0.0
+  device:
+    type: smartphone
+    brand: DISH
+    model: Celero 5G
+  os_family: Android
+  browser_family: Chrome
+-
+  user_agent: Mozilla/5.0 (Linux; Android 12; Celero5G+ Build/SKQ1.220804.001; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/120.0.6099.210 Mobile Safari/537.36
+  os:
+    name: Android
+    version: "12"
+    platform: ""
+  client:
+    type: browser
+    name: Chrome Webview
+    version: 120.0.6099.210
+    engine: Blink
+    engine_version: 120.0.6099.210
+  device:
+    type: smartphone
+    brand: DISH
+    model: Celero 5G+
+  os_family: Android
+  browser_family: Chrome
+-
+  user_agent: Mozilla/5.0 (Linux; Android 12; DIGIT INFINITY Build/SP1A.210812.016; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/120.0.6099.193 Mobile Safari/537.36
+  os:
+    name: Android
+    version: "12"
+    platform: ""
+  client:
+    type: browser
+    name: Chrome Webview
+    version: 120.0.6099.193
+    engine: Blink
+    engine_version: 120.0.6099.193
+  device:
+    type: smartphone
+    brand: Digit4G
+    model: Infinity
+  os_family: Android
+  browser_family: Chrome
+-
+  user_agent: Mozilla/5.0 (Linux; Android 12; DIGIT INFINITY MAX Build/SP1A.210812.016; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/105.0.5195.136 Mobile Safari/537.36
+  os:
+    name: Android
+    version: "12"
+    platform: ""
+  client:
+    type: browser
+    name: Chrome Webview
+    version: 105.0.5195.136
+    engine: Blink
+    engine_version: 105.0.5195.136
+  device:
+    type: smartphone
+    brand: Digit4G
+    model: Infinity Max
+  os_family: Android
+  browser_family: Chrome
+-
+  user_agent: Mozilla/5.0 (Linux; Android 12; Digit Glory1 Build/SP1A.210812.016; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/120.0.6099.193 Mobile Safari/537.36
+  os:
+    name: Android
+    version: "12"
+    platform: ""
+  client:
+    type: browser
+    name: Chrome Webview
+    version: 120.0.6099.193
+    engine: Blink
+    engine_version: 120.0.6099.193
+  device:
+    type: smartphone
+    brand: Digit4G
+    model: Glory1
+  os_family: Android
+  browser_family: Chrome
+-
+  user_agent: Mozilla/5.0 (Linux; Android 12; Digit4G Energy Max Build/SP1A.210812.016; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/91.0.4472.114 Mobile Safari/537.36
+  os:
+    name: Android
+    version: "12"
+    platform: ""
+  client:
+    type: browser
+    name: Chrome Webview
+    version: 91.0.4472.114
+    engine: Blink
+    engine_version: 91.0.4472.114
+  device:
+    type: smartphone
+    brand: Digit4G
+    model: Energy Max
+  os_family: Android
+  browser_family: Chrome
+-
+  user_agent: Mozilla/5.0 (Linux; Android 12; Aligator_S6100 Build/S00812) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.6099.193 Mobile Safari/537.36
+  os:
+    name: Android
+    version: "12"
+    platform: ""
+  client:
+    type: browser
+    name: Chrome Mobile
+    version: 120.0.6099.193
+    engine: Blink
+    engine_version: 120.0.6099.193
+  device:
+    type: smartphone
+    brand: Aligator
+    model: S6100
+  os_family: Android
+  browser_family: Chrome
+-
+  user_agent: Mozilla/5.0 (Linux; Android 12; SM-A057M) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Mobile Safari/537.36
+  os:
+    name: Android
+    version: "12"
+    platform: ""
+  client:
+    type: browser
+    name: Chrome Mobile
+    version: 120.0.0.0
+    engine: Blink
+    engine_version: 120.0.0.0
+  device:
+    type: smartphone
+    brand: Samsung
+    model: Galaxy A05s
+  os_family: Android
+  browser_family: Chrome
+-
+  user_agent: Mozilla/5.0 (Linux; Android 12; SM-A055M) AppleWebKit/537.43 (KHTML, like Gecko) Chrome/120.0.0.0 Mobile Safari/537.46
+  os:
+    name: Android
+    version: "12"
+    platform: ""
+  client:
+    type: browser
+    name: Chrome Mobile
+    version: 120.0.0.0
+    engine: Blink
+    engine_version: 120.0.0.0
+  device:
+    type: smartphone
+    brand: Samsung
+    model: Galaxy A05
+  os_family: Android
+  browser_family: Chrome
+-
+  user_agent: Mozilla/5.0 (Linux; Android 12; SM-A137FN) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Mobile Safari/537.36
+  os:
+    name: Android
+    version: "12"
+    platform: ""
+  client:
+    type: browser
+    name: Chrome Mobile
+    version: 120.0.0.0
+    engine: Blink
+    engine_version: 120.0.0.0
+  device:
+    type: smartphone
+    brand: Samsung
+    model: Galaxy A13
+  os_family: Android
+  browser_family: Chrome
+-
+  user_agent: Mozilla/5.0 (Linux; Android 12; SM-S7110) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Mobile Safari/537.36
+  os:
+    name: Android
+    version: "12"
+    platform: ""
+  client:
+    type: browser
+    name: Chrome Mobile
+    version: 120.0.0.0
+    engine: Blink
+    engine_version: 120.0.0.0
+  device:
+    type: smartphone
+    brand: Samsung
+    model: Galaxy S23 FE
+  os_family: Android
+  browser_family: Chrome
+-
+  user_agent: Mozilla/5.0 (Linux; Android 12; Symphony Z60) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Mobile Safari/537.36
+  os:
+    name: Android
+    version: "12"
+    platform: ""
+  client:
+    type: browser
+    name: Chrome Mobile
+    version: 105.0.0.0
+    engine: Blink
+    engine_version: 105.0.0.0
+  device:
+    type: smartphone
+    brand: Symphony
+    model: Z60
+  os_family: Android
+  browser_family: Chrome
+-
+  user_agent: Mozilla/5.0 (Linux; Android 12; UNIA62_S01) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.6045.193 Mobile Safari/537.36 OPR/79.5.4195.76987
+  os:
+    name: Android
+    version: "12"
+    platform: ""
+  client:
+    type: browser
+    name: Opera Mobile
+    version: 79.5.4195.76987
+    engine: Blink
+    engine_version: 119.0.6045.193
+  device:
+    type: smartphone
+    brand: Unihertz
+    model: Ticktock E
+  os_family: Android
+  browser_family: Opera
+-
+  user_agent: Mozilla/5.0 (Linux; Android 12; Volla Phone 22) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.6045.193 Mobile Safari/537.36 OPR/79.5.4195.76987
+  os:
+    name: Android
+    version: "12"
+    platform: ""
+  client:
+    type: browser
+    name: Opera Mobile
+    version: 79.5.4195.76987
+    engine: Blink
+    engine_version: 119.0.6045.193
+  device:
+    type: smartphone
+    brand: Volla
+    model: Phone 22
+  os_family: Android
+  browser_family: Opera
+-
+  user_agent: Mozilla/5.0 (Linux; Android 12; Volla Phone X23) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.6045.193 Mobile Safari/537.36 OPR/79.5.4195.76987
+  os:
+    name: Android
+    version: "12"
+    platform: ""
+  client:
+    type: browser
+    name: Opera Mobile
+    version: 79.5.4195.76987
+    engine: Blink
+    engine_version: 119.0.6045.193
+  device:
+    type: smartphone
+    brand: Volla
+    model: Phone X23
+  os_family: Android
+  browser_family: Opera
+-
+  user_agent: Mozilla/5.0 (Linux; U; Android 11; en-us; Nu65 Build/JOP24G) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/68.0.3440.91 Mobile Safari/537.36
+  os:
+    name: Android
+    version: "11"
+    platform: ""
+  client:
+    type: browser
+    name: Chrome Webview
+    version: 68.0.3440.91
+    engine: Blink
+    engine_version: 68.0.3440.91
+  device:
+    type: smartphone
+    brand: I-Plus
+    model: Nu65
+  os_family: Android
+  browser_family: Chrome
+-
+  user_agent: Mozilla/5.0 (Linux; U; Android 13; 23108RN04Y Build/TP1A.220624.014; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/116.0.0.0 Mobile Safari/537.36 OPR/77.0.2254.69831
+  os:
+    name: Android
+    version: "13"
+    platform: ""
+  client:
+    type: browser
+    name: Opera Mobile
+    version: 77.0.2254.69831
+    engine: Blink
+    engine_version: 116.0.0.0
+  device:
+    type: smartphone
+    brand: Xiaomi
+    model: Redmi 13C
+  os_family: Android
+  browser_family: Opera
+-
+  user_agent: 'Mozilla/5.0 (Linux; U; Android 4.0.4; fa-ir) AppleWebKit/534.35 (KHTML, like Gecko)  Chrome/11.0.696.65 Safari/534.35 Puffin/2.10990AP Mobile'
+  os:
+    name: Android
+    version: 4.0.4
+    platform: ""
+  client:
+    type: browser
+    name: Puffin
+    version: "2.10990"
+    engine: WebKit
+    engine_version: "534.35"
+  device:
+    type: smartphone
+    brand: ""
+    model: ""
+  os_family: Android
+  browser_family: Unknown
+-
+  user_agent: Mozilla/5.0 (Linux; Android 13) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/113.0.5672.162 Mobile DuckDuckGo/5 Safari/537.36
+  os:
+    name: Android
+    version: "13"
+    platform: ""
+  client:
+    type: browser
+    name: DuckDuckGo Privacy Browser
+    version: "5"
+    engine: Blink
+    engine_version: 113.0.5672.162
+  device:
+    type: smartphone
+    brand: ""
+    model: ""
+  os_family: Android
+  browser_family: Chrome
+-
+  user_agent: Mozilla/5.0 (Linux; Android 10; Lava Be_U) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.101 Mobile Safari/537.36 OPR/77.0.4054.90
+  os:
+    name: Android
+    version: "10"
+    platform: ""
+  client:
+    type: browser
+    name: Opera Mobile
+    version: 77.0.4054.90
+    engine: Blink
+    engine_version: 91.0.4472.101
+  device:
+    type: smartphone
+    brand: Lava
+    model: Be U
+  os_family: Android
+  browser_family: Opera
+-
+  user_agent: Mozilla/5.0 (Linux; Android 13; I2301) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.5938.154 Mobile Safari/537.36 OPR/78.4.4143.75735
+  os:
+    name: Android
+    version: "13"
+    platform: ""
+  client:
+    type: browser
+    name: Opera Mobile
+    version: 78.4.4143.75735
+    engine: Blink
+    engine_version: 117.0.5938.154
+  device:
+    type: smartphone
+    brand: Vivo
+    model: iQOO Z7 Pro 5G
+  os_family: Android
+  browser_family: Opera
+-
+  user_agent: Mozilla/5.0 (Linux; Android 13; I2216) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Mobile Safari/537.36
+  os:
+    name: Android
+    version: "13"
+    platform: ""
+  client:
+    type: browser
+    name: Chrome Mobile
+    version: 104.0.0.0
+    engine: Blink
+    engine_version: 104.0.0.0
+  device:
+    type: smartphone
+    brand: Vivo
+    model: iQOO Z7x 5G
+  os_family: Android
+  browser_family: Chrome
+-
+  user_agent: Mozilla/5.0 (Linux; Android 13; I2214) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.5938.154 Mobile Safari/537.36 OPR/78.5.4143.75924
+  os:
+    name: Android
+    version: "13"
+    platform: ""
+  client:
+    type: browser
+    name: Opera Mobile
+    version: 78.5.4143.75924
+    engine: Blink
+    engine_version: 117.0.5938.154
+  device:
+    type: smartphone
+    brand: Vivo
+    model: iQOO Neo 7
+  os_family: Android
+  browser_family: Opera
+-
+  user_agent: Mozilla/5.0 (Linux; Android 13; I2213) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.5938.154 Mobile Safari/537.36 OPR/78.5.4143.75924
+  os:
+    name: Android
+    version: "13"
+    platform: ""
+  client:
+    type: browser
+    name: Opera Mobile
+    version: 78.5.4143.75924
+    engine: Blink
+    engine_version: 117.0.5938.154
+  device:
+    type: smartphone
+    brand: Vivo
+    model: iQOO Z7 5G
+  os_family: Android
+  browser_family: Opera
+-
+  user_agent: Mozilla/5.0 (Linux; Android 13; I2207) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.101 Mobile Safari/537.36
+  os:
+    name: Android
+    version: "13"
+    platform: ""
+  client:
+    type: browser
+    name: Chrome Mobile
+    version: 98.0.4758.101
+    engine: Blink
+    engine_version: 98.0.4758.101
+  device:
+    type: smartphone
+    brand: Vivo
+    model: iQOO Z7 5G
+  os_family: Android
+  browser_family: Chrome
+-
+  user_agent: Mozilla/5.0 (Linux; Android 13; I2223) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.5938.154 Mobile Safari/537.36 OPR/78.5.4143.75924
+  os:
+    name: Android
+    version: "13"
+    platform: ""
+  client:
+    type: browser
+    name: Opera Mobile
+    version: 78.5.4143.75924
+    engine: Blink
+    engine_version: 117.0.5938.154
+  device:
+    type: smartphone
+    brand: Vivo
+    model: iQOO Z7s 5G
+  os_family: Android
+  browser_family: Opera
+-
+  user_agent: Mozilla/5.0 (Linux; Android 13; Grace 9 Build/TP1A.220624.014; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/111.0.5563.116 Mobile Safari/537.36
+  os:
+    name: Android
+    version: "13"
+    platform: ""
+  client:
+    type: browser
+    name: Chrome Webview
+    version: 111.0.5563.116
+    engine: Blink
+    engine_version: 111.0.5563.116
+  device:
+    type: smartphone
+    brand: MeMobile
+    model: Grace 9
+  os_family: Android
+  browser_family: Chrome
+-
+  user_agent: Mozilla/5.0 (Linux; Android 13; DS-CL3 Pro) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Mobile Safari/537.36
+  os:
+    name: Android
+    version: "13"
+    platform: ""
+  client:
+    type: browser
+    name: Chrome Mobile
+    version: 111.0.0.0
+    engine: Blink
+    engine_version: 111.0.0.0
+  device:
+    type: smartphone
+    brand: Dcode
+    model: Cygnal 3 Pro
+  os_family: Android
+  browser_family: Chrome
+-
+  user_agent: Mozilla/5.0 (Linux; Android 13; DS-CL3 Lite) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Mobile Safari/537.36
+  os:
+    name: Android
+    version: "13"
+    platform: ""
+  client:
+    type: browser
+    name: Chrome Mobile
+    version: 111.0.0.0
+    engine: Blink
+    engine_version: 111.0.0.0
+  device:
+    type: smartphone
+    brand: Dcode
+    model: Cygnal 3 Lite
+  os_family: Android
+  browser_family: Chrome
+-
+  user_agent: Mozilla/5.0 (Linux; Android 13; DS-BD3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.5938.154 Mobile Safari/537.36 OPR/78.5.4143.75924
+  os:
+    name: Android
+    version: "13"
+    platform: ""
+  client:
+    type: browser
+    name: Opera Mobile
+    version: 78.5.4143.75924
+    engine: Blink
+    engine_version: 117.0.5938.154
+  device:
+    type: smartphone
+    brand: Dcode
+    model: Bold 3
+  os_family: Android
+  browser_family: Opera
+-
+  user_agent: Mozilla/5.0 (Linux; U; Android 13; zh-CN; PJG110 Build/TP1A.220905.001) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/100.0.4896.58 Quark/6.7.3.411 Mobile Safari/537.36
+  os:
+    name: Android
+    version: "13"
+    platform: ""
+  client:
+    type: browser
+    name: Quark
+    version: 6.7.3.411
+    engine: Blink
+    engine_version: 100.0.4896.58
+  device:
+    type: smartphone
+    brand: OPPO
+    model: A2 5G
+  os_family: Android
+  browser_family: Chrome
+-
+  user_agent: Mozilla/5.0 (Linux; U; Android 13; zh-CN; PJA110 Build/TP1A.220905.001) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/100.0.4896.58 UCBrowser/16.1.8.1269 Mobile Safari/537.36
+  os:
+    name: Android
+    version: "13"
+    platform: ""
+  client:
+    type: browser
+    name: UC Browser
+    version: 16.1.8.1269
+    engine: Blink
+    engine_version: 100.0.4896.58
+  device:
+    type: smartphone
+    brand: OnePlus
+    model: Ace 2 Pro
+  os_family: Android
+  browser_family: Unknown
+-
+  user_agent: Mozilla/5.0 (Linux; U; Android 13; zh-cn; PHU110 Build/SKQ1.221119.001) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/90.0.4430.61 Mobile Safari/537.36 HeyTapBrowser/40.8.22.2
+  os:
+    name: Android
+    version: "13"
+    platform: ""
+  client:
+    type: mobile app
+    name: HeyTapBrowser
+    version: 40.8.22.2
+  device:
+    type: smartphone
+    brand: OPPO
+    model: Reno 10 Pro+ 5G
+  os_family: Android
+  browser_family: Unknown
+-
+  user_agent: Mozilla/5.0 (Linux; U; Android 13; zh-cn; PHS110 Build/RKQ1.211119.001) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/90.0.4430.61 Mobile Safari/537.36 HeyTapBrowser/40.8.13.9
+  os:
+    name: Android
+    version: "13"
+    platform: ""
+  client:
+    type: mobile app
+    name: HeyTapBrowser
+    version: 40.8.13.9
+  device:
+    type: smartphone
+    brand: OPPO
+    model: A1 5G
+  os_family: Android
+  browser_family: Unknown
+-
+  user_agent: Mozilla/5.0 (Linux; U; Android 13; ru-ru; PHT110 Build/TP1A.220905.001) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/90.0.4430.61 Mobile Safari/537.36 HeyTapBrowser/40.8.21.2
+  os:
+    name: Android
+    version: "13"
+    platform: ""
+  client:
+    type: mobile app
+    name: HeyTapBrowser
+    version: 40.8.21.2
+  device:
+    type: smartphone
+    brand: OPPO
+    model: Find N3 Flip
+  os_family: Android
+  browser_family: Unknown
+-
+  user_agent: Mozilla/5.0 (Linux; U; Android 13; ru-ru; N6000 Build/TP1A.220624.014) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/112.0.5615.136 Mobile Safari/537.36 XiaoMi/MiuiBrowser/13.37.1-gn
+  os:
+    name: Android
+    version: "13"
+    platform: ""
+  client:
+    type: browser
+    name: MIUI Browser
+    version: 13.37.1
+    engine: Blink
+    engine_version: 112.0.5615.136
+  device:
+    type: smartphone
+    brand: Blackview
+    model: N6000
+  os_family: Android
+  browser_family: Android Browser
+-
+  user_agent: Mozilla/5.0 (Linux; U; Android 13; ru-ru; A200 Pro Build/TP1A.220624.014) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/112.0.5615.136 Mobile Safari/537.36 XiaoMi/MiuiBrowser/13.40.2-gn
+  os:
+    name: Android
+    version: "13"
+    platform: ""
+  client:
+    type: browser
+    name: MIUI Browser
+    version: 13.40.2
+    engine: Blink
+    engine_version: 112.0.5615.136
+  device:
+    type: smartphone
+    brand: Blackview
+    model: A200 Pro
+  os_family: Android
+  browser_family: Android Browser
+-
+  user_agent: Mozilla/5.0 (Linux; U; Android 13; en-US; V2307 Build/TP1A.220624.014) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/78.0.3904.108 UCBrowser/13.4.0.1306 Mobile Safari/537.36
+  os:
+    name: Android
+    version: "13"
+    platform: ""
+  client:
+    type: browser
+    name: UC Browser
+    version: 13.4.0.1306
+    engine: Blink
+    engine_version: 78.0.3904.108
+  device:
+    type: smartphone
+    brand: Vivo
+    model: Y200 5G
+  os_family: Android
+  browser_family: Unknown
+-
+  user_agent: Mozilla/5.0 (Linux; U; Android 13; en-US; V2303 Build/TP1A.220624.014) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/78.0.3904.108 UCBrowser/13.5.8.1314 Mobile Safari/537.36
+  os:
+    name: Android
+    version: "13"
+    platform: ""
+  client:
+    type: browser
+    name: UC Browser
+    version: 13.5.8.1314
+    engine: Blink
+    engine_version: 78.0.3904.108
+  device:
+    type: smartphone
+    brand: Vivo
+    model: V29e
+  os_family: Android
+  browser_family: Unknown
+-
+  user_agent: Mozilla/5.0 (Linux; U; Android 13; en-US; Sparx Neo X Build/TP1A.220624.014) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/78.0.3904.108 UCBrowser/13.5.8.1314 Mobile Safari/537.36
+  os:
+    name: Android
+    version: "13"
+    platform: ""
+  client:
+    type: browser
+    name: UC Browser
+    version: 13.5.8.1314
+    engine: Blink
+    engine_version: 78.0.3904.108
+  device:
+    type: smartphone
+    brand: Sparx
+    model: Neo X
+  os_family: Android
+  browser_family: Unknown
+-
+  user_agent: Mozilla/5.0 (Linux; U; Android 12; zh-Hans-CN; MIZ-BD00 Build/HinovaMIZ-BD00) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/100.0.4896.58 Quark/6.9.0.481 Mobile Safari/537.36
+  os:
+    name: Android
+    version: "12"
+    platform: ""
+  client:
+    type: browser
+    name: Quark
+    version: 6.9.0.481
+    engine: Blink
+    engine_version: 100.0.4896.58
+  device:
+    type: smartphone
+    brand: Hi Nova
+    model: "11"
+  os_family: Android
+  browser_family: Chrome
+-
+  user_agent: Mozilla/5.0 (Linux; U; Android 12; ru; TECNO_KI5m Build/SP1A.210812.016) AppleWebKit/528.5+ (KHTML, like Gecko) Version/3.1.2 Mobile Safari/525.20.1 UCBrowser/10.9.0.946 Mobile
+  os:
+    name: Android
+    version: "12"
+    platform: ""
+  client:
+    type: browser
+    name: UC Browser
+    version: 10.9.0.946
+    engine: WebKit
+    engine_version: "528.5"
+  device:
+    type: smartphone
+    brand: Tecno Mobile
+    model: Spark 10C
+  os_family: Android
+  browser_family: Unknown
+-
+  user_agent: Mozilla/5.0 (Linux; U; Android 12; en-us; N156DL Build/JOP24G) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/68.0.3440.91 Mobile Safari/537.36
+  os:
+    name: Android
+    version: "12"
+    platform: ""
+  client:
+    type: browser
+    name: Chrome Webview
+    version: 68.0.3440.91
+    engine: Blink
+    engine_version: 68.0.3440.91
+  device:
+    type: smartphone
+    brand: Nokia
+    model: C100
+  os_family: Android
+  browser_family: Chrome
+-
+  user_agent: Mozilla/5.0 (Linux; Android 9.0; GLK-LX3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.85 Mobile Safari/537.36
+  os:
+    name: Android
+    version: "9.0"
+    platform: ""
+  client:
+    type: browser
+    name: Chrome Mobile
+    version: 90.0.4430.85
+    engine: Blink
+    engine_version: 90.0.4430.85
+  device:
+    type: smartphone
+    brand: Huawei
+    model: Nova 5i
+  os_family: Android
+  browser_family: Chrome
+-
+  user_agent: Mozilla/5.0 (Linux; U; Android 13; en-us; V2244 Build/JOP24G) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/68.0.3440.91 Mobile Safari/537.36
+  os:
+    name: Android
+    version: "13"
+    platform: ""
+  client:
+    type: browser
+    name: Chrome Webview
+    version: 68.0.3440.91
+    engine: Blink
+    engine_version: 68.0.3440.91
+  device:
+    type: smartphone
+    brand: Vivo
+    model: V29 Lite 5G
+  os_family: Android
+  browser_family: Chrome
+-
+  user_agent: Mozilla/5.0 (Linux; U; Android 13; en-us; V2312 Build/JOP24G) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/68.0.3440.91 Mobile Safari/537.36
+  os:
+    name: Android
+    version: "13"
+    platform: ""
+  client:
+    type: browser
+    name: Chrome Webview
+    version: 68.0.3440.91
+    engine: Blink
+    engine_version: 68.0.3440.91
+  device:
+    type: smartphone
+    brand: Vivo
+    model: T2x 5G
+  os_family: Android
+  browser_family: Chrome
+-
+  user_agent: Mozilla/5.0 (Linux; U; Android 13; en-us; V2324 Build/JOP24G) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/68.0.3440.91 Mobile Safari/537.36
+  os:
+    name: Android
+    version: "13"
+    platform: ""
+  client:
+    type: browser
+    name: Chrome Webview
+    version: 68.0.3440.91
+    engine: Blink
+    engine_version: 68.0.3440.91
+  device:
+    type: smartphone
+    brand: Vivo
+    model: Y36
+  os_family: Android
+  browser_family: Chrome
+-
+  user_agent: Mozilla/5.0 (Linux; U; Android 13; V2325 Build/TP1A.220624.014_MOD1; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/118.0.0.0 Mobile Safari/537.36 OPR/75.0.2254.68857
+  os:
+    name: Android
+    version: "13"
+    platform: ""
+  client:
+    type: browser
+    name: Opera Mobile
+    version: 75.0.2254.68857
+    engine: Blink
+    engine_version: 118.0.0.0
+  device:
+    type: smartphone
+    brand: Vivo
+    model: Y02t
+  os_family: Android
+  browser_family: Opera
+-
+  user_agent: Mozilla/5.0 (Linux; U; Android 13; en-US; Infinix X6832 Build/TP1A.220624.014) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/78.0.3904.108 UCBrowser/13.5.8.1314 Mobile Safari/537.36
+  os:
+    name: Android
+    version: "13"
+    platform: ""
+  client:
+    type: browser
+    name: UC Browser
+    version: 13.5.8.1314
+    engine: Blink
+    engine_version: 78.0.3904.108
+  device:
+    type: smartphone
+    brand: Infinix
+    model: Hot 30 5G
+  os_family: Android
+  browser_family: Unknown
+-
+  user_agent: Mozilla/5.0 (Linux; U; Android 13; en-US; RMX3785 Build/TP1A.220905.001) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/78.0.3904.108 UCBrowser/13.4.0.1306 Mobile Safari/537.36
+  os:
+    name: Android
+    version: "13"
+    platform: ""
+  client:
+    type: browser
+    name: UC Browser
+    version: 13.4.0.1306
+    engine: Blink
+    engine_version: 78.0.3904.108
+  device:
+    type: smartphone
+    brand: Realme
+    model: 11x 5G
+  os_family: Android
+  browser_family: Unknown
+-
+  user_agent: Mozilla/5.0 (Linux; Android 8.1; Q5.8) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.45 Mobile Safari/537.36
+  os:
+    name: Android
+    version: "8.1"
+    platform: ""
+  client:
+    type: browser
+    name: Chrome Mobile
+    version: 96.0.4664.45
+    engine: Blink
+    engine_version: 96.0.4664.45
+  device:
+    type: smartphone
+    brand: Uniqcell
+    model: Q5.8
+  os_family: Android
+  browser_family: Chrome
+-
+  user_agent: Mozilla/5.0 (Linux; Android 8.1; Space A5.8 Build/MRA58K; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/44.0.2403.119 Mobile Safari/537.36
+  os:
+    name: Android
+    version: "8.1"
+    platform: ""
+  client:
+    type: browser
+    name: Chrome Webview
+    version: 44.0.2403.119
+    engine: Blink
+    engine_version: 44.0.2403.119
+  device:
+    type: smartphone
+    brand: Uniqcell
+    model: Space A5.8
+  os_family: Android
+  browser_family: Chrome
+-
+  user_agent: Mozilla/5.0 (Linux; Android 8.1.0; WS054) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.45 Mobile Safari/537.36
+  os:
+    name: Android
+    version: 8.1.0
+    platform: ""
+  client:
+    type: browser
+    name: Chrome Mobile
+    version: 96.0.4664.45
+    engine: Blink
+    engine_version: 96.0.4664.45
+  device:
+    type: smartphone
+    brand: Wolki
+    model: W5.5 Lite
+  os_family: Android
+  browser_family: Chrome
+-
+  user_agent: iPhone11
+  os:
+    name: iOS
+    version: ""
+    platform: ""
+  client:
+    type: browser
+    name: Mobile Safari
+    version: ""
+    engine: WebKit
+    engine_version: ""
+  device:
+    type: smartphone
+    brand: Apple
+    model: iPhone 11
+  os_family: iOS
+  browser_family: Safari
+-
+  user_agent: iPhone12mini
+  os:
+    name: iOS
+    version: ""
+    platform: ""
+  client:
+    type: browser
+    name: Mobile Safari
+    version: ""
+    engine: WebKit
+    engine_version: ""
+  device:
+    type: smartphone
+    brand: Apple
+    model: iPhone 12 Mini
+  os_family: iOS
+  browser_family: Safari
+-
+  user_agent: iPhone13mini
+  os:
+    name: iOS
+    version: ""
+    platform: ""
+  client:
+    type: browser
+    name: Mobile Safari
+    version: ""
+    engine: WebKit
+    engine_version: ""
+  device:
+    type: smartphone
+    brand: Apple
+    model: iPhone 13 Mini
+  os_family: iOS
+  browser_family: Safari
+-
+  user_agent: iPhoneXR
+  os:
+    name: iOS
+    version: ""
+    platform: ""
+  client:
+    type: browser
+    name: Mobile Safari
+    version: ""
+    engine: WebKit
+    engine_version: ""
+  device:
+    type: smartphone
+    brand: Apple
+    model: iPhone XR
+  os_family: iOS
+  browser_family: Safari
+-
+  user_agent: iPhoneXS
+  os:
+    name: iOS
+    version: ""
+    platform: ""
+  client:
+    type: browser
+    name: Mobile Safari
+    version: ""
+    engine: WebKit
+    engine_version: ""
+  device:
+    type: smartphone
+    brand: Apple
+    model: iPhone XS
+  os_family: iOS
+  browser_family: Safari
+-
+  user_agent: iPhone8
+  os:
+    name: iOS
+    version: ""
+    platform: ""
+  client:
+    type: browser
+    name: Mobile Safari
+    version: ""
+    engine: WebKit
+    engine_version: ""
+  device:
+    type: smartphone
+    brand: Apple
+    model: iPhone 8
+  os_family: iOS
+  browser_family: Safari
+-
+  user_agent: iPhone7
+  os:
+    name: iOS
+    version: ""
+    platform: ""
+  client:
+    type: browser
+    name: Mobile Safari
+    version: ""
+    engine: WebKit
+    engine_version: ""
+  device:
+    type: smartphone
+    brand: Apple
+    model: iPhone 7
+  os_family: iOS
+  browser_family: Safari
+-
+  user_agent: iPhone6s
+  os:
+    name: iOS
+    version: ""
+    platform: ""
+  client:
+    type: browser
+    name: Mobile Safari
+    version: ""
+    engine: WebKit
+    engine_version: ""
+  device:
+    type: smartphone
+    brand: Apple
+    model: iPhone 6s
+  os_family: iOS
+  browser_family: Safari
+-
+  user_agent: iPhoneSE
+  os:
+    name: iOS
+    version: ""
+    platform: ""
+  client:
+    type: browser
+    name: Mobile Safari
+    version: ""
+    engine: WebKit
+    engine_version: ""
+  device:
+    type: smartphone
+    brand: Apple
+    model: iPhone SE
+  os_family: iOS
+  browser_family: Safari
+-
+  user_agent: Mozilla/5.0 (Linux; Android 10; Armadillo Phone) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.81 Mobile Safari/537.36
+  os:
+    name: Armadillo OS
+    version: ""
+    platform: ARM
+  client:
+    type: browser
+    name: Chrome Mobile
+    version: 85.0.4183.81
+    engine: Blink
+    engine_version: 85.0.4183.81
+  device:
+    type: smartphone
+    brand: Pacific Research Alliance
+    model: Armadillo Phone
+  os_family: Android
+  browser_family: Chrome
+-
+  user_agent: Mozilla/5.0 (Linux; Android 10; TTfone TT20) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Mobile Safari/537.36
+  os:
+    name: Android
+    version: "10"
+    platform: ""
+  client:
+    type: browser
+    name: Chrome Mobile
+    version: 112.0.0.0
+    engine: Blink
+    engine_version: 112.0.0.0
+  device:
+    type: smartphone
+    brand: TTfone
+    model: TT20
+  os_family: Android
+  browser_family: Chrome
+-
+  user_agent: Mozilla/5.0 (Linux; Android 12; Core-Z5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Mobile Safari/537.36
+  os:
+    name: Android
+    version: "12"
+    platform: ""
+  client:
+    type: browser
+    name: Chrome Mobile
+    version: 110.0.0.0
+    engine: Blink
+    engine_version: 110.0.0.0
+  device:
+    type: smartphone
+    brand: Crosscall
+    model: Core-Z5
+  os_family: Android
+  browser_family: Chrome
+-
+  user_agent: Mozilla/5.0 (Linux; Android 11; Qrash) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Mobile Safari/537.36
+  os:
+    name: Android
+    version: "11"
+    platform: ""
+  client:
+    type: browser
+    name: Chrome Mobile
+    version: 109.0.0.0
+    engine: Blink
+    engine_version: 109.0.0.0
+  device:
+    type: smartphone
+    brand: Quantum
+    model: Qrash
+  os_family: Android
+  browser_family: Chrome
+-
+  user_agent: Mozilla/5.0 (Linux; Android 11; TAGPhone) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Mobile Safari/537.36
+  os:
+    name: Android
+    version: "11"
+    platform: ""
+  client:
+    type: browser
+    name: Chrome Mobile
+    version: 103.0.0.0
+    engine: Blink
+    engine_version: 103.0.0.0
+  device:
+    type: smartphone
+    brand: TAG Tech
+    model: Phone
+  os_family: Android
+  browser_family: Chrome
+-
+  user_agent: Mozilla/5.0 (Linux; Android 8.1.0; CORN_C4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Mobile Safari/537.36
+  os:
+    name: Android
+    version: 8.1.0
+    platform: ""
+  client:
+    type: browser
+    name: Chrome Mobile
+    version: 103.0.0.0
+    engine: Blink
+    engine_version: 103.0.0.0
+  device:
+    type: smartphone
+    brand: CORN
+    model: C4
+  os_family: Android
+  browser_family: Chrome
+-
+  user_agent: Mozilla/5.0 (Linux; Android 11; Safaricom ET Kimem Build/RP1A.201005.001; en-us) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.136 Mobile Safari/537.36 Puffin/9.6.1.51244AP
+  os:
+    name: Android
+    version: "11"
+    platform: ""
+  client:
+    type: browser
+    name: Puffin
+    version: 9.6.1.51244
+    engine: Blink
+    engine_version: 79.0.3945.136
+  device:
+    type: smartphone
+    brand: Safaricom
+    model: ET Kimem
+  os_family: Android
+  browser_family: Unknown
+-
+  user_agent: Mozilla/5.0 (Linux; Android 8.1.0; Tesla_SP6_4_Lite) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.0.0 Mobile Safari/537.36
+  os:
+    name: Android
+    version: 8.1.0
+    platform: ""
+  client:
+    type: browser
+    name: Chrome Mobile
+    version: 102.0.0.0
+    engine: Blink
+    engine_version: 102.0.0.0
+  device:
+    type: smartphone
+    brand: ComTrade Tesla
+    model: Smartphone 6.4 Lite
+  os_family: Android
+  browser_family: Chrome
+-
+  user_agent: Mozilla/5.0 (Linux; Android 11; ULTRAMINTT A6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.210 Mobile Safari/537.36
+  os:
+    name: Android
+    version: "11"
+    platform: ""
+  client:
+    type: browser
+    name: Chrome Mobile
+    version: 90.0.4430.210
+    engine: Blink
+    engine_version: 90.0.4430.210
+  device:
+    type: smartphone
+    brand: Mintt
+    model: UltraMintt A6
+  os_family: Android
+  browser_family: Chrome
+-
+  user_agent: Mozilla/5.0 (Linux; Android 12; RAVOZ V1 Build/SP1A.210812.016; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/119.0.6045.193 Mobile Safari/537.36
+  os:
+    name: Android
+    version: "12"
+    platform: ""
+  client:
+    type: browser
+    name: Chrome Webview
+    version: 119.0.6045.193
+    engine: Blink
+    engine_version: 119.0.6045.193
+  device:
+    type: smartphone
+    brand: Ravoz
+    model: V1
+  os_family: Android
+  browser_family: Chrome
+-
+  user_agent: Mozilla/5.0 (Linux; Android 12; COOLMINTT A7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.88 Mobile Safari/537.36
+  os:
+    name: Android
+    version: "12"
+    platform: ""
+  client:
+    type: browser
+    name: Chrome Mobile
+    version: 99.0.4844.88
+    engine: Blink
+    engine_version: 99.0.4844.88
+  device:
+    type: smartphone
+    brand: Mintt
+    model: CoolMintt A7
+  os_family: Android
+  browser_family: Chrome
+-
+  user_agent: Mozilla/5.0 (Linux; Android 9; BULLITTGROUPLIMITED S61 Build/NMF26F) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.96 Mobile Safari/537.36 AlohaBrowser/3.2.2
+  os:
+    name: Android
+    version: "9"
+    platform: ""
+  client:
+    type: browser
+    name: Aloha Browser
+    version: 3.2.2
+    engine: Blink
+    engine_version: 83.0.4103.96
+  device:
+    type: smartphone
+    brand: Cat
+    model: S61
+  os_family: Android
+  browser_family: Unknown
+-
+  user_agent: Mozilla/5.0 (Linux; U; Android 12; COOLMINTT X7 Build/SP1A.210812.016; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/114.0.5735.196 Mobile Safari/537.36 OPR/73.0.2254.68338
+  os:
+    name: Android
+    version: "12"
+    platform: ""
+  client:
+    type: browser
+    name: Opera Mobile
+    version: 73.0.2254.68338
+    engine: Blink
+    engine_version: 114.0.5735.196
+  device:
+    type: smartphone
+    brand: Mintt
+    model: CoolMintt X7
+  os_family: Android
+  browser_family: Opera
+-
+  user_agent: Mozilla/5.0 (Linux; U; Android 13; en-gb; RMX3782 Build/TP1A.220905.001) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.88 Mobile Safari/537.36 HeyTapBrowser/45.10.5.1.1
+  os:
+    name: Android
+    version: "13"
+    platform: ""
+  client:
+    type: mobile app
+    name: HeyTapBrowser
+    version: 45.10.5.1.1
+  device:
+    type: smartphone
+    brand: Realme
+    model: C67 5G
+  os_family: Android
+  browser_family: Unknown
+-
+  user_agent: Mozilla/5.0 (Linux; U; Android 13; en-gb; RMX3780 Build/TP1A.220905.001) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.88 Mobile Safari/537.36 HeyTapBrowser/45.10.5.1.1
+  os:
+    name: Android
+    version: "13"
+    platform: ""
+  client:
+    type: mobile app
+    name: HeyTapBrowser
+    version: 45.10.5.1.1
+  device:
+    type: smartphone
+    brand: Realme
+    model: 11 5G
+  os_family: Android
+  browser_family: Unknown
+-
+  user_agent: Dalvik/2.1.0 (Linux; U; Android 14; RMX3890 Build/UKQ1.230917.001)
+  os:
+    name: Android
+    version: "14"
+    platform: ""
+  client:
+    type: browser
+    name: Android Browser
+    version: ""
+    engine: WebKit
+    engine_version: ""
+  device:
+    type: smartphone
+    brand: Realme
+    model: C67
+  os_family: Android
+  browser_family: Android Browser
+-
+  user_agent: Mozilla/5.0 (Linux; Android 13; 23100RN82L Build/TP1A.220624.014; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/121.0.6167.143 Mobile Safari/537.36
+  os:
+    name: Android
+    version: "13"
+    platform: ""
+  client:
+    type: browser
+    name: Chrome Webview
+    version: 121.0.6167.143
+    engine: Blink
+    engine_version: 121.0.6167.143
+  device:
+    type: smartphone
+    brand: Xiaomi
+    model: Redmi 13C
+  os_family: Android
+  browser_family: Chrome
+-
+  user_agent: Mozilla/5.0 (iPhone; CPU iPhone OS 12_4_5 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148 QQ/8.2.6.700 V1_IPH_SQ_8.2.6_1_APP_A Pixel/640 MiniAppEnable Core/WKWebView Device/Apple(iPhone 5S) NetType/4G QBWebViewType/1 WKType/1
+  os:
+    name: iOS
+    version: 12.4.5
+    platform: ""
+  client:
+    type: browser
+    name: Mobile Safari
+    version: ""
+    engine: WebKit
+    engine_version: 605.1.15
+  device:
+    type: smartphone
+    brand: Apple
+    model: iPhone 5S
+  os_family: iOS
+  browser_family: Safari
+-
+  user_agent: Mozilla/5.0 (iPhone; CPU iPhone OS 10_3_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/14G60 QQ/103.3 TIM/3.3.5.545 V1_IPH_SQ_8.4.8_335_TIM_D Pixel/750 MiniAppEnable SimpleUISwitch/1 QQTheme/1015712 Core/WKWebView Device/Apple(iPhone 6) NetType/4G QBWebViewType/1 WKType/1
+  os:
+    name: iOS
+    version: 10.3.3
+    platform: ""
+  client:
+    type: browser
+    name: Mobile Safari
+    version: ""
+    engine: WebKit
+    engine_version: 605.1.15
+  device:
+    type: smartphone
+    brand: Apple
+    model: iPhone 6
+  os_family: iOS
+  browser_family: Safari
+-
+  user_agent: Mozilla/5.0 (iPhone; CPU iPhone OS 14_1 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148 QQ/8.4.17.638 V1_IPH_SQ_8.4.17_1_APP_A Pixel/750 MiniAppEnable SimpleUISwitch/0 QQTheme/3306 Core/WKWebView Device/Apple(iPhone 6s) NetType/4G QBWebViewType/1 WKType/1
+  os:
+    name: iOS
+    version: "14.1"
+    platform: ""
+  client:
+    type: browser
+    name: Mobile Safari
+    version: ""
+    engine: WebKit
+    engine_version: 605.1.15
+  device:
+    type: smartphone
+    brand: Apple
+    model: iPhone 6s
+  os_family: iOS
+  browser_family: Safari
+-
+  user_agent: Mozilla/5.0 (iPhone; CPU iPhone OS 12_3_1 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/16F203 QQ/8.3.5.612 V1_IPH_SQ_8.3.5_1_APP_A Pixel/750 MiniAppEnable SimpleUISwitch/0 QQTheme/1000 Core/WKWebView Device/Apple(iPhone 7) NetType/WIFI QBWebViewType/1 WKType/1
+  os:
+    name: iOS
+    version: 12.3.1
+    platform: ""
+  client:
+    type: browser
+    name: Mobile Safari
+    version: ""
+    engine: WebKit
+    engine_version: 605.1.15
+  device:
+    type: smartphone
+    brand: Apple
+    model: iPhone 7
+  os_family: iOS
+  browser_family: Safari
+-
+  user_agent: Mozilla/5.0 (iPhone; CPU iPhone OS 13_5_1 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/17F80 QQ/8.3.6.618 V1_IPH_SQ_8.3.6_1_APP_A Pixel/750 SimpleUISwitch/0 QQTheme/1000 Core/WKWebView Device/Apple(iPhone 8) NetType/4G QBWebViewType/1 WKType/1
+  os:
+    name: iOS
+    version: 13.5.1
+    platform: ""
+  client:
+    type: browser
+    name: Mobile Safari
+    version: ""
+    engine: WebKit
+    engine_version: 605.1.15
+  device:
+    type: smartphone
+    brand: Apple
+    model: iPhone 8
+  os_family: iOS
+  browser_family: Safari
+-
+  user_agent: Mozilla/5.0 (iPhone; CPU iPhone OS 13_6_1 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148 QQ/8.4.5.626 V1_IPH_SQ_8.4.5_1_APP_A Pixel/828 MiniAppEnable SimpleUISwitch/0 QQTheme/1000 Core/WKWebView Device/Apple(iPhone XR) NetType/WIFI QBWebViewType/1 WKType/1
+  os:
+    name: iOS
+    version: 13.6.1
+    platform: ""
+  client:
+    type: browser
+    name: Mobile Safari
+    version: ""
+    engine: WebKit
+    engine_version: 605.1.15
+  device:
+    type: smartphone
+    brand: Apple
+    model: iPhone XR
+  os_family: iOS
+  browser_family: Safari
+-
+  user_agent: Mozilla/5.0 (iPhone; CPU iPhone OS 14_7_1 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148/smzdm 10.6.20 rv:143.4 (iPhone 11; iOS 14.7.1; zh_CN)/iphone_smzdmapp/10.6.20/wkwebview/jsbv_1.0.0
+  os:
+    name: iOS
+    version: 14.7.1
+    platform: ""
+  client:
+    type: browser
+    name: Mobile Safari
+    version: ""
+    engine: WebKit
+    engine_version: 605.1.15
+  device:
+    type: smartphone
+    brand: Apple
+    model: iPhone 11
+  os_family: iOS
+  browser_family: Safari
+-
+  user_agent: Mozilla/5.0 (iPhone; CPU iPhone OS 16_7_2 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148 QQ/8.9.85.608 V1_IPH_SQ_8.9.85_1_APP_A Pixel/1080 MiniAppEnable SimpleUISwitch/0 StudyMode/0 CurrentMode/0 CurrentFontScale/1.117647 QQTheme/1000 AppId/537179600 Core/WKWebView Device/Apple(iPhone 13 mini) NetType/WIFI QBWebViewType/1 WKType/1
+  os:
+    name: iOS
+    version: 16.7.2
+    platform: ""
+  client:
+    type: browser
+    name: Mobile Safari
+    version: ""
+    engine: WebKit
+    engine_version: 605.1.15
+  device:
+    type: smartphone
+    brand: Apple
+    model: iPhone 13 Mini
+  os_family: iOS
+  browser_family: Safari
+-
+  user_agent: Mozilla/5.0 (iPhone; CPU iPhone OS 12_3_1 like Mac OS X) AppleWebKit/606.2.35 (KHTML, like Gecko) Mobile/15E148 QQ/8.0.8.458 V1_IPH_SQ_8.0.8_1_APP_A Pixel/1242 Core/WKWebView Device/Apple(iPhone XS) NetType/WIFI QBWebViewType/1 WKType/1
+  os:
+    name: iOS
+    version: 12.3.1
+    platform: ""
+  client:
+    type: browser
+    name: Mobile Safari
+    version: ""
+    engine: WebKit
+    engine_version: 606.2.35
+  device:
+    type: smartphone
+    brand: Apple
+    model: iPhone XS
+  os_family: iOS
+  browser_family: Safari
