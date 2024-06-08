@@ -4,6 +4,16 @@ require 'set'
 
 class DeviceDetector
   class OS < Parser
+    class << self
+      def mapped_os_version(version, mapping)
+        return if version.nil?
+
+        major_version = version.split('.').first
+
+        mapping[version] || mapping[major_version]
+      end
+    end
+
     def name
       os_info[:name]
     end
@@ -41,7 +51,7 @@ class DeviceDetector
 
     DESKTOP_OSS = Set.new(
       [
-        'AmigaOS', 'IBM', 'GNU/Linux', 'Mac', 'Unix', 'Windows', 'BeOS', 'Chrome OS'
+        'AmigaOS', 'IBM', 'GNU/Linux', 'Mac', 'Unix', 'Windows', 'BeOS', 'Chrome OS', 'Chromium OS'
       ]
     )
 
@@ -50,10 +60,14 @@ class DeviceDetector
       'AIX' => 'AIX',
       'AND' => 'Android',
       'ADR' => 'Android TV',
+      'ALP' => 'Alpine Linux',
       'AMZ' => 'Amazon Linux',
       'AMG' => 'AmigaOS',
+      'ARM' => 'Armadillo OS',
       'ATV' => 'tvOS',
       'ARL' => 'Arch Linux',
+      'AOS' => 'AOSC OS',
+      'ASP' => 'ASPLinux',
       'BTR' => 'BackTrack',
       'SBA' => 'Bada',
       'BEO' => 'BeOS',
@@ -61,9 +75,11 @@ class DeviceDetector
       'QNX' => 'BlackBerry Tablet OS',
       'BOS' => 'Bliss OS',
       'BMP' => 'Brew',
+      'BSN' => 'BrightSignOS',
       'CAI' => 'Caixa Mágica',
       'CES' => 'CentOS',
       'CST' => 'CentOS Stream',
+      'CLO' => 'Clear Linux OS',
       'CLR' => 'ClearOS Mobile',
       'COS' => 'Chrome OS',
       'CRS' => 'Chromium OS',
@@ -73,6 +89,8 @@ class DeviceDetector
       'DEE' => 'Deepin',
       'DFB' => 'DragonFly',
       'DVK' => 'DVKBuntu',
+      'ELE' => 'ElectroBSD',
+      'EUL' => 'EulerOS',
       'FED' => 'Fedora',
       'FEN' => 'Fenix',
       'FOS' => 'Firefox OS',
@@ -80,6 +98,7 @@ class DeviceDetector
       'FOR' => 'Foresight Linux',
       'FRE' => 'Freebox',
       'BSD' => 'FreeBSD',
+      'FRI' => 'FRITZ!OS',
       'FYD' => 'FydeOS',
       'FUC' => 'Fuchsia',
       'GNT' => 'Gentoo',
@@ -90,6 +109,7 @@ class DeviceDetector
       'IPA' => 'iPadOS',
       'HAR' => 'HarmonyOS',
       'HAS' => 'HasCodingOS',
+      'HEL' => 'HELIX OS',
       'IRI' => 'IRIX',
       'INF' => 'Inferno',
       'JME' => 'Java ME',
@@ -103,6 +123,8 @@ class DeviceDetector
       'LND' => 'LindowsOS',
       'LNS' => 'Linspire',
       'LEN' => 'Lineage OS',
+      'LIR' => 'Liri OS',
+      'LOO' => 'Loongnix',
       'LBT' => 'Lubuntu',
       'LOS' => 'Lumin OS',
       'LUN' => 'LuneOS',
@@ -126,6 +148,7 @@ class DeviceDetector
       'OS2' => 'OS/2',
       'T64' => 'OSF1',
       'OBS' => 'OpenBSD',
+      'OVZ' => 'OpenVZ',
       'OWR' => 'OpenWrt',
       'OTV' => 'Opera TV',
       'ORA' => 'Oracle Linux',
@@ -136,11 +159,16 @@ class DeviceDetector
       'PLA' => 'Plasma Mobile',
       'PSP' => 'PlayStation Portable',
       'PS3' => 'PlayStation',
+      'PVE' => 'Proxmox VE',
       'PUR' => 'PureOS',
+      'PIO' => 'Raspberry Pi OS',
+      'RAS' => 'Raspbian',
       'RHT' => 'Red Hat',
+      'RST' => 'Red Star',
       'RED' => 'RedOS',
       'REV' => 'Revenge OS',
       'ROS' => 'RISC OS',
+      'ROC' => 'Rocky Linux',
       'ROK' => 'Roku OS',
       'RSO' => 'Rosa',
       'ROU' => 'RouterOS',
@@ -151,7 +179,9 @@ class DeviceDetector
       'SAB' => 'Sabayon',
       'SSE' => 'SUSE',
       'SAF' => 'Sailfish OS',
+      'SCI' => 'Scientific Linux',
       'SEE' => 'SeewoOS',
+      'SER' => 'SerenityOS',
       'SIR' => 'Sirin OS',
       'SLW' => 'Slackware',
       'SOS' => 'Solaris',
@@ -167,6 +197,7 @@ class DeviceDetector
       'TIV' => 'TiVo OS',
       'TOS' => 'TmaxOS',
       'UBT' => 'Ubuntu',
+      'UOS' => 'UOS',
       'VID' => 'VIDAA',
       'WAS' => 'watchOS',
       'WER' => 'Wear OS',
@@ -185,6 +216,7 @@ class DeviceDetector
       'ZOR' => 'ZorinOS',
       'IOS' => 'iOS',
       'POS' => 'palmOS',
+      'WEB' => 'Webian',
       'WOS' => 'webOS'
     }.freeze
 
@@ -192,9 +224,12 @@ class DeviceDetector
       h[long.downcase] = short
     end.freeze
 
+    APPLE_OS_NAMES = Set.new(%w[iPadOS tvOS watchOS iOS Mac]).freeze
+
     OS_FAMILIES = {
       'Android' => %w[ AND CYN FIR REM RZD MLD MCD YNS GRI HAR
-                       ADR CLR BOS REV LEN SIR RRS WER PIC],
+                       ADR CLR BOS REV LEN SIR RRS WER PIC ARM
+                       HEL],
       'AmigaOS' => %w[AMG MOR],
       'BlackBerry' => %w[BLB QNX],
       'Brew' => ['BMP'],
@@ -212,14 +247,16 @@ class DeviceDetector
         ORD TOS RSO DEE FRE MAG FEN CAI PCL HAS
         LOS DVK ROK OWR OTV KTV PUR PLA FUC PAR
         FOR MON KAN ZEN LND LNS CHN AMZ TEN CST
-        NOV ROU ZOR VID
+        NOV ROU ZOR VID TIV BSN RAS UOS PIO FRI
+        LIR WEB SER ASP AOS LOO EUL SCI ALP CLO
+        ROC OVZ PVE RST
       ],
       'Mac' => ['MAC'],
       'Mobile Gaming Console' => %w[PSP NDS XBX],
       'Real-time OS' => %w[MTK TDX MRE JME REX],
-      'Other Mobile' => %w[WOS POS SBA TIZ SMG MAE],
+      'Other Mobile' => %w[WOS POS SBA TIZ SMG MAE LUN],
       'Symbian' => %w[SYM SYS SY3 S60 S40],
-      'Unix' => %w[SOS AIX HPX BSD NBS OBS DFB SYL IRI T64 INF],
+      'Unix' => %w[SOS AIX HPX BSD NBS OBS DFB SYL IRI T64 INF ELE],
       'WebTV' => ['WTV'],
       'Windows' => ['WIN'],
       'Windows Mobile' => %w[WPH WMO WCE WRT WIO],
@@ -229,6 +266,45 @@ class DeviceDetector
     FAMILY_TO_OS = OS_FAMILIES.each_with_object({}) do |(family, oss), h|
       oss.each { |os| h[os] = family }
     end.freeze
+
+    FIRE_OS_VERSION_MAPPING = {
+      '11' => '8',
+      '10' => '8',
+      '9' => '7',
+      '7' => '6',
+      '5' => '5',
+      '4.4.3' => '4.5.1',
+      '4.4.2' => '4',
+      '4.2.2' => '3',
+      '4.0.3' => '3',
+      '4.0.2' => '3',
+      '4' => '2',
+      '2' => '1',
+    }.freeze
+
+    LINEAGE_OS_VERSION_MAPPING = {
+      '14' => '21',
+      '13' => '20.0',
+      '12.1' => '19.1',
+      '12' => '19.0',
+      '11' => '18.0',
+      '10' => '17.0',
+      '9' => '16.0',
+      '8.1.0' => '15.1',
+      '8.0.0' => '15.0',
+      '7.1.2' => '14.1',
+      '7.1.1' => '14.1',
+      '7.0' => '14.0',
+      '6.0.1' => '13.0',
+      '6.0' => '13.0',
+      '5.1.1' => '12.1',
+      '5.0.2' => '12.0',
+      '5.0' => '12.0',
+      '4.4.4' => '11.0',
+      '4.3' => '10.2',
+      '4.2.2' => '10.1',
+      '4.0.4' => '9.1.0'
+    }.freeze
 
     def filenames
       ['oss.yml']

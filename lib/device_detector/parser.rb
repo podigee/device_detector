@@ -60,18 +60,18 @@ class DeviceDetector
     def load_regexes(file_paths)
       file_paths.map do |path, full_path|
         object = YAML.load_file(full_path)
-        object = rewrite_device_object!(object) if is_device_yml_file?(full_path)
-        object = rewrite_vendor_object!(object) if is_vendor_yml_file?(full_path)
+        object = rewrite_device_object!(object) if device_yml_file?(full_path)
+        object = rewrite_vendor_object!(object) if vendor_yml_file?(full_path)
 
         [path, symbolize_keys!(object)]
       end
     end
 
-    def is_device_yml_file?(file_path)
+    def device_yml_file?(file_path)
       file_path.include?('/regexes/device/')
     end
 
-    def is_vendor_yml_file?(file_path)
+    def vendor_yml_file?(file_path)
       file_path.include?('/regexes/vendorfragments')
     end
 
@@ -101,13 +101,14 @@ class DeviceDetector
         raise "invalid device spec: #{meta.inspect}" unless meta[:regex].is_a? String
 
         meta[:regex] = build_regex(meta[:regex])
+        meta[:versions].each { |v| v[:regex] = build_regex(v[:regex]) } if meta.key?(:versions)
         meta[:path] = path
         meta
       end
     end
 
     def build_regex(src)
-      Regexp.new('(?:^|[^A-Z0-9\-_]|[^A-Z0-9\-]_|sprd-|MZ-)(?:' + src + ')', Regexp::IGNORECASE)
+      Regexp.new("(?:^|[^A-Z0-9_-]|[^A-Z0-9-]_|sprd-|MZ-)(?:#{src})", Regexp::IGNORECASE)
     end
 
     def from_cache(key, &block)
