@@ -1,6 +1,6 @@
 # Change Log
 
-- Updated detection rules from upstream on 2024-06-17
+- Updated detection rules from upstream on 2024-06-21
 
 ## [1.1.2]
 -  Updated detection rules from upstream on 2023-11-27
