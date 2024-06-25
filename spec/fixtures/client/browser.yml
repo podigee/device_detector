@@ -4465,10 +4465,10 @@
     family: Chrome
   headers:
     Sec-CH-UA: '" Not A;Brand";v="99.0.0.0", "Chromium";v="98.0.4758.109", "Gener8";v="98.0.4758.109"'
-    Sec-CH-UA-Platform: "Windows"
+    Sec-CH-UA-Platform: '"Windows"'
     Sec-CH-UA-Mobile: "?0"
-    Sec-CH-UA-Full-Version: "98.0.4758.109"
-    Sec-CH-UA-Platform-Version: "10.0.0"
+    Sec-CH-UA-Full-Version: '"98.0.4758.109"'
+    Sec-CH-UA-Platform-Version: '"10.0.0"'
     Sec-CH-UA-Arch: "x86"
     Sec-CH-UA-Bitness: "64"
     Sec-CH-Prefers-Color-Scheme: "light"
@@ -4483,10 +4483,10 @@
     family: Opera
   headers:
     Sec-CH-UA: '" Not A;Brand";v="99.0.0.0", "Chromium";v="99.0.4844.16", "Opera Crypto";v="99.0.4844.16"'
-    Sec-CH-UA-Platform: "Windows"
+    Sec-CH-UA-Platform: '"Windows"'
     Sec-CH-UA-Mobile: "?0"
-    Sec-CH-UA-Full-Version: "99.0.4844.16"
-    Sec-CH-UA-Platform-Version: "10.0.0"
+    Sec-CH-UA-Full-Version: '"99.0.4844.16"'
+    Sec-CH-UA-Platform-Version: '"10.0.0"'
     Sec-CH-UA-Arch: "x86"
     Sec-CH-UA-Bitness: "64"
     Sec-CH-Prefers-Color-Scheme: "dark"
@@ -4501,10 +4501,10 @@
     family: Chrome
   headers:
     Sec-CH-UA: '" Not A;Brand";v="99.0.0.0", "Chromium";v="98", "Whale";v="3.13.131.36"'
-    Sec-CH-UA-Platform: "Windows"
+    Sec-CH-UA-Platform: '"Windows"'
     Sec-CH-UA-Mobile: "?0"
-    Sec-CH-UA-Full-Version: "3.13.131.36"
-    Sec-CH-UA-Platform-Version: "14.0.0"
+    Sec-CH-UA-Full-Version: '"3.13.131.36"'
+    Sec-CH-UA-Platform-Version: '"14.0.0"'
     Sec-CH-UA-Arch: "x86"
     Sec-CH-UA-Bitness: "64"
     Sec-CH-Prefers-Color-Scheme: "light"
@@ -4519,10 +4519,10 @@
     family: Opera
   headers:
     Sec-CH-UA: '" Not A;Brand";v="99.0.0.0", "Chromium";v="98.0.4758.102", "Opera GX";v="98.0.4758.102"'
-    Sec-CH-UA-Platform: "Windows"
+    Sec-CH-UA-Platform: '"Windows"'
     Sec-CH-UA-Mobile: "?0"
-    Sec-CH-UA-Full-Version: "98.0.4758.102"
-    Sec-CH-UA-Platform-Version: "14.0.0"
+    Sec-CH-UA-Full-Version: '"98.0.4758.102"'
+    Sec-CH-UA-Platform-Version: '"14.0.0"'
     Sec-CH-UA-Arch: "x86"
     Sec-CH-UA-Bitness: "64"
     Sec-CH-Prefers-Color-Scheme: "dark"
@@ -6040,7 +6040,7 @@
     family: Chrome
   headers:
     Sec-CH-UA: '"(Not(A:Brand";v="8.0.0.0", "WaveBrowser";v="1.1.6.4", "WaveBrowser";v="1.1.6.4"'
-    Sec-CH-UA-Platform: 'Windows'
+    Sec-CH-UA-Platform: '"Windows"'
     Sec-CH-UA-Mobile: '?0'
 -
   user_agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.74 Safari/537.36
@@ -6053,7 +6053,7 @@
     family: Chrome
   headers:
     Sec-CH-UA: '" Not A;Brand";v="99.0.0.0", "Chromium";v="99.0.15185.77", "CCleaner Browser";v="99.0.15185.77"'
-    Sec-CH-UA-Platform: 'Windows'
+    Sec-CH-UA-Platform: '"Windows"'
     Sec-CH-UA-Mobile: '?0'
 -
   user_agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.132 Safari/537.36
@@ -6066,7 +6066,7 @@
     family: Chrome
   headers:
     Sec-CH-UA: '" Not A;Brand";v="99", "Chromium";v="98", "Sidekick";v="98"'
-    Sec-CH-UA-Platform: 'macOS'
+    Sec-CH-UA-Platform: '"macOS"'
     Sec-CH-UA-Mobile: '?0'
 -
   user_agent: 'Opera%20GX/416.0.0 CFNetwork/1331.0.7 Darwin/21.4.0'
@@ -6472,7 +6472,7 @@
     family: Chrome
   headers:
     Sec-CH-UA: '" Not A;Brand";v="99.0.0.0", "Chromium";v="2022.04"'
-    Sec-CH-UA-Platform: 'Linux'
+    Sec-CH-UA-Platform: '"Linux"'
     Sec-CH-UA-Mobile: '?0'
 -
   user_agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.5005.148 Atom/23.0.0.28 Safari/537.36
@@ -6485,7 +6485,7 @@
     family: Chrome
   headers:
     Sec-CH-UA: '" Not A;Brand";v="99", "Chromium";v="102", "Atom";v="23"'
-    Sec-CH-UA-Platform: "Windows"
+    Sec-CH-UA-Platform: '"Windows"'
     Sec-CH-UA-Mobile: "?0"
 -
   user_agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.5005.148 Atom/23.0.0.28 Safari/537.36
@@ -6498,10 +6498,10 @@
     family: Chrome
   headers:
     Sec-CH-UA: '" Not A;Brand";v="99.0.0.0", "Chromium";v="102.0.5005.148", "Atom";v="23.0.0.28"'
-    Sec-CH-UA-Platform: "Windows"
+    Sec-CH-UA-Platform: '"Windows"'
     Sec-CH-UA-Mobile: "?0"
-    Sec-CH-UA-Full-Version: "102.0.5005.148"
-    Sec-CH-UA-Platform-Version: "10.0.0"
+    Sec-CH-UA-Full-Version: '"102.0.5005.148"'
+    Sec-CH-UA-Platform-Version: '"10.0.0"'
     Sec-CH-UA-Arch: "x86"
     Sec-CH-UA-Bitness: "64"
     Sec-CH-Prefers-Color-Scheme: "light"
@@ -6516,7 +6516,7 @@
     family: Chrome
   headers:
     Sec-CH-UA: '"Chromium";v="103", ".Not/A)Brand";v="99"'
-    Sec-CH-UA-Platform: "Windows"
+    Sec-CH-UA-Platform: '"Windows"'
     Sec-CH-UA-Mobile: "?0"
 -
   user_agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.88 Safari/537.36 OPR/85.0.4341.13
@@ -6529,10 +6529,10 @@
     family: Opera
   headers:
     Sec-CH-UA: '" Not A;Brand";v="99.0.0.0", "Chromium";v="99.0.4844.88"'
-    Sec-CH-UA-Platform: "Android"
+    Sec-CH-UA-Platform: '"Android"'
     Sec-CH-UA-Mobile: "?0"
-    Sec-CH-UA-Full-Version: "99.0.4844.88"
-    Sec-CH-UA-Platform-Version: "9.0.0"
+    Sec-CH-UA-Full-Version: '"99.0.4844.88"'
+    Sec-CH-UA-Platform-Version: '"9.0.0"'
     Sec-CH-UA-Model: "STF-L09"
     Sec-CH-Prefers-Color-Scheme: "light"
 -
@@ -7127,7 +7127,7 @@
     family: Chrome
   headers:
     Sec-CH-UA: '"(Not(A:Brand";v="8", "Chromium";v="2022"'
-    Sec-CH-UA-Platform: 'Windows'
+    Sec-CH-UA-Platform: '"Windows"'
     Sec-CH-UA-Mobile: '?0'
 -
   user_agent: Mozilla/5.0 (Linux; Android 10; VOG-L29; HMSCore 6.6.0.352; GMSCore 22.26.15) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.105 HuaweiBrowser/12.1.3.301 Mobile Safari/537.36
@@ -7152,7 +7152,7 @@
     family: Chrome
   headers:
     Sec-CH-UA: '"Chromium";v="106", "Brave";v="106", "Not;A=Brand";v="99"'
-    Sec-CH-UA-Platform: "Android"
+    Sec-CH-UA-Platform: '"Android"'
     Sec-CH-UA-Mobile: "?1"
 -
   user_agent: Mozilla/5.0 (Linux; Android 10) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Mobile Safari/537.36
@@ -7165,7 +7165,7 @@
     family: Chrome
   headers:
     Sec-CH-UA: '"Chromium";v="106", "Brave Browser";v="106", "Not;A=Brand";v="99"'
-    Sec-CH-UA-Platform: "Android"
+    Sec-CH-UA-Platform: '"Android"'
     Sec-CH-UA-Mobile: "?1"
 -
   user_agent: Mozilla/5.0 (X11; Linux x86_64; Quest 2) AppleWebKit/537.36 (KHTML, like Gecko) OculusBrowser/24.3.0.4.63.416895357 SamsungBrowser/4.0 Chrome/106.0.5249.168 VR Safari/537.36
@@ -7178,7 +7178,7 @@
     family: Chrome
   headers:
     Sec-CH-UA: '"Chromium";v="106", "Oculus Browser";v="24", "Not;A=Brand";v="99"'
-    Sec-CH-UA-Platform: "Linux"
+    Sec-CH-UA-Platform: '"Linux"'
     Sec-CH-UA-Mobile: "?0"
 -
   user_agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36
@@ -7191,7 +7191,7 @@
     family: Chrome
   headers:
     Sec-CH-UA: '"Chromium";v="2021", ";Not A Brand";v="99"'
-    Sec-CH-UA-Platform: "Windows"
+    Sec-CH-UA-Platform: '"Windows"'
     Sec-CH-UA-Mobile: "?0"
     Sec-CH-UA-Full-Version: '"2021.12"'
 -
@@ -7250,7 +7250,7 @@
     family: Chrome
   headers:
     Sec-CH-UA: '"Wavebox";v="111", "Not(A:Brand";v="8", "Chromium";v="111"'
-    Sec-CH-UA-Platform: 'macOS'
+    Sec-CH-UA-Platform: '"macOS"'
     Sec-CH-UA-Mobile: '?0'
 -
   user_agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36 Edg/86.0.622.69
@@ -7263,7 +7263,7 @@
     family: Internet Explorer
   headers:
     Sec-CH-UA: 'Microsoft Edge;v="86", "Chromium";v="86", ";Not A Brand";v="99"'
-    Sec-CH-UA-Platform: 'Windows'
+    Sec-CH-UA-Platform: '"Windows"'
     Sec-CH-UA-Mobile: '?0'
 -
   user_agent: Mozilla/5.0 (Linux; Android 4.4.2; SM-P600) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36
@@ -7342,7 +7342,7 @@
     family: Chrome
   headers:
     Sec-CH-UA: '"HeadlessChrome";v="113", "Chromium";v="113", "Not-A.Brand";v="24"'
-    Sec-CH-UA-Platform: 'Linux'
+    Sec-CH-UA-Platform: '"Linux"'
     Sec-CH-UA-Mobile: '?0'
 -
   user_agent: ddg_android/5.114.3 (com.duckduckgo.mobile.android; Android API 22)
@@ -7547,7 +7547,7 @@
     family: Chrome
   headers:
     Sec-CH-UA: '"Chromium";v="116.0.22144.111", "Not)A;Brand";v="24.0.0.0", "Avira Secure Browser";v="116.0.22144.111"'
-    Sec-CH-UA-Full-Version: "116.0.22144.111"
+    Sec-CH-UA-Full-Version: '"116.0.22144.111"'
 -
   user_agent: Mozilla/5.0 (Linux; Android 13; SAMSUNG SM-A146U) AppleWebKit/537.36 (KHTML, like Gecko) SamsungBrowser/23.0 Chrome/115.0.0.0 Mobile Safari/537.36
   client:
