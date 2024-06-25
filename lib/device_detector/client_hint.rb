@@ -14,10 +14,10 @@ class DeviceDetector
       return if headers.nil?
 
       @headers = headers
-      @full_version = headers['Sec-CH-UA-Full-Version']
+      @full_version = unquote(headers['Sec-CH-UA-Full-Version'])
       @browser_list = extract_browser_list
       @app_name = extract_app_name
-      @platform = headers['Sec-CH-UA-Platform']
+      @platform = unquote(headers['Sec-CH-UA-Platform'])
       @platform_version = extract_platform_version
       @mobile = headers['Sec-CH-UA-Mobile']
       @model = extract_model
@@ -63,7 +63,7 @@ class DeviceDetector
       return if  headers['Sec-CH-UA-Platform-Version'].nil?
       return if  headers['Sec-CH-UA-Platform-Version'] == ''
 
-      headers['Sec-CH-UA-Platform-Version']
+      unquote(headers['Sec-CH-UA-Platform-Version'])
     end
 
     # https://github.com/matomo-org/device-detector/blob/28211c6f411528abf41304e07b886fdf322a49b7/Parser/OperatingSystem.php#L330
@@ -152,9 +152,9 @@ class DeviceDetector
     end
 
     def extract_browser_name_and_version(component)
-      component_and_version = component.gsub('"', '').split("\;v=")
+      component_and_version = unquote(component).split("\;v=")
       name = name_from_known_browsers(component_and_version.first)
-      browser_version = full_version&.gsub('"', '') || component_and_version.last
+      browser_version = full_version || component_and_version.last
       { name: name, version: browser_version }
     end
 
@@ -176,6 +176,10 @@ class DeviceDetector
       return if headers['Sec-CH-UA-Model'].nil? || headers['Sec-CH-UA-Model'] == ''
 
       headers['Sec-CH-UA-Model']
+    end
+
+    def unquote(str)
+      str&.gsub('"', '')
     end
   end
 end
