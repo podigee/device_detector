@@ -183,6 +183,19 @@ Updated on 2024-06-27
 Thanks a lot to the following contributors:
 
 - Peter Gao: https://github.com/peteygao
+- Stefan Kaes: https://github.com/skaes
+- Dennis Wu: https://github.com/dnswus
+- Steve Robinson: https://github.com/steverob
+- Mark Dodwell: https://github.com/mkdynamic
+- Sean Dilda: https://github.com/seandilda
+- Stephan Leibelt: https://github.com/sliminas
+- Rafael Porras Lucena: https://github.com/rporrasluc
+- Anton Rieder: https://github.com/aried3r
+- Bruno Arueira: https://github.com/brunoarueira
+- Nicolas Rodriguez: https://github.com/n-rodriguez
+- Igor Drozdov: https://github.com/igor-drozdov
+- Axeleander: https://github.com/Axeleander
+- Igor Pstyga: https://github.com/opti
 
 ## Contributing
 
