@@ -80,6 +80,7 @@ class DeviceDetector
       app_name_from_headers == 'org.lineageos.jelly'
     end
 
+    # https://github.com/matomo-org/device-detector/blob/75d88bbefb0182f9207c9f48dc39b1bc8c7cc43f/Parser/Client/Browser.php#L1076-L1079
     def browser_name_from_list
       @browser_name_from_list ||= browser_list&.reject do |b|
         ['Chromium', 'Microsoft Edge'].include?(b.name)

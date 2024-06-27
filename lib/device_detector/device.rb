@@ -3,6 +3,7 @@
 class DeviceDetector
   class Device < Parser
     # order is relevant for testing with fixtures
+    # https://github.com/matomo-org/device-detector/blob/75d88bbefb0182f9207c9f48dc39b1bc8c7cc43f/Parser/Device/AbstractDeviceParser.php#L59-L74
     DEVICE_NAMES = [
       'desktop',
       'smartphone',
@@ -20,6 +21,7 @@ class DeviceDetector
       'peripheral'
     ].freeze
 
+    # https://github.com/matomo-org/device-detector/blob/75d88bbefb0182f9207c9f48dc39b1bc8c7cc43f/Parser/Device/AbstractDeviceParser.php#L83-L1951
     DEVICE_BRANDS = {
       '5E' => '2E',
       '5IV' => '5IVE',
@@ -68,6 +70,7 @@ class DeviceDetector
       'Q3' => 'AKIRA',
       '1A' => 'Alba',
       'AL' => 'Alcatel',
+      'AL0' => 'Alienware',
       '20' => 'Alcor',
       'XY' => 'Alps',
       'XYA' => 'XY Auto',
@@ -96,6 +99,7 @@ class DeviceDetector
       '54' => 'AMCV',
       '60' => 'Andowl',
       'ANX' => 'ANXONIT',
+      'ANC' => 'ANBERNIC',
       '6J' => 'Angelcare',
       'ANG' => 'AngelTech',
       '7A' => 'Anry',
@@ -607,6 +611,7 @@ class DeviceDetector
       'GB' => 'Gol Mobile',
       'GL' => 'Goly',
       'GOL' => 'GoldMaster',
+      'GOS' => 'GoldStar',
       'GOB' => 'GOLDBERG',
       'GX' => 'GLX',
       'G5' => 'Gome',
@@ -946,6 +951,7 @@ class DeviceDetector
       'MJ' => 'Majestic',
       'FQ' => 'Mafe',
       'MAG' => 'MAG',
+      'MA2' => 'MAGCH',
       '6Y' => 'Magicsee',
       '23' => 'Magnus',
       'NH' => 'Manhattan',

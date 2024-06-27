@@ -2,6 +2,7 @@
 
 class DeviceDetector
   class Browser
+    # https://github.com/matomo-org/device-detector/blob/75d88bbefb0182f9207c9f48dc39b1bc8c7cc43f/Parser/Client/Browser.php#L48-L680
     AVAILABLE_BROWSERS = {
       'V1' => 'Via',
       '1P' => 'Pure Mini Browser',
@@ -638,6 +639,7 @@ class DeviceDetector
 
     BROWSER_FULL_TO_SHORT = AVAILABLE_BROWSERS.invert.freeze
 
+    # https://github.com/matomo-org/device-detector/blob/75d88bbefb0182f9207c9f48dc39b1bc8c7cc43f/Parser/Client/Browser.php#L746-L768
     MOBILE_ONLY_BROWSERS = Set.new(
       %w[
         36 AH AI BL C1 C4 CB CW DB
@@ -664,7 +666,7 @@ class DeviceDetector
       ]
     ).freeze
 
-    # https://github.com/matomo-org/device-detector/blob/fd4042cb6a7f3f985a81aedc075dd59e0b991a51/Parser/Client/Browser.php#L774-L782
+    # https://github.com/matomo-org/device-detector/blob/75d88bbefb0182f9207c9f48dc39b1bc8c7cc43f/Parser/Client/Browser.php#L775-L783
     NAME_TO_KNOWN_BROWSERS = {
       'Chrome' => ['Google Chrome'],
       'Chrome Webview' => ['Android WebView'],
