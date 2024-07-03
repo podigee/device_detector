@@ -115,7 +115,7 @@
     name: Chrome Webview
     version: 52.0.2743.100
     engine: Blink
-    engine_version: "52.0.2743.100"
+    engine_version: 52.0.2743.100
   device:
     type: tv
     brand: Mecool
@@ -133,7 +133,7 @@
     name: Chrome Webview
     version: 39.0.0.0
     engine: Blink
-    engine_version: "39.0.0.0"
+    engine_version: 39.0.0.0
   device:
     type: tv
     brand: Mecool
@@ -151,7 +151,7 @@
     name: Chrome Mobile
     version: 75.0.3770.143
     engine: Blink
-    engine_version: "75.0.3770.143"
+    engine_version: 75.0.3770.143
   device:
     type: tv
     brand: Mecool
@@ -169,7 +169,7 @@
     name: Chrome
     version: 76.0.3809.111
     engine: Blink
-    engine_version: "76.0.3809.111"
+    engine_version: 76.0.3809.111
   device:
     type: tv
     brand: Mecool
@@ -187,7 +187,7 @@
     name: Chrome
     version: 78.0.3904.108
     engine: Blink
-    engine_version: "78.0.3904.108"
+    engine_version: 78.0.3904.108
   device:
     type: tv
     brand: Mecool
@@ -205,7 +205,7 @@
     name: Chrome
     version: 79.0.3945.79
     engine: Blink
-    engine_version: "79.0.3945.79"
+    engine_version: 79.0.3945.79
   device:
     type: tv
     brand: Mecool
@@ -223,7 +223,7 @@
     name: Chrome
     version: 74.0.3729.136
     engine: Blink
-    engine_version: "74.0.3729.136"
+    engine_version: 74.0.3729.136
   device:
     type: tv
     brand: Mecool
@@ -241,7 +241,7 @@
     name: Chrome
     version: 78.0.3904.62
     engine: Blink
-    engine_version: "78.0.3904.62"
+    engine_version: 78.0.3904.62
   device:
     type: tv
     brand: Mecool
@@ -259,7 +259,7 @@
     name: Chrome
     version: 77.0.3865.92
     engine: Blink
-    engine_version: "77.0.3865.92"
+    engine_version: 77.0.3865.92
   device:
     type: tv
     brand: Mecool
@@ -277,7 +277,7 @@
     name: Chrome Mobile
     version: 79.0.3945.45
     engine: Blink
-    engine_version: "79.0.3945.45"
+    engine_version: 79.0.3945.45
   device:
     type: tv
     brand: Mecool
@@ -295,7 +295,7 @@
     name: Chrome Mobile
     version: 77.0.3865.92
     engine: Blink
-    engine_version: "77.0.3865.92"
+    engine_version: 77.0.3865.92
   device:
     type: tv
     brand: Mecool
@@ -313,7 +313,7 @@
     name: Chrome
     version: 80.0.3987.68
     engine: Blink
-    engine_version: "80.0.3987.68"
+    engine_version: 80.0.3987.68
   device:
     type: tv
     brand: Mecool
@@ -331,7 +331,7 @@
     name: Chrome
     version: 83.0.4103.96
     engine: Blink
-    engine_version: "83.0.4103.96"
+    engine_version: 83.0.4103.96
   device:
     type: tv
     brand: Mecool
@@ -349,7 +349,7 @@
     name: Chrome
     version: 80.0.3987.132
     engine: Blink
-    engine_version: "80.0.3987.132"
+    engine_version: 80.0.3987.132
   device:
     type: tv
     brand: Vontar
@@ -367,7 +367,7 @@
     name: Chrome
     version: 80.0.3987.99
     engine: Blink
-    engine_version: "80.0.3987.99"
+    engine_version: 80.0.3987.99
   device:
     type: tv
     brand: Vontar
@@ -385,7 +385,7 @@
     name: Chrome
     version: 80.0.3987.132
     engine: Blink
-    engine_version: "80.0.3987.132"
+    engine_version: 80.0.3987.132
   device:
     type: tv
     brand: Vontar
@@ -403,7 +403,7 @@
     name: Chrome
     version: 77.0.3865.73
     engine: Blink
-    engine_version: "77.0.3865.73"
+    engine_version: 77.0.3865.73
   device:
     type: tv
     brand: Vontar
@@ -421,7 +421,7 @@
     name: Chrome Webview
     version: 39.0.0.0
     engine: Blink
-    engine_version: "39.0.0.0"
+    engine_version: 39.0.0.0
   device:
     type: tv
     brand: Vontar
@@ -439,7 +439,7 @@
     name: Opera
     version: 46.0.2246.126998
     engine: Blink
-    engine_version: "63.0.3239.111"
+    engine_version: 63.0.3239.111
   device:
     type: tv
     brand: Vontar
@@ -457,7 +457,7 @@
     name: Chrome
     version: 63.0.3239.111
     engine: Blink
-    engine_version: "63.0.3239.111"
+    engine_version: 63.0.3239.111
   device:
     type: tv
     brand: Vontar
@@ -475,7 +475,7 @@
     name: Chrome
     version: 56.0.2924.87
     engine: Blink
-    engine_version: "56.0.2924.87"
+    engine_version: 56.0.2924.87
   device:
     type: tv
     brand: Vontar
@@ -493,7 +493,7 @@
     name: Chrome
     version: 77.0.3865.92
     engine: Blink
-    engine_version: "77.0.3865.92"
+    engine_version: 77.0.3865.92
   device:
     type: tv
     brand: Minix
@@ -511,7 +511,7 @@
     name: Chrome
     version: 79.0.3945.93
     engine: Blink
-    engine_version: "79.0.3945.93"
+    engine_version: 79.0.3945.93
   device:
     type: tv
     brand: Minix
@@ -565,7 +565,7 @@
     name: Chrome Webview
     version: 30.0.0.0
     engine: Blink
-    engine_version: "30.0.0.0"
+    engine_version: 30.0.0.0
   device:
     type: tv
     brand: Minix
@@ -619,7 +619,7 @@
     name: Chrome Webview
     version: 63.0.3239.60
     engine: Blink
-    engine_version: "63.0.3239.60"
+    engine_version: 63.0.3239.60
   device:
     type: tv
     brand: Minix
@@ -637,7 +637,7 @@
     name: Chrome Webview
     version: 30.0.0.0
     engine: Blink
-    engine_version: "30.0.0.0"
+    engine_version: 30.0.0.0
   device:
     type: tv
     brand: Minix
@@ -655,7 +655,7 @@
     name: Chrome
     version: 49.0.2623.91
     engine: Blink
-    engine_version: "49.0.2623.91"
+    engine_version: 49.0.2623.91
   device:
     type: tv
     brand: Minix
@@ -673,7 +673,7 @@
     name: Chrome
     version: 78.0.3904.62
     engine: Blink
-    engine_version: "78.0.3904.62"
+    engine_version: 78.0.3904.62
   device:
     type: tv
     brand: Minix
@@ -691,7 +691,7 @@
     name: Chrome
     version: 55.0.2883.91
     engine: Blink
-    engine_version: "55.0.2883.91"
+    engine_version: 55.0.2883.91
   device:
     type: tv
     brand: Atom
@@ -709,7 +709,7 @@
     name: Chrome
     version: 73.0.3683.90
     engine: Blink
-    engine_version: "73.0.3683.90"
+    engine_version: 73.0.3683.90
   device:
     type: tv
     brand: Vorke
@@ -727,7 +727,7 @@
     name: Chrome
     version: 67.0.3396.87
     engine: Blink
-    engine_version: "67.0.3396.87"
+    engine_version: 67.0.3396.87
   device:
     type: tv
     brand: Vorke
@@ -745,7 +745,7 @@
     name: Chrome
     version: 75.0.3770.101
     engine: Blink
-    engine_version: "75.0.3770.101"
+    engine_version: 75.0.3770.101
   device:
     type: tv
     brand: Vorke
@@ -763,7 +763,7 @@
     name: Chrome
     version: 75.0.3770.101
     engine: Blink
-    engine_version: "75.0.3770.101"
+    engine_version: 75.0.3770.101
   device:
     type: tv
     brand: Vorke
@@ -781,7 +781,7 @@
     name: Chrome
     version: 78.0.3904.96
     engine: Blink
-    engine_version: "78.0.3904.96"
+    engine_version: 78.0.3904.96
   device:
     type: tv
     brand: Alfawise
@@ -799,7 +799,7 @@
     name: Chrome
     version: 78.0.3904.96
     engine: Blink
-    engine_version: "78.0.3904.96"
+    engine_version: 78.0.3904.96
   device:
     type: tv
     brand: Eltex
@@ -817,7 +817,7 @@
     name: Chrome
     version: 78.0.3904.96
     engine: Blink
-    engine_version: "78.0.3904.96"
+    engine_version: 78.0.3904.96
   device:
     type: tv
     brand: Eltex
@@ -835,7 +835,7 @@
     name: Chrome
     version: 55.0.2883.91
     engine: Blink
-    engine_version: "55.0.2883.91"
+    engine_version: 55.0.2883.91
   device:
     type: tv
     brand: Invin
@@ -853,7 +853,7 @@
     name: Chrome
     version: 78.0.3904.96
     engine: Blink
-    engine_version: "78.0.3904.96"
+    engine_version: 78.0.3904.96
   device:
     type: tv
     brand: Invin
@@ -871,7 +871,7 @@
     name: Opera
     version: 46.0.2254.145391
     engine: Blink
-    engine_version: "79.0.3945.93"
+    engine_version: 79.0.3945.93
   device:
     type: tv
     brand: Invin
@@ -889,7 +889,7 @@
     name: Chrome
     version: 79.0.3921.2
     engine: Blink
-    engine_version: "79.0.3921.2"
+    engine_version: 79.0.3921.2
   device:
     type: tv
     brand: Tronsmart
@@ -907,7 +907,7 @@
     name: Chrome
     version: 78.0.3904.62
     engine: Blink
-    engine_version: "78.0.3904.62"
+    engine_version: 78.0.3904.62
   device:
     type: tv
     brand: Tronsmart
@@ -925,7 +925,7 @@
     name: Chrome
     version: 77.0.3865.92
     engine: Blink
-    engine_version: "77.0.3865.92"
+    engine_version: 77.0.3865.92
   device:
     type: tv
     brand: Tronsmart
@@ -943,7 +943,7 @@
     name: Chrome
     version: 77.0.3865.116
     engine: Blink
-    engine_version: "77.0.3865.116"
+    engine_version: 77.0.3865.116
   device:
     type: tv
     brand: Tronsmart
@@ -961,7 +961,7 @@
     name: Chrome
     version: 72.0.3626.96
     engine: Blink
-    engine_version: "72.0.3626.96"
+    engine_version: 72.0.3626.96
   device:
     type: tv
     brand: Tronsmart
@@ -979,7 +979,7 @@
     name: Chrome
     version: 78.0.3904.96
     engine: Blink
-    engine_version: "78.0.3904.96"
+    engine_version: 78.0.3904.96
   device:
     type: tv
     brand: Tronsmart
@@ -997,7 +997,7 @@
     name: Chrome
     version: 79.0.3945.136
     engine: Blink
-    engine_version: "79.0.3945.136"
+    engine_version: 79.0.3945.136
   device:
     type: tv
     brand: Transpeed
@@ -1015,7 +1015,7 @@
     name: Chrome
     version: 78.0.3904.90
     engine: Blink
-    engine_version: "78.0.3904.90"
+    engine_version: 78.0.3904.90
   device:
     type: tv
     brand: Transpeed
@@ -1033,7 +1033,7 @@
     name: Chrome
     version: 78.0.3904.96
     engine: Blink
-    engine_version: "78.0.3904.96"
+    engine_version: 78.0.3904.96
   device:
     type: tv
     brand: Transpeed
@@ -1050,8 +1050,8 @@
     type: browser
     name: UC Browser
     version: 12.13.2.1208
-    engine: WebKit
-    engine_version: "537.36"
+    engine: Blink
+    engine_version: 57.0.2987.108
   device:
     type: tv
     brand: Sunvell
@@ -1069,7 +1069,7 @@
     name: Chrome Webview
     version: 51.0.2704.91
     engine: Blink
-    engine_version: "51.0.2704.91"
+    engine_version: 51.0.2704.91
   device:
     type: tv
     brand: Asano
@@ -1132,7 +1132,7 @@
   user_agent: AppleCoreMedia/1.0.0.12B466 (Apple TV; U; CPU OS 8_1_3 like Mac OS X; en_us)
   os:
     name: iOS
-    version: "8.1.3"
+    version: 8.1.3
     platform: ARM
   client:
     type: library
@@ -1243,7 +1243,7 @@
     name: Chrome
     version: 78.0.3904.108
     engine: Blink
-    engine_version: "78.0.3904.108"
+    engine_version: 78.0.3904.108
   device:
     type: tv
     brand: Beelink
@@ -1261,7 +1261,7 @@
     name: Chrome
     version: 79.0.3945.93
     engine: Blink
-    engine_version: "79.0.3945.93"
+    engine_version: 79.0.3945.93
   device:
     type: tv
     brand: Beelink
@@ -1279,7 +1279,7 @@
     name: Chrome
     version: 78.0.3904.108
     engine: Blink
-    engine_version: "78.0.3904.108"
+    engine_version: 78.0.3904.108
   device:
     type: tv
     brand: Beelink
@@ -1297,7 +1297,7 @@
     name: Chrome
     version: 78.0.3904.96
     engine: Blink
-    engine_version: "78.0.3904.96"
+    engine_version: 78.0.3904.96
   device:
     type: tv
     brand: Beelink
@@ -1369,7 +1369,7 @@
     name: Seraphic Sraf
     version: "3.0"
     engine: Blink
-    engine_version: "30.0.1599.114"
+    engine_version: 30.0.1599.114
   device:
     type: tv
     brand: Changhong
@@ -1423,7 +1423,7 @@
     name: Chrome
     version: 76.0.3809.89
     engine: Blink
-    engine_version: "76.0.3809.89"
+    engine_version: 76.0.3809.89
   device:
     type: tv
     brand: CVTE
@@ -1441,7 +1441,7 @@
     name: Chrome
     version: 76.0.3809.70
     engine: Blink
-    engine_version: "76.0.3809.70"
+    engine_version: 76.0.3809.70
   device:
     type: tv
     brand: CVTE
@@ -1459,7 +1459,7 @@
     name: Chrome Mobile
     version: 68.0.3440.91
     engine: Blink
-    engine_version: "68.0.3440.91"
+    engine_version: 68.0.3440.91
   device:
     type: tv
     brand: Daewoo
@@ -1477,7 +1477,7 @@
     name: Chrome
     version: 74.0.3729.157
     engine: Blink
-    engine_version: "74.0.3729.157"
+    engine_version: 74.0.3729.157
   device:
     type: tv
     brand: Divisat
@@ -1495,7 +1495,7 @@
     name: Chrome
     version: 78.0.3904.96
     engine: Blink
-    engine_version: "78.0.3904.96"
+    engine_version: 78.0.3904.96
   device:
     type: tv
     brand: Dolamee
@@ -1513,7 +1513,7 @@
     name: Chrome Webview
     version: 44.0.2403.119
     engine: Blink
-    engine_version: "44.0.2403.119"
+    engine_version: 44.0.2403.119
   device:
     type: tv
     brand: Dolamee
@@ -1531,7 +1531,7 @@
     name: Chrome Webview
     version: 48.0.2542.0
     engine: Blink
-    engine_version: "48.0.2542.0"
+    engine_version: 48.0.2542.0
   device:
     type: tv
     brand: Doffler
@@ -1634,7 +1634,7 @@
     name: Chrome
     version: 78.0.3904.62
     engine: Blink
-    engine_version: "78.0.3904.62"
+    engine_version: 78.0.3904.62
   device:
     type: tv
     brand: DEXP
@@ -1652,7 +1652,7 @@
     name: Chrome
     version: 78.0.3904.96
     engine: Blink
-    engine_version: "78.0.3904.96"
+    engine_version: 78.0.3904.96
   device:
     type: tv
     brand: DEXP
@@ -1662,7 +1662,7 @@
 -
   user_agent: Mozilla/5.0 (Linux; U; Android 4.2.2; cs-cz; EVOLVEO Smart TV box Q4 Build/JDQ39) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Safari/534.30 Maxthon/4.1.4.2000
   os:
-    name: Android
+    name: Android TV
     version: 4.2.2
     platform: ""
   client:
@@ -1685,7 +1685,7 @@
     name: Chrome
     version: 31.0.1650.0
     engine: Blink
-    engine_version: "31.0.1650.0"
+    engine_version: 31.0.1650.0
   device:
     type: tv
     brand: Google
@@ -1703,7 +1703,7 @@
     name: Chrome
     version: 41.0.2272.75
     engine: Blink
-    engine_version: "41.0.2272.75"
+    engine_version: 41.0.2272.75
   device:
     type: tv
     brand: Google
@@ -1731,15 +1731,15 @@
 -
   user_agent: Mozilla/5.0 (Linux; Android 9; AFTEUFF014 Build/PMAIN1; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/70.0.3538.110 Mobile Safari/537.36 cordova-amazon-fireos/3.4.0 AmazonWebAppPlatform/3.4.0;2.0
   os:
-    name: Android
-    version: "9"
+    name: Fire OS
+    version: "7"
     platform: ""
   client:
     type: browser
     name: Chrome Webview
     version: 70.0.3538.110
     engine: Blink
-    engine_version: "70.0.3538.110"
+    engine_version: 70.0.3538.110
   device:
     type: tv
     brand: Grundig
@@ -1749,15 +1749,15 @@
 -
   user_agent: Mozilla/5.0 (Linux; Android 9; AFTEU011) AppleWebKit/537.36 (KHTML, like Gecko) Silk/80.1.145 like Chrome/80.0.3987.119 Safari/537.36
   os:
-    name: Android
-    version: "9"
+    name: Fire OS
+    version: "7"
     platform: ""
   client:
     type: browser
     name: Mobile Silk
     version: 80.1.145
     engine: Blink
-    engine_version: "80.0.3987.119"
+    engine_version: 80.0.3987.119
   device:
     type: tv
     brand: Grundig
@@ -1767,15 +1767,15 @@
 -
   user_agent: Mozilla/5.0 (Linux; Android 9; AFTEU014 Build/PMAIN1; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/70.0.3538.110 Mobile Safari/537.36 cordova-amazon-fireos/3.4.0 AmazonWebAppPlatform/3.4.0;2.0
   os:
-    name: Android
-    version: "9"
+    name: Fire OS
+    version: "7"
     platform: ""
   client:
     type: browser
     name: Chrome Webview
     version: 70.0.3538.110
     engine: Blink
-    engine_version: "70.0.3538.110"
+    engine_version: 70.0.3538.110
   device:
     type: tv
     brand: Grundig
@@ -1793,7 +1793,7 @@
     name: Opera Devices
     version: 4.13.2.294
     engine: Blink
-    engine_version: "67.0.3396.99"
+    engine_version: 67.0.3396.99
   device:
     type: tv
     brand: Hisense
@@ -2072,7 +2072,7 @@
     name: Chrome
     version: 75.0.3770.67
     engine: Blink
-    engine_version: "75.0.3770.67"
+    engine_version: 75.0.3770.67
   device:
     type: tv
     brand: IconBIT
@@ -2090,7 +2090,7 @@
     name: Chrome
     version: 78.0.3904.90
     engine: Blink
-    engine_version: "78.0.3904.90"
+    engine_version: 78.0.3904.90
   device:
     type: tv
     brand: IconBIT
@@ -2108,7 +2108,7 @@
     name: Chrome Webview
     version: 39.0.0.0
     engine: Blink
-    engine_version: "39.0.0.0"
+    engine_version: 39.0.0.0
   device:
     type: tv
     brand: IconBIT
@@ -2126,7 +2126,7 @@
     name: Chrome Webview
     version: 39.0.0.0
     engine: Blink
-    engine_version: "39.0.0.0"
+    engine_version: 39.0.0.0
   device:
     type: tv
     brand: IconBIT
@@ -2154,15 +2154,15 @@
 -
   user_agent: Mozilla/5.0 (Linux; Android 7.1.2; AFTJMST12) AppleWebKit/537.36 (KHTML, like Gecko) Silk/79.5.1 like Chrome/79.0.3945.136 Safari/537.36
   os:
-    name: Android
-    version: 7.1.2
+    name: Fire OS
+    version: "6"
     platform: ""
   client:
     type: browser
     name: Mobile Silk
     version: 79.5.1
     engine: Blink
-    engine_version: "79.0.3945.136"
+    engine_version: 79.0.3945.136
   device:
     type: tv
     brand: Insignia
@@ -2172,15 +2172,15 @@
 -
   user_agent: Mozilla/5.0 (Linux; Android 7.1.2; AFTEAMR311 Build/NS6269; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/70.0.3538.110 Mobile Safari/537.36
   os:
-    name: Android
-    version: 7.1.2
+    name: Fire OS
+    version: "6"
     platform: ""
   client:
     type: browser
     name: Chrome Webview
     version: 70.0.3538.110
     engine: Blink
-    engine_version: "70.0.3538.110"
+    engine_version: 70.0.3538.110
   device:
     type: tv
     brand: Insignia
@@ -2292,7 +2292,7 @@
     name: Chrome
     version: 75.0.3770.143
     engine: Blink
-    engine_version: "75.0.3770.143"
+    engine_version: 75.0.3770.143
   device:
     type: tv
     brand: KATV1
@@ -2302,8 +2302,8 @@
 -
   user_agent: Mozilla/5.0 (Linux; Android 4.2.2; AFTB Build/JDQ39) AppleWebKit/537.22 (KHTML, like Gecko) Chrome/25.0.1364.173 Mobile Safari/537.22 cordova-amazon-fireos/3.4.0 AmazonWebAppPlatform/3.4.0;2.0
   os:
-    name: Android
-    version: 4.2.2
+    name: Fire OS
+    version: "3"
     platform: ""
   client:
     type: browser
@@ -2320,15 +2320,15 @@
 -
   user_agent: Mozilla/5.0 (Linux; Android 7.1.2; AFTN Build/NS6210; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/55.0.2883.91 Mobile Safari/537.36 cordova-amazon-fireos/3.4.0 AmazonWebAppPlatform/3.4.0;2.0
   os:
-    name: Android
-    version: 7.1.2
+    name: Fire OS
+    version: "6"
     platform: ""
   client:
     type: browser
     name: Chrome Webview
     version: 55.0.2883.91
     engine: Blink
-    engine_version: "55.0.2883.91"
+    engine_version: 55.0.2883.91
   device:
     type: tv
     brand: Amazon
@@ -2338,15 +2338,15 @@
 -
   user_agent: Mozilla/5.0 (Linux; Android 7.1.2; AFTA Build/NS6223) AppleWebKit/537.36 (KHTML, like Gecko) Silk/68.3.1 like Chrome/68.0.3440.85 Safari/537.36
   os:
-    name: Android
-    version: 7.1.2
+    name: Fire OS
+    version: "6"
     platform: ""
   client:
     type: browser
     name: Mobile Silk
     version: 68.3.1
     engine: Blink
-    engine_version: "68.0.3440.85"
+    engine_version: 68.0.3440.85
   device:
     type: tv
     brand: Amazon
@@ -2356,15 +2356,15 @@
 -
   user_agent: Mozilla/5.0 (Linux; Android 9; AFTR Build/PMAIN1; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/70.0.3538.110 Mobile Safari/537.36 cordova-amazon-fireos/3.4.0 AmazonWebAppPlatform/3.4.0;2.0
   os:
-    name: Android
-    version: "9"
+    name: Fire OS
+    version: "7"
     platform: ""
   client:
     type: browser
     name: Chrome Webview
     version: 70.0.3538.110
     engine: Blink
-    engine_version: "70.0.3538.110"
+    engine_version: 70.0.3538.110
   device:
     type: tv
     brand: Amazon
@@ -2374,15 +2374,15 @@
 -
   user_agent: Mozilla/5.0 (Linux; Android 4.2.2; AFTM Build/JDQ39) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/34.0.0.0 Mobile Safari/537.36 cordova-amazon-fireos/3.4.0 AmazonWebAppPlatform/3.4.0;2.0
   os:
-    name: Android
-    version: 4.2.2
+    name: Fire OS
+    version: "3"
     platform: ""
   client:
     type: browser
     name: Chrome Webview
     version: 34.0.0.0
     engine: Blink
-    engine_version: "34.0.0.0"
+    engine_version: 34.0.0.0
   device:
     type: tv
     brand: Amazon
@@ -2392,15 +2392,15 @@
 -
   user_agent: Mozilla/5.0 (Linux; Android 5.1.1; AFTT Build/LVY48F; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/49.0.2623.10
   os:
-    name: Android
-    version: 5.1.1
+    name: Fire OS
+    version: "5"
     platform: ""
   client:
     type: browser
     name: Chrome Webview
     version: 49.0.2623.10
     engine: Blink
-    engine_version: "49.0.2623.10"
+    engine_version: 49.0.2623.10
   device:
     type: tv
     brand: Amazon
@@ -2410,15 +2410,15 @@
 -
   user_agent: Mozilla/5.0 (Linux; Android 5.1.1; AFTS Build/LVY48F; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/55.0.28
   os:
-    name: Android
-    version: 5.1.1
+    name: Fire OS
+    version: "5"
     platform: ""
   client:
     type: browser
     name: Chrome Webview
     version: 55.0.28
     engine: Blink
-    engine_version: "55.0.28"
+    engine_version: 55.0.28
   device:
     type: tv
     brand: Amazon
@@ -2436,7 +2436,7 @@
     name: Chrome Mobile
     version: 79.0.3945.79
     engine: Blink
-    engine_version: "79.0.3945.79"
+    engine_version: 79.0.3945.79
   device:
     type: tv
     brand: Kivi
@@ -2454,7 +2454,7 @@
     name: Chrome Webview
     version: 52.0.2743.100
     engine: Blink
-    engine_version: "52.0.2743.100"
+    engine_version: 52.0.2743.100
   device:
     type: tv
     brand: Kivi
@@ -2472,7 +2472,7 @@
     name: Chrome Webview
     version: 52.0.2743.100
     engine: Blink
-    engine_version: "52.0.2743.100"
+    engine_version: 52.0.2743.100
   device:
     type: tv
     brand: Kivi
@@ -2490,7 +2490,7 @@
     name: Opera
     version: 55.2.2719.50740
     engine: Blink
-    engine_version: "77.0.3865.116"
+    engine_version: 77.0.3865.116
   device:
     type: tv
     brand: Kivi
@@ -2508,7 +2508,7 @@
     name: Chrome Mobile
     version: 66.0.3359.106
     engine: Blink
-    engine_version: "66.0.3359.106"
+    engine_version: 66.0.3359.106
   device:
     type: tv
     brand: Kivi
@@ -2526,7 +2526,7 @@
     name: Chrome Webview
     version: 48.0.2542.0
     engine: Blink
-    engine_version: "48.0.2542.0"
+    engine_version: 48.0.2542.0
   device:
     type: tv
     brand: Kivi
@@ -2544,7 +2544,7 @@
     name: Opera
     version: 51.3.2461.138727
     engine: Blink
-    engine_version: "72.0.3626.121"
+    engine_version: 72.0.3626.121
   device:
     type: tv
     brand: Kivi
@@ -2562,7 +2562,7 @@
     name: Chrome Mobile
     version: 78.0.3904.108
     engine: Blink
-    engine_version: "78.0.3904.108"
+    engine_version: 78.0.3904.108
   device:
     type: tv
     brand: Kivi
@@ -2580,7 +2580,7 @@
     name: Chrome Mobile
     version: 76.0.3809.132
     engine: Blink
-    engine_version: "76.0.3809.132"
+    engine_version: 76.0.3809.132
   device:
     type: tv
     brand: Kivi
@@ -2598,7 +2598,7 @@
     name: Chrome Mobile
     version: 64.0.3282.123
     engine: Blink
-    engine_version: "64.0.3282.123"
+    engine_version: 64.0.3282.123
   device:
     type: tv
     brand: Kivi
@@ -2616,7 +2616,7 @@
     name: Chrome Mobile
     version: 77.0.3865.92
     engine: Blink
-    engine_version: "77.0.3865.92"
+    engine_version: 77.0.3865.92
   device:
     type: tv
     brand: Kivi
@@ -2634,7 +2634,7 @@
     name: Chrome Mobile
     version: 77.0.3865.92
     engine: Blink
-    engine_version: "77.0.3865.92"
+    engine_version: 77.0.3865.92
   device:
     type: tv
     brand: Kivi
@@ -2652,7 +2652,7 @@
     name: Chrome Mobile
     version: 76.0.3809.111
     engine: Blink
-    engine_version: "76.0.3809.111"
+    engine_version: 76.0.3809.111
   device:
     type: tv
     brand: Kivi
@@ -2670,7 +2670,7 @@
     name: Chrome Webview
     version: 52.0.2743.100
     engine: Blink
-    engine_version: "52.0.2743.100"
+    engine_version: 52.0.2743.100
   device:
     type: tv
     brand: Kivi
@@ -2688,7 +2688,7 @@
     name: Chrome Mobile
     version: 75.0.3770.101
     engine: Blink
-    engine_version: "75.0.3770.101"
+    engine_version: 75.0.3770.101
   device:
     type: tv
     brand: Kivi
@@ -2706,7 +2706,7 @@
     name: Chrome Mobile
     version: 77.0.3865.116
     engine: Blink
-    engine_version: "77.0.3865.116"
+    engine_version: 77.0.3865.116
   device:
     type: tv
     brand: Kivi
@@ -2724,7 +2724,7 @@
     name: Chrome Mobile
     version: 50.0.2661.89
     engine: Blink
-    engine_version: "50.0.2661.89"
+    engine_version: 50.0.2661.89
   device:
     type: tv
     brand: Kivi
@@ -2742,7 +2742,7 @@
     name: Chrome Webview
     version: 52.0.2743.100
     engine: Blink
-    engine_version: "52.0.2743.100"
+    engine_version: 52.0.2743.100
   device:
     type: tv
     brand: Kivi
@@ -2760,7 +2760,7 @@
     name: Chrome Mobile
     version: 80.0.3987.78
     engine: Blink
-    engine_version: "80.0.3987.78"
+    engine_version: 80.0.3987.78
   device:
     type: tv
     brand: Kivi
@@ -2778,7 +2778,7 @@
     name: Chrome Mobile
     version: 57.0.2987.132
     engine: Blink
-    engine_version: "57.0.2987.132"
+    engine_version: 57.0.2987.132
   device:
     type: tv
     brand: Kivi
@@ -2796,7 +2796,7 @@
     name: Chrome Webview
     version: 52.0.2743.100
     engine: Blink
-    engine_version: "52.0.2743.100"
+    engine_version: 52.0.2743.100
   device:
     type: tv
     brand: Kivi
@@ -2814,7 +2814,7 @@
     name: Chrome Mobile
     version: 77.0.3865.92
     engine: Blink
-    engine_version: "77.0.3865.92"
+    engine_version: 77.0.3865.92
   device:
     type: tv
     brand: Kivi
@@ -2832,7 +2832,7 @@
     name: Chrome Mobile
     version: 50.0.2661.89
     engine: Blink
-    engine_version: "50.0.2661.89"
+    engine_version: 50.0.2661.89
   device:
     type: tv
     brand: Kivi
@@ -2849,8 +2849,8 @@
     type: browser
     name: Puffin
     version: 7.8.2.40664
-    engine: WebKit
-    engine_version: "537.36"
+    engine: Blink
+    engine_version: 69.0.3497.100
   device:
     type: tv
     brand: Kivi
@@ -2868,7 +2868,7 @@
     name: Chrome Webview
     version: 52.0.2743.100
     engine: Blink
-    engine_version: "52.0.2743.100"
+    engine_version: 52.0.2743.100
   device:
     type: tv
     brand: Kivi
@@ -2886,7 +2886,7 @@
     name: Chrome Webview
     version: 52.0.2743.100
     engine: Blink
-    engine_version: "52.0.2743.100"
+    engine_version: 52.0.2743.100
   device:
     type: tv
     brand: Kivi
@@ -2904,7 +2904,7 @@
     name: Opera
     version: 53.0.2569.141117
     engine: Blink
-    engine_version: "74.0.3729.157"
+    engine_version: 74.0.3729.157
   device:
     type: tv
     brand: Kivi
@@ -2922,7 +2922,7 @@
     name: Chrome Webview
     version: 52.0.2743.100
     engine: Blink
-    engine_version: "52.0.2743.100"
+    engine_version: 52.0.2743.100
   device:
     type: tv
     brand: Kivi
@@ -2940,7 +2940,7 @@
     name: Chrome Webview
     version: 48.0.2542.0
     engine: Blink
-    engine_version: "48.0.2542.0"
+    engine_version: 48.0.2542.0
   device:
     type: tv
     brand: Kivi
@@ -2958,7 +2958,7 @@
     name: Opera
     version: 47.0.2249.129167
     engine: Blink
-    engine_version: "66.0.3359.158"
+    engine_version: 66.0.3359.158
   device:
     type: tv
     brand: Kivi
@@ -2976,7 +2976,7 @@
     name: Chrome Webview
     version: 52.0.2743.100
     engine: Blink
-    engine_version: "52.0.2743.100"
+    engine_version: 52.0.2743.100
   device:
     type: tv
     brand: Kivi
@@ -2994,7 +2994,7 @@
     name: Chrome Mobile
     version: 76.0.3809.132
     engine: Blink
-    engine_version: "76.0.3809.132"
+    engine_version: 76.0.3809.132
   device:
     type: tv
     brand: Kivi
@@ -3004,15 +3004,15 @@
 -
   user_agent: Mozilla/5.0 (Linux; Android 5.1.1; AFTRS Build/LVY48F) AppleWebKit/537.36 (KHTML, like Gecko) Silk/65.2.1 like Chrome/65.0.3325.144 Safari/537.36
   os:
-    name: Android
-    version: 5.1.1
+    name: Fire OS
+    version: "5"
     platform: ""
   client:
     type: browser
     name: Mobile Silk
     version: 65.2.1
     engine: Blink
-    engine_version: "65.0.3325.144"
+    engine_version: 65.0.3325.144
   device:
     type: tv
     brand: Element
@@ -3030,11 +3030,11 @@
     name: Chrome
     version: 38.0.2125.122
     engine: Blink
-    engine_version: "38.0.2125.122"
+    engine_version: 38.0.2125.122
   device:
     type: tv
     brand: LG
-    model: 49UH664V
+    model: 49UH664V-ZC
   os_family: Other Mobile
   browser_family: Chrome
 -
@@ -3048,11 +3048,11 @@
     name: Chrome
     version: 38.0.2125.122
     engine: Blink
-    engine_version: "38.0.2125.122"
+    engine_version: 38.0.2125.122
   device:
     type: tv
     brand: LG
-    model: 55UJ6307
+    model: 55UJ6307-ZA
   os_family: Other Mobile
   browser_family: Chrome
 -
@@ -3106,7 +3106,7 @@
   device:
     type: tv
     brand: LG
-    model: NetCast
+    model: 42LE5500-SA
   os_family: GNU/Linux
   browser_family: Unknown
 -
@@ -3124,7 +3124,7 @@
   device:
     type: tv
     brand: LG
-    model: NetCast
+    model: 47LM9600-NA
   os_family: GNU/Linux
   browser_family: Unknown
 -
@@ -3173,8 +3173,8 @@
     type: browser
     name: QtWebEngine
     version: 5.2.1
-    engine: WebKit
-    engine_version: "537.36"
+    engine: Blink
+    engine_version: 38.0.2125.122
   device:
     type: tv
     brand: LG
@@ -3192,7 +3192,7 @@
     name: Chrome
     version: 38.0.2125.122
     engine: Blink
-    engine_version: "38.0.2125.122"
+    engine_version: 38.0.2125.122
   device:
     type: tv
     brand: LG
@@ -3340,7 +3340,7 @@
     name: Chrome Webview
     version: 48.0.2542.0
     engine: Blink
-    engine_version: "48.0.2542.0"
+    engine_version: 48.0.2542.0
   device:
     type: tv
     brand: National
@@ -3358,7 +3358,7 @@
     name: Chrome
     version: 71.0.3578.99
     engine: Blink
-    engine_version: "71.0.3578.99"
+    engine_version: 71.0.3578.99
   device:
     type: tv
     brand: NEXON
@@ -3376,7 +3376,7 @@
     name: Chrome
     version: 80.0.3987.162
     engine: Blink
-    engine_version: "80.0.3987.162"
+    engine_version: 80.0.3987.162
   device:
     type: tv
     brand: NEXON
@@ -3430,7 +3430,7 @@
     name: Chrome
     version: 71.0.3578.99
     engine: Blink
-    engine_version: "71.0.3578.99"
+    engine_version: 71.0.3578.99
   device:
     type: tv
     brand: NG Optics
@@ -3466,7 +3466,7 @@
     name: Chrome
     version: 79.0.3945.136
     engine: Blink
-    engine_version: "79.0.3945.136"
+    engine_version: 79.0.3945.136
   device:
     type: tv
     brand: Openbox
@@ -3484,7 +3484,7 @@
     name: Chrome
     version: 79.0.3945.136
     engine: Blink
-    engine_version: "79.0.3945.136"
+    engine_version: 79.0.3945.136
   device:
     type: tv
     brand: Openbox
@@ -3502,7 +3502,7 @@
     name: Chrome
     version: 80.0.3987.87
     engine: Blink
-    engine_version: "80.0.3987.87"
+    engine_version: 80.0.3987.87
   device:
     type: tv
     brand: Openbox
@@ -3538,7 +3538,7 @@
     name: Chrome
     version: 78.0.3904.108
     engine: Blink
-    engine_version: "78.0.3904.108"
+    engine_version: 78.0.3904.108
   device:
     type: tv
     brand: OzoneHD
@@ -3556,7 +3556,7 @@
     name: Chrome Webview
     version: 78.0.3904.96
     engine: Blink
-    engine_version: "78.0.3904.96"
+    engine_version: 78.0.3904.96
   device:
     type: tv
     brand: OzoneHD
@@ -3574,7 +3574,7 @@
     name: Chrome
     version: 78.0.3904.108
     engine: Blink
-    engine_version: "78.0.3904.108"
+    engine_version: 78.0.3904.108
   device:
     type: tv
     brand: OzoneHD
@@ -3588,17 +3588,15 @@
     version: ""
     platform: ""
   client:
-    type: browser
-    name: Opera
-    version: "11.50"
-    engine: Presto
-    engine_version: 2.9.167
+    type: mediaplayer
+    name: DIGA
+    version: ""
   device:
     type: tv
     brand: Panasonic
     model: DIGA M9031
   os_family: GNU/Linux
-  browser_family: Opera
+  browser_family: Unknown
 -
   user_agent: Hybridcast/1.0 (;008045;PANATV1308;2;2;)
   os: [ ]
@@ -3740,7 +3738,7 @@
     name: Chrome
     version: 79.0.3945.136
     engine: Blink
-    engine_version: "79.0.3945.136"
+    engine_version: 79.0.3945.136
   device:
     type: tv
     brand: Philips
@@ -3758,7 +3756,7 @@
     name: Chrome
     version: 29.0.1547.80
     engine: Blink
-    engine_version: "29.0.1547.80"
+    engine_version: 29.0.1547.80
   device:
     type: tv
     brand: Philips
@@ -3776,7 +3774,7 @@
     name: Chrome Mobile
     version: 37.0.2062.117
     engine: Blink
-    engine_version: "37.0.2062.117"
+    engine_version: 37.0.2062.117
   device:
     type: tv
     brand: Philips
@@ -3927,7 +3925,7 @@
     name: Opera Devices
     version: 4.8.0.142
     engine: Blink
-    engine_version: "49.0.2623.112"
+    engine_version: 49.0.2623.112
   device:
     type: tv
     brand: Philips
@@ -3945,7 +3943,7 @@
     name: Opera Devices
     version: 4.8.0.142
     engine: Blink
-    engine_version: "49.0.2623.112"
+    engine_version: 49.0.2623.112
   device:
     type: tv
     brand: Philips
@@ -3963,7 +3961,7 @@
     name: Opera Devices
     version: 4.8.0.142
     engine: Blink
-    engine_version: "49.0.2623.112"
+    engine_version: 49.0.2623.112
   device:
     type: tv
     brand: Philips
@@ -3981,7 +3979,7 @@
     name: Opera
     version: 52.4.2517.140781
     engine: Blink
-    engine_version: "73.0.3683.90"
+    engine_version: 73.0.3683.90
   device:
     type: tv
     brand: Philips
@@ -3999,7 +3997,7 @@
     name: Opera Devices
     version: 4.8.0.129
     engine: Blink
-    engine_version: "49.0.2623.112"
+    engine_version: 49.0.2623.112
   device:
     type: tv
     brand: Philips
@@ -4053,7 +4051,7 @@
     name: Chrome
     version: 74.0.3729.157
     engine: Blink
-    engine_version: "74.0.3729.157"
+    engine_version: 74.0.3729.157
   device:
     type: tv
     brand: R-TV
@@ -4071,7 +4069,7 @@
     name: Chrome
     version: 73.0.3683.90
     engine: Blink
-    engine_version: "73.0.3683.90"
+    engine_version: 73.0.3683.90
   device:
     type: tv
     brand: R-TV
@@ -4089,7 +4087,7 @@
     name: Chrome
     version: 75.0.3770.101
     engine: Blink
-    engine_version: "75.0.3770.101"
+    engine_version: 75.0.3770.101
   device:
     type: tv
     brand: R-TV
@@ -4107,7 +4105,7 @@
     name: Chrome
     version: 65.0.3325.109
     engine: Blink
-    engine_version: "65.0.3325.109"
+    engine_version: 65.0.3325.109
   device:
     type: tv
     brand: R-TV
@@ -4125,7 +4123,7 @@
     name: Chrome
     version: 65.0.3325.109
     engine: Blink
-    engine_version: "65.0.3325.109"
+    engine_version: 65.0.3325.109
   device:
     type: tv
     brand: R-TV
@@ -4143,7 +4141,7 @@
     name: Chrome Webview
     version: 74.0.3729.136
     engine: Blink
-    engine_version: "74.0.3729.136"
+    engine_version: 74.0.3729.136
   device:
     type: tv
     brand: R-TV
@@ -4161,7 +4159,7 @@
     name: Chrome
     version: 39.0.2171.93
     engine: Blink
-    engine_version: "39.0.2171.93"
+    engine_version: 39.0.2171.93
   device:
     type: tv
     brand: Rombica
@@ -4179,7 +4177,7 @@
     name: Chrome
     version: 79.0.3945.136
     engine: Blink
-    engine_version: "79.0.3945.136"
+    engine_version: 79.0.3945.136
   device:
     type: tv
     brand: Rombica
@@ -4197,7 +4195,7 @@
     name: Chrome Webview
     version: 30.0.0.0
     engine: Blink
-    engine_version: "30.0.0.0"
+    engine_version: 30.0.0.0
   device:
     type: tv
     brand: Rombica
@@ -4215,7 +4213,7 @@
     name: Chrome
     version: 78.0.3904.108
     engine: Blink
-    engine_version: "78.0.3904.108"
+    engine_version: 78.0.3904.108
   device:
     type: tv
     brand: Rombica
@@ -4233,7 +4231,7 @@
     name: Yandex Browser
     version: 19.7.2.90.01
     engine: Blink
-    engine_version: "75.0.3770.143"
+    engine_version: 75.0.3770.143
   device:
     type: tv
     brand: Rombica
@@ -4251,7 +4249,7 @@
     name: Chrome
     version: 75.0.3770.143
     engine: Blink
-    engine_version: "75.0.3770.143"
+    engine_version: 75.0.3770.143
   device:
     type: tv
     brand: Rombica
@@ -4318,7 +4316,7 @@
     name: Chrome
     version: 56.0.2924.87
     engine: Blink
-    engine_version: "56.0.2924.87"
+    engine_version: 56.0.2924.87
   device:
     type: tv
     brand: Savio
@@ -4328,13 +4326,18 @@
 -
   user_agent: Mozilla/4.0 (compatible; Gecko/20041115) Maple 5.0.0 Navi
   os: [ ]
-  client: null
+  client:
+    type: browser
+    name: Firefox
+    version: ""
+    engine: Gecko
+    engine_version: ""
   device:
     type: tv
     brand: Samsung
     model: ""
   os_family: Unknown
-  browser_family: Unknown
+  browser_family: Firefox
 -
   user_agent: Mozilla/5.0 (Linux; U; Android 4.2.2; ru-ru; GT-B9150 Build/JDQ39) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Safari/534.30
   os:
@@ -4363,7 +4366,7 @@
   device:
     type: tv
     brand: Samsung
-    model: "Smart TV (2012)"
+    model: Smart TV (2012)
   os_family: GNU/Linux
   browser_family: Unknown
 -
@@ -4774,7 +4777,7 @@
     name: Chrome Webview
     version: 71.0.3578.99
     engine: Blink
-    engine_version: "71.0.3578.99"
+    engine_version: 71.0.3578.99
   device:
     type: tv
     brand: Sony
@@ -4791,8 +4794,8 @@
     type: browser
     name: TV Bro
     version: "1.0"
-    engine: WebKit
-    engine_version: "537.36"
+    engine: Blink
+    engine_version: 79.0.3945.93
   device:
     type: tv
     brand: Sony
@@ -4810,7 +4813,7 @@
     name: Chrome Mobile
     version: 67.0.3396.87
     engine: Blink
-    engine_version: "67.0.3396.87"
+    engine_version: 67.0.3396.87
   device:
     type: tv
     brand: Sony
@@ -4827,8 +4830,8 @@
     type: browser
     name: TV Bro
     version: "1.0"
-    engine: WebKit
-    engine_version: "537.36"
+    engine: Blink
+    engine_version: 77.0.3865.92
   device:
     type: tv
     brand: Sony
@@ -4846,7 +4849,7 @@
     name: Chrome Mobile
     version: 78.0.3904.108
     engine: Blink
-    engine_version: "78.0.3904.108"
+    engine_version: 78.0.3904.108
   device:
     type: tv
     brand: Sony
@@ -4864,7 +4867,7 @@
     name: Chrome Mobile
     version: 78.0.3904.96
     engine: Blink
-    engine_version: "78.0.3904.96"
+    engine_version: 78.0.3904.96
   device:
     type: tv
     brand: Sony
@@ -4900,7 +4903,7 @@
     name: Opera Devices
     version: 4.2.12.48
     engine: Blink
-    engine_version: "35.0.1916.153"
+    engine_version: 35.0.1916.153
   device:
     type: tv
     brand: Sony
@@ -4918,7 +4921,7 @@
     name: Opera Devices
     version: 4.5.23.37
     engine: Blink
-    engine_version: "42.0.2311.152"
+    engine_version: 42.0.2311.152
   device:
     type: tv
     brand: Sony
@@ -4954,7 +4957,7 @@
     name: Opera Devices
     version: 4.2.12.48
     engine: Blink
-    engine_version: "35.0.1916.153"
+    engine_version: 35.0.1916.153
   device:
     type: tv
     brand: Sony
@@ -5148,7 +5151,7 @@
     name: Chrome Webview
     version: 51.0.2704.91
     engine: Blink
-    engine_version: "51.0.2704.91"
+    engine_version: 51.0.2704.91
   device:
     type: tv
     brand: TD Systems
@@ -5166,7 +5169,7 @@
     name: Chrome Mobile
     version: 65.0.3325.109
     engine: Blink
-    engine_version: "65.0.3325.109"
+    engine_version: 65.0.3325.109
   device:
     type: tv
     brand: TD Systems
@@ -5184,7 +5187,7 @@
     name: Chrome Webview
     version: 51.0.2704.91
     engine: Blink
-    engine_version: "51.0.2704.91"
+    engine_version: 51.0.2704.91
   device:
     type: tv
     brand: TD Systems
@@ -5274,7 +5277,7 @@
     name: Chrome Webview
     version: 48.0.2542.0
     engine: Blink
-    engine_version: "48.0.2542.0"
+    engine_version: 48.0.2542.0
   device:
     type: tv
     brand: Telefunken
@@ -5292,7 +5295,7 @@
     name: Chrome Webview
     version: 48.0.2542.0
     engine: Blink
-    engine_version: "48.0.2542.0"
+    engine_version: 48.0.2542.0
   device:
     type: tv
     brand: Telefunken
@@ -5310,7 +5313,7 @@
     name: Chrome Webview
     version: 48.0.2542.0
     engine: Blink
-    engine_version: "48.0.2542.0"
+    engine_version: 48.0.2542.0
   device:
     type: tv
     brand: Telefunken
@@ -5328,7 +5331,7 @@
     name: Chrome Webview
     version: 48.0.2542.0
     engine: Blink
-    engine_version: "48.0.2542.0"
+    engine_version: 48.0.2542.0
   device:
     type: tv
     brand: Telefunken
@@ -5346,7 +5349,7 @@
     name: Chrome Webview
     version: 48.0.2542.0
     engine: Blink
-    engine_version: "48.0.2542.0"
+    engine_version: 48.0.2542.0
   device:
     type: tv
     brand: Telefunken
@@ -5364,7 +5367,7 @@
     name: Chrome Webview
     version: 48.0.2542.0
     engine: Blink
-    engine_version: "48.0.2542.0"
+    engine_version: 48.0.2542.0
   device:
     type: tv
     brand: Telefunken
@@ -5749,7 +5752,7 @@
     name: Chrome
     version: 80.0.3962.2
     engine: Blink
-    engine_version: "80.0.3962.2"
+    engine_version: 80.0.3962.2
   device:
     type: tv
     brand: Ugoos
@@ -5767,7 +5770,7 @@
     name: Chrome
     version: 77.0.3865.116
     engine: Blink
-    engine_version: "77.0.3865.116"
+    engine_version: 77.0.3865.116
   device:
     type: tv
     brand: Vinga
@@ -5785,7 +5788,7 @@
     name: Chrome
     version: 79.0.3945.136
     engine: Blink
-    engine_version: "79.0.3945.136"
+    engine_version: 79.0.3945.136
   device:
     type: tv
     brand: Vinga
@@ -5803,7 +5806,7 @@
     name: Yandex Browser
     version: 19.7.2.90.01
     engine: Blink
-    engine_version: "75.0.3770.143"
+    engine_version: 75.0.3770.143
   device:
     type: tv
     brand: Vinga
@@ -5821,7 +5824,7 @@
     name: Chrome
     version: 75.0.3770.101
     engine: Blink
-    engine_version: "75.0.3770.101"
+    engine_version: 75.0.3770.101
   device:
     type: tv
     brand: Vesta
@@ -5926,7 +5929,7 @@
     name: Chrome
     version: 67.0.3396.87
     engine: Blink
-    engine_version: "67.0.3396.87"
+    engine_version: 67.0.3396.87
   device:
     type: tv
     brand: Soundmax
@@ -5944,7 +5947,7 @@
     name: Chrome Webview
     version: 48.0.2542.0
     engine: Blink
-    engine_version: "48.0.2542.0"
+    engine_version: 48.0.2542.0
   device:
     type: tv
     brand: Soundmax
@@ -5962,7 +5965,7 @@
     name: Chrome
     version: 78.0.3904.62
     engine: Blink
-    engine_version: "78.0.3904.62"
+    engine_version: 78.0.3904.62
   device:
     type: tv
     brand: Soundmax
@@ -5980,7 +5983,7 @@
     name: Chrome Webview
     version: 44.0.2403.119
     engine: Blink
-    engine_version: "44.0.2403.119"
+    engine_version: 44.0.2403.119
   device:
     type: tv
     brand: NEXBOX
@@ -5998,7 +6001,7 @@
     name: Chrome Webview
     version: 44.0.2403.119
     engine: Blink
-    engine_version: "44.0.2403.119"
+    engine_version: 44.0.2403.119
   device:
     type: tv
     brand: NEXBOX
@@ -6016,7 +6019,7 @@
     name: Chrome
     version: 74.0.3729.157
     engine: Blink
-    engine_version: "74.0.3729.157"
+    engine_version: 74.0.3729.157
   device:
     type: tv
     brand: NEXBOX
@@ -6034,7 +6037,7 @@
     name: Yandex Browser
     version: "8.11"
     engine: Blink
-    engine_version: "72.0.3626.105"
+    engine_version: 72.0.3626.105
   device:
     type: tv
     brand: NEXBOX
@@ -6052,7 +6055,7 @@
     name: Chrome
     version: 67.0.3396.87
     engine: Blink
-    engine_version: "67.0.3396.87"
+    engine_version: 67.0.3396.87
   device:
     type: tv
     brand: NEXBOX
@@ -6070,7 +6073,7 @@
     name: Chrome Webview
     version: 39.0.0.0
     engine: Blink
-    engine_version: "39.0.0.0"
+    engine_version: 39.0.0.0
   device:
     type: tv
     brand: NEXBOX
@@ -6088,7 +6091,7 @@
     name: Chrome
     version: 60.0.3112.116
     engine: Blink
-    engine_version: "60.0.3112.116"
+    engine_version: 60.0.3112.116
   device:
     type: tv
     brand: Xgody
@@ -6124,7 +6127,7 @@
     name: Chrome Webview
     version: 62.0.3202.97
     engine: Blink
-    engine_version: "62.0.3202.97"
+    engine_version: 62.0.3202.97
   device:
     type: tv
     brand: Xiaomi
@@ -6142,7 +6145,7 @@
     name: Opera Devices
     version: 4.9.0.59
     engine: Blink
-    engine_version: "53.0.2785.143"
+    engine_version: 53.0.2785.143
   device:
     type: tv
     brand: Xiaomi
@@ -6160,7 +6163,7 @@
     name: Chrome Mobile
     version: 78.0.3904.90
     engine: Blink
-    engine_version: "78.0.3904.90"
+    engine_version: 78.0.3904.90
   device:
     type: tv
     brand: Xiaomi
@@ -6178,7 +6181,7 @@
     name: Opera Devices
     version: 4.9.0.59
     engine: Blink
-    engine_version: "53.0.2785.143"
+    engine_version: 53.0.2785.143
   device:
     type: tv
     brand: Xiaomi
@@ -6196,7 +6199,7 @@
     name: Chrome Mobile
     version: 79.0.3945.93
     engine: Blink
-    engine_version: "79.0.3945.93"
+    engine_version: 79.0.3945.93
   device:
     type: tv
     brand: Xiaomi
@@ -6213,8 +6216,8 @@
     type: browser
     name: QQ Browser
     version: "8.4"
-    engine: WebKit
-    engine_version: "537.36"
+    engine: Blink
+    engine_version: 57.0.2987.132
   device:
     type: tv
     brand: Xiaomi
@@ -6232,7 +6235,7 @@
     name: Opera
     version: 31.0.2254.122029
     engine: Blink
-    engine_version: "61.0.3163.98"
+    engine_version: 61.0.3163.98
   device:
     type: tv
     brand: Xiaomi
@@ -6250,7 +6253,7 @@
     name: Opera Devices
     version: 4.9.0.59
     engine: Blink
-    engine_version: "53.0.2785.143"
+    engine_version: 53.0.2785.143
   device:
     type: tv
     brand: Xiaomi
@@ -6268,7 +6271,7 @@
     name: Chrome Mobile
     version: 57.0.2987.132
     engine: Blink
-    engine_version: "57.0.2987.132"
+    engine_version: 57.0.2987.132
   device:
     type: tv
     brand: Xiaomi
@@ -6286,7 +6289,7 @@
     name: Opera Devices
     version: 4.9.0.59
     engine: Blink
-    engine_version: "53.0.2785.143"
+    engine_version: 53.0.2785.143
   device:
     type: tv
     brand: Xiaomi
@@ -6304,7 +6307,7 @@
     name: Opera Devices
     version: 4.9.0.59
     engine: Blink
-    engine_version: "53.0.2785.143"
+    engine_version: 53.0.2785.143
   device:
     type: tv
     brand: Xiaomi
@@ -6322,7 +6325,7 @@
     name: Chrome
     version: 75.0.3770.101
     engine: Blink
-    engine_version: "75.0.3770.101"
+    engine_version: 75.0.3770.101
   device:
     type: tv
     brand: Xoro
@@ -6340,7 +6343,7 @@
     name: Chrome
     version: 78.0.3904.108
     engine: Blink
-    engine_version: "78.0.3904.108"
+    engine_version: 78.0.3904.108
   device:
     type: tv
     brand: Zidoo
@@ -6358,7 +6361,7 @@
     name: Opera
     version: 53.0.2569.141117
     engine: Blink
-    engine_version: "74.0.3729.157"
+    engine_version: 74.0.3729.157
   device:
     type: tv
     brand: Zidoo
@@ -6376,7 +6379,7 @@
     name: Chrome
     version: 77.0.3865.116
     engine: Blink
-    engine_version: "77.0.3865.116"
+    engine_version: 77.0.3865.116
   device:
     type: tv
     brand: Zidoo
@@ -6394,7 +6397,7 @@
     name: Chrome
     version: 76.0.3809.89
     engine: Blink
-    engine_version: "76.0.3809.89"
+    engine_version: 76.0.3809.89
   device:
     type: tv
     brand: Zidoo
@@ -6412,7 +6415,7 @@
     name: Chrome
     version: 78.0.3904.96
     engine: Blink
-    engine_version: "78.0.3904.96"
+    engine_version: 78.0.3904.96
   device:
     type: tv
     brand: Zidoo
@@ -6429,8 +6432,8 @@
     type: browser
     name: UC Browser
     version: 12.13.0.1207
-    engine: WebKit
-    engine_version: "537.36"
+    engine: Blink
+    engine_version: 57.0.2987.108
   device:
     type: tv
     brand: Zidoo
@@ -6448,7 +6451,7 @@
     name: Chrome
     version: 78.0.3904.96
     engine: Blink
-    engine_version: "78.0.3904.96"
+    engine_version: 78.0.3904.96
   device:
     type: tv
     brand: Zidoo
@@ -6465,8 +6468,8 @@
     type: browser
     name: TV Bro
     version: "1.0"
-    engine: WebKit
-    engine_version: "537.36"
+    engine: Blink
+    engine_version: 81.0.4044.111
   device:
     type: tv
     brand: Vontar
@@ -6556,7 +6559,7 @@
     name: Seraphic Sraf
     version: "4.0"
     engine: Blink
-    engine_version: "47.0.2526.106"
+    engine_version: 47.0.2526.106
   device:
     type: tv
     brand: Sharp
@@ -6659,7 +6662,7 @@
     name: Opera Devices
     version: 4.8.0.129
     engine: Blink
-    engine_version: "49.0.2623.112"
+    engine_version: 49.0.2623.112
   device:
     type: tv
     brand: Philips
@@ -6677,7 +6680,7 @@
     name: Opera Devices
     version: 4.8.0.66
     engine: Blink
-    engine_version: "49.0.2623.112"
+    engine_version: 49.0.2623.112
   device:
     type: tv
     brand: Philips
@@ -6695,84 +6698,84 @@
     name: Opera Devices
     version: 4.9.0.237
     engine: Blink
-    engine_version: "53.0.2785.143"
+    engine_version: 53.0.2785.143
   device:
     type: tv
     brand: Salora
-    model: ""
+    model: Smart TV (2017)
   os_family: GNU/Linux
   browser_family: Opera
 -
   user_agent: Zeasn/2.0 Mozilla/5.0 (Linux;CE-HTML/1.0;U;en), Chrome/49.0.2623.87 Safari/537.36 AppleWebKit 537.36 (KHTML, like Gecko) Tbrowser/2.0, _TV_UNKONWN/V8-NT563LA-LF1V250 (WESTPOINT,TETS-4919SM,wireless)
   os:
-    name: GNU/Linux
-    version: ""
+    name: Whale OS
+    version: "1"
     platform: ""
   client:
     type: browser
     name: T-Browser
     version: "2.0"
     engine: Blink
-    engine_version: "49.0.2623.87"
+    engine_version: 49.0.2623.87
   device:
     type: tv
     brand: Westpoint
     model: TETS-4919SM
-  os_family: GNU/Linux
+  os_family: Other Smart TV
   browser_family: Chrome
 -
   user_agent: Zeasn/2.0 NETTV/4.5.0 Mozilla/5.0 (Linux;CE-HTML/1.0;U;en), Chrome/42.0.2311.152 Safari/537.36 AppleWebKit 537.36 (KHTML, like Gecko) Tbrowser/2.0, _TV_nt563/V8-NT563LA-LF1V286 (KALLEY,55D1240,wireless)
   os:
-    name: GNU/Linux
-    version: ""
+    name: Whale OS
+    version: "1"
     platform: ""
   client:
     type: browser
     name: T-Browser
     version: "2.0"
     engine: Blink
-    engine_version: "42.0.2311.152"
+    engine_version: 42.0.2311.152
   device:
     type: tv
     brand: Kalley
     model: 55D1240
-  os_family: GNU/Linux
+  os_family: Other Smart TV
   browser_family: Chrome
 -
   user_agent: Zeasn/2.0 NETTV/4.5.0 Mozilla/5.0 (Linux;CE-HTML/1.0;U;en), Chrome/49.0.2623.87 Safari/537.36 AppleWebKit 537.36 (KHTML, like Gecko) Tbrowser/2.0, _TV_UNKONWN/V8-N563T01-LF1V196 (TCL,43S62FS,wired)
   os:
-    name: GNU/Linux
-    version: ""
+    name: Whale OS
+    version: "1"
     platform: ""
   client:
     type: browser
     name: T-Browser
     version: "2.0"
     engine: Blink
-    engine_version: "49.0.2623.87"
+    engine_version: 49.0.2623.87
   device:
     type: tv
     brand: TCL
     model: 43S62FS
-  os_family: GNU/Linux
+  os_family: Other Smart TV
   browser_family: Chrome
 -
   user_agent: Zeasn/2.0 NETTV/4.5.0 Mozilla/5.0 (Linux;CE-HTML/1.0;U;en), Chrome/42.0.2311.152 Safari/537.36 AppleWebKit 537.36 (KHTML, like Gecko) Tbrowser/2.0, _TV_nt563/V8-NT563NA-LF1V278 (JVC,32D1290,wireless)
   os:
-    name: GNU/Linux
-    version: ""
+    name: Whale OS
+    version: "1"
     platform: ""
   client:
     type: browser
     name: T-Browser
     version: "2.0"
     engine: Blink
-    engine_version: "42.0.2311.152"
+    engine_version: 42.0.2311.152
   device:
     type: tv
     brand: JVC
     model: 32D1290
-  os_family: GNU/Linux
+  os_family: Other Smart TV
   browser_family: Chrome
 -
   user_agent: Mozilla/5.0 (Linux armv7l) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/44.0.2403.130 Safari/537.36 OPR/31.0.1890.0 OMI/4.6.1.40.Dominik2.175 VSTVB MB100 HbbTV/1.2.1 (; JVC; MB110; 2.21.7.0; ;) SmartTvA/3.0.0
@@ -6785,7 +6788,7 @@
     name: Opera Devices
     version: 4.6.1.40
     engine: Blink
-    engine_version: "44.0.2403.130"
+    engine_version: 44.0.2403.130
   device:
     type: tv
     brand: JVC
@@ -6803,7 +6806,7 @@
     name: Opera Devices
     version: 4.6.1.40
     engine: Blink
-    engine_version: "44.0.2403.130"
+    engine_version: 44.0.2403.130
   device:
     type: tv
     brand: Hitachi
@@ -6821,7 +6824,7 @@
     name: Opera Devices
     version: 4.6.1.40
     engine: Blink
-    engine_version: "44.0.2403.130"
+    engine_version: 44.0.2403.130
   device:
     type: tv
     brand: Techwood
@@ -6839,7 +6842,7 @@
     name: Opera Devices
     version: 4.3.18.7
     engine: Blink
-    engine_version: "38.0.2125.122"
+    engine_version: 38.0.2125.122
   device:
     type: tv
     brand: Digihome
@@ -6857,7 +6860,7 @@
     name: Opera Devices
     version: 4.6.1.40
     engine: Blink
-    engine_version: "44.0.2403.130"
+    engine_version: 44.0.2403.130
   device:
     type: tv
     brand: Finlux
@@ -6875,7 +6878,7 @@
     name: Opera Devices
     version: 4.3.18.7
     engine: Blink
-    engine_version: "38.0.2125.122"
+    engine_version: 38.0.2125.122
   device:
     type: tv
     brand: X.Vision
@@ -6893,7 +6896,7 @@
     name: Opera Devices
     version: 4.6.1.40
     engine: Blink
-    engine_version: "44.0.2403.130"
+    engine_version: 44.0.2403.130
   device:
     type: tv
     brand: Bush
@@ -6911,7 +6914,7 @@
     name: Opera Devices
     version: 4.6.1.40
     engine: Blink
-    engine_version: "44.0.2403.130"
+    engine_version: 44.0.2403.130
   device:
     type: tv
     brand: Luxor
@@ -6929,7 +6932,7 @@
     name: Opera Devices
     version: 4.6.1.40
     engine: Blink
-    engine_version: "44.0.2403.130"
+    engine_version: 44.0.2403.130
   device:
     type: tv
     brand: Polaroid
@@ -6947,7 +6950,7 @@
     name: Opera Devices
     version: 4.6.1.40
     engine: Blink
-    engine_version: "44.0.2403.130"
+    engine_version: 44.0.2403.130
   device:
     type: tv
     brand: Linsar
@@ -6965,7 +6968,7 @@
     name: Opera Devices
     version: 4.6.1.40
     engine: Blink
-    engine_version: "44.0.2403.130"
+    engine_version: 44.0.2403.130
   device:
     type: tv
     brand: Nordmende
@@ -6983,7 +6986,7 @@
     name: Opera Devices
     version: 4.6.1.40
     engine: Blink
-    engine_version: "44.0.2403.130"
+    engine_version: 44.0.2403.130
   device:
     type: tv
     brand: Hotel
@@ -7001,7 +7004,7 @@
     name: Opera Devices
     version: 4.6.1.40
     engine: Blink
-    engine_version: "44.0.2403.130"
+    engine_version: 44.0.2403.130
   device:
     type: tv
     brand: ALDI SÜD
@@ -7019,7 +7022,7 @@
     name: Opera Devices
     version: 4.3.18.7
     engine: Blink
-    engine_version: "38.0.2125.122"
+    engine_version: 38.0.2125.122
   device:
     type: tv
     brand: Celcus
@@ -7029,56 +7032,56 @@
 -
   user_agent: Zeasn/2.0 NETTV/4.5.0 Mozilla/5.0 (Linux armv7i;CE-HTML/1.0;U;en), Chrome/61.0.3163.100 Safari/537.36 AppleWebKit 537.36 (KHTML, like Gecko) Tbrowser/2.0, _TV_UNKONWN/V8-NT563LA-LF1V200 (AKAI,AK3219NF,wireless)
   os:
-    name: GNU/Linux
-    version: ""
+    name: Whale OS
+    version: "1"
     platform: ARM
   client:
     type: browser
     name: T-Browser
     version: "2.0"
     engine: Blink
-    engine_version: "61.0.3163.100"
+    engine_version: 61.0.3163.100
   device:
     type: tv
     brand: Akai
     model: AK3219NF
-  os_family: GNU/Linux
+  os_family: Other Smart TV
   browser_family: Chrome
 -
   user_agent: Opera/9.80 Zeasn/2.0 NETTV/4.5.0 Mozilla/5.0 (Linux armv7i;CE-HTML/1.0;U;en), Chrome/42.0.2311.152 Safari/537.36 AppleWebKit 537.36 (KHTML, like Gecko) Tbrowser/2.0, _TV_MT5655/V8-S586T02-LF1V052 (THOMSON,55UC6306,wired)
   os:
-    name: GNU/Linux
-    version: ""
+    name: Whale OS
+    version: "1"
     platform: ARM
   client:
     type: browser
     name: T-Browser
     version: "2.0"
     engine: Blink
-    engine_version: "42.0.2311.152"
+    engine_version: 42.0.2311.152
   device:
     type: tv
     brand: Thomson
     model: 55UC6306
-  os_family: GNU/Linux
+  os_family: Other Smart TV
   browser_family: Chrome
 -
   user_agent: 'Zeasn/2.0 NETTV/4.5.0 Mozilla/5.0 (Linux;CE-HTML/1.0;U;en), Chrome/49.0.2623.87 Safari/537.36 AppleWebKit 537.36 (KHTML, like Gecko) Tbrowser/2.0, _TV_UNKONWN/V8-S586T02-LF1V425 (TCL,U43P60*6,wired)'
   os:
-    name: GNU/Linux
-    version: ""
+    name: Whale OS
+    version: "1"
     platform: ""
   client:
     type: browser
     name: T-Browser
     version: "2.0"
     engine: Blink
-    engine_version: "49.0.2623.87"
+    engine_version: 49.0.2623.87
   device:
     type: tv
     brand: TCL
     model: U43P60
-  os_family: GNU/Linux
+  os_family: Other Smart TV
   browser_family: Chrome
 -
   user_agent: Opera/9.80 (Linux mips; ) Presto/2.12.407 Version/12.51 MB95/3.3.8.n (AKAI, Si2157LG32, wireless)
@@ -7109,7 +7112,7 @@
     name: Opera Devices
     version: 4.8.0.66
     engine: Blink
-    engine_version: "49.0.2623.112"
+    engine_version: 49.0.2623.112
   device:
     type: tv
     brand: AOC
@@ -7127,7 +7130,7 @@
     name: Opera Devices
     version: 4.8.0.66
     engine: Blink
-    engine_version: "49.0.2623.112"
+    engine_version: 49.0.2623.112
   device:
     type: tv
     brand: AOC
@@ -7145,7 +7148,7 @@
     name: Opera Devices
     version: 4.8.0.129
     engine: Blink
-    engine_version: "49.0.2623.112"
+    engine_version: 49.0.2623.112
   device:
     type: tv
     brand: AOC
@@ -7163,7 +7166,7 @@
     name: Opera Devices
     version: 4.8.0.66
     engine: Blink
-    engine_version: "49.0.2623.112"
+    engine_version: 49.0.2623.112
   device:
     type: tv
     brand: AOC
@@ -7181,7 +7184,7 @@
     name: Opera Devices
     version: 4.8.0.66
     engine: Blink
-    engine_version: "49.0.2623.112"
+    engine_version: 49.0.2623.112
   device:
     type: tv
     brand: AOC
@@ -7199,7 +7202,7 @@
     name: Opera Devices
     version: 4.8.0.53
     engine: Blink
-    engine_version: "49.0.2623.112"
+    engine_version: 49.0.2623.112
   device:
     type: tv
     brand: AOC
@@ -7217,7 +7220,7 @@
     name: Opera Devices
     version: 4.8.0.66
     engine: Blink
-    engine_version: "49.0.2623.112"
+    engine_version: 49.0.2623.112
   device:
     type: tv
     brand: AOC
@@ -7235,7 +7238,7 @@
     name: Opera Devices
     version: 4.8.0.9
     engine: Blink
-    engine_version: "49.0.2623.87"
+    engine_version: 49.0.2623.87
   device:
     type: tv
     brand: AOC
@@ -7253,7 +7256,7 @@
     name: Opera Devices
     version: 4.8.0.129
     engine: Blink
-    engine_version: "49.0.2623.112"
+    engine_version: 49.0.2623.112
   device:
     type: tv
     brand: AOC
@@ -7271,7 +7274,7 @@
     name: T-Browser
     version: "2.0"
     engine: Blink
-    engine_version: "49.0.2623.75"
+    engine_version: 49.0.2623.75
   device:
     type: tv
     brand: Thomson
@@ -7289,7 +7292,7 @@
     name: T-Browser
     version: "2.0"
     engine: Blink
-    engine_version: "49.0.2623.75"
+    engine_version: 49.0.2623.75
   device:
     type: tv
     brand: Thomson
@@ -7307,7 +7310,7 @@
     name: T-Browser
     version: "2.0"
     engine: Blink
-    engine_version: "49.0.2623.75"
+    engine_version: 49.0.2623.75
   device:
     type: tv
     brand: Thomson
@@ -7325,7 +7328,7 @@
     name: T-Browser
     version: "2.0"
     engine: Blink
-    engine_version: "49.0.2623.75"
+    engine_version: 49.0.2623.75
   device:
     type: tv
     brand: TCL
@@ -7343,7 +7346,7 @@
     name: T-Browser
     version: "2.0"
     engine: Blink
-    engine_version: "49.0.2623.75"
+    engine_version: 49.0.2623.75
   device:
     type: tv
     brand: TCL
@@ -7361,7 +7364,7 @@
     name: T-Browser
     version: "2.0"
     engine: Blink
-    engine_version: "49.0.2623.75"
+    engine_version: 49.0.2623.75
   device:
     type: tv
     brand: TCL
@@ -7379,7 +7382,7 @@
     name: T-Browser
     version: "2.0"
     engine: Blink
-    engine_version: "49.0.2623.75"
+    engine_version: 49.0.2623.75
   device:
     type: tv
     brand: TCL
@@ -7397,7 +7400,7 @@
     name: T-Browser
     version: "2.0"
     engine: Blink
-    engine_version: "49.0.2623.75"
+    engine_version: 49.0.2623.75
   device:
     type: tv
     brand: TCL
@@ -7415,7 +7418,7 @@
     name: T-Browser
     version: "2.0"
     engine: Blink
-    engine_version: "49.0.2623.75"
+    engine_version: 49.0.2623.75
   device:
     type: tv
     brand: TCL
@@ -7433,7 +7436,7 @@
     name: T-Browser
     version: "2.0"
     engine: Blink
-    engine_version: "49.0.2623.75"
+    engine_version: 49.0.2623.75
   device:
     type: tv
     brand: TCL
@@ -7451,7 +7454,7 @@
     name: T-Browser
     version: "2.0"
     engine: Blink
-    engine_version: "49.0.2623.75"
+    engine_version: 49.0.2623.75
   device:
     type: tv
     brand: TCL
@@ -7469,7 +7472,7 @@
     name: T-Browser
     version: "2.0"
     engine: Blink
-    engine_version: "49.0.2623.75"
+    engine_version: 49.0.2623.75
   device:
     type: tv
     brand: TCL
@@ -7487,7 +7490,7 @@
     name: T-Browser
     version: "2.0"
     engine: Blink
-    engine_version: "49.0.2623.75"
+    engine_version: 49.0.2623.75
   device:
     type: tv
     brand: TCL
@@ -7505,7 +7508,7 @@
     name: T-Browser
     version: "2.0"
     engine: Blink
-    engine_version: "49.0.2623.75"
+    engine_version: 49.0.2623.75
   device:
     type: tv
     brand: TCL
@@ -7523,7 +7526,7 @@
     name: T-Browser
     version: "2.0"
     engine: Blink
-    engine_version: "49.0.2623.75"
+    engine_version: 49.0.2623.75
   device:
     type: tv
     brand: TCL
@@ -7541,7 +7544,7 @@
     name: T-Browser
     version: "2.0"
     engine: Blink
-    engine_version: "49.0.2623.75"
+    engine_version: 49.0.2623.75
   device:
     type: tv
     brand: TCL
@@ -7559,7 +7562,7 @@
     name: T-Browser
     version: "2.0"
     engine: Blink
-    engine_version: "49.0.2623.75"
+    engine_version: 49.0.2623.75
   device:
     type: tv
     brand: Thomson
@@ -7569,20 +7572,20 @@
 -
   user_agent: Opera/9.80 Zeasn/2.0 NETTV/4.5.0 Mozilla/5.0 (Linux armv7i;CE-HTML/1.0;U;en), Chrome/42.0.2311.152 Safari/537.36 AppleWebKit 537.36 (KHTML, like Gecko) Tbrowser/2.0, _TV_MT5655/V8-S586T02-LF1V089 (THOMSON,49UC6306,wired)
   os:
-    name: GNU/Linux
-    version: ""
+    name: Whale OS
+    version: "1"
     platform: ARM
   client:
     type: browser
     name: T-Browser
     version: "2.0"
     engine: Blink
-    engine_version: "42.0.2311.152"
+    engine_version: 42.0.2311.152
   device:
     type: tv
     brand: Thomson
     model: 49UC6306
-  os_family: GNU/Linux
+  os_family: Other Smart TV
   browser_family: Chrome
 -
   user_agent: Opera/9.80 NETTV/4.5.0 Mozilla/5.0 (Linux armv7i; CE-HTML/1.0; U; en) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/49.0.2623.75 Safari/537.36 NETRANGEMMH Tbrowser/2.0 _TV_NT563/V8-NT563LA-LF1V380 (Panasonic_S,43D1270,wireless)
@@ -7595,7 +7598,7 @@
     name: T-Browser
     version: "2.0"
     engine: Blink
-    engine_version: "49.0.2623.75"
+    engine_version: 49.0.2623.75
   device:
     type: tv
     brand: Panasonic
@@ -7613,7 +7616,7 @@
     name: T-Browser
     version: "2.0"
     engine: Blink
-    engine_version: "49.0.2623.75"
+    engine_version: 49.0.2623.75
   device:
     type: tv
     brand: Panasonic
@@ -7631,7 +7634,7 @@
     name: T-Browser
     version: "2.0"
     engine: Blink
-    engine_version: "49.0.2623.75"
+    engine_version: 49.0.2623.75
   device:
     type: tv
     brand: Panasonic
@@ -7649,7 +7652,7 @@
     name: T-Browser
     version: "2.0"
     engine: Blink
-    engine_version: "49.0.2623.75"
+    engine_version: 49.0.2623.75
   device:
     type: tv
     brand: Panasonic
@@ -7667,7 +7670,7 @@
     name: Opera Devices
     version: 4.6.1.40
     engine: Blink
-    engine_version: "44.0.2403.130"
+    engine_version: 44.0.2403.130
   device:
     type: tv
     brand: Saba
@@ -7721,7 +7724,7 @@
     name: Opera Devices
     version: 4.6.1.40
     engine: Blink
-    engine_version: "44.0.2403.130"
+    engine_version: 44.0.2403.130
   device:
     type: tv
     brand: Haier
@@ -7757,11 +7760,11 @@
     name: Opera Devices
     version: 4.9.0.176
     engine: Blink
-    engine_version: "53.0.2785.143"
+    engine_version: 53.0.2785.143
   device:
     type: tv
     brand: Laurus
-    model: ""
+    model: Smart TV (2017)
   os_family: GNU/Linux
   browser_family: Opera
 -
@@ -7775,11 +7778,11 @@
     name: Opera Devices
     version: 4.9.0.176
     engine: Blink
-    engine_version: "53.0.2785.143"
+    engine_version: 53.0.2785.143
   device:
     type: tv
     brand: Fuego
-    model: ""
+    model: Smart TV (2017)
   os_family: GNU/Linux
   browser_family: Opera
 -
@@ -7793,11 +7796,11 @@
     name: Opera Devices
     version: 4.9.0.176
     engine: Blink
-    engine_version: "53.0.2785.143"
+    engine_version: 53.0.2785.143
   device:
     type: tv
     brand: Technika
-    model: ""
+    model: Smart TV (2017)
   os_family: GNU/Linux
   browser_family: Opera
 -
@@ -7811,7 +7814,7 @@
     name: Opera Devices
     version: 4.6.1.40
     engine: Blink
-    engine_version: "44.0.2403.130"
+    engine_version: 44.0.2403.130
   device:
     type: tv
     brand: GoGEN
@@ -7829,7 +7832,7 @@
     name: Opera Devices
     version: 4.6.1.40
     engine: Blink
-    engine_version: "44.0.2403.130"
+    engine_version: 44.0.2403.130
   device:
     type: tv
     brand: KUBO
@@ -7847,11 +7850,11 @@
     name: Opera Devices
     version: 4.9.0.176
     engine: Blink
-    engine_version: "53.0.2785.143"
+    engine_version: 53.0.2785.143
   device:
     type: tv
     brand: VOX
-    model: ""
+    model: Smart TV (2017)
   os_family: GNU/Linux
   browser_family: Opera
 -
@@ -7865,7 +7868,7 @@
     name: Opera Devices
     version: 4.6.1.40
     engine: Blink
-    engine_version: "44.0.2403.130"
+    engine_version: 44.0.2403.130
   device:
     type: tv
     brand: ELECTRONIA
@@ -7883,11 +7886,11 @@
     name: Opera Devices
     version: 4.9.0.237
     engine: Blink
-    engine_version: "53.0.2785.143"
+    engine_version: 53.0.2785.143
   device:
     type: tv
     brand: WELLINGTON
-    model: ""
+    model: Smart TV (2017)
   os_family: GNU/Linux
   browser_family: Opera
 -
@@ -7901,11 +7904,11 @@
     name: Opera Devices
     version: 4.9.0.176
     engine: Blink
-    engine_version: "53.0.2785.143"
+    engine_version: 53.0.2785.143
   device:
     type: tv
     brand: REGAL
-    model: ""
+    model: Smart TV (2017)
   os_family: GNU/Linux
   browser_family: Opera
 -
@@ -7955,7 +7958,7 @@
     name: Opera Devices
     version: 4.6.1.40
     engine: Blink
-    engine_version: "44.0.2403.130"
+    engine_version: 44.0.2403.130
   device:
     type: tv
     brand: Lifemaxx
@@ -8027,11 +8030,11 @@
     name: Opera Devices
     version: 4.9.0.237
     engine: Blink
-    engine_version: "53.0.2785.143"
+    engine_version: 53.0.2785.143
   device:
     type: tv
     brand: ALDI NORD
-    model: ""
+    model: Smart TV (2017)
   os_family: GNU/Linux
   browser_family: Opera
 -
@@ -8063,7 +8066,7 @@
     name: Chrome
     version: 53.0.2785.34
     engine: Blink
-    engine_version: "53.0.2785.34"
+    engine_version: 53.0.2785.34
   device:
     type: tv
     brand: LG
@@ -8081,7 +8084,7 @@
     name: Opera Devices
     version: 4.2.12.48
     engine: Blink
-    engine_version: "35.0.1916.153"
+    engine_version: 35.0.1916.153
   device:
     type: tv
     brand: Sony
@@ -8099,7 +8102,7 @@
     name: Chrome
     version: 53.0.2785.34
     engine: Blink
-    engine_version: "53.0.2785.34"
+    engine_version: 53.0.2785.34
   device:
     type: tv
     brand: LG
@@ -8117,11 +8120,11 @@
     name: Opera Devices
     version: 4.9.0.237
     engine: Blink
-    engine_version: "53.0.2785.143"
+    engine_version: 53.0.2785.143
   device:
     type: tv
     brand: Horizon
-    model: ""
+    model: Smart TV (2017)
   os_family: GNU/Linux
   browser_family: Opera
 -
@@ -8153,11 +8156,11 @@
     name: Opera Devices
     version: 4.9.0.237
     engine: Blink
-    engine_version: "53.0.2785.143"
+    engine_version: 53.0.2785.143
   device:
     type: tv
     brand: Ok
-    model: ""
+    model: Smart TV (2017)
   os_family: GNU/Linux
   browser_family: Opera
 -
@@ -8171,11 +8174,11 @@
     name: Opera Devices
     version: 4.9.0.237
     engine: Blink
-    engine_version: "53.0.2785.143"
+    engine_version: 53.0.2785.143
   device:
     type: tv
     brand: Essentielb
-    model: ""
+    model: Smart TV (2017)
   os_family: GNU/Linux
   browser_family: Opera
 -
@@ -8189,11 +8192,11 @@
     name: Opera Devices
     version: 4.13.5.431
     engine: Blink
-    engine_version: "67.0.3396.99"
+    engine_version: 67.0.3396.99
   device:
     type: tv
     brand: Hi-Level
-    model: ""
+    model: Smart TV (2019)
   os_family: GNU/Linux
   browser_family: Opera
 -
@@ -8222,7 +8225,7 @@
     name: Opera Devices
     version: 4.6.1.40
     engine: Blink
-    engine_version: "44.0.2403.130"
+    engine_version: 44.0.2403.130
   device:
     type: tv
     brand: Hyundai
@@ -8240,11 +8243,11 @@
     name: Opera Devices
     version: 4.9.0.237
     engine: Blink
-    engine_version: "53.0.2785.143"
+    engine_version: 53.0.2785.143
   device:
     type: tv
     brand: Qilive
-    model: ""
+    model: Smart TV (2017)
   os_family: GNU/Linux
   browser_family: Opera
 -
@@ -8276,11 +8279,11 @@
     name: Opera Devices
     version: 4.9.0.237
     engine: Blink
-    engine_version: "53.0.2785.143"
+    engine_version: 53.0.2785.143
   device:
     type: tv
     brand: SEG
-    model: ""
+    model: Smart TV (2017)
   os_family: GNU/Linux
   browser_family: Opera
 -
@@ -8294,7 +8297,7 @@
     name: Chrome
     version: 53.0.2785.34
     engine: Blink
-    engine_version: "53.0.2785.34"
+    engine_version: 53.0.2785.34
   device:
     type: tv
     brand: LG
@@ -8312,11 +8315,11 @@
     name: Opera Devices
     version: 4.9.0.237
     engine: Blink
-    engine_version: "53.0.2785.143"
+    engine_version: 53.0.2785.143
   device:
     type: tv
     brand: PROFiLO
-    model: ""
+    model: Smart TV (2017)
   os_family: GNU/Linux
   browser_family: Opera
 -
@@ -8330,7 +8333,7 @@
     name: Seraphic Sraf
     version: "3.6"
     engine: Blink
-    engine_version: "39.0.2171.71"
+    engine_version: 39.0.2171.71
   device:
     type: tv
     brand: Haier
@@ -8348,7 +8351,7 @@
     name: Seraphic Sraf
     version: "3.5"
     engine: Blink
-    engine_version: "39.0.2171.71"
+    engine_version: 39.0.2171.71
   device:
     type: tv
     brand: Blaupunkt
@@ -8366,11 +8369,11 @@
     name: Opera Devices
     version: 4.9.0.237
     engine: Blink
-    engine_version: "53.0.2785.143"
+    engine_version: 53.0.2785.143
   device:
     type: tv
     brand: 'F&U'
-    model: ""
+    model: Smart TV (2017)
   os_family: GNU/Linux
   browser_family: Opera
 -
@@ -8402,7 +8405,7 @@
     name: Seraphic Sraf
     version: "3.6"
     engine: Blink
-    engine_version: "39.0.2171.71"
+    engine_version: 39.0.2171.71
   device:
     type: tv
     brand: SCBC
@@ -8420,7 +8423,7 @@
     name: Seraphic Sraf
     version: "3.6"
     engine: Blink
-    engine_version: "39.0.2171.71"
+    engine_version: 39.0.2171.71
   device:
     type: tv
     brand: SCBC
@@ -8438,7 +8441,7 @@
     name: Seraphic Sraf
     version: "3.5"
     engine: Blink
-    engine_version: "39.0.2171.71"
+    engine_version: 39.0.2171.71
   device:
     type: tv
     brand: Sharp
@@ -8496,7 +8499,7 @@
     name: Opera Devices
     version: 4.2.12.48
     engine: Blink
-    engine_version: "35.0.1916.153"
+    engine_version: 35.0.1916.153
   device:
     type: tv
     brand: Sony
@@ -8514,7 +8517,7 @@
     name: Opera Devices
     version: 4.8.0.129
     engine: Blink
-    engine_version: "49.0.2623.112"
+    engine_version: 49.0.2623.112
   device:
     type: tv
     brand: Sony
@@ -8532,7 +8535,7 @@
     name: Opera Devices
     version: 4.20.3.54
     engine: Blink
-    engine_version: "77.0.3865.120"
+    engine_version: 77.0.3865.120
   device:
     type: tv
     brand: Hisense
@@ -8550,7 +8553,7 @@
     name: Opera Devices
     version: 4.21.1.75
     engine: Blink
-    engine_version: "84.0.4147.140"
+    engine_version: 84.0.4147.140
   device:
     type: tv
     brand: Hisense
@@ -8568,7 +8571,7 @@
     name: Opera Devices
     version: 4.21.1.75
     engine: Blink
-    engine_version: "84.0.4147.140"
+    engine_version: 84.0.4147.140
   device:
     type: tv
     brand: Hisense
@@ -8586,7 +8589,7 @@
     name: Opera Devices
     version: 4.20.5.35
     engine: Blink
-    engine_version: "77.0.3865.120"
+    engine_version: 77.0.3865.120
   device:
     type: tv
     brand: Sony
@@ -8604,7 +8607,7 @@
     name: Opera Devices
     version: 4.21.0.273
     engine: Blink
-    engine_version: "84.0.4147.125"
+    engine_version: 84.0.4147.125
   device:
     type: tv
     brand: Sony
@@ -8622,7 +8625,7 @@
     name: Opera Devices
     version: 4.21.0.273
     engine: Blink
-    engine_version: "84.0.4147.125"
+    engine_version: 84.0.4147.125
   device:
     type: tv
     brand: Sony
@@ -8640,7 +8643,7 @@
     name: Opera Devices
     version: 4.21.0.273
     engine: Blink
-    engine_version: "84.0.4147.125"
+    engine_version: 84.0.4147.125
   device:
     type: tv
     brand: JVC
@@ -8658,7 +8661,7 @@
     name: Opera Devices
     version: 4.13.5.431
     engine: Blink
-    engine_version: "67.0.3396.99"
+    engine_version: 67.0.3396.99
   device:
     type: tv
     brand: Sony
@@ -8676,7 +8679,7 @@
     name: Opera Devices
     version: 4.13.5.431
     engine: Blink
-    engine_version: "67.0.3396.99"
+    engine_version: 67.0.3396.99
   device:
     type: tv
     brand: Sony
@@ -8694,7 +8697,7 @@
     name: Seraphic Sraf
     version: "4.0"
     engine: Blink
-    engine_version: "47.0.2526.106"
+    engine_version: 47.0.2526.106
   device:
     type: tv
     brand: MStar
@@ -8712,7 +8715,7 @@
     name: Seraphic Sraf
     version: "4.0"
     engine: Blink
-    engine_version: "47.0.2526.106"
+    engine_version: 47.0.2526.106
   device:
     type: tv
     brand: MStar
@@ -8730,7 +8733,7 @@
     name: Seraphic Sraf
     version: "4.0"
     engine: Blink
-    engine_version: "47.0.2526.106"
+    engine_version: 47.0.2526.106
   device:
     type: tv
     brand: TD Systems
@@ -8748,7 +8751,7 @@
     name: Seraphic Sraf
     version: "4.0"
     engine: Blink
-    engine_version: "47.0.2526.106"
+    engine_version: 47.0.2526.106
   device:
     type: tv
     brand: TD Systems
@@ -8766,7 +8769,7 @@
     name: Seraphic Sraf
     version: "4.0"
     engine: Blink
-    engine_version: "47.0.2526.106"
+    engine_version: 47.0.2526.106
   device:
     type: tv
     brand: Hisense
@@ -8784,7 +8787,7 @@
     name: Chrome
     version: 38.0.2125.122
     engine: Blink
-    engine_version: "38.0.2125.122"
+    engine_version: 38.0.2125.122
   device:
     type: tv
     brand: LG
@@ -8802,7 +8805,7 @@
     name: Chrome
     version: 53.0.2785.34
     engine: Blink
-    engine_version: "53.0.2785.34"
+    engine_version: 53.0.2785.34
   device:
     type: tv
     brand: LG
@@ -8820,7 +8823,7 @@
     name: Chrome
     version: 53.0.2785.34
     engine: Blink
-    engine_version: "53.0.2785.34"
+    engine_version: 53.0.2785.34
   device:
     type: tv
     brand: LG
@@ -8838,7 +8841,7 @@
     name: Chrome
     version: 53.0.2785.34
     engine: Blink
-    engine_version: "53.0.2785.34"
+    engine_version: 53.0.2785.34
   device:
     type: tv
     brand: LG
@@ -8856,7 +8859,7 @@
     name: Chrome
     version: 53.0.2785.34
     engine: Blink
-    engine_version: "53.0.2785.34"
+    engine_version: 53.0.2785.34
   device:
     type: tv
     brand: LG
@@ -8874,7 +8877,7 @@
     name: Chrome
     version: 53.0.2785.34
     engine: Blink
-    engine_version: "53.0.2785.34"
+    engine_version: 53.0.2785.34
   device:
     type: tv
     brand: LG
@@ -8892,7 +8895,7 @@
     name: Chrome
     version: 53.0.2785.34
     engine: Blink
-    engine_version: "53.0.2785.34"
+    engine_version: 53.0.2785.34
   device:
     type: tv
     brand: LG
@@ -8910,7 +8913,7 @@
     name: Chrome
     version: 53.0.2785.34
     engine: Blink
-    engine_version: "53.0.2785.34"
+    engine_version: 53.0.2785.34
   device:
     type: tv
     brand: LG
@@ -8946,7 +8949,7 @@
     name: Odin
     version: 74.3729.2.10
     engine: Blink
-    engine_version: "74.0.3729.108"
+    engine_version: 74.0.3729.108
   device:
     type: tv
     brand: Hisense
@@ -8964,7 +8967,7 @@
     name: Odin
     version: 3.2987.2.8
     engine: Blink
-    engine_version: "57.0.2987.133"
+    engine_version: 57.0.2987.133
   device:
     type: tv
     brand: Hisense
@@ -8982,7 +8985,7 @@
     name: Odin
     version: 3.2987.2.8
     engine: Blink
-    engine_version: "57.0.2987.133"
+    engine_version: 57.0.2987.133
   device:
     type: tv
     brand: Hisense
@@ -9000,7 +9003,7 @@
     name: Chrome
     version: 79.0.3945.79
     engine: Blink
-    engine_version: "79.0.3945.79"
+    engine_version: 79.0.3945.79
   device:
     type: tv
     brand: LG
@@ -9018,7 +9021,7 @@
     name: Chrome
     version: 79.0.3945.79
     engine: Blink
-    engine_version: "79.0.3945.79"
+    engine_version: 79.0.3945.79
   device:
     type: tv
     brand: LG
@@ -9036,7 +9039,7 @@
     name: Chrome
     version: 79.0.3945.79
     engine: Blink
-    engine_version: "79.0.3945.79"
+    engine_version: 79.0.3945.79
   device:
     type: tv
     brand: LG
@@ -9072,7 +9075,7 @@
     name: Chrome
     version: 68.0.3440.106
     engine: Blink
-    engine_version: "68.0.3440.106"
+    engine_version: 68.0.3440.106
   device:
     type: tv
     brand: LG
@@ -9090,7 +9093,7 @@
     name: Chrome
     version: 68.0.3440.106
     engine: Blink
-    engine_version: "68.0.3440.106"
+    engine_version: 68.0.3440.106
   device:
     type: tv
     brand: LG
@@ -9108,7 +9111,7 @@
     name: Chrome
     version: 68.0.3440.106
     engine: Blink
-    engine_version: "68.0.3440.106"
+    engine_version: 68.0.3440.106
   device:
     type: tv
     brand: LG
@@ -9126,7 +9129,7 @@
     name: Chrome
     version: 68.0.3440.106
     engine: Blink
-    engine_version: "68.0.3440.106"
+    engine_version: 68.0.3440.106
   device:
     type: tv
     brand: LG
@@ -9144,7 +9147,7 @@
     name: Chrome Webview
     version: 78.0.3904.96
     engine: Blink
-    engine_version: "78.0.3904.96"
+    engine_version: 78.0.3904.96
   device:
     type: tv
     brand: Facebook
@@ -9162,10 +9165,10 @@
     name: Chrome
     version: 55.0.2883.91
     engine: Blink
-    engine_version: "55.0.2883.91"
+    engine_version: 55.0.2883.91
   device:
     type: tv
-    brand: SWTV
+    brand: Skyworth
     model: SKWE20E21
   os_family: GNU/Linux
   browser_family: Chrome
@@ -9180,7 +9183,7 @@
     name: Chrome
     version: 55.0.2883.91
     engine: Blink
-    engine_version: "55.0.2883.91"
+    engine_version: 55.0.2883.91
   device:
     type: tv
     brand: MTC
@@ -9198,7 +9201,7 @@
     name: Chrome
     version: 55.0.2883.91
     engine: Blink
-    engine_version: "55.0.2883.91"
+    engine_version: 55.0.2883.91
   device:
     type: tv
     brand: MTC
@@ -9216,7 +9219,7 @@
     name: Chrome
     version: 55.0.2883.91
     engine: Blink
-    engine_version: "55.0.2883.91"
+    engine_version: 55.0.2883.91
   device:
     type: tv
     brand: MediaTek
@@ -9234,7 +9237,7 @@
     name: Chrome
     version: 68.0.3440.106
     engine: Blink
-    engine_version: "68.0.3440.106"
+    engine_version: 68.0.3440.106
   device:
     type: tv
     brand: LG
@@ -9252,7 +9255,7 @@
     name: Chrome
     version: 68.0.3440.106
     engine: Blink
-    engine_version: "68.0.3440.106"
+    engine_version: 68.0.3440.106
   device:
     type: tv
     brand: LG
@@ -9270,7 +9273,7 @@
     name: Chrome
     version: 68.0.3440.106
     engine: Blink
-    engine_version: "68.0.3440.106"
+    engine_version: 68.0.3440.106
   device:
     type: tv
     brand: LG
@@ -9288,7 +9291,7 @@
     name: Chrome
     version: 68.0.3440.106
     engine: Blink
-    engine_version: "68.0.3440.106"
+    engine_version: 68.0.3440.106
   device:
     type: tv
     brand: LG
@@ -9306,7 +9309,7 @@
     name: Chrome
     version: 79.0.3945.79
     engine: Blink
-    engine_version: "79.0.3945.79"
+    engine_version: 79.0.3945.79
   device:
     type: tv
     brand: LG
@@ -9324,7 +9327,7 @@
     name: Chrome
     version: 79.0.3945.79
     engine: Blink
-    engine_version: "79.0.3945.79"
+    engine_version: 79.0.3945.79
   device:
     type: tv
     brand: LG
@@ -9342,7 +9345,7 @@
     name: Chrome
     version: 79.0.3945.79
     engine: Blink
-    engine_version: "79.0.3945.79"
+    engine_version: 79.0.3945.79
   device:
     type: tv
     brand: LG
@@ -9360,7 +9363,7 @@
     name: Chrome
     version: 79.0.3945.79
     engine: Blink
-    engine_version: "79.0.3945.79"
+    engine_version: 79.0.3945.79
   device:
     type: tv
     brand: LG
@@ -9378,7 +9381,7 @@
     name: Chrome
     version: 79.0.3945.79
     engine: Blink
-    engine_version: "79.0.3945.79"
+    engine_version: 79.0.3945.79
   device:
     type: tv
     brand: LG
@@ -9396,7 +9399,7 @@
     name: Chrome
     version: 68.0.3440.106
     engine: Blink
-    engine_version: "68.0.3440.106"
+    engine_version: 68.0.3440.106
   device:
     type: tv
     brand: LG
@@ -9414,7 +9417,7 @@
     name: Chrome
     version: 79.0.3945.79
     engine: Blink
-    engine_version: "79.0.3945.79"
+    engine_version: 79.0.3945.79
   device:
     type: tv
     brand: LG
@@ -9432,7 +9435,7 @@
     name: Chrome
     version: 79.0.3945.79
     engine: Blink
-    engine_version: "79.0.3945.79"
+    engine_version: 79.0.3945.79
   device:
     type: tv
     brand: LG
@@ -9450,7 +9453,7 @@
     name: Chrome
     version: 79.0.3945.79
     engine: Blink
-    engine_version: "79.0.3945.79"
+    engine_version: 79.0.3945.79
   device:
     type: tv
     brand: LG
@@ -9468,7 +9471,7 @@
     name: Chrome
     version: 79.0.3945.79
     engine: Blink
-    engine_version: "79.0.3945.79"
+    engine_version: 79.0.3945.79
   device:
     type: tv
     brand: LG
@@ -9486,7 +9489,7 @@
     name: Chrome
     version: 79.0.3945.79
     engine: Blink
-    engine_version: "79.0.3945.79"
+    engine_version: 79.0.3945.79
   device:
     type: tv
     brand: LG
@@ -9504,7 +9507,7 @@
     name: Chrome
     version: 79.0.3945.79
     engine: Blink
-    engine_version: "79.0.3945.79"
+    engine_version: 79.0.3945.79
   device:
     type: tv
     brand: LG
@@ -9522,7 +9525,7 @@
     name: Chrome
     version: 79.0.3945.79
     engine: Blink
-    engine_version: "79.0.3945.79"
+    engine_version: 79.0.3945.79
   device:
     type: tv
     brand: LG
@@ -9540,7 +9543,7 @@
     name: Chrome
     version: 75.0.3770.143
     engine: Blink
-    engine_version: "75.0.3770.143"
+    engine_version: 75.0.3770.143
   device:
     type: tv
     brand: Vontar
@@ -9558,7 +9561,7 @@
     name: Opera Devices
     version: 4.13.180
     engine: Blink
-    engine_version: "67.0.3396.99"
+    engine_version: 67.0.3396.99
   device:
     type: tv
     brand: ARRIS
@@ -9604,7 +9607,7 @@
     name: Chrome Webview
     version: 76.0.3809.89
     engine: Blink
-    engine_version: "76.0.3809.89"
+    engine_version: 76.0.3809.89
   device:
     type: tv
     brand: Nvidia
@@ -9618,17 +9621,15 @@
     version: "10"
     platform: ""
   client:
-    type: browser
-    name: Seraphic Sraf
-    version: "5.0"
-    engine: Blink
-    engine_version: "73.0.3683.103"
+    type: mediaplayer
+    name: YouView
+    version: ""
   device:
     type: tv
     brand: Technicolor
     model: UZW4054TTG
   os_family: Android
-  browser_family: Chrome
+  browser_family: Unknown
 -
   user_agent: Mozilla/5.0 (QtEmbedded; U; Linux; C) AppleWebKit/534.34 (KHTML, like Gecko) SigmaDesigns/0.5 Safari/534.34; Westerndigital/Streamer2010/Gen3-2.02.01
   os:
@@ -9676,7 +9677,7 @@
     name: Chrome Mobile
     version: 74.0.3729.157
     engine: Blink
-    engine_version: "74.0.3729.157"
+    engine_version: 74.0.3729.157
   device:
     type: tv
     brand: OzoneHD
@@ -9694,7 +9695,7 @@
     name: Chrome
     version: 80.0.3987.132
     engine: Blink
-    engine_version: "80.0.3987.132"
+    engine_version: 80.0.3987.132
   device:
     type: tv
     brand: Sunvell
@@ -9712,7 +9713,7 @@
     name: Chrome
     version: 76.0.3809.111
     engine: Blink
-    engine_version: "76.0.3809.111"
+    engine_version: 76.0.3809.111
   device:
     type: tv
     brand: Sunvell
@@ -9730,7 +9731,7 @@
     name: Chrome
     version: 83.0.4103.101
     engine: Blink
-    engine_version: "83.0.4103.101"
+    engine_version: 83.0.4103.101
   device:
     type: tv
     brand: Zidoo
@@ -9748,7 +9749,7 @@
     name: Chrome
     version: 77.0.3865.92
     engine: Blink
-    engine_version: "77.0.3865.92"
+    engine_version: 77.0.3865.92
   device:
     type: tv
     brand: SPC
@@ -9766,7 +9767,7 @@
     name: Chrome
     version: 76.0.3809.111
     engine: Blink
-    engine_version: "76.0.3809.111"
+    engine_version: 76.0.3809.111
   device:
     type: tv
     brand: SPC
@@ -9784,7 +9785,7 @@
     name: Chrome Webview
     version: 44.0.2403.119
     engine: Blink
-    engine_version: "44.0.2403.119"
+    engine_version: 44.0.2403.119
   device:
     type: tv
     brand: Pendoo
@@ -9820,7 +9821,7 @@
     name: Chrome
     version: 87.0.4280.101
     engine: Blink
-    engine_version: "87.0.4280.101"
+    engine_version: 87.0.4280.101
   device:
     type: tv
     brand: Pendoo
@@ -9838,7 +9839,7 @@
     name: Chrome
     version: 70.0.3538.80
     engine: Blink
-    engine_version: "70.0.3538.80"
+    engine_version: 70.0.3538.80
   device:
     type: tv
     brand: Pendoo
@@ -9856,7 +9857,7 @@
     name: Chrome Webview
     version: 44.0.2403.119
     engine: Blink
-    engine_version: "44.0.2403.119"
+    engine_version: 44.0.2403.119
   device:
     type: tv
     brand: Pendoo
@@ -9874,7 +9875,7 @@
     name: Chrome
     version: 55.0.2883.91
     engine: Blink
-    engine_version: "55.0.2883.91"
+    engine_version: 55.0.2883.91
   device:
     type: tv
     brand: Pendoo
@@ -9892,7 +9893,7 @@
     name: Chrome
     version: 75.0.3770.101
     engine: Blink
-    engine_version: "75.0.3770.101"
+    engine_version: 75.0.3770.101
   device:
     type: tv
     brand: Pendoo
@@ -9910,7 +9911,7 @@
     name: Chrome Webview
     version: 55.0.2883.91
     engine: Blink
-    engine_version: "55.0.2883.91"
+    engine_version: 55.0.2883.91
   device:
     type: tv
     brand: Pendoo
@@ -9928,7 +9929,7 @@
     name: Chrome
     version: 78.0.3904.108
     engine: Blink
-    engine_version: "78.0.3904.108"
+    engine_version: 78.0.3904.108
   device:
     type: tv
     brand: Pendoo
@@ -9946,7 +9947,7 @@
     name: Chrome
     version: 46.0.2490.76
     engine: Blink
-    engine_version: "46.0.2490.76"
+    engine_version: 46.0.2490.76
   device:
     type: tv
     brand: PiPO
@@ -9964,7 +9965,7 @@
     name: Chrome Webview
     version: 48.0.2564.106
     engine: Blink
-    engine_version: "48.0.2564.106"
+    engine_version: 48.0.2564.106
   device:
     type: tv
     brand: PiPO
@@ -10072,7 +10073,7 @@
     name: Chrome Mobile
     version: 94.0.4606.85
     engine: Blink
-    engine_version: "94.0.4606.85"
+    engine_version: 94.0.4606.85
   device:
     type: tv
     brand: Andowl

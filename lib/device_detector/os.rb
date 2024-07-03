@@ -4,6 +4,16 @@ require 'set'
 
 class DeviceDetector
   class OS < Parser
+    class << self
+      def mapped_os_version(version, mapping)
+        return if version.nil?
+
+        major_version = version.split('.').first
+
+        mapping[version] || mapping[major_version]
+      end
+    end
+
     def name
       os_info[:name]
     end
@@ -39,31 +49,41 @@ class DeviceDetector
       end
     end
 
+    # https://github.com/matomo-org/device-detector/blob/75d88bbefb0182f9207c9f48dc39b1bc8c7cc43f/Parser/OperatingSystem.php#L286-L288
     DESKTOP_OSS = Set.new(
       [
-        'AmigaOS', 'IBM', 'GNU/Linux', 'Mac', 'Unix', 'Windows', 'BeOS', 'Chrome OS'
+        'AmigaOS', 'IBM', 'GNU/Linux', 'Mac', 'Unix', 'Windows', 'BeOS', 'Chrome OS', 'Chromium OS'
       ]
     )
 
     # OS short codes mapped to long names
+    # https://github.com/matomo-org/device-detector/blob/75d88bbefb0182f9207c9f48dc39b1bc8c7cc43f/Parser/OperatingSystem.php#L42-L220
     OPERATING_SYSTEMS = {
       'AIX' => 'AIX',
       'AND' => 'Android',
       'ADR' => 'Android TV',
+      'ALP' => 'Alpine Linux',
       'AMZ' => 'Amazon Linux',
       'AMG' => 'AmigaOS',
+      'ARM' => 'Armadillo OS',
+      'ARO' => 'AROS',
       'ATV' => 'tvOS',
       'ARL' => 'Arch Linux',
+      'AOS' => 'AOSC OS',
+      'ASP' => 'ASPLinux',
       'BTR' => 'BackTrack',
       'SBA' => 'Bada',
+      'BYI' => 'Baidu Yi',
       'BEO' => 'BeOS',
       'BLB' => 'BlackBerry OS',
       'QNX' => 'BlackBerry Tablet OS',
       'BOS' => 'Bliss OS',
       'BMP' => 'Brew',
+      'BSN' => 'BrightSignOS',
       'CAI' => 'Caixa Mágica',
       'CES' => 'CentOS',
       'CST' => 'CentOS Stream',
+      'CLO' => 'Clear Linux OS',
       'CLR' => 'ClearOS Mobile',
       'COS' => 'Chrome OS',
       'CRS' => 'Chromium OS',
@@ -73,6 +93,8 @@ class DeviceDetector
       'DEE' => 'Deepin',
       'DFB' => 'DragonFly',
       'DVK' => 'DVKBuntu',
+      'ELE' => 'ElectroBSD',
+      'EUL' => 'EulerOS',
       'FED' => 'Fedora',
       'FEN' => 'Fenix',
       'FOS' => 'Firefox OS',
@@ -80,9 +102,13 @@ class DeviceDetector
       'FOR' => 'Foresight Linux',
       'FRE' => 'Freebox',
       'BSD' => 'FreeBSD',
+      'FRI' => 'FRITZ!OS',
       'FYD' => 'FydeOS',
       'FUC' => 'Fuchsia',
       'GNT' => 'Gentoo',
+      'GNX' => 'GENIX',
+      'GEO' => 'GEOS',
+      'GNS' => 'gNewSense',
       'GRI' => 'GridOS',
       'GTV' => 'Google TV',
       'HPX' => 'HP-UX',
@@ -90,12 +116,15 @@ class DeviceDetector
       'IPA' => 'iPadOS',
       'HAR' => 'HarmonyOS',
       'HAS' => 'HasCodingOS',
+      'HEL' => 'HELIX OS',
       'IRI' => 'IRIX',
       'INF' => 'Inferno',
       'JME' => 'Java ME',
+      'JOL' => 'Joli OS',
       'KOS' => 'KaiOS',
       'KAL' => 'Kali',
       'KAN' => 'Kanotix',
+      'KIN' => 'KIN OS',
       'KNO' => 'Knoppix',
       'KTV' => 'KreaTV',
       'KBT' => 'Kubuntu',
@@ -103,6 +132,8 @@ class DeviceDetector
       'LND' => 'LindowsOS',
       'LNS' => 'Linspire',
       'LEN' => 'Lineage OS',
+      'LIR' => 'Liri OS',
+      'LOO' => 'Loongnix',
       'LBT' => 'Lubuntu',
       'LOS' => 'Lumin OS',
       'LUN' => 'LuneOS',
@@ -114,18 +145,23 @@ class DeviceDetector
       'SMG' => 'MeeGo',
       'MCD' => 'MocorDroid',
       'MON' => 'moonOS',
+      'EZX' => 'Motorola EZX',
       'MIN' => 'Mint',
       'MLD' => 'MildWild',
       'MOR' => 'MorphOS',
       'NBS' => 'NetBSD',
       'MTK' => 'MTK / Nucleus',
       'MRE' => 'MRE',
+      'NXT' => 'NeXTSTEP',
+      'NWS' => 'NEWS-OS',
       'WII' => 'Nintendo',
       'NDS' => 'Nintendo Mobile',
       'NOV' => 'Nova',
       'OS2' => 'OS/2',
       'T64' => 'OSF1',
       'OBS' => 'OpenBSD',
+      'OVS' => 'OpenVMS',
+      'OVZ' => 'OpenVZ',
       'OWR' => 'OpenWrt',
       'OTV' => 'Opera TV',
       'ORA' => 'Oracle Linux',
@@ -136,11 +172,17 @@ class DeviceDetector
       'PLA' => 'Plasma Mobile',
       'PSP' => 'PlayStation Portable',
       'PS3' => 'PlayStation',
+      'PVE' => 'Proxmox VE',
       'PUR' => 'PureOS',
+      'QTP' => 'Qtopia',
+      'PIO' => 'Raspberry Pi OS',
+      'RAS' => 'Raspbian',
       'RHT' => 'Red Hat',
+      'RST' => 'Red Star',
       'RED' => 'RedOS',
       'REV' => 'Revenge OS',
       'ROS' => 'RISC OS',
+      'ROC' => 'Rocky Linux',
       'ROK' => 'Roku OS',
       'RSO' => 'Rosa',
       'ROU' => 'RouterOS',
@@ -151,10 +193,13 @@ class DeviceDetector
       'SAB' => 'Sabayon',
       'SSE' => 'SUSE',
       'SAF' => 'Sailfish OS',
+      'SCI' => 'Scientific Linux',
       'SEE' => 'SeewoOS',
+      'SER' => 'SerenityOS',
       'SIR' => 'Sirin OS',
       'SLW' => 'Slackware',
       'SOS' => 'Solaris',
+      'SBL' => 'Star-Blade OS',
       'SYL' => 'Syllable',
       'SYM' => 'Symbian',
       'SYS' => 'Symbian OS',
@@ -166,7 +211,10 @@ class DeviceDetector
       'TIZ' => 'Tizen',
       'TIV' => 'TiVo OS',
       'TOS' => 'TmaxOS',
+      'TUR' => 'Turbolinux',
       'UBT' => 'Ubuntu',
+      'ULT' => 'ULTRIX',
+      'UOS' => 'UOS',
       'VID' => 'VIDAA',
       'WAS' => 'watchOS',
       'WER' => 'Wear OS',
@@ -178,6 +226,7 @@ class DeviceDetector
       'WMO' => 'Windows Mobile',
       'WPH' => 'Windows Phone',
       'WRT' => 'Windows RT',
+      'WPO' => 'WoPhone',
       'XBX' => 'Xbox',
       'XBT' => 'Xubuntu',
       'YNS' => 'YunOS',
@@ -185,6 +234,7 @@ class DeviceDetector
       'ZOR' => 'ZorinOS',
       'IOS' => 'iOS',
       'POS' => 'palmOS',
+      'WEB' => 'Webian',
       'WOS' => 'webOS'
     }.freeze
 
@@ -192,10 +242,14 @@ class DeviceDetector
       h[long.downcase] = short
     end.freeze
 
+    APPLE_OS_NAMES = Set.new(%w[iPadOS tvOS watchOS iOS Mac]).freeze
+
+    # https://github.com/matomo-org/device-detector/blob/75d88bbefb0182f9207c9f48dc39b1bc8c7cc43f/Parser/OperatingSystem.php#L227-L269
     OS_FAMILIES = {
       'Android' => %w[ AND CYN FIR REM RZD MLD MCD YNS GRI HAR
-                       ADR CLR BOS REV LEN SIR RRS WER PIC],
-      'AmigaOS' => %w[AMG MOR],
+                       ADR CLR BOS REV LEN SIR RRS WER PIC ARM
+                       HEL BYI],
+      'AmigaOS' => %w[AMG MOR ARO],
       'BlackBerry' => %w[BLB QNX],
       'Brew' => ['BMP'],
       'BeOS' => %w[BEO HAI],
@@ -212,23 +266,71 @@ class DeviceDetector
         ORD TOS RSO DEE FRE MAG FEN CAI PCL HAS
         LOS DVK ROK OWR OTV KTV PUR PLA FUC PAR
         FOR MON KAN ZEN LND LNS CHN AMZ TEN CST
-        NOV ROU ZOR VID
+        NOV ROU ZOR RED KAL ORA VID TIV BSN RAS
+        UOS PIO FRI LIR WEB SER ASP AOS LOO EUL
+        SCI ALP CLO ROC OVZ PVE RST EZX GNS JOL
+        TUR QTP WPO
       ],
       'Mac' => ['MAC'],
       'Mobile Gaming Console' => %w[PSP NDS XBX],
+      'OpenVMS' => ['OVS'],
       'Real-time OS' => %w[MTK TDX MRE JME REX],
-      'Other Mobile' => %w[WOS POS SBA TIZ SMG MAE],
+      'Other Mobile' => %w[WOS POS SBA TIZ SMG MAE LUN GEO],
       'Symbian' => %w[SYM SYS SY3 S60 S40],
-      'Unix' => %w[SOS AIX HPX BSD NBS OBS DFB SYL IRI T64 INF],
+      'Unix' => %w[
+        SOS AIX HPX BSD NBS OBS DFB SYL IRI T64
+        INF ELE GNX ULT NWS NXT SBL
+      ],
       'WebTV' => ['WTV'],
       'Windows' => ['WIN'],
-      'Windows Mobile' => %w[WPH WMO WCE WRT WIO],
+      'Windows Mobile' => %w[WPH WMO WCE WRT WIO KIN],
       'Other Smart TV' => ['WHS']
     }.freeze
 
     FAMILY_TO_OS = OS_FAMILIES.each_with_object({}) do |(family, oss), h|
       oss.each { |os| h[os] = family }
     end.freeze
+
+    # https://github.com/matomo-org/device-detector/blob/75d88bbefb0182f9207c9f48dc39b1bc8c7cc43f/Parser/OperatingSystem.php#L295-L308
+    FIRE_OS_VERSION_MAPPING = {
+      '11' => '8',
+      '10' => '8',
+      '9' => '7',
+      '7' => '6',
+      '5' => '5',
+      '4.4.3' => '4.5.1',
+      '4.4.2' => '4',
+      '4.2.2' => '3',
+      '4.0.3' => '3',
+      '4.0.2' => '3',
+      '4' => '2',
+      '2' => '1',
+    }.freeze
+
+    # https://github.com/matomo-org/device-detector/blob/75d88bbefb0182f9207c9f48dc39b1bc8c7cc43f/Parser/OperatingSystem.php#L315-L337
+    LINEAGE_OS_VERSION_MAPPING = {
+      '14' => '21',
+      '13' => '20.0',
+      '12.1' => '19.1',
+      '12' => '19.0',
+      '11' => '18.0',
+      '10' => '17.0',
+      '9' => '16.0',
+      '8.1.0' => '15.1',
+      '8.0.0' => '15.0',
+      '7.1.2' => '14.1',
+      '7.1.1' => '14.1',
+      '7.0' => '14.0',
+      '6.0.1' => '13.0',
+      '6.0' => '13.0',
+      '5.1.1' => '12.1',
+      '5.0.2' => '12.0',
+      '5.0' => '12.0',
+      '4.4.4' => '11.0',
+      '4.3' => '10.2',
+      '4.2.2' => '10.1',
+      '4.0.4' => '9.1.0'
+    }.freeze
 
     def filenames
       ['oss.yml']
