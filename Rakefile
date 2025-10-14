@@ -2,9 +2,21 @@
 
 require 'rake'
 require 'rake/testtask'
+require 'rspec/core/rake_task'
+require 'parallel_rspec'
+require 'etc'
 
 $LOAD_PATH.unshift 'lib'
 require 'device_detector'
+
+RSpec::Core::RakeTask.new(:spec)
+
+ParallelRSpec::RakeTask.new(:prspec) do |_t|
+  ENV['WORKERS'] = Etc.nprocessors.to_s
+  puts "Running Rspec with #{ENV.fetch('WORKERS', nil)} workers..."
+  # t.pattern = "spec/**/*_spec.rb"
+  # t.rspec_opts = "--tag parallel"
+end
 
 desc 'generate detectable names output for README'
 task :detectable_names do
@@ -42,7 +54,7 @@ task :detectable_names do
 end
 
 MATOMO_REPO_URL = 'https://github.com/matomo-org/device-detector'
-MATOMO_REPO_TAG = '6.4.6'
+MATOMO_REPO_TAG = 'master'
 MATOMO_CHECKOUT_LOCATION = '/tmp/matomo_device_detector'
 
 def matomo_checkout!

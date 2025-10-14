@@ -223,6 +223,7 @@ class DeviceDetector
         'KAL' => 'Kali',
         'KAN' => 'Kanotix',
         'KIN' => 'KIN OS',
+        'KOL' => 'KolibriOS',
         'KNO' => 'Knoppix',
         'KTV' => 'KreaTV',
         'KBT' => 'Kubuntu',
@@ -260,6 +261,7 @@ class DeviceDetector
         'OS2' => 'OS/2',
         'T64' => 'OSF1',
         'OBS' => 'OpenBSD',
+        'OHS' => 'OpenHarmony',
         'OVS' => 'OpenVMS',
         'OVZ' => 'OpenVZ',
         'OWR' => 'OpenWrt',
@@ -350,7 +352,7 @@ class DeviceDetector
         'Android' => %w[
           AND CYN FIR REM RZD MLD MCD YNS GRI HAR
           ADR CLR BOS REV LEN SIR RRS WER PIC ARM
-          HEL BYI RIS PUF LEA MET
+          HEL BYI RIS PUF LEA MET OHS
         ],
         'AmigaOS' => %w[AMG MOR ARO],
         'BlackBerry' => %w[BLB QNX],
@@ -410,6 +412,7 @@ class DeviceDetector
       }.freeze
 
       LINEAGE_OS_VERSION_MAPPING = {
+        '16' => '23',
         '15' => '22',
         '14' => '21',
         '13' => '20.0',

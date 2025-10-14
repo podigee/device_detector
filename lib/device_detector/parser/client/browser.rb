@@ -296,6 +296,7 @@ class DeviceDetector
           'HE' => 'Helio',
           'HN' => 'Herond Browser',
           'HX' => 'Hexa Web Browser',
+          'H8' => 'HeyTapBrowser',
           'HI' => 'Hi Browser',
           'HO' => 'hola! Browser',
           'H4' => 'Holla Web Browser',
@@ -539,6 +540,8 @@ class DeviceDetector
           'QS' => 'Quick Browser',
           'QT' => 'Qutebrowser',
           'QU' => 'Quark',
+          'Q6' => 'QuarkPC',
+          'Q7' => 'Quetta',
           'QZ' => 'QupZilla',
           'QM' => 'Qwant Mobile',
           'Q5' => 'QtWeb',
@@ -776,8 +779,8 @@ class DeviceDetector
               short = '3B'
             end
 
-            if browser_from_ua[:version] && %w[A0 AL HP JR MU OM OP
-                                               VR].include?(short)
+            if browser_from_ua[:version] && %w['A0', 'AL', 'HP', 'JR', 'MU', 'OM', 'OP',
+                                               'VR'].include?(short)
               version = browser_from_ua[:version]
             end
 
@@ -801,8 +804,12 @@ class DeviceDetector
             # engine only 'if'
 
             # TODO: more detailed version detection here
-            # https://github.com/matomo-org/device-detector/blob/6.4.5/Parser/Client/Browser.php#L1040
-            # if browser_from_ua['version'] &&
+            # https://github.com/matomo-org/device-detector/blob/master/Parser/Client/Browser.php#L1044
+            if browser_from_ua['version'] && !browser_from_ua['version']&.empty? && browser_from_ua['version'][version] && satisfied_by_version(
+              "< #{version}", browser_from_ua[:version]
+            )
+              version = browser_from_ua[:version]
+            end
 
             version = '' if name == 'DuckDuckGo Privacy Browser'
 

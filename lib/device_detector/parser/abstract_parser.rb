@@ -202,9 +202,9 @@ class DeviceDetector
         definition
       end
 
-      def regex_from_user_agent_cache(key = nil, &block)
+      def regex_from_user_agent_cache(key = nil, &)
         key = "#{parser_name}_#{@user_agent}#{key}"
-        DeviceDetector.cache.get_or_set(key, &block)
+        DeviceDetector.cache.get_or_set(key, &)
       end
 
       def deep_symbolize_keys(obj)
@@ -219,6 +219,11 @@ class DeviceDetector
         else
           obj
         end
+      end
+
+      def satisfied_by_version(requirement_string, version)
+        requirement = Gem::Requirement.new(requirement_string)
+        requirement.satisfied_by?(Gem::Version.new(version))
       end
     end
   end

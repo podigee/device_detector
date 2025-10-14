@@ -13,3 +13,8 @@ gem 'rubocop', '>= 1.75'
 
 gem 'browser', require: false
 gem 'useragent', require: false
+
+gem 'bootsnap'
+gem 'parallel_rspec', require: false
+gem 'parallel', require: false
+gem 'oj', require: false

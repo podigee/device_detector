@@ -4,30 +4,32 @@ require_relative '../spec_helper'
 
 describe DeviceDetector do
   fixture_dir = File.expand_path('../fixtures/client', __dir__)
-  fixture_files = Dir["#{fixture_dir}/*.yml"]
+  fixtures = load_fixtures(Dir["#{fixture_dir}/*.yml"])
 
-  raise 'invalid fixture load path specified' if fixture_files.empty?
+  subject { described_class.new(user_agent, headers) }
 
-  fixture_files.each do |fixture_file|
-    describe File.basename(fixture_file) do
-      fixtures = YAML.load_file(fixture_file).first(40)
-      fixtures.each do |f|
-        user_agent = f['user_agent']
-        headers = f['headers']
+  fixtures.each do |f|
+    let(:user_agent) { f['user_agent'] }
+    let(:headers) { f['headers'] }
 
-        describe user_agent do
-          let(:client) do
-            DeviceDetector.new(user_agent, headers)
-          end
+    let(:client) { f['client'] }
+    let(:client_result) { subject.send(:client_result) }
 
-          it 'should be known' do
-            expect(client.known?).to eq(true)
-          end
+    describe f['user_agent'] do
+      it 'should be known' do
+        expect(subject.known?).to eq true
+      end
 
-          it 'should have the expected name' do
-            expect(client.name).to eq(f['client']['name'])
-          end
-        end
+      it 'should have expected name' do
+        expect(subject.name).to eq client['name']
+      end
+
+      it 'should have expected version' do
+        expect(subject.full_version).to eq client['version']
+      end
+
+      it 'should have expected type' do
+        expect(client_result[:type]).to eq client['type']
       end
     end
   end
