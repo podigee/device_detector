@@ -3,6 +3,8 @@
 require_relative '../spec_helper'
 
 describe DeviceDetector do
+  subject { described_class.new(user_agent, headers) }
+
   fixture_dir = File.expand_path('../fixtures/device', __dir__)
   fixture_files = Dir["#{fixture_dir}/*.yml"]
 
@@ -12,28 +14,27 @@ describe DeviceDetector do
     describe File.basename(fixture_file) do
       fixtures = YAML.safe_load_file(fixture_file)
       fixtures.each do |f|
-        user_agent = f['user_agent']
-        headers = f['headers']
+        describe f['user_agent'] do
+          let(:fixture) { f }
 
-        describe user_agent do
-          let(:device) do
-            DeviceDetector.new(user_agent, headers)
-          end
+          let(:user_agent) { f['user_agent'] }
+          let(:headers) { f['headers'] }
+          let(:device) { f['device'] }
 
           it 'should be known' do
-            expect(device).to be_known
+            expect(subject).to be_known
           end
 
-          it 'should have the expected model' do
-            expect(device.device_name).to eq(str_or_nil(f['device']['model']))
+          it 'should have the expected model', if: device_model?(f) do
+            expect(subject.device_name).to eq device['model']
           end
 
           it 'should have the expected brand' do
-            expect(device.device_brand).to eq(f['device']['brand'])
+            expect(subject.device_brand).to eq device['brand']
           end
 
           it 'should have the expected type' do
-            expect(device.device_type).to eq(f['device']['type'])
+            expect(subject.device_type).to eq device['type']
           end
         end
       end

@@ -3,7 +3,7 @@
 require_relative '../spec_helper'
 
 describe DeviceDetector::MemoryCache do
-  let(:subject) { DeviceDetector::MemoryCache.new(config) }
+  let(:subject) { described_class.new(config) }
 
   let(:config) { {} }
 
