@@ -943,7 +943,7 @@ class DeviceDetector
           {
             type: 'browser',
             name: name,
-            short_name: short,
+            # short_name: short,
             version: version,
             engine: engine,
             engine_version: engine_version,

@@ -12,21 +12,22 @@ describe DeviceDetector do
       let(:headers) { f['headers'] }
       let(:os) { f['os'] }
       let(:os_result) { subject.send(:os_result) }
+      let(:os) { normalize_fixture(f['os']) }
 
       it 'should have the expected OS name' do
-        expect(subject.os_name).to eq os['name']
+        expect(subject.os_name).to eq os[:name]
       end
 
       it 'should have the expected OS version', if: os_version?(f) do
-        expect(subject.os_full_version).to eq os['version']
+        expect(subject.os_full_version.to_s).to eq os[:version]
       end
 
       it 'should have the expected OS family' do
-        expect(subject.os_family).to eq os['family']
+        expect(subject.os_family).to eq os[:family]
       end
 
-      it 'should have the expected OS platform', if: os_platform?(f) do
-        expect(os_result[:platform]).to eq os['platform']
+      it 'should have OS data as in fixture' do
+        expect(os_result).to include(os)
       end
     end
   end

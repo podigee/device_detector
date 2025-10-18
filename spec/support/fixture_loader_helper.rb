@@ -12,10 +12,11 @@ module FixturesLoaderHelper
   end
 
   def load_fixtures(paths = '**/*.yml')
-    paths = "#{fixtures_dir}/#{paths}"
     file_list =
       case paths
-      when String then Dir.glob(paths)
+      when String
+        paths = "#{fixtures_dir}/#{paths}"
+        Dir.glob(paths)
       when Array then paths
       else
         raise ArgumentError, "Expected String or Array, got #{paths.class}"

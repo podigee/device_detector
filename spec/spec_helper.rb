@@ -120,6 +120,7 @@ RSpec.configure do |config|
 
   # Include matcher helpers
   config.include MatcherHelper
+  config.include FixtureNormalizerHelper
 
   # Extend class helpers
   config.extend ConditionalHelper

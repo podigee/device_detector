@@ -16,8 +16,8 @@ describe DeviceDetector do
         expect(subject).to be_known
       end
 
-      it 'should have the expected model', if: device_model?(f) do
-        expect(subject.device_name).to eq device['model']
+      it 'should have the expected model' do
+        expect(subject.device_name.to_s).to eq device['model']
       end
 
       it 'should have the expected brand' do
