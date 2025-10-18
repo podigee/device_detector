@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 module ConditionalHelper
   def client_engine?(fixture)
     extract_and_check(fixture, 'client', 'engine')

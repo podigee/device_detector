@@ -2,9 +2,12 @@
 
 require 'rake'
 require 'rake/testtask'
+require 'rspec/core/rake_task'
 
 $LOAD_PATH.unshift 'lib'
 require 'device_detector'
+
+RSpec::Core::RakeTask.new(:spec)
 
 desc 'generate detectable names output for README'
 task :detectable_names do

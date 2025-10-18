@@ -1,9 +1,7 @@
 # frozen_string_literal: true
 
-require_relative '../spec_helper'
-
 describe DeviceDetector::MemoryCache do
-  let(:subject) { described_class.new(config) }
+  subject { described_class.new(config) }
 
   let(:config) { {} }
 

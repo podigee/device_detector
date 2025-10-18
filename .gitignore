@@ -1,3 +1,4 @@
+.DS_Store
 /.bundle/
 /.yardoc
 /Gemfile.lock
@@ -7,6 +8,7 @@
 /pkg/
 /spec/reports/
 /tmp/
+!tmp/.gitkeep
 *.bundle
 *.so
 *.o

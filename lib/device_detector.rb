@@ -4,7 +4,6 @@ require 'yaml'
 
 require 'device_detector/version'
 require 'device_detector/memory_cache'
-
 require 'device_detector/client_hint'
 
 require 'device_detector/parser/abstract_parser'
@@ -38,6 +37,14 @@ class DeviceDetector
   private_constant :REGEX_CACHE
 
   attr_reader :client_hint, :user_agent
+
+  def self.root
+    @root ||= File.expand_path('..', __dir__)
+  end
+
+  def self.regexes_dir
+    File.join(root, 'regexes')
+  end
 
   def initialize(user_agent = nil, headers = nil)
     @parsers = {}

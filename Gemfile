@@ -10,6 +10,9 @@ gem 'byebug'
 gem 'rake'
 gem 'rspec'
 gem 'rubocop', '>= 1.75'
+gem 'rubocop-rspec'
+gem 'bootsnap'
+gem 'oj'
 
 gem 'browser', require: false
 gem 'useragent', require: false

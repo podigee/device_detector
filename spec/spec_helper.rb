@@ -15,15 +15,25 @@
 # it.
 #
 # See https://rubydoc.info/gems/rspec-core/RSpec/Core/Configuration
-$:.unshift(File.expand_path('../lib', __dir__))
-require 'device_detector'
 
+require 'bootsnap'
+
+BOOTSNAP_CACHE_DIR = File.expand_path('../tmp', __dir__)
+
+Bootsnap.setup(
+  cache_dir: BOOTSNAP_CACHE_DIR,
+  development_mode: true,
+  load_path_cache: true,
+  compile_cache_iseq: true,
+  compile_cache_yaml: true
+)
+
+$LOAD_PATH.unshift(File.expand_path('../lib', __dir__))
+require 'device_detector'
 require 'byebug'
 
 helpers_dir = File.expand_path('./support', __dir__)
 Dir["#{helpers_dir}/**/*.rb"].each { |helper_file| require helper_file }
-
-include ConditionalHelper
 
 RSpec.configure do |config|
   config.example_status_persistence_file_path = 'tmp/rspec-status.file'
@@ -84,12 +94,12 @@ RSpec.configure do |config|
   # Many RSpec users commonly either run the entire suite or an individual
   # file, and it's useful to allow more verbose output when running an
   # individual spec file.
-  if config.files_to_run.one?
-    # Use the documentation formatter for detailed output,
-    # unless a formatter has already been configured
-    # (e.g. via a command-line flag).
-    config.default_formatter = "doc"
-  end
+  # if config.files_to_run.one?
+  #   # Use the documentation formatter for detailed output,
+  #   # unless a formatter has already been configured
+  #   # (e.g. via a command-line flag).
+  #   config.default_formatter = "doc"
+  # end
 
   # Print the 10 slowest examples and example groups at the
   # end of the spec run, to help surface which specs are running
@@ -108,6 +118,10 @@ RSpec.configure do |config|
   # as the one that triggered the failure.
   Kernel.srand config.seed
 
-  # Include match helpers
+  # Include matcher helpers
   config.include MatcherHelper
+
+  # Extend class helpers
+  config.extend ConditionalHelper
+  config.extend FixturesLoaderHelper
 end
