@@ -5,6 +5,10 @@ module ConditionalHelper
     extract_and_check(fixture, 'client', 'engine')
   end
 
+  def client_engine_version?(fixture)
+    extract_and_check(fixture, 'client', 'engine_version')
+  end
+
   def client_family?(fixture)
     extract_and_check(fixture, 'client', 'family')
   end

@@ -26,10 +26,7 @@ class DeviceDetector
       protected
 
       def empty?(var)
-        return true if var.nil?
-        return true if var.empty?
-
-        false
+        var.to_s.empty?
       end
 
       def fuzzy_compare(val1, val2)
@@ -40,9 +37,7 @@ class DeviceDetector
         return unless version_string
 
         version_string = build_by_match(version_string, matches)
-        version_string = version_string.gsub('_', '.')
-
-        version_string.strip.sub(/^(\.+)/, '').sub(/(\.+)$/, '')
+        version_string.gsub('_', '.').chomp('.')
       end
 
       def build_by_match(item, matches)
@@ -219,6 +214,13 @@ class DeviceDetector
         else
           obj
         end
+      end
+
+      def satisfied_by_version?(requirement_string, version)
+        requirement = Gem::Requirement.new(requirement_string)
+        requirement.satisfied_by?(Gem::Version.new(version))
+      rescue Gem::Requirement::BadRequirementError
+        true
       end
     end
   end

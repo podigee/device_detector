@@ -16,6 +16,8 @@ require 'device_detector/parser/client/mobile_app'
 require 'device_detector/parser/client/media_player'
 require 'device_detector/parser/client/pim'
 require 'device_detector/parser/client/browser'
+require 'device_detector/parser/client/browser_module/engine'
+require 'device_detector/parser/client/browser_module/engine/version'
 require 'device_detector/parser/client/library'
 require 'device_detector/parser/device/abstract_device_parser'
 require 'device_detector/parser/device/hbb_tv'
@@ -437,9 +439,7 @@ class DeviceDetector
   end
 
   def presence(var)
-    return nil if var.nil?
-    return nil if var.empty?
-    return nil if var == ''
+    return nil if var.to_s.empty?
 
     var
   end

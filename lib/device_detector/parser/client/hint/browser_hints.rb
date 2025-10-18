@@ -17,11 +17,9 @@ class DeviceDetector
             return nil unless @client_hints
 
             app_id = @client_hints.app
-
             return nil if app_id.nil?
 
             name = regexes[app_id]
-
             return nil if name == ''
 
             { name: name }

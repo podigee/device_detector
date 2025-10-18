@@ -3506,7 +3506,7 @@
     type: browser
     name: Maxthon
     version: "3.0"
-    engine: WebKit
+    engine: Trident
     engine_version: ""
   device:
     type: desktop

@@ -5,7 +5,7 @@ describe DeviceDetector do
 
   fixtures = load_fixtures('detector/*.yml')
   fixtures.each do |f|
-    describe f['user_agent'] do
+    describe [f['user_agent'], f['headers']].compact.join(' / ') do
       let(:user_agent) { f['user_agent'] }
       let(:headers) { f['headers'] }
       let(:bot) { f['bot'] }
@@ -30,8 +30,20 @@ describe DeviceDetector do
           expect(subject.name).to eq client['name']
         end
 
-        it 'should detect client short name' do
-          expect(client_result['short_name']).to eq client['short_name']
+        it 'should have expected version', if: client_version?(f) do
+          expect(subject.full_version).to eq client['version'].to_s
+        end
+
+        it 'should have expected type' do
+          expect(client_result[:type]).to eq client['type']
+        end
+
+        it 'should have expected engine', if: client_engine?(f) do
+          expect(client_result[:engine]).to eq client['engine']
+        end
+
+        it 'should have expected engine version', if: client_engine_version?(f) do
+          expect(client_result[:engine_version]).to eq client['engine_version']
         end
       end
 

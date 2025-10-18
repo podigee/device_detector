@@ -5,7 +5,7 @@ describe DeviceDetector do
 
   fixtures = load_fixtures('parser/oss.yml')
   fixtures.each do |f|
-    describe f['user_agent'] do
+    describe [f['user_agent'], f['headers']].compact.join(' / ') do
       let(:fixture) { f }
 
       let(:user_agent) { f['user_agent'] }
