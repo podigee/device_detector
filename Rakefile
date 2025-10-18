@@ -45,14 +45,14 @@ task :detectable_names do
 end
 
 MATOMO_REPO_URL = 'https://github.com/matomo-org/device-detector'
-MATOMO_REPO_TAG = '6.4.6'
+MATOMO_COMMIT_SHA = '90b44522b16637dcc95e87bd70b3f47a42c50fbe'
 MATOMO_CHECKOUT_LOCATION = '/tmp/matomo_device_detector'
 
 def matomo_checkout!
   if File.exist?(MATOMO_CHECKOUT_LOCATION)
-    system "cd #{MATOMO_CHECKOUT_LOCATION}; git fetch origin; git reset --hard #{MATOMO_REPO_TAG}"
+    system "cd #{MATOMO_CHECKOUT_LOCATION}; git fetch origin; git reset --hard #{MATOMO_COMMIT_SHA}"
   else
-    system "git clone --depth 100 #{MATOMO_REPO_URL} -b #{MATOMO_REPO_TAG} #{MATOMO_CHECKOUT_LOCATION}"
+    system "git clone --depth 100 #{MATOMO_REPO_URL} --revision=#{MATOMO_COMMIT_SHA} #{MATOMO_CHECKOUT_LOCATION}"
   end
 end
 
