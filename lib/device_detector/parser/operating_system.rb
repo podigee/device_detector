@@ -135,7 +135,7 @@ class DeviceDetector
       protected
 
       def fixture_file
-        'regexes/oss.yml'
+        'oss.yml'
       end
 
       def parser_name

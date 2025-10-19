@@ -42,7 +42,7 @@ class DeviceDetector
           protected
 
           def fixture_file
-            'regexes/client/browser_engine.yml'
+            'client/browser_engine.yml'
           end
 
           def parser_name

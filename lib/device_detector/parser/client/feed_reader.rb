@@ -7,7 +7,7 @@ class DeviceDetector
         protected
 
         def fixture_file
-          'regexes/client/feed_readers.yml'
+          'client/feed_readers.yml'
         end
 
         def parser_name

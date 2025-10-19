@@ -6,7 +6,7 @@ class DeviceDetector
       module Hint
         class AppHints < AbstractParser
           def fixture_file
-            'regexes/client/hints/apps.yml'
+            'client/hints/apps.yml'
           end
 
           def parser_name

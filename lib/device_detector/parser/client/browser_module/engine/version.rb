@@ -15,7 +15,7 @@ class DeviceDetector
           end
 
           def parse
-            return {} if engine&.empty?
+            return {} if engine && engine.empty?
 
             if %w[Gecko Clecko].include?(engine)
               pattern = %r{rv[: ]([0-9]+(?:\.[0-9]+)*)(?:[a-z]\d*)?.*(?:g|cl)ecko/[0-9]{8,10}}i

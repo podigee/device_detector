@@ -877,7 +877,9 @@ class DeviceDetector
 
             # TODO: more detailed version detection here
             # https://github.com/matomo-org/device-detector/blob/master/Parser/Client/Browser.php#L1044
-            if browser_from_ua[:version] && !browser_from_ua[:version]&.empty? && browser_from_ua[:version].include?(version.to_s) && satisfied_by_version?(">= #{version}", browser_from_ua[:version])
+            if browser_from_ua[:version] && !browser_from_ua[:version]&.empty? && browser_from_ua[:version].include?(version.to_s) && satisfied_by_version?(
+              ">= #{version}", browser_from_ua[:version]
+            )
 
               version = browser_from_ua[:version]
             end
@@ -918,7 +920,9 @@ class DeviceDetector
               end
             end
 
-            raise "Detected browser name '#{name}' was not found in AVAILABLE_BROWSERS. Tried to parse user agent: #{@user_agent}" if short.nil?
+            if short.nil?
+              raise "Detected browser name '#{name}' was not found in AVAILABLE_BROWSERS. Tried to parse user agent: #{@user_agent}"
+            end
           end
 
           return nil if (name.nil? || name == '') || @user_agent.match?(/Cypress|PhantomJS/)
@@ -1035,7 +1039,8 @@ class DeviceDetector
 
           if engine_data[:versions]
             engine_data[:versions].each do |version, version_engine|
-              engine = version_engine if !empty?(version) && satisfied_by_version?("> #{version}", browser_version)
+              engine = version_engine if !empty?(version) && satisfied_by_version?("> #{version}",
+                                                                                   browser_version)
             end
           end
 
@@ -1051,7 +1056,7 @@ class DeviceDetector
         end
 
         def more_detailed_version(*versions)
-          versions.compact.inject do|result, version|
+          versions.compact.inject do |result, version|
             version.to_s.split('.').size > result.to_s.split('.').size ? version : result
           end
         end
@@ -1070,7 +1075,7 @@ class DeviceDetector
         end
 
         def fixture_file
-          'regexes/client/browsers.yml'
+          'client/browsers.yml'
         end
 
         def parser_name

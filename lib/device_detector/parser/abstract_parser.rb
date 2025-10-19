@@ -102,6 +102,10 @@ class DeviceDetector
         ''
       end
 
+      def fixture_path
+        File.join(DeviceDetector.regexes_dir, fixture_file)
+      end
+
       def parser_name
         ''
       end
@@ -122,7 +126,7 @@ class DeviceDetector
 
       def load_regexes
         REGEX_CACHE.get_or_set(fixture_file) do
-          YAML.safe_load_file(fixture_file,
+          YAML.safe_load_file(fixture_path,
                               permitted_classes: [String, Integer, NilClass, Array, Hash])
         end
       end
@@ -197,9 +201,9 @@ class DeviceDetector
         definition
       end
 
-      def regex_from_user_agent_cache(key = nil, &block)
+      def regex_from_user_agent_cache(key = nil, &)
         key = "#{parser_name}_#{@user_agent}#{key}"
-        DeviceDetector.cache.get_or_set(key, &block)
+        DeviceDetector.cache.get_or_set(key, &)
       end
 
       def deep_symbolize_keys(obj)

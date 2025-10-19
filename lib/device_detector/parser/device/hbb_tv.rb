@@ -22,7 +22,7 @@ class DeviceDetector
         protected
 
         def fixture_file
-          'regexes/device/televisions.yml'
+          'device/televisions.yml'
         end
 
         def parser_name

@@ -6,7 +6,7 @@ class DeviceDetector
       module Hint
         class BrowserHints < AbstractParser
           def fixture_file
-            'regexes/client/hints/browsers.yml'
+            'client/hints/browsers.yml'
           end
 
           def parser_name

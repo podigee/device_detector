@@ -13,7 +13,7 @@ class DeviceDetector
         protected
 
         def fixture_file
-          'regexes/device/portable_media_player.yml'
+          'device/portable_media_player.yml'
         end
 
         def parser_name

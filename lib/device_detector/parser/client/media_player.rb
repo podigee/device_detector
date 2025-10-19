@@ -7,7 +7,7 @@ class DeviceDetector
         protected
 
         def fixture_file
-          'regexes/client/mediaplayers.yml'
+          'client/mediaplayers.yml'
         end
 
         def parser_name
