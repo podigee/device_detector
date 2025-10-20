@@ -2,9 +2,13 @@
 
 require 'rake'
 require 'rake/testtask'
+require 'rspec/core/rake_task'
+require 'parallel_tests'
 
 $LOAD_PATH.unshift 'lib'
 require 'device_detector'
+
+RSpec::Core::RakeTask.new(:spec)
 
 desc 'generate detectable names output for README'
 task :detectable_names do
@@ -42,14 +46,14 @@ task :detectable_names do
 end
 
 MATOMO_REPO_URL = 'https://github.com/matomo-org/device-detector'
-MATOMO_REPO_TAG = '6.4.6'
+MATOMO_COMMIT_SHA = '1b521fb382873602ea5d3fed582a7c9d72afbd6f'
 MATOMO_CHECKOUT_LOCATION = '/tmp/matomo_device_detector'
 
 def matomo_checkout!
   if File.exist?(MATOMO_CHECKOUT_LOCATION)
-    system "cd #{MATOMO_CHECKOUT_LOCATION}; git fetch origin; git reset --hard #{MATOMO_REPO_TAG}"
+    system "cd #{MATOMO_CHECKOUT_LOCATION}; git fetch origin; git reset --hard #{MATOMO_COMMIT_SHA}"
   else
-    system "git clone --depth 100 #{MATOMO_REPO_URL} -b #{MATOMO_REPO_TAG} #{MATOMO_CHECKOUT_LOCATION}"
+    system "git clone --depth 100 #{MATOMO_REPO_URL} --revision=#{MATOMO_COMMIT_SHA} #{MATOMO_CHECKOUT_LOCATION}"
   end
 end
 

@@ -1,9 +1,7 @@
 # frozen_string_literal: true
 
-require_relative '../spec_helper'
-
 describe DeviceDetector do
-  subject { DeviceDetector.new(user_agent) }
+  subject { described_class.new(user_agent) }
 
   alias_method :device, :subject
 

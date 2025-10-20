@@ -7,7 +7,7 @@ class DeviceDetector
         protected
 
         def fixture_file
-          'regexes/client/pim.yml'
+          'client/pim.yml'
         end
 
         def parser_name

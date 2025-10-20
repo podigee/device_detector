@@ -18,7 +18,7 @@ class DeviceDetector
       protected
 
       def fixture_file
-        'regexes/bots.yml'
+        'bots.yml'
       end
 
       def parser_name

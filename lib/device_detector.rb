@@ -4,7 +4,6 @@ require 'yaml'
 
 require 'device_detector/version'
 require 'device_detector/memory_cache'
-
 require 'device_detector/client_hint'
 
 require 'device_detector/parser/abstract_parser'
@@ -17,6 +16,8 @@ require 'device_detector/parser/client/mobile_app'
 require 'device_detector/parser/client/media_player'
 require 'device_detector/parser/client/pim'
 require 'device_detector/parser/client/browser'
+require 'device_detector/parser/client/browser_module/engine'
+require 'device_detector/parser/client/browser_module/engine/version'
 require 'device_detector/parser/client/library'
 require 'device_detector/parser/device/abstract_device_parser'
 require 'device_detector/parser/device/hbb_tv'
@@ -37,6 +38,38 @@ class DeviceDetector
   REGEX_CACHE = ::DeviceDetector::MemoryCache.new({})
   private_constant :REGEX_CACHE
 
+  class << self
+    @@parser_classes = [
+      Parser::Client::FeedReader,
+      Parser::Client::MobileApp,
+      Parser::Client::MediaPlayer,
+      Parser::Client::Pim,
+      Parser::Client::Browser,
+      Parser::Client::Library,
+      Parser::Device::HbbTv,
+      Parser::Device::ShellTv,
+      Parser::Device::Notebook,
+      Parser::Device::Console,
+      Parser::Device::CarBrowser,
+      Parser::Device::Camera,
+      Parser::Device::PortableMediaPlayer,
+      Parser::Device::Mobile,
+      Parser::Bot
+    ]
+
+    def root
+      @root ||= File.expand_path('..', __dir__)
+    end
+
+    def regexes_dir
+      @regexes_dir ||= File.join(root, 'regexes')
+    end
+
+    def parser_classes
+      @@parser_classes
+    end
+  end
+
   attr_reader :client_hint, :user_agent
 
   def initialize(user_agent = nil, headers = nil)
@@ -45,23 +78,9 @@ class DeviceDetector
     @vendor_fragment_parser = DeviceDetector::Parser::VendorFragment.new
     @operating_system_parser = DeviceDetector::Parser::OperatingSystem.new
 
-    add_parser(Parser::Client::FeedReader.new)
-    add_parser(Parser::Client::MobileApp.new)
-    add_parser(Parser::Client::MediaPlayer.new)
-    add_parser(Parser::Client::Pim.new)
-    add_parser(Parser::Client::Browser.new)
-    add_parser(Parser::Client::Library.new)
-
-    add_parser(Parser::Device::HbbTv.new)
-    add_parser(Parser::Device::ShellTv.new)
-    add_parser(Parser::Device::Notebook.new)
-    add_parser(Parser::Device::Console.new)
-    add_parser(Parser::Device::CarBrowser.new)
-    add_parser(Parser::Device::Camera.new)
-    add_parser(Parser::Device::PortableMediaPlayer.new)
-    add_parser(Parser::Device::Mobile.new)
-
-    add_parser(Parser::Bot.new)
+    self.class.parser_classes.each do |klass|
+      add_parser(klass.new)
+    end
 
     use(user_agent, headers) if user_agent || headers
   end
@@ -126,9 +145,7 @@ class DeviceDetector
       attr_accessor :max_cache_keys
 
       def to_hash
-        {
-          max_cache_keys: max_cache_keys
-        }
+        { max_cache_keys: max_cache_keys }
       end
     end
 
@@ -138,6 +155,10 @@ class DeviceDetector
 
     def cache
       @cache ||= MemoryCache.new(config.to_hash)
+    end
+
+    def reset_cache!
+      @cache = MemoryCache.new(config.to_hash)
     end
 
     def configure
@@ -430,9 +451,7 @@ class DeviceDetector
   end
 
   def presence(var)
-    return nil if var.nil?
-    return nil if var.empty?
-    return nil if var == ''
+    return nil if var.to_s.empty?
 
     var
   end

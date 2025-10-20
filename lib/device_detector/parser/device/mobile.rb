@@ -7,7 +7,7 @@ class DeviceDetector
         protected
 
         def fixture_file
-          'regexes/device/mobiles.yml'
+          'device/mobiles.yml'
         end
 
         def parser_name

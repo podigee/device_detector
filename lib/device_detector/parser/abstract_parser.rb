@@ -3,10 +3,28 @@
 class DeviceDetector
   module Parser
     class AbstractParser
-      # overriden
-      def self.client_hint_mapping
-        {}
+      class << self
+        # overriden
+        def client_hint_mapping
+          {}
+        end
+
+        def add_fixture_path(path)
+          @custom_fixture_paths = (custom_fixture_paths << path).uniq
+          REGEX_CACHE.purge!
+        end
+
+        def custom_fixture_paths
+          @custom_fixture_paths ||= []
+        end
+
+        def reset_custom_fixtures!
+          @custom_fixture_paths = []
+          REGEX_CACHE.purge!
+        end
       end
+
+      attr_writer :user_agent, :client_hints
 
       REGEX_CACHE = ::DeviceDetector::MemoryCache.new({})
       private_constant :REGEX_CACHE
@@ -21,15 +39,10 @@ class DeviceDetector
         @client_hints = hints
       end
 
-      attr_writer :user_agent, :client_hints
-
       protected
 
       def empty?(var)
-        return true if var.nil?
-        return true if var.empty?
-
-        false
+        var.to_s.empty?
       end
 
       def fuzzy_compare(val1, val2)
@@ -40,9 +53,7 @@ class DeviceDetector
         return unless version_string
 
         version_string = build_by_match(version_string, matches)
-        version_string = version_string.gsub('_', '.')
-
-        version_string.strip.sub(/^(\.+)/, '').sub(/(\.+)$/, '')
+        version_string.gsub('_', '.').chomp('.')
       end
 
       def build_by_match(item, matches)
@@ -107,6 +118,10 @@ class DeviceDetector
         ''
       end
 
+      def fixture_paths
+        ([File.join(DeviceDetector.regexes_dir, fixture_file)] + self.class.custom_fixture_paths).uniq.compact
+      end
+
       def parser_name
         ''
       end
@@ -125,10 +140,29 @@ class DeviceDetector
         end
       end
 
+      def load_regex_file(path)
+        YAML.safe_load_file(path, permitted_classes: [String, Integer, NilClass, Array, Hash])
+      rescue Errno::ENOENT
+        warn "[#{self.class}] Fixture file not found: #{path}"
+        nil
+      end
+
       def load_regexes
         REGEX_CACHE.get_or_set(fixture_file) do
-          YAML.safe_load_file(fixture_file,
-                              permitted_classes: [String, Integer, NilClass, Array, Hash])
+          result = nil
+          fixture_paths.each do |fixture_path|
+            next unless File.file?(fixture_path)
+
+            result =  case result
+                      when Array
+                        result + load_regex_file(fixture_path)
+                      when Hash
+                        result.merge(load_regex_file(fixture_path))
+                      else
+                        load_regex_file(fixture_path) || result
+                      end
+          end
+          result
         end
       end
 
@@ -202,9 +236,9 @@ class DeviceDetector
         definition
       end
 
-      def regex_from_user_agent_cache(key = nil, &block)
+      def regex_from_user_agent_cache(key = nil, &)
         key = "#{parser_name}_#{@user_agent}#{key}"
-        DeviceDetector.cache.get_or_set(key, &block)
+        DeviceDetector.cache.get_or_set(key, &)
       end
 
       def deep_symbolize_keys(obj)
@@ -219,6 +253,13 @@ class DeviceDetector
         else
           obj
         end
+      end
+
+      def satisfied_by_version?(requirement_string, version)
+        requirement = Gem::Requirement.new(requirement_string)
+        requirement.satisfied_by?(Gem::Version.new(version))
+      rescue Gem::Requirement::BadRequirementError
+        true
       end
     end
   end

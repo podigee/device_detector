@@ -1,11 +1,57 @@
 # frozen_string_literal: true
 
-require_relative 'spec_helper'
-
 describe DeviceDetector do
-  subject { DeviceDetector.new(user_agent) }
+  subject { described_class.new(user_agent) }
 
   alias_method :client, :subject
+
+  describe '.root' do
+    it 'returns gem root directory' do
+      expect(described_class.root).to eq File.expand_path('..', __dir__)
+    end
+  end
+
+  describe '.regexes_dir' do
+    it 'returns gem regexes directory' do
+      expect(described_class.regexes_dir).to eq File.expand_path('../regexes', __dir__)
+    end
+  end
+
+  describe '.parser_classes' do
+    let(:parser_classes) do
+      [
+        described_class::Parser::Client::FeedReader,
+        described_class::Parser::Client::MobileApp,
+        described_class::Parser::Client::MediaPlayer,
+        described_class::Parser::Client::Pim,
+        described_class::Parser::Client::Browser,
+        described_class::Parser::Client::Library,
+        described_class::Parser::Device::HbbTv,
+        described_class::Parser::Device::ShellTv,
+        described_class::Parser::Device::Notebook,
+        described_class::Parser::Device::Console,
+        described_class::Parser::Device::CarBrowser,
+        described_class::Parser::Device::Camera,
+        described_class::Parser::Device::PortableMediaPlayer,
+        described_class::Parser::Device::Mobile,
+        described_class::Parser::Bot
+      ]
+    end
+
+    it 'returns parser classes' do
+      expect(described_class.parser_classes).to eq parser_classes
+    end
+  end
+
+  describe '.reset_cache!' do
+    before { subject.name }
+
+    let(:user_agent) { 'AnyAgent/1.2.3 '}
+
+    it 'resets cache' do
+      expect { described_class.reset_cache! }.to change { described_class.cache.data.size }.to(0)
+    end
+  end
 
   describe 'known user agent' do
     describe 'desktop chrome browser' do
@@ -45,13 +91,13 @@ describe DeviceDetector do
 
       describe '#known?' do
         it 'returns true' do
-          expect(client.known?).to eq true
+          expect(client.known?).to be true
         end
       end
 
       describe '#bot?' do
         it 'returns false' do
-          expect(client.bot?).to eq false
+          expect(client.bot?).to be false
         end
       end
 
@@ -126,13 +172,13 @@ describe DeviceDetector do
 
     describe '#known?' do
       it 'returns false' do
-        expect(client.known?).to eq false
+        expect(client.known?).to be false
       end
     end
 
     describe '#bot?' do
       it 'returns false' do
-        expect(client.bot?).to eq false
+        expect(client.bot?).to be false
       end
     end
 
@@ -172,13 +218,13 @@ describe DeviceDetector do
 
     describe '#known?' do
       it 'returns false' do
-        expect(client.known?).to eq false
+        expect(client.known?).to be false
       end
     end
 
     describe '#bot?' do
       it 'returns false' do
-        expect(client.bot?).to eq false
+        expect(client.bot?).to be false
       end
     end
 
@@ -218,13 +264,13 @@ describe DeviceDetector do
 
     describe '#known?' do
       it 'returns false' do
-        expect(client.known?).to eq false
+        expect(client.known?).to be false
       end
     end
 
     describe '#bot?' do
       it 'returns false' do
-        expect(client.bot?).to eq false
+        expect(client.bot?).to be false
       end
     end
 
@@ -264,13 +310,13 @@ describe DeviceDetector do
 
     describe '#known?' do
       it 'returns false' do
-        expect(client.known?).to eq false
+        expect(client.known?).to be false
       end
     end
 
     describe '#bot?' do
       it 'returns true' do
-        expect(client.bot?).to eq true
+        expect(client.bot?).to be true
       end
     end
 

@@ -125,7 +125,7 @@ class DeviceDetector
           family: family
         }
 
-        if OPERATING_SYSTEMS.key?(result[:name])
+        if OPERATING_SYSTEMS.value?(result[:name])
           result[:short_name], result[:name] = short_os_data(result[:name])
         end
 
@@ -135,7 +135,7 @@ class DeviceDetector
       protected
 
       def fixture_file
-        'regexes/oss.yml'
+        'oss.yml'
       end
 
       def parser_name
@@ -223,6 +223,7 @@ class DeviceDetector
         'KAL' => 'Kali',
         'KAN' => 'Kanotix',
         'KIN' => 'KIN OS',
+        'KOL' => 'KolibriOS',
         'KNO' => 'Knoppix',
         'KTV' => 'KreaTV',
         'KBT' => 'Kubuntu',
@@ -260,6 +261,7 @@ class DeviceDetector
         'OS2' => 'OS/2',
         'T64' => 'OSF1',
         'OBS' => 'OpenBSD',
+        'OHS' => 'OpenHarmony',
         'OVS' => 'OpenVMS',
         'OVZ' => 'OpenVZ',
         'OWR' => 'OpenWrt',
@@ -350,7 +352,7 @@ class DeviceDetector
         'Android' => %w[
           AND CYN FIR REM RZD MLD MCD YNS GRI HAR
           ADR CLR BOS REV LEN SIR RRS WER PIC ARM
-          HEL BYI RIS PUF LEA MET
+          HEL BYI RIS PUF LEA MET OHS
         ],
         'AmigaOS' => %w[AMG MOR ARO],
         'BlackBerry' => %w[BLB QNX],
@@ -377,7 +379,7 @@ class DeviceDetector
         'Mac' => ['MAC'],
         'Mobile Gaming Console' => %w[PSP NDS XBX],
         'OpenVMS' => ['OVS'],
-        'Real-time OS' => %w[MTK TDX MRE JME REX RXT],
+        'Real-time OS' => %w[MTK TDX MRE JME REX RXT KOL],
         'Other Mobile' => %w[WOS POS SBA TIZ SMG MAE LUN GEO],
         'Symbian' => %w[SYM SYS SY3 S60 S40],
         'Unix' => %w[
@@ -410,6 +412,7 @@ class DeviceDetector
       }.freeze
 
       LINEAGE_OS_VERSION_MAPPING = {
+        '16' => '23',
         '15' => '22',
         '14' => '21',
         '13' => '20.0',

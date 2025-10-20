@@ -29,7 +29,7 @@ class DeviceDetector
       end
 
       def fixture_file
-        'regexes/vendorfragments.yml'
+        'vendorfragments.yml'
       end
 
       def parser_name

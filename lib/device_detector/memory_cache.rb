@@ -39,6 +39,10 @@ class DeviceDetector
       set(string_key, value)
     end
 
+    def purge!
+      @data = {}
+    end
+
     private
 
     def get_hit(key)

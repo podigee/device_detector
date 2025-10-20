@@ -8,12 +8,15 @@ class DeviceDetector
       class Browser < AbstractClientParser
         def initialize
           super
-          @browser_hints = DeviceDetector::Parser::Client::Hint::BrowserHints.new
+          @browser_hints = Hint::BrowserHints.new
+          @engine_parser = BrowserModule::Engine.new
+          @engine_version_parser = BrowserModule::EngineVersion.new
         end
 
         def use(uas, hints)
           super
           @browser_hints.use(uas, hints)
+          @engine_parser.use(uas, hints)
         end
 
         def self.client_hint_mapping
@@ -296,6 +299,7 @@ class DeviceDetector
           'HE' => 'Helio',
           'HN' => 'Herond Browser',
           'HX' => 'Hexa Web Browser',
+          'H8' => 'HeyTapBrowser',
           'HI' => 'Hi Browser',
           'HO' => 'hola! Browser',
           'H4' => 'Holla Web Browser',
@@ -515,7 +519,7 @@ class DeviceDetector
           'BP' => 'Privacy Browser',
           'PI' => 'PrivacyWall',
           'P4' => 'Privacy Explorer Fast Safe',
-          'X5' => 'Privacy Pioneer Browser',
+          'X5' => 'Cloak Private Browser',
           'P3' => 'Private Internet Browser',
           'P5' => 'Proxy Browser',
           '7P' => 'Proxyium',
@@ -539,6 +543,8 @@ class DeviceDetector
           'QS' => 'Quick Browser',
           'QT' => 'Qutebrowser',
           'QU' => 'Quark',
+          'Q6' => 'QuarkPC',
+          'Q7' => 'Quetta',
           'QZ' => 'QupZilla',
           'QM' => 'Qwant Mobile',
           'Q5' => 'QtWeb',
@@ -728,6 +734,65 @@ class DeviceDetector
           h[long.downcase] = short
         end.freeze
 
+        # https://github.com/matomo-org/device-detector/blob/master/Parser/Client/Browser.php#L742
+        BROWSER_FAMILIES = {
+          'Android Browser' => ['AN'],
+          'BlackBerry Browser' => ['BB'],
+          'Baidu' => %w[BD BS H6],
+          'Amiga' => %w[AV AW],
+          'Chrome' => %w[
+            CH 2B 7S A0 AC A4 AE AH AI
+            AO AS BA BM BR C2 C3 C5 C4
+            C6 CC CD CE CF CG 1B CI CL
+            CM CN CP CR CV CW DA DD DG
+            DR EC EE EU EW FA FS GB GI
+            H2 HA HE HH HS I3 IR JB KN
+            KW LF LL LO M1 MA MD MR MS
+            MT MZ NM NR O0 O2 O3 OC PB
+            PT QU QW RM S4 S6 S8 S9 SB
+            SG SS SU SV SW SY SZ T1 TA
+            TB TG TR TS TU TV UB UR VE
+            VG VI VM WP WH XV YJ YN FH
+            B1 BO HB PC LA LT PD HR HU
+            HP IO TP CJ HQ HI PN BW YO
+            DC G8 DT AP AK UI SD VN 4S
+            2S RF LR SQ BV L1 F0 KS V0
+            C8 AZ MM BT N0 P0 F3 VS DU
+            D0 P1 O4 8S H3 TE WB K1 P2
+            XO U0 B0 VA X0 NX O5 R1 I1
+            HO A5 X1 18 B5 B6 TC A6 2X
+            F4 YG WR NA DM 1M A7 XN XT
+            XB W1 HT B8 F5 B9 WA T0 HC
+            O6 P7 LJ LC O7 N2 A8 P8 RB
+            1W EV I9 V4 H4 1T M5 0S 0C
+            ZR D6 F6 RC WD P3 FT A9 X2
+            N3 GD O9 Q3 F7 K2 P5 H5 V3
+            K3 Q4 G2 R2 WX XP 3I BG R0
+            JO OL GN W4 QI E1 RI 8B 5B
+            K4 WK T3 K5 MU 9P K6 VR N9
+            M9 F9 0P 0A JR D3 TK BP 2F
+            2M K7 1N 8A H7 X3 T4 X4 5O
+            8C 3M 6I 2P PU 7I X5 AL 3P
+            W2 ZB HN Q6 Q7 H8
+          ],
+          'Firefox' => %w[
+            FF BI BF BH BN C0 CU EI F1
+            FB FE AX FM FR FY I4 IF 8P
+            IW LH LY MB MN MO MY OA OS
+            PI PX QA S5 SX TF TO WF ZV
+            FP AD 2I P9 KJ WY VK W5
+            7C N7 W7
+          ],
+          'Internet Explorer' => %w[IE CZ BZ IM PS 3A 4A RN 2E],
+          'Konqueror' => ['KO'],
+          'NetFront' => ['NF'],
+          'NetSurf' => ['NE'],
+          'Nokia Browser' => %w[NB DO NO NV],
+          'Opera' => %w[OP OG OH OI OM ON OO O1 OX Y1],
+          'Safari' => %w[SF S7 MF SO PV],
+          'Sailfish Browser' => ['SA']
+        }.freeze
+
         MOBILE_ONLY_BROWSERS = %w[
           36 AH AI BL C1 C4 CB CW DB
           3M DT EU EZ FK FM FR FX GH
@@ -764,7 +829,8 @@ class DeviceDetector
             name = browser_from_client_hints[:name]
             version = browser_from_client_hints[:version]
             short = browser_from_client_hints[:short_name]
-            # engine is not ported yet
+            engine = ''
+            engine_version = ''
 
             if version =~ /^202[0-4]/
               name = 'Iridium'
@@ -776,17 +842,18 @@ class DeviceDetector
               short = '3B'
             end
 
-            if browser_from_ua[:version] && %w[A0 AL HP JR MU OM OP
-                                               VR].include?(short)
+            if browser_from_ua[:version] && %w[A0 AL HP JR MU OM OP VR].include?(short)
               version = browser_from_ua[:version]
             end
 
-            # if ('Vewd Browser' === $name) -- engine only
+            if name == 'Vewd Browser'
+              engine = browser_from_ua[:engine]
+              engine_version = browser_from_ua[:engine_version]
+            end
 
             if ['Chromium', 'Chrome Webview'].include?(name) \
-              && browser_from_ua[:name] \
+              && !browser_from_ua[:name].empty? \
               && !%w[CR CV AN].include?(browser_from_ua[:short_name])
-
               name = browser_from_ua[:name]
               short = browser_from_ua[:short_name]
               version = browser_from_ua[:version]
@@ -797,42 +864,94 @@ class DeviceDetector
               short = browser_from_ua[:short_name]
             end
 
-            # engine only 'if'
-            # engine only 'if'
+            # If user agent detects another browser, but the family matches, we use the detected engine from user agent
+            if name != browser_from_ua[:name] && browser_family(name) == browser_family(browser_from_ua[:name])
+              engine = browser_from_ua[:engine]
+              engine_version = browser_from_ua[:engine_version]
+            end
+
+            if name == browser_from_ua[:name]
+              engine = browser_from_ua[:engine]
+              engine_version = browser_from_ua[:engine_version]
+            end
 
             # TODO: more detailed version detection here
-            # https://github.com/matomo-org/device-detector/blob/6.4.5/Parser/Client/Browser.php#L1040
-            # if browser_from_ua['version'] &&
+            # https://github.com/matomo-org/device-detector/blob/master/Parser/Client/Browser.php#L1044
+            if browser_from_ua[:version] && !browser_from_ua[:version]&.empty? && browser_from_ua[:version].include?(version.to_s) && satisfied_by_version?(
+              ">= #{version}", browser_from_ua[:version]
+            )
+
+              version = browser_from_ua[:version]
+            end
 
             version = '' if name == 'DuckDuckGo Privacy Browser'
 
-            # engine only 'if'
+            if engine == 'Blink' && name != 'Iridium' && satisfied_by_version?(
+              "> #{engine_version}", browser_from_client_hints[:version]
+            )
+
+              engine_version = browser_from_client_hints[:version]
+            end
           else
+
             name = browser_from_ua[:name]
             short = browser_from_ua[:short_name]
             version = browser_from_ua[:version]
+            engine = browser_from_ua[:engine]
+            engine_version = browser_from_ua[:engine_version]
           end
 
-          # family
+          family = browser_family(short)
+
           # TODO: https://github.com/matomo-org/device-detector/blob/6.4.5/Parser/Client/Browser.php#L1066
           app_hash = @browser_hints.parse
+
           if app_hash&.fetch(:name, nil) != nil
             name = app_hash[:name]
-            version = ''
+            version ||= ''
             short = browser_short_name(name)
 
-            # not implemented:
-            # if match_user_agent('Chrome/.+ Safari/537.36')
-            # engine + family only
+            if @user_agent.match?(%r{Chrome/.+ Safari/537.36}i)
+              engine = 'Blink'
+              family = browser_family(short) || 'Chrome'
+              built_engine_version = build_engine_version(engine)
+              if satisfied_by_version?(">= #{engine_version}", built_engine_version)
+                engine_version = built_engine_version
+              end
+            end
+
+            if short.nil?
+              raise "Detected browser name '#{name}' was not found in AVAILABLE_BROWSERS. Tried to parse user agent: #{@user_agent}"
+            end
           end
 
           return nil if (name.nil? || name == '') || @user_agent.match?(/Cypress|PhantomJS/)
 
+          engine_version = '' if engine == 'Blink' && name == 'Flow Browser'
+
+          if name == 'Every Browser'
+            family = 'Chrome'
+            engine = 'Blink'
+            engine_version = ''
+          end
+
+          if name == 'TV-Browser Internet' && engine == 'Gecko'
+            family = 'Chrome'
+            engine = 'Blink'
+            engine_version = ''
+          end
+
+          family = 'Chrome' if name == 'Wolvic' && engine == 'Blink'
+          family = 'Firefox' if name == 'Wolvic' && engine == 'Gecko'
+
           {
             type: 'browser',
             name: name,
-            short_name: short,
-            version: version
+            # short_name: short,
+            version: version,
+            engine: engine,
+            engine_version: engine_version,
+            family: family
           }
         end
 
@@ -849,7 +968,6 @@ class DeviceDetector
             brands.each do |info_hash|
               brand = info_hash[:brand]
               brand_version = info_hash[:version]
-
               brand = apply_client_hint_mapping(brand).to_s
 
               AVAILABLE_BROWSERS.each do |browser_short, browser_name|
@@ -866,7 +984,7 @@ class DeviceDetector
               break if !empty?(name) && name != 'Chromium' && name != 'Microsoft Edge'
             end
 
-            version = @client_hints.brand_version if @client_hints.brand_version
+            version = @client_hints.brand_version unless @client_hints.brand_version.empty?
           end
 
           {
@@ -889,7 +1007,9 @@ class DeviceDetector
             return {
               name: '',
               short_name: '',
-              version: ''
+              version: '',
+              engine: '',
+              engine_version: ''
             }
           end
 
@@ -898,15 +1018,56 @@ class DeviceDetector
 
           if browser_short
             version = build_version(regex[:version], matches)
+            engine = build_engine(regex[:engine] || {}, version)
+            engine_version = build_engine_version(engine)
 
             return {
               name: name,
               short_name: browser_short,
-              version: version
+              version: version,
+              engine: engine,
+              engine_version: engine_version
             }
           end
 
-          raise "Detected browser name #{name} was not found in $availableBrowsers. Tried to parse user agent: #{@user_agent}"
+          raise "Detected browser name #{name} was not found in AVAILABLE_BROWSERS. Tried to parse user agent: #{@user_agent}"
+        end
+
+        # https://github.com/matomo-org/device-detector/blob/master/Parser/Client/Browser.php#L1238
+        def build_engine(engine_data, browser_version)
+          engine = engine_data[:default]
+
+          if engine_data[:versions]
+            engine_data[:versions].each do |version, version_engine|
+              engine = version_engine if !empty?(version) && satisfied_by_version?("> #{version}",
+                                                                                   browser_version)
+            end
+          end
+
+          return engine if engine && !engine.empty?
+
+          @engine_parser.parse[:engine] || ''
+        end
+
+        def build_engine_version(engine)
+          @engine_version_parser.use(@user_agent, engine)
+          result = @engine_version_parser.parse
+          result[:version] || ''
+        end
+
+        def more_detailed_version(*versions)
+          versions.compact.inject do |result, version|
+            version.to_s.split('.').size > result.to_s.split('.').size ? version : result
+          end
+        end
+
+        # https://github.com/matomo-org/device-detector/blob/master/Parser/Client/Browser.php#L927-L945
+        def browser_family(browser_label)
+          return unless AVAILABLE_BROWSERS.keys.include?(browser_label)
+
+          BROWSER_FAMILIES.find do |_family, browser_labels|
+            browser_labels.include?(browser_label)
+          end&.first
         end
 
         def browser_short_name(name)
@@ -914,7 +1075,7 @@ class DeviceDetector
         end
 
         def fixture_file
-          'regexes/client/browsers.yml'
+          'client/browsers.yml'
         end
 
         def parser_name

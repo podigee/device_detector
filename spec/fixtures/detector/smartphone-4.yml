@@ -28,7 +28,7 @@
     name: Chrome Webview
     version: 63.0.3239
     engine: Blink
-    engine_version: 63.0.3239.
+    engine_version: 63.0.3239
   device:
     type: smartphone
     brand: Doro
