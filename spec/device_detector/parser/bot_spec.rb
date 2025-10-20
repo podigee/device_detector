@@ -70,7 +70,7 @@ describe DeviceDetector::Parser::Bot do
       end
 
       before do
-        path = File.expand_path('../../fixtures/custom_regexes/custom_bot.yml', __dir__)
+        path = File.expand_path('../../support/custom_regexes/custom_bot.yml', __dir__)
         described_class.add_fixture_path(path)
       end
 

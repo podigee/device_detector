@@ -35,7 +35,7 @@ module FixturesLoaderHelper
 
   def load_with_cache
     if cache_valid?
-      warn "[YAML Loader] Using json cache: #{CACHE_PATH}"
+      warn "[YAML Loader] Using json cache: #{CACHE_PATH}\n"
       return Oj.load_file(CACHE_PATH)
     end
 

@@ -46,7 +46,7 @@ task :detectable_names do
 end
 
 MATOMO_REPO_URL = 'https://github.com/matomo-org/device-detector'
-MATOMO_COMMIT_SHA = '90b44522b16637dcc95e87bd70b3f47a42c50fbe'
+MATOMO_COMMIT_SHA = '1b521fb382873602ea5d3fed582a7c9d72afbd6f'
 MATOMO_CHECKOUT_LOCATION = '/tmp/matomo_device_detector'
 
 def matomo_checkout!
