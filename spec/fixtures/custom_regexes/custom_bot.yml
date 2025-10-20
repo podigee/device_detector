@@ -1,0 +1,6 @@
+- regex: 'ChromeBrother'
+  name: 'My custom User-Agent Bot'
+  category: 'Spec bot'
+  producer:
+    name: 'Nick Kugaevsky'
+    url: 'https://github.com/kugaevsky'

@@ -131,7 +131,7 @@ describe DeviceDetector::MemoryCache do
     end
   end
 
-  describe 'cache purging' do
+  describe 'cache partial purging' do
     let(:config) { { max_cache_keys: 3 } }
 
     it 'purges the cache when key size arrives at max' do
@@ -141,6 +141,14 @@ describe DeviceDetector::MemoryCache do
       subject.set('4', 'boz')
 
       expect(subject.data.keys.size).to eq 3
+    end
+  end
+
+  describe '.purge!' do
+    before { subject.set('some_key', 'value') }
+
+    it 'removes all cached keys' do
+      expect { subject.purge! }.to change(subject, :data).from({ 'some_key' => 'value' }).to({})
     end
   end
 end

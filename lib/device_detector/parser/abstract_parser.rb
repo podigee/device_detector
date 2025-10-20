@@ -3,10 +3,28 @@
 class DeviceDetector
   module Parser
     class AbstractParser
-      # overriden
-      def self.client_hint_mapping
-        {}
+      class << self
+        # overriden
+        def client_hint_mapping
+          {}
+        end
+
+        def add_fixture_path(path)
+          @custom_fixture_paths = (custom_fixture_paths << path).uniq
+          REGEX_CACHE.purge!
+        end
+
+        def custom_fixture_paths
+          @custom_fixture_paths ||= []
+        end
+
+        def reset_custom_fixtures!
+          @custom_fixture_paths = []
+          REGEX_CACHE.purge!
+        end
       end
+
+      attr_writer :user_agent, :client_hints
 
       REGEX_CACHE = ::DeviceDetector::MemoryCache.new({})
       private_constant :REGEX_CACHE
@@ -20,8 +38,6 @@ class DeviceDetector
         @user_agent = uas
         @client_hints = hints
       end
-
-      attr_writer :user_agent, :client_hints
 
       protected
 
@@ -102,8 +118,8 @@ class DeviceDetector
         ''
       end
 
-      def fixture_path
-        File.join(DeviceDetector.regexes_dir, fixture_file)
+      def fixture_paths
+        ([File.join(DeviceDetector.regexes_dir, fixture_file)] + self.class.custom_fixture_paths).uniq.compact
       end
 
       def parser_name
@@ -124,10 +140,29 @@ class DeviceDetector
         end
       end
 
+      def load_regex_file(path)
+        YAML.safe_load_file(path, permitted_classes: [String, Integer, NilClass, Array, Hash])
+      rescue Errno::ENOENT
+        warn "[#{self.class}] Fixture file not found: #{path}"
+        nil
+      end
+
       def load_regexes
         REGEX_CACHE.get_or_set(fixture_file) do
-          YAML.safe_load_file(fixture_path,
-                              permitted_classes: [String, Integer, NilClass, Array, Hash])
+          result = nil
+          fixture_paths.each do |fixture_path|
+            next unless File.file?(fixture_path)
+
+            result =  case result
+                      when Array
+                        result + load_regex_file(fixture_path)
+                      when Hash
+                        result.merge(load_regex_file(fixture_path))
+                      else
+                        load_regex_file(fixture_path) || result
+                      end
+          end
+          result
         end
       end
 

@@ -43,6 +43,16 @@ describe DeviceDetector do
     end
   end
 
+  describe '.reset_cache!' do
+    before { subject.name }
+
+    let(:user_agent) { 'AnyAgent/1.2.3 '}
+
+    it 'resets cache' do
+      expect { described_class.reset_cache! }.to change { described_class.cache.data.size }.to(0)
+    end
+  end
+
   describe 'known user agent' do
     describe 'desktop chrome browser' do
       let(:user_agent) do

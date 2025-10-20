@@ -157,6 +157,10 @@ class DeviceDetector
       @cache ||= MemoryCache.new(config.to_hash)
     end
 
+    def reset_cache!
+      @cache = MemoryCache.new(config.to_hash)
+    end
+
     def configure
       @config = Configuration.new
       yield(config)
